@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 23919 (1407 per locale)
+/// Strings: 23953 (1409 per locale)
 ///
-/// Built on 2026-06-08 at 09:33 UTC
+/// Built on 2026-06-08 at 09:34 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1884,6 +1884,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_rename => 'Rename';
   String get video_rename_hint => 'Title';
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  String get video_audio_track => 'Audio track';
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -5035,6 +5037,10 @@ class _StringsAr extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -8270,6 +8276,10 @@ class _StringsDe extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -11518,6 +11528,10 @@ class _StringsEs extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -14786,6 +14800,10 @@ class _StringsFr extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -17977,6 +17995,10 @@ class _StringsId extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -21210,6 +21232,10 @@ class _StringsIt extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -24269,6 +24295,10 @@ class _StringsJa extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -27329,6 +27359,10 @@ class _StringsKo extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -30544,6 +30578,10 @@ class _StringsNl extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -33772,6 +33810,10 @@ class _StringsPtBr extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -36985,6 +37027,10 @@ class _StringsRu extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -40137,6 +40183,10 @@ class _StringsTh extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -43328,6 +43378,10 @@ class _StringsTr extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -46499,6 +46553,10 @@ class _StringsVi extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -49478,6 +49536,10 @@ class _StringsZhCn extends _StringsEn {
   String get video_rename_hint => '标题';
   @override
   String video_playlist_episodes({required Object count}) => '${count} 集';
+  @override
+  String get video_audio_track => '音轨';
+  @override
+  String get video_more => '更多';
 }
 
 // Path: retrying_in
@@ -52512,6 +52574,10 @@ class _StringsZhHk extends _StringsEn {
   String get video_rename_hint => 'Title';
   @override
   String video_playlist_episodes({required Object count}) => '${count} eps';
+  @override
+  String get video_audio_track => 'Audio track';
+  @override
+  String get video_more => 'More';
 }
 
 // Path: retrying_in
@@ -55439,6 +55505,10 @@ extension on _StringsEn {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -58324,6 +58394,10 @@ extension on _StringsAr {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -61225,6 +61299,10 @@ extension on _StringsDe {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -64124,6 +64202,10 @@ extension on _StringsEs {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -67025,6 +67107,10 @@ extension on _StringsFr {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -69915,6 +70001,10 @@ extension on _StringsId {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -72813,6 +72903,10 @@ extension on _StringsIt {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -75687,6 +75781,10 @@ extension on _StringsJa {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -78563,6 +78661,10 @@ extension on _StringsKo {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -81458,6 +81560,10 @@ extension on _StringsNl {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -84352,6 +84458,10 @@ extension on _StringsPtBr {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -87247,6 +87357,10 @@ extension on _StringsRu {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -90133,6 +90247,10 @@ extension on _StringsTh {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -93022,6 +93140,10 @@ extension on _StringsTr {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -95908,6 +96030,10 @@ extension on _StringsVi {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
@@ -98771,6 +98897,10 @@ extension on _StringsZhCn {
         return '标题';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} 集';
+      case 'video_audio_track':
+        return '音轨';
+      case 'video_more':
+        return '更多';
       default:
         return null;
     }
@@ -101644,6 +101774,10 @@ extension on _StringsZhHk {
         return 'Title';
       case 'video_playlist_episodes':
         return ({required Object count}) => '${count} eps';
+      case 'video_audio_track':
+        return 'Audio track';
+      case 'video_more':
+        return 'More';
       default:
         return null;
     }
