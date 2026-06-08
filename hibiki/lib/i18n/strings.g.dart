@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24004 (1412 per locale)
+/// Strings: 24055 (1415 per locale)
 ///
-/// Built on 2026-06-08 at 09:35 UTC
+/// Built on 2026-06-08 at 10:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1889,6 +1889,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_shader_compare => 'Compare original';
   String get video_shader_showing_original => 'Shaders off (original)';
   String get video_shader_showing_shaded => 'Shaders on';
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -5050,6 +5054,13 @@ class _StringsAr extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -8295,6 +8306,13 @@ class _StringsDe extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -11553,6 +11571,13 @@ class _StringsEs extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -14831,6 +14856,13 @@ class _StringsFr extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -18032,6 +18064,13 @@ class _StringsId extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -21275,6 +21314,13 @@ class _StringsIt extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -24344,6 +24390,13 @@ class _StringsJa extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -27414,6 +27467,13 @@ class _StringsKo extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -30639,6 +30699,13 @@ class _StringsNl extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -33877,6 +33944,13 @@ class _StringsPtBr extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -37100,6 +37174,13 @@ class _StringsRu extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -40262,6 +40343,13 @@ class _StringsTh extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -43463,6 +43551,13 @@ class _StringsTr extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -46644,6 +46739,13 @@ class _StringsVi extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -49633,6 +49735,13 @@ class _StringsZhCn extends _StringsEn {
   String get video_shader_showing_original => '已关着色器（原画）';
   @override
   String get video_shader_showing_shaded => '已开着色器';
+  @override
+  String get video_shader_pick_mpv_dir => '指定 mpv 目录';
+  @override
+  String get video_shader_mpv_dir_empty => '该目录没找到着色器';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv 目录：${path}';
 }
 
 // Path: retrying_in
@@ -52677,6 +52786,13 @@ class _StringsZhHk extends _StringsEn {
   String get video_shader_showing_original => 'Shaders off (original)';
   @override
   String get video_shader_showing_shaded => 'Shaders on';
+  @override
+  String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+  @override
+  String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
+  @override
+  String video_shader_mpv_dir_current({required Object path}) =>
+      'mpv folder: ${path}';
 }
 
 // Path: retrying_in
@@ -55614,6 +55730,12 @@ extension on _StringsEn {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -58509,6 +58631,12 @@ extension on _StringsAr {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -61420,6 +61548,12 @@ extension on _StringsDe {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -64329,6 +64463,12 @@ extension on _StringsEs {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -67240,6 +67380,12 @@ extension on _StringsFr {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -70140,6 +70286,12 @@ extension on _StringsId {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -73048,6 +73200,12 @@ extension on _StringsIt {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -75932,6 +76090,12 @@ extension on _StringsJa {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -78818,6 +78982,12 @@ extension on _StringsKo {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -81723,6 +81893,12 @@ extension on _StringsNl {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -84627,6 +84803,12 @@ extension on _StringsPtBr {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -87532,6 +87714,12 @@ extension on _StringsRu {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -90428,6 +90616,12 @@ extension on _StringsTh {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -93327,6 +93521,12 @@ extension on _StringsTr {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -96223,6 +96423,12 @@ extension on _StringsVi {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
@@ -99096,6 +99302,12 @@ extension on _StringsZhCn {
         return '已关着色器（原画）';
       case 'video_shader_showing_shaded':
         return '已开着色器';
+      case 'video_shader_pick_mpv_dir':
+        return '指定 mpv 目录';
+      case 'video_shader_mpv_dir_empty':
+        return '该目录没找到着色器';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv 目录：${path}';
       default:
         return null;
     }
@@ -101979,6 +102191,12 @@ extension on _StringsZhHk {
         return 'Shaders off (original)';
       case 'video_shader_showing_shaded':
         return 'Shaders on';
+      case 'video_shader_pick_mpv_dir':
+        return 'Specify mpv folder';
+      case 'video_shader_mpv_dir_empty':
+        return 'No shaders found in that folder';
+      case 'video_shader_mpv_dir_current':
+        return ({required Object path}) => 'mpv folder: ${path}';
       default:
         return null;
     }
