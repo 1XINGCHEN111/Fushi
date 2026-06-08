@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 23953 (1409 per locale)
+/// Strings: 24004 (1412 per locale)
 ///
-/// Built on 2026-06-08 at 09:34 UTC
+/// Built on 2026-06-08 at 09:35 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1886,6 +1886,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String video_playlist_episodes({required Object count}) => '${count} eps';
   String get video_audio_track => 'Audio track';
   String get video_more => 'More';
+  String get video_shader_compare => 'Compare original';
+  String get video_shader_showing_original => 'Shaders off (original)';
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -5041,6 +5044,12 @@ class _StringsAr extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -8280,6 +8289,12 @@ class _StringsDe extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -11532,6 +11547,12 @@ class _StringsEs extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -14804,6 +14825,12 @@ class _StringsFr extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -17999,6 +18026,12 @@ class _StringsId extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -21236,6 +21269,12 @@ class _StringsIt extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -24299,6 +24338,12 @@ class _StringsJa extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -27363,6 +27408,12 @@ class _StringsKo extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -30582,6 +30633,12 @@ class _StringsNl extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -33814,6 +33871,12 @@ class _StringsPtBr extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -37031,6 +37094,12 @@ class _StringsRu extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -40187,6 +40256,12 @@ class _StringsTh extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -43382,6 +43457,12 @@ class _StringsTr extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -46557,6 +46638,12 @@ class _StringsVi extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -49540,6 +49627,12 @@ class _StringsZhCn extends _StringsEn {
   String get video_audio_track => '音轨';
   @override
   String get video_more => '更多';
+  @override
+  String get video_shader_compare => '对比原画';
+  @override
+  String get video_shader_showing_original => '已关着色器（原画）';
+  @override
+  String get video_shader_showing_shaded => '已开着色器';
 }
 
 // Path: retrying_in
@@ -52578,6 +52671,12 @@ class _StringsZhHk extends _StringsEn {
   String get video_audio_track => 'Audio track';
   @override
   String get video_more => 'More';
+  @override
+  String get video_shader_compare => 'Compare original';
+  @override
+  String get video_shader_showing_original => 'Shaders off (original)';
+  @override
+  String get video_shader_showing_shaded => 'Shaders on';
 }
 
 // Path: retrying_in
@@ -55509,6 +55608,12 @@ extension on _StringsEn {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -58398,6 +58503,12 @@ extension on _StringsAr {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -61303,6 +61414,12 @@ extension on _StringsDe {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -64206,6 +64323,12 @@ extension on _StringsEs {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -67111,6 +67234,12 @@ extension on _StringsFr {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -70005,6 +70134,12 @@ extension on _StringsId {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -72907,6 +73042,12 @@ extension on _StringsIt {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -75785,6 +75926,12 @@ extension on _StringsJa {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -78665,6 +78812,12 @@ extension on _StringsKo {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -81564,6 +81717,12 @@ extension on _StringsNl {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -84462,6 +84621,12 @@ extension on _StringsPtBr {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -87361,6 +87526,12 @@ extension on _StringsRu {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -90251,6 +90422,12 @@ extension on _StringsTh {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -93144,6 +93321,12 @@ extension on _StringsTr {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -96034,6 +96217,12 @@ extension on _StringsVi {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
@@ -98901,6 +99090,12 @@ extension on _StringsZhCn {
         return '音轨';
       case 'video_more':
         return '更多';
+      case 'video_shader_compare':
+        return '对比原画';
+      case 'video_shader_showing_original':
+        return '已关着色器（原画）';
+      case 'video_shader_showing_shaded':
+        return '已开着色器';
       default:
         return null;
     }
@@ -101778,6 +101973,12 @@ extension on _StringsZhHk {
         return 'Audio track';
       case 'video_more':
         return 'More';
+      case 'video_shader_compare':
+        return 'Compare original';
+      case 'video_shader_showing_original':
+        return 'Shaders off (original)';
+      case 'video_shader_showing_shaded':
+        return 'Shaders on';
       default:
         return null;
     }
