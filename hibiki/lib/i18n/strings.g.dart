@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24055 (1415 per locale)
+/// Strings: 24123 (1419 per locale)
 ///
-/// Built on 2026-06-08 at 10:13 UTC
+/// Built on 2026-06-08 at 10:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1893,6 +1893,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  String get video_shader_download_url => 'Download from link';
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -5061,6 +5067,16 @@ class _StringsAr extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -8313,6 +8329,16 @@ class _StringsDe extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -11578,6 +11604,16 @@ class _StringsEs extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -14863,6 +14899,16 @@ class _StringsFr extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -18071,6 +18117,16 @@ class _StringsId extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -21321,6 +21377,16 @@ class _StringsIt extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -24397,6 +24463,16 @@ class _StringsJa extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -27474,6 +27550,16 @@ class _StringsKo extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -30706,6 +30792,16 @@ class _StringsNl extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -33951,6 +34047,16 @@ class _StringsPtBr extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -37181,6 +37287,16 @@ class _StringsRu extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -40350,6 +40466,16 @@ class _StringsTh extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -43558,6 +43684,16 @@ class _StringsTr extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -46746,6 +46882,16 @@ class _StringsVi extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -49742,6 +49888,15 @@ class _StringsZhCn extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv 目录：${path}';
+  @override
+  String get video_shader_download_url => '粘贴链接下载';
+  @override
+  String get video_shader_url_hint => '粘贴着色器 .glsl 链接（如 GitHub）';
+  @override
+  String get video_shader_preset_mode_b_hq => '720p 旧番高画质（重采样伪影），需较强 GPU。';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      '480p SD 老番高画质（压缩涂抹，带去噪），需较强 GPU。';
 }
 
 // Path: retrying_in
@@ -52793,6 +52948,16 @@ class _StringsZhHk extends _StringsEn {
   @override
   String video_shader_mpv_dir_current({required Object path}) =>
       'mpv folder: ${path}';
+  @override
+  String get video_shader_download_url => 'Download from link';
+  @override
+  String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
+  @override
+  String get video_shader_preset_mode_b_hq =>
+      'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+  @override
+  String get video_shader_preset_mode_c_hq =>
+      'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 }
 
 // Path: retrying_in
@@ -55736,6 +55901,14 @@ extension on _StringsEn {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -58637,6 +58810,14 @@ extension on _StringsAr {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -61554,6 +61735,14 @@ extension on _StringsDe {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -64469,6 +64658,14 @@ extension on _StringsEs {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -67386,6 +67583,14 @@ extension on _StringsFr {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -70292,6 +70497,14 @@ extension on _StringsId {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -73206,6 +73419,14 @@ extension on _StringsIt {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -76096,6 +76317,14 @@ extension on _StringsJa {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -78988,6 +79217,14 @@ extension on _StringsKo {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -81899,6 +82136,14 @@ extension on _StringsNl {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -84809,6 +85054,14 @@ extension on _StringsPtBr {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -87720,6 +87973,14 @@ extension on _StringsRu {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -90622,6 +90883,14 @@ extension on _StringsTh {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -93527,6 +93796,14 @@ extension on _StringsTr {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -96429,6 +96706,14 @@ extension on _StringsVi {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
@@ -99308,6 +99593,14 @@ extension on _StringsZhCn {
         return '该目录没找到着色器';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv 目录：${path}';
+      case 'video_shader_download_url':
+        return '粘贴链接下载';
+      case 'video_shader_url_hint':
+        return '粘贴着色器 .glsl 链接（如 GitHub）';
+      case 'video_shader_preset_mode_b_hq':
+        return '720p 旧番高画质（重采样伪影），需较强 GPU。';
+      case 'video_shader_preset_mode_c_hq':
+        return '480p SD 老番高画质（压缩涂抹，带去噪），需较强 GPU。';
       default:
         return null;
     }
@@ -102197,6 +102490,14 @@ extension on _StringsZhHk {
         return 'No shaders found in that folder';
       case 'video_shader_mpv_dir_current':
         return ({required Object path}) => 'mpv folder: ${path}';
+      case 'video_shader_download_url':
+        return 'Download from link';
+      case 'video_shader_url_hint':
+        return 'Paste a shader .glsl link (e.g. GitHub)';
+      case 'video_shader_preset_mode_b_hq':
+        return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
+      case 'video_shader_preset_mode_c_hq':
+        return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
       default:
         return null;
     }
