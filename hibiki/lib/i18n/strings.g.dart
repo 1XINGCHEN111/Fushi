@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24123 (1419 per locale)
+/// Strings: 24191 (1423 per locale)
 ///
-/// Built on 2026-06-08 at 10:48 UTC
+/// Built on 2026-06-08 at 11:11 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1899,6 +1899,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  String get video_shader_recommended => 'Recommended shaders';
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -5077,6 +5084,17 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -8339,6 +8357,17 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -11614,6 +11643,17 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -14909,6 +14949,17 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -18127,6 +18178,17 @@ class _StringsId extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -21387,6 +21449,17 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -24473,6 +24546,17 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -27560,6 +27644,17 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -30802,6 +30897,17 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -34057,6 +34163,17 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -37297,6 +37414,17 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -40476,6 +40604,17 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -43694,6 +43833,17 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -46892,6 +47042,17 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -49897,6 +50058,14 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       '480p SD 老番高画质（压缩涂抹，带去噪），需较强 GPU。';
+  @override
+  String get video_shader_recommended => '推荐着色器';
+  @override
+  String get video_shader_recommended_hint => '除 Anime4K 外的经典放大着色器，不必本机装 mpv。';
+  @override
+  String get video_shader_desc_ravu => '通用亮度放大，轻量快速（r2 更快，r3 更精细）。';
+  @override
+  String get video_shader_desc_nnedi3 => '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
 }
 
 // Path: retrying_in
@@ -52958,6 +53127,17 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+  @override
+  String get video_shader_recommended => 'Recommended shaders';
+  @override
+  String get video_shader_recommended_hint =>
+      'Classic upscalers besides Anime4K — no local mpv needed.';
+  @override
+  String get video_shader_desc_ravu =>
+      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+  @override
+  String get video_shader_desc_nnedi3 =>
+      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 }
 
 // Path: retrying_in
@@ -55909,6 +56089,14 @@ extension on _StringsEn {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -58818,6 +59006,14 @@ extension on _StringsAr {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -61743,6 +61939,14 @@ extension on _StringsDe {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -64666,6 +64870,14 @@ extension on _StringsEs {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -67591,6 +67803,14 @@ extension on _StringsFr {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -70505,6 +70725,14 @@ extension on _StringsId {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -73427,6 +73655,14 @@ extension on _StringsIt {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -76325,6 +76561,14 @@ extension on _StringsJa {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -79225,6 +79469,14 @@ extension on _StringsKo {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -82144,6 +82396,14 @@ extension on _StringsNl {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -85062,6 +85322,14 @@ extension on _StringsPtBr {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -87981,6 +88249,14 @@ extension on _StringsRu {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -90891,6 +91167,14 @@ extension on _StringsTh {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -93804,6 +94088,14 @@ extension on _StringsTr {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -96714,6 +97006,14 @@ extension on _StringsVi {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
@@ -99601,6 +99901,14 @@ extension on _StringsZhCn {
         return '720p 旧番高画质（重采样伪影），需较强 GPU。';
       case 'video_shader_preset_mode_c_hq':
         return '480p SD 老番高画质（压缩涂抹，带去噪），需较强 GPU。';
+      case 'video_shader_recommended':
+        return '推荐着色器';
+      case 'video_shader_recommended_hint':
+        return '除 Anime4K 外的经典放大着色器，不必本机装 mpv。';
+      case 'video_shader_desc_ravu':
+        return '通用亮度放大，轻量快速（r2 更快，r3 更精细）。';
+      case 'video_shader_desc_nnedi3':
+        return '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
       default:
         return null;
     }
@@ -102498,6 +102806,14 @@ extension on _StringsZhHk {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
+      case 'video_shader_recommended':
+        return 'Recommended shaders';
+      case 'video_shader_recommended_hint':
+        return 'Classic upscalers besides Anime4K — no local mpv needed.';
+      case 'video_shader_desc_ravu':
+        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
+      case 'video_shader_desc_nnedi3':
+        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       default:
         return null;
     }
