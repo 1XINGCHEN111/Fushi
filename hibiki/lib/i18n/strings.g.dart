@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24191 (1423 per locale)
+/// Strings: 24225 (1425 per locale)
 ///
-/// Built on 2026-06-08 at 11:11 UTC
+/// Built on 2026-06-08 at 16:44 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1906,6 +1906,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'General luma upscaler. Light & fast (r2 faster, r3 finer).';
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -5095,6 +5098,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -8368,6 +8376,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -11654,6 +11667,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -14960,6 +14978,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -18189,6 +18212,11 @@ class _StringsId extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -21460,6 +21488,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -24557,6 +24590,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -27655,6 +27693,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -30908,6 +30951,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -34174,6 +34222,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -37425,6 +37478,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -40615,6 +40673,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -43844,6 +43907,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -47053,6 +47121,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -50066,6 +50139,10 @@ class _StringsZhCn extends _StringsEn {
   String get video_shader_desc_ravu => '通用亮度放大，轻量快速（r2 更快，r3 更精细）。';
   @override
   String get video_shader_desc_nnedi3 => '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
+  @override
+  String get floating_lyric_click_lookup => '点击悬浮字幕查词';
+  @override
+  String get floating_lyric_click_lookup_hint => '锁定悬浮字幕位置时仍可保留点击查词。';
 }
 
 // Path: retrying_in
@@ -53138,6 +53215,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_shader_desc_nnedi3 =>
       'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+  @override
+  String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
+  @override
+  String get floating_lyric_click_lookup_hint =>
+      'Keep this on with position lock if you still want word lookup.';
 }
 
 // Path: retrying_in
@@ -56097,6 +56179,10 @@ extension on _StringsEn {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -59014,6 +59100,10 @@ extension on _StringsAr {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -61947,6 +62037,10 @@ extension on _StringsDe {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -64878,6 +64972,10 @@ extension on _StringsEs {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -67811,6 +67909,10 @@ extension on _StringsFr {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -70733,6 +70835,10 @@ extension on _StringsId {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -73663,6 +73769,10 @@ extension on _StringsIt {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -76569,6 +76679,10 @@ extension on _StringsJa {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -79477,6 +79591,10 @@ extension on _StringsKo {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -82404,6 +82522,10 @@ extension on _StringsNl {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -85330,6 +85452,10 @@ extension on _StringsPtBr {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -88257,6 +88383,10 @@ extension on _StringsRu {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -91175,6 +91305,10 @@ extension on _StringsTh {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -94096,6 +94230,10 @@ extension on _StringsTr {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -97014,6 +97152,10 @@ extension on _StringsVi {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
@@ -99909,6 +100051,10 @@ extension on _StringsZhCn {
         return '通用亮度放大，轻量快速（r2 更快，r3 更精细）。';
       case 'video_shader_desc_nnedi3':
         return '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
+      case 'floating_lyric_click_lookup':
+        return '点击悬浮字幕查词';
+      case 'floating_lyric_click_lookup_hint':
+        return '锁定悬浮字幕位置时仍可保留点击查词。';
       default:
         return null;
     }
@@ -102814,6 +102960,10 @@ extension on _StringsZhHk {
         return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
       case 'video_shader_desc_nnedi3':
         return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
+      case 'floating_lyric_click_lookup':
+        return 'Tap floating subtitle to look up';
+      case 'floating_lyric_click_lookup_hint':
+        return 'Keep this on with position lock if you still want word lookup.';
       default:
         return null;
     }
