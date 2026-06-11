@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25993 (1529 per locale)
+/// Strings: 25908 (1524 per locale)
 ///
-/// Built on 2026-06-11 at 10:56 UTC
+/// Built on 2026-06-11 at 11:34 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1896,13 +1896,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-  String get video_shader_recommended => 'Recommended image enhancements';
-  String get video_shader_recommended_hint =>
-      'Anime4K plus classic upscaling and clarity presets. Download first, then tick installed shaders to enable them.';
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   String get floating_lyric_click_lookup_hint =>
       'Keep this on with position lock if you still want word lookup.';
@@ -1947,8 +1940,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Failed to copy image: ${error}';
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  String get video_shader_classic_recommended =>
-      'Download classic recommended shaders';
   String get video_shader_builtin_mpv_quality => 'mpv built-in quality scaling';
   String get video_shader_builtin_mpv_quality_hint =>
       'Default mpv scaling options. External shaders below are still downloaded and enabled separately.';
@@ -5222,17 +5213,6 @@ class _StringsAr extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -5313,8 +5293,6 @@ class _StringsAr extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -8742,17 +8720,6 @@ class _StringsDe extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -8833,8 +8800,6 @@ class _StringsDe extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -12275,17 +12240,6 @@ class _StringsEs extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -12366,8 +12320,6 @@ class _StringsEs extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -15828,17 +15780,6 @@ class _StringsFr extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -15919,8 +15860,6 @@ class _StringsFr extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -19304,17 +19243,6 @@ class _StringsId extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -19395,8 +19323,6 @@ class _StringsId extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -22822,17 +22748,6 @@ class _StringsIt extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -22913,8 +22828,6 @@ class _StringsIt extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -26166,17 +26079,6 @@ class _StringsJa extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -26257,8 +26159,6 @@ class _StringsJa extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -29511,17 +29411,6 @@ class _StringsKo extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -29602,8 +29491,6 @@ class _StringsKo extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -33011,17 +32898,6 @@ class _StringsNl extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -33102,8 +32978,6 @@ class _StringsNl extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -36524,17 +36398,6 @@ class _StringsPtBr extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -36615,8 +36478,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -40022,17 +39883,6 @@ class _StringsRu extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -40113,8 +39963,6 @@ class _StringsRu extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -43459,17 +43307,6 @@ class _StringsTh extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -43550,8 +43387,6 @@ class _StringsTh extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -46935,17 +46770,6 @@ class _StringsTr extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -47026,8 +46850,6 @@ class _StringsTr extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -50391,17 +50213,6 @@ class _StringsVi extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => 'Recommended image enhancements';
-  @override
-  String get video_shader_recommended_hint =>
-      'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -50482,8 +50293,6 @@ class _StringsVi extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -53656,15 +53465,6 @@ class _StringsZhCn extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       '480p SD 老番高画质（压缩涂抹，带去噪），需较强 GPU。';
   @override
-  String get video_shader_recommended => '推荐画质增强';
-  @override
-  String get video_shader_recommended_hint =>
-      '包含 Anime4K 和经典放大/清晰度模板。先下载，再到已安装列表里勾选启用。';
-  @override
-  String get video_shader_desc_ravu => '通用亮度放大，轻量快速（r2 更快，r3 更精细）。';
-  @override
-  String get video_shader_desc_nnedi3 => '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
-  @override
   String get floating_lyric_click_lookup => '点击悬浮字幕查词';
   @override
   String get floating_lyric_click_lookup_hint => '锁定悬浮字幕位置时仍可保留点击查词。';
@@ -53741,8 +53541,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       '分享图片失败：${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -56955,16 +56753,6 @@ class _StringsZhHk extends _StringsEn {
   String get video_shader_preset_mode_c_hq =>
       'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
   @override
-  String get video_shader_recommended => '推薦畫質增強';
-  @override
-  String get video_shader_recommended_hint => '除 Anime4K 外的經典畫質增強模板，不必本機裝 mpv。';
-  @override
-  String get video_shader_desc_ravu =>
-      'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-  @override
-  String get video_shader_desc_nnedi3 =>
-      'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
-  @override
   String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
   @override
   String get floating_lyric_click_lookup_hint =>
@@ -57045,8 +56833,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String reader_image_share_failed({required Object error}) =>
       'Failed to share image: ${error}';
-  @override
-  String get video_shader_classic_recommended => '下载经典推荐着色器';
   @override
   String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
   @override
@@ -60160,14 +59946,6 @@ extension on _StringsEn {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Anime4K plus classic upscaling and clarity presets. Download first, then tick installed shaders to enable them.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -60242,8 +60020,6 @@ extension on _StringsEn {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return 'Download classic recommended shaders';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv built-in quality scaling';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -63291,14 +63067,6 @@ extension on _StringsAr {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -63373,8 +63141,6 @@ extension on _StringsAr {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -66438,14 +66204,6 @@ extension on _StringsDe {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -66520,8 +66278,6 @@ extension on _StringsDe {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -69583,14 +69339,6 @@ extension on _StringsEs {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -69665,8 +69413,6 @@ extension on _StringsEs {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -72730,14 +72476,6 @@ extension on _StringsFr {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -72812,8 +72550,6 @@ extension on _StringsFr {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -75866,14 +75602,6 @@ extension on _StringsId {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -75948,8 +75676,6 @@ extension on _StringsId {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -79010,14 +78736,6 @@ extension on _StringsIt {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -79092,8 +78810,6 @@ extension on _StringsIt {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -82130,14 +81846,6 @@ extension on _StringsJa {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -82212,8 +81920,6 @@ extension on _StringsJa {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -85252,14 +84958,6 @@ extension on _StringsKo {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -85334,8 +85032,6 @@ extension on _StringsKo {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -88393,14 +88089,6 @@ extension on _StringsNl {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -88475,8 +88163,6 @@ extension on _StringsNl {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -91533,14 +91219,6 @@ extension on _StringsPtBr {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -91615,8 +91293,6 @@ extension on _StringsPtBr {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -94674,14 +94350,6 @@ extension on _StringsRu {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -94756,8 +94424,6 @@ extension on _StringsRu {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -97806,14 +97472,6 @@ extension on _StringsTh {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -97888,8 +97546,6 @@ extension on _StringsTh {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -100941,14 +100597,6 @@ extension on _StringsTr {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -101023,8 +100671,6 @@ extension on _StringsTr {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -104073,14 +103719,6 @@ extension on _StringsVi {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return 'Recommended image enhancements';
-      case 'video_shader_recommended_hint':
-        return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -104155,8 +103793,6 @@ extension on _StringsVi {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -107182,14 +106818,6 @@ extension on _StringsZhCn {
         return '720p 旧番高画质（重采样伪影），需较强 GPU。';
       case 'video_shader_preset_mode_c_hq':
         return '480p SD 老番高画质（压缩涂抹，带去噪），需较强 GPU。';
-      case 'video_shader_recommended':
-        return '推荐画质增强';
-      case 'video_shader_recommended_hint':
-        return '包含 Anime4K 和经典放大/清晰度模板。先下载，再到已安装列表里勾选启用。';
-      case 'video_shader_desc_ravu':
-        return '通用亮度放大，轻量快速（r2 更快，r3 更精细）。';
-      case 'video_shader_desc_nnedi3':
-        return '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
       case 'floating_lyric_click_lookup':
         return '点击悬浮字幕查词';
       case 'floating_lyric_click_lookup_hint':
@@ -107264,8 +106892,6 @@ extension on _StringsZhCn {
         return ({required Object error}) => '复制图片失败：${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => '分享图片失败：${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
@@ -110300,14 +109926,6 @@ extension on _StringsZhHk {
         return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
       case 'video_shader_preset_mode_c_hq':
         return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-      case 'video_shader_recommended':
-        return '推薦畫質增強';
-      case 'video_shader_recommended_hint':
-        return '除 Anime4K 外的經典畫質增強模板，不必本機裝 mpv。';
-      case 'video_shader_desc_ravu':
-        return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
-      case 'video_shader_desc_nnedi3':
-        return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
       case 'floating_lyric_click_lookup':
         return 'Tap floating subtitle to look up';
       case 'floating_lyric_click_lookup_hint':
@@ -110382,8 +110000,6 @@ extension on _StringsZhHk {
         return ({required Object error}) => 'Failed to copy image: ${error}';
       case 'reader_image_share_failed':
         return ({required Object error}) => 'Failed to share image: ${error}';
-      case 'video_shader_classic_recommended':
-        return '下载经典推荐着色器';
       case 'video_shader_builtin_mpv_quality':
         return 'mpv 内置高画质缩放';
       case 'video_shader_builtin_mpv_quality_hint':
