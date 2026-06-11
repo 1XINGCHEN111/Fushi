@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25432 (1496 per locale)
+/// Strings: 25500 (1500 per locale)
 ///
-/// Built on 2026-06-11 at 04:47 UTC
+/// Built on 2026-06-11 at 06:20 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2007,6 +2007,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Importing dictionaries in the background...';
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  String get section_system_theme => 'System Theme Color';
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -5369,6 +5375,16 @@ class _StringsAr extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -8815,6 +8831,16 @@ class _StringsDe extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -12274,6 +12300,16 @@ class _StringsEs extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -15753,6 +15789,16 @@ class _StringsFr extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -19155,6 +19201,16 @@ class _StringsId extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -22599,6 +22655,16 @@ class _StringsIt extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -25869,6 +25935,16 @@ class _StringsJa extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -29140,6 +29216,16 @@ class _StringsKo extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -32566,6 +32652,16 @@ class _StringsNl extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -36005,6 +36101,16 @@ class _StringsPtBr extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -39429,6 +39535,16 @@ class _StringsRu extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -42792,6 +42908,16 @@ class _StringsTh extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -46194,6 +46320,16 @@ class _StringsTr extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -49576,6 +49712,16 @@ class _StringsVi extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -52750,6 +52896,15 @@ class _StringsZhCn extends _StringsEn {
   String get dict_import_started => '正在后台导入词典…';
   @override
   String dict_import_success_summary({required Object n}) => '已导入 ${n} 本词典';
+  @override
+  String get section_system_theme => '系统主题色';
+  @override
+  String get section_audiobook_lyrics => '有声书与歌词';
+  @override
+  String get video_subtitle_color_note => '视频字幕颜色在视频播放器内设置。';
+  @override
+  String get theme_seed_preview_hint =>
+      '下方色板预览由种子色实际生成的颜色。想让某个颜色固定作为主色强调色，请打开「主色」开关并显式指定。';
 }
 
 // Path: retrying_in
@@ -55994,6 +56149,16 @@ class _StringsZhHk extends _StringsEn {
   @override
   String dict_import_success_summary({required Object n}) =>
       'Imported ${n} dictionary(s)';
+  @override
+  String get section_system_theme => 'System Theme Color';
+  @override
+  String get section_audiobook_lyrics => 'Audiobook & Lyrics';
+  @override
+  String get video_subtitle_color_note =>
+      'Subtitle colors are set inside the video player.';
+  @override
+  String get theme_seed_preview_hint =>
+      'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
 }
 
 // Path: retrying_in
@@ -59100,6 +59265,14 @@ extension on _StringsEn {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -62164,6 +62337,14 @@ extension on _StringsAr {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -65244,6 +65425,14 @@ extension on _StringsDe {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -68322,6 +68511,14 @@ extension on _StringsEs {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -71402,6 +71599,14 @@ extension on _StringsFr {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -74471,6 +74676,14 @@ extension on _StringsId {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -77548,6 +77761,14 @@ extension on _StringsIt {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -80601,6 +80822,14 @@ extension on _StringsJa {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -83656,6 +83885,14 @@ extension on _StringsKo {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -86730,6 +86967,14 @@ extension on _StringsNl {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -89803,6 +90048,14 @@ extension on _StringsPtBr {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -92877,6 +93130,14 @@ extension on _StringsRu {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -95942,6 +96203,14 @@ extension on _StringsTh {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -99010,6 +99279,14 @@ extension on _StringsTr {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -102075,6 +102352,14 @@ extension on _StringsVi {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
@@ -105117,6 +105402,14 @@ extension on _StringsZhCn {
         return '正在后台导入词典…';
       case 'dict_import_success_summary':
         return ({required Object n}) => '已导入 ${n} 本词典';
+      case 'section_system_theme':
+        return '系统主题色';
+      case 'section_audiobook_lyrics':
+        return '有声书与歌词';
+      case 'video_subtitle_color_note':
+        return '视频字幕颜色在视频播放器内设置。';
+      case 'theme_seed_preview_hint':
+        return '下方色板预览由种子色实际生成的颜色。想让某个颜色固定作为主色强调色，请打开「主色」开关并显式指定。';
       default:
         return null;
     }
@@ -108169,6 +108462,14 @@ extension on _StringsZhHk {
         return 'Importing dictionaries in the background...';
       case 'dict_import_success_summary':
         return ({required Object n}) => 'Imported ${n} dictionary(s)';
+      case 'section_system_theme':
+        return 'System Theme Color';
+      case 'section_audiobook_lyrics':
+        return 'Audiobook & Lyrics';
+      case 'video_subtitle_color_note':
+        return 'Subtitle colors are set inside the video player.';
+      case 'theme_seed_preview_hint':
+        return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
       default:
         return null;
     }
