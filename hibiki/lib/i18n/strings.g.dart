@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25908 (1524 per locale)
+/// Strings: 25925 (1525 per locale)
 ///
-/// Built on 2026-06-11 at 12:47 UTC
+/// Built on 2026-06-11 at 13:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2038,6 +2038,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get anki_tag_include_category => 'Add source category tag';
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -5461,6 +5462,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -8967,6 +8970,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -12487,6 +12492,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -16027,6 +16034,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -19489,6 +19498,8 @@ class _StringsId extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -22993,6 +23004,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -26324,6 +26337,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -29656,6 +29671,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -33142,6 +33159,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -36641,6 +36660,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -40125,6 +40146,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -43548,6 +43571,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -47010,6 +47035,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -50452,6 +50479,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
 }
 
 // Path: retrying_in
@@ -53685,6 +53714,8 @@ class _StringsZhCn extends _StringsEn {
   String get anki_tag_include_category => '添加来源分类标签';
   @override
   String get anki_tag_include_category_hint => '书籍标「book」、视频标「anime」';
+  @override
+  String get reverse_arrow_page_turn => '反转方向键翻页方向';
 }
 
 // Path: retrying_in
@@ -56989,6 +57020,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
+  @override
+  String get reverse_arrow_page_turn => '反轉方向鍵翻頁方向';
 }
 
 // Path: retrying_in
@@ -60152,6 +60185,8 @@ extension on _StringsEn {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -63273,6 +63308,8 @@ extension on _StringsAr {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -66410,6 +66447,8 @@ extension on _StringsDe {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -69545,6 +69584,8 @@ extension on _StringsEs {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -72682,6 +72723,8 @@ extension on _StringsFr {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -75808,6 +75851,8 @@ extension on _StringsId {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -78942,6 +78987,8 @@ extension on _StringsIt {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -82052,6 +82099,8 @@ extension on _StringsJa {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -85164,6 +85213,8 @@ extension on _StringsKo {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -88295,6 +88346,8 @@ extension on _StringsNl {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -91425,6 +91478,8 @@ extension on _StringsPtBr {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -94556,6 +94611,8 @@ extension on _StringsRu {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -97678,6 +97735,8 @@ extension on _StringsTh {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -100803,6 +100862,8 @@ extension on _StringsTr {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -103925,6 +103986,8 @@ extension on _StringsVi {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return 'Reverse arrow-key page turn direction';
       default:
         return null;
     }
@@ -107023,6 +107086,8 @@ extension on _StringsZhCn {
         return '添加来源分类标签';
       case 'anki_tag_include_category_hint':
         return '书籍标「book」、视频标「anime」';
+      case 'reverse_arrow_page_turn':
+        return '反转方向键翻页方向';
       default:
         return null;
     }
@@ -110131,6 +110196,8 @@ extension on _StringsZhHk {
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
         return 'Books get "book", videos get "anime"';
+      case 'reverse_arrow_page_turn':
+        return '反轉方向鍵翻頁方向';
       default:
         return null;
     }
