@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25602 (1506 per locale)
+/// Strings: 25636 (1508 per locale)
 ///
-/// Built on 2026-06-11 at 06:40 UTC
+/// Built on 2026-06-11 at 07:03 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2020,6 +2020,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get backup_category_books => 'Books';
   String get backup_category_audiobooks => 'Audiobook audio';
   String get backup_category_fonts => 'Custom fonts';
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -5405,6 +5408,11 @@ class _StringsAr extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -8874,6 +8882,11 @@ class _StringsDe extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -12356,6 +12369,11 @@ class _StringsEs extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -15858,6 +15876,11 @@ class _StringsFr extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -19283,6 +19306,11 @@ class _StringsId extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -22750,6 +22778,11 @@ class _StringsIt extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -26043,6 +26076,11 @@ class _StringsJa extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -29337,6 +29375,11 @@ class _StringsKo extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -32786,6 +32829,11 @@ class _StringsNl extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -36248,6 +36296,11 @@ class _StringsPtBr extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -39695,6 +39748,11 @@ class _StringsRu extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -43081,6 +43139,11 @@ class _StringsTh extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -46506,6 +46569,11 @@ class _StringsTr extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -49911,6 +49979,11 @@ class _StringsVi extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -53107,6 +53180,11 @@ class _StringsZhCn extends _StringsEn {
   String get backup_category_audiobooks => 'ÓÐÉùÊéÒôƵ';
   @override
   String get backup_category_fonts => '×Զ¨Òå×ÖÌå';
+  @override
+  String get popup_bottom_docked => 'µײ¿¹̶¨µ¯´°';
+  @override
+  String get popup_bottom_docked_hint =>
+      '°Ѳé´ʵ¯´°¹̶¨ΪÆÁĻµײ¿һÌõȫ¿íÃæ°壬¶ø²»ÊǸúË汻²é´ʵÄλÖá£';
 }
 
 // Path: retrying_in
@@ -56374,6 +56452,11 @@ class _StringsZhHk extends _StringsEn {
   String get backup_category_audiobooks => 'Audiobook audio';
   @override
   String get backup_category_fonts => 'Custom fonts';
+  @override
+  String get popup_bottom_docked => 'Bottom-docked popup';
+  @override
+  String get popup_bottom_docked_hint =>
+      'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
 }
 
 // Path: retrying_in
@@ -59500,6 +59583,10 @@ extension on _StringsEn {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -62584,6 +62671,10 @@ extension on _StringsAr {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -65684,6 +65775,10 @@ extension on _StringsDe {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -68782,6 +68877,10 @@ extension on _StringsEs {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -71882,6 +71981,10 @@ extension on _StringsFr {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -74971,6 +75074,10 @@ extension on _StringsId {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -78068,6 +78175,10 @@ extension on _StringsIt {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -81141,6 +81252,10 @@ extension on _StringsJa {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -84216,6 +84331,10 @@ extension on _StringsKo {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -87310,6 +87429,10 @@ extension on _StringsNl {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -90403,6 +90526,10 @@ extension on _StringsPtBr {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -93497,6 +93624,10 @@ extension on _StringsRu {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -96582,6 +96713,10 @@ extension on _StringsTh {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -99670,6 +99805,10 @@ extension on _StringsTr {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -102755,6 +102894,10 @@ extension on _StringsVi {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
@@ -105817,6 +105960,10 @@ extension on _StringsZhCn {
         return 'ÓÐÉùÊéÒôƵ';
       case 'backup_category_fonts':
         return '×Զ¨Òå×ÖÌå';
+      case 'popup_bottom_docked':
+        return 'µײ¿¹̶¨µ¯´°';
+      case 'popup_bottom_docked_hint':
+        return '°Ѳé´ʵ¯´°¹̶¨ΪÆÁĻµײ¿һÌõȫ¿íÃæ°壬¶ø²»ÊǸúË汻²é´ʵÄλÖá£';
       default:
         return null;
     }
@@ -108889,6 +109036,10 @@ extension on _StringsZhHk {
         return 'Audiobook audio';
       case 'backup_category_fonts':
         return 'Custom fonts';
+      case 'popup_bottom_docked':
+        return 'Bottom-docked popup';
+      case 'popup_bottom_docked_hint':
+        return 'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
       default:
         return null;
     }
