@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25908 (1524 per locale)
+/// Strings: 25993 (1529 per locale)
 ///
-/// Built on 2026-06-11 at 10:54 UTC
+/// Built on 2026-06-11 at 10:56 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2042,6 +2042,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_menu_lock => 'Immersive / lock mode';
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   String get video_menu_subtitle_track => 'Subtitle track';
+  String get anki_tag_default_section => 'Default tags';
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  String get anki_tag_include_category => 'Add source category tag';
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -5467,6 +5473,17 @@ class _StringsAr extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -8976,6 +8993,17 @@ class _StringsDe extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -12498,6 +12526,17 @@ class _StringsEs extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -16040,6 +16079,17 @@ class _StringsFr extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -19505,6 +19555,17 @@ class _StringsId extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -23012,6 +23073,17 @@ class _StringsIt extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -26345,6 +26417,17 @@ class _StringsJa extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -29679,6 +29762,17 @@ class _StringsKo extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -33168,6 +33262,17 @@ class _StringsNl extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -36670,6 +36775,17 @@ class _StringsPtBr extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -40157,6 +40273,17 @@ class _StringsRu extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -43583,6 +43710,17 @@ class _StringsTh extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -47048,6 +47186,17 @@ class _StringsTr extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -50493,6 +50642,17 @@ class _StringsVi extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -53727,6 +53887,16 @@ class _StringsZhCn extends _StringsEn {
   String get video_menu_cross_subtitle => '跨字幕制卡';
   @override
   String get video_menu_subtitle_track => '字幕轨';
+  @override
+  String get anki_tag_default_section => '默认标签';
+  @override
+  String get anki_tag_include_hibiki => '添加「hibiki」标签';
+  @override
+  String get anki_tag_include_hibiki_hint => '为每张 Hibiki 制出的卡片打上标记';
+  @override
+  String get anki_tag_include_category => '添加来源分类标签';
+  @override
+  String get anki_tag_include_category_hint => '书籍标「book」、视频标「anime」';
 }
 
 // Path: retrying_in
@@ -57032,6 +57202,17 @@ class _StringsZhHk extends _StringsEn {
   String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
+  @override
+  String get anki_tag_default_section => 'Default tags';
+  @override
+  String get anki_tag_include_hibiki => 'Add "hibiki" tag';
+  @override
+  String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
+  @override
+  String get anki_tag_include_category => 'Add source category tag';
+  @override
+  String get anki_tag_include_category_hint =>
+      'Books get "book", videos get "anime"';
 }
 
 // Path: retrying_in
@@ -60195,6 +60376,16 @@ extension on _StringsEn {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -63316,6 +63507,16 @@ extension on _StringsAr {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -66453,6 +66654,16 @@ extension on _StringsDe {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -69588,6 +69799,16 @@ extension on _StringsEs {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -72725,6 +72946,16 @@ extension on _StringsFr {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -75851,6 +76082,16 @@ extension on _StringsId {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -78985,6 +79226,16 @@ extension on _StringsIt {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -82095,6 +82346,16 @@ extension on _StringsJa {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -85207,6 +85468,16 @@ extension on _StringsKo {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -88338,6 +88609,16 @@ extension on _StringsNl {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -91468,6 +91749,16 @@ extension on _StringsPtBr {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -94599,6 +94890,16 @@ extension on _StringsRu {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -97721,6 +98022,16 @@ extension on _StringsTh {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -100846,6 +101157,16 @@ extension on _StringsTr {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -103968,6 +104289,16 @@ extension on _StringsVi {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
@@ -107066,6 +107397,16 @@ extension on _StringsZhCn {
         return '跨字幕制卡';
       case 'video_menu_subtitle_track':
         return '字幕轨';
+      case 'anki_tag_default_section':
+        return '默认标签';
+      case 'anki_tag_include_hibiki':
+        return '添加「hibiki」标签';
+      case 'anki_tag_include_hibiki_hint':
+        return '为每张 Hibiki 制出的卡片打上标记';
+      case 'anki_tag_include_category':
+        return '添加来源分类标签';
+      case 'anki_tag_include_category_hint':
+        return '书籍标「book」、视频标「anime」';
       default:
         return null;
     }
@@ -110174,6 +110515,16 @@ extension on _StringsZhHk {
         return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
+      case 'anki_tag_default_section':
+        return 'Default tags';
+      case 'anki_tag_include_hibiki':
+        return 'Add "hibiki" tag';
+      case 'anki_tag_include_hibiki_hint':
+        return 'Mark every card mined by Hibiki';
+      case 'anki_tag_include_category':
+        return 'Add source category tag';
+      case 'anki_tag_include_category_hint':
+        return 'Books get "book", videos get "anime"';
       default:
         return null;
     }
