@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25823 (1519 per locale)
+/// Strings: 25908 (1524 per locale)
 ///
-/// Built on 2026-06-11 at 09:41 UTC
+/// Built on 2026-06-11 at 10:54 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2037,6 +2037,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  String get video_menu_play_pause => 'Play / Pause';
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  String get video_menu_lock => 'Immersive / lock mode';
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -5452,6 +5457,16 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -8951,6 +8966,16 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -12463,6 +12488,16 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -15995,6 +16030,16 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -19450,6 +19495,16 @@ class _StringsId extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -22947,6 +23002,16 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -26270,6 +26335,16 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -29594,6 +29669,16 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -33073,6 +33158,16 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -36565,6 +36660,16 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -40042,6 +40147,16 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -43458,6 +43573,16 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -46913,6 +47038,16 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -50348,6 +50483,16 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_cross_subtitle_lookup_first =>
       'Look up a word and mine a card first';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -53572,6 +53717,16 @@ class _StringsZhCn extends _StringsEn {
   String get video_cross_subtitle_no_subtitle => '没有可录制的字幕';
   @override
   String get video_cross_subtitle_lookup_first => '请先查词制一张卡';
+  @override
+  String get video_menu_play_pause => '播放 / 暂停';
+  @override
+  String get video_menu_fullscreen => '切换全屏';
+  @override
+  String get video_menu_lock => '沉浸 / 锁定模式';
+  @override
+  String get video_menu_cross_subtitle => '跨字幕制卡';
+  @override
+  String get video_menu_subtitle_track => '字幕轨';
 }
 
 // Path: retrying_in
@@ -56867,6 +57022,16 @@ class _StringsZhHk extends _StringsEn {
   String get video_cross_subtitle_no_subtitle => '沒有可錄製的字幕';
   @override
   String get video_cross_subtitle_lookup_first => '請先查詞製一張卡';
+  @override
+  String get video_menu_play_pause => 'Play / Pause';
+  @override
+  String get video_menu_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_menu_lock => 'Immersive / lock mode';
+  @override
+  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
+  @override
+  String get video_menu_subtitle_track => 'Subtitle track';
 }
 
 // Path: retrying_in
@@ -60020,6 +60185,16 @@ extension on _StringsEn {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -63131,6 +63306,16 @@ extension on _StringsAr {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -66258,6 +66443,16 @@ extension on _StringsDe {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -69383,6 +69578,16 @@ extension on _StringsEs {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -72510,6 +72715,16 @@ extension on _StringsFr {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -75626,6 +75841,16 @@ extension on _StringsId {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -78750,6 +78975,16 @@ extension on _StringsIt {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -81850,6 +82085,16 @@ extension on _StringsJa {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -84952,6 +85197,16 @@ extension on _StringsKo {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -88073,6 +88328,16 @@ extension on _StringsNl {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -91193,6 +91458,16 @@ extension on _StringsPtBr {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -94314,6 +94589,16 @@ extension on _StringsRu {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -97426,6 +97711,16 @@ extension on _StringsTh {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -100541,6 +100836,16 @@ extension on _StringsTr {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -103653,6 +103958,16 @@ extension on _StringsVi {
         return 'No subtitle to record';
       case 'video_cross_subtitle_lookup_first':
         return 'Look up a word and mine a card first';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
@@ -106741,6 +107056,16 @@ extension on _StringsZhCn {
         return '没有可录制的字幕';
       case 'video_cross_subtitle_lookup_first':
         return '请先查词制一张卡';
+      case 'video_menu_play_pause':
+        return '播放 / 暂停';
+      case 'video_menu_fullscreen':
+        return '切换全屏';
+      case 'video_menu_lock':
+        return '沉浸 / 锁定模式';
+      case 'video_menu_cross_subtitle':
+        return '跨字幕制卡';
+      case 'video_menu_subtitle_track':
+        return '字幕轨';
       default:
         return null;
     }
@@ -109839,6 +110164,16 @@ extension on _StringsZhHk {
         return '沒有可錄製的字幕';
       case 'video_cross_subtitle_lookup_first':
         return '請先查詞製一張卡';
+      case 'video_menu_play_pause':
+        return 'Play / Pause';
+      case 'video_menu_fullscreen':
+        return 'Toggle fullscreen';
+      case 'video_menu_lock':
+        return 'Immersive / lock mode';
+      case 'video_menu_cross_subtitle':
+        return 'Cross-subtitle mining';
+      case 'video_menu_subtitle_track':
+        return 'Subtitle track';
       default:
         return null;
     }
