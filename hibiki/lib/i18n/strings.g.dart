@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25925 (1525 per locale)
+/// Strings: 26333 (1549 per locale)
 ///
-/// Built on 2026-06-11 at 13:05 UTC
+/// Built on 2026-06-11 at 15:37 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2039,6 +2039,35 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get anki_tag_include_category_hint =>
       'Books get "book", videos get "anime"';
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  String get shortcut_scope_video => 'Video';
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  String get shortcut_action_video_play => 'Play';
+  String get shortcut_action_video_pause => 'Pause';
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -5464,6 +5493,59 @@ class _StringsAr extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -8972,6 +9054,59 @@ class _StringsDe extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -12494,6 +12629,59 @@ class _StringsEs extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -16036,6 +16224,59 @@ class _StringsFr extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -19500,6 +19741,59 @@ class _StringsId extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -23006,6 +23300,59 @@ class _StringsIt extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -26339,6 +26686,59 @@ class _StringsJa extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -29673,6 +30073,59 @@ class _StringsKo extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -33161,6 +33614,59 @@ class _StringsNl extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -36662,6 +37168,59 @@ class _StringsPtBr extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -40148,6 +40707,59 @@ class _StringsRu extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -43573,6 +44185,59 @@ class _StringsTh extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -47037,6 +47702,59 @@ class _StringsTr extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -50481,6 +51199,59 @@ class _StringsVi extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -53716,6 +54487,54 @@ class _StringsZhCn extends _StringsEn {
   String get anki_tag_include_category_hint => '书籍标「book」、视频标「anime」';
   @override
   String get reverse_arrow_page_turn => '反转方向键翻页方向';
+  @override
+  String get shortcut_scope_video => '视频';
+  @override
+  String get shortcut_action_video_toggle_play_pause => '播放/暂停';
+  @override
+  String get shortcut_action_video_play => '播放';
+  @override
+  String get shortcut_action_video_pause => '暂停';
+  @override
+  String get shortcut_action_video_previous_subtitle => '上一句字幕';
+  @override
+  String get shortcut_action_video_next_subtitle => '下一句字幕';
+  @override
+  String get shortcut_action_video_seek_backward => '快退';
+  @override
+  String get shortcut_action_video_seek_forward => '快进';
+  @override
+  String get shortcut_action_video_toggle_shader_compare => '切换着色器对比';
+  @override
+  String get shortcut_action_video_volume_up => '音量+';
+  @override
+  String get shortcut_action_video_volume_down => '音量-';
+  @override
+  String get shortcut_action_video_toggle_mute => '静音切换';
+  @override
+  String get shortcut_action_video_speed_up => '加速';
+  @override
+  String get shortcut_action_video_speed_down => '减速';
+  @override
+  String get shortcut_action_video_reset_speed => '速度复位';
+  @override
+  String get shortcut_action_video_previous_frame => '上一帧';
+  @override
+  String get shortcut_action_video_next_frame => '下一帧';
+  @override
+  String get shortcut_action_video_screenshot => '截图';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => '切换全屏';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list => '切换字幕列表';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock => '切换沉浸锁定';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording => '切换跨字幕录制';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur => '切换字幕模糊';
+  @override
+  String get shortcut_action_video_escape => '退出/返回';
 }
 
 // Path: retrying_in
@@ -57022,6 +57841,59 @@ class _StringsZhHk extends _StringsEn {
       'Books get "book", videos get "anime"';
   @override
   String get reverse_arrow_page_turn => '反轉方向鍵翻頁方向';
+  @override
+  String get shortcut_scope_video => 'Video';
+  @override
+  String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
+  @override
+  String get shortcut_action_video_play => 'Play';
+  @override
+  String get shortcut_action_video_pause => 'Pause';
+  @override
+  String get shortcut_action_video_previous_subtitle => 'Previous Subtitle';
+  @override
+  String get shortcut_action_video_next_subtitle => 'Next Subtitle';
+  @override
+  String get shortcut_action_video_seek_backward => 'Seek Backward';
+  @override
+  String get shortcut_action_video_seek_forward => 'Seek Forward';
+  @override
+  String get shortcut_action_video_toggle_shader_compare =>
+      'Toggle Shader Compare';
+  @override
+  String get shortcut_action_video_volume_up => 'Volume Up';
+  @override
+  String get shortcut_action_video_volume_down => 'Volume Down';
+  @override
+  String get shortcut_action_video_toggle_mute => 'Toggle Mute';
+  @override
+  String get shortcut_action_video_speed_up => 'Speed Up';
+  @override
+  String get shortcut_action_video_speed_down => 'Slow Down';
+  @override
+  String get shortcut_action_video_reset_speed => 'Reset Speed';
+  @override
+  String get shortcut_action_video_previous_frame => 'Previous Frame';
+  @override
+  String get shortcut_action_video_next_frame => 'Next Frame';
+  @override
+  String get shortcut_action_video_screenshot => 'Screenshot';
+  @override
+  String get shortcut_action_video_toggle_fullscreen => 'Toggle Fullscreen';
+  @override
+  String get shortcut_action_video_toggle_subtitle_list =>
+      'Toggle Subtitle List';
+  @override
+  String get shortcut_action_video_toggle_immersive_lock =>
+      'Toggle Immersive Lock';
+  @override
+  String get shortcut_action_video_toggle_cross_subtitle_recording =>
+      'Toggle Cross-Subtitle Recording';
+  @override
+  String get shortcut_action_video_toggle_subtitle_blur =>
+      'Toggle Subtitle Blur';
+  @override
+  String get shortcut_action_video_escape => 'Exit / Back';
 }
 
 // Path: retrying_in
@@ -60187,6 +61059,54 @@ extension on _StringsEn {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -63310,6 +64230,54 @@ extension on _StringsAr {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -66449,6 +67417,54 @@ extension on _StringsDe {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -69586,6 +70602,54 @@ extension on _StringsEs {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -72725,6 +73789,54 @@ extension on _StringsFr {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -75853,6 +76965,54 @@ extension on _StringsId {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -78989,6 +80149,54 @@ extension on _StringsIt {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -82101,6 +83309,54 @@ extension on _StringsJa {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -85215,6 +86471,54 @@ extension on _StringsKo {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -88348,6 +89652,54 @@ extension on _StringsNl {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -91480,6 +92832,54 @@ extension on _StringsPtBr {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -94613,6 +96013,54 @@ extension on _StringsRu {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -97737,6 +99185,54 @@ extension on _StringsTh {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -100864,6 +102360,54 @@ extension on _StringsTr {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -103988,6 +105532,54 @@ extension on _StringsVi {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
@@ -107088,6 +108680,54 @@ extension on _StringsZhCn {
         return '书籍标「book」、视频标「anime」';
       case 'reverse_arrow_page_turn':
         return '反转方向键翻页方向';
+      case 'shortcut_scope_video':
+        return '视频';
+      case 'shortcut_action_video_toggle_play_pause':
+        return '播放/暂停';
+      case 'shortcut_action_video_play':
+        return '播放';
+      case 'shortcut_action_video_pause':
+        return '暂停';
+      case 'shortcut_action_video_previous_subtitle':
+        return '上一句字幕';
+      case 'shortcut_action_video_next_subtitle':
+        return '下一句字幕';
+      case 'shortcut_action_video_seek_backward':
+        return '快退';
+      case 'shortcut_action_video_seek_forward':
+        return '快进';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return '切换着色器对比';
+      case 'shortcut_action_video_volume_up':
+        return '音量+';
+      case 'shortcut_action_video_volume_down':
+        return '音量-';
+      case 'shortcut_action_video_toggle_mute':
+        return '静音切换';
+      case 'shortcut_action_video_speed_up':
+        return '加速';
+      case 'shortcut_action_video_speed_down':
+        return '减速';
+      case 'shortcut_action_video_reset_speed':
+        return '速度复位';
+      case 'shortcut_action_video_previous_frame':
+        return '上一帧';
+      case 'shortcut_action_video_next_frame':
+        return '下一帧';
+      case 'shortcut_action_video_screenshot':
+        return '截图';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return '切换全屏';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return '切换字幕列表';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return '切换沉浸锁定';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return '切换跨字幕录制';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return '切换字幕模糊';
+      case 'shortcut_action_video_escape':
+        return '退出/返回';
       default:
         return null;
     }
@@ -110198,6 +111838,54 @@ extension on _StringsZhHk {
         return 'Books get "book", videos get "anime"';
       case 'reverse_arrow_page_turn':
         return '反轉方向鍵翻頁方向';
+      case 'shortcut_scope_video':
+        return 'Video';
+      case 'shortcut_action_video_toggle_play_pause':
+        return 'Play / Pause';
+      case 'shortcut_action_video_play':
+        return 'Play';
+      case 'shortcut_action_video_pause':
+        return 'Pause';
+      case 'shortcut_action_video_previous_subtitle':
+        return 'Previous Subtitle';
+      case 'shortcut_action_video_next_subtitle':
+        return 'Next Subtitle';
+      case 'shortcut_action_video_seek_backward':
+        return 'Seek Backward';
+      case 'shortcut_action_video_seek_forward':
+        return 'Seek Forward';
+      case 'shortcut_action_video_toggle_shader_compare':
+        return 'Toggle Shader Compare';
+      case 'shortcut_action_video_volume_up':
+        return 'Volume Up';
+      case 'shortcut_action_video_volume_down':
+        return 'Volume Down';
+      case 'shortcut_action_video_toggle_mute':
+        return 'Toggle Mute';
+      case 'shortcut_action_video_speed_up':
+        return 'Speed Up';
+      case 'shortcut_action_video_speed_down':
+        return 'Slow Down';
+      case 'shortcut_action_video_reset_speed':
+        return 'Reset Speed';
+      case 'shortcut_action_video_previous_frame':
+        return 'Previous Frame';
+      case 'shortcut_action_video_next_frame':
+        return 'Next Frame';
+      case 'shortcut_action_video_screenshot':
+        return 'Screenshot';
+      case 'shortcut_action_video_toggle_fullscreen':
+        return 'Toggle Fullscreen';
+      case 'shortcut_action_video_toggle_subtitle_list':
+        return 'Toggle Subtitle List';
+      case 'shortcut_action_video_toggle_immersive_lock':
+        return 'Toggle Immersive Lock';
+      case 'shortcut_action_video_toggle_cross_subtitle_recording':
+        return 'Toggle Cross-Subtitle Recording';
+      case 'shortcut_action_video_toggle_subtitle_blur':
+        return 'Toggle Subtitle Blur';
+      case 'shortcut_action_video_escape':
+        return 'Exit / Back';
       default:
         return null;
     }
