@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 25653 (1509 per locale)
 ///
-/// Built on 2026-06-11 at 08:05 UTC
+/// Built on 2026-06-11 at 08:52 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1975,13 +1975,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_shader_tier_off_hint =>
       'No enhancement. Plays the original video as-is.';
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
   String get video_shader_section_advanced => 'Advanced (manual shaders)';
@@ -5334,16 +5334,16 @@ class _StringsAr extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -8809,16 +8809,16 @@ class _StringsDe extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -12297,16 +12297,16 @@ class _StringsEs extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -15805,16 +15805,16 @@ class _StringsFr extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -19236,16 +19236,16 @@ class _StringsId extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -22709,16 +22709,16 @@ class _StringsIt extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -26008,16 +26008,16 @@ class _StringsJa extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -29308,16 +29308,16 @@ class _StringsKo extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -32763,16 +32763,16 @@ class _StringsNl extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -36231,16 +36231,16 @@ class _StringsPtBr extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -39684,16 +39684,16 @@ class _StringsRu extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -43076,16 +43076,16 @@ class _StringsTh extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -46507,16 +46507,16 @@ class _StringsTr extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -49918,16 +49918,16 @@ class _StringsVi extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -53127,16 +53127,16 @@ class _StringsZhCn extends _StringsEn {
   String get video_shader_tier_off_hint => '不增强，按原画播放。';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv 内置锐化（ewa_lanczossharp），无需下载、低 GPU 负载。集显或老显卡也能跑（如 GTX 1050）。';
+      'mpv 内置锐化（ewa_lanczossharp），无需下载、GPU 负载最低。集显或老显卡（N卡 GTX 1050、A卡 RX 560、Intel 核显）选这档。';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast，适合多数动画，中端 GPU 可跑，如 GTX 1660 或较强核显。';
+      'Anime4K Fast，适合多数动画，中端 GPU 可跑（N卡 GTX 1660 / RTX 3050，A卡 RX 6600）。';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ，更锐利，需要较强 GPU，如 RTX 4060 / RTX 3070 级。';
+      'Anime4K HQ，更锐利，需要中高端 GPU（N卡 RTX 4060 / RTX 3070，A卡 RX 6700 XT / RX 7700 XT）。';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32，HD 动画最佳画质，需要旗舰 GPU，如 RTX 4080 / RTX 5090 级。';
+      'ArtCNN C4F32，HD 动画最佳画质，需要旗舰 GPU（N卡 RTX 4080 / RTX 5090，A卡 RX 7900 XTX）。显卡较弱请往低档选。';
   @override
   String get video_shader_tier_custom_hint => '自定义着色器组合。点上方档位可切回预设。';
   @override
@@ -56395,16 +56395,16 @@ class _StringsZhHk extends _StringsEn {
       'No enhancement. Plays the original video as-is.';
   @override
   String get video_shader_tier_low_hint =>
-      'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+      'mpv 內置銳化（ewa_lanczossharp），無需下載、GPU 負載最低。核顯或舊顯卡（N卡 GTX 1050、A卡 RX 560、Intel 核顯）選這檔。';
   @override
   String get video_shader_tier_medium_hint =>
-      'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+      'Anime4K Fast，適合多數動畫，中端 GPU 可跑（N卡 GTX 1660 / RTX 3050，A卡 RX 6600）。';
   @override
   String get video_shader_tier_high_hint =>
-      'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+      'Anime4K HQ，更銳利，需要中高端 GPU（N卡 RTX 4060 / RTX 3070，A卡 RX 6700 XT / RX 7700 XT）。';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+      'ArtCNN C4F32，HD 動畫最佳畫質，需要旗艦 GPU（N卡 RTX 4080 / RTX 5090，A卡 RX 7900 XTX）。顯卡較弱請往低檔選。';
   @override
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
@@ -59541,13 +59541,13 @@ extension on _StringsEn {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -62631,13 +62631,13 @@ extension on _StringsAr {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -65737,13 +65737,13 @@ extension on _StringsDe {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -68841,13 +68841,13 @@ extension on _StringsEs {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -71947,13 +71947,13 @@ extension on _StringsFr {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -75042,13 +75042,13 @@ extension on _StringsId {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -78145,13 +78145,13 @@ extension on _StringsIt {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -81224,13 +81224,13 @@ extension on _StringsJa {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -84305,13 +84305,13 @@ extension on _StringsKo {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -87405,13 +87405,13 @@ extension on _StringsNl {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -90504,13 +90504,13 @@ extension on _StringsPtBr {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -93604,13 +93604,13 @@ extension on _StringsRu {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -96695,13 +96695,13 @@ extension on _StringsTh {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -99789,13 +99789,13 @@ extension on _StringsTr {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -102880,13 +102880,13 @@ extension on _StringsVi {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv built-in sharpening (ewa_lanczossharp). No download, lowest GPU load. Pick this on integrated or older cards (NVIDIA GTX 1050, AMD RX 560, Intel iGPU).';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast. Good for most anime, runs on mid-range GPUs (NVIDIA GTX 1660 / RTX 3050, AMD RX 6600).';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ. Sharper, needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -105948,13 +105948,13 @@ extension on _StringsZhCn {
       case 'video_shader_tier_off_hint':
         return '不增强，按原画播放。';
       case 'video_shader_tier_low_hint':
-        return 'mpv 内置锐化（ewa_lanczossharp），无需下载、低 GPU 负载。集显或老显卡也能跑（如 GTX 1050）。';
+        return 'mpv 内置锐化（ewa_lanczossharp），无需下载、GPU 负载最低。集显或老显卡（N卡 GTX 1050、A卡 RX 560、Intel 核显）选这档。';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast，适合多数动画，中端 GPU 可跑，如 GTX 1660 或较强核显。';
+        return 'Anime4K Fast，适合多数动画，中端 GPU 可跑（N卡 GTX 1660 / RTX 3050，A卡 RX 6600）。';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ，更锐利，需要较强 GPU，如 RTX 4060 / RTX 3070 级。';
+        return 'Anime4K HQ，更锐利，需要中高端 GPU（N卡 RTX 4060 / RTX 3070，A卡 RX 6700 XT / RX 7700 XT）。';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32，HD 动画最佳画质，需要旗舰 GPU，如 RTX 4080 / RTX 5090 级。';
+        return 'ArtCNN C4F32，HD 动画最佳画质，需要旗舰 GPU（N卡 RTX 4080 / RTX 5090，A卡 RX 7900 XTX）。显卡较弱请往低档选。';
       case 'video_shader_tier_custom_hint':
         return '自定义着色器组合。点上方档位可切回预设。';
       case 'video_shader_section_advanced':
@@ -109026,13 +109026,13 @@ extension on _StringsZhHk {
       case 'video_shader_tier_off_hint':
         return 'No enhancement. Plays the original video as-is.';
       case 'video_shader_tier_low_hint':
-        return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load. Runs on integrated graphics or older cards (e.g. GTX 1050).';
+        return 'mpv 內置銳化（ewa_lanczossharp），無需下載、GPU 負載最低。核顯或舊顯卡（N卡 GTX 1050、A卡 RX 560、Intel 核顯）選這檔。';
       case 'video_shader_tier_medium_hint':
-        return 'Anime4K Fast. Good for most anime on mid-range GPUs, e.g. GTX 1660 or a strong integrated GPU.';
+        return 'Anime4K Fast，適合多數動畫，中端 GPU 可跑（N卡 GTX 1660 / RTX 3050，A卡 RX 6600）。';
       case 'video_shader_tier_high_hint':
-        return 'Anime4K HQ. Sharper, needs a strong GPU, e.g. RTX 4060 / RTX 3070 class.';
+        return 'Anime4K HQ，更銳利，需要中高端 GPU（N卡 RTX 4060 / RTX 3070，A卡 RX 6700 XT / RX 7700 XT）。';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU, e.g. RTX 4080 / RTX 5090 class.';
+        return 'ArtCNN C4F32，HD 動畫最佳畫質，需要旗艦 GPU（N卡 RTX 4080 / RTX 5090，A卡 RX 7900 XTX）。顯卡較弱請往低檔選。';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
