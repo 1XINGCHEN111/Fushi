@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25636 (1508 per locale)
+/// Strings: 25619 (1507 per locale)
 ///
-/// Built on 2026-06-11 at 07:03 UTC
+/// Built on 2026-06-11 at 07:17 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1831,8 +1831,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_screenshot => 'Screenshot';
   String get video_screenshot_saved => 'Screenshot saved';
   String get video_screenshot_failed => 'Screenshot failed';
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
   String get stat_mined => 'Cards mined';
   String get stat_favorited => 'Favorited';
   String get video_settings_cat_playback => 'Playback';
@@ -5080,9 +5078,6 @@ class _StringsAr extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
-  @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
   @override
   String get stat_mined => 'Cards mined';
   @override
@@ -8554,9 +8549,6 @@ class _StringsDe extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
-  @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
   @override
   String get stat_mined => 'Cards mined';
   @override
@@ -12041,9 +12033,6 @@ class _StringsEs extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
-  @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
   @override
   String get stat_mined => 'Cards mined';
   @override
@@ -15549,9 +15538,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_screenshot_failed => 'Screenshot failed';
   @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
-  @override
   String get stat_mined => 'Cards mined';
   @override
   String get stat_favorited => 'Favorited';
@@ -18978,9 +18964,6 @@ class _StringsId extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
-  @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
   @override
   String get stat_mined => 'Cards mined';
   @override
@@ -22451,9 +22434,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_screenshot_failed => 'Screenshot failed';
   @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
-  @override
   String get stat_mined => 'Cards mined';
   @override
   String get stat_favorited => 'Favorited';
@@ -25748,9 +25728,6 @@ class _StringsJa extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
-  @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
   @override
   String get stat_mined => 'Cards mined';
   @override
@@ -29047,9 +29024,6 @@ class _StringsKo extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
-  @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
   @override
   String get stat_mined => 'Cards mined';
   @override
@@ -32501,9 +32475,6 @@ class _StringsNl extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
-  @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
   @override
   String get stat_mined => 'Cards mined';
   @override
@@ -35969,9 +35940,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_screenshot_failed => 'Screenshot failed';
   @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
-  @override
   String get stat_mined => 'Cards mined';
   @override
   String get stat_favorited => 'Favorited';
@@ -39421,9 +39389,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_screenshot_failed => 'Screenshot failed';
   @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
-  @override
   String get stat_mined => 'Cards mined';
   @override
   String get stat_favorited => 'Favorited';
@@ -42811,9 +42776,6 @@ class _StringsTh extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
-  @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
   @override
   String get stat_mined => 'Cards mined';
   @override
@@ -46242,9 +46204,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_screenshot_failed => 'Screenshot failed';
   @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
-  @override
   String get stat_mined => 'Cards mined';
   @override
   String get stat_favorited => 'Favorited';
@@ -49652,9 +49611,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_screenshot_failed => 'Screenshot failed';
   @override
-  String get video_experimental_banner =>
-      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
-  @override
   String get stat_mined => 'Cards mined';
   @override
   String get stat_favorited => 'Favorited';
@@ -52876,8 +52832,6 @@ class _StringsZhCn extends _StringsEn {
   String get video_screenshot_saved => '截图已保存';
   @override
   String get video_screenshot_failed => '截图失败';
-  @override
-  String get video_experimental_banner => '视频为实验性功能：播放、查词与制卡可能尚不稳定。';
   @override
   String get stat_mined => '制卡';
   @override
@@ -56127,8 +56081,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_screenshot_failed => 'Screenshot failed';
   @override
-  String get video_experimental_banner => '影片為實驗性功能：播放、查詞與製卡可能尚不穩定。';
-  @override
   String get stat_mined => 'Cards mined';
   @override
   String get stat_favorited => 'Favorited';
@@ -59300,8 +59252,6 @@ extension on _StringsEn {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -62388,8 +62338,6 @@ extension on _StringsAr {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -65492,8 +65440,6 @@ extension on _StringsDe {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -68594,8 +68540,6 @@ extension on _StringsEs {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -71698,8 +71642,6 @@ extension on _StringsFr {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -74791,8 +74733,6 @@ extension on _StringsId {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -77892,8 +77832,6 @@ extension on _StringsIt {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -80969,8 +80907,6 @@ extension on _StringsJa {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -84048,8 +83984,6 @@ extension on _StringsKo {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -87146,8 +87080,6 @@ extension on _StringsNl {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -90243,8 +90175,6 @@ extension on _StringsPtBr {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -93341,8 +93271,6 @@ extension on _StringsRu {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -96430,8 +96358,6 @@ extension on _StringsTh {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -99522,8 +99448,6 @@ extension on _StringsTr {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -102611,8 +102535,6 @@ extension on _StringsVi {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
@@ -105678,8 +105600,6 @@ extension on _StringsZhCn {
         return '截图已保存';
       case 'video_screenshot_failed':
         return '截图失败';
-      case 'video_experimental_banner':
-        return '视频为实验性功能：播放、查词与制卡可能尚不稳定。';
       case 'stat_mined':
         return '制卡';
       case 'stat_favorited':
@@ -108753,8 +108673,6 @@ extension on _StringsZhHk {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
-      case 'video_experimental_banner':
-        return '影片為實驗性功能：播放、查詞與製卡可能尚不穩定。';
       case 'stat_mined':
         return 'Cards mined';
       case 'stat_favorited':
