@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25670 (1510 per locale)
+/// Strings: 25721 (1513 per locale)
 ///
-/// Built on 2026-06-11 at 09:03 UTC
+/// Built on 2026-06-11 at 09:16 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2024,6 +2024,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_subtitle_list => 'Subtitle list';
   String get video_subtitle_list_empty => 'No subtitles loaded';
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  String get video_immersive_locked => 'Immersive mode on';
+  String get video_immersive_unlocked => 'Immersive mode off';
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -5417,6 +5420,12 @@ class _StringsAr extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -8894,6 +8903,12 @@ class _StringsDe extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -12384,6 +12399,12 @@ class _StringsEs extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -15894,6 +15915,12 @@ class _StringsFr extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -19327,6 +19354,12 @@ class _StringsId extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -22802,6 +22835,12 @@ class _StringsIt extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -26103,6 +26142,12 @@ class _StringsJa extends _StringsEn {
   String get video_subtitle_list_empty => '字幕が読み込まれていません';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -29405,6 +29450,12 @@ class _StringsKo extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -32862,6 +32913,12 @@ class _StringsNl extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -36332,6 +36389,12 @@ class _StringsPtBr extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -39787,6 +39850,12 @@ class _StringsRu extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -43181,6 +43250,12 @@ class _StringsTh extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -46614,6 +46689,12 @@ class _StringsTr extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -50027,6 +50108,12 @@ class _StringsVi extends _StringsEn {
   String get video_subtitle_list_empty => 'No subtitles loaded';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -53232,6 +53319,12 @@ class _StringsZhCn extends _StringsEn {
   String get video_subtitle_list_empty => '未加载字幕';
   @override
   String get swipe_page_turn_sensitivity => '滑动翻页灵敏度';
+  @override
+  String get video_immersive_locked => '已进入沉浸模式';
+  @override
+  String get video_immersive_unlocked => '已退出沉浸模式';
+  @override
+  String get video_immersive_unlock => '解锁';
 }
 
 // Path: retrying_in
@@ -56508,6 +56601,12 @@ class _StringsZhHk extends _StringsEn {
   String get video_subtitle_list_empty => '未載入字幕';
   @override
   String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
+  @override
+  String get video_immersive_locked => 'Immersive mode on';
+  @override
+  String get video_immersive_unlocked => 'Immersive mode off';
+  @override
+  String get video_immersive_unlock => 'Unlock';
 }
 
 // Path: retrying_in
@@ -59642,6 +59741,12 @@ extension on _StringsEn {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -62734,6 +62839,12 @@ extension on _StringsAr {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -65842,6 +65953,12 @@ extension on _StringsDe {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -68948,6 +69065,12 @@ extension on _StringsEs {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -72056,6 +72179,12 @@ extension on _StringsFr {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -75153,6 +75282,12 @@ extension on _StringsId {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -78258,6 +78393,12 @@ extension on _StringsIt {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -81339,6 +81480,12 @@ extension on _StringsJa {
         return '字幕が読み込まれていません';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -84422,6 +84569,12 @@ extension on _StringsKo {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -87524,6 +87677,12 @@ extension on _StringsNl {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -90625,6 +90784,12 @@ extension on _StringsPtBr {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -93727,6 +93892,12 @@ extension on _StringsRu {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -96820,6 +96991,12 @@ extension on _StringsTh {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -99916,6 +100093,12 @@ extension on _StringsTr {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -103009,6 +103192,12 @@ extension on _StringsVi {
         return 'No subtitles loaded';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
@@ -106079,6 +106268,12 @@ extension on _StringsZhCn {
         return '未加载字幕';
       case 'swipe_page_turn_sensitivity':
         return '滑动翻页灵敏度';
+      case 'video_immersive_locked':
+        return '已进入沉浸模式';
+      case 'video_immersive_unlocked':
+        return '已退出沉浸模式';
+      case 'video_immersive_unlock':
+        return '解锁';
       default:
         return null;
     }
@@ -109159,6 +109354,12 @@ extension on _StringsZhHk {
         return '未載入字幕';
       case 'swipe_page_turn_sensitivity':
         return 'Swipe page-turn sensitivity';
+      case 'video_immersive_locked':
+        return 'Immersive mode on';
+      case 'video_immersive_unlocked':
+        return 'Immersive mode off';
+      case 'video_immersive_unlock':
+        return 'Unlock';
       default:
         return null;
     }
