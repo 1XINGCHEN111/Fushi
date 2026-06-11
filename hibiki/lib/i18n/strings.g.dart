@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 25908 (1524 per locale)
 ///
-/// Built on 2026-06-11 at 11:34 UTC
+/// Built on 2026-06-11 at 12:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1386,8 +1386,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get update_debug_channel_warning =>
       'Debug channel builds may be unstable. Use at your own risk.';
   String get sync_title => 'Sync';
-  String get sync_summary =>
-      'Cloud, LAN P2P & local backup · ッツ/Hoshi Reader compatible';
+  String get sync_summary => 'Cloud, LAN P2P & local backup';
   String get sync_account => 'Account';
   String get sync_client_id => 'Google OAuth Client ID';
   String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
@@ -4309,7 +4308,7 @@ class _StringsAr extends _StringsEn {
   String get sync_statistics => 'مزامنة الإحصائيات';
   @override
   String get sync_summary =>
-      'سحابة، Hibiki P2P عبر الشبكة المحلية ونسخ احتياطي محلي · متوافق مع ッツ/Hoshi Reader';
+      'سحابة، Hibiki P2P عبر الشبكة المحلية ونسخ احتياطي محلي';
   @override
   String get sync_title => 'المزامنة';
   @override
@@ -7807,8 +7806,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_statistics => 'Statistiken synchronisieren';
   @override
-  String get sync_summary =>
-      'Cloud, LAN P2P & lokales Backup · ッツ/Hoshi Reader-kompatibel';
+  String get sync_summary => 'Cloud, LAN P2P & lokales Backup';
   @override
   String get sync_title => 'Synchronisierung';
   @override
@@ -11323,7 +11321,7 @@ class _StringsEs extends _StringsEn {
   String get sync_statistics => 'Sincronizar estadísticas';
   @override
   String get sync_summary =>
-      'Nube, P2P por red local y copia de seguridad local · compatible con ッツ/Hoshi Reader';
+      'Nube, P2P por red local y copia de seguridad local';
   @override
   String get sync_title => 'Sincronización';
   @override
@@ -14859,7 +14857,7 @@ class _StringsFr extends _StringsEn {
   String get sync_statistics => 'Synchroniser les statistiques';
   @override
   String get sync_summary =>
-      'Cloud, Hibiki P2P en réseau local et sauvegarde locale · compatible ッツ/Hoshi Reader';
+      'Cloud, Hibiki P2P en réseau local et sauvegarde locale';
   @override
   String get sync_title => 'Synchronisation';
   @override
@@ -18338,8 +18336,7 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_statistics => 'Sinkronkan Statistik';
   @override
-  String get sync_summary =>
-      'Cloud, LAN P2P & cadangan lokal · kompatibel dengan ッツ/Hoshi Reader';
+  String get sync_summary => 'Cloud, LAN P2P & cadangan lokal';
   @override
   String get sync_title => 'Sinkronisasi';
   @override
@@ -21834,8 +21831,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_statistics => 'Sincronizza statistiche';
   @override
-  String get sync_summary =>
-      'Cloud, LAN P2P e backup locale · compatibile con ッツ/Hoshi Reader';
+  String get sync_summary => 'Cloud, LAN P2P e backup locale';
   @override
   String get sync_title => 'Sincronizzazione';
   @override
@@ -25192,7 +25188,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_statistics => '統計を同期';
   @override
-  String get sync_summary => 'クラウド・LAN P2P・ローカルバックアップ · ッツ/Hoshi Reader 互換';
+  String get sync_summary => 'クラウド・LAN P2P・ローカルバックアップ';
   @override
   String get sync_title => '同期';
   @override
@@ -28528,7 +28524,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_statistics => '통계 동기화';
   @override
-  String get sync_summary => '클라우드, LAN P2P 및 로컬 백업 · ッツ/Hoshi Reader 호환';
+  String get sync_summary => '클라우드, LAN P2P 및 로컬 백업';
   @override
   String get sync_title => '동기화';
   @override
@@ -31986,8 +31982,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_statistics => 'Statistieken synchroniseren';
   @override
-  String get sync_summary =>
-      'Cloud, LAN P2P en lokale back-up · compatibel met ッツ/Hoshi Reader';
+  String get sync_summary => 'Cloud, LAN P2P en lokale back-up';
   @override
   String get sync_title => 'Synchronisatie';
   @override
@@ -35488,8 +35483,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_statistics => 'Sincronizar estatísticas';
   @override
-  String get sync_summary =>
-      'Nuvem, P2P na rede local e backup local · compatível com ッツ/Hoshi Reader';
+  String get sync_summary => 'Nuvem, P2P na rede local e backup local';
   @override
   String get sync_title => 'Sincronização';
   @override
@@ -38970,8 +38964,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_statistics => 'Синхронизировать статистику';
   @override
-  String get sync_summary =>
-      'Облако, Hibiki P2P и локальная копия · совместимо с ッツ/Hoshi Reader';
+  String get sync_summary => 'Облако, Hibiki P2P и локальная копия';
   @override
   String get sync_title => 'Синхронизация';
   @override
@@ -42403,8 +42396,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_statistics => 'ซิงค์สถิติ';
   @override
-  String get sync_summary =>
-      'คลาวด์, LAN P2P และสำรองข้อมูลในเครื่อง · รองรับ ッツ/Hoshi Reader';
+  String get sync_summary => 'คลาวด์, LAN P2P และสำรองข้อมูลในเครื่อง';
   @override
   String get sync_title => 'ซิงค์';
   @override
@@ -45863,8 +45855,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_statistics => 'İstatistikleri Senkronize Et';
   @override
-  String get sync_summary =>
-      'Bulut, LAN P2P ve yerel yedek · ッツ/Hoshi Reader uyumlu';
+  String get sync_summary => 'Bulut, LAN P2P ve yerel yedek';
   @override
   String get sync_title => 'Senkronizasyon';
   @override
@@ -49306,8 +49297,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_statistics => 'Đồng bộ thống kê';
   @override
-  String get sync_summary =>
-      'Đám mây, LAN P2P & sao lưu cục bộ · tương thích ッツ/Hoshi Reader';
+  String get sync_summary => 'Đám mây, LAN P2P & sao lưu cục bộ';
   @override
   String get sync_title => 'Đồng bộ';
   @override
@@ -52628,7 +52618,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get sync_statistics => '同步统计';
   @override
-  String get sync_summary => '云端、局域网与本地备份 · 兼容 ッツ/Hoshi Reader';
+  String get sync_summary => '云端、局域网与本地备份';
   @override
   String get sync_title => '同步';
   @override
@@ -55852,7 +55842,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_statistics => '同步統計';
   @override
-  String get sync_summary => '雲端、區域網與本機備份 · 相容 ッツ/Hoshi Reader';
+  String get sync_summary => '雲端、區域網與本機備份';
   @override
   String get sync_title => '同步';
   @override
@@ -59095,7 +59085,7 @@ extension on _StringsEn {
       case 'sync_title':
         return 'Sync';
       case 'sync_summary':
-        return 'Cloud, LAN P2P & local backup · ッツ/Hoshi Reader compatible';
+        return 'Cloud, LAN P2P & local backup';
       case 'sync_account':
         return 'Account';
       case 'sync_client_id':
@@ -62237,7 +62227,7 @@ extension on _StringsAr {
       case 'sync_statistics':
         return 'مزامنة الإحصائيات';
       case 'sync_summary':
-        return 'سحابة، Hibiki P2P عبر الشبكة المحلية ونسخ احتياطي محلي · متوافق مع ッツ/Hoshi Reader';
+        return 'سحابة، Hibiki P2P عبر الشبكة المحلية ونسخ احتياطي محلي';
       case 'sync_title':
         return 'المزامنة';
       case 'update_channel_beta':
@@ -65372,7 +65362,7 @@ extension on _StringsDe {
       case 'sync_statistics':
         return 'Statistiken synchronisieren';
       case 'sync_summary':
-        return 'Cloud, LAN P2P & lokales Backup · ッツ/Hoshi Reader-kompatibel';
+        return 'Cloud, LAN P2P & lokales Backup';
       case 'sync_title':
         return 'Synchronisierung';
       case 'update_channel_beta':
@@ -68508,7 +68498,7 @@ extension on _StringsEs {
       case 'sync_statistics':
         return 'Sincronizar estadísticas';
       case 'sync_summary':
-        return 'Nube, P2P por red local y copia de seguridad local · compatible con ッツ/Hoshi Reader';
+        return 'Nube, P2P por red local y copia de seguridad local';
       case 'sync_title':
         return 'Sincronización';
       case 'update_channel_beta':
@@ -71644,7 +71634,7 @@ extension on _StringsFr {
       case 'sync_statistics':
         return 'Synchroniser les statistiques';
       case 'sync_summary':
-        return 'Cloud, Hibiki P2P en réseau local et sauvegarde locale · compatible ッツ/Hoshi Reader';
+        return 'Cloud, Hibiki P2P en réseau local et sauvegarde locale';
       case 'sync_title':
         return 'Synchronisation';
       case 'update_channel_beta':
@@ -74772,7 +74762,7 @@ extension on _StringsId {
       case 'sync_statistics':
         return 'Sinkronkan Statistik';
       case 'sync_summary':
-        return 'Cloud, LAN P2P & cadangan lokal · kompatibel dengan ッツ/Hoshi Reader';
+        return 'Cloud, LAN P2P & cadangan lokal';
       case 'sync_title':
         return 'Sinkronisasi';
       case 'update_channel_beta':
@@ -77904,7 +77894,7 @@ extension on _StringsIt {
       case 'sync_statistics':
         return 'Sincronizza statistiche';
       case 'sync_summary':
-        return 'Cloud, LAN P2P e backup locale · compatibile con ッツ/Hoshi Reader';
+        return 'Cloud, LAN P2P e backup locale';
       case 'sync_title':
         return 'Sincronizzazione';
       case 'update_channel_beta':
@@ -81018,7 +81008,7 @@ extension on _StringsJa {
       case 'sync_statistics':
         return '統計を同期';
       case 'sync_summary':
-        return 'クラウド・LAN P2P・ローカルバックアップ · ッツ/Hoshi Reader 互換';
+        return 'クラウド・LAN P2P・ローカルバックアップ';
       case 'sync_title':
         return '同期';
       case 'update_channel_beta':
@@ -84130,7 +84120,7 @@ extension on _StringsKo {
       case 'sync_statistics':
         return '통계 동기화';
       case 'sync_summary':
-        return '클라우드, LAN P2P 및 로컬 백업 · ッツ/Hoshi Reader 호환';
+        return '클라우드, LAN P2P 및 로컬 백업';
       case 'sync_title':
         return '동기화';
       case 'update_channel_beta':
@@ -87258,7 +87248,7 @@ extension on _StringsNl {
       case 'sync_statistics':
         return 'Statistieken synchroniseren';
       case 'sync_summary':
-        return 'Cloud, LAN P2P en lokale back-up · compatibel met ッツ/Hoshi Reader';
+        return 'Cloud, LAN P2P en lokale back-up';
       case 'sync_title':
         return 'Synchronisatie';
       case 'update_channel_beta':
@@ -90389,7 +90379,7 @@ extension on _StringsPtBr {
       case 'sync_statistics':
         return 'Sincronizar estatísticas';
       case 'sync_summary':
-        return 'Nuvem, P2P na rede local e backup local · compatível com ッツ/Hoshi Reader';
+        return 'Nuvem, P2P na rede local e backup local';
       case 'sync_title':
         return 'Sincronização';
       case 'update_channel_beta':
@@ -93519,7 +93509,7 @@ extension on _StringsRu {
       case 'sync_statistics':
         return 'Синхронизировать статистику';
       case 'sync_summary':
-        return 'Облако, Hibiki P2P и локальная копия · совместимо с ッツ/Hoshi Reader';
+        return 'Облако, Hibiki P2P и локальная копия';
       case 'sync_title':
         return 'Синхронизация';
       case 'update_channel_beta':
@@ -96642,7 +96632,7 @@ extension on _StringsTh {
       case 'sync_statistics':
         return 'ซิงค์สถิติ';
       case 'sync_summary':
-        return 'คลาวด์, LAN P2P และสำรองข้อมูลในเครื่อง · รองรับ ッツ/Hoshi Reader';
+        return 'คลาวด์, LAN P2P และสำรองข้อมูลในเครื่อง';
       case 'sync_title':
         return 'ซิงค์';
       case 'update_channel_beta':
@@ -99767,7 +99757,7 @@ extension on _StringsTr {
       case 'sync_statistics':
         return 'İstatistikleri Senkronize Et';
       case 'sync_summary':
-        return 'Bulut, LAN P2P ve yerel yedek · ッツ/Hoshi Reader uyumlu';
+        return 'Bulut, LAN P2P ve yerel yedek';
       case 'sync_title':
         return 'Senkronizasyon';
       case 'update_channel_beta':
@@ -102889,7 +102879,7 @@ extension on _StringsVi {
       case 'sync_statistics':
         return 'Đồng bộ thống kê';
       case 'sync_summary':
-        return 'Đám mây, LAN P2P & sao lưu cục bộ · tương thích ッツ/Hoshi Reader';
+        return 'Đám mây, LAN P2P & sao lưu cục bộ';
       case 'sync_title':
         return 'Đồng bộ';
       case 'update_channel_beta':
@@ -106004,7 +105994,7 @@ extension on _StringsZhCn {
       case 'sync_statistics':
         return '同步统计';
       case 'sync_summary':
-        return '云端、局域网与本地备份 · 兼容 ッツ/Hoshi Reader';
+        return '云端、局域网与本地备份';
       case 'sync_title':
         return '同步';
       case 'anki_connect_host':
@@ -109096,7 +109086,7 @@ extension on _StringsZhHk {
       case 'sync_statistics':
         return '同步統計';
       case 'sync_summary':
-        return '雲端、區域網與本機備份 · 相容 ッツ/Hoshi Reader';
+        return '雲端、區域網與本機備份';
       case 'sync_title':
         return '同步';
       case 'update_channel_beta':
