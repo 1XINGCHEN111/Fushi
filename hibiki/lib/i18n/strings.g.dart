@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25500 (1500 per locale)
+/// Strings: 25602 (1506 per locale)
 ///
-/// Built on 2026-06-11 at 06:20 UTC
+/// Built on 2026-06-11 at 06:40 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2013,6 +2013,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Subtitle colors are set inside the video player.';
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  String get backup_export_categories_title => 'Choose what to export';
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  String get backup_category_dictionary => 'Dictionaries';
+  String get backup_category_books => 'Books';
+  String get backup_category_audiobooks => 'Audiobook audio';
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -5385,6 +5392,19 @@ class _StringsAr extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -8841,6 +8861,19 @@ class _StringsDe extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -12310,6 +12343,19 @@ class _StringsEs extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -15799,6 +15845,19 @@ class _StringsFr extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -19211,6 +19270,19 @@ class _StringsId extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -22665,6 +22737,19 @@ class _StringsIt extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -25945,6 +26030,19 @@ class _StringsJa extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -29226,6 +29324,19 @@ class _StringsKo extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -32662,6 +32773,19 @@ class _StringsNl extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -36111,6 +36235,19 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -39545,6 +39682,19 @@ class _StringsRu extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -42918,6 +43068,19 @@ class _StringsTh extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -46330,6 +46493,19 @@ class _StringsTr extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -49722,6 +49898,19 @@ class _StringsVi extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -52905,6 +53094,19 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       '下方色板预览由种子色实际生成的颜色。想让某个颜色固定作为主色强调色，请打开「主色」开关并显式指定。';
+  @override
+  String get backup_export_categories_title => 'ѡÔñҪµ¼³öµÄÄÚÈÝ';
+  @override
+  String get backup_export_categories_hint =>
+      '¹´ѡµÄÀà±ð»ᱻ´ò°ü½ø±¸·ݡ£Êý¾ݿ⣨Ê鼮¡¢ͳ¼ơ¢Êղء¢ÅäÖ÷½°¸¡¢ÉèÖã©ʼÖհüº¬¡£';
+  @override
+  String get backup_category_dictionary => '´ʵä';
+  @override
+  String get backup_category_books => 'Ê鼮ÄÚÈÝ';
+  @override
+  String get backup_category_audiobooks => 'ÓÐÉùÊéÒôƵ';
+  @override
+  String get backup_category_fonts => '×Զ¨Òå×ÖÌå';
 }
 
 // Path: retrying_in
@@ -56159,6 +56361,19 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get theme_seed_preview_hint =>
       'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+  @override
+  String get backup_export_categories_title => 'Choose what to export';
+  @override
+  String get backup_export_categories_hint =>
+      'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+  @override
+  String get backup_category_dictionary => 'Dictionaries';
+  @override
+  String get backup_category_books => 'Books';
+  @override
+  String get backup_category_audiobooks => 'Audiobook audio';
+  @override
+  String get backup_category_fonts => 'Custom fonts';
 }
 
 // Path: retrying_in
@@ -59273,6 +59488,18 @@ extension on _StringsEn {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -62345,6 +62572,18 @@ extension on _StringsAr {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -65433,6 +65672,18 @@ extension on _StringsDe {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -68519,6 +68770,18 @@ extension on _StringsEs {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -71607,6 +71870,18 @@ extension on _StringsFr {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -74684,6 +74959,18 @@ extension on _StringsId {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -77769,6 +78056,18 @@ extension on _StringsIt {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -80830,6 +81129,18 @@ extension on _StringsJa {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -83893,6 +84204,18 @@ extension on _StringsKo {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -86975,6 +87298,18 @@ extension on _StringsNl {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -90056,6 +90391,18 @@ extension on _StringsPtBr {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -93138,6 +93485,18 @@ extension on _StringsRu {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -96211,6 +96570,18 @@ extension on _StringsTh {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -99287,6 +99658,18 @@ extension on _StringsTr {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -102360,6 +102743,18 @@ extension on _StringsVi {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
@@ -105410,6 +105805,18 @@ extension on _StringsZhCn {
         return '视频字幕颜色在视频播放器内设置。';
       case 'theme_seed_preview_hint':
         return '下方色板预览由种子色实际生成的颜色。想让某个颜色固定作为主色强调色，请打开「主色」开关并显式指定。';
+      case 'backup_export_categories_title':
+        return 'ѡÔñҪµ¼³öµÄÄÚÈÝ';
+      case 'backup_export_categories_hint':
+        return '¹´ѡµÄÀà±ð»ᱻ´ò°ü½ø±¸·ݡ£Êý¾ݿ⣨Ê鼮¡¢ͳ¼ơ¢Êղء¢ÅäÖ÷½°¸¡¢ÉèÖã©ʼÖհüº¬¡£';
+      case 'backup_category_dictionary':
+        return '´ʵä';
+      case 'backup_category_books':
+        return 'Ê鼮ÄÚÈÝ';
+      case 'backup_category_audiobooks':
+        return 'ÓÐÉùÊéÒôƵ';
+      case 'backup_category_fonts':
+        return '×Զ¨Òå×ÖÌå';
       default:
         return null;
     }
@@ -108470,6 +108877,18 @@ extension on _StringsZhHk {
         return 'Subtitle colors are set inside the video player.';
       case 'theme_seed_preview_hint':
         return 'Swatches below preview the colors actually generated from your seed. To force a specific color as the primary accent, turn on the Primary toggle and pick it explicitly.';
+      case 'backup_export_categories_title':
+        return 'Choose what to export';
+      case 'backup_export_categories_hint':
+        return 'Selected categories are packed into the backup. The database (books, statistics, favorites, profiles, settings) is always included.';
+      case 'backup_category_dictionary':
+        return 'Dictionaries';
+      case 'backup_category_books':
+        return 'Books';
+      case 'backup_category_audiobooks':
+        return 'Audiobook audio';
+      case 'backup_category_fonts':
+        return 'Custom fonts';
       default:
         return null;
     }
