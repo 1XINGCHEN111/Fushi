@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25653 (1509 per locale)
+/// Strings: 25670 (1510 per locale)
 ///
-/// Built on 2026-06-11 at 08:52 UTC
+/// Built on 2026-06-11 at 09:03 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2023,6 +2023,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Pin the lookup popup as a full-width panel at the bottom of the screen instead of following the looked-up word.';
   String get video_subtitle_list => 'Subtitle list';
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -5414,6 +5415,8 @@ class _StringsAr extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -8889,6 +8892,8 @@ class _StringsDe extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -12377,6 +12382,8 @@ class _StringsEs extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -15885,6 +15892,8 @@ class _StringsFr extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -19316,6 +19325,8 @@ class _StringsId extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -22789,6 +22800,8 @@ class _StringsIt extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -26088,6 +26101,8 @@ class _StringsJa extends _StringsEn {
   String get video_subtitle_list => '字幕リスト';
   @override
   String get video_subtitle_list_empty => '字幕が読み込まれていません';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -29388,6 +29403,8 @@ class _StringsKo extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -32843,6 +32860,8 @@ class _StringsNl extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -36311,6 +36330,8 @@ class _StringsPtBr extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -39764,6 +39785,8 @@ class _StringsRu extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -43156,6 +43179,8 @@ class _StringsTh extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -46587,6 +46612,8 @@ class _StringsTr extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -49998,6 +50025,8 @@ class _StringsVi extends _StringsEn {
   String get video_subtitle_list => 'Subtitle list';
   @override
   String get video_subtitle_list_empty => 'No subtitles loaded';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -53201,6 +53230,8 @@ class _StringsZhCn extends _StringsEn {
   String get video_subtitle_list => '字幕列表';
   @override
   String get video_subtitle_list_empty => '未加载字幕';
+  @override
+  String get swipe_page_turn_sensitivity => '滑动翻页灵敏度';
 }
 
 // Path: retrying_in
@@ -56475,6 +56506,8 @@ class _StringsZhHk extends _StringsEn {
   String get video_subtitle_list => '字幕列表';
   @override
   String get video_subtitle_list_empty => '未載入字幕';
+  @override
+  String get swipe_page_turn_sensitivity => 'Swipe page-turn sensitivity';
 }
 
 // Path: retrying_in
@@ -59607,6 +59640,8 @@ extension on _StringsEn {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -62697,6 +62732,8 @@ extension on _StringsAr {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -65803,6 +65840,8 @@ extension on _StringsDe {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -68907,6 +68946,8 @@ extension on _StringsEs {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -72013,6 +72054,8 @@ extension on _StringsFr {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -75108,6 +75151,8 @@ extension on _StringsId {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -78211,6 +78256,8 @@ extension on _StringsIt {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -81290,6 +81337,8 @@ extension on _StringsJa {
         return '字幕リスト';
       case 'video_subtitle_list_empty':
         return '字幕が読み込まれていません';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -84371,6 +84420,8 @@ extension on _StringsKo {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -87471,6 +87522,8 @@ extension on _StringsNl {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -90570,6 +90623,8 @@ extension on _StringsPtBr {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -93670,6 +93725,8 @@ extension on _StringsRu {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -96761,6 +96818,8 @@ extension on _StringsTh {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -99855,6 +99914,8 @@ extension on _StringsTr {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -102946,6 +103007,8 @@ extension on _StringsVi {
         return 'Subtitle list';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
@@ -106014,6 +106077,8 @@ extension on _StringsZhCn {
         return '字幕列表';
       case 'video_subtitle_list_empty':
         return '未加载字幕';
+      case 'swipe_page_turn_sensitivity':
+        return '滑动翻页灵敏度';
       default:
         return null;
     }
@@ -109092,6 +109157,8 @@ extension on _StringsZhHk {
         return '字幕列表';
       case 'video_subtitle_list_empty':
         return '未載入字幕';
+      case 'swipe_page_turn_sensitivity':
+        return 'Swipe page-turn sensitivity';
       default:
         return null;
     }
