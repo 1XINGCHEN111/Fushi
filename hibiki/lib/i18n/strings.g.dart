@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25721 (1513 per locale)
+/// Strings: 25823 (1519 per locale)
 ///
-/// Built on 2026-06-11 at 09:16 UTC
+/// Built on 2026-06-11 at 09:41 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2027,6 +2027,16 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_immersive_locked => 'Immersive mode on';
   String get video_immersive_unlocked => 'Immersive mode off';
   String get video_immersive_unlock => 'Unlock';
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -5426,6 +5436,22 @@ class _StringsAr extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -8909,6 +8935,22 @@ class _StringsDe extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -12405,6 +12447,22 @@ class _StringsEs extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -15921,6 +15979,22 @@ class _StringsFr extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -19360,6 +19434,22 @@ class _StringsId extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -22841,6 +22931,22 @@ class _StringsIt extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -26148,6 +26254,22 @@ class _StringsJa extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -29456,6 +29578,22 @@ class _StringsKo extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -32919,6 +33057,22 @@ class _StringsNl extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -36395,6 +36549,22 @@ class _StringsPtBr extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -39856,6 +40026,22 @@ class _StringsRu extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -43256,6 +43442,22 @@ class _StringsTh extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -46695,6 +46897,22 @@ class _StringsTr extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -50114,6 +50332,22 @@ class _StringsVi extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started =>
+      'Cross-subtitle recording started';
+  @override
+  String get video_cross_subtitle_recording_badge => 'Recording';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      'Mining card from ${count} subtitles';
+  @override
+  String get video_cross_subtitle_cancelled =>
+      'Cross-subtitle recording cancelled';
+  @override
+  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
+  @override
+  String get video_cross_subtitle_lookup_first =>
+      'Look up a word and mine a card first';
 }
 
 // Path: retrying_in
@@ -53325,6 +53559,19 @@ class _StringsZhCn extends _StringsEn {
   String get video_immersive_unlocked => '已退出沉浸模式';
   @override
   String get video_immersive_unlock => '解锁';
+  @override
+  String get video_cross_subtitle_recording_started => '已开始跨字幕录制';
+  @override
+  String get video_cross_subtitle_recording_badge => '录制中';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      '正在用 ${count} 句字幕制卡';
+  @override
+  String get video_cross_subtitle_cancelled => '已取消跨字幕录制';
+  @override
+  String get video_cross_subtitle_no_subtitle => '没有可录制的字幕';
+  @override
+  String get video_cross_subtitle_lookup_first => '请先查词制一张卡';
 }
 
 // Path: retrying_in
@@ -56607,6 +56854,19 @@ class _StringsZhHk extends _StringsEn {
   String get video_immersive_unlocked => 'Immersive mode off';
   @override
   String get video_immersive_unlock => 'Unlock';
+  @override
+  String get video_cross_subtitle_recording_started => '已開始跨字幕錄製';
+  @override
+  String get video_cross_subtitle_recording_badge => '錄製中';
+  @override
+  String video_cross_subtitle_mining({required Object count}) =>
+      '正在用 ${count} 句字幕製卡';
+  @override
+  String get video_cross_subtitle_cancelled => '已取消跨字幕錄製';
+  @override
+  String get video_cross_subtitle_no_subtitle => '沒有可錄製的字幕';
+  @override
+  String get video_cross_subtitle_lookup_first => '請先查詞製一張卡';
 }
 
 // Path: retrying_in
@@ -59747,6 +60007,19 @@ extension on _StringsEn {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -62845,6 +63118,19 @@ extension on _StringsAr {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -65959,6 +66245,19 @@ extension on _StringsDe {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -69071,6 +69370,19 @@ extension on _StringsEs {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -72185,6 +72497,19 @@ extension on _StringsFr {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -75288,6 +75613,19 @@ extension on _StringsId {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -78399,6 +78737,19 @@ extension on _StringsIt {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -81486,6 +81837,19 @@ extension on _StringsJa {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -84575,6 +84939,19 @@ extension on _StringsKo {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -87683,6 +88060,19 @@ extension on _StringsNl {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -90790,6 +91180,19 @@ extension on _StringsPtBr {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -93898,6 +94301,19 @@ extension on _StringsRu {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -96997,6 +97413,19 @@ extension on _StringsTh {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -100099,6 +100528,19 @@ extension on _StringsTr {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -103198,6 +103640,19 @@ extension on _StringsVi {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return 'Cross-subtitle recording started';
+      case 'video_cross_subtitle_recording_badge':
+        return 'Recording';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) =>
+            'Mining card from ${count} subtitles';
+      case 'video_cross_subtitle_cancelled':
+        return 'Cross-subtitle recording cancelled';
+      case 'video_cross_subtitle_no_subtitle':
+        return 'No subtitle to record';
+      case 'video_cross_subtitle_lookup_first':
+        return 'Look up a word and mine a card first';
       default:
         return null;
     }
@@ -106274,6 +106729,18 @@ extension on _StringsZhCn {
         return '已退出沉浸模式';
       case 'video_immersive_unlock':
         return '解锁';
+      case 'video_cross_subtitle_recording_started':
+        return '已开始跨字幕录制';
+      case 'video_cross_subtitle_recording_badge':
+        return '录制中';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) => '正在用 ${count} 句字幕制卡';
+      case 'video_cross_subtitle_cancelled':
+        return '已取消跨字幕录制';
+      case 'video_cross_subtitle_no_subtitle':
+        return '没有可录制的字幕';
+      case 'video_cross_subtitle_lookup_first':
+        return '请先查词制一张卡';
       default:
         return null;
     }
@@ -109360,6 +109827,18 @@ extension on _StringsZhHk {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
+      case 'video_cross_subtitle_recording_started':
+        return '已開始跨字幕錄製';
+      case 'video_cross_subtitle_recording_badge':
+        return '錄製中';
+      case 'video_cross_subtitle_mining':
+        return ({required Object count}) => '正在用 ${count} 句字幕製卡';
+      case 'video_cross_subtitle_cancelled':
+        return '已取消跨字幕錄製';
+      case 'video_cross_subtitle_no_subtitle':
+        return '沒有可錄製的字幕';
+      case 'video_cross_subtitle_lookup_first':
+        return '請先查詞製一張卡';
       default:
         return null;
     }
