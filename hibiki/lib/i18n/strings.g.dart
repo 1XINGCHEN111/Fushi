@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26350 (1550 per locale)
+/// Strings: 26214 (1542 per locale)
 ///
-/// Built on 2026-06-12 at 03:10 UTC
+/// Built on 2026-06-12 at 05:45 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2017,20 +2017,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_immersive_locked => 'Immersive mode on';
   String get video_immersive_unlocked => 'Immersive mode off';
   String get video_immersive_unlock => 'Unlock';
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
   String get video_menu_play_pause => 'Play / Pause';
   String get video_menu_fullscreen => 'Toggle fullscreen';
   String get video_menu_lock => 'Immersive / lock mode';
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   String get video_menu_subtitle_track => 'Subtitle track';
   String get anki_tag_default_section => 'Default tags';
   String get anki_tag_include_hibiki => 'Add "hibiki" tag';
@@ -2063,8 +2052,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Toggle Subtitle List';
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
   String get shortcut_action_video_escape => 'Exit / Back';
@@ -5456,29 +5443,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -5539,9 +5508,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -9019,29 +8985,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -9102,9 +9050,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -12596,29 +12541,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -12679,9 +12606,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -16193,29 +16117,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -16276,9 +16182,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -19712,29 +19615,11 @@ class _StringsId extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -19795,9 +19680,6 @@ class _StringsId extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -23273,29 +23155,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -23356,9 +23220,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -26661,29 +26522,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -26744,9 +26587,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -30050,29 +29890,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -30133,9 +29955,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -33593,29 +33412,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -33676,9 +33477,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -37149,29 +36947,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -37232,9 +37012,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -40690,29 +40467,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -40773,9 +40532,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -44170,29 +43926,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -44253,9 +43991,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -47689,29 +47424,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -47772,9 +47489,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -51188,29 +50902,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started =>
-      'Cross-subtitle recording started';
-  @override
-  String get video_cross_subtitle_recording_badge => 'Recording';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      'Mining card from ${count} subtitles';
-  @override
-  String get video_cross_subtitle_cancelled =>
-      'Cross-subtitle recording cancelled';
-  @override
-  String get video_cross_subtitle_no_subtitle => 'No subtitle to record';
-  @override
-  String get video_cross_subtitle_lookup_first =>
-      'Look up a word and mine a card first';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -51271,9 +50967,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -54482,26 +54175,11 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_immersive_unlock => '解锁';
   @override
-  String get video_cross_subtitle_recording_started => '已开始跨字幕录制';
-  @override
-  String get video_cross_subtitle_recording_badge => '录制中';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      '正在用 ${count} 句字幕制卡';
-  @override
-  String get video_cross_subtitle_cancelled => '已取消跨字幕录制';
-  @override
-  String get video_cross_subtitle_no_subtitle => '没有可录制的字幕';
-  @override
-  String get video_cross_subtitle_lookup_first => '请先查词制一张卡';
-  @override
   String get video_menu_play_pause => '播放 / 暂停';
   @override
   String get video_menu_fullscreen => '切换全屏';
   @override
   String get video_menu_lock => '沉浸 / 锁定模式';
-  @override
-  String get video_menu_cross_subtitle => '跨字幕制卡';
   @override
   String get video_menu_subtitle_track => '字幕轨';
   @override
@@ -54558,8 +54236,6 @@ class _StringsZhCn extends _StringsEn {
   String get shortcut_action_video_toggle_subtitle_list => '切换字幕列表';
   @override
   String get shortcut_action_video_toggle_immersive_lock => '切换沉浸锁定';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording => '切换跨字幕录制';
   @override
   String get shortcut_action_video_toggle_subtitle_blur => '切换字幕模糊';
   @override
@@ -57837,26 +57513,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_immersive_unlock => 'Unlock';
   @override
-  String get video_cross_subtitle_recording_started => '已開始跨字幕錄製';
-  @override
-  String get video_cross_subtitle_recording_badge => '錄製中';
-  @override
-  String video_cross_subtitle_mining({required Object count}) =>
-      '正在用 ${count} 句字幕製卡';
-  @override
-  String get video_cross_subtitle_cancelled => '已取消跨字幕錄製';
-  @override
-  String get video_cross_subtitle_no_subtitle => '沒有可錄製的字幕';
-  @override
-  String get video_cross_subtitle_lookup_first => '請先查詞製一張卡';
-  @override
   String get video_menu_play_pause => 'Play / Pause';
   @override
   String get video_menu_fullscreen => 'Toggle fullscreen';
   @override
   String get video_menu_lock => 'Immersive / lock mode';
-  @override
-  String get video_menu_cross_subtitle => 'Cross-subtitle mining';
   @override
   String get video_menu_subtitle_track => 'Subtitle track';
   @override
@@ -57917,9 +57578,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get shortcut_action_video_toggle_immersive_lock =>
       'Toggle Immersive Lock';
-  @override
-  String get shortcut_action_video_toggle_cross_subtitle_recording =>
-      'Toggle Cross-Subtitle Recording';
   @override
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
@@ -61057,27 +60715,12 @@ extension on _StringsEn {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -61134,8 +60777,6 @@ extension on _StringsEn {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -64230,27 +63871,12 @@ extension on _StringsAr {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -64307,8 +63933,6 @@ extension on _StringsAr {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -67419,27 +67043,12 @@ extension on _StringsDe {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -67496,8 +67105,6 @@ extension on _StringsDe {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -70606,27 +70213,12 @@ extension on _StringsEs {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -70683,8 +70275,6 @@ extension on _StringsEs {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -73795,27 +73385,12 @@ extension on _StringsFr {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -73872,8 +73447,6 @@ extension on _StringsFr {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -76973,27 +76546,12 @@ extension on _StringsId {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -77050,8 +76608,6 @@ extension on _StringsId {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -80159,27 +79715,12 @@ extension on _StringsIt {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -80236,8 +79777,6 @@ extension on _StringsIt {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -83321,27 +82860,12 @@ extension on _StringsJa {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -83398,8 +82922,6 @@ extension on _StringsJa {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -86485,27 +86007,12 @@ extension on _StringsKo {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -86562,8 +86069,6 @@ extension on _StringsKo {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -89668,27 +89173,12 @@ extension on _StringsNl {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -89745,8 +89235,6 @@ extension on _StringsNl {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -92850,27 +92338,12 @@ extension on _StringsPtBr {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -92927,8 +92400,6 @@ extension on _StringsPtBr {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -96033,27 +95504,12 @@ extension on _StringsRu {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -96110,8 +95566,6 @@ extension on _StringsRu {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -99207,27 +98661,12 @@ extension on _StringsTh {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -99284,8 +98723,6 @@ extension on _StringsTh {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -102384,27 +101821,12 @@ extension on _StringsTr {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -102461,8 +101883,6 @@ extension on _StringsTr {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -105558,27 +104978,12 @@ extension on _StringsVi {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return 'Cross-subtitle recording started';
-      case 'video_cross_subtitle_recording_badge':
-        return 'Recording';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) =>
-            'Mining card from ${count} subtitles';
-      case 'video_cross_subtitle_cancelled':
-        return 'Cross-subtitle recording cancelled';
-      case 'video_cross_subtitle_no_subtitle':
-        return 'No subtitle to record';
-      case 'video_cross_subtitle_lookup_first':
-        return 'Look up a word and mine a card first';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -105635,8 +105040,6 @@ extension on _StringsVi {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
@@ -108709,26 +108112,12 @@ extension on _StringsZhCn {
         return '已退出沉浸模式';
       case 'video_immersive_unlock':
         return '解锁';
-      case 'video_cross_subtitle_recording_started':
-        return '已开始跨字幕录制';
-      case 'video_cross_subtitle_recording_badge':
-        return '录制中';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) => '正在用 ${count} 句字幕制卡';
-      case 'video_cross_subtitle_cancelled':
-        return '已取消跨字幕录制';
-      case 'video_cross_subtitle_no_subtitle':
-        return '没有可录制的字幕';
-      case 'video_cross_subtitle_lookup_first':
-        return '请先查词制一张卡';
       case 'video_menu_play_pause':
         return '播放 / 暂停';
       case 'video_menu_fullscreen':
         return '切换全屏';
       case 'video_menu_lock':
         return '沉浸 / 锁定模式';
-      case 'video_menu_cross_subtitle':
-        return '跨字幕制卡';
       case 'video_menu_subtitle_track':
         return '字幕轨';
       case 'anki_tag_default_section':
@@ -108785,8 +108174,6 @@ extension on _StringsZhCn {
         return '切换字幕列表';
       case 'shortcut_action_video_toggle_immersive_lock':
         return '切换沉浸锁定';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return '切换跨字幕录制';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return '切换字幕模糊';
       case 'shortcut_action_video_escape':
@@ -111869,26 +111256,12 @@ extension on _StringsZhHk {
         return 'Immersive mode off';
       case 'video_immersive_unlock':
         return 'Unlock';
-      case 'video_cross_subtitle_recording_started':
-        return '已開始跨字幕錄製';
-      case 'video_cross_subtitle_recording_badge':
-        return '錄製中';
-      case 'video_cross_subtitle_mining':
-        return ({required Object count}) => '正在用 ${count} 句字幕製卡';
-      case 'video_cross_subtitle_cancelled':
-        return '已取消跨字幕錄製';
-      case 'video_cross_subtitle_no_subtitle':
-        return '沒有可錄製的字幕';
-      case 'video_cross_subtitle_lookup_first':
-        return '請先查詞製一張卡';
       case 'video_menu_play_pause':
         return 'Play / Pause';
       case 'video_menu_fullscreen':
         return 'Toggle fullscreen';
       case 'video_menu_lock':
         return 'Immersive / lock mode';
-      case 'video_menu_cross_subtitle':
-        return 'Cross-subtitle mining';
       case 'video_menu_subtitle_track':
         return 'Subtitle track';
       case 'anki_tag_default_section':
@@ -111945,8 +111318,6 @@ extension on _StringsZhHk {
         return 'Toggle Subtitle List';
       case 'shortcut_action_video_toggle_immersive_lock':
         return 'Toggle Immersive Lock';
-      case 'shortcut_action_video_toggle_cross_subtitle_recording':
-        return 'Toggle Cross-Subtitle Recording';
       case 'shortcut_action_video_toggle_subtitle_blur':
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
