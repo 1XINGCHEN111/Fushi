@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26231 (1543 per locale)
+/// Strings: 26333 (1549 per locale)
 ///
-/// Built on 2026-06-12 at 06:21 UTC
+/// Built on 2026-06-12 at 07:30 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2057,6 +2057,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get shortcut_action_video_escape => 'Exit / Back';
   String get book_edit_author => 'Author';
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  String get video_setting_double_tap => 'Double-tap seek';
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  String get video_setting_double_tap_off => 'Off';
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  String get video_double_tap_next_cue => 'Next line';
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -5518,6 +5525,19 @@ class _StringsAr extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -9062,6 +9082,19 @@ class _StringsDe extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -12620,6 +12653,19 @@ class _StringsEs extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -16198,6 +16244,19 @@ class _StringsFr extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -19698,6 +19757,19 @@ class _StringsId extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -23240,6 +23312,19 @@ class _StringsIt extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -26609,6 +26694,19 @@ class _StringsJa extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -29979,6 +30077,19 @@ class _StringsKo extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -33503,6 +33614,19 @@ class _StringsNl extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -37040,6 +37164,19 @@ class _StringsPtBr extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -40562,6 +40699,19 @@ class _StringsRu extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -44023,6 +44173,19 @@ class _StringsTh extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -47523,6 +47686,19 @@ class _StringsTr extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -51003,6 +51179,19 @@ class _StringsVi extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -54273,6 +54462,18 @@ class _StringsZhCn extends _StringsEn {
   String get book_edit_author => '作者';
   @override
   String get floating_lyric_toggle_action => '悬浮字幕';
+  @override
+  String get video_setting_double_tap => '双击快进';
+  @override
+  String get video_setting_double_tap_hint => '双击视频左/右侧快退/快进';
+  @override
+  String get video_setting_double_tap_off => '关';
+  @override
+  String get video_setting_double_tap_subtitle => '下一句';
+  @override
+  String get video_double_tap_next_cue => '下一句';
+  @override
+  String get video_double_tap_prev_cue => '上一句';
 }
 
 // Path: retrying_in
@@ -57618,6 +57819,19 @@ class _StringsZhHk extends _StringsEn {
   String get book_edit_author => 'Author';
   @override
   String get floating_lyric_toggle_action => 'Floating subtitle';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left/right of the video to seek';
+  @override
+  String get video_setting_double_tap_off => 'Off';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
 }
 
 // Path: retrying_in
@@ -60818,6 +61032,18 @@ extension on _StringsEn {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -63976,6 +64202,18 @@ extension on _StringsAr {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -67150,6 +67388,18 @@ extension on _StringsDe {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -70322,6 +70572,18 @@ extension on _StringsEs {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -73496,6 +73758,18 @@ extension on _StringsFr {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -76659,6 +76933,18 @@ extension on _StringsId {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -79830,6 +80116,18 @@ extension on _StringsIt {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -82977,6 +83275,18 @@ extension on _StringsJa {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -86126,6 +86436,18 @@ extension on _StringsKo {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -89294,6 +89616,18 @@ extension on _StringsNl {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -92461,6 +92795,18 @@ extension on _StringsPtBr {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -95629,6 +95975,18 @@ extension on _StringsRu {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -98788,6 +99146,18 @@ extension on _StringsTh {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -101950,6 +102320,18 @@ extension on _StringsTr {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -105109,6 +105491,18 @@ extension on _StringsVi {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
@@ -108245,6 +108639,18 @@ extension on _StringsZhCn {
         return '作者';
       case 'floating_lyric_toggle_action':
         return '悬浮字幕';
+      case 'video_setting_double_tap':
+        return '双击快进';
+      case 'video_setting_double_tap_hint':
+        return '双击视频左/右侧快退/快进';
+      case 'video_setting_double_tap_off':
+        return '关';
+      case 'video_setting_double_tap_subtitle':
+        return '下一句';
+      case 'video_double_tap_next_cue':
+        return '下一句';
+      case 'video_double_tap_prev_cue':
+        return '上一句';
       default:
         return null;
     }
@@ -111391,6 +111797,18 @@ extension on _StringsZhHk {
         return 'Author';
       case 'floating_lyric_toggle_action':
         return 'Floating subtitle';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left/right of the video to seek';
+      case 'video_setting_double_tap_off':
+        return 'Off';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
       default:
         return null;
     }
