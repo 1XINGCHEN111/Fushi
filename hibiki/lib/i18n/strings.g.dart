@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26554 (1562 per locale)
+/// Strings: 26707 (1571 per locale)
 ///
-/// Built on 2026-06-12 at 07:47 UTC
+/// Built on 2026-06-12 at 09:27 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2081,6 +2081,16 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_double_tap => 'Double-tap seek';
   String get video_double_tap_prev_cue => 'Previous line';
   String get video_setting_double_tap_off => 'Off';
+  String get section_video_subtitles => 'Subtitles';
+  String get section_video_playback => 'Playback';
+  String get video_setting_immersive_mode => 'Immersive mode';
+  String get settings_destination_video => 'Video';
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  String get video_immersive_mode_full => 'Full controls';
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -5585,6 +5595,25 @@ class _StringsAr extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -9172,6 +9201,25 @@ class _StringsDe extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -12773,6 +12821,25 @@ class _StringsEs extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -16394,6 +16461,25 @@ class _StringsFr extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -19937,6 +20023,25 @@ class _StringsId extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -23522,6 +23627,25 @@ class _StringsIt extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -26934,6 +27058,25 @@ class _StringsJa extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -30347,6 +30490,25 @@ class _StringsKo extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -33914,6 +34076,25 @@ class _StringsNl extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -37494,6 +37675,25 @@ class _StringsPtBr extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -41059,6 +41259,25 @@ class _StringsRu extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -44563,6 +44782,25 @@ class _StringsTh extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -48106,6 +48344,25 @@ class _StringsTr extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -51629,6 +51886,25 @@ class _StringsVi extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -54937,6 +55213,24 @@ class _StringsZhCn extends _StringsEn {
   String get video_double_tap_prev_cue => '上一句';
   @override
   String get video_setting_double_tap_off => '关';
+  @override
+  String get section_video_subtitles => '字幕';
+  @override
+  String get section_video_playback => '播放';
+  @override
+  String get video_setting_immersive_mode => '沉浸模式';
+  @override
+  String get settings_destination_video => '视频';
+  @override
+  String get video_setting_immersive_mode_hint => '控制按下侧边锁后仍允许哪些操作';
+  @override
+  String get video_immersive_mode_lookup_only => '仅查词';
+  @override
+  String get video_immersive_mode_full => '全部功能';
+  @override
+  String get video_immersive_mode_seek_lookup => '跳转 + 查词';
+  @override
+  String get video_immersive_mode_unlock_only => '仅解锁';
 }
 
 // Path: retrying_in
@@ -58325,6 +58619,25 @@ class _StringsZhHk extends _StringsEn {
   String get video_double_tap_prev_cue => 'Previous line';
   @override
   String get video_setting_double_tap_off => 'Off';
+  @override
+  String get section_video_subtitles => 'Subtitles';
+  @override
+  String get section_video_playback => 'Playback';
+  @override
+  String get video_setting_immersive_mode => 'Immersive mode';
+  @override
+  String get settings_destination_video => 'Video';
+  @override
+  String get video_setting_immersive_mode_hint =>
+      'Controls what remains available after pressing the side lock button';
+  @override
+  String get video_immersive_mode_lookup_only => 'Lookup only';
+  @override
+  String get video_immersive_mode_full => 'Full controls';
+  @override
+  String get video_immersive_mode_seek_lookup => 'Seek + lookup';
+  @override
+  String get video_immersive_mode_unlock_only => 'Unlock only';
 }
 
 // Path: retrying_in
@@ -61563,6 +61876,24 @@ extension on _StringsEn {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -64759,6 +65090,24 @@ extension on _StringsAr {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -67971,6 +68320,24 @@ extension on _StringsDe {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -71181,6 +71548,24 @@ extension on _StringsEs {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -74393,6 +74778,24 @@ extension on _StringsFr {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -77594,6 +77997,24 @@ extension on _StringsId {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -80803,6 +81224,24 @@ extension on _StringsIt {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -83988,6 +84427,24 @@ extension on _StringsJa {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -87175,6 +87632,24 @@ extension on _StringsKo {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -90381,6 +90856,24 @@ extension on _StringsNl {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -93586,6 +94079,24 @@ extension on _StringsPtBr {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -96792,6 +97303,24 @@ extension on _StringsRu {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -99989,6 +100518,24 @@ extension on _StringsTh {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -103189,6 +103736,24 @@ extension on _StringsTr {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -106386,6 +106951,24 @@ extension on _StringsVi {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
@@ -109560,6 +110143,24 @@ extension on _StringsZhCn {
         return '上一句';
       case 'video_setting_double_tap_off':
         return '关';
+      case 'section_video_subtitles':
+        return '字幕';
+      case 'section_video_playback':
+        return '播放';
+      case 'video_setting_immersive_mode':
+        return '沉浸模式';
+      case 'settings_destination_video':
+        return '视频';
+      case 'video_setting_immersive_mode_hint':
+        return '控制按下侧边锁后仍允许哪些操作';
+      case 'video_immersive_mode_lookup_only':
+        return '仅查词';
+      case 'video_immersive_mode_full':
+        return '全部功能';
+      case 'video_immersive_mode_seek_lookup':
+        return '跳转 + 查词';
+      case 'video_immersive_mode_unlock_only':
+        return '仅解锁';
       default:
         return null;
     }
@@ -112744,6 +113345,24 @@ extension on _StringsZhHk {
         return 'Previous line';
       case 'video_setting_double_tap_off':
         return 'Off';
+      case 'section_video_subtitles':
+        return 'Subtitles';
+      case 'section_video_playback':
+        return 'Playback';
+      case 'video_setting_immersive_mode':
+        return 'Immersive mode';
+      case 'settings_destination_video':
+        return 'Video';
+      case 'video_setting_immersive_mode_hint':
+        return 'Controls what remains available after pressing the side lock button';
+      case 'video_immersive_mode_lookup_only':
+        return 'Lookup only';
+      case 'video_immersive_mode_full':
+        return 'Full controls';
+      case 'video_immersive_mode_seek_lookup':
+        return 'Seek + lookup';
+      case 'video_immersive_mode_unlock_only':
+        return 'Unlock only';
       default:
         return null;
     }
