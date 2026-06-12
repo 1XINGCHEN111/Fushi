@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26350 (1550 per locale)
+/// Strings: 26367 (1551 per locale)
 ///
-/// Built on 2026-06-12 at 03:10 UTC
+/// Built on 2026-06-12 at 05:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2069,6 +2069,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Toggle Subtitle Blur';
   String get shortcut_action_video_escape => 'Exit / Back';
   String get book_edit_author => 'Author';
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -5549,6 +5550,8 @@ class _StringsAr extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -9112,6 +9115,8 @@ class _StringsDe extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -12689,6 +12694,8 @@ class _StringsEs extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -16286,6 +16293,8 @@ class _StringsFr extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -19805,6 +19814,8 @@ class _StringsId extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -23366,6 +23377,8 @@ class _StringsIt extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -26754,6 +26767,8 @@ class _StringsJa extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -30143,6 +30158,8 @@ class _StringsKo extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -33686,6 +33703,8 @@ class _StringsNl extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -37242,6 +37261,8 @@ class _StringsPtBr extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -40783,6 +40804,8 @@ class _StringsRu extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -44263,6 +44286,8 @@ class _StringsTh extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -47782,6 +47807,8 @@ class _StringsTr extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -51281,6 +51308,8 @@ class _StringsVi extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -54566,6 +54595,8 @@ class _StringsZhCn extends _StringsEn {
   String get shortcut_action_video_escape => '退出/返回';
   @override
   String get book_edit_author => '作者';
+  @override
+  String get floating_lyric_toggle_action => '悬浮字幕';
 }
 
 // Path: retrying_in
@@ -57927,6 +57958,8 @@ class _StringsZhHk extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get floating_lyric_toggle_action => 'Floating subtitle';
 }
 
 // Path: retrying_in
@@ -61142,6 +61175,8 @@ extension on _StringsEn {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -64315,6 +64350,8 @@ extension on _StringsAr {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -67504,6 +67541,8 @@ extension on _StringsDe {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -70691,6 +70730,8 @@ extension on _StringsEs {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -73880,6 +73921,8 @@ extension on _StringsFr {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -77058,6 +77101,8 @@ extension on _StringsId {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -80244,6 +80289,8 @@ extension on _StringsIt {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -83406,6 +83453,8 @@ extension on _StringsJa {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -86570,6 +86619,8 @@ extension on _StringsKo {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -89753,6 +89804,8 @@ extension on _StringsNl {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -92935,6 +92988,8 @@ extension on _StringsPtBr {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -96118,6 +96173,8 @@ extension on _StringsRu {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -99292,6 +99349,8 @@ extension on _StringsTh {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -102469,6 +102528,8 @@ extension on _StringsTr {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -105643,6 +105704,8 @@ extension on _StringsVi {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
@@ -108793,6 +108856,8 @@ extension on _StringsZhCn {
         return '退出/返回';
       case 'book_edit_author':
         return '作者';
+      case 'floating_lyric_toggle_action':
+        return '悬浮字幕';
       default:
         return null;
     }
@@ -111953,6 +112018,8 @@ extension on _StringsZhHk {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'floating_lyric_toggle_action':
+        return 'Floating subtitle';
       default:
         return null;
     }
