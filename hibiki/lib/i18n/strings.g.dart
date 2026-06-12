@@ -1574,9 +1574,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get move_up => 'Move up';
   String get move_down => 'Move down';
   String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   String get on_screen_keyboard => 'On-screen keyboard';
   String get app_ui_scale => 'UI size';
   String get app_ui_scale_hint =>
@@ -4675,11 +4677,13 @@ class _StringsAr extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'تبديل الفوريغانا';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'لوحة مفاتيح على الشاشة';
   @override
@@ -8254,11 +8258,13 @@ class _StringsDe extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Furigana umschalten';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'Bildschirmtastatur';
   @override
@@ -11853,11 +11859,13 @@ class _StringsEs extends _StringsEn {
   String get shortcut_action_reader_toggle_furigana =>
       'Mostrar/ocultar furigana';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'Teclado en pantalla';
   @override
@@ -15467,11 +15475,13 @@ class _StringsFr extends _StringsEn {
   String get shortcut_action_reader_toggle_furigana =>
       'Afficher/masquer les furigana';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'Clavier à l\'écran';
   @override
@@ -19020,11 +19030,13 @@ class _StringsId extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Alihkan furigana';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'Keyboard di layar';
   @override
@@ -22599,11 +22611,13 @@ class _StringsIt extends _StringsEn {
   String get shortcut_action_reader_toggle_furigana =>
       'Attiva/disattiva furigana';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'Tastiera su schermo';
   @override
@@ -26016,11 +26030,13 @@ class _StringsJa extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'ふりがなの切替';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'オンスクリーンキーボード';
   @override
@@ -29428,11 +29444,13 @@ class _StringsKo extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => '후리가나 전환';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => '화면 키보드';
   @override
@@ -32982,11 +33000,13 @@ class _StringsNl extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Furigana aan/uit';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'Schermtoetsenbord';
   @override
@@ -36564,11 +36584,13 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Alternar furigana';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'Teclado virtual';
   @override
@@ -40126,11 +40148,13 @@ class _StringsRu extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Фуригана вкл./выкл.';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'Экранная клавиатура';
   @override
@@ -43629,11 +43653,13 @@ class _StringsTh extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'สลับฟุริงานะ';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'แป้นพิมพ์บนหน้าจอ';
   @override
@@ -47173,11 +47199,13 @@ class _StringsTr extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Furigana\'yı aç/kapat';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'Ekran klavyesi';
   @override
@@ -50691,11 +50719,13 @@ class _StringsVi extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Bật/tắt furigana';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'Bàn phím ảo';
   @override
@@ -57387,11 +57417,13 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
   @override
-  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_lookup_at_cursor =>
+      'Lookup / activate cursor';
   @override
   String get shortcut_action_reader_shift_lookup => 'Shift lookup';
   @override
-  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  String get shortcut_action_reader_create_card_from_popup =>
+      'Create card from popup';
   @override
   String get on_screen_keyboard => 'On-screen keyboard';
   @override
