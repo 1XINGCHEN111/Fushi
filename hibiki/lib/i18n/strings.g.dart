@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26707 (1571 per locale)
+/// Strings: 26724 (1572 per locale)
 ///
-/// Built on 2026-06-12 at 09:27 UTC
+/// Built on 2026-06-12 at 17:38 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2091,6 +2091,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_immersive_mode_full => 'Full controls';
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -5614,6 +5615,8 @@ class _StringsAr extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -9220,6 +9223,8 @@ class _StringsDe extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -12840,6 +12845,8 @@ class _StringsEs extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -16480,6 +16487,8 @@ class _StringsFr extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -20042,6 +20051,8 @@ class _StringsId extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -23646,6 +23657,8 @@ class _StringsIt extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -27077,6 +27090,8 @@ class _StringsJa extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -30509,6 +30524,8 @@ class _StringsKo extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -34095,6 +34112,8 @@ class _StringsNl extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -37694,6 +37713,8 @@ class _StringsPtBr extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -41278,6 +41299,8 @@ class _StringsRu extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -44801,6 +44824,8 @@ class _StringsTh extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -48363,6 +48388,8 @@ class _StringsTr extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -51905,6 +51932,8 @@ class _StringsVi extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -55231,6 +55260,8 @@ class _StringsZhCn extends _StringsEn {
   String get video_immersive_mode_seek_lookup => '跳转 + 查词';
   @override
   String get video_immersive_mode_unlock_only => '仅解锁';
+  @override
+  String get custom_fonts_catalog_title => '字体库';
 }
 
 // Path: retrying_in
@@ -58638,6 +58669,8 @@ class _StringsZhHk extends _StringsEn {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   @override
   String get video_immersive_mode_unlock_only => 'Unlock only';
+  @override
+  String get custom_fonts_catalog_title => 'Font library';
 }
 
 // Path: retrying_in
@@ -61894,6 +61927,8 @@ extension on _StringsEn {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -65108,6 +65143,8 @@ extension on _StringsAr {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -68338,6 +68375,8 @@ extension on _StringsDe {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -71566,6 +71605,8 @@ extension on _StringsEs {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -74796,6 +74837,8 @@ extension on _StringsFr {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -78015,6 +78058,8 @@ extension on _StringsId {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -81242,6 +81287,8 @@ extension on _StringsIt {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -84445,6 +84492,8 @@ extension on _StringsJa {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -87650,6 +87699,8 @@ extension on _StringsKo {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -90874,6 +90925,8 @@ extension on _StringsNl {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -94097,6 +94150,8 @@ extension on _StringsPtBr {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -97321,6 +97376,8 @@ extension on _StringsRu {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -100536,6 +100593,8 @@ extension on _StringsTh {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -103754,6 +103813,8 @@ extension on _StringsTr {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -106969,6 +107030,8 @@ extension on _StringsVi {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
@@ -110161,6 +110224,8 @@ extension on _StringsZhCn {
         return '跳转 + 查词';
       case 'video_immersive_mode_unlock_only':
         return '仅解锁';
+      case 'custom_fonts_catalog_title':
+        return '字体库';
       default:
         return null;
     }
@@ -113363,6 +113428,8 @@ extension on _StringsZhHk {
         return 'Seek + lookup';
       case 'video_immersive_mode_unlock_only':
         return 'Unlock only';
+      case 'custom_fonts_catalog_title':
+        return 'Font library';
       default:
         return null;
     }
