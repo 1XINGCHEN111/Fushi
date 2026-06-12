@@ -1,7 +1,7 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26503 (1559 per locale)
+/// Strings: 26554 (1562 per locale)
 ///
 /// Built on 2026-06-12 at 07:47 UTC
 
@@ -1574,6 +1574,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get move_up => 'Move up';
   String get move_down => 'Move down';
   String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
   String get on_screen_keyboard => 'On-screen keyboard';
   String get app_ui_scale => 'UI size';
   String get app_ui_scale_hint =>
@@ -4671,6 +4674,12 @@ class _StringsAr extends _StringsEn {
   String get move_down => 'تحريك لأسفل';
   @override
   String get shortcut_action_reader_toggle_furigana => 'تبديل الفوريغانا';
+  @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
   @override
   String get on_screen_keyboard => 'لوحة مفاتيح على الشاشة';
   @override
@@ -8244,6 +8253,12 @@ class _StringsDe extends _StringsEn {
   String get move_down => 'Nach unten';
   @override
   String get shortcut_action_reader_toggle_furigana => 'Furigana umschalten';
+  @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
   @override
   String get on_screen_keyboard => 'Bildschirmtastatur';
   @override
@@ -11837,6 +11852,12 @@ class _StringsEs extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana =>
       'Mostrar/ocultar furigana';
+  @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
   @override
   String get on_screen_keyboard => 'Teclado en pantalla';
   @override
@@ -15446,6 +15467,12 @@ class _StringsFr extends _StringsEn {
   String get shortcut_action_reader_toggle_furigana =>
       'Afficher/masquer les furigana';
   @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  @override
   String get on_screen_keyboard => 'Clavier à l\'écran';
   @override
   String get app_ui_scale => 'Taille de l\'interface';
@@ -18992,6 +19019,12 @@ class _StringsId extends _StringsEn {
   String get move_down => 'Turunkan';
   @override
   String get shortcut_action_reader_toggle_furigana => 'Alihkan furigana';
+  @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
   @override
   String get on_screen_keyboard => 'Keyboard di layar';
   @override
@@ -22566,6 +22599,12 @@ class _StringsIt extends _StringsEn {
   String get shortcut_action_reader_toggle_furigana =>
       'Attiva/disattiva furigana';
   @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  @override
   String get on_screen_keyboard => 'Tastiera su schermo';
   @override
   String get app_ui_scale => 'Dimensione interfaccia';
@@ -25977,6 +26016,12 @@ class _StringsJa extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'ふりがなの切替';
   @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  @override
   String get on_screen_keyboard => 'オンスクリーンキーボード';
   @override
   String get app_ui_scale => 'UIサイズ';
@@ -29382,6 +29427,12 @@ class _StringsKo extends _StringsEn {
   String get move_down => '아래로 이동';
   @override
   String get shortcut_action_reader_toggle_furigana => '후리가나 전환';
+  @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
   @override
   String get on_screen_keyboard => '화면 키보드';
   @override
@@ -32930,6 +32981,12 @@ class _StringsNl extends _StringsEn {
   String get move_down => 'Omlaag';
   @override
   String get shortcut_action_reader_toggle_furigana => 'Furigana aan/uit';
+  @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
   @override
   String get on_screen_keyboard => 'Schermtoetsenbord';
   @override
@@ -36507,6 +36564,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Alternar furigana';
   @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  @override
   String get on_screen_keyboard => 'Teclado virtual';
   @override
   String get app_ui_scale => 'Tamanho da interface';
@@ -40063,6 +40126,12 @@ class _StringsRu extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Фуригана вкл./выкл.';
   @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  @override
   String get on_screen_keyboard => 'Экранная клавиатура';
   @override
   String get app_ui_scale => 'Размер интерфейса';
@@ -43559,6 +43628,12 @@ class _StringsTh extends _StringsEn {
   String get move_down => 'เลื่อนลง';
   @override
   String get shortcut_action_reader_toggle_furigana => 'สลับฟุริงานะ';
+  @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
   @override
   String get on_screen_keyboard => 'แป้นพิมพ์บนหน้าจอ';
   @override
@@ -47098,6 +47173,12 @@ class _StringsTr extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Furigana\'yı aç/kapat';
   @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  @override
   String get on_screen_keyboard => 'Ekran klavyesi';
   @override
   String get app_ui_scale => 'Arayüz boyutu';
@@ -50610,6 +50691,12 @@ class _StringsVi extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => 'Bật/tắt furigana';
   @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
+  @override
   String get on_screen_keyboard => 'Bàn phím ảo';
   @override
   String get app_ui_scale => 'Cỡ giao diện';
@@ -53975,6 +54062,12 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get shortcut_action_reader_toggle_furigana => '切换振假名';
   @override
+  String get shortcut_action_reader_lookup_at_cursor => '查词/激活光标';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift 查词';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => '从弹窗制卡';
+  @override
   String get on_screen_keyboard => '屏幕键盘';
   @override
   String get app_ui_scale => '界面大小';
@@ -57293,6 +57386,12 @@ class _StringsZhHk extends _StringsEn {
   String get move_down => 'Move down';
   @override
   String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  @override
+  String get shortcut_action_reader_lookup_at_cursor => 'Lookup / activate cursor';
+  @override
+  String get shortcut_action_reader_shift_lookup => 'Shift lookup';
+  @override
+  String get shortcut_action_reader_create_card_from_popup => 'Create card from popup';
   @override
   String get on_screen_keyboard => 'On-screen keyboard';
   @override
@@ -60613,6 +60712,12 @@ extension on _StringsEn {
         return 'Move down';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Toggle furigana';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'On-screen keyboard';
       case 'app_ui_scale':
@@ -63803,6 +63908,12 @@ extension on _StringsAr {
         return 'تحريك لأسفل';
       case 'shortcut_action_reader_toggle_furigana':
         return 'تبديل الفوريغانا';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'لوحة مفاتيح على الشاشة';
       case 'app_ui_scale':
@@ -67009,6 +67120,12 @@ extension on _StringsDe {
         return 'Nach unten';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Furigana umschalten';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'Bildschirmtastatur';
       case 'app_ui_scale':
@@ -70213,6 +70330,12 @@ extension on _StringsEs {
         return 'Mover abajo';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Mostrar/ocultar furigana';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'Teclado en pantalla';
       case 'app_ui_scale':
@@ -73419,6 +73542,12 @@ extension on _StringsFr {
         return 'Descendre';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Afficher/masquer les furigana';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'Clavier à l\'écran';
       case 'app_ui_scale':
@@ -76614,6 +76743,12 @@ extension on _StringsId {
         return 'Turunkan';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Alihkan furigana';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'Keyboard di layar';
       case 'app_ui_scale':
@@ -79817,6 +79952,12 @@ extension on _StringsIt {
         return 'Sposta giù';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Attiva/disattiva furigana';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'Tastiera su schermo';
       case 'app_ui_scale':
@@ -82996,6 +83137,12 @@ extension on _StringsJa {
         return '下に移動';
       case 'shortcut_action_reader_toggle_furigana':
         return 'ふりがなの切替';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'オンスクリーンキーボード';
       case 'app_ui_scale':
@@ -86177,6 +86324,12 @@ extension on _StringsKo {
         return '아래로 이동';
       case 'shortcut_action_reader_toggle_furigana':
         return '후리가나 전환';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return '화면 키보드';
       case 'app_ui_scale':
@@ -89377,6 +89530,12 @@ extension on _StringsNl {
         return 'Omlaag';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Furigana aan/uit';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'Schermtoetsenbord';
       case 'app_ui_scale':
@@ -92576,6 +92735,12 @@ extension on _StringsPtBr {
         return 'Mover para baixo';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Alternar furigana';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'Teclado virtual';
       case 'app_ui_scale':
@@ -95776,6 +95941,12 @@ extension on _StringsRu {
         return 'Вниз';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Фуригана вкл./выкл.';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'Экранная клавиатура';
       case 'app_ui_scale':
@@ -98967,6 +99138,12 @@ extension on _StringsTh {
         return 'เลื่อนลง';
       case 'shortcut_action_reader_toggle_furigana':
         return 'สลับฟุริงานะ';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'แป้นพิมพ์บนหน้าจอ';
       case 'app_ui_scale':
@@ -102161,6 +102338,12 @@ extension on _StringsTr {
         return 'Aşağı taşı';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Furigana\'yı aç/kapat';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'Ekran klavyesi';
       case 'app_ui_scale':
@@ -105352,6 +105535,12 @@ extension on _StringsVi {
         return 'Di chuyển xuống';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Bật/tắt furigana';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'Bàn phím ảo';
       case 'app_ui_scale':
@@ -108527,6 +108716,12 @@ extension on _StringsZhCn {
         return '下移';
       case 'shortcut_action_reader_toggle_furigana':
         return '切换振假名';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return '查词/激活光标';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift 查词';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return '从弹窗制卡';
       case 'on_screen_keyboard':
         return '屏幕键盘';
       case 'app_ui_scale':
@@ -111698,6 +111893,12 @@ extension on _StringsZhHk {
         return 'Move down';
       case 'shortcut_action_reader_toggle_furigana':
         return 'Toggle furigana';
+      case 'shortcut_action_reader_lookup_at_cursor':
+        return 'Lookup / activate cursor';
+      case 'shortcut_action_reader_shift_lookup':
+        return 'Shift lookup';
+      case 'shortcut_action_reader_create_card_from_popup':
+        return 'Create card from popup';
       case 'on_screen_keyboard':
         return 'On-screen keyboard';
       case 'app_ui_scale':
