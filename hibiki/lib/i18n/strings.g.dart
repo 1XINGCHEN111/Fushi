@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26333 (1549 per locale)
+/// Strings: 26350 (1550 per locale)
 ///
-/// Built on 2026-06-11 at 15:37 UTC
+/// Built on 2026-06-12 at 03:10 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2068,6 +2068,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get shortcut_action_video_toggle_subtitle_blur =>
       'Toggle Subtitle Blur';
   String get shortcut_action_video_escape => 'Exit / Back';
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -5546,6 +5547,8 @@ class _StringsAr extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -9107,6 +9110,8 @@ class _StringsDe extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -12682,6 +12687,8 @@ class _StringsEs extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -16277,6 +16284,8 @@ class _StringsFr extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -19794,6 +19803,8 @@ class _StringsId extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -23353,6 +23364,8 @@ class _StringsIt extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -26739,6 +26752,8 @@ class _StringsJa extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -30126,6 +30141,8 @@ class _StringsKo extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -33667,6 +33684,8 @@ class _StringsNl extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -37221,6 +37240,8 @@ class _StringsPtBr extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -40760,6 +40781,8 @@ class _StringsRu extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -44238,6 +44261,8 @@ class _StringsTh extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -47755,6 +47780,8 @@ class _StringsTr extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -51252,6 +51279,8 @@ class _StringsVi extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -54535,6 +54564,8 @@ class _StringsZhCn extends _StringsEn {
   String get shortcut_action_video_toggle_subtitle_blur => '切换字幕模糊';
   @override
   String get shortcut_action_video_escape => '退出/返回';
+  @override
+  String get book_edit_author => '作者';
 }
 
 // Path: retrying_in
@@ -57894,6 +57925,8 @@ class _StringsZhHk extends _StringsEn {
       'Toggle Subtitle Blur';
   @override
   String get shortcut_action_video_escape => 'Exit / Back';
+  @override
+  String get book_edit_author => 'Author';
 }
 
 // Path: retrying_in
@@ -61107,6 +61140,8 @@ extension on _StringsEn {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -64278,6 +64313,8 @@ extension on _StringsAr {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -67465,6 +67502,8 @@ extension on _StringsDe {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -70650,6 +70689,8 @@ extension on _StringsEs {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -73837,6 +73878,8 @@ extension on _StringsFr {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -77013,6 +77056,8 @@ extension on _StringsId {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -80197,6 +80242,8 @@ extension on _StringsIt {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -83357,6 +83404,8 @@ extension on _StringsJa {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -86519,6 +86568,8 @@ extension on _StringsKo {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -89700,6 +89751,8 @@ extension on _StringsNl {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -92880,6 +92933,8 @@ extension on _StringsPtBr {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -96061,6 +96116,8 @@ extension on _StringsRu {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -99233,6 +99290,8 @@ extension on _StringsTh {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -102408,6 +102467,8 @@ extension on _StringsTr {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -105580,6 +105641,8 @@ extension on _StringsVi {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
@@ -108728,6 +108791,8 @@ extension on _StringsZhCn {
         return '切换字幕模糊';
       case 'shortcut_action_video_escape':
         return '退出/返回';
+      case 'book_edit_author':
+        return '作者';
       default:
         return null;
     }
@@ -111886,6 +111951,8 @@ extension on _StringsZhHk {
         return 'Toggle Subtitle Blur';
       case 'shortcut_action_video_escape':
         return 'Exit / Back';
+      case 'book_edit_author':
+        return 'Author';
       default:
         return null;
     }
