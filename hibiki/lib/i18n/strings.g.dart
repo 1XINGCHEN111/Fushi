@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26350 (1550 per locale)
+/// Strings: 26520 (1560 per locale)
 ///
-/// Built on 2026-06-12 at 03:10 UTC
+/// Built on 2026-06-12 at 06:45 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2069,6 +2069,18 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Toggle Subtitle Blur';
   String get shortcut_action_video_escape => 'Exit / Back';
   String get book_edit_author => 'Author';
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  String get video_setting_picture_fit => 'Picture scaling';
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  String get video_subtitle_list_font_larger => 'Larger text';
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -5549,6 +5561,28 @@ class _StringsAr extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -9112,6 +9146,28 @@ class _StringsDe extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -12689,6 +12745,28 @@ class _StringsEs extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -16286,6 +16364,28 @@ class _StringsFr extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -19805,6 +19905,28 @@ class _StringsId extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -23366,6 +23488,28 @@ class _StringsIt extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -26754,6 +26898,28 @@ class _StringsJa extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -30143,6 +30309,28 @@ class _StringsKo extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -33686,6 +33874,28 @@ class _StringsNl extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -37242,6 +37452,28 @@ class _StringsPtBr extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -40783,6 +41015,28 @@ class _StringsRu extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -44263,6 +44517,28 @@ class _StringsTh extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -47782,6 +48058,28 @@ class _StringsTr extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -51281,6 +51579,28 @@ class _StringsVi extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -54566,6 +54886,26 @@ class _StringsZhCn extends _StringsEn {
   String get shortcut_action_video_escape => '退出/返回';
   @override
   String get book_edit_author => '作者';
+  @override
+  String get video_setting_lock_window_aspect => '锁定窗口为视频比例';
+  @override
+  String get video_setting_picture_fit => '画面缩放';
+  @override
+  String get video_setting_picture_fit_hint => '画面如何填充播放区域';
+  @override
+  String get video_setting_picture_fit_cover => '占满（保持比例，裁切边缘）';
+  @override
+  String get video_setting_picture_fit_contain => '适应（保持比例，加黑边）';
+  @override
+  String get video_setting_picture_fit_fill => '拉伸填充';
+  @override
+  String get video_subtitle_list_font_smaller => '缩小字号';
+  @override
+  String get video_subtitle_list_font_larger => '放大字号';
+  @override
+  String get video_subtitle_list_auto_scroll => '自动滚动';
+  @override
+  String get video_subtitle_list_jump => '跳转到此句';
 }
 
 // Path: retrying_in
@@ -57927,6 +58267,28 @@ class _StringsZhHk extends _StringsEn {
   String get shortcut_action_video_escape => 'Exit / Back';
   @override
   String get book_edit_author => 'Author';
+  @override
+  String get video_setting_lock_window_aspect => 'Lock window to video aspect';
+  @override
+  String get video_setting_picture_fit => 'Picture scaling';
+  @override
+  String get video_setting_picture_fit_hint =>
+      'How the picture fills the player area';
+  @override
+  String get video_setting_picture_fit_cover => 'Fill (keep ratio, crop edges)';
+  @override
+  String get video_setting_picture_fit_contain =>
+      'Fit (keep ratio, add black bars)';
+  @override
+  String get video_setting_picture_fit_fill => 'Stretch to fill';
+  @override
+  String get video_subtitle_list_font_smaller => 'Smaller text';
+  @override
+  String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_subtitle_list_auto_scroll => 'Auto-scroll';
+  @override
+  String get video_subtitle_list_jump => 'Jump to this line';
 }
 
 // Path: retrying_in
@@ -61142,6 +61504,26 @@ extension on _StringsEn {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -64315,6 +64697,26 @@ extension on _StringsAr {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -67504,6 +67906,26 @@ extension on _StringsDe {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -70691,6 +71113,26 @@ extension on _StringsEs {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -73880,6 +74322,26 @@ extension on _StringsFr {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -77058,6 +77520,26 @@ extension on _StringsId {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -80244,6 +80726,26 @@ extension on _StringsIt {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -83406,6 +83908,26 @@ extension on _StringsJa {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -86570,6 +87092,26 @@ extension on _StringsKo {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -89753,6 +90295,26 @@ extension on _StringsNl {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -92935,6 +93497,26 @@ extension on _StringsPtBr {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -96118,6 +96700,26 @@ extension on _StringsRu {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -99292,6 +99894,26 @@ extension on _StringsTh {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -102469,6 +103091,26 @@ extension on _StringsTr {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -105643,6 +106285,26 @@ extension on _StringsVi {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
@@ -108793,6 +109455,26 @@ extension on _StringsZhCn {
         return '退出/返回';
       case 'book_edit_author':
         return '作者';
+      case 'video_setting_lock_window_aspect':
+        return '锁定窗口为视频比例';
+      case 'video_setting_picture_fit':
+        return '画面缩放';
+      case 'video_setting_picture_fit_hint':
+        return '画面如何填充播放区域';
+      case 'video_setting_picture_fit_cover':
+        return '占满（保持比例，裁切边缘）';
+      case 'video_setting_picture_fit_contain':
+        return '适应（保持比例，加黑边）';
+      case 'video_setting_picture_fit_fill':
+        return '拉伸填充';
+      case 'video_subtitle_list_font_smaller':
+        return '缩小字号';
+      case 'video_subtitle_list_font_larger':
+        return '放大字号';
+      case 'video_subtitle_list_auto_scroll':
+        return '自动滚动';
+      case 'video_subtitle_list_jump':
+        return '跳转到此句';
       default:
         return null;
     }
@@ -111953,6 +112635,26 @@ extension on _StringsZhHk {
         return 'Exit / Back';
       case 'book_edit_author':
         return 'Author';
+      case 'video_setting_lock_window_aspect':
+        return 'Lock window to video aspect';
+      case 'video_setting_picture_fit':
+        return 'Picture scaling';
+      case 'video_setting_picture_fit_hint':
+        return 'How the picture fills the player area';
+      case 'video_setting_picture_fit_cover':
+        return 'Fill (keep ratio, crop edges)';
+      case 'video_setting_picture_fit_contain':
+        return 'Fit (keep ratio, add black bars)';
+      case 'video_setting_picture_fit_fill':
+        return 'Stretch to fill';
+      case 'video_subtitle_list_font_smaller':
+        return 'Smaller text';
+      case 'video_subtitle_list_font_larger':
+        return 'Larger text';
+      case 'video_subtitle_list_auto_scroll':
+        return 'Auto-scroll';
+      case 'video_subtitle_list_jump':
+        return 'Jump to this line';
       default:
         return null;
     }
