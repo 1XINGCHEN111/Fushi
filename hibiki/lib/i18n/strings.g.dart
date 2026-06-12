@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26401 (1553 per locale)
+/// Strings: 26503 (1559 per locale)
 ///
-/// Built on 2026-06-12 at 07:17 UTC
+/// Built on 2026-06-12 at 07:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2069,6 +2069,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Fit keep ratio add black bars';
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   String get video_subtitle_list_font_larger => 'Larger text';
+  String get video_double_tap_next_cue => 'Next line';
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  String get video_setting_double_tap => 'Double-tap seek';
+  String get video_double_tap_prev_cue => 'Previous line';
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -5552,6 +5559,19 @@ class _StringsAr extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -9118,6 +9138,19 @@ class _StringsDe extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -12698,6 +12731,19 @@ class _StringsEs extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -16298,6 +16344,19 @@ class _StringsFr extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -19820,6 +19879,19 @@ class _StringsId extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -23384,6 +23456,19 @@ class _StringsIt extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -26775,6 +26860,19 @@ class _StringsJa extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -30167,6 +30265,19 @@ class _StringsKo extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -33713,6 +33824,19 @@ class _StringsNl extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -37272,6 +37396,19 @@ class _StringsPtBr extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -40816,6 +40953,19 @@ class _StringsRu extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -44299,6 +44449,19 @@ class _StringsTh extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -47821,6 +47984,19 @@ class _StringsTr extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -51323,6 +51499,19 @@ class _StringsVi extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -54613,6 +54802,18 @@ class _StringsZhCn extends _StringsEn {
   String get video_setting_lock_window_aspect => '锁定窗口为视频比例';
   @override
   String get video_subtitle_list_font_larger => '放大字号';
+  @override
+  String get video_double_tap_next_cue => '下一句';
+  @override
+  String get video_setting_double_tap_subtitle => '字幕';
+  @override
+  String get video_setting_double_tap_hint => '双击视频左右两侧快退快进';
+  @override
+  String get video_setting_double_tap => '双击快进';
+  @override
+  String get video_double_tap_prev_cue => '上一句';
+  @override
+  String get video_setting_double_tap_off => '关';
 }
 
 // Path: retrying_in
@@ -57980,6 +58181,19 @@ class _StringsZhHk extends _StringsEn {
   String get video_setting_lock_window_aspect => 'Lock window to video aspect';
   @override
   String get video_subtitle_list_font_larger => 'Larger text';
+  @override
+  String get video_double_tap_next_cue => 'Next line';
+  @override
+  String get video_setting_double_tap_subtitle => 'Subtitle';
+  @override
+  String get video_setting_double_tap_hint =>
+      'Double-tap the left or right of the video to seek';
+  @override
+  String get video_setting_double_tap => 'Double-tap seek';
+  @override
+  String get video_double_tap_prev_cue => 'Previous line';
+  @override
+  String get video_setting_double_tap_off => 'Off';
 }
 
 // Path: retrying_in
@@ -61200,6 +61414,18 @@ extension on _StringsEn {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -64378,6 +64604,18 @@ extension on _StringsAr {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -67572,6 +67810,18 @@ extension on _StringsDe {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -70764,6 +71014,18 @@ extension on _StringsEs {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -73958,6 +74220,18 @@ extension on _StringsFr {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -77141,6 +77415,18 @@ extension on _StringsId {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -80332,6 +80618,18 @@ extension on _StringsIt {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -83499,6 +83797,18 @@ extension on _StringsJa {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -86668,6 +86978,18 @@ extension on _StringsKo {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -89856,6 +90178,18 @@ extension on _StringsNl {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -93043,6 +93377,18 @@ extension on _StringsPtBr {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -96231,6 +96577,18 @@ extension on _StringsRu {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -99410,6 +99768,18 @@ extension on _StringsTh {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -102592,6 +102962,18 @@ extension on _StringsTr {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -105771,6 +106153,18 @@ extension on _StringsVi {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
@@ -108927,6 +109321,18 @@ extension on _StringsZhCn {
         return '锁定窗口为视频比例';
       case 'video_subtitle_list_font_larger':
         return '放大字号';
+      case 'video_double_tap_next_cue':
+        return '下一句';
+      case 'video_setting_double_tap_subtitle':
+        return '字幕';
+      case 'video_setting_double_tap_hint':
+        return '双击视频左右两侧快退快进';
+      case 'video_setting_double_tap':
+        return '双击快进';
+      case 'video_double_tap_prev_cue':
+        return '上一句';
+      case 'video_setting_double_tap_off':
+        return '关';
       default:
         return null;
     }
@@ -112093,6 +112499,18 @@ extension on _StringsZhHk {
         return 'Lock window to video aspect';
       case 'video_subtitle_list_font_larger':
         return 'Larger text';
+      case 'video_double_tap_next_cue':
+        return 'Next line';
+      case 'video_setting_double_tap_subtitle':
+        return 'Subtitle';
+      case 'video_setting_double_tap_hint':
+        return 'Double-tap the left or right of the video to seek';
+      case 'video_setting_double_tap':
+        return 'Double-tap seek';
+      case 'video_double_tap_prev_cue':
+        return 'Previous line';
+      case 'video_setting_double_tap_off':
+        return 'Off';
       default:
         return null;
     }
