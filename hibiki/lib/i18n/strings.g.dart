@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27625 (1625 per locale)
+/// Strings: 27659 (1627 per locale)
 ///
-/// Built on 2026-06-13 at 18:07 UTC
+/// Built on 2026-06-13 at 19:21 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1785,6 +1785,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	String get video_bottom_seek_back_label => '−10s';
+	String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -3463,6 +3465,8 @@ class _StringsAr extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -5141,6 +5145,8 @@ class _StringsDe extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -6819,6 +6825,8 @@ class _StringsEs extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -8497,6 +8505,8 @@ class _StringsFr extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -10175,6 +10185,8 @@ class _StringsId extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -11853,6 +11865,8 @@ class _StringsIt extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -13531,6 +13545,8 @@ class _StringsJa extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -15209,6 +15225,8 @@ class _StringsKo extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -16887,6 +16905,8 @@ class _StringsNl extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -18565,6 +18585,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -20243,6 +20265,8 @@ class _StringsRu extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -21921,6 +21945,8 @@ class _StringsTh extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -23599,6 +23625,8 @@ class _StringsTr extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -25277,6 +25305,8 @@ class _StringsVi extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -26955,6 +26985,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => '弹幕服务器地址';
 	@override String get video_setting_danmaku_app_id => '弹弹play AppId';
 	@override String get video_setting_danmaku_app_secret => '弹弹play AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -28633,6 +28665,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
 	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
 	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
+	@override String get video_bottom_seek_back_label => '−10s';
+	@override String get video_bottom_seek_forward_label => '+10s';
 }
 
 // Path: retrying_in
@@ -30296,6 +30330,8 @@ extension on _StringsEn {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -31933,6 +31969,8 @@ extension on _StringsAr {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -33570,6 +33608,8 @@ extension on _StringsDe {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -35207,6 +35247,8 @@ extension on _StringsEs {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -36844,6 +36886,8 @@ extension on _StringsFr {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -38481,6 +38525,8 @@ extension on _StringsId {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -40118,6 +40164,8 @@ extension on _StringsIt {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -41755,6 +41803,8 @@ extension on _StringsJa {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -43392,6 +43442,8 @@ extension on _StringsKo {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -45029,6 +45081,8 @@ extension on _StringsNl {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -46666,6 +46720,8 @@ extension on _StringsPtBr {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -48303,6 +48359,8 @@ extension on _StringsRu {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -49940,6 +49998,8 @@ extension on _StringsTh {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -51577,6 +51637,8 @@ extension on _StringsTr {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -53214,6 +53276,8 @@ extension on _StringsVi {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -54851,6 +54915,8 @@ extension on _StringsZhCn {
 			case 'video_setting_danmaku_server_url': return '弹幕服务器地址';
 			case 'video_setting_danmaku_app_id': return '弹弹play AppId';
 			case 'video_setting_danmaku_app_secret': return '弹弹play AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
@@ -56488,6 +56554,8 @@ extension on _StringsZhHk {
 			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
 			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
 			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
+			case 'video_bottom_seek_back_label': return '−10s';
+			case 'video_bottom_seek_forward_label': return '+10s';
 			default: return null;
 		}
 	}
