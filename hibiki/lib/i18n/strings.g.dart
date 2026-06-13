@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26724 (1572 per locale)
+/// Strings: 26758 (1574 per locale)
 ///
-/// Built on 2026-06-12 at 17:38 UTC
+/// Built on 2026-06-13 at 07:32 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2092,6 +2092,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_immersive_mode_seek_lookup => 'Seek + lookup';
   String get video_immersive_mode_unlock_only => 'Unlock only';
   String get custom_fonts_catalog_title => 'Font library';
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -5617,6 +5620,11 @@ class _StringsAr extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -9225,6 +9233,11 @@ class _StringsDe extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -12847,6 +12860,11 @@ class _StringsEs extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -16489,6 +16507,11 @@ class _StringsFr extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -20053,6 +20076,11 @@ class _StringsId extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -23659,6 +23687,11 @@ class _StringsIt extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -27092,6 +27125,11 @@ class _StringsJa extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -30526,6 +30564,11 @@ class _StringsKo extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -34114,6 +34157,11 @@ class _StringsNl extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -37715,6 +37763,11 @@ class _StringsPtBr extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -41301,6 +41354,11 @@ class _StringsRu extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -44826,6 +44884,11 @@ class _StringsTh extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -48390,6 +48453,11 @@ class _StringsTr extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -51934,6 +52002,11 @@ class _StringsVi extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -55262,6 +55335,10 @@ class _StringsZhCn extends _StringsEn {
   String get video_immersive_mode_unlock_only => '仅解锁';
   @override
   String get custom_fonts_catalog_title => '字体库';
+  @override
+  String get startup_default_dictionary_tab => '启动时打开查词';
+  @override
+  String get startup_default_dictionary_tab_hint => '应用开屏后直接显示查词页；关闭时保留当前默认首页。';
 }
 
 // Path: retrying_in
@@ -58671,6 +58748,11 @@ class _StringsZhHk extends _StringsEn {
   String get video_immersive_mode_unlock_only => 'Unlock only';
   @override
   String get custom_fonts_catalog_title => 'Font library';
+  @override
+  String get startup_default_dictionary_tab => 'Open lookup on startup';
+  @override
+  String get startup_default_dictionary_tab_hint =>
+      'Start the home screen on the lookup tab instead of the current default.';
 }
 
 // Path: retrying_in
@@ -61929,6 +62011,10 @@ extension on _StringsEn {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -65145,6 +65231,10 @@ extension on _StringsAr {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -68377,6 +68467,10 @@ extension on _StringsDe {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -71607,6 +71701,10 @@ extension on _StringsEs {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -74839,6 +74937,10 @@ extension on _StringsFr {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -78060,6 +78162,10 @@ extension on _StringsId {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -81289,6 +81395,10 @@ extension on _StringsIt {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -84494,6 +84604,10 @@ extension on _StringsJa {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -87701,6 +87815,10 @@ extension on _StringsKo {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -90927,6 +91045,10 @@ extension on _StringsNl {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -94152,6 +94274,10 @@ extension on _StringsPtBr {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -97378,6 +97504,10 @@ extension on _StringsRu {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -100595,6 +100725,10 @@ extension on _StringsTh {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -103815,6 +103949,10 @@ extension on _StringsTr {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -107032,6 +107170,10 @@ extension on _StringsVi {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
@@ -110226,6 +110368,10 @@ extension on _StringsZhCn {
         return '仅解锁';
       case 'custom_fonts_catalog_title':
         return '字体库';
+      case 'startup_default_dictionary_tab':
+        return '启动时打开查词';
+      case 'startup_default_dictionary_tab_hint':
+        return '应用开屏后直接显示查词页；关闭时保留当前默认首页。';
       default:
         return null;
     }
@@ -113430,6 +113576,10 @@ extension on _StringsZhHk {
         return 'Unlock only';
       case 'custom_fonts_catalog_title':
         return 'Font library';
+      case 'startup_default_dictionary_tab':
+        return 'Open lookup on startup';
+      case 'startup_default_dictionary_tab_hint':
+        return 'Start the home screen on the lookup tab instead of the current default.';
       default:
         return null;
     }
