@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27438 (1614 per locale)
+/// Strings: 27523 (1619 per locale)
 ///
-/// Built on 2026-06-13 at 15:55 UTC
+/// Built on 2026-06-13 at 17:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1774,6 +1774,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get app_ui_scale_auto => 'Automatic';
 	String get app_ui_scale_custom => 'Custom';
 	String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	String get video_bottom_seek_back => 'Back 10s';
+	String get video_bottom_seek_forward => 'Forward 10s';
+	String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -3441,6 +3446,11 @@ class _StringsAr extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -5108,6 +5118,11 @@ class _StringsDe extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -6775,6 +6790,11 @@ class _StringsEs extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -8442,6 +8462,11 @@ class _StringsFr extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -10109,6 +10134,11 @@ class _StringsId extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -11776,6 +11806,11 @@ class _StringsIt extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -13443,6 +13478,11 @@ class _StringsJa extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -15110,6 +15150,11 @@ class _StringsKo extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -16777,6 +16822,11 @@ class _StringsNl extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -18444,6 +18494,11 @@ class _StringsPtBr extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -20111,6 +20166,11 @@ class _StringsRu extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -21778,6 +21838,11 @@ class _StringsTh extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -23445,6 +23510,11 @@ class _StringsTr extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -25112,6 +25182,11 @@ class _StringsVi extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -26779,6 +26854,11 @@ class _StringsZhCn extends _StringsEn {
 	@override String get app_ui_scale_auto => '自动';
 	@override String get app_ui_scale_custom => '自定义';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid 数据库当前不可用：请先打开 AnkiDroid 至少一次，确认它没有在同步且已开启 API，然后重试。';
+	@override String get video_bottom_seek_back => '后退 10 秒';
+	@override String get video_bottom_seek_forward => '前进 10 秒';
+	@override String get video_bottom_prev_cue => '上一句字幕（无字幕则后退一段）';
+	@override String get video_bottom_next_cue => '下一句字幕（无字幕则前进一段）';
+	@override String get video_bottom_play_pause => '播放 / 暂停';
 }
 
 // Path: retrying_in
@@ -28446,6 +28526,11 @@ class _StringsZhHk extends _StringsEn {
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -30098,6 +30183,11 @@ extension on _StringsEn {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -31724,6 +31814,11 @@ extension on _StringsAr {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -33350,6 +33445,11 @@ extension on _StringsDe {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -34976,6 +35076,11 @@ extension on _StringsEs {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -36602,6 +36707,11 @@ extension on _StringsFr {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -38228,6 +38338,11 @@ extension on _StringsId {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -39854,6 +39969,11 @@ extension on _StringsIt {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -41480,6 +41600,11 @@ extension on _StringsJa {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -43106,6 +43231,11 @@ extension on _StringsKo {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -44732,6 +44862,11 @@ extension on _StringsNl {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -46358,6 +46493,11 @@ extension on _StringsPtBr {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -47984,6 +48124,11 @@ extension on _StringsRu {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -49610,6 +49755,11 @@ extension on _StringsTh {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -51236,6 +51386,11 @@ extension on _StringsTr {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -52862,6 +53017,11 @@ extension on _StringsVi {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -54488,6 +54648,11 @@ extension on _StringsZhCn {
 			case 'app_ui_scale_auto': return '自动';
 			case 'app_ui_scale_custom': return '自定义';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid 数据库当前不可用：请先打开 AnkiDroid 至少一次，确认它没有在同步且已开启 API，然后重试。';
+			case 'video_bottom_seek_back': return '后退 10 秒';
+			case 'video_bottom_seek_forward': return '前进 10 秒';
+			case 'video_bottom_prev_cue': return '上一句字幕（无字幕则后退一段）';
+			case 'video_bottom_next_cue': return '下一句字幕（无字幕则前进一段）';
+			case 'video_bottom_play_pause': return '播放 / 暂停';
 			default: return null;
 		}
 	}
@@ -56114,6 +56279,11 @@ extension on _StringsZhHk {
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
