@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27353 (1609 per locale)
+/// Strings: 27421 (1613 per locale)
 ///
-/// Built on 2026-06-13 at 12:08 UTC
+/// Built on 2026-06-13 at 12:19 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1769,6 +1769,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_subtitle_list_clear_selection => 'Clear card selection';
 	String get video_subtitle_list_next_card_selection => 'selected for next card';
 	String get app_version => 'App version';
+	String get app_ui_scale_mode => 'UI size mode';
+	String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	String get app_ui_scale_auto => 'Automatic';
+	String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -3431,6 +3435,10 @@ class _StringsAr extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -5093,6 +5101,10 @@ class _StringsDe extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -6755,6 +6767,10 @@ class _StringsEs extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -8417,6 +8433,10 @@ class _StringsFr extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -10079,6 +10099,10 @@ class _StringsId extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -11741,6 +11765,10 @@ class _StringsIt extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -13403,6 +13431,10 @@ class _StringsJa extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -15065,6 +15097,10 @@ class _StringsKo extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -16727,6 +16763,10 @@ class _StringsNl extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -18389,6 +18429,10 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -20051,6 +20095,10 @@ class _StringsRu extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -21713,6 +21761,10 @@ class _StringsTh extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -23375,6 +23427,10 @@ class _StringsTr extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -25037,6 +25093,10 @@ class _StringsVi extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -26699,6 +26759,10 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => '清空选择';
 	@override String get video_subtitle_list_next_card_selection => '已选入下一张卡';
 	@override String get app_version => '应用版本';
+	@override String get app_ui_scale_mode => '界面大小模式';
+	@override String get app_ui_scale_mode_hint => '按当前设备和窗口自动设置界面大小，也可切换为自定义百分比。';
+	@override String get app_ui_scale_auto => '自动';
+	@override String get app_ui_scale_custom => '自定义';
 }
 
 // Path: retrying_in
@@ -28361,6 +28425,10 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
+	@override String get app_ui_scale_mode => 'UI size mode';
+	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
+	@override String get app_ui_scale_auto => 'Automatic';
+	@override String get app_ui_scale_custom => 'Custom';
 }
 
 // Path: retrying_in
@@ -30008,6 +30076,10 @@ extension on _StringsEn {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -31629,6 +31701,10 @@ extension on _StringsAr {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -33250,6 +33326,10 @@ extension on _StringsDe {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -34871,6 +34951,10 @@ extension on _StringsEs {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -36492,6 +36576,10 @@ extension on _StringsFr {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -38113,6 +38201,10 @@ extension on _StringsId {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -39734,6 +39826,10 @@ extension on _StringsIt {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -41355,6 +41451,10 @@ extension on _StringsJa {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -42976,6 +43076,10 @@ extension on _StringsKo {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -44597,6 +44701,10 @@ extension on _StringsNl {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -46218,6 +46326,10 @@ extension on _StringsPtBr {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -47839,6 +47951,10 @@ extension on _StringsRu {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -49460,6 +49576,10 @@ extension on _StringsTh {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -51081,6 +51201,10 @@ extension on _StringsTr {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -52702,6 +52826,10 @@ extension on _StringsVi {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
@@ -54323,6 +54451,10 @@ extension on _StringsZhCn {
 			case 'video_subtitle_list_clear_selection': return '清空选择';
 			case 'video_subtitle_list_next_card_selection': return '已选入下一张卡';
 			case 'app_version': return '应用版本';
+			case 'app_ui_scale_mode': return '界面大小模式';
+			case 'app_ui_scale_mode_hint': return '按当前设备和窗口自动设置界面大小，也可切换为自定义百分比。';
+			case 'app_ui_scale_auto': return '自动';
+			case 'app_ui_scale_custom': return '自定义';
 			default: return null;
 		}
 	}
@@ -55944,6 +56076,10 @@ extension on _StringsZhHk {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
+			case 'app_ui_scale_mode': return 'UI size mode';
+			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
+			case 'app_ui_scale_auto': return 'Automatic';
+			case 'app_ui_scale_custom': return 'Custom';
 			default: return null;
 		}
 	}
