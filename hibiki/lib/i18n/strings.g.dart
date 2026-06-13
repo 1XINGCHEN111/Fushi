@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 27421 (1613 per locale)
 ///
-/// Built on 2026-06-13 at 12:19 UTC
+/// Built on 2026-06-13 at 15:28 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -26647,14 +26647,14 @@ class _StringsZhCn extends _StringsEn {
 	@override String get section_audiobook_lyrics => '有声书与歌词';
 	@override String get video_subtitle_color_note => '视频字幕颜色在视频播放器内设置。';
 	@override String get theme_seed_preview_hint => '下方色板预览由种子色实际生成的颜色。想让某个颜色固定作为主色强调色，请打开「主色」开关并显式指定。';
-	@override String get backup_export_categories_title => 'ѡÔñҪµ¼³öµÄÄÚÈÝ';
-	@override String get backup_export_categories_hint => '¹´ѡµÄÀà±ð»ᱻ´ò°ü½ø±¸·ݡ£Êý¾ݿ⣨Ê鼮¡¢ͳ¼ơ¢Êղء¢ÅäÖ÷½°¸¡¢ÉèÖã©ʼÖհüº¬¡£';
-	@override String get backup_category_dictionary => '´ʵä';
-	@override String get backup_category_books => 'Ê鼮ÄÚÈÝ';
-	@override String get backup_category_audiobooks => 'ÓÐÉùÊéÒôƵ';
-	@override String get backup_category_fonts => '×Զ¨Òå×ÖÌå';
-	@override String get popup_bottom_docked => 'µײ¿¹̶¨µ¯´°';
-	@override String get popup_bottom_docked_hint => '°Ѳé´ʵ¯´°¹̶¨ΪÆÁĻµײ¿һÌõȫ¿íÃæ°壬¶ø²»ÊǸúË汻²é´ʵÄλÖá£';
+	@override String get backup_export_categories_title => '选择要导出的内容';
+	@override String get backup_export_categories_hint => '勾选的类别会被打包进备份。数据库（书籍、统计、收藏、配置方案、设置）始终包含。';
+	@override String get backup_category_dictionary => '词典';
+	@override String get backup_category_books => '书籍内容';
+	@override String get backup_category_audiobooks => '有声书音频';
+	@override String get backup_category_fonts => '自定义字体';
+	@override String get popup_bottom_docked => '底部停靠查词弹窗';
+	@override String get popup_bottom_docked_hint => '将查词弹窗固定为屏幕底部一条整宽面板，而不是跟随被查词的位置。';
 	@override String get video_subtitle_list => '字幕列表';
 	@override String get video_subtitle_list_empty => '未加载字幕';
 	@override String get swipe_page_turn_sensitivity => '滑动翻页灵敏度';
@@ -54339,14 +54339,14 @@ extension on _StringsZhCn {
 			case 'section_audiobook_lyrics': return '有声书与歌词';
 			case 'video_subtitle_color_note': return '视频字幕颜色在视频播放器内设置。';
 			case 'theme_seed_preview_hint': return '下方色板预览由种子色实际生成的颜色。想让某个颜色固定作为主色强调色，请打开「主色」开关并显式指定。';
-			case 'backup_export_categories_title': return 'ѡÔñҪµ¼³öµÄÄÚÈÝ';
-			case 'backup_export_categories_hint': return '¹´ѡµÄÀà±ð»ᱻ´ò°ü½ø±¸·ݡ£Êý¾ݿ⣨Ê鼮¡¢ͳ¼ơ¢Êղء¢ÅäÖ÷½°¸¡¢ÉèÖã©ʼÖհüº¬¡£';
-			case 'backup_category_dictionary': return '´ʵä';
-			case 'backup_category_books': return 'Ê鼮ÄÚÈÝ';
-			case 'backup_category_audiobooks': return 'ÓÐÉùÊéÒôƵ';
-			case 'backup_category_fonts': return '×Զ¨Òå×ÖÌå';
-			case 'popup_bottom_docked': return 'µײ¿¹̶¨µ¯´°';
-			case 'popup_bottom_docked_hint': return '°Ѳé´ʵ¯´°¹̶¨ΪÆÁĻµײ¿һÌõȫ¿íÃæ°壬¶ø²»ÊǸúË汻²é´ʵÄλÖá£';
+			case 'backup_export_categories_title': return '选择要导出的内容';
+			case 'backup_export_categories_hint': return '勾选的类别会被打包进备份。数据库（书籍、统计、收藏、配置方案、设置）始终包含。';
+			case 'backup_category_dictionary': return '词典';
+			case 'backup_category_books': return '书籍内容';
+			case 'backup_category_audiobooks': return '有声书音频';
+			case 'backup_category_fonts': return '自定义字体';
+			case 'popup_bottom_docked': return '底部停靠查词弹窗';
+			case 'popup_bottom_docked_hint': return '将查词弹窗固定为屏幕底部一条整宽面板，而不是跟随被查词的位置。';
 			case 'video_subtitle_list': return '字幕列表';
 			case 'video_subtitle_list_empty': return '未加载字幕';
 			case 'swipe_page_turn_sensitivity': return '滑动翻页灵敏度';
