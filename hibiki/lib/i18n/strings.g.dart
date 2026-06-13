@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26894 (1582 per locale)
+/// Strings: 27336 (1608 per locale)
 ///
-/// Built on 2026-06-13 at 10:49 UTC
+/// Built on 2026-06-13 at 12:00 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1742,6 +1742,32 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	String get video_settings_cat_controls => 'Controls';
+	String get video_control_placement_bottom => 'Bottom bar';
+	String get video_control_placement_right => 'Right side';
+	String get video_control_placement_settings => 'Settings only';
+	String get video_control_speed => 'Speed';
+	String get video_control_subtitle_list => 'Subtitle list';
+	String get video_control_favorite_sentence => 'Favorite current sentence';
+	String get video_control_favorite_sentences => 'Episode favorites';
+	String get video_control_settings => 'Player settings';
+	String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	String get video_setting_long_press_speed => 'Long-press speed';
+	String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	String get video_favorite_sentences => 'Episode favorites';
+	String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	String get video_subtitle_filter_all => 'All';
+	String get video_subtitle_filter_favorites => 'Favorites';
+	String get video_subtitle_filter_selected => 'Selected';
+	String get video_subtitle_list_card_selection => 'Card selection';
+	String get video_subtitle_list_select_for_card => 'Select for card';
+	String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	String get video_subtitle_list_clear_selection => 'Clear card selection';
+	String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -3377,6 +3403,32 @@ class _StringsAr extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -5012,6 +5064,32 @@ class _StringsDe extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -6647,6 +6725,32 @@ class _StringsEs extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -8282,6 +8386,32 @@ class _StringsFr extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -9917,6 +10047,32 @@ class _StringsId extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -11552,6 +11708,32 @@ class _StringsIt extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -13187,6 +13369,32 @@ class _StringsJa extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -14822,6 +15030,32 @@ class _StringsKo extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -16457,6 +16691,32 @@ class _StringsNl extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -18092,6 +18352,32 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -19727,6 +20013,32 @@ class _StringsRu extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -21362,6 +21674,32 @@ class _StringsTh extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -22997,6 +23335,32 @@ class _StringsTr extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -24632,6 +24996,32 @@ class _StringsVi extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -26267,6 +26657,32 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => '没有可用本地 sidecar 时，用 Dandanplay 匹配当前视频并拉取关联弹幕。';
 	@override String get video_setting_danmaku_max_active => '同时显示上限';
 	@override String get video_setting_danmaku_max_active_hint => '限制每帧渲染的弹幕数量，避免大文件拖慢播放。';
+	@override String get video_settings_cat_controls => '控制按钮';
+	@override String get video_control_placement_bottom => '底栏';
+	@override String get video_control_placement_right => '右侧';
+	@override String get video_control_placement_settings => '仅设置';
+	@override String get video_control_speed => '倍速';
+	@override String get video_control_subtitle_list => '字幕列表';
+	@override String get video_control_favorite_sentence => '收藏当前句';
+	@override String get video_control_favorite_sentences => '本集收藏';
+	@override String get video_control_settings => '播放器设置';
+	@override String get video_control_settings_required_hint => '移出播放器后仍可从设置和右键菜单进入。';
+	@override String get video_setting_long_press_speed => '长按倍速';
+	@override String get video_setting_long_press_speed_hint => '按住画面时临时使用这个倍速。';
+	@override String get video_favorite_sentences => '本集收藏句子';
+	@override String get video_favorite_sentences_empty => '本集还没有收藏句子';
+	@override String get shortcut_action_video_toggle_favorite_sentence => '收藏当前句';
+	@override String get shortcut_action_video_replay_current_subtitle => '重播当前句';
+	@override String get shortcut_action_video_replay_previous_subtitle => '重播上一句';
+	@override String get shortcut_action_video_show_favorite_sentences => '显示本集收藏句';
+	@override String get video_subtitle_filter_all => '全部';
+	@override String get video_subtitle_filter_favorites => '收藏';
+	@override String get video_subtitle_filter_selected => '已选';
+	@override String get video_subtitle_list_card_selection => '制卡选择';
+	@override String get video_subtitle_list_select_for_card => '选入词卡';
+	@override String get video_subtitle_list_remove_from_card => '移出词卡';
+	@override String get video_subtitle_list_clear_selection => '清空选择';
+	@override String get video_subtitle_list_next_card_selection => '已选入下一张卡';
 }
 
 // Path: retrying_in
@@ -27902,6 +28318,32 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get video_settings_cat_controls => 'Controls';
+	@override String get video_control_placement_bottom => 'Bottom bar';
+	@override String get video_control_placement_right => 'Right side';
+	@override String get video_control_placement_settings => 'Settings only';
+	@override String get video_control_speed => 'Speed';
+	@override String get video_control_subtitle_list => 'Subtitle list';
+	@override String get video_control_favorite_sentence => 'Favorite current sentence';
+	@override String get video_control_favorite_sentences => 'Episode favorites';
+	@override String get video_control_settings => 'Player settings';
+	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
+	@override String get video_setting_long_press_speed => 'Long-press speed';
+	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
+	@override String get video_favorite_sentences => 'Episode favorites';
+	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
+	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
+	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
+	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
+	@override String get video_subtitle_filter_all => 'All';
+	@override String get video_subtitle_filter_favorites => 'Favorites';
+	@override String get video_subtitle_filter_selected => 'Selected';
+	@override String get video_subtitle_list_card_selection => 'Card selection';
+	@override String get video_subtitle_list_select_for_card => 'Select for card';
+	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
+	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 }
 
 // Path: retrying_in
@@ -29522,6 +29964,32 @@ extension on _StringsEn {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -31116,6 +31584,32 @@ extension on _StringsAr {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -32710,6 +33204,32 @@ extension on _StringsDe {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -34304,6 +34824,32 @@ extension on _StringsEs {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -35898,6 +36444,32 @@ extension on _StringsFr {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -37492,6 +38064,32 @@ extension on _StringsId {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -39086,6 +39684,32 @@ extension on _StringsIt {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -40680,6 +41304,32 @@ extension on _StringsJa {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -42274,6 +42924,32 @@ extension on _StringsKo {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -43868,6 +44544,32 @@ extension on _StringsNl {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -45462,6 +46164,32 @@ extension on _StringsPtBr {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -47056,6 +47784,32 @@ extension on _StringsRu {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -48650,6 +49404,32 @@ extension on _StringsTh {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -50244,6 +51024,32 @@ extension on _StringsTr {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -51838,6 +52644,32 @@ extension on _StringsVi {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
@@ -53432,6 +54264,32 @@ extension on _StringsZhCn {
 			case 'video_setting_danmaku_online_hint': return '没有可用本地 sidecar 时，用 Dandanplay 匹配当前视频并拉取关联弹幕。';
 			case 'video_setting_danmaku_max_active': return '同时显示上限';
 			case 'video_setting_danmaku_max_active_hint': return '限制每帧渲染的弹幕数量，避免大文件拖慢播放。';
+			case 'video_settings_cat_controls': return '控制按钮';
+			case 'video_control_placement_bottom': return '底栏';
+			case 'video_control_placement_right': return '右侧';
+			case 'video_control_placement_settings': return '仅设置';
+			case 'video_control_speed': return '倍速';
+			case 'video_control_subtitle_list': return '字幕列表';
+			case 'video_control_favorite_sentence': return '收藏当前句';
+			case 'video_control_favorite_sentences': return '本集收藏';
+			case 'video_control_settings': return '播放器设置';
+			case 'video_control_settings_required_hint': return '移出播放器后仍可从设置和右键菜单进入。';
+			case 'video_setting_long_press_speed': return '长按倍速';
+			case 'video_setting_long_press_speed_hint': return '按住画面时临时使用这个倍速。';
+			case 'video_favorite_sentences': return '本集收藏句子';
+			case 'video_favorite_sentences_empty': return '本集还没有收藏句子';
+			case 'shortcut_action_video_toggle_favorite_sentence': return '收藏当前句';
+			case 'shortcut_action_video_replay_current_subtitle': return '重播当前句';
+			case 'shortcut_action_video_replay_previous_subtitle': return '重播上一句';
+			case 'shortcut_action_video_show_favorite_sentences': return '显示本集收藏句';
+			case 'video_subtitle_filter_all': return '全部';
+			case 'video_subtitle_filter_favorites': return '收藏';
+			case 'video_subtitle_filter_selected': return '已选';
+			case 'video_subtitle_list_card_selection': return '制卡选择';
+			case 'video_subtitle_list_select_for_card': return '选入词卡';
+			case 'video_subtitle_list_remove_from_card': return '移出词卡';
+			case 'video_subtitle_list_clear_selection': return '清空选择';
+			case 'video_subtitle_list_next_card_selection': return '已选入下一张卡';
 			default: return null;
 		}
 	}
@@ -55026,6 +55884,32 @@ extension on _StringsZhHk {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'video_settings_cat_controls': return 'Controls';
+			case 'video_control_placement_bottom': return 'Bottom bar';
+			case 'video_control_placement_right': return 'Right side';
+			case 'video_control_placement_settings': return 'Settings only';
+			case 'video_control_speed': return 'Speed';
+			case 'video_control_subtitle_list': return 'Subtitle list';
+			case 'video_control_favorite_sentence': return 'Favorite current sentence';
+			case 'video_control_favorite_sentences': return 'Episode favorites';
+			case 'video_control_settings': return 'Player settings';
+			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
+			case 'video_setting_long_press_speed': return 'Long-press speed';
+			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
+			case 'video_favorite_sentences': return 'Episode favorites';
+			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
+			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
+			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
+			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
+			case 'video_subtitle_filter_all': return 'All';
+			case 'video_subtitle_filter_favorites': return 'Favorites';
+			case 'video_subtitle_filter_selected': return 'Selected';
+			case 'video_subtitle_list_card_selection': return 'Card selection';
+			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
+			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			default: return null;
 		}
 	}
