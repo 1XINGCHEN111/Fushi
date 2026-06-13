@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27438 (1614 per locale)
+/// Strings: 27421 (1613 per locale)
 ///
-/// Built on 2026-06-13 at 15:27 UTC
+/// Built on 2026-06-13 at 15:30 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2031,7 +2031,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
   String get anki_tag_include_category => 'Add source category tag';
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   String get shortcut_scope_video => 'Video';
   String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
@@ -2147,8 +2147,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Choose automatic sizing for this screen or use your custom percentage.';
   String get app_ui_scale_auto => 'Automatic';
   String get app_ui_scale_custom => 'Custom';
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -5561,7 +5559,7 @@ class _StringsAr extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -5770,9 +5768,6 @@ class _StringsAr extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -9268,7 +9263,7 @@ class _StringsDe extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -9477,9 +9472,6 @@ class _StringsDe extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -12989,7 +12981,7 @@ class _StringsEs extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -13198,9 +13190,6 @@ class _StringsEs extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -16730,7 +16719,7 @@ class _StringsFr extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -16939,9 +16928,6 @@ class _StringsFr extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -20393,7 +20379,7 @@ class _StringsId extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -20602,9 +20588,6 @@ class _StringsId extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -24098,7 +24081,7 @@ class _StringsIt extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -24307,9 +24290,6 @@ class _StringsIt extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -27630,7 +27610,7 @@ class _StringsJa extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -27839,9 +27819,6 @@ class _StringsJa extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -31163,7 +31140,7 @@ class _StringsKo extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -31372,9 +31349,6 @@ class _StringsKo extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -34850,7 +34824,7 @@ class _StringsNl extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -35059,9 +35033,6 @@ class _StringsNl extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -38550,7 +38521,7 @@ class _StringsPtBr extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -38759,9 +38730,6 @@ class _StringsPtBr extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -42235,7 +42203,7 @@ class _StringsRu extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -42444,9 +42412,6 @@ class _StringsRu extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -45859,7 +45824,7 @@ class _StringsTh extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -46068,9 +46033,6 @@ class _StringsTh extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -49522,7 +49484,7 @@ class _StringsTr extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -49731,9 +49693,6 @@ class _StringsTr extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -53165,7 +53124,7 @@ class _StringsVi extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
   @override
@@ -53374,9 +53333,6 @@ class _StringsVi extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -56600,7 +56556,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get anki_tag_include_category => '添加来源分类标签';
   @override
-  String get anki_tag_include_category_hint => '书籍标「book」、视频标「anime」';
+  String get anki_tag_include_category_hint => '书籍标「book」、视频标「video」';
   @override
   String get reverse_arrow_page_turn => '反转方向键翻页方向';
   @override
@@ -56788,9 +56744,6 @@ class _StringsZhCn extends _StringsEn {
   String get app_ui_scale_auto => '自动';
   @override
   String get app_ui_scale_custom => '自定义';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid 数据库当前不可用：请先打开 AnkiDroid 至少一次，确认它没有在同步且已开启 API，然后重试。';
 }
 
 // Path: retrying_in
@@ -60087,7 +60040,7 @@ class _StringsZhHk extends _StringsEn {
   String get anki_tag_include_category => 'Add source category tag';
   @override
   String get anki_tag_include_category_hint =>
-      'Books get "book", videos get "anime"';
+      'Books get "book", videos get "video"';
   @override
   String get reverse_arrow_page_turn => '反轉方向鍵翻頁方向';
   @override
@@ -60296,9 +60249,6 @@ class _StringsZhHk extends _StringsEn {
   String get app_ui_scale_auto => 'Automatic';
   @override
   String get app_ui_scale_custom => 'Custom';
-  @override
-  String get anki_error_collection_unavailable =>
-      'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 }
 
 // Path: retrying_in
@@ -63452,7 +63402,7 @@ extension on _StringsEn {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -63639,8 +63589,6 @@ extension on _StringsEn {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -66752,7 +66700,7 @@ extension on _StringsAr {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -66939,8 +66887,6 @@ extension on _StringsAr {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -70068,7 +70014,7 @@ extension on _StringsDe {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -70255,8 +70201,6 @@ extension on _StringsDe {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -73382,7 +73326,7 @@ extension on _StringsEs {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -73569,8 +73513,6 @@ extension on _StringsEs {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -76698,7 +76640,7 @@ extension on _StringsFr {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -76885,8 +76827,6 @@ extension on _StringsFr {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -80003,7 +79943,7 @@ extension on _StringsId {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -80190,8 +80130,6 @@ extension on _StringsId {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -83316,7 +83254,7 @@ extension on _StringsIt {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -83503,8 +83441,6 @@ extension on _StringsIt {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -86605,7 +86541,7 @@ extension on _StringsJa {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -86792,8 +86728,6 @@ extension on _StringsJa {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -89896,7 +89830,7 @@ extension on _StringsKo {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -90083,8 +90017,6 @@ extension on _StringsKo {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -93206,7 +93138,7 @@ extension on _StringsNl {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -93393,8 +93325,6 @@ extension on _StringsNl {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -96515,7 +96445,7 @@ extension on _StringsPtBr {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -96702,8 +96632,6 @@ extension on _StringsPtBr {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -99825,7 +99753,7 @@ extension on _StringsRu {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -100012,8 +99940,6 @@ extension on _StringsRu {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -103126,7 +103052,7 @@ extension on _StringsTh {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -103313,8 +103239,6 @@ extension on _StringsTh {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -106430,7 +106354,7 @@ extension on _StringsTr {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -106617,8 +106541,6 @@ extension on _StringsTr {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -109731,7 +109653,7 @@ extension on _StringsVi {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return 'Reverse arrow-key page turn direction';
       case 'shortcut_scope_video':
@@ -109918,8 +109840,6 @@ extension on _StringsVi {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
@@ -113009,7 +112929,7 @@ extension on _StringsZhCn {
       case 'anki_tag_include_category':
         return '添加来源分类标签';
       case 'anki_tag_include_category_hint':
-        return '书籍标「book」、视频标「anime」';
+        return '书籍标「book」、视频标「video」';
       case 'reverse_arrow_page_turn':
         return '反转方向键翻页方向';
       case 'shortcut_scope_video':
@@ -113196,8 +113116,6 @@ extension on _StringsZhCn {
         return '自动';
       case 'app_ui_scale_custom':
         return '自定义';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid 数据库当前不可用：请先打开 AnkiDroid 至少一次，确认它没有在同步且已开启 API，然后重试。';
       default:
         return null;
     }
@@ -116297,7 +116215,7 @@ extension on _StringsZhHk {
       case 'anki_tag_include_category':
         return 'Add source category tag';
       case 'anki_tag_include_category_hint':
-        return 'Books get "book", videos get "anime"';
+        return 'Books get "book", videos get "video"';
       case 'reverse_arrow_page_turn':
         return '反轉方向鍵翻頁方向';
       case 'shortcut_scope_video':
@@ -116484,8 +116402,6 @@ extension on _StringsZhHk {
         return 'Automatic';
       case 'app_ui_scale_custom':
         return 'Custom';
-      case 'anki_error_collection_unavailable':
-        return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
       default:
         return null;
     }
