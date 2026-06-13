@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27421 (1613 per locale)
+/// Strings: 27506 (1618 per locale)
 ///
-/// Built on 2026-06-13 at 12:19 UTC
+/// Built on 2026-06-13 at 16:29 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1773,6 +1773,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	String get app_ui_scale_auto => 'Automatic';
 	String get app_ui_scale_custom => 'Custom';
+	String get video_bottom_seek_back => 'Back 10s';
+	String get video_bottom_seek_forward => 'Forward 10s';
+	String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -3439,6 +3444,11 @@ class _StringsAr extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -5105,6 +5115,11 @@ class _StringsDe extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -6771,6 +6786,11 @@ class _StringsEs extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -8437,6 +8457,11 @@ class _StringsFr extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -10103,6 +10128,11 @@ class _StringsId extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -11769,6 +11799,11 @@ class _StringsIt extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -13435,6 +13470,11 @@ class _StringsJa extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -15101,6 +15141,11 @@ class _StringsKo extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -16767,6 +16812,11 @@ class _StringsNl extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -18433,6 +18483,11 @@ class _StringsPtBr extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -20099,6 +20154,11 @@ class _StringsRu extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -21765,6 +21825,11 @@ class _StringsTh extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -23431,6 +23496,11 @@ class _StringsTr extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -25097,6 +25167,11 @@ class _StringsVi extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -26763,6 +26838,11 @@ class _StringsZhCn extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => '按当前设备和窗口自动设置界面大小，也可切换为自定义百分比。';
 	@override String get app_ui_scale_auto => '自动';
 	@override String get app_ui_scale_custom => '自定义';
+	@override String get video_bottom_seek_back => '后退 10 秒';
+	@override String get video_bottom_seek_forward => '前进 10 秒';
+	@override String get video_bottom_prev_cue => '上一句字幕（无字幕则后退一段）';
+	@override String get video_bottom_next_cue => '下一句字幕（无字幕则前进一段）';
+	@override String get video_bottom_play_pause => '播放 / 暂停';
 }
 
 // Path: retrying_in
@@ -28429,6 +28509,11 @@ class _StringsZhHk extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_bottom_seek_back => 'Back 10s';
+	@override String get video_bottom_seek_forward => 'Forward 10s';
+	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
+	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
+	@override String get video_bottom_play_pause => 'Play / Pause';
 }
 
 // Path: retrying_in
@@ -30080,6 +30165,11 @@ extension on _StringsEn {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -31705,6 +31795,11 @@ extension on _StringsAr {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -33330,6 +33425,11 @@ extension on _StringsDe {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -34955,6 +35055,11 @@ extension on _StringsEs {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -36580,6 +36685,11 @@ extension on _StringsFr {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -38205,6 +38315,11 @@ extension on _StringsId {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -39830,6 +39945,11 @@ extension on _StringsIt {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -41455,6 +41575,11 @@ extension on _StringsJa {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -43080,6 +43205,11 @@ extension on _StringsKo {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -44705,6 +44835,11 @@ extension on _StringsNl {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -46330,6 +46465,11 @@ extension on _StringsPtBr {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -47955,6 +48095,11 @@ extension on _StringsRu {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -49580,6 +49725,11 @@ extension on _StringsTh {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -51205,6 +51355,11 @@ extension on _StringsTr {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -52830,6 +52985,11 @@ extension on _StringsVi {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
@@ -54455,6 +54615,11 @@ extension on _StringsZhCn {
 			case 'app_ui_scale_mode_hint': return '按当前设备和窗口自动设置界面大小，也可切换为自定义百分比。';
 			case 'app_ui_scale_auto': return '自动';
 			case 'app_ui_scale_custom': return '自定义';
+			case 'video_bottom_seek_back': return '后退 10 秒';
+			case 'video_bottom_seek_forward': return '前进 10 秒';
+			case 'video_bottom_prev_cue': return '上一句字幕（无字幕则后退一段）';
+			case 'video_bottom_next_cue': return '下一句字幕（无字幕则前进一段）';
+			case 'video_bottom_play_pause': return '播放 / 暂停';
 			default: return null;
 		}
 	}
@@ -56080,6 +56245,11 @@ extension on _StringsZhHk {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_bottom_seek_back': return 'Back 10s';
+			case 'video_bottom_seek_forward': return 'Forward 10s';
+			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
+			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
+			case 'video_bottom_play_pause': return 'Play / Pause';
 			default: return null;
 		}
 	}
