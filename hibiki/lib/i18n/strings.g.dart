@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27421 (1613 per locale)
+/// Strings: 27455 (1615 per locale)
 ///
-/// Built on 2026-06-13 at 12:19 UTC
+/// Built on 2026-06-13 at 17:19 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1773,6 +1773,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	String get app_ui_scale_auto => 'Automatic';
 	String get app_ui_scale_custom => 'Custom';
+	String get video_setting_seek_seconds => 'Seek seconds';
+	String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -3439,6 +3441,8 @@ class _StringsAr extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -5105,6 +5109,8 @@ class _StringsDe extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -6771,6 +6777,8 @@ class _StringsEs extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -8437,6 +8445,8 @@ class _StringsFr extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -10103,6 +10113,8 @@ class _StringsId extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -11769,6 +11781,8 @@ class _StringsIt extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -13435,6 +13449,8 @@ class _StringsJa extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -15101,6 +15117,8 @@ class _StringsKo extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -16767,6 +16785,8 @@ class _StringsNl extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -18433,6 +18453,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -20099,6 +20121,8 @@ class _StringsRu extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -21765,6 +21789,8 @@ class _StringsTh extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -23431,6 +23457,8 @@ class _StringsTr extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -25097,6 +25125,8 @@ class _StringsVi extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -26763,6 +26793,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => '按当前设备和窗口自动设置界面大小，也可切换为自定义百分比。';
 	@override String get app_ui_scale_auto => '自动';
 	@override String get app_ui_scale_custom => '自定义';
+	@override String get video_setting_seek_seconds => '快进/快退步长（秒）';
+	@override String get section_video_danmaku => '弹幕';
 }
 
 // Path: retrying_in
@@ -28429,6 +28461,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get app_ui_scale_mode_hint => 'Choose automatic sizing for this screen or use your custom percentage.';
 	@override String get app_ui_scale_auto => 'Automatic';
 	@override String get app_ui_scale_custom => 'Custom';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
 }
 
 // Path: retrying_in
@@ -30080,6 +30114,8 @@ extension on _StringsEn {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -31705,6 +31741,8 @@ extension on _StringsAr {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -33330,6 +33368,8 @@ extension on _StringsDe {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -34955,6 +34995,8 @@ extension on _StringsEs {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -36580,6 +36622,8 @@ extension on _StringsFr {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -38205,6 +38249,8 @@ extension on _StringsId {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -39830,6 +39876,8 @@ extension on _StringsIt {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -41455,6 +41503,8 @@ extension on _StringsJa {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -43080,6 +43130,8 @@ extension on _StringsKo {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -44705,6 +44757,8 @@ extension on _StringsNl {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -46330,6 +46384,8 @@ extension on _StringsPtBr {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -47955,6 +48011,8 @@ extension on _StringsRu {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -49580,6 +49638,8 @@ extension on _StringsTh {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -51205,6 +51265,8 @@ extension on _StringsTr {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -52830,6 +52892,8 @@ extension on _StringsVi {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
@@ -54455,6 +54519,8 @@ extension on _StringsZhCn {
 			case 'app_ui_scale_mode_hint': return '按当前设备和窗口自动设置界面大小，也可切换为自定义百分比。';
 			case 'app_ui_scale_auto': return '自动';
 			case 'app_ui_scale_custom': return '自定义';
+			case 'video_setting_seek_seconds': return '快进/快退步长（秒）';
+			case 'section_video_danmaku': return '弹幕';
 			default: return null;
 		}
 	}
@@ -56080,6 +56146,8 @@ extension on _StringsZhHk {
 			case 'app_ui_scale_mode_hint': return 'Choose automatic sizing for this screen or use your custom percentage.';
 			case 'app_ui_scale_auto': return 'Automatic';
 			case 'app_ui_scale_custom': return 'Custom';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
 			default: return null;
 		}
 	}
