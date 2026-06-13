@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26894 (1582 per locale)
+/// Strings: 26911 (1583 per locale)
 ///
-/// Built on 2026-06-13 at 10:49 UTC
+/// Built on 2026-06-13 at 11:41 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1742,6 +1742,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -3377,6 +3378,7 @@ class _StringsAr extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -5012,6 +5014,7 @@ class _StringsDe extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -6647,6 +6650,7 @@ class _StringsEs extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -8282,6 +8286,7 @@ class _StringsFr extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -9917,6 +9922,7 @@ class _StringsId extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -11552,6 +11558,7 @@ class _StringsIt extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -13187,6 +13194,7 @@ class _StringsJa extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -14822,6 +14830,7 @@ class _StringsKo extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -16457,6 +16466,7 @@ class _StringsNl extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -18092,6 +18102,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -19727,6 +19738,7 @@ class _StringsRu extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -21362,6 +21374,7 @@ class _StringsTh extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -22997,6 +23010,7 @@ class _StringsTr extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -24632,6 +24646,7 @@ class _StringsVi extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -26267,6 +26282,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => '没有可用本地 sidecar 时，用 Dandanplay 匹配当前视频并拉取关联弹幕。';
 	@override String get video_setting_danmaku_max_active => '同时显示上限';
 	@override String get video_setting_danmaku_max_active_hint => '限制每帧渲染的弹幕数量，避免大文件拖慢播放。';
+	@override String get app_version => '应用版本';
 }
 
 // Path: retrying_in
@@ -27902,6 +27918,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_setting_danmaku_online_hint => 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 	@override String get video_setting_danmaku_max_active => 'Active danmaku limit';
 	@override String get video_setting_danmaku_max_active_hint => 'Caps comments rendered per frame to keep large files responsive.';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -29522,6 +29539,7 @@ extension on _StringsEn {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -31116,6 +31134,7 @@ extension on _StringsAr {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -32710,6 +32729,7 @@ extension on _StringsDe {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -34304,6 +34324,7 @@ extension on _StringsEs {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -35898,6 +35919,7 @@ extension on _StringsFr {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -37492,6 +37514,7 @@ extension on _StringsId {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -39086,6 +39109,7 @@ extension on _StringsIt {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -40680,6 +40704,7 @@ extension on _StringsJa {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -42274,6 +42299,7 @@ extension on _StringsKo {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -43868,6 +43894,7 @@ extension on _StringsNl {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -45462,6 +45489,7 @@ extension on _StringsPtBr {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -47056,6 +47084,7 @@ extension on _StringsRu {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -48650,6 +48679,7 @@ extension on _StringsTh {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -50244,6 +50274,7 @@ extension on _StringsTr {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -51838,6 +51869,7 @@ extension on _StringsVi {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -53432,6 +53464,7 @@ extension on _StringsZhCn {
 			case 'video_setting_danmaku_online_hint': return '没有可用本地 sidecar 时，用 Dandanplay 匹配当前视频并拉取关联弹幕。';
 			case 'video_setting_danmaku_max_active': return '同时显示上限';
 			case 'video_setting_danmaku_max_active_hint': return '限制每帧渲染的弹幕数量，避免大文件拖慢播放。';
+			case 'app_version': return '应用版本';
 			default: return null;
 		}
 	}
@@ -55026,6 +55059,7 @@ extension on _StringsZhHk {
 			case 'video_setting_danmaku_online_hint': return 'When no usable local sidecar exists, match the opened video with Dandanplay and fetch related comments.';
 			case 'video_setting_danmaku_max_active': return 'Active danmaku limit';
 			case 'video_setting_danmaku_max_active_hint': return 'Caps comments rendered per frame to keep large files responsive.';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
