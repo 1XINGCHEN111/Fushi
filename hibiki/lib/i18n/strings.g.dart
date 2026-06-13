@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27523 (1619 per locale)
+/// Strings: 27625 (1625 per locale)
 ///
-/// Built on 2026-06-13 at 17:05 UTC
+/// Built on 2026-06-13 at 18:07 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1779,6 +1779,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	String get video_bottom_play_pause => 'Play / Pause';
+	String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	String get video_setting_seek_seconds => 'Seek seconds';
+	String get section_video_danmaku => 'Danmaku';
+	String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -3451,6 +3457,12 @@ class _StringsAr extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -5123,6 +5135,12 @@ class _StringsDe extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -6795,6 +6813,12 @@ class _StringsEs extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -8467,6 +8491,12 @@ class _StringsFr extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -10139,6 +10169,12 @@ class _StringsId extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -11811,6 +11847,12 @@ class _StringsIt extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -13483,6 +13525,12 @@ class _StringsJa extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -15155,6 +15203,12 @@ class _StringsKo extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -16827,6 +16881,12 @@ class _StringsNl extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -18499,6 +18559,12 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -20171,6 +20237,12 @@ class _StringsRu extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -21843,6 +21915,12 @@ class _StringsTh extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -23515,6 +23593,12 @@ class _StringsTr extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -25187,6 +25271,12 @@ class _StringsVi extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -26859,6 +26949,12 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_bottom_prev_cue => '上一句字幕（无字幕则后退一段）';
 	@override String get video_bottom_next_cue => '下一句字幕（无字幕则前进一段）';
 	@override String get video_bottom_play_pause => '播放 / 暂停';
+	@override String get audio_clip_failed => '无法截取音频片段 — 音频源可能缺失或无法读取';
+	@override String get video_setting_seek_seconds => '快进/快退步长（秒）';
+	@override String get section_video_danmaku => '弹幕';
+	@override String get video_setting_danmaku_server_url => '弹幕服务器地址';
+	@override String get video_setting_danmaku_app_id => '弹弹play AppId';
+	@override String get video_setting_danmaku_app_secret => '弹弹play AppSecret';
 }
 
 // Path: retrying_in
@@ -28531,6 +28627,12 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_bottom_prev_cue => 'Previous subtitle (back a bit if none)';
 	@override String get video_bottom_next_cue => 'Next subtitle (forward a bit if none)';
 	@override String get video_bottom_play_pause => 'Play / Pause';
+	@override String get audio_clip_failed => 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+	@override String get video_setting_seek_seconds => 'Seek seconds';
+	@override String get section_video_danmaku => 'Danmaku';
+	@override String get video_setting_danmaku_server_url => 'Danmaku server URL';
+	@override String get video_setting_danmaku_app_id => 'Dandanplay AppId';
+	@override String get video_setting_danmaku_app_secret => 'Dandanplay AppSecret';
 }
 
 // Path: retrying_in
@@ -30188,6 +30290,12 @@ extension on _StringsEn {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -31819,6 +31927,12 @@ extension on _StringsAr {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -33450,6 +33564,12 @@ extension on _StringsDe {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -35081,6 +35201,12 @@ extension on _StringsEs {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -36712,6 +36838,12 @@ extension on _StringsFr {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -38343,6 +38475,12 @@ extension on _StringsId {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -39974,6 +40112,12 @@ extension on _StringsIt {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -41605,6 +41749,12 @@ extension on _StringsJa {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -43236,6 +43386,12 @@ extension on _StringsKo {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -44867,6 +45023,12 @@ extension on _StringsNl {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -46498,6 +46660,12 @@ extension on _StringsPtBr {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -48129,6 +48297,12 @@ extension on _StringsRu {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -49760,6 +49934,12 @@ extension on _StringsTh {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -51391,6 +51571,12 @@ extension on _StringsTr {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -53022,6 +53208,12 @@ extension on _StringsVi {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
@@ -54653,6 +54845,12 @@ extension on _StringsZhCn {
 			case 'video_bottom_prev_cue': return '上一句字幕（无字幕则后退一段）';
 			case 'video_bottom_next_cue': return '下一句字幕（无字幕则前进一段）';
 			case 'video_bottom_play_pause': return '播放 / 暂停';
+			case 'audio_clip_failed': return '无法截取音频片段 — 音频源可能缺失或无法读取';
+			case 'video_setting_seek_seconds': return '快进/快退步长（秒）';
+			case 'section_video_danmaku': return '弹幕';
+			case 'video_setting_danmaku_server_url': return '弹幕服务器地址';
+			case 'video_setting_danmaku_app_id': return '弹弹play AppId';
+			case 'video_setting_danmaku_app_secret': return '弹弹play AppSecret';
 			default: return null;
 		}
 	}
@@ -56284,6 +56482,12 @@ extension on _StringsZhHk {
 			case 'video_bottom_prev_cue': return 'Previous subtitle (back a bit if none)';
 			case 'video_bottom_next_cue': return 'Next subtitle (forward a bit if none)';
 			case 'video_bottom_play_pause': return 'Play / Pause';
+			case 'audio_clip_failed': return 'Couldn\'t extract the audio clip — the audio source may be missing or unreadable';
+			case 'video_setting_seek_seconds': return 'Seek seconds';
+			case 'section_video_danmaku': return 'Danmaku';
+			case 'video_setting_danmaku_server_url': return 'Danmaku server URL';
+			case 'video_setting_danmaku_app_id': return 'Dandanplay AppId';
+			case 'video_setting_danmaku_app_secret': return 'Dandanplay AppSecret';
 			default: return null;
 		}
 	}
