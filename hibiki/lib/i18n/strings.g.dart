@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27642 (1626 per locale)
+/// Strings: 27625 (1625 per locale)
 ///
-/// Built on 2026-06-13 at 20:02 UTC
+/// Built on 2026-06-13 at 20:37 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1570,7 +1570,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String video_playlist_episodes({required Object count}) => '${count} eps';
 	String get video_audio_track => 'Audio track';
 	String get video_more => 'More';
-	String get video_shader_compare => 'Compare original';
 	String get video_shader_showing_original => 'Shaders off (original)';
 	String get video_shader_showing_shaded => 'Shaders on';
 	String get video_shader_pick_mpv_dir => 'Choose mpv folder';
@@ -3249,7 +3248,6 @@ class _StringsAr extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -4928,7 +4926,6 @@ class _StringsDe extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -6607,7 +6604,6 @@ class _StringsEs extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -8286,7 +8282,6 @@ class _StringsFr extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -9965,7 +9960,6 @@ class _StringsId extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -11644,7 +11638,6 @@ class _StringsIt extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -13323,7 +13316,6 @@ class _StringsJa extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -15002,7 +14994,6 @@ class _StringsKo extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -16681,7 +16672,6 @@ class _StringsNl extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -18360,7 +18350,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -20039,7 +20028,6 @@ class _StringsRu extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -21718,7 +21706,6 @@ class _StringsTh extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -23397,7 +23384,6 @@ class _StringsTr extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -25076,7 +25062,6 @@ class _StringsVi extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -26755,7 +26740,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} 集';
 	@override String get video_audio_track => '音轨';
 	@override String get video_more => '更多';
-	@override String get video_shader_compare => '对比原画';
 	@override String get video_shader_showing_original => '已关着色器（原画）';
 	@override String get video_shader_showing_shaded => '已开着色器';
 	@override String get video_shader_pick_mpv_dir => '选择 mpv 目录';
@@ -28434,7 +28418,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String video_playlist_episodes({required Object count}) => '${count} eps';
 	@override String get video_audio_track => 'Audio track';
 	@override String get video_more => 'More';
-	@override String get video_shader_compare => 'Compare original';
 	@override String get video_shader_showing_original => 'Shaders off (original)';
 	@override String get video_shader_showing_shaded => 'Shaders on';
 	@override String get video_shader_pick_mpv_dir => 'Specify mpv folder';
@@ -30098,7 +30081,6 @@ extension on _StringsEn {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Choose mpv folder';
@@ -31736,7 +31718,6 @@ extension on _StringsAr {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -33374,7 +33355,6 @@ extension on _StringsDe {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -35012,7 +34992,6 @@ extension on _StringsEs {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -36650,7 +36629,6 @@ extension on _StringsFr {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -38288,7 +38266,6 @@ extension on _StringsId {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -39926,7 +39903,6 @@ extension on _StringsIt {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -41564,7 +41540,6 @@ extension on _StringsJa {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -43202,7 +43177,6 @@ extension on _StringsKo {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -44840,7 +44814,6 @@ extension on _StringsNl {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -46478,7 +46451,6 @@ extension on _StringsPtBr {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -48116,7 +48088,6 @@ extension on _StringsRu {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -49754,7 +49725,6 @@ extension on _StringsTh {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -51392,7 +51362,6 @@ extension on _StringsTr {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -53030,7 +52999,6 @@ extension on _StringsVi {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
@@ -54668,7 +54636,6 @@ extension on _StringsZhCn {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} 集';
 			case 'video_audio_track': return '音轨';
 			case 'video_more': return '更多';
-			case 'video_shader_compare': return '对比原画';
 			case 'video_shader_showing_original': return '已关着色器（原画）';
 			case 'video_shader_showing_shaded': return '已开着色器';
 			case 'video_shader_pick_mpv_dir': return '选择 mpv 目录';
@@ -56306,7 +56273,6 @@ extension on _StringsZhHk {
 			case 'video_playlist_episodes': return ({required Object count}) => '${count} eps';
 			case 'video_audio_track': return 'Audio track';
 			case 'video_more': return 'More';
-			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
 			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
