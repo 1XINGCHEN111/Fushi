@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27336 (1608 per locale)
+/// Strings: 27353 (1609 per locale)
 ///
-/// Built on 2026-06-13 at 12:00 UTC
+/// Built on 2026-06-13 at 12:08 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1768,6 +1768,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	String get video_subtitle_list_clear_selection => 'Clear card selection';
 	String get video_subtitle_list_next_card_selection => 'selected for next card';
+	String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -3429,6 +3430,7 @@ class _StringsAr extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -5090,6 +5092,7 @@ class _StringsDe extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -6751,6 +6754,7 @@ class _StringsEs extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -8412,6 +8416,7 @@ class _StringsFr extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -10073,6 +10078,7 @@ class _StringsId extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -11734,6 +11740,7 @@ class _StringsIt extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -13395,6 +13402,7 @@ class _StringsJa extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -15056,6 +15064,7 @@ class _StringsKo extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -16717,6 +16726,7 @@ class _StringsNl extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -18378,6 +18388,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -20039,6 +20050,7 @@ class _StringsRu extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -21700,6 +21712,7 @@ class _StringsTh extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -23361,6 +23374,7 @@ class _StringsTr extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -25022,6 +25036,7 @@ class _StringsVi extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -26683,6 +26698,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => '移出词卡';
 	@override String get video_subtitle_list_clear_selection => '清空选择';
 	@override String get video_subtitle_list_next_card_selection => '已选入下一张卡';
+	@override String get app_version => '应用版本';
 }
 
 // Path: retrying_in
@@ -28344,6 +28360,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
+	@override String get app_version => 'App version';
 }
 
 // Path: retrying_in
@@ -29990,6 +30007,7 @@ extension on _StringsEn {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -31610,6 +31628,7 @@ extension on _StringsAr {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -33230,6 +33249,7 @@ extension on _StringsDe {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -34850,6 +34870,7 @@ extension on _StringsEs {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -36470,6 +36491,7 @@ extension on _StringsFr {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -38090,6 +38112,7 @@ extension on _StringsId {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -39710,6 +39733,7 @@ extension on _StringsIt {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -41330,6 +41354,7 @@ extension on _StringsJa {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -42950,6 +42975,7 @@ extension on _StringsKo {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -44570,6 +44596,7 @@ extension on _StringsNl {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -46190,6 +46217,7 @@ extension on _StringsPtBr {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -47810,6 +47838,7 @@ extension on _StringsRu {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -49430,6 +49459,7 @@ extension on _StringsTh {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -51050,6 +51080,7 @@ extension on _StringsTr {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -52670,6 +52701,7 @@ extension on _StringsVi {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
@@ -54290,6 +54322,7 @@ extension on _StringsZhCn {
 			case 'video_subtitle_list_remove_from_card': return '移出词卡';
 			case 'video_subtitle_list_clear_selection': return '清空选择';
 			case 'video_subtitle_list_next_card_selection': return '已选入下一张卡';
+			case 'app_version': return '应用版本';
 			default: return null;
 		}
 	}
@@ -55910,6 +55943,7 @@ extension on _StringsZhHk {
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
+			case 'app_version': return 'App version';
 			default: return null;
 		}
 	}
