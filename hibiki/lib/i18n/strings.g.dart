@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 26758 (1574 per locale)
+/// Strings: 26775 (1575 per locale)
 ///
-/// Built on 2026-06-13 at 07:32 UTC
+/// Built on 2026-06-13 at 09:26 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2095,6 +2095,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get startup_default_dictionary_tab => 'Open lookup on startup';
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -5625,6 +5626,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -9238,6 +9241,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -12865,6 +12870,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -16512,6 +16519,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -20081,6 +20090,8 @@ class _StringsId extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -23692,6 +23703,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -27130,6 +27143,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -30569,6 +30584,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -34162,6 +34179,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -37768,6 +37787,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -41359,6 +41380,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -44889,6 +44912,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -48458,6 +48483,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -52007,6 +52034,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -55339,6 +55368,8 @@ class _StringsZhCn extends _StringsEn {
   String get startup_default_dictionary_tab => '启动时打开查词';
   @override
   String get startup_default_dictionary_tab_hint => '应用开屏后直接显示查词页；关闭时保留当前默认首页。';
+  @override
+  String get backup_category_videos => '视频';
 }
 
 // Path: retrying_in
@@ -58753,6 +58784,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get startup_default_dictionary_tab_hint =>
       'Start the home screen on the lookup tab instead of the current default.';
+  @override
+  String get backup_category_videos => 'Videos';
 }
 
 // Path: retrying_in
@@ -62015,6 +62048,8 @@ extension on _StringsEn {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -65235,6 +65270,8 @@ extension on _StringsAr {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -68471,6 +68508,8 @@ extension on _StringsDe {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -71705,6 +71744,8 @@ extension on _StringsEs {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -74941,6 +74982,8 @@ extension on _StringsFr {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -78166,6 +78209,8 @@ extension on _StringsId {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -81399,6 +81444,8 @@ extension on _StringsIt {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -84608,6 +84655,8 @@ extension on _StringsJa {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -87819,6 +87868,8 @@ extension on _StringsKo {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -91049,6 +91100,8 @@ extension on _StringsNl {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -94278,6 +94331,8 @@ extension on _StringsPtBr {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -97508,6 +97563,8 @@ extension on _StringsRu {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -100729,6 +100786,8 @@ extension on _StringsTh {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -103953,6 +104012,8 @@ extension on _StringsTr {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -107174,6 +107235,8 @@ extension on _StringsVi {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
@@ -110372,6 +110435,8 @@ extension on _StringsZhCn {
         return '启动时打开查词';
       case 'startup_default_dictionary_tab_hint':
         return '应用开屏后直接显示查词页；关闭时保留当前默认首页。';
+      case 'backup_category_videos':
+        return '视频';
       default:
         return null;
     }
@@ -113580,6 +113645,8 @@ extension on _StringsZhHk {
         return 'Open lookup on startup';
       case 'startup_default_dictionary_tab_hint':
         return 'Start the home screen on the lookup tab instead of the current default.';
+      case 'backup_category_videos':
+        return 'Videos';
       default:
         return null;
     }
