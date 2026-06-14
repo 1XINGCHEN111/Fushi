@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27676 (1628 per locale)
+/// Strings: 27693 (1629 per locale)
 ///
-/// Built on 2026-06-14 at 05:46 UTC
+/// Built on 2026-06-14 at 10:40 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1788,6 +1788,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	String get now_listening_label => 'Now listening';
 	String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -3469,6 +3470,7 @@ class _StringsAr extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -5150,6 +5152,7 @@ class _StringsDe extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -6831,6 +6834,7 @@ class _StringsEs extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -8512,6 +8516,7 @@ class _StringsFr extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -10193,6 +10198,7 @@ class _StringsId extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -11874,6 +11880,7 @@ class _StringsIt extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -13555,6 +13562,7 @@ class _StringsJa extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -15236,6 +15244,7 @@ class _StringsKo extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -16917,6 +16926,7 @@ class _StringsNl extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -18598,6 +18608,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -20279,6 +20290,7 @@ class _StringsRu extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -21960,6 +21972,7 @@ class _StringsTh extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -23641,6 +23654,7 @@ class _StringsTr extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -25322,6 +25336,7 @@ class _StringsVi extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -27003,6 +27018,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get floating_lyric_no_audio => '这本书没有可听的音频';
 	@override String get now_listening_label => '正在听书';
 	@override String app_ui_scale_auto_current({required Object percent}) => '当前 ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '本集收藏 ${count} 句';
 }
 
 // Path: retrying_in
@@ -28684,6 +28700,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
+	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 }
 
 // Path: retrying_in
@@ -30350,6 +30367,7 @@ extension on _StringsEn {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -31990,6 +32008,7 @@ extension on _StringsAr {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -33630,6 +33649,7 @@ extension on _StringsDe {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -35270,6 +35290,7 @@ extension on _StringsEs {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -36910,6 +36931,7 @@ extension on _StringsFr {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -38550,6 +38572,7 @@ extension on _StringsId {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -40190,6 +40213,7 @@ extension on _StringsIt {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -41830,6 +41854,7 @@ extension on _StringsJa {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -43470,6 +43495,7 @@ extension on _StringsKo {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -45110,6 +45136,7 @@ extension on _StringsNl {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -46750,6 +46777,7 @@ extension on _StringsPtBr {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -48390,6 +48418,7 @@ extension on _StringsRu {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -50030,6 +50059,7 @@ extension on _StringsTh {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -51670,6 +51700,7 @@ extension on _StringsTr {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -53310,6 +53341,7 @@ extension on _StringsVi {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
@@ -54950,6 +54982,7 @@ extension on _StringsZhCn {
 			case 'floating_lyric_no_audio': return '这本书没有可听的音频';
 			case 'now_listening_label': return '正在听书';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => '当前 ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '本集收藏 ${count} 句';
 			default: return null;
 		}
 	}
@@ -56590,6 +56623,7 @@ extension on _StringsZhHk {
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
+			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			default: return null;
 		}
 	}
