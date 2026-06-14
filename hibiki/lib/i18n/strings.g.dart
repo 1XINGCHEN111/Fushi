@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27676 (1628 per locale)
+/// Strings: 27778 (1634 per locale)
 ///
-/// Built on 2026-06-14 at 13:11 UTC
+/// Built on 2026-06-14 at 18:36 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1788,6 +1788,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get now_listening_label => 'Now listening';
 	String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	String get lyrics_text_color => 'Lyrics text color';
+	String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -3469,6 +3475,12 @@ class _StringsAr extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -5150,6 +5162,12 @@ class _StringsDe extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -6831,6 +6849,12 @@ class _StringsEs extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -8512,6 +8536,12 @@ class _StringsFr extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -10193,6 +10223,12 @@ class _StringsId extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -11874,6 +11910,12 @@ class _StringsIt extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -13555,6 +13597,12 @@ class _StringsJa extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -15236,6 +15284,12 @@ class _StringsKo extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -16917,6 +16971,12 @@ class _StringsNl extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -18598,6 +18658,12 @@ class _StringsPtBr extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -20279,6 +20345,12 @@ class _StringsRu extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -21960,6 +22032,12 @@ class _StringsTh extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -23641,6 +23719,12 @@ class _StringsTr extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -25322,6 +25406,12 @@ class _StringsVi extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -27003,6 +27093,12 @@ class _StringsZhCn extends _StringsEn {
 	@override String get now_listening_label => '正在听书';
 	@override String app_ui_scale_auto_current({required Object percent}) => '当前 ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '本集收藏 ${count} 句';
+	@override String get lyrics_text_color => '歌词字幕颜色';
+	@override String get lyrics_text_color_hint => '歌词字幕用自定义颜色（不跟随主题）';
+	@override String get floating_lyric_text_opacity => '悬浮字幕文字透明度';
+	@override String get floating_lyric_text_opacity_hint => '调低让悬浮字幕文字更透明';
+	@override String get floating_lyric_button_bg_opacity => '悬浮字幕按钮底色透明度';
+	@override String get floating_lyric_button_bg_opacity_hint => '调整悬浮字幕控制按钮底色的透明度';
 }
 
 // Path: retrying_in
@@ -28684,6 +28780,12 @@ class _StringsZhHk extends _StringsEn {
 	@override String get now_listening_label => 'Now listening';
 	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
+	@override String get lyrics_text_color => 'Lyrics text color';
+	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
+	@override String get floating_lyric_text_opacity => 'Floating subtitle text opacity';
+	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
+	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
+	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
 }
 
 // Path: retrying_in
@@ -30350,6 +30452,12 @@ extension on _StringsEn {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -31990,6 +32098,12 @@ extension on _StringsAr {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -33630,6 +33744,12 @@ extension on _StringsDe {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -35270,6 +35390,12 @@ extension on _StringsEs {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -36910,6 +37036,12 @@ extension on _StringsFr {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -38550,6 +38682,12 @@ extension on _StringsId {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -40190,6 +40328,12 @@ extension on _StringsIt {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -41830,6 +41974,12 @@ extension on _StringsJa {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -43470,6 +43620,12 @@ extension on _StringsKo {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -45110,6 +45266,12 @@ extension on _StringsNl {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -46750,6 +46912,12 @@ extension on _StringsPtBr {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -48390,6 +48558,12 @@ extension on _StringsRu {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -50030,6 +50204,12 @@ extension on _StringsTh {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -51670,6 +51850,12 @@ extension on _StringsTr {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -53310,6 +53496,12 @@ extension on _StringsVi {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
@@ -54950,6 +55142,12 @@ extension on _StringsZhCn {
 			case 'now_listening_label': return '正在听书';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => '当前 ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '本集收藏 ${count} 句';
+			case 'lyrics_text_color': return '歌词字幕颜色';
+			case 'lyrics_text_color_hint': return '歌词字幕用自定义颜色（不跟随主题）';
+			case 'floating_lyric_text_opacity': return '悬浮字幕文字透明度';
+			case 'floating_lyric_text_opacity_hint': return '调低让悬浮字幕文字更透明';
+			case 'floating_lyric_button_bg_opacity': return '悬浮字幕按钮底色透明度';
+			case 'floating_lyric_button_bg_opacity_hint': return '调整悬浮字幕控制按钮底色的透明度';
 			default: return null;
 		}
 	}
@@ -56590,6 +56788,12 @@ extension on _StringsZhHk {
 			case 'now_listening_label': return 'Now listening';
 			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
+			case 'lyrics_text_color': return 'Lyrics text color';
+			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
+			case 'floating_lyric_text_opacity': return 'Floating subtitle text opacity';
+			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
+			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
+			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
 			default: return null;
 		}
 	}
