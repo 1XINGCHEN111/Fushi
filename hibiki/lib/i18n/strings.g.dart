@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 27693 (1629 per locale)
 ///
-/// Built on 2026-06-14 at 10:40 UTC
+/// Built on 2026-06-14 at 12:54 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1416,7 +1416,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	String get video_settings_title => 'Player settings';
+	String get video_settings_title => 'Video settings';
 	String get video_setting_av_delay => 'Subtitle sync';
 	String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	String get video_setting_speed => 'Playback speed';
@@ -3098,7 +3098,7 @@ class _StringsAr extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -4780,7 +4780,7 @@ class _StringsDe extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -6462,7 +6462,7 @@ class _StringsEs extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -8144,7 +8144,7 @@ class _StringsFr extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -9826,7 +9826,7 @@ class _StringsId extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -11508,7 +11508,7 @@ class _StringsIt extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -13190,7 +13190,7 @@ class _StringsJa extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -14872,7 +14872,7 @@ class _StringsKo extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -16554,7 +16554,7 @@ class _StringsNl extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -18236,7 +18236,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -19918,7 +19918,7 @@ class _StringsRu extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -21600,7 +21600,7 @@ class _StringsTh extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -23282,7 +23282,7 @@ class _StringsTr extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -24964,7 +24964,7 @@ class _StringsVi extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => 'Video settings';
 	@override String get video_setting_av_delay => 'Subtitle sync';
 	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
@@ -26646,7 +26646,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => '已切换字幕：${label}';
 	@override String video_audio_track_switched({required Object label}) => '音轨: ${label}';
 	@override String get video_import_subtitle_optional => '可选外挂字幕（播放时可随时在内嵌/外挂字幕间切换）';
-	@override String get video_settings_title => '播放设置';
+	@override String get video_settings_title => '视频设置';
 	@override String get video_setting_av_delay => '字幕调轴';
 	@override String get video_setting_av_delay_hint => '正数 = 字幕延后（字幕整体往后拨）；负数 = 字幕提前。可拖滑条、按 ± 或直接输入数值。';
 	@override String get video_setting_speed => '播放速度';
@@ -28328,7 +28328,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String video_subtitle_switched({required Object label}) => 'Subtitle: ${label}';
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-	@override String get video_settings_title => 'Player settings';
+	@override String get video_settings_title => '視頻設置';
 	@override String get video_setting_av_delay => '字幕調軸';
 	@override String get video_setting_av_delay_hint => '正數 = 字幕延後（字幕整體往後撥）；負數 = 字幕提前。可拖滑桿、按 ± 或直接輸入數值。';
 	@override String get video_setting_speed => 'Playback speed';
@@ -29995,7 +29995,7 @@ extension on _StringsEn {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -31636,7 +31636,7 @@ extension on _StringsAr {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -33277,7 +33277,7 @@ extension on _StringsDe {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -34918,7 +34918,7 @@ extension on _StringsEs {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -36559,7 +36559,7 @@ extension on _StringsFr {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -38200,7 +38200,7 @@ extension on _StringsId {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -39841,7 +39841,7 @@ extension on _StringsIt {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -41482,7 +41482,7 @@ extension on _StringsJa {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -43123,7 +43123,7 @@ extension on _StringsKo {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -44764,7 +44764,7 @@ extension on _StringsNl {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -46405,7 +46405,7 @@ extension on _StringsPtBr {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -48046,7 +48046,7 @@ extension on _StringsRu {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -49687,7 +49687,7 @@ extension on _StringsTh {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -51328,7 +51328,7 @@ extension on _StringsTr {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -52969,7 +52969,7 @@ extension on _StringsVi {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return 'Video settings';
 			case 'video_setting_av_delay': return 'Subtitle sync';
 			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
@@ -54610,7 +54610,7 @@ extension on _StringsZhCn {
 			case 'video_subtitle_switched': return ({required Object label}) => '已切换字幕：${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => '音轨: ${label}';
 			case 'video_import_subtitle_optional': return '可选外挂字幕（播放时可随时在内嵌/外挂字幕间切换）';
-			case 'video_settings_title': return '播放设置';
+			case 'video_settings_title': return '视频设置';
 			case 'video_setting_av_delay': return '字幕调轴';
 			case 'video_setting_av_delay_hint': return '正数 = 字幕延后（字幕整体往后拨）；负数 = 字幕提前。可拖滑条、按 ± 或直接输入数值。';
 			case 'video_setting_speed': return '播放速度';
@@ -56251,7 +56251,7 @@ extension on _StringsZhHk {
 			case 'video_subtitle_switched': return ({required Object label}) => 'Subtitle: ${label}';
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
-			case 'video_settings_title': return 'Player settings';
+			case 'video_settings_title': return '視頻設置';
 			case 'video_setting_av_delay': return '字幕調軸';
 			case 'video_setting_av_delay_hint': return '正數 = 字幕延後（字幕整體往後撥）；負數 = 字幕提前。可拖滑桿、按 ± 或直接輸入數值。';
 			case 'video_setting_speed': return 'Playback speed';
