@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 27676 (1628 per locale)
 ///
-/// Built on 2026-06-14 at 13:11 UTC
+/// Built on 2026-06-14 at 17:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1606,7 +1606,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_shader_section_templates => 'Shader templates';
 	String get video_shader_section_import => 'Import shaders';
 	String get video_shader_section_installed => 'Installed shaders';
-	String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	String get remote_video_downloading => 'Downloading…';
 	String get remote_book_downloading => 'Downloading…';
 	String get remote_video_unavailable => 'Paired device unavailable';
@@ -3287,7 +3287,7 @@ class _StringsAr extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -4968,7 +4968,7 @@ class _StringsDe extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -6649,7 +6649,7 @@ class _StringsEs extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -8330,7 +8330,7 @@ class _StringsFr extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -10011,7 +10011,7 @@ class _StringsId extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -11692,7 +11692,7 @@ class _StringsIt extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -13373,7 +13373,7 @@ class _StringsJa extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => '既定で mpv 内蔵の高画質スケーリングを使用します。あらゆる映像に有効で、アニメで効果が最も大きく、実写でも（効果は控えめながら）向上します。下のシェーダー選択はこれが有効なときのみ適用されます。';
+	@override String get video_quality_enhancement_hint => 'オンにすると mpv 内蔵の高画質スケーリングで映像がくっきりします。アニメはもちろん実写ドラマや映画にも使えます。Anime4K などのシェーダーでさらに強化したいときは、動画の再生中に「画質強化」を開いてレベルを選んでください。';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -15054,7 +15054,7 @@ class _StringsKo extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -16735,7 +16735,7 @@ class _StringsNl extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -18416,7 +18416,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -20097,7 +20097,7 @@ class _StringsRu extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -21778,7 +21778,7 @@ class _StringsTh extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -23459,7 +23459,7 @@ class _StringsTr extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -25140,7 +25140,7 @@ class _StringsVi extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+	@override String get video_quality_enhancement_hint => 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -26821,7 +26821,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_shader_section_templates => '着色器模板';
 	@override String get video_shader_section_import => '导入着色器';
 	@override String get video_shader_section_installed => '已安装着色器';
-	@override String get video_quality_enhancement_hint => '默认使用 mpv 内置高画质缩放。对任何视频都有效——动画提升最明显，真人影视/电视剧也能提升、幅度较小。下方选择的着色器只会在开启时应用。';
+	@override String get video_quality_enhancement_hint => '开启后用 mpv 内置高画质缩放让画面更清晰，动画、真人影视/电视剧都适用。想用 Anime4K 等着色器进一步增强，请在播放视频时的「画质增强」里选择档位。';
 	@override String get remote_video_downloading => '正在下载…';
 	@override String get remote_book_downloading => '正在下载…';
 	@override String get remote_video_unavailable => '配对设备不可用';
@@ -28502,7 +28502,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_shader_section_templates => 'Shader templates';
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
-	@override String get video_quality_enhancement_hint => '預設使用 mpv 內建高畫質縮放。對任何影片都有效——動畫提升最明顯，真人影視/電視劇也能提升、幅度較小。下方選擇的著色器只會在開啟時套用。';
+	@override String get video_quality_enhancement_hint => '開啟後用 mpv 內建高畫質縮放讓畫面更清晰，動畫、真人影視/電視劇都適用。想用 Anime4K 等著色器進一步增強，請在播放影片時的「畫質增強」裡選擇檔位。';
 	@override String get remote_video_downloading => 'Downloading…';
 	@override String get remote_book_downloading => 'Downloading…';
 	@override String get remote_video_unavailable => 'Paired device unavailable';
@@ -30168,7 +30168,7 @@ extension on _StringsEn {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -31808,7 +31808,7 @@ extension on _StringsAr {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -33448,7 +33448,7 @@ extension on _StringsDe {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -35088,7 +35088,7 @@ extension on _StringsEs {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -36728,7 +36728,7 @@ extension on _StringsFr {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -38368,7 +38368,7 @@ extension on _StringsId {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -40008,7 +40008,7 @@ extension on _StringsIt {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -41648,7 +41648,7 @@ extension on _StringsJa {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return '既定で mpv 内蔵の高画質スケーリングを使用します。あらゆる映像に有効で、アニメで効果が最も大きく、実写でも（効果は控えめながら）向上します。下のシェーダー選択はこれが有効なときのみ適用されます。';
+			case 'video_quality_enhancement_hint': return 'オンにすると mpv 内蔵の高画質スケーリングで映像がくっきりします。アニメはもちろん実写ドラマや映画にも使えます。Anime4K などのシェーダーでさらに強化したいときは、動画の再生中に「画質強化」を開いてレベルを選んでください。';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -43288,7 +43288,7 @@ extension on _StringsKo {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -44928,7 +44928,7 @@ extension on _StringsNl {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -46568,7 +46568,7 @@ extension on _StringsPtBr {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -48208,7 +48208,7 @@ extension on _StringsRu {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -49848,7 +49848,7 @@ extension on _StringsTh {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -51488,7 +51488,7 @@ extension on _StringsTr {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -53128,7 +53128,7 @@ extension on _StringsVi {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Works on any video - animation gets the biggest boost, live-action gets a smaller one. Shader choices below only apply while this is on.';
+			case 'video_quality_enhancement_hint': return 'Turn this on to sharpen the picture with mpv\'s built-in high-quality scaling. Works for anime as well as live-action shows and movies. To go further with shaders like Anime4K, open Image enhancement while a video is playing and pick a level there.';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
@@ -54768,7 +54768,7 @@ extension on _StringsZhCn {
 			case 'video_shader_section_templates': return '着色器模板';
 			case 'video_shader_section_import': return '导入着色器';
 			case 'video_shader_section_installed': return '已安装着色器';
-			case 'video_quality_enhancement_hint': return '默认使用 mpv 内置高画质缩放。对任何视频都有效——动画提升最明显，真人影视/电视剧也能提升、幅度较小。下方选择的着色器只会在开启时应用。';
+			case 'video_quality_enhancement_hint': return '开启后用 mpv 内置高画质缩放让画面更清晰，动画、真人影视/电视剧都适用。想用 Anime4K 等着色器进一步增强，请在播放视频时的「画质增强」里选择档位。';
 			case 'remote_video_downloading': return '正在下载…';
 			case 'remote_book_downloading': return '正在下载…';
 			case 'remote_video_unavailable': return '配对设备不可用';
@@ -56408,7 +56408,7 @@ extension on _StringsZhHk {
 			case 'video_shader_section_templates': return 'Shader templates';
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
-			case 'video_quality_enhancement_hint': return '預設使用 mpv 內建高畫質縮放。對任何影片都有效——動畫提升最明顯，真人影視/電視劇也能提升、幅度較小。下方選擇的著色器只會在開啟時套用。';
+			case 'video_quality_enhancement_hint': return '開啟後用 mpv 內建高畫質縮放讓畫面更清晰，動畫、真人影視/電視劇都適用。想用 Anime4K 等著色器進一步增強，請在播放影片時的「畫質增強」裡選擇檔位。';
 			case 'remote_video_downloading': return 'Downloading…';
 			case 'remote_book_downloading': return 'Downloading…';
 			case 'remote_video_unavailable': return 'Paired device unavailable';
