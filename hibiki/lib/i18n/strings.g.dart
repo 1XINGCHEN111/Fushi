@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 27897 (1641 per locale)
 ///
-/// Built on 2026-06-14 at 19:51 UTC
+/// Built on 2026-06-15 at 04:14 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1394,7 +1394,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	String get sync_progress_books => 'Importing books';
 	String get sync_progress_reading => 'Syncing reading data';
 	String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -1801,6 +1800,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_control_slot_screen_left => 'Screen left';
 	String get video_control_slot_screen_right => 'Screen right';
 	String get video_control_slot_hidden => 'Hidden';
+	String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -3088,7 +3088,6 @@ class _StringsAr extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -3495,6 +3494,7 @@ class _StringsAr extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -4782,7 +4782,6 @@ class _StringsDe extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -5189,6 +5188,7 @@ class _StringsDe extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -6476,7 +6476,6 @@ class _StringsEs extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -6883,6 +6882,7 @@ class _StringsEs extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -8170,7 +8170,6 @@ class _StringsFr extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -8577,6 +8576,7 @@ class _StringsFr extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -9864,7 +9864,6 @@ class _StringsId extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -10271,6 +10270,7 @@ class _StringsId extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -11558,7 +11558,6 @@ class _StringsIt extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -11965,6 +11964,7 @@ class _StringsIt extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -13252,7 +13252,6 @@ class _StringsJa extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -13659,6 +13658,7 @@ class _StringsJa extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -14946,7 +14946,6 @@ class _StringsKo extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -15353,6 +15352,7 @@ class _StringsKo extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -16640,7 +16640,6 @@ class _StringsNl extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -17047,6 +17046,7 @@ class _StringsNl extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -18334,7 +18334,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -18741,6 +18740,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -20028,7 +20028,6 @@ class _StringsRu extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -20435,6 +20434,7 @@ class _StringsRu extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -21722,7 +21722,6 @@ class _StringsTh extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -22129,6 +22128,7 @@ class _StringsTh extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -23416,7 +23416,6 @@ class _StringsTr extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -23823,6 +23822,7 @@ class _StringsTr extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -25110,7 +25110,6 @@ class _StringsVi extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -25517,6 +25516,7 @@ class _StringsVi extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 }
 
 // Path: retrying_in
@@ -26804,7 +26804,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_local_audio_warning => '同步本地音频来源数据库（可能较大）';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} 本地音频';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} 本地音频';
-	@override String update_network_unreachable({required Object host}) => '无法连接 ${host}（网络超时或不可达）。';
 	@override String get sync_progress_books => '导入书籍';
 	@override String get sync_progress_reading => '同步阅读数据';
 	@override String get sync_progress_dictionaries => '同步词典';
@@ -27211,6 +27210,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_control_slot_screen_left => '屏幕左侧';
 	@override String get video_control_slot_screen_right => '屏幕右侧';
 	@override String get video_control_slot_hidden => '隐藏';
+	@override String update_network_failure({required Object host, required Object reason}) => '无法连接 ${host}：${reason}';
 }
 
 // Path: retrying_in
@@ -28498,7 +28498,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get sync_local_audio_warning => 'Syncs local audio source databases (may be large)';
 	@override String sync_now_local_audio_in({required Object count}) => '↓${count} audio sources';
 	@override String sync_now_local_audio_out({required Object count}) => '↑${count} audio sources';
-	@override String update_network_unreachable({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 	@override String get sync_progress_books => 'Importing books';
 	@override String get sync_progress_reading => 'Syncing reading data';
 	@override String get sync_progress_dictionaries => 'Syncing dictionaries';
@@ -28905,6 +28904,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
+	@override String update_network_failure({required Object host, required Object reason}) => '無法連接 ${host}：${reason}';
 }
 
 // Path: retrying_in
@@ -30177,7 +30177,6 @@ extension on _StringsEn {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -30584,6 +30583,7 @@ extension on _StringsEn {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -31830,7 +31830,6 @@ extension on _StringsAr {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -32237,6 +32236,7 @@ extension on _StringsAr {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -33483,7 +33483,6 @@ extension on _StringsDe {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -33890,6 +33889,7 @@ extension on _StringsDe {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -35136,7 +35136,6 @@ extension on _StringsEs {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -35543,6 +35542,7 @@ extension on _StringsEs {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -36789,7 +36789,6 @@ extension on _StringsFr {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -37196,6 +37195,7 @@ extension on _StringsFr {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -38442,7 +38442,6 @@ extension on _StringsId {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -38849,6 +38848,7 @@ extension on _StringsId {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -40095,7 +40095,6 @@ extension on _StringsIt {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -40502,6 +40501,7 @@ extension on _StringsIt {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -41748,7 +41748,6 @@ extension on _StringsJa {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -42155,6 +42154,7 @@ extension on _StringsJa {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -43401,7 +43401,6 @@ extension on _StringsKo {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -43808,6 +43807,7 @@ extension on _StringsKo {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -45054,7 +45054,6 @@ extension on _StringsNl {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -45461,6 +45460,7 @@ extension on _StringsNl {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -46707,7 +46707,6 @@ extension on _StringsPtBr {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -47114,6 +47113,7 @@ extension on _StringsPtBr {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -48360,7 +48360,6 @@ extension on _StringsRu {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -48767,6 +48766,7 @@ extension on _StringsRu {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -50013,7 +50013,6 @@ extension on _StringsTh {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -50420,6 +50419,7 @@ extension on _StringsTh {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -51666,7 +51666,6 @@ extension on _StringsTr {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -52073,6 +52072,7 @@ extension on _StringsTr {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -53319,7 +53319,6 @@ extension on _StringsVi {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -53726,6 +53725,7 @@ extension on _StringsVi {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			default: return null;
 		}
 	}
@@ -54972,7 +54972,6 @@ extension on _StringsZhCn {
 			case 'sync_local_audio_warning': return '同步本地音频来源数据库（可能较大）';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} 本地音频';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} 本地音频';
-			case 'update_network_unreachable': return ({required Object host}) => '无法连接 ${host}（网络超时或不可达）。';
 			case 'sync_progress_books': return '导入书籍';
 			case 'sync_progress_reading': return '同步阅读数据';
 			case 'sync_progress_dictionaries': return '同步词典';
@@ -55379,6 +55378,7 @@ extension on _StringsZhCn {
 			case 'video_control_slot_screen_left': return '屏幕左侧';
 			case 'video_control_slot_screen_right': return '屏幕右侧';
 			case 'video_control_slot_hidden': return '隐藏';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => '无法连接 ${host}：${reason}';
 			default: return null;
 		}
 	}
@@ -56625,7 +56625,6 @@ extension on _StringsZhHk {
 			case 'sync_local_audio_warning': return 'Syncs local audio source databases (may be large)';
 			case 'sync_now_local_audio_in': return ({required Object count}) => '↓${count} audio sources';
 			case 'sync_now_local_audio_out': return ({required Object count}) => '↑${count} audio sources';
-			case 'update_network_unreachable': return ({required Object host}) => 'Could not reach ${host} (network timeout or unreachable).';
 			case 'sync_progress_books': return 'Importing books';
 			case 'sync_progress_reading': return 'Syncing reading data';
 			case 'sync_progress_dictionaries': return 'Syncing dictionaries';
@@ -57032,6 +57031,7 @@ extension on _StringsZhHk {
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
+			case 'update_network_failure': return ({required Object host, required Object reason}) => '無法連接 ${host}：${reason}';
 			default: return null;
 		}
 	}
