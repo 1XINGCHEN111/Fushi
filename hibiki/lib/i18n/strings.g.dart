@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27846 (1638 per locale)
+/// Strings: 27863 (1639 per locale)
 ///
-/// Built on 2026-06-15 at 04:43 UTC
+/// Built on 2026-06-15 at 05:33 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1798,6 +1798,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_control_slot_screen_right => 'Screen right';
 	String get video_control_slot_hidden => 'Hidden';
 	String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -3489,6 +3490,7 @@ class _StringsAr extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -5180,6 +5182,7 @@ class _StringsDe extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -6871,6 +6874,7 @@ class _StringsEs extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -8562,6 +8566,7 @@ class _StringsFr extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -10253,6 +10258,7 @@ class _StringsId extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -11944,6 +11950,7 @@ class _StringsIt extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -13635,6 +13642,7 @@ class _StringsJa extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -15326,6 +15334,7 @@ class _StringsKo extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -17017,6 +17026,7 @@ class _StringsNl extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -18708,6 +18718,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -20399,6 +20410,7 @@ class _StringsRu extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -22090,6 +22102,7 @@ class _StringsTh extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -23781,6 +23794,7 @@ class _StringsTr extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -25472,6 +25486,7 @@ class _StringsVi extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -27163,6 +27178,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_control_slot_screen_right => '屏幕右侧';
 	@override String get video_control_slot_hidden => '隐藏';
 	@override String update_network_failure({required Object host, required Object reason}) => '无法连接 ${host}：${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => '重播上一句';
 }
 
 // Path: retrying_in
@@ -28854,6 +28870,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_control_slot_screen_right => 'Screen right';
 	@override String get video_control_slot_hidden => 'Hidden';
 	@override String update_network_failure({required Object host, required Object reason}) => '無法連接 ${host}：${reason}';
+	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 }
 
 // Path: retrying_in
@@ -30530,6 +30547,7 @@ extension on _StringsEn {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -32180,6 +32198,7 @@ extension on _StringsAr {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -33830,6 +33849,7 @@ extension on _StringsDe {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -35480,6 +35500,7 @@ extension on _StringsEs {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -37130,6 +37151,7 @@ extension on _StringsFr {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -38780,6 +38802,7 @@ extension on _StringsId {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -40430,6 +40453,7 @@ extension on _StringsIt {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -42080,6 +42104,7 @@ extension on _StringsJa {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -43730,6 +43755,7 @@ extension on _StringsKo {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -45380,6 +45406,7 @@ extension on _StringsNl {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -47030,6 +47057,7 @@ extension on _StringsPtBr {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -48680,6 +48708,7 @@ extension on _StringsRu {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -50330,6 +50359,7 @@ extension on _StringsTh {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -51980,6 +52010,7 @@ extension on _StringsTr {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -53630,6 +53661,7 @@ extension on _StringsVi {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
@@ -55280,6 +55312,7 @@ extension on _StringsZhCn {
 			case 'video_control_slot_screen_right': return '屏幕右侧';
 			case 'video_control_slot_hidden': return '隐藏';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => '无法连接 ${host}：${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return '重播上一句';
 			default: return null;
 		}
 	}
@@ -56930,6 +56963,7 @@ extension on _StringsZhHk {
 			case 'video_control_slot_screen_right': return 'Screen right';
 			case 'video_control_slot_hidden': return 'Hidden';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => '無法連接 ${host}：${reason}';
+			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			default: return null;
 		}
 	}
