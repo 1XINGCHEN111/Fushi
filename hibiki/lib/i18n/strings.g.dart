@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27880 (1640 per locale)
+/// Strings: 27914 (1642 per locale)
 ///
-/// Built on 2026-06-15 at 07:19 UTC
+/// Built on 2026-06-15 at 07:38 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1761,7 +1761,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_subtitle_filter_favorites => 'Favorites';
 	String get video_subtitle_filter_selected => 'Selected';
 	String get video_subtitle_list_card_selection => 'Card selection';
-	String get video_subtitle_list_select_for_card => 'Select for card';
+	String get video_subtitle_list_select_for_card => 'Select for card (merged into the sentence when mining)';
 	String get video_subtitle_list_remove_from_card => 'Remove from card selection';
 	String get video_subtitle_list_clear_selection => 'Clear card selection';
 	String get video_subtitle_list_next_card_selection => 'selected for next card';
@@ -1800,6 +1800,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	String get video_control_slot_drop_hint => 'Drag a button here';
+	String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -3493,6 +3495,8 @@ class _StringsAr extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -5186,6 +5190,8 @@ class _StringsDe extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -6879,6 +6885,8 @@ class _StringsEs extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -8572,6 +8580,8 @@ class _StringsFr extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -10265,6 +10275,8 @@ class _StringsId extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -11958,6 +11970,8 @@ class _StringsIt extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -13651,6 +13665,8 @@ class _StringsJa extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -15344,6 +15360,8 @@ class _StringsKo extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -17037,6 +17055,8 @@ class _StringsNl extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -18730,6 +18750,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -20423,6 +20445,8 @@ class _StringsRu extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -22116,6 +22140,8 @@ class _StringsTh extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -23809,6 +23835,8 @@ class _StringsTr extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -25502,6 +25530,8 @@ class _StringsVi extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -27156,8 +27186,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_subtitle_filter_favorites => '收藏';
 	@override String get video_subtitle_filter_selected => '已选';
 	@override String get video_subtitle_list_card_selection => '制卡选择';
-	@override String get video_subtitle_list_select_for_card => '选入词卡';
-	@override String get video_subtitle_list_remove_from_card => '移出词卡';
+	@override String get video_subtitle_list_select_for_card => '选入词卡（制卡时合并为例句）';
+	@override String get video_subtitle_list_remove_from_card => '从词卡选择中移除';
 	@override String get video_subtitle_list_clear_selection => '清空选择';
 	@override String get video_subtitle_list_next_card_selection => '已选入下一张卡';
 	@override String get app_version => '应用版本';
@@ -27195,6 +27225,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => '无法连接 ${host}：${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => '重播上一句';
 	@override String get video_control_slot_drop_hint => '拖动按钮到这里';
+	@override String get popup_append_sentence_tooltip => '加入制卡句子';
+	@override String get popup_clear_sentence_draft_tooltip => '清空已加句子';
 }
 
 // Path: retrying_in
@@ -28849,8 +28881,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
 	@override String get video_subtitle_list_card_selection => 'Card selection';
-	@override String get video_subtitle_list_select_for_card => 'Select for card';
-	@override String get video_subtitle_list_remove_from_card => 'Remove from card selection';
+	@override String get video_subtitle_list_select_for_card => '選入詞卡（製卡時合併為例句）';
+	@override String get video_subtitle_list_remove_from_card => '從詞卡選擇中移除';
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
@@ -28888,6 +28920,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String update_network_failure({required Object host, required Object reason}) => '無法連接 ${host}：${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
+	@override String get popup_append_sentence_tooltip => 'Add this sentence to the card';
+	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 }
 
 // Path: retrying_in
@@ -30527,7 +30561,7 @@ extension on _StringsEn {
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
 			case 'video_subtitle_list_card_selection': return 'Card selection';
-			case 'video_subtitle_list_select_for_card': return 'Select for card';
+			case 'video_subtitle_list_select_for_card': return 'Select for card (merged into the sentence when mining)';
 			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
@@ -30566,6 +30600,8 @@ extension on _StringsEn {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -32218,6 +32254,8 @@ extension on _StringsAr {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -33870,6 +33908,8 @@ extension on _StringsDe {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -35522,6 +35562,8 @@ extension on _StringsEs {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -37174,6 +37216,8 @@ extension on _StringsFr {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -38826,6 +38870,8 @@ extension on _StringsId {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -40478,6 +40524,8 @@ extension on _StringsIt {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -42130,6 +42178,8 @@ extension on _StringsJa {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -43782,6 +43832,8 @@ extension on _StringsKo {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -45434,6 +45486,8 @@ extension on _StringsNl {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -47086,6 +47140,8 @@ extension on _StringsPtBr {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -48738,6 +48794,8 @@ extension on _StringsRu {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -50390,6 +50448,8 @@ extension on _StringsTh {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -52042,6 +52102,8 @@ extension on _StringsTr {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -53694,6 +53756,8 @@ extension on _StringsVi {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
@@ -55307,8 +55371,8 @@ extension on _StringsZhCn {
 			case 'video_subtitle_filter_favorites': return '收藏';
 			case 'video_subtitle_filter_selected': return '已选';
 			case 'video_subtitle_list_card_selection': return '制卡选择';
-			case 'video_subtitle_list_select_for_card': return '选入词卡';
-			case 'video_subtitle_list_remove_from_card': return '移出词卡';
+			case 'video_subtitle_list_select_for_card': return '选入词卡（制卡时合并为例句）';
+			case 'video_subtitle_list_remove_from_card': return '从词卡选择中移除';
 			case 'video_subtitle_list_clear_selection': return '清空选择';
 			case 'video_subtitle_list_next_card_selection': return '已选入下一张卡';
 			case 'app_version': return '应用版本';
@@ -55346,6 +55410,8 @@ extension on _StringsZhCn {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => '无法连接 ${host}：${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return '重播上一句';
 			case 'video_control_slot_drop_hint': return '拖动按钮到这里';
+			case 'popup_append_sentence_tooltip': return '加入制卡句子';
+			case 'popup_clear_sentence_draft_tooltip': return '清空已加句子';
 			default: return null;
 		}
 	}
@@ -56959,8 +57025,8 @@ extension on _StringsZhHk {
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
 			case 'video_subtitle_list_card_selection': return 'Card selection';
-			case 'video_subtitle_list_select_for_card': return 'Select for card';
-			case 'video_subtitle_list_remove_from_card': return 'Remove from card selection';
+			case 'video_subtitle_list_select_for_card': return '選入詞卡（製卡時合併為例句）';
+			case 'video_subtitle_list_remove_from_card': return '從詞卡選擇中移除';
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
@@ -56998,6 +57064,8 @@ extension on _StringsZhHk {
 			case 'update_network_failure': return ({required Object host, required Object reason}) => '無法連接 ${host}：${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
+			case 'popup_append_sentence_tooltip': return 'Add this sentence to the card';
+			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			default: return null;
 		}
 	}
