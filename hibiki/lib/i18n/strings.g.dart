@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27948 (1644 per locale)
+/// Strings: 27982 (1646 per locale)
 ///
-/// Built on 2026-06-15 at 09:12 UTC
+/// Built on 2026-06-15 at 10:50 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1804,6 +1804,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	String get video_control_slot_top_left => 'Top bar (left)';
 	String get video_control_slot_top_right => 'Top bar (right)';
+	String get popup_sentence_context_prev_label => 'Before';
+	String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -3501,6 +3503,8 @@ class _StringsAr extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -5198,6 +5202,8 @@ class _StringsDe extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -6895,6 +6901,8 @@ class _StringsEs extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -8592,6 +8600,8 @@ class _StringsFr extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -10289,6 +10299,8 @@ class _StringsId extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -11986,6 +11998,8 @@ class _StringsIt extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -13683,6 +13697,8 @@ class _StringsJa extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -15380,6 +15396,8 @@ class _StringsKo extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -17077,6 +17095,8 @@ class _StringsNl extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -18774,6 +18794,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -20471,6 +20493,8 @@ class _StringsRu extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -22168,6 +22192,8 @@ class _StringsTh extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -23865,6 +23891,8 @@ class _StringsTr extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -25562,6 +25590,8 @@ class _StringsVi extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -27259,6 +27289,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => '清空已加句子';
 	@override String get video_control_slot_top_left => '顶栏（左）';
 	@override String get video_control_slot_top_right => '顶栏（右）';
+	@override String get popup_sentence_context_prev_label => '上';
+	@override String get popup_sentence_context_next_label => '下';
 }
 
 // Path: retrying_in
@@ -28956,6 +28988,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get popup_clear_sentence_draft_tooltip => 'Clear added sentences';
 	@override String get video_control_slot_top_left => 'Top bar (left)';
 	@override String get video_control_slot_top_right => 'Top bar (right)';
+	@override String get popup_sentence_context_prev_label => 'Before';
+	@override String get popup_sentence_context_next_label => 'After';
 }
 
 // Path: retrying_in
@@ -30638,6 +30672,8 @@ extension on _StringsEn {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -32294,6 +32330,8 @@ extension on _StringsAr {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -33950,6 +33988,8 @@ extension on _StringsDe {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -35606,6 +35646,8 @@ extension on _StringsEs {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -37262,6 +37304,8 @@ extension on _StringsFr {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -38918,6 +38962,8 @@ extension on _StringsId {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -40574,6 +40620,8 @@ extension on _StringsIt {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -42230,6 +42278,8 @@ extension on _StringsJa {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -43886,6 +43936,8 @@ extension on _StringsKo {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -45542,6 +45594,8 @@ extension on _StringsNl {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -47198,6 +47252,8 @@ extension on _StringsPtBr {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -48854,6 +48910,8 @@ extension on _StringsRu {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -50510,6 +50568,8 @@ extension on _StringsTh {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -52166,6 +52226,8 @@ extension on _StringsTr {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -53822,6 +53884,8 @@ extension on _StringsVi {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
@@ -55478,6 +55542,8 @@ extension on _StringsZhCn {
 			case 'popup_clear_sentence_draft_tooltip': return '清空已加句子';
 			case 'video_control_slot_top_left': return '顶栏（左）';
 			case 'video_control_slot_top_right': return '顶栏（右）';
+			case 'popup_sentence_context_prev_label': return '上';
+			case 'popup_sentence_context_next_label': return '下';
 			default: return null;
 		}
 	}
@@ -57134,6 +57200,8 @@ extension on _StringsZhHk {
 			case 'popup_clear_sentence_draft_tooltip': return 'Clear added sentences';
 			case 'video_control_slot_top_left': return 'Top bar (left)';
 			case 'video_control_slot_top_right': return 'Top bar (right)';
+			case 'popup_sentence_context_prev_label': return 'Before';
+			case 'popup_sentence_context_next_label': return 'After';
 			default: return null;
 		}
 	}
