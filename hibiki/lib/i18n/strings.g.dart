@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27982 (1646 per locale)
+/// Strings: 27999 (1647 per locale)
 ///
-/// Built on 2026-06-15 at 10:50 UTC
+/// Built on 2026-06-15 at 14:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -914,7 +914,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	String get anki_retry => 'Retry';
-	String get anki_fetch => 'Fetch from AnkiDroid';
 	String get anki_fetching => 'Fetching...';
 	String get anki_deck => 'Deck';
 	String get anki_note_type => 'Note Type';
@@ -927,7 +926,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
 	String get anki_connect_host => 'Host';
 	String get anki_connect_port => 'Port';
-	String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
 	String get anki_field_not_mapped => 'Not mapped';
 	String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
@@ -1806,6 +1804,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_control_slot_top_right => 'Top bar (right)';
 	String get popup_sentence_context_prev_label => 'Before';
 	String get popup_sentence_context_next_label => 'After';
+	String get anki_fetch => 'Refresh decks & note types';
+	String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -2588,7 +2589,6 @@ class _StringsAr extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'إضافة عنوان الكتاب الحالي تلقائياً كوسم عند إنشاء بطاقات.';
 	@override String get anki_duplicate_check_hint => 'اختر أنواع بطاقات Anki للتحقق من التكرارات قبل إضافة بطاقة جديدة.';
 	@override String get anki_retry => 'إعادة المحاولة';
-	@override String get anki_fetch => 'جلب من AnkiDroid';
 	@override String get anki_fetching => 'جارٍ الجلب…';
 	@override String get anki_deck => 'المجموعة';
 	@override String get anki_note_type => 'نوع الملاحظة';
@@ -2599,7 +2599,6 @@ class _StringsAr extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'تخطي فحص التكرارات عند إضافة البطاقات';
 	@override String get anki_compact_glossaries => 'معاني مختصرة';
 	@override String get anki_compact_glossaries_hint => 'استخدام تنسيق مختصر لإدخالات المعاني';
-	@override String get anki_not_configured => 'اضغط جلب لتحميل المجموعات وأنواع الملاحظات من AnkiDroid.';
 	@override String get anki_field_not_mapped => 'غير معيّن';
 	@override String anki_select_handlebar({required Object field}) => 'اختر قيمة لـ ${field}';
 	@override String get hint_font_size => 'ضبط حجم خط نص الكتاب (بالبكسل).';
@@ -3505,6 +3504,9 @@ class _StringsAr extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -4287,7 +4289,6 @@ class _StringsDe extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'Aktuellen Buchtitel beim Erstellen automatisch als Tag hinzufügen.';
 	@override String get anki_duplicate_check_hint => 'Auswählen, welche Anki-Kartentypen vor dem Hinzufügen auf Duplikate geprüft werden.';
 	@override String get anki_retry => 'Erneut versuchen';
-	@override String get anki_fetch => 'Von AnkiDroid abrufen';
 	@override String get anki_fetching => 'Wird abgerufen...';
 	@override String get anki_deck => 'Stapel';
 	@override String get anki_note_type => 'Notiztyp';
@@ -4298,7 +4299,6 @@ class _StringsDe extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'Duplikatprüfung beim Hinzufügen von Karten überspringen';
 	@override String get anki_compact_glossaries => 'Kompakte Glossare';
 	@override String get anki_compact_glossaries_hint => 'Kompaktes Format für Glossareinträge verwenden';
-	@override String get anki_not_configured => 'Tippen Sie auf Abrufen, um Stapel und Notiztypen von AnkiDroid zu laden.';
 	@override String get anki_field_not_mapped => 'Nicht zugeordnet';
 	@override String anki_select_handlebar({required Object field}) => 'Wert für ${field} auswählen';
 	@override String get hint_font_size => 'Schriftgröße des Buchtextes anpassen (in Pixel).';
@@ -5204,6 +5204,9 @@ class _StringsDe extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -5986,7 +5989,6 @@ class _StringsEs extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'Añadir automáticamente el título del libro como etiqueta al crear tarjetas.';
 	@override String get anki_duplicate_check_hint => 'Seleccionar qué tipos de tarjetas Anki comprobar para duplicados antes de añadir una nueva tarjeta.';
 	@override String get anki_retry => 'Reintentar';
-	@override String get anki_fetch => 'Obtener de AnkiDroid';
 	@override String get anki_fetching => 'Obteniendo...';
 	@override String get anki_deck => 'Mazo';
 	@override String get anki_note_type => 'Tipo de nota';
@@ -5997,7 +5999,6 @@ class _StringsEs extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'Omitir la comprobación de duplicados al añadir tarjetas';
 	@override String get anki_compact_glossaries => 'Glosarios compactos';
 	@override String get anki_compact_glossaries_hint => 'Usar formato compacto para las entradas del glosario';
-	@override String get anki_not_configured => 'Toca Obtener para cargar mazos y tipos de nota de AnkiDroid.';
 	@override String get anki_field_not_mapped => 'Sin mapear';
 	@override String anki_select_handlebar({required Object field}) => 'Seleccionar valor para ${field}';
 	@override String get hint_font_size => 'Ajustar el tamaño de fuente del texto del libro (en píxeles).';
@@ -6903,6 +6904,9 @@ class _StringsEs extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -7685,7 +7689,6 @@ class _StringsFr extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'Ajouter automatiquement le titre du livre comme étiquette lors de la création de cartes.';
 	@override String get anki_duplicate_check_hint => 'Sélectionner les types de cartes Anki à vérifier pour les doublons avant d\'ajouter une nouvelle carte.';
 	@override String get anki_retry => 'Réessayer';
-	@override String get anki_fetch => 'Récupérer depuis AnkiDroid';
 	@override String get anki_fetching => 'Récupération...';
 	@override String get anki_deck => 'Paquet';
 	@override String get anki_note_type => 'Type de note';
@@ -7696,7 +7699,6 @@ class _StringsFr extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'Ignorer la vérification des doublons lors de l\'ajout de cartes';
 	@override String get anki_compact_glossaries => 'Glossaires compacts';
 	@override String get anki_compact_glossaries_hint => 'Utiliser un format compact pour les entrées de glossaire';
-	@override String get anki_not_configured => 'Appuyez sur Récupérer pour charger les paquets et types de notes depuis AnkiDroid.';
 	@override String get anki_field_not_mapped => 'Non mappé';
 	@override String anki_select_handlebar({required Object field}) => 'Sélectionner la valeur pour ${field}';
 	@override String get hint_font_size => 'Ajuster la taille de police du texte du livre (en pixels).';
@@ -8602,6 +8604,9 @@ class _StringsFr extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -9384,7 +9389,6 @@ class _StringsId extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'Tambahkan judul buku saat ini sebagai tag secara otomatis saat membuat kartu.';
 	@override String get anki_duplicate_check_hint => 'Pilih tipe kartu Anki mana yang diperiksa duplikatnya sebelum menambahkan kartu baru.';
 	@override String get anki_retry => 'Coba Lagi';
-	@override String get anki_fetch => 'Ambil dari AnkiDroid';
 	@override String get anki_fetching => 'Mengambil…';
 	@override String get anki_deck => 'Dek';
 	@override String get anki_note_type => 'Tipe Catatan';
@@ -9395,7 +9399,6 @@ class _StringsId extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'Lewati pemeriksaan duplikat saat menambah kartu';
 	@override String get anki_compact_glossaries => 'Glosarium Ringkas';
 	@override String get anki_compact_glossaries_hint => 'Gunakan format ringkas untuk entri glosarium';
-	@override String get anki_not_configured => 'Ketuk Ambil untuk memuat dek dan tipe catatan dari AnkiDroid.';
 	@override String get anki_field_not_mapped => 'Belum dipetakan';
 	@override String anki_select_handlebar({required Object field}) => 'Pilih nilai untuk ${field}';
 	@override String get hint_font_size => 'Sesuaikan ukuran font teks buku (dalam piksel).';
@@ -10301,6 +10304,9 @@ class _StringsId extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -11083,7 +11089,6 @@ class _StringsIt extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'Aggiungi automaticamente il titolo del libro come etichetta durante la creazione delle carte.';
 	@override String get anki_duplicate_check_hint => 'Seleziona i tipi di carte Anki da controllare per i duplicati prima di aggiungere una nuova carta.';
 	@override String get anki_retry => 'Riprova';
-	@override String get anki_fetch => 'Recupera da AnkiDroid';
 	@override String get anki_fetching => 'Recupero in corso...';
 	@override String get anki_deck => 'Mazzo';
 	@override String get anki_note_type => 'Tipo di nota';
@@ -11094,7 +11099,6 @@ class _StringsIt extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'Ignora il controllo duplicati quando si aggiungono carte';
 	@override String get anki_compact_glossaries => 'Glossari compatti';
 	@override String get anki_compact_glossaries_hint => 'Usa il formato compatto per le voci del glossario';
-	@override String get anki_not_configured => 'Tocca Recupera per caricare mazzi e tipi di nota da AnkiDroid.';
 	@override String get anki_field_not_mapped => 'Non mappato';
 	@override String anki_select_handlebar({required Object field}) => 'Seleziona valore per ${field}';
 	@override String get hint_font_size => 'Regola la dimensione del carattere del testo del libro (in pixel).';
@@ -12000,6 +12004,9 @@ class _StringsIt extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -12787,7 +12794,6 @@ class _StringsJa extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'カード作成時、現在の書籍タイトルをタグとして自動追加します。';
 	@override String get anki_duplicate_check_hint => '新しいカードを追加する前に、どのカードタイプで重複をチェックするか選択します。';
 	@override String get anki_retry => '再試行';
-	@override String get anki_fetch => 'AnkiDroidから取得';
 	@override String get anki_fetching => '取得中...';
 	@override String get anki_deck => 'デッキ';
 	@override String get anki_note_type => 'ノートタイプ';
@@ -12798,7 +12804,6 @@ class _StringsJa extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'カード追加時に重複チェックをスキップ';
 	@override String get anki_compact_glossaries => 'コンパクト釈義';
 	@override String get anki_compact_glossaries_hint => '釈義をコンパクトな形式で表示';
-	@override String get anki_not_configured => '「取得」をタップしてAnkiDroidからデッキとノートタイプを読み込んでください。';
 	@override String get anki_field_not_mapped => '未割当';
 	@override String anki_select_handlebar({required Object field}) => '${field} の値を選択';
 	@override String get hint_font_size => '本文のフォントサイズを調整します（ピクセル）。';
@@ -13699,6 +13704,9 @@ class _StringsJa extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -14481,7 +14489,6 @@ class _StringsKo extends _StringsEn {
 	@override String get anki_auto_tag_hint => '카드 생성 시 현재 책 제목을 태그로 자동 추가합니다.';
 	@override String get anki_duplicate_check_hint => '새 카드를 추가하기 전에 중복을 검사할 Anki 카드 유형을 선택합니다.';
 	@override String get anki_retry => '다시 시도';
-	@override String get anki_fetch => 'AnkiDroid에서 가져오기';
 	@override String get anki_fetching => '가져오는 중…';
 	@override String get anki_deck => '덱';
 	@override String get anki_note_type => '노트 유형';
@@ -14492,7 +14499,6 @@ class _StringsKo extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => '카드 추가 시 중복 검사를 건너뜁니다';
 	@override String get anki_compact_glossaries => '간결한 용어 해설';
 	@override String get anki_compact_glossaries_hint => '용어 해설 항목에 간결한 형식을 사용합니다';
-	@override String get anki_not_configured => '가져오기를 눌러 AnkiDroid에서 덱과 노트 유형을 불러오세요.';
 	@override String get anki_field_not_mapped => '매핑되지 않음';
 	@override String anki_select_handlebar({required Object field}) => '${field}에 사용할 값 선택';
 	@override String get hint_font_size => '책 텍스트의 글꼴 크기를 조정합니다 (픽셀).';
@@ -15398,6 +15404,9 @@ class _StringsKo extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -16180,7 +16189,6 @@ class _StringsNl extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'Boektitel automatisch als label toevoegen bij het maken van kaarten.';
 	@override String get anki_duplicate_check_hint => 'Selecteer welke Anki-kaarttypen op duplicaten worden gecontroleerd vóór het toevoegen.';
 	@override String get anki_retry => 'Opnieuw proberen';
-	@override String get anki_fetch => 'Ophalen uit AnkiDroid';
 	@override String get anki_fetching => 'Ophalen...';
 	@override String get anki_deck => 'Stapel';
 	@override String get anki_note_type => 'Notitietype';
@@ -16191,7 +16199,6 @@ class _StringsNl extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'Duplicaatcontrole overslaan bij het toevoegen van kaarten';
 	@override String get anki_compact_glossaries => 'Compacte woordenlijsten';
 	@override String get anki_compact_glossaries_hint => 'Compact formaat gebruiken voor woordenlijstvermeldingen';
-	@override String get anki_not_configured => 'Tik op Ophalen om stapels en notitietypen uit AnkiDroid te laden.';
 	@override String get anki_field_not_mapped => 'Niet toegewezen';
 	@override String anki_select_handlebar({required Object field}) => 'Selecteer waarde voor ${field}';
 	@override String get hint_font_size => 'Pas de lettergrootte van de boektekst aan (in pixels).';
@@ -17097,6 +17104,9 @@ class _StringsNl extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -17879,7 +17889,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'Adicionar automaticamente o título do livro como tag ao criar cartões.';
 	@override String get anki_duplicate_check_hint => 'Selecionar quais tipos de cartões Anki verificar para duplicatas antes de adicionar um novo cartão.';
 	@override String get anki_retry => 'Tentar Novamente';
-	@override String get anki_fetch => 'Obter do AnkiDroid';
 	@override String get anki_fetching => 'Obtendo...';
 	@override String get anki_deck => 'Baralho';
 	@override String get anki_note_type => 'Tipo de nota';
@@ -17890,7 +17899,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'Ignorar verificação de duplicatas ao adicionar cartões';
 	@override String get anki_compact_glossaries => 'Glossários compactos';
 	@override String get anki_compact_glossaries_hint => 'Usar formato compacto para entradas do glossário';
-	@override String get anki_not_configured => 'Toque em Obter para carregar baralhos e tipos de nota do AnkiDroid.';
 	@override String get anki_field_not_mapped => 'Não mapeado';
 	@override String anki_select_handlebar({required Object field}) => 'Selecionar valor para ${field}';
 	@override String get hint_font_size => 'Ajustar o tamanho da fonte do texto do livro (em pixels).';
@@ -18796,6 +18804,9 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -19578,7 +19589,6 @@ class _StringsRu extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'Автоматически добавлять название текущей книги как тег при создании карточек.';
 	@override String get anki_duplicate_check_hint => 'Выберите, какие типы карточек Anki проверять на дубликаты перед добавлением новой карточки.';
 	@override String get anki_retry => 'Повторить';
-	@override String get anki_fetch => 'Загрузить из AnkiDroid';
 	@override String get anki_fetching => 'Загрузка…';
 	@override String get anki_deck => 'Колода';
 	@override String get anki_note_type => 'Тип заметки';
@@ -19589,7 +19599,6 @@ class _StringsRu extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'Пропускать проверку дубликатов при добавлении карточек';
 	@override String get anki_compact_glossaries => 'Компактные глоссарии';
 	@override String get anki_compact_glossaries_hint => 'Использовать компактный формат для записей глоссария';
-	@override String get anki_not_configured => 'Нажмите «Загрузить», чтобы получить колоды и типы заметок из AnkiDroid.';
 	@override String get anki_field_not_mapped => 'Не сопоставлено';
 	@override String anki_select_handlebar({required Object field}) => 'Выберите значение для ${field}';
 	@override String get hint_font_size => 'Настроить размер шрифта текста книги (в пикселях).';
@@ -20495,6 +20504,9 @@ class _StringsRu extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -21277,7 +21289,6 @@ class _StringsTh extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'เพิ่มชื่อหนังสือปัจจุบันเป็นแท็กอัตโนมัติเมื่อสร้างการ์ด';
 	@override String get anki_duplicate_check_hint => 'เลือกประเภทการ์ด Anki ที่จะตรวจสอบซ้ำก่อนเพิ่มการ์ดใหม่';
 	@override String get anki_retry => 'ลองอีกครั้ง';
-	@override String get anki_fetch => 'ดึงจาก AnkiDroid';
 	@override String get anki_fetching => 'กำลังดึงข้อมูล…';
 	@override String get anki_deck => 'สำรับ';
 	@override String get anki_note_type => 'ประเภทโน้ต';
@@ -21288,7 +21299,6 @@ class _StringsTh extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'ข้ามการตรวจสอบซ้ำเมื่อเพิ่มการ์ด';
 	@override String get anki_compact_glossaries => 'อภิธานศัพท์แบบกะทัดรัด';
 	@override String get anki_compact_glossaries_hint => 'ใช้รูปแบบกะทัดรัดสำหรับรายการอภิธานศัพท์';
-	@override String get anki_not_configured => 'แตะดึงข้อมูลเพื่อโหลดสำรับและประเภทโน้ตจาก AnkiDroid';
 	@override String get anki_field_not_mapped => 'ยังไม่ได้จับคู่';
 	@override String anki_select_handlebar({required Object field}) => 'เลือกค่าสำหรับ ${field}';
 	@override String get hint_font_size => 'ปรับขนาดฟอนต์ของข้อความหนังสือ (พิกเซล)';
@@ -22194,6 +22204,9 @@ class _StringsTh extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -22976,7 +22989,6 @@ class _StringsTr extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'Kart oluştururken kitap başlığını otomatik olarak etiket ekle.';
 	@override String get anki_duplicate_check_hint => 'Yeni kart eklemeden önce hangi Anki kart türlerinin tekrar kontrolü yapılacağını seçin.';
 	@override String get anki_retry => 'Tekrar dene';
-	@override String get anki_fetch => 'AnkiDroid\'dan Getir';
 	@override String get anki_fetching => 'Getiriliyor…';
 	@override String get anki_deck => 'Deste';
 	@override String get anki_note_type => 'Not Türü';
@@ -22987,7 +22999,6 @@ class _StringsTr extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'Kart eklerken tekrar kontrolünü atla';
 	@override String get anki_compact_glossaries => 'Kompakt Sözlükçeler';
 	@override String get anki_compact_glossaries_hint => 'Sözlükçe girişleri için kompakt biçim kullan';
-	@override String get anki_not_configured => 'AnkiDroid\'dan deste ve not türlerini yüklemek için Getir\'e dokunun.';
 	@override String get anki_field_not_mapped => 'Eşlenmemiş';
 	@override String anki_select_handlebar({required Object field}) => '${field} için değer seçin';
 	@override String get hint_font_size => 'Kitap metninin yazı tipi boyutunu ayarlayın (piksel cinsinden).';
@@ -23893,6 +23904,9 @@ class _StringsTr extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -24675,7 +24689,6 @@ class _StringsVi extends _StringsEn {
 	@override String get anki_auto_tag_hint => 'Tự động thêm tên sách hiện tại làm tag khi tạo thẻ.';
 	@override String get anki_duplicate_check_hint => 'Chọn loại thẻ Anki nào để kiểm tra trùng lặp trước khi thêm thẻ mới.';
 	@override String get anki_retry => 'Thử lại';
-	@override String get anki_fetch => 'Tải từ AnkiDroid';
 	@override String get anki_fetching => 'Đang tải…';
 	@override String get anki_deck => 'Bộ thẻ';
 	@override String get anki_note_type => 'Loại ghi chú';
@@ -24686,7 +24699,6 @@ class _StringsVi extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => 'Bỏ qua kiểm tra trùng lặp khi thêm thẻ';
 	@override String get anki_compact_glossaries => 'Giải nghĩa thu gọn';
 	@override String get anki_compact_glossaries_hint => 'Dùng định dạng thu gọn cho các mục giải nghĩa';
-	@override String get anki_not_configured => 'Nhấn Tải để lấy bộ thẻ và loại ghi chú từ AnkiDroid.';
 	@override String get anki_field_not_mapped => 'Chưa ánh xạ';
 	@override String anki_select_handlebar({required Object field}) => 'Chọn giá trị cho ${field}';
 	@override String get hint_font_size => 'Điều chỉnh cỡ chữ của văn bản sách (tính bằng pixel).';
@@ -25592,6 +25604,9 @@ class _StringsVi extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -26395,7 +26410,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get anki_auto_tag_hint => '制卡时自动将当前书名添加为标签。';
 	@override String get anki_duplicate_check_hint => '选择导出前检查哪些卡片类型中是否已有重复。';
 	@override String get anki_retry => '重试';
-	@override String get anki_fetch => '从 AnkiDroid 获取';
 	@override String get anki_fetching => '获取中...';
 	@override String get anki_deck => '牌组';
 	@override String get anki_note_type => '笔记类型';
@@ -26406,7 +26420,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => '添加卡片时跳过重复检查';
 	@override String get anki_compact_glossaries => '紧凑释义';
 	@override String get anki_compact_glossaries_hint => '使用紧凑格式显示释义';
-	@override String get anki_not_configured => '点击「获取」从 AnkiDroid 加载牌组和笔记类型。';
 	@override String get anki_field_not_mapped => '未映射';
 	@override String anki_select_handlebar({required Object field}) => '选择 ${field} 的值';
 	@override String get hint_font_size => '调整正文字体大小（像素）。';
@@ -27291,6 +27304,9 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_control_slot_top_right => '顶栏（右）';
 	@override String get popup_sentence_context_prev_label => '上';
 	@override String get popup_sentence_context_next_label => '下';
+	@override String get anki_fetch => '刷新牌组与笔记类型';
+	@override String get anki_not_configured => '点击「刷新」加载你的 Anki 牌组与笔记类型。';
+	@override String get anki_refresh_hint => '在 Anki 里新建或重命名牌组、笔记类型后，点此刷新。';
 }
 
 // Path: retrying_in
@@ -28073,7 +28089,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get anki_auto_tag_hint => '製卡時自動將目前書名加入為標籤。';
 	@override String get anki_duplicate_check_hint => '選擇匯出前檢查哪些卡片類型中是否已有重複。';
 	@override String get anki_retry => '重試';
-	@override String get anki_fetch => '從 AnkiDroid 擷取';
 	@override String get anki_fetching => '擷取中…';
 	@override String get anki_deck => '牌組';
 	@override String get anki_note_type => '筆記類型';
@@ -28084,7 +28099,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get anki_allow_duplicates_hint => '新增卡片時跳過重複檢查';
 	@override String get anki_compact_glossaries => '精簡釋義';
 	@override String get anki_compact_glossaries_hint => '使用精簡格式顯示釋義';
-	@override String get anki_not_configured => '請點擊「擷取」從 AnkiDroid 載入牌組和筆記類型。';
 	@override String get anki_field_not_mapped => '未對應';
 	@override String anki_select_handlebar({required Object field}) => '選擇 ${field} 的值';
 	@override String get hint_font_size => '調整正文字型大小（像素）。';
@@ -28990,6 +29004,9 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_control_slot_top_right => 'Top bar (right)';
 	@override String get popup_sentence_context_prev_label => 'Before';
 	@override String get popup_sentence_context_next_label => 'After';
+	@override String get anki_fetch => 'Refresh decks & note types';
+	@override String get anki_not_configured => 'Tap Refresh to load your Anki decks and note types.';
+	@override String get anki_refresh_hint => 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 }
 
 // Path: retrying_in
@@ -29782,7 +29799,6 @@ extension on _StringsEn {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
 			case 'anki_fetching': return 'Fetching...';
 			case 'anki_deck': return 'Deck';
 			case 'anki_note_type': return 'Note Type';
@@ -29795,7 +29811,6 @@ extension on _StringsEn {
 			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
 			case 'anki_field_not_mapped': return 'Not mapped';
 			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
@@ -30674,6 +30689,9 @@ extension on _StringsEn {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -31415,7 +31433,6 @@ extension on _StringsAr {
 			case 'anki_auto_tag_hint': return 'إضافة عنوان الكتاب الحالي تلقائياً كوسم عند إنشاء بطاقات.';
 			case 'anki_duplicate_check_hint': return 'اختر أنواع بطاقات Anki للتحقق من التكرارات قبل إضافة بطاقة جديدة.';
 			case 'anki_retry': return 'إعادة المحاولة';
-			case 'anki_fetch': return 'جلب من AnkiDroid';
 			case 'anki_fetching': return 'جارٍ الجلب…';
 			case 'anki_deck': return 'المجموعة';
 			case 'anki_note_type': return 'نوع الملاحظة';
@@ -31426,7 +31443,6 @@ extension on _StringsAr {
 			case 'anki_allow_duplicates_hint': return 'تخطي فحص التكرارات عند إضافة البطاقات';
 			case 'anki_compact_glossaries': return 'معاني مختصرة';
 			case 'anki_compact_glossaries_hint': return 'استخدام تنسيق مختصر لإدخالات المعاني';
-			case 'anki_not_configured': return 'اضغط جلب لتحميل المجموعات وأنواع الملاحظات من AnkiDroid.';
 			case 'anki_field_not_mapped': return 'غير معيّن';
 			case 'anki_select_handlebar': return ({required Object field}) => 'اختر قيمة لـ ${field}';
 			case 'hint_font_size': return 'ضبط حجم خط نص الكتاب (بالبكسل).';
@@ -32332,6 +32348,9 @@ extension on _StringsAr {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -33073,7 +33092,6 @@ extension on _StringsDe {
 			case 'anki_auto_tag_hint': return 'Aktuellen Buchtitel beim Erstellen automatisch als Tag hinzufügen.';
 			case 'anki_duplicate_check_hint': return 'Auswählen, welche Anki-Kartentypen vor dem Hinzufügen auf Duplikate geprüft werden.';
 			case 'anki_retry': return 'Erneut versuchen';
-			case 'anki_fetch': return 'Von AnkiDroid abrufen';
 			case 'anki_fetching': return 'Wird abgerufen...';
 			case 'anki_deck': return 'Stapel';
 			case 'anki_note_type': return 'Notiztyp';
@@ -33084,7 +33102,6 @@ extension on _StringsDe {
 			case 'anki_allow_duplicates_hint': return 'Duplikatprüfung beim Hinzufügen von Karten überspringen';
 			case 'anki_compact_glossaries': return 'Kompakte Glossare';
 			case 'anki_compact_glossaries_hint': return 'Kompaktes Format für Glossareinträge verwenden';
-			case 'anki_not_configured': return 'Tippen Sie auf Abrufen, um Stapel und Notiztypen von AnkiDroid zu laden.';
 			case 'anki_field_not_mapped': return 'Nicht zugeordnet';
 			case 'anki_select_handlebar': return ({required Object field}) => 'Wert für ${field} auswählen';
 			case 'hint_font_size': return 'Schriftgröße des Buchtextes anpassen (in Pixel).';
@@ -33990,6 +34007,9 @@ extension on _StringsDe {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -34731,7 +34751,6 @@ extension on _StringsEs {
 			case 'anki_auto_tag_hint': return 'Añadir automáticamente el título del libro como etiqueta al crear tarjetas.';
 			case 'anki_duplicate_check_hint': return 'Seleccionar qué tipos de tarjetas Anki comprobar para duplicados antes de añadir una nueva tarjeta.';
 			case 'anki_retry': return 'Reintentar';
-			case 'anki_fetch': return 'Obtener de AnkiDroid';
 			case 'anki_fetching': return 'Obteniendo...';
 			case 'anki_deck': return 'Mazo';
 			case 'anki_note_type': return 'Tipo de nota';
@@ -34742,7 +34761,6 @@ extension on _StringsEs {
 			case 'anki_allow_duplicates_hint': return 'Omitir la comprobación de duplicados al añadir tarjetas';
 			case 'anki_compact_glossaries': return 'Glosarios compactos';
 			case 'anki_compact_glossaries_hint': return 'Usar formato compacto para las entradas del glosario';
-			case 'anki_not_configured': return 'Toca Obtener para cargar mazos y tipos de nota de AnkiDroid.';
 			case 'anki_field_not_mapped': return 'Sin mapear';
 			case 'anki_select_handlebar': return ({required Object field}) => 'Seleccionar valor para ${field}';
 			case 'hint_font_size': return 'Ajustar el tamaño de fuente del texto del libro (en píxeles).';
@@ -35648,6 +35666,9 @@ extension on _StringsEs {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -36389,7 +36410,6 @@ extension on _StringsFr {
 			case 'anki_auto_tag_hint': return 'Ajouter automatiquement le titre du livre comme étiquette lors de la création de cartes.';
 			case 'anki_duplicate_check_hint': return 'Sélectionner les types de cartes Anki à vérifier pour les doublons avant d\'ajouter une nouvelle carte.';
 			case 'anki_retry': return 'Réessayer';
-			case 'anki_fetch': return 'Récupérer depuis AnkiDroid';
 			case 'anki_fetching': return 'Récupération...';
 			case 'anki_deck': return 'Paquet';
 			case 'anki_note_type': return 'Type de note';
@@ -36400,7 +36420,6 @@ extension on _StringsFr {
 			case 'anki_allow_duplicates_hint': return 'Ignorer la vérification des doublons lors de l\'ajout de cartes';
 			case 'anki_compact_glossaries': return 'Glossaires compacts';
 			case 'anki_compact_glossaries_hint': return 'Utiliser un format compact pour les entrées de glossaire';
-			case 'anki_not_configured': return 'Appuyez sur Récupérer pour charger les paquets et types de notes depuis AnkiDroid.';
 			case 'anki_field_not_mapped': return 'Non mappé';
 			case 'anki_select_handlebar': return ({required Object field}) => 'Sélectionner la valeur pour ${field}';
 			case 'hint_font_size': return 'Ajuster la taille de police du texte du livre (en pixels).';
@@ -37306,6 +37325,9 @@ extension on _StringsFr {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -38047,7 +38069,6 @@ extension on _StringsId {
 			case 'anki_auto_tag_hint': return 'Tambahkan judul buku saat ini sebagai tag secara otomatis saat membuat kartu.';
 			case 'anki_duplicate_check_hint': return 'Pilih tipe kartu Anki mana yang diperiksa duplikatnya sebelum menambahkan kartu baru.';
 			case 'anki_retry': return 'Coba Lagi';
-			case 'anki_fetch': return 'Ambil dari AnkiDroid';
 			case 'anki_fetching': return 'Mengambil…';
 			case 'anki_deck': return 'Dek';
 			case 'anki_note_type': return 'Tipe Catatan';
@@ -38058,7 +38079,6 @@ extension on _StringsId {
 			case 'anki_allow_duplicates_hint': return 'Lewati pemeriksaan duplikat saat menambah kartu';
 			case 'anki_compact_glossaries': return 'Glosarium Ringkas';
 			case 'anki_compact_glossaries_hint': return 'Gunakan format ringkas untuk entri glosarium';
-			case 'anki_not_configured': return 'Ketuk Ambil untuk memuat dek dan tipe catatan dari AnkiDroid.';
 			case 'anki_field_not_mapped': return 'Belum dipetakan';
 			case 'anki_select_handlebar': return ({required Object field}) => 'Pilih nilai untuk ${field}';
 			case 'hint_font_size': return 'Sesuaikan ukuran font teks buku (dalam piksel).';
@@ -38964,6 +38984,9 @@ extension on _StringsId {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -39705,7 +39728,6 @@ extension on _StringsIt {
 			case 'anki_auto_tag_hint': return 'Aggiungi automaticamente il titolo del libro come etichetta durante la creazione delle carte.';
 			case 'anki_duplicate_check_hint': return 'Seleziona i tipi di carte Anki da controllare per i duplicati prima di aggiungere una nuova carta.';
 			case 'anki_retry': return 'Riprova';
-			case 'anki_fetch': return 'Recupera da AnkiDroid';
 			case 'anki_fetching': return 'Recupero in corso...';
 			case 'anki_deck': return 'Mazzo';
 			case 'anki_note_type': return 'Tipo di nota';
@@ -39716,7 +39738,6 @@ extension on _StringsIt {
 			case 'anki_allow_duplicates_hint': return 'Ignora il controllo duplicati quando si aggiungono carte';
 			case 'anki_compact_glossaries': return 'Glossari compatti';
 			case 'anki_compact_glossaries_hint': return 'Usa il formato compatto per le voci del glossario';
-			case 'anki_not_configured': return 'Tocca Recupera per caricare mazzi e tipi di nota da AnkiDroid.';
 			case 'anki_field_not_mapped': return 'Non mappato';
 			case 'anki_select_handlebar': return ({required Object field}) => 'Seleziona valore per ${field}';
 			case 'hint_font_size': return 'Regola la dimensione del carattere del testo del libro (in pixel).';
@@ -40622,6 +40643,9 @@ extension on _StringsIt {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -41368,7 +41392,6 @@ extension on _StringsJa {
 			case 'anki_auto_tag_hint': return 'カード作成時、現在の書籍タイトルをタグとして自動追加します。';
 			case 'anki_duplicate_check_hint': return '新しいカードを追加する前に、どのカードタイプで重複をチェックするか選択します。';
 			case 'anki_retry': return '再試行';
-			case 'anki_fetch': return 'AnkiDroidから取得';
 			case 'anki_fetching': return '取得中...';
 			case 'anki_deck': return 'デッキ';
 			case 'anki_note_type': return 'ノートタイプ';
@@ -41379,7 +41402,6 @@ extension on _StringsJa {
 			case 'anki_allow_duplicates_hint': return 'カード追加時に重複チェックをスキップ';
 			case 'anki_compact_glossaries': return 'コンパクト釈義';
 			case 'anki_compact_glossaries_hint': return '釈義をコンパクトな形式で表示';
-			case 'anki_not_configured': return '「取得」をタップしてAnkiDroidからデッキとノートタイプを読み込んでください。';
 			case 'anki_field_not_mapped': return '未割当';
 			case 'anki_select_handlebar': return ({required Object field}) => '${field} の値を選択';
 			case 'hint_font_size': return '本文のフォントサイズを調整します（ピクセル）。';
@@ -42280,6 +42302,9 @@ extension on _StringsJa {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -43021,7 +43046,6 @@ extension on _StringsKo {
 			case 'anki_auto_tag_hint': return '카드 생성 시 현재 책 제목을 태그로 자동 추가합니다.';
 			case 'anki_duplicate_check_hint': return '새 카드를 추가하기 전에 중복을 검사할 Anki 카드 유형을 선택합니다.';
 			case 'anki_retry': return '다시 시도';
-			case 'anki_fetch': return 'AnkiDroid에서 가져오기';
 			case 'anki_fetching': return '가져오는 중…';
 			case 'anki_deck': return '덱';
 			case 'anki_note_type': return '노트 유형';
@@ -43032,7 +43056,6 @@ extension on _StringsKo {
 			case 'anki_allow_duplicates_hint': return '카드 추가 시 중복 검사를 건너뜁니다';
 			case 'anki_compact_glossaries': return '간결한 용어 해설';
 			case 'anki_compact_glossaries_hint': return '용어 해설 항목에 간결한 형식을 사용합니다';
-			case 'anki_not_configured': return '가져오기를 눌러 AnkiDroid에서 덱과 노트 유형을 불러오세요.';
 			case 'anki_field_not_mapped': return '매핑되지 않음';
 			case 'anki_select_handlebar': return ({required Object field}) => '${field}에 사용할 값 선택';
 			case 'hint_font_size': return '책 텍스트의 글꼴 크기를 조정합니다 (픽셀).';
@@ -43938,6 +43961,9 @@ extension on _StringsKo {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -44679,7 +44705,6 @@ extension on _StringsNl {
 			case 'anki_auto_tag_hint': return 'Boektitel automatisch als label toevoegen bij het maken van kaarten.';
 			case 'anki_duplicate_check_hint': return 'Selecteer welke Anki-kaarttypen op duplicaten worden gecontroleerd vóór het toevoegen.';
 			case 'anki_retry': return 'Opnieuw proberen';
-			case 'anki_fetch': return 'Ophalen uit AnkiDroid';
 			case 'anki_fetching': return 'Ophalen...';
 			case 'anki_deck': return 'Stapel';
 			case 'anki_note_type': return 'Notitietype';
@@ -44690,7 +44715,6 @@ extension on _StringsNl {
 			case 'anki_allow_duplicates_hint': return 'Duplicaatcontrole overslaan bij het toevoegen van kaarten';
 			case 'anki_compact_glossaries': return 'Compacte woordenlijsten';
 			case 'anki_compact_glossaries_hint': return 'Compact formaat gebruiken voor woordenlijstvermeldingen';
-			case 'anki_not_configured': return 'Tik op Ophalen om stapels en notitietypen uit AnkiDroid te laden.';
 			case 'anki_field_not_mapped': return 'Niet toegewezen';
 			case 'anki_select_handlebar': return ({required Object field}) => 'Selecteer waarde voor ${field}';
 			case 'hint_font_size': return 'Pas de lettergrootte van de boektekst aan (in pixels).';
@@ -45596,6 +45620,9 @@ extension on _StringsNl {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -46337,7 +46364,6 @@ extension on _StringsPtBr {
 			case 'anki_auto_tag_hint': return 'Adicionar automaticamente o título do livro como tag ao criar cartões.';
 			case 'anki_duplicate_check_hint': return 'Selecionar quais tipos de cartões Anki verificar para duplicatas antes de adicionar um novo cartão.';
 			case 'anki_retry': return 'Tentar Novamente';
-			case 'anki_fetch': return 'Obter do AnkiDroid';
 			case 'anki_fetching': return 'Obtendo...';
 			case 'anki_deck': return 'Baralho';
 			case 'anki_note_type': return 'Tipo de nota';
@@ -46348,7 +46374,6 @@ extension on _StringsPtBr {
 			case 'anki_allow_duplicates_hint': return 'Ignorar verificação de duplicatas ao adicionar cartões';
 			case 'anki_compact_glossaries': return 'Glossários compactos';
 			case 'anki_compact_glossaries_hint': return 'Usar formato compacto para entradas do glossário';
-			case 'anki_not_configured': return 'Toque em Obter para carregar baralhos e tipos de nota do AnkiDroid.';
 			case 'anki_field_not_mapped': return 'Não mapeado';
 			case 'anki_select_handlebar': return ({required Object field}) => 'Selecionar valor para ${field}';
 			case 'hint_font_size': return 'Ajustar o tamanho da fonte do texto do livro (em pixels).';
@@ -47254,6 +47279,9 @@ extension on _StringsPtBr {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -47995,7 +48023,6 @@ extension on _StringsRu {
 			case 'anki_auto_tag_hint': return 'Автоматически добавлять название текущей книги как тег при создании карточек.';
 			case 'anki_duplicate_check_hint': return 'Выберите, какие типы карточек Anki проверять на дубликаты перед добавлением новой карточки.';
 			case 'anki_retry': return 'Повторить';
-			case 'anki_fetch': return 'Загрузить из AnkiDroid';
 			case 'anki_fetching': return 'Загрузка…';
 			case 'anki_deck': return 'Колода';
 			case 'anki_note_type': return 'Тип заметки';
@@ -48006,7 +48033,6 @@ extension on _StringsRu {
 			case 'anki_allow_duplicates_hint': return 'Пропускать проверку дубликатов при добавлении карточек';
 			case 'anki_compact_glossaries': return 'Компактные глоссарии';
 			case 'anki_compact_glossaries_hint': return 'Использовать компактный формат для записей глоссария';
-			case 'anki_not_configured': return 'Нажмите «Загрузить», чтобы получить колоды и типы заметок из AnkiDroid.';
 			case 'anki_field_not_mapped': return 'Не сопоставлено';
 			case 'anki_select_handlebar': return ({required Object field}) => 'Выберите значение для ${field}';
 			case 'hint_font_size': return 'Настроить размер шрифта текста книги (в пикселях).';
@@ -48912,6 +48938,9 @@ extension on _StringsRu {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -49653,7 +49682,6 @@ extension on _StringsTh {
 			case 'anki_auto_tag_hint': return 'เพิ่มชื่อหนังสือปัจจุบันเป็นแท็กอัตโนมัติเมื่อสร้างการ์ด';
 			case 'anki_duplicate_check_hint': return 'เลือกประเภทการ์ด Anki ที่จะตรวจสอบซ้ำก่อนเพิ่มการ์ดใหม่';
 			case 'anki_retry': return 'ลองอีกครั้ง';
-			case 'anki_fetch': return 'ดึงจาก AnkiDroid';
 			case 'anki_fetching': return 'กำลังดึงข้อมูล…';
 			case 'anki_deck': return 'สำรับ';
 			case 'anki_note_type': return 'ประเภทโน้ต';
@@ -49664,7 +49692,6 @@ extension on _StringsTh {
 			case 'anki_allow_duplicates_hint': return 'ข้ามการตรวจสอบซ้ำเมื่อเพิ่มการ์ด';
 			case 'anki_compact_glossaries': return 'อภิธานศัพท์แบบกะทัดรัด';
 			case 'anki_compact_glossaries_hint': return 'ใช้รูปแบบกะทัดรัดสำหรับรายการอภิธานศัพท์';
-			case 'anki_not_configured': return 'แตะดึงข้อมูลเพื่อโหลดสำรับและประเภทโน้ตจาก AnkiDroid';
 			case 'anki_field_not_mapped': return 'ยังไม่ได้จับคู่';
 			case 'anki_select_handlebar': return ({required Object field}) => 'เลือกค่าสำหรับ ${field}';
 			case 'hint_font_size': return 'ปรับขนาดฟอนต์ของข้อความหนังสือ (พิกเซล)';
@@ -50570,6 +50597,9 @@ extension on _StringsTh {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -51311,7 +51341,6 @@ extension on _StringsTr {
 			case 'anki_auto_tag_hint': return 'Kart oluştururken kitap başlığını otomatik olarak etiket ekle.';
 			case 'anki_duplicate_check_hint': return 'Yeni kart eklemeden önce hangi Anki kart türlerinin tekrar kontrolü yapılacağını seçin.';
 			case 'anki_retry': return 'Tekrar dene';
-			case 'anki_fetch': return 'AnkiDroid\'dan Getir';
 			case 'anki_fetching': return 'Getiriliyor…';
 			case 'anki_deck': return 'Deste';
 			case 'anki_note_type': return 'Not Türü';
@@ -51322,7 +51351,6 @@ extension on _StringsTr {
 			case 'anki_allow_duplicates_hint': return 'Kart eklerken tekrar kontrolünü atla';
 			case 'anki_compact_glossaries': return 'Kompakt Sözlükçeler';
 			case 'anki_compact_glossaries_hint': return 'Sözlükçe girişleri için kompakt biçim kullan';
-			case 'anki_not_configured': return 'AnkiDroid\'dan deste ve not türlerini yüklemek için Getir\'e dokunun.';
 			case 'anki_field_not_mapped': return 'Eşlenmemiş';
 			case 'anki_select_handlebar': return ({required Object field}) => '${field} için değer seçin';
 			case 'hint_font_size': return 'Kitap metninin yazı tipi boyutunu ayarlayın (piksel cinsinden).';
@@ -52228,6 +52256,9 @@ extension on _StringsTr {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -52969,7 +53000,6 @@ extension on _StringsVi {
 			case 'anki_auto_tag_hint': return 'Tự động thêm tên sách hiện tại làm tag khi tạo thẻ.';
 			case 'anki_duplicate_check_hint': return 'Chọn loại thẻ Anki nào để kiểm tra trùng lặp trước khi thêm thẻ mới.';
 			case 'anki_retry': return 'Thử lại';
-			case 'anki_fetch': return 'Tải từ AnkiDroid';
 			case 'anki_fetching': return 'Đang tải…';
 			case 'anki_deck': return 'Bộ thẻ';
 			case 'anki_note_type': return 'Loại ghi chú';
@@ -52980,7 +53010,6 @@ extension on _StringsVi {
 			case 'anki_allow_duplicates_hint': return 'Bỏ qua kiểm tra trùng lặp khi thêm thẻ';
 			case 'anki_compact_glossaries': return 'Giải nghĩa thu gọn';
 			case 'anki_compact_glossaries_hint': return 'Dùng định dạng thu gọn cho các mục giải nghĩa';
-			case 'anki_not_configured': return 'Nhấn Tải để lấy bộ thẻ và loại ghi chú từ AnkiDroid.';
 			case 'anki_field_not_mapped': return 'Chưa ánh xạ';
 			case 'anki_select_handlebar': return ({required Object field}) => 'Chọn giá trị cho ${field}';
 			case 'hint_font_size': return 'Điều chỉnh cỡ chữ của văn bản sách (tính bằng pixel).';
@@ -53886,6 +53915,9 @@ extension on _StringsVi {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
@@ -54648,7 +54680,6 @@ extension on _StringsZhCn {
 			case 'anki_auto_tag_hint': return '制卡时自动将当前书名添加为标签。';
 			case 'anki_duplicate_check_hint': return '选择导出前检查哪些卡片类型中是否已有重复。';
 			case 'anki_retry': return '重试';
-			case 'anki_fetch': return '从 AnkiDroid 获取';
 			case 'anki_fetching': return '获取中...';
 			case 'anki_deck': return '牌组';
 			case 'anki_note_type': return '笔记类型';
@@ -54659,7 +54690,6 @@ extension on _StringsZhCn {
 			case 'anki_allow_duplicates_hint': return '添加卡片时跳过重复检查';
 			case 'anki_compact_glossaries': return '紧凑释义';
 			case 'anki_compact_glossaries_hint': return '使用紧凑格式显示释义';
-			case 'anki_not_configured': return '点击「获取」从 AnkiDroid 加载牌组和笔记类型。';
 			case 'anki_field_not_mapped': return '未映射';
 			case 'anki_select_handlebar': return ({required Object field}) => '选择 ${field} 的值';
 			case 'hint_font_size': return '调整正文字体大小（像素）。';
@@ -55544,6 +55574,9 @@ extension on _StringsZhCn {
 			case 'video_control_slot_top_right': return '顶栏（右）';
 			case 'popup_sentence_context_prev_label': return '上';
 			case 'popup_sentence_context_next_label': return '下';
+			case 'anki_fetch': return '刷新牌组与笔记类型';
+			case 'anki_not_configured': return '点击「刷新」加载你的 Anki 牌组与笔记类型。';
+			case 'anki_refresh_hint': return '在 Anki 里新建或重命名牌组、笔记类型后，点此刷新。';
 			default: return null;
 		}
 	}
@@ -56285,7 +56318,6 @@ extension on _StringsZhHk {
 			case 'anki_auto_tag_hint': return '製卡時自動將目前書名加入為標籤。';
 			case 'anki_duplicate_check_hint': return '選擇匯出前檢查哪些卡片類型中是否已有重複。';
 			case 'anki_retry': return '重試';
-			case 'anki_fetch': return '從 AnkiDroid 擷取';
 			case 'anki_fetching': return '擷取中…';
 			case 'anki_deck': return '牌組';
 			case 'anki_note_type': return '筆記類型';
@@ -56296,7 +56328,6 @@ extension on _StringsZhHk {
 			case 'anki_allow_duplicates_hint': return '新增卡片時跳過重複檢查';
 			case 'anki_compact_glossaries': return '精簡釋義';
 			case 'anki_compact_glossaries_hint': return '使用精簡格式顯示釋義';
-			case 'anki_not_configured': return '請點擊「擷取」從 AnkiDroid 載入牌組和筆記類型。';
 			case 'anki_field_not_mapped': return '未對應';
 			case 'anki_select_handlebar': return ({required Object field}) => '選擇 ${field} 的值';
 			case 'hint_font_size': return '調整正文字型大小（像素）。';
@@ -57202,6 +57233,9 @@ extension on _StringsZhHk {
 			case 'video_control_slot_top_right': return 'Top bar (right)';
 			case 'popup_sentence_context_prev_label': return 'Before';
 			case 'popup_sentence_context_next_label': return 'After';
+			case 'anki_fetch': return 'Refresh decks & note types';
+			case 'anki_not_configured': return 'Tap Refresh to load your Anki decks and note types.';
+			case 'anki_refresh_hint': return 'After creating or renaming a deck or note type in Anki, tap here to refresh.';
 			default: return null;
 		}
 	}
