@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 27897 (1641 per locale)
+/// Strings: 27846 (1638 per locale)
 ///
-/// Built on 2026-06-15 at 04:14 UTC
+/// Built on 2026-06-15 at 04:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1766,8 +1766,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_subtitle_list_clear_selection => 'Clear card selection';
 	String get video_subtitle_list_next_card_selection => 'selected for next card';
 	String get app_version => 'App version';
-	String get app_ui_scale_auto => 'Automatic';
-	String get app_ui_scale_custom => 'Custom';
 	String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	String get video_bottom_seek_back => 'Back 10s';
 	String get video_bottom_seek_forward => 'Forward 10s';
@@ -1785,7 +1783,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_bottom_seek_forward_label => '+10s';
 	String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	String get now_listening_label => 'Now listening';
-	String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	String get video_jimaku_api_key_set => 'API key set';
 	String get lyrics_text_color => 'Lyrics text color';
@@ -3460,8 +3457,6 @@ class _StringsAr extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -3479,7 +3474,6 @@ class _StringsAr extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -5154,8 +5148,6 @@ class _StringsDe extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -5173,7 +5165,6 @@ class _StringsDe extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -6848,8 +6839,6 @@ class _StringsEs extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -6867,7 +6856,6 @@ class _StringsEs extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -8542,8 +8530,6 @@ class _StringsFr extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -8561,7 +8547,6 @@ class _StringsFr extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -10236,8 +10221,6 @@ class _StringsId extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -10255,7 +10238,6 @@ class _StringsId extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -11930,8 +11912,6 @@ class _StringsIt extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -11949,7 +11929,6 @@ class _StringsIt extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -13624,8 +13603,6 @@ class _StringsJa extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -13643,7 +13620,6 @@ class _StringsJa extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -15318,8 +15294,6 @@ class _StringsKo extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -15337,7 +15311,6 @@ class _StringsKo extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -17012,8 +16985,6 @@ class _StringsNl extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -17031,7 +17002,6 @@ class _StringsNl extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -18706,8 +18676,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -18725,7 +18693,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -20400,8 +20367,6 @@ class _StringsRu extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -20419,7 +20384,6 @@ class _StringsRu extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -22094,8 +22058,6 @@ class _StringsTh extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -22113,7 +22075,6 @@ class _StringsTh extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -23788,8 +23749,6 @@ class _StringsTr extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -23807,7 +23766,6 @@ class _StringsTr extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -25482,8 +25440,6 @@ class _StringsVi extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -25501,7 +25457,6 @@ class _StringsVi extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -27176,8 +27131,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => '清空选择';
 	@override String get video_subtitle_list_next_card_selection => '已选入下一张卡';
 	@override String get app_version => '应用版本';
-	@override String get app_ui_scale_auto => '自动';
-	@override String get app_ui_scale_custom => '自定义';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid 数据库当前不可用：请先打开 AnkiDroid 至少一次，确认它没有在同步且已开启 API，然后重试。';
 	@override String get video_bottom_seek_back => '后退 10 秒';
 	@override String get video_bottom_seek_forward => '前进 10 秒';
@@ -27195,7 +27148,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => '这本书没有可听的音频';
 	@override String get now_listening_label => '正在听书';
-	@override String app_ui_scale_auto_current({required Object percent}) => '当前 ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '本集收藏 ${count} 句';
 	@override String get video_jimaku_api_key_set => 'API key 已配置';
 	@override String get lyrics_text_color => '歌词字幕颜色';
@@ -28870,8 +28822,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_subtitle_list_clear_selection => 'Clear card selection';
 	@override String get video_subtitle_list_next_card_selection => 'selected for next card';
 	@override String get app_version => 'App version';
-	@override String get app_ui_scale_auto => 'Automatic';
-	@override String get app_ui_scale_custom => 'Custom';
 	@override String get anki_error_collection_unavailable => 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 	@override String get video_bottom_seek_back => 'Back 10s';
 	@override String get video_bottom_seek_forward => 'Forward 10s';
@@ -28889,7 +28839,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String app_ui_scale_auto_current({required Object percent}) => 'Currently ${percent}';
 	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
@@ -30549,8 +30498,6 @@ extension on _StringsEn {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -30568,7 +30515,6 @@ extension on _StringsEn {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -32202,8 +32148,6 @@ extension on _StringsAr {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -32221,7 +32165,6 @@ extension on _StringsAr {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -33855,8 +33798,6 @@ extension on _StringsDe {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -33874,7 +33815,6 @@ extension on _StringsDe {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -35508,8 +35448,6 @@ extension on _StringsEs {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -35527,7 +35465,6 @@ extension on _StringsEs {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -37161,8 +37098,6 @@ extension on _StringsFr {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -37180,7 +37115,6 @@ extension on _StringsFr {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -38814,8 +38748,6 @@ extension on _StringsId {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -38833,7 +38765,6 @@ extension on _StringsId {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -40467,8 +40398,6 @@ extension on _StringsIt {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -40486,7 +40415,6 @@ extension on _StringsIt {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -42120,8 +42048,6 @@ extension on _StringsJa {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -42139,7 +42065,6 @@ extension on _StringsJa {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -43773,8 +43698,6 @@ extension on _StringsKo {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -43792,7 +43715,6 @@ extension on _StringsKo {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -45426,8 +45348,6 @@ extension on _StringsNl {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -45445,7 +45365,6 @@ extension on _StringsNl {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -47079,8 +46998,6 @@ extension on _StringsPtBr {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -47098,7 +47015,6 @@ extension on _StringsPtBr {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -48732,8 +48648,6 @@ extension on _StringsRu {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -48751,7 +48665,6 @@ extension on _StringsRu {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -50385,8 +50298,6 @@ extension on _StringsTh {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -50404,7 +50315,6 @@ extension on _StringsTh {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -52038,8 +51948,6 @@ extension on _StringsTr {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -52057,7 +51965,6 @@ extension on _StringsTr {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -53691,8 +53598,6 @@ extension on _StringsVi {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -53710,7 +53615,6 @@ extension on _StringsVi {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
@@ -55344,8 +55248,6 @@ extension on _StringsZhCn {
 			case 'video_subtitle_list_clear_selection': return '清空选择';
 			case 'video_subtitle_list_next_card_selection': return '已选入下一张卡';
 			case 'app_version': return '应用版本';
-			case 'app_ui_scale_auto': return '自动';
-			case 'app_ui_scale_custom': return '自定义';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid 数据库当前不可用：请先打开 AnkiDroid 至少一次，确认它没有在同步且已开启 API，然后重试。';
 			case 'video_bottom_seek_back': return '后退 10 秒';
 			case 'video_bottom_seek_forward': return '前进 10 秒';
@@ -55363,7 +55265,6 @@ extension on _StringsZhCn {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return '这本书没有可听的音频';
 			case 'now_listening_label': return '正在听书';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => '当前 ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '本集收藏 ${count} 句';
 			case 'video_jimaku_api_key_set': return 'API key 已配置';
 			case 'lyrics_text_color': return '歌词字幕颜色';
@@ -56997,8 +56898,6 @@ extension on _StringsZhHk {
 			case 'video_subtitle_list_clear_selection': return 'Clear card selection';
 			case 'video_subtitle_list_next_card_selection': return 'selected for next card';
 			case 'app_version': return 'App version';
-			case 'app_ui_scale_auto': return 'Automatic';
-			case 'app_ui_scale_custom': return 'Custom';
 			case 'anki_error_collection_unavailable': return 'AnkiDroid\'s collection is currently unavailable. Open AnkiDroid at least once, make sure it isn\'t syncing and the API is enabled, then retry.';
 			case 'video_bottom_seek_back': return 'Back 10s';
 			case 'video_bottom_seek_forward': return 'Forward 10s';
@@ -57016,7 +56915,6 @@ extension on _StringsZhHk {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'app_ui_scale_auto_current': return ({required Object percent}) => 'Currently ${percent}';
 			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
