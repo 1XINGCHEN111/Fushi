@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 28339 (1667 per locale)
+/// Strings: 28560 (1680 per locale)
 ///
-/// Built on 2026-06-16 at 05:31 UTC
+/// Built on 2026-06-16 at 14:00 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2213,6 +2213,23 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String video_chapter_n({required Object n}) => 'Chapter ${n}';
   String get shortcut_action_video_next_chapter => 'Next chapter';
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  String get video_clip_export => 'Clip export';
+  String get video_clip_export_start => 'Start clip export';
+  String get video_clip_export_stop => 'Stop and export clip';
+  String get video_clip_exporting => 'Exporting clip…';
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  String get video_clip_export_output_missing => 'No output file was created';
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -5953,6 +5970,36 @@ class _StringsAr extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -9776,6 +9823,36 @@ class _StringsDe extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -13613,6 +13690,36 @@ class _StringsEs extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -17470,6 +17577,36 @@ class _StringsFr extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -21249,6 +21386,36 @@ class _StringsId extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -25070,6 +25237,36 @@ class _StringsIt extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -28718,6 +28915,36 @@ class _StringsJa extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -32368,6 +32595,36 @@ class _StringsKo extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -36171,6 +36428,36 @@ class _StringsNl extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -39987,6 +40274,36 @@ class _StringsPtBr extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -43788,6 +44105,36 @@ class _StringsRu extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -47528,6 +47875,36 @@ class _StringsTh extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -51307,6 +51684,36 @@ class _StringsTr extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -55066,6 +55473,36 @@ class _StringsVi extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -58587,6 +59024,33 @@ class _StringsZhCn extends _StringsEn {
   String get shortcut_action_video_next_chapter => '下一章';
   @override
   String get shortcut_action_video_previous_chapter => '上一章';
+  @override
+  String get video_clip_export => '片段导出';
+  @override
+  String get video_clip_export_start => '开始片段导出';
+  @override
+  String get video_clip_export_stop => '停止并导出片段';
+  @override
+  String get video_clip_exporting => '正在导出片段…';
+  @override
+  String video_clip_exported({required Object path}) => '片段已导出：${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      '片段导出失败：${reason}';
+  @override
+  String get video_clip_export_remote_download_required => '请先把远端视频下载到本机后再导出片段';
+  @override
+  String get video_clip_export_invalid_range => '没有有效片段';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg 不可用';
+  @override
+  String get video_clip_export_source_changed => '视频源已切换，已取消片段导出';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg 执行失败';
+  @override
+  String get video_clip_export_output_missing => '没有生成导出文件';
+  @override
+  String get video_clip_export_input_missing => '源视频不可用';
 }
 
 // Path: retrying_in
@@ -62211,6 +62675,36 @@ class _StringsZhHk extends _StringsEn {
   String get shortcut_action_video_next_chapter => '下一章';
   @override
   String get shortcut_action_video_previous_chapter => '上一章';
+  @override
+  String get video_clip_export => 'Clip export';
+  @override
+  String get video_clip_export_start => 'Start clip export';
+  @override
+  String get video_clip_export_stop => 'Stop and export clip';
+  @override
+  String get video_clip_exporting => 'Exporting clip…';
+  @override
+  String video_clip_exported({required Object path}) =>
+      'Clip exported: ${path}';
+  @override
+  String video_clip_export_failed({required Object reason}) =>
+      'Clip export failed: ${reason}';
+  @override
+  String get video_clip_export_remote_download_required =>
+      'Download the remote video to this device before exporting a clip';
+  @override
+  String get video_clip_export_invalid_range => 'No valid clip range';
+  @override
+  String get video_clip_export_ffmpeg_unavailable => 'ffmpeg is unavailable';
+  @override
+  String get video_clip_export_source_changed =>
+      'Video source changed; clip export cancelled';
+  @override
+  String get video_clip_export_ffmpeg_failed => 'ffmpeg failed';
+  @override
+  String get video_clip_export_output_missing => 'No output file was created';
+  @override
+  String get video_clip_export_input_missing => 'Source video is unavailable';
 }
 
 // Path: retrying_in
@@ -65659,6 +66153,32 @@ extension on _StringsEn {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -69065,6 +69585,32 @@ extension on _StringsAr {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -72487,6 +73033,32 @@ extension on _StringsDe {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -75907,6 +76479,32 @@ extension on _StringsEs {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -79329,6 +79927,32 @@ extension on _StringsFr {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -82740,6 +83364,32 @@ extension on _StringsId {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -86159,6 +86809,32 @@ extension on _StringsIt {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -89554,6 +90230,32 @@ extension on _StringsJa {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -92951,6 +93653,32 @@ extension on _StringsKo {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -96367,6 +97095,32 @@ extension on _StringsNl {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -99782,6 +100536,32 @@ extension on _StringsPtBr {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -103198,6 +103978,32 @@ extension on _StringsRu {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -106605,6 +107411,32 @@ extension on _StringsTh {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -110015,6 +110847,32 @@ extension on _StringsTr {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -113422,6 +114280,32 @@ extension on _StringsVi {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
@@ -116807,6 +117691,32 @@ extension on _StringsZhCn {
         return '下一章';
       case 'shortcut_action_video_previous_chapter':
         return '上一章';
+      case 'video_clip_export':
+        return '片段导出';
+      case 'video_clip_export_start':
+        return '开始片段导出';
+      case 'video_clip_export_stop':
+        return '停止并导出片段';
+      case 'video_clip_exporting':
+        return '正在导出片段…';
+      case 'video_clip_exported':
+        return ({required Object path}) => '片段已导出：${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => '片段导出失败：${reason}';
+      case 'video_clip_export_remote_download_required':
+        return '请先把远端视频下载到本机后再导出片段';
+      case 'video_clip_export_invalid_range':
+        return '没有有效片段';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg 不可用';
+      case 'video_clip_export_source_changed':
+        return '视频源已切换，已取消片段导出';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg 执行失败';
+      case 'video_clip_export_output_missing':
+        return '没有生成导出文件';
+      case 'video_clip_export_input_missing':
+        return '源视频不可用';
       default:
         return null;
     }
@@ -120201,6 +121111,32 @@ extension on _StringsZhHk {
         return '下一章';
       case 'shortcut_action_video_previous_chapter':
         return '上一章';
+      case 'video_clip_export':
+        return 'Clip export';
+      case 'video_clip_export_start':
+        return 'Start clip export';
+      case 'video_clip_export_stop':
+        return 'Stop and export clip';
+      case 'video_clip_exporting':
+        return 'Exporting clip…';
+      case 'video_clip_exported':
+        return ({required Object path}) => 'Clip exported: ${path}';
+      case 'video_clip_export_failed':
+        return ({required Object reason}) => 'Clip export failed: ${reason}';
+      case 'video_clip_export_remote_download_required':
+        return 'Download the remote video to this device before exporting a clip';
+      case 'video_clip_export_invalid_range':
+        return 'No valid clip range';
+      case 'video_clip_export_ffmpeg_unavailable':
+        return 'ffmpeg is unavailable';
+      case 'video_clip_export_source_changed':
+        return 'Video source changed; clip export cancelled';
+      case 'video_clip_export_ffmpeg_failed':
+        return 'ffmpeg failed';
+      case 'video_clip_export_output_missing':
+        return 'No output file was created';
+      case 'video_clip_export_input_missing':
+        return 'Source video is unavailable';
       default:
         return null;
     }
