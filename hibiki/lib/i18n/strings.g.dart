@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 28339 (1667 per locale)
+/// Strings: 28356 (1668 per locale)
 ///
-/// Built on 2026-06-16 at 05:31 UTC
+/// Built on 2026-06-16 at 14:22 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2213,6 +2213,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String video_chapter_n({required Object n}) => 'Chapter ${n}';
   String get shortcut_action_video_next_chapter => 'Next chapter';
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -5953,6 +5954,8 @@ class _StringsAr extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -9776,6 +9779,8 @@ class _StringsDe extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -13613,6 +13618,8 @@ class _StringsEs extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -17470,6 +17477,8 @@ class _StringsFr extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -21249,6 +21258,8 @@ class _StringsId extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -25070,6 +25081,8 @@ class _StringsIt extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -28718,6 +28731,8 @@ class _StringsJa extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -32368,6 +32383,8 @@ class _StringsKo extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -36171,6 +36188,8 @@ class _StringsNl extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -39987,6 +40006,8 @@ class _StringsPtBr extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -43788,6 +43809,8 @@ class _StringsRu extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -47528,6 +47551,8 @@ class _StringsTh extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -51307,6 +51332,8 @@ class _StringsTr extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -55066,6 +55093,8 @@ class _StringsVi extends _StringsEn {
   String get shortcut_action_video_next_chapter => 'Next chapter';
   @override
   String get shortcut_action_video_previous_chapter => 'Previous chapter';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -58587,6 +58616,8 @@ class _StringsZhCn extends _StringsEn {
   String get shortcut_action_video_next_chapter => '下一章';
   @override
   String get shortcut_action_video_previous_chapter => '上一章';
+  @override
+  String get video_subtitle_list_loading => '正在加载字幕…';
 }
 
 // Path: retrying_in
@@ -62211,6 +62242,8 @@ class _StringsZhHk extends _StringsEn {
   String get shortcut_action_video_next_chapter => '下一章';
   @override
   String get shortcut_action_video_previous_chapter => '上一章';
+  @override
+  String get video_subtitle_list_loading => 'Loading subtitles...';
 }
 
 // Path: retrying_in
@@ -65659,6 +65692,8 @@ extension on _StringsEn {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -69065,6 +69100,8 @@ extension on _StringsAr {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -72487,6 +72524,8 @@ extension on _StringsDe {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -75907,6 +75946,8 @@ extension on _StringsEs {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -79329,6 +79370,8 @@ extension on _StringsFr {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -82740,6 +82783,8 @@ extension on _StringsId {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -86159,6 +86204,8 @@ extension on _StringsIt {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -89554,6 +89601,8 @@ extension on _StringsJa {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -92951,6 +93000,8 @@ extension on _StringsKo {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -96367,6 +96418,8 @@ extension on _StringsNl {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -99782,6 +99835,8 @@ extension on _StringsPtBr {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -103198,6 +103253,8 @@ extension on _StringsRu {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -106605,6 +106662,8 @@ extension on _StringsTh {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -110015,6 +110074,8 @@ extension on _StringsTr {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -113422,6 +113483,8 @@ extension on _StringsVi {
         return 'Next chapter';
       case 'shortcut_action_video_previous_chapter':
         return 'Previous chapter';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
@@ -116807,6 +116870,8 @@ extension on _StringsZhCn {
         return '下一章';
       case 'shortcut_action_video_previous_chapter':
         return '上一章';
+      case 'video_subtitle_list_loading':
+        return '正在加载字幕…';
       default:
         return null;
     }
@@ -120201,6 +120266,8 @@ extension on _StringsZhHk {
         return '下一章';
       case 'shortcut_action_video_previous_chapter':
         return '上一章';
+      case 'video_subtitle_list_loading':
+        return 'Loading subtitles...';
       default:
         return null;
     }
