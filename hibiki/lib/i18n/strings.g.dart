@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29002 (1706 per locale)
+/// Strings: 29070 (1710 per locale)
 ///
-/// Built on 2026-06-17 at 17:14 UTC
+/// Built on 2026-06-17 at 20:12 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1789,12 +1789,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	String get video_control_slot_screen_left => 'Screen left';
 	String get video_control_slot_screen_right => 'Screen right';
-	String get video_control_slot_hidden => 'Hidden';
+	String get video_control_slot_hidden => 'Removed from player';
 	String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	String get video_control_slot_drop_hint => 'Drag a button here';
@@ -1821,7 +1821,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	String get video_control_palette_title => 'All buttons';
 	String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	String get video_control_remove_from_slot => 'Remove';
+	String get video_control_remove_from_slot => 'Move out';
 	String get video_chapters => 'Chapters';
 	String get video_chapters_empty => 'No chapters';
 	String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -1866,6 +1866,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	String get video_control_reject_required => 'Required controls must stay on the player.';
+	String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -3548,12 +3552,12 @@ class _StringsAr extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -3580,7 +3584,7 @@ class _StringsAr extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -3625,6 +3629,10 @@ class _StringsAr extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -5307,12 +5315,12 @@ class _StringsDe extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -5339,7 +5347,7 @@ class _StringsDe extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -5384,6 +5392,10 @@ class _StringsDe extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -7066,12 +7078,12 @@ class _StringsEs extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -7098,7 +7110,7 @@ class _StringsEs extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -7143,6 +7155,10 @@ class _StringsEs extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -8825,12 +8841,12 @@ class _StringsFr extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -8857,7 +8873,7 @@ class _StringsFr extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -8902,6 +8918,10 @@ class _StringsFr extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -10584,12 +10604,12 @@ class _StringsId extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -10616,7 +10636,7 @@ class _StringsId extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -10661,6 +10681,10 @@ class _StringsId extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -12343,12 +12367,12 @@ class _StringsIt extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -12375,7 +12399,7 @@ class _StringsIt extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -12420,6 +12444,10 @@ class _StringsIt extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -14102,12 +14130,12 @@ class _StringsJa extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -14134,7 +14162,7 @@ class _StringsJa extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -14179,6 +14207,10 @@ class _StringsJa extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -15861,12 +15893,12 @@ class _StringsKo extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -15893,7 +15925,7 @@ class _StringsKo extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -15938,6 +15970,10 @@ class _StringsKo extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -17620,12 +17656,12 @@ class _StringsNl extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -17652,7 +17688,7 @@ class _StringsNl extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -17697,6 +17733,10 @@ class _StringsNl extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -19379,12 +19419,12 @@ class _StringsPtBr extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -19411,7 +19451,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -19456,6 +19496,10 @@ class _StringsPtBr extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -21138,12 +21182,12 @@ class _StringsRu extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -21170,7 +21214,7 @@ class _StringsRu extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -21215,6 +21259,10 @@ class _StringsRu extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -22897,12 +22945,12 @@ class _StringsTh extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -22929,7 +22977,7 @@ class _StringsTh extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -22974,6 +23022,10 @@ class _StringsTh extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -24656,12 +24708,12 @@ class _StringsTr extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -24688,7 +24740,7 @@ class _StringsTr extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -24733,6 +24785,10 @@ class _StringsTr extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -26415,12 +26471,12 @@ class _StringsVi extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -26447,7 +26503,7 @@ class _StringsVi extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => 'Chapters';
 	@override String get video_chapters_empty => 'No chapters';
 	@override String video_chapter_n({required Object n}) => 'Chapter ${n}';
@@ -26492,6 +26548,10 @@ class _StringsVi extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -28174,12 +28234,12 @@ class _StringsZhCn extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => '调低让悬浮字幕文字更透明';
 	@override String get floating_lyric_button_bg_opacity => '悬浮字幕按钮底色透明度';
 	@override String get floating_lyric_button_bg_opacity_hint => '调整悬浮字幕控制按钮底色的透明度';
-	@override String get video_control_customize_hint => '为每个按钮选择在播放器上的位置，或将其隐藏。';
+	@override String get video_control_customize_hint => '为每个按钮选择在播放器上的位置，或将其移出。';
 	@override String get video_control_slot_bottom_left => '底栏（左）';
 	@override String get video_control_slot_bottom_right => '底栏（右）';
 	@override String get video_control_slot_screen_left => '屏幕左侧';
 	@override String get video_control_slot_screen_right => '屏幕右侧';
-	@override String get video_control_slot_hidden => '隐藏';
+	@override String get video_control_slot_hidden => '移出播放器';
 	@override String update_network_failure({required Object host, required Object reason}) => '无法连接 ${host}：${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => '重播上一句';
 	@override String get video_control_slot_drop_hint => '拖动按钮到这里';
@@ -28206,7 +28266,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_control_slot_bottom_center => '底栏（中间）';
 	@override String get video_control_palette_title => '全部按钮';
 	@override String get video_control_palette_hint => '把按钮拖入某个位置即可添加；一个按钮可放在多个位置。';
-	@override String get video_control_remove_from_slot => '移除';
+	@override String get video_control_remove_from_slot => '移出';
 	@override String get video_chapters => '章节';
 	@override String get video_chapters_empty => '无章节';
 	@override String video_chapter_n({required Object n}) => '章节 ${n}';
@@ -28251,6 +28311,10 @@ class _StringsZhCn extends _StringsEn {
 	@override String get update_install_process_not_observed => '启动后检查时未看到安装器进程。';
 	@override String get update_install_log_observed => '启动后检查时已创建安装日志。';
 	@override String get update_install_log_not_observed => '启动后检查时未创建安装日志。';
+	@override String get video_control_reject_required => '必选控制必须保留在播放器上。';
+	@override String get video_control_reject_volume_bottom => '音量只能放在底栏。';
+	@override String get video_control_reject_unavailable => '此控制不能放在这里。';
+	@override String get video_control_volume => '音量';
 }
 
 // Path: retrying_in
@@ -29933,12 +29997,12 @@ class _StringsZhHk extends _StringsEn {
 	@override String get floating_lyric_text_opacity_hint => 'Lower this to make the floating subtitle text more transparent';
 	@override String get floating_lyric_button_bg_opacity => 'Floating subtitle button background opacity';
 	@override String get floating_lyric_button_bg_opacity_hint => 'Adjust how transparent the floating subtitle control buttons are';
-	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or hide it.';
+	@override String get video_control_customize_hint => 'Choose where each button sits on the player, or move it out.';
 	@override String get video_control_slot_bottom_left => 'Bottom bar (left)';
 	@override String get video_control_slot_bottom_right => 'Bottom bar (right)';
 	@override String get video_control_slot_screen_left => 'Screen left';
 	@override String get video_control_slot_screen_right => 'Screen right';
-	@override String get video_control_slot_hidden => 'Hidden';
+	@override String get video_control_slot_hidden => 'Removed from player';
 	@override String update_network_failure({required Object host, required Object reason}) => '無法連接 ${host}：${reason}';
 	@override String get shortcut_action_video_replay_previous_subtitle => 'Replay previous subtitle';
 	@override String get video_control_slot_drop_hint => 'Drag a button here';
@@ -29965,7 +30029,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_control_slot_bottom_center => 'Bottom bar (center)';
 	@override String get video_control_palette_title => 'All buttons';
 	@override String get video_control_palette_hint => 'Drag a button into a slot to add it; a button can sit in several slots.';
-	@override String get video_control_remove_from_slot => 'Remove';
+	@override String get video_control_remove_from_slot => 'Move out';
 	@override String get video_chapters => '章節';
 	@override String get video_chapters_empty => '無章節';
 	@override String video_chapter_n({required Object n}) => '章節 ${n}';
@@ -30010,6 +30074,10 @@ class _StringsZhHk extends _StringsEn {
 	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
 	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
 	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
+	@override String get video_control_reject_required => 'Required controls must stay on the player.';
+	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
+	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
+	@override String get video_control_volume => 'Volume';
 }
 
 // Path: retrying_in
@@ -31677,12 +31745,12 @@ extension on _StringsEn {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -31709,7 +31777,7 @@ extension on _StringsEn {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -31754,6 +31822,10 @@ extension on _StringsEn {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -33395,12 +33467,12 @@ extension on _StringsAr {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -33427,7 +33499,7 @@ extension on _StringsAr {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -33472,6 +33544,10 @@ extension on _StringsAr {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -35113,12 +35189,12 @@ extension on _StringsDe {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -35145,7 +35221,7 @@ extension on _StringsDe {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -35190,6 +35266,10 @@ extension on _StringsDe {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -36831,12 +36911,12 @@ extension on _StringsEs {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -36863,7 +36943,7 @@ extension on _StringsEs {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -36908,6 +36988,10 @@ extension on _StringsEs {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -38549,12 +38633,12 @@ extension on _StringsFr {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -38581,7 +38665,7 @@ extension on _StringsFr {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -38626,6 +38710,10 @@ extension on _StringsFr {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -40267,12 +40355,12 @@ extension on _StringsId {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -40299,7 +40387,7 @@ extension on _StringsId {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -40344,6 +40432,10 @@ extension on _StringsId {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -41985,12 +42077,12 @@ extension on _StringsIt {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -42017,7 +42109,7 @@ extension on _StringsIt {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -42062,6 +42154,10 @@ extension on _StringsIt {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -43703,12 +43799,12 @@ extension on _StringsJa {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -43735,7 +43831,7 @@ extension on _StringsJa {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -43780,6 +43876,10 @@ extension on _StringsJa {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -45421,12 +45521,12 @@ extension on _StringsKo {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -45453,7 +45553,7 @@ extension on _StringsKo {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -45498,6 +45598,10 @@ extension on _StringsKo {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -47139,12 +47243,12 @@ extension on _StringsNl {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -47171,7 +47275,7 @@ extension on _StringsNl {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -47216,6 +47320,10 @@ extension on _StringsNl {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -48857,12 +48965,12 @@ extension on _StringsPtBr {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -48889,7 +48997,7 @@ extension on _StringsPtBr {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -48934,6 +49042,10 @@ extension on _StringsPtBr {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -50575,12 +50687,12 @@ extension on _StringsRu {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -50607,7 +50719,7 @@ extension on _StringsRu {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -50652,6 +50764,10 @@ extension on _StringsRu {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -52293,12 +52409,12 @@ extension on _StringsTh {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -52325,7 +52441,7 @@ extension on _StringsTh {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -52370,6 +52486,10 @@ extension on _StringsTh {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -54011,12 +54131,12 @@ extension on _StringsTr {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -54043,7 +54163,7 @@ extension on _StringsTr {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -54088,6 +54208,10 @@ extension on _StringsTr {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -55729,12 +55853,12 @@ extension on _StringsVi {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => 'Could not reach ${host}: ${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -55761,7 +55885,7 @@ extension on _StringsVi {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return 'Chapters';
 			case 'video_chapters_empty': return 'No chapters';
 			case 'video_chapter_n': return ({required Object n}) => 'Chapter ${n}';
@@ -55806,6 +55930,10 @@ extension on _StringsVi {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
@@ -57447,12 +57575,12 @@ extension on _StringsZhCn {
 			case 'floating_lyric_text_opacity_hint': return '调低让悬浮字幕文字更透明';
 			case 'floating_lyric_button_bg_opacity': return '悬浮字幕按钮底色透明度';
 			case 'floating_lyric_button_bg_opacity_hint': return '调整悬浮字幕控制按钮底色的透明度';
-			case 'video_control_customize_hint': return '为每个按钮选择在播放器上的位置，或将其隐藏。';
+			case 'video_control_customize_hint': return '为每个按钮选择在播放器上的位置，或将其移出。';
 			case 'video_control_slot_bottom_left': return '底栏（左）';
 			case 'video_control_slot_bottom_right': return '底栏（右）';
 			case 'video_control_slot_screen_left': return '屏幕左侧';
 			case 'video_control_slot_screen_right': return '屏幕右侧';
-			case 'video_control_slot_hidden': return '隐藏';
+			case 'video_control_slot_hidden': return '移出播放器';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => '无法连接 ${host}：${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return '重播上一句';
 			case 'video_control_slot_drop_hint': return '拖动按钮到这里';
@@ -57479,7 +57607,7 @@ extension on _StringsZhCn {
 			case 'video_control_slot_bottom_center': return '底栏（中间）';
 			case 'video_control_palette_title': return '全部按钮';
 			case 'video_control_palette_hint': return '把按钮拖入某个位置即可添加；一个按钮可放在多个位置。';
-			case 'video_control_remove_from_slot': return '移除';
+			case 'video_control_remove_from_slot': return '移出';
 			case 'video_chapters': return '章节';
 			case 'video_chapters_empty': return '无章节';
 			case 'video_chapter_n': return ({required Object n}) => '章节 ${n}';
@@ -57524,6 +57652,10 @@ extension on _StringsZhCn {
 			case 'update_install_process_not_observed': return '启动后检查时未看到安装器进程。';
 			case 'update_install_log_observed': return '启动后检查时已创建安装日志。';
 			case 'update_install_log_not_observed': return '启动后检查时未创建安装日志。';
+			case 'video_control_reject_required': return '必选控制必须保留在播放器上。';
+			case 'video_control_reject_volume_bottom': return '音量只能放在底栏。';
+			case 'video_control_reject_unavailable': return '此控制不能放在这里。';
+			case 'video_control_volume': return '音量';
 			default: return null;
 		}
 	}
@@ -59165,12 +59297,12 @@ extension on _StringsZhHk {
 			case 'floating_lyric_text_opacity_hint': return 'Lower this to make the floating subtitle text more transparent';
 			case 'floating_lyric_button_bg_opacity': return 'Floating subtitle button background opacity';
 			case 'floating_lyric_button_bg_opacity_hint': return 'Adjust how transparent the floating subtitle control buttons are';
-			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or hide it.';
+			case 'video_control_customize_hint': return 'Choose where each button sits on the player, or move it out.';
 			case 'video_control_slot_bottom_left': return 'Bottom bar (left)';
 			case 'video_control_slot_bottom_right': return 'Bottom bar (right)';
 			case 'video_control_slot_screen_left': return 'Screen left';
 			case 'video_control_slot_screen_right': return 'Screen right';
-			case 'video_control_slot_hidden': return 'Hidden';
+			case 'video_control_slot_hidden': return 'Removed from player';
 			case 'update_network_failure': return ({required Object host, required Object reason}) => '無法連接 ${host}：${reason}';
 			case 'shortcut_action_video_replay_previous_subtitle': return 'Replay previous subtitle';
 			case 'video_control_slot_drop_hint': return 'Drag a button here';
@@ -59197,7 +59329,7 @@ extension on _StringsZhHk {
 			case 'video_control_slot_bottom_center': return 'Bottom bar (center)';
 			case 'video_control_palette_title': return 'All buttons';
 			case 'video_control_palette_hint': return 'Drag a button into a slot to add it; a button can sit in several slots.';
-			case 'video_control_remove_from_slot': return 'Remove';
+			case 'video_control_remove_from_slot': return 'Move out';
 			case 'video_chapters': return '章節';
 			case 'video_chapters_empty': return '無章節';
 			case 'video_chapter_n': return ({required Object n}) => '章節 ${n}';
@@ -59242,6 +59374,10 @@ extension on _StringsZhHk {
 			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
 			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
 			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
+			case 'video_control_reject_required': return 'Required controls must stay on the player.';
+			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
+			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
+			case 'video_control_volume': return 'Volume';
 			default: return null;
 		}
 	}
