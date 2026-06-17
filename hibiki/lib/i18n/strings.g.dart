@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 28594 (1682 per locale)
 ///
-/// Built on 2026-06-16 at 15:36 UTC
+/// Built on 2026-06-17 at 04:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1674,7 +1674,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   String get video_import_title => 'Import Video';
   String get video_import_pick_video => 'Pick video file';
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   String get video_import_confirm => 'Import';
   String get shelf_video_section => 'Videos';
   String get video_import_action => 'Import video';
@@ -5007,7 +5007,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -8864,7 +8864,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -12735,7 +12735,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -16626,7 +16626,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -20439,7 +20439,7 @@ class _StringsId extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -24294,7 +24294,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -27976,7 +27976,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -31660,7 +31660,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -35497,7 +35497,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -39347,7 +39347,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -43182,7 +43182,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -46956,7 +46956,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -50769,7 +50769,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -54562,7 +54562,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -58189,7 +58189,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_import_pick_video => '选择视频文件';
   @override
-  String get video_import_pick_subtitle => '选择字幕(srt/vtt/ass)';
+  String get video_import_pick_subtitle => '选择字幕';
   @override
   String get video_import_confirm => '导入';
   @override
@@ -61773,7 +61773,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_import_pick_video => 'Pick video file';
   @override
-  String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
+  String get video_import_pick_subtitle => 'Pick subtitle';
   @override
   String get video_import_confirm => 'Import';
   @override
@@ -65355,7 +65355,7 @@ extension on _StringsEn {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -68791,7 +68791,7 @@ extension on _StringsAr {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -72243,7 +72243,7 @@ extension on _StringsDe {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -75693,7 +75693,7 @@ extension on _StringsEs {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -79145,7 +79145,7 @@ extension on _StringsFr {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -82586,7 +82586,7 @@ extension on _StringsId {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -86035,7 +86035,7 @@ extension on _StringsIt {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -89460,7 +89460,7 @@ extension on _StringsJa {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -92887,7 +92887,7 @@ extension on _StringsKo {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -96333,7 +96333,7 @@ extension on _StringsNl {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -99778,7 +99778,7 @@ extension on _StringsPtBr {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -103224,7 +103224,7 @@ extension on _StringsRu {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -106661,7 +106661,7 @@ extension on _StringsTh {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -110101,7 +110101,7 @@ extension on _StringsTr {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -113538,7 +113538,7 @@ extension on _StringsVi {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
@@ -116958,7 +116958,7 @@ extension on _StringsZhCn {
       case 'video_import_pick_video':
         return '选择视频文件';
       case 'video_import_pick_subtitle':
-        return '选择字幕(srt/vtt/ass)';
+        return '选择字幕';
       case 'video_import_confirm':
         return '导入';
       case 'shelf_video_section':
@@ -120377,7 +120377,7 @@ extension on _StringsZhHk {
       case 'video_import_pick_video':
         return 'Pick video file';
       case 'video_import_pick_subtitle':
-        return 'Pick subtitle (srt/vtt/ass)';
+        return 'Pick subtitle';
       case 'video_import_confirm':
         return 'Import';
       case 'shelf_video_section':
