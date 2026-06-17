@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 28747 (1691 per locale)
+/// Strings: 28866 (1698 per locale)
 ///
-/// Built on 2026-06-17 at 13:06 UTC
+/// Built on 2026-06-17 at 14:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2246,6 +2246,18 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_subtitle_no_background => 'No background';
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  String get update_install_success_title => 'Update installed';
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  String get update_install_incomplete_title => 'Update did not finish';
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -6043,6 +6055,25 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -9923,6 +9954,25 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -13817,6 +13867,25 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -17731,6 +17800,25 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -21567,6 +21655,25 @@ class _StringsId extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -25445,6 +25552,25 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -29150,6 +29276,25 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -32857,6 +33002,25 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -36717,6 +36881,25 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -40590,6 +40773,25 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -44448,6 +44650,25 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -48245,6 +48466,25 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -52081,6 +52321,25 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -55897,6 +56156,25 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -59470,6 +59748,23 @@ class _StringsZhCn extends _StringsEn {
   String get video_setting_subtitle_no_background => '无背景';
   @override
   String get video_setting_subtitle_no_background_hint => '让字幕背景透明，不显示底色。';
+  @override
+  String get update_install_success_title => '更新已安装';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki 已更新到 ${version} 版本。';
+  @override
+  String get update_install_incomplete_title => '更新未完成';
+  @override
+  String get update_install_incomplete_message =>
+      '安装器已启动，但 Hibiki 仍是旧版本。请查看下方安装日志。';
+  @override
+  String get update_install_launch_failed_title => '更新安装器未启动';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki 未能启动 ${version} 版本安装器。请查看下方日志路径。';
+  @override
+  String update_install_log_path({required Object path}) => '安装日志：${path}';
 }
 
 // Path: retrying_in
@@ -63151,6 +63446,25 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String get update_install_success_title => 'Update installed';
+  @override
+  String update_install_success_message({required Object version}) =>
+      'Hibiki was updated to version ${version}.';
+  @override
+  String get update_install_incomplete_title => 'Update did not finish';
+  @override
+  String get update_install_incomplete_message =>
+      'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+  @override
+  String get update_install_launch_failed_title =>
+      'Update installer did not start';
+  @override
+  String update_install_launch_failed_message({required Object version}) =>
+      'Hibiki could not start the installer for version ${version}. Check the log path below.';
+  @override
+  String update_install_log_path({required Object path}) =>
+      'Installer log: ${path}';
 }
 
 // Path: retrying_in
@@ -66648,6 +66962,22 @@ extension on _StringsEn {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -70103,6 +70433,22 @@ extension on _StringsAr {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -73574,6 +73920,22 @@ extension on _StringsDe {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -77043,6 +77405,22 @@ extension on _StringsEs {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -80514,6 +80892,22 @@ extension on _StringsFr {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -83974,6 +84368,22 @@ extension on _StringsId {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -87442,6 +87852,22 @@ extension on _StringsIt {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -90886,6 +91312,22 @@ extension on _StringsJa {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -94332,6 +94774,22 @@ extension on _StringsKo {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -97797,6 +98255,22 @@ extension on _StringsNl {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -101261,6 +101735,22 @@ extension on _StringsPtBr {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -104726,6 +105216,22 @@ extension on _StringsRu {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -108182,6 +108688,22 @@ extension on _StringsTh {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -111641,6 +112163,22 @@ extension on _StringsTr {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -115097,6 +115635,22 @@ extension on _StringsVi {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
@@ -118531,6 +119085,21 @@ extension on _StringsZhCn {
         return '无背景';
       case 'video_setting_subtitle_no_background_hint':
         return '让字幕背景透明，不显示底色。';
+      case 'update_install_success_title':
+        return '更新已安装';
+      case 'update_install_success_message':
+        return ({required Object version}) => 'Hibiki 已更新到 ${version} 版本。';
+      case 'update_install_incomplete_title':
+        return '更新未完成';
+      case 'update_install_incomplete_message':
+        return '安装器已启动，但 Hibiki 仍是旧版本。请查看下方安装日志。';
+      case 'update_install_launch_failed_title':
+        return '更新安装器未启动';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki 未能启动 ${version} 版本安装器。请查看下方日志路径。';
+      case 'update_install_log_path':
+        return ({required Object path}) => '安装日志：${path}';
       default:
         return null;
     }
@@ -121974,6 +122543,22 @@ extension on _StringsZhHk {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'update_install_success_title':
+        return 'Update installed';
+      case 'update_install_success_message':
+        return ({required Object version}) =>
+            'Hibiki was updated to version ${version}.';
+      case 'update_install_incomplete_title':
+        return 'Update did not finish';
+      case 'update_install_incomplete_message':
+        return 'The installer started, but Hibiki is still on the previous version. Check the installer log below.';
+      case 'update_install_launch_failed_title':
+        return 'Update installer did not start';
+      case 'update_install_launch_failed_message':
+        return ({required Object version}) =>
+            'Hibiki could not start the installer for version ${version}. Check the log path below.';
+      case 'update_install_log_path':
+        return ({required Object path}) => 'Installer log: ${path}';
       default:
         return null;
     }
