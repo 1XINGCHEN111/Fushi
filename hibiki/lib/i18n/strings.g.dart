@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 28594 (1682 per locale)
+/// Strings: 28713 (1689 per locale)
 ///
-/// Built on 2026-06-17 at 04:43 UTC
+/// Built on 2026-06-17 at 09:40 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2232,6 +2232,17 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_clip_export_output_missing => 'No output file was created';
   String get video_clip_export_input_missing => 'Source video is unavailable';
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  String get update_download_resumed => 'resumed';
+  String get update_download_not_resumed => 'not resumed';
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -6006,6 +6017,24 @@ class _StringsAr extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -9863,6 +9892,24 @@ class _StringsDe extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -13734,6 +13781,24 @@ class _StringsEs extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -17625,6 +17690,24 @@ class _StringsFr extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -21438,6 +21521,24 @@ class _StringsId extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -25293,6 +25394,24 @@ class _StringsIt extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -28975,6 +29094,24 @@ class _StringsJa extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -32659,6 +32796,24 @@ class _StringsKo extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -36496,6 +36651,24 @@ class _StringsNl extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -40346,6 +40519,24 @@ class _StringsPtBr extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -44181,6 +44372,24 @@ class _StringsRu extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -47955,6 +48164,24 @@ class _StringsTh extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -51768,6 +51995,24 @@ class _StringsTr extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -55561,6 +55806,24 @@ class _StringsVi extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -59113,6 +59376,23 @@ class _StringsZhCn extends _StringsEn {
   String get video_clip_export_input_missing => '源视频不可用';
   @override
   String get video_subtitle_list_loading => '正在加载字幕…';
+  @override
+  String update_download_source({required Object source}) => '来源：${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      '已下载：${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => '速度：${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      '续传：${status}';
+  @override
+  String get update_download_resumed => '已续传';
+  @override
+  String get update_download_not_resumed => '未续传';
+  @override
+  String get update_download_restarted_from_zero => '已从零重下';
 }
 
 // Path: retrying_in
@@ -62771,6 +63051,24 @@ class _StringsZhHk extends _StringsEn {
   String get video_clip_export_input_missing => 'Source video is unavailable';
   @override
   String get video_subtitle_list_loading => 'Loading subtitles...';
+  @override
+  String update_download_source({required Object source}) =>
+      'Source: ${source}';
+  @override
+  String update_download_size(
+          {required Object received, required Object total}) =>
+      'Downloaded: ${received} / ${total}';
+  @override
+  String update_download_speed({required Object speed}) => 'Speed: ${speed}';
+  @override
+  String update_download_resume_status({required Object status}) =>
+      'Resume: ${status}';
+  @override
+  String get update_download_resumed => 'resumed';
+  @override
+  String get update_download_not_resumed => 'not resumed';
+  @override
+  String get update_download_restarted_from_zero => 'restarted from zero';
 }
 
 // Path: retrying_in
@@ -66249,6 +66547,21 @@ extension on _StringsEn {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -69685,6 +69998,21 @@ extension on _StringsAr {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -73137,6 +73465,21 @@ extension on _StringsDe {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -76587,6 +76930,21 @@ extension on _StringsEs {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -80039,6 +80397,21 @@ extension on _StringsFr {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -83480,6 +83853,21 @@ extension on _StringsId {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -86929,6 +87317,21 @@ extension on _StringsIt {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -90354,6 +90757,21 @@ extension on _StringsJa {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -93781,6 +94199,21 @@ extension on _StringsKo {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -97227,6 +97660,21 @@ extension on _StringsNl {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -100672,6 +101120,21 @@ extension on _StringsPtBr {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -104118,6 +104581,21 @@ extension on _StringsRu {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -107555,6 +108033,21 @@ extension on _StringsTh {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -110995,6 +111488,21 @@ extension on _StringsTr {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -114432,6 +114940,21 @@ extension on _StringsVi {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
@@ -117847,6 +118370,21 @@ extension on _StringsZhCn {
         return '源视频不可用';
       case 'video_subtitle_list_loading':
         return '正在加载字幕…';
+      case 'update_download_source':
+        return ({required Object source}) => '来源：${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            '已下载：${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => '速度：${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => '续传：${status}';
+      case 'update_download_resumed':
+        return '已续传';
+      case 'update_download_not_resumed':
+        return '未续传';
+      case 'update_download_restarted_from_zero':
+        return '已从零重下';
       default:
         return null;
     }
@@ -121271,6 +121809,21 @@ extension on _StringsZhHk {
         return 'Source video is unavailable';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
+      case 'update_download_source':
+        return ({required Object source}) => 'Source: ${source}';
+      case 'update_download_size':
+        return ({required Object received, required Object total}) =>
+            'Downloaded: ${received} / ${total}';
+      case 'update_download_speed':
+        return ({required Object speed}) => 'Speed: ${speed}';
+      case 'update_download_resume_status':
+        return ({required Object status}) => 'Resume: ${status}';
+      case 'update_download_resumed':
+        return 'resumed';
+      case 'update_download_not_resumed':
+        return 'not resumed';
+      case 'update_download_restarted_from_zero':
+        return 'restarted from zero';
       default:
         return null;
     }
