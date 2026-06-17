@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 28917 (1701 per locale)
+/// Strings: 29002 (1706 per locale)
 ///
-/// Built on 2026-06-17 at 16:40 UTC
+/// Built on 2026-06-17 at 17:14 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1861,6 +1861,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -3615,6 +3620,11 @@ class _StringsAr extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -5369,6 +5379,11 @@ class _StringsDe extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -7123,6 +7138,11 @@ class _StringsEs extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -8877,6 +8897,11 @@ class _StringsFr extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -10631,6 +10656,11 @@ class _StringsId extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -12385,6 +12415,11 @@ class _StringsIt extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -14139,6 +14174,11 @@ class _StringsJa extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -15893,6 +15933,11 @@ class _StringsKo extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -17647,6 +17692,11 @@ class _StringsNl extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -19401,6 +19451,11 @@ class _StringsPtBr extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -21155,6 +21210,11 @@ class _StringsRu extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -22909,6 +22969,11 @@ class _StringsTh extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -24663,6 +24728,11 @@ class _StringsTr extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -26417,6 +26487,11 @@ class _StringsVi extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -28171,6 +28246,11 @@ class _StringsZhCn extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => '截图已保存：${path}';
 	@override String video_screenshot_ready({required Object file}) => '截图已准备好：${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => '截图失败：${reason}';
+	@override String update_install_installer_pid({required Object pid}) => '安装器 PID：${pid}';
+	@override String get update_install_process_observed => '启动后检查时能看到安装器进程。';
+	@override String get update_install_process_not_observed => '启动后检查时未看到安装器进程。';
+	@override String get update_install_log_observed => '启动后检查时已创建安装日志。';
+	@override String get update_install_log_not_observed => '启动后检查时未创建安装日志。';
 }
 
 // Path: retrying_in
@@ -29925,6 +30005,11 @@ class _StringsZhHk extends _StringsEn {
 	@override String video_screenshot_saved_to({required Object path}) => 'Screenshot saved: ${path}';
 	@override String video_screenshot_ready({required Object file}) => 'Screenshot ready: ${file}';
 	@override String video_screenshot_failed_reason({required Object reason}) => 'Screenshot failed: ${reason}';
+	@override String update_install_installer_pid({required Object pid}) => 'Installer PID: ${pid}';
+	@override String get update_install_process_observed => 'Installer process was visible during the post-launch check.';
+	@override String get update_install_process_not_observed => 'Installer process was not visible during the post-launch check.';
+	@override String get update_install_log_observed => 'Installer log was created during the post-launch check.';
+	@override String get update_install_log_not_observed => 'Installer log was not created during the post-launch check.';
 }
 
 // Path: retrying_in
@@ -31664,6 +31749,11 @@ extension on _StringsEn {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -33377,6 +33467,11 @@ extension on _StringsAr {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -35090,6 +35185,11 @@ extension on _StringsDe {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -36803,6 +36903,11 @@ extension on _StringsEs {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -38516,6 +38621,11 @@ extension on _StringsFr {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -40229,6 +40339,11 @@ extension on _StringsId {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -41942,6 +42057,11 @@ extension on _StringsIt {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -43655,6 +43775,11 @@ extension on _StringsJa {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -45368,6 +45493,11 @@ extension on _StringsKo {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -47081,6 +47211,11 @@ extension on _StringsNl {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -48794,6 +48929,11 @@ extension on _StringsPtBr {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -50507,6 +50647,11 @@ extension on _StringsRu {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -52220,6 +52365,11 @@ extension on _StringsTh {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -53933,6 +54083,11 @@ extension on _StringsTr {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -55646,6 +55801,11 @@ extension on _StringsVi {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
@@ -57359,6 +57519,11 @@ extension on _StringsZhCn {
 			case 'video_screenshot_saved_to': return ({required Object path}) => '截图已保存：${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => '截图已准备好：${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => '截图失败：${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => '安装器 PID：${pid}';
+			case 'update_install_process_observed': return '启动后检查时能看到安装器进程。';
+			case 'update_install_process_not_observed': return '启动后检查时未看到安装器进程。';
+			case 'update_install_log_observed': return '启动后检查时已创建安装日志。';
+			case 'update_install_log_not_observed': return '启动后检查时未创建安装日志。';
 			default: return null;
 		}
 	}
@@ -59072,6 +59237,11 @@ extension on _StringsZhHk {
 			case 'video_screenshot_saved_to': return ({required Object path}) => 'Screenshot saved: ${path}';
 			case 'video_screenshot_ready': return ({required Object file}) => 'Screenshot ready: ${file}';
 			case 'video_screenshot_failed_reason': return ({required Object reason}) => 'Screenshot failed: ${reason}';
+			case 'update_install_installer_pid': return ({required Object pid}) => 'Installer PID: ${pid}';
+			case 'update_install_process_observed': return 'Installer process was visible during the post-launch check.';
+			case 'update_install_process_not_observed': return 'Installer process was not visible during the post-launch check.';
+			case 'update_install_log_observed': return 'Installer log was created during the post-launch check.';
+			case 'update_install_log_not_observed': return 'Installer log was not created during the post-launch check.';
 			default: return null;
 		}
 	}
