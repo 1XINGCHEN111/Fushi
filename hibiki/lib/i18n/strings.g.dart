@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 28747 (1691 per locale)
+/// Strings: 28798 (1694 per locale)
 ///
-/// Built on 2026-06-17 at 13:06 UTC
+/// Built on 2026-06-17 at 15:21 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2246,6 +2246,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_subtitle_no_background => 'No background';
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -6043,6 +6049,15 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -9923,6 +9938,15 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -13817,6 +13841,15 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -17731,6 +17764,15 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -21567,6 +21609,15 @@ class _StringsId extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -25445,6 +25496,15 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -29150,6 +29210,15 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -32857,6 +32926,15 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -36717,6 +36795,15 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -40590,6 +40677,15 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -44448,6 +44544,15 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -48245,6 +48350,15 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -52081,6 +52195,15 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -55897,6 +56020,15 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -59470,6 +59602,13 @@ class _StringsZhCn extends _StringsEn {
   String get video_setting_subtitle_no_background => '无背景';
   @override
   String get video_setting_subtitle_no_background_hint => '让字幕背景透明，不显示底色。';
+  @override
+  String video_screenshot_saved_to({required Object path}) => '截图已保存：${path}';
+  @override
+  String video_screenshot_ready({required Object file}) => '截图已准备好：${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      '截图失败：${reason}';
 }
 
 // Path: retrying_in
@@ -63151,6 +63290,15 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_setting_subtitle_no_background_hint =>
       'Make the subtitle background transparent.';
+  @override
+  String video_screenshot_saved_to({required Object path}) =>
+      'Screenshot saved: ${path}';
+  @override
+  String video_screenshot_ready({required Object file}) =>
+      'Screenshot ready: ${file}';
+  @override
+  String video_screenshot_failed_reason({required Object reason}) =>
+      'Screenshot failed: ${reason}';
 }
 
 // Path: retrying_in
@@ -66648,6 +66796,12 @@ extension on _StringsEn {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -70103,6 +70257,12 @@ extension on _StringsAr {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -73574,6 +73734,12 @@ extension on _StringsDe {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -77043,6 +77209,12 @@ extension on _StringsEs {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -80514,6 +80686,12 @@ extension on _StringsFr {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -83974,6 +84152,12 @@ extension on _StringsId {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -87442,6 +87626,12 @@ extension on _StringsIt {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -90886,6 +91076,12 @@ extension on _StringsJa {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -94332,6 +94528,12 @@ extension on _StringsKo {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -97797,6 +97999,12 @@ extension on _StringsNl {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -101261,6 +101469,12 @@ extension on _StringsPtBr {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -104726,6 +104940,12 @@ extension on _StringsRu {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -108182,6 +108402,12 @@ extension on _StringsTh {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -111641,6 +111867,12 @@ extension on _StringsTr {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -115097,6 +115329,12 @@ extension on _StringsVi {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
@@ -118531,6 +118769,12 @@ extension on _StringsZhCn {
         return '无背景';
       case 'video_setting_subtitle_no_background_hint':
         return '让字幕背景透明，不显示底色。';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => '截图已保存：${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => '截图已准备好：${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => '截图失败：${reason}';
       default:
         return null;
     }
@@ -121974,6 +122218,12 @@ extension on _StringsZhHk {
         return 'No background';
       case 'video_setting_subtitle_no_background_hint':
         return 'Make the subtitle background transparent.';
+      case 'video_screenshot_saved_to':
+        return ({required Object path}) => 'Screenshot saved: ${path}';
+      case 'video_screenshot_ready':
+        return ({required Object file}) => 'Screenshot ready: ${file}';
+      case 'video_screenshot_failed_reason':
+        return ({required Object reason}) => 'Screenshot failed: ${reason}';
       default:
         return null;
     }
