@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 28713 (1689 per locale)
+/// Strings: 28747 (1691 per locale)
 ///
-/// Built on 2026-06-17 at 09:40 UTC
+/// Built on 2026-06-17 at 13:06 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2243,6 +2243,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get update_download_resumed => 'resumed';
   String get update_download_not_resumed => 'not resumed';
   String get update_download_restarted_from_zero => 'restarted from zero';
+  String get video_setting_subtitle_no_background => 'No background';
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -6035,6 +6038,11 @@ class _StringsAr extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -9910,6 +9918,11 @@ class _StringsDe extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -13799,6 +13812,11 @@ class _StringsEs extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -17708,6 +17726,11 @@ class _StringsFr extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -21539,6 +21562,11 @@ class _StringsId extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -25412,6 +25440,11 @@ class _StringsIt extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -29112,6 +29145,11 @@ class _StringsJa extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -32814,6 +32852,11 @@ class _StringsKo extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -36669,6 +36712,11 @@ class _StringsNl extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -40537,6 +40585,11 @@ class _StringsPtBr extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -44390,6 +44443,11 @@ class _StringsRu extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -48182,6 +48240,11 @@ class _StringsTh extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -52013,6 +52076,11 @@ class _StringsTr extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -55824,6 +55892,11 @@ class _StringsVi extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -59393,6 +59466,10 @@ class _StringsZhCn extends _StringsEn {
   String get update_download_not_resumed => '未续传';
   @override
   String get update_download_restarted_from_zero => '已从零重下';
+  @override
+  String get video_setting_subtitle_no_background => '无背景';
+  @override
+  String get video_setting_subtitle_no_background_hint => '让字幕背景透明，不显示底色。';
 }
 
 // Path: retrying_in
@@ -63069,6 +63146,11 @@ class _StringsZhHk extends _StringsEn {
   String get update_download_not_resumed => 'not resumed';
   @override
   String get update_download_restarted_from_zero => 'restarted from zero';
+  @override
+  String get video_setting_subtitle_no_background => 'No background';
+  @override
+  String get video_setting_subtitle_no_background_hint =>
+      'Make the subtitle background transparent.';
 }
 
 // Path: retrying_in
@@ -66562,6 +66644,10 @@ extension on _StringsEn {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -70013,6 +70099,10 @@ extension on _StringsAr {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -73480,6 +73570,10 @@ extension on _StringsDe {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -76945,6 +77039,10 @@ extension on _StringsEs {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -80412,6 +80510,10 @@ extension on _StringsFr {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -83868,6 +83970,10 @@ extension on _StringsId {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -87332,6 +87438,10 @@ extension on _StringsIt {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -90772,6 +90882,10 @@ extension on _StringsJa {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -94214,6 +94328,10 @@ extension on _StringsKo {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -97675,6 +97793,10 @@ extension on _StringsNl {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -101135,6 +101257,10 @@ extension on _StringsPtBr {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -104596,6 +104722,10 @@ extension on _StringsRu {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -108048,6 +108178,10 @@ extension on _StringsTh {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -111503,6 +111637,10 @@ extension on _StringsTr {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -114955,6 +115093,10 @@ extension on _StringsVi {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
@@ -118385,6 +118527,10 @@ extension on _StringsZhCn {
         return '未续传';
       case 'update_download_restarted_from_zero':
         return '已从零重下';
+      case 'video_setting_subtitle_no_background':
+        return '无背景';
+      case 'video_setting_subtitle_no_background_hint':
+        return '让字幕背景透明，不显示底色。';
       default:
         return null;
     }
@@ -121824,6 +121970,10 @@ extension on _StringsZhHk {
         return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
+      case 'video_setting_subtitle_no_background':
+        return 'No background';
+      case 'video_setting_subtitle_no_background_hint':
+        return 'Make the subtitle background transparent.';
       default:
         return null;
     }
