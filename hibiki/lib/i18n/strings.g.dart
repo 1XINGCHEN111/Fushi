@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29274 (1722 per locale)
+/// Strings: 29342 (1726 per locale)
 ///
-/// Built on 2026-06-18 at 10:01 UTC
+/// Built on 2026-06-18 at 15:28 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1882,6 +1882,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_control_slot_top_center => 'Top bar (center)';
 	String get video_control_title => 'Video title';
 	String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -3657,6 +3661,10 @@ class _StringsAr extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -5432,6 +5440,10 @@ class _StringsDe extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -7207,6 +7219,10 @@ class _StringsEs extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -8982,6 +8998,10 @@ class _StringsFr extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -10757,6 +10777,10 @@ class _StringsId extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -12532,6 +12556,10 @@ class _StringsIt extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -14307,6 +14335,10 @@ class _StringsJa extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -16082,6 +16114,10 @@ class _StringsKo extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -17857,6 +17893,10 @@ class _StringsNl extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -19632,6 +19672,10 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -21407,6 +21451,10 @@ class _StringsRu extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -23182,6 +23230,10 @@ class _StringsTh extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -24957,6 +25009,10 @@ class _StringsTr extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -26732,6 +26788,10 @@ class _StringsVi extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -28507,6 +28567,10 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_control_slot_top_center => '顶栏（中间）';
 	@override String get video_control_title => '视频名称';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => '该快捷键已被“${s}”占用。要移到当前动作吗？';
+	@override String get update_install_parent_exit_observed => '启动安装器前已确认 Hibiki 退出。';
+	@override String get update_install_parent_exit_not_observed => '更新启动器未确认 Hibiki 已在安装器启动前退出。';
+	@override String update_install_failure_summary({required Object summary}) => '原因：${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => '更新启动器 PID：${pid}';
 }
 
 // Path: retrying_in
@@ -30282,6 +30346,10 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => '該快捷鍵已被「${s}」佔用。要移到目前動作嗎？';
+	@override String get update_install_parent_exit_observed => 'Hibiki exited before the installer was launched.';
+	@override String get update_install_parent_exit_not_observed => 'The update launcher did not observe Hibiki exiting before the installer launch.';
+	@override String update_install_failure_summary({required Object summary}) => 'Reason: ${summary}';
+	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 }
 
 // Path: retrying_in
@@ -32042,6 +32110,10 @@ extension on _StringsEn {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -33776,6 +33848,10 @@ extension on _StringsAr {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -35510,6 +35586,10 @@ extension on _StringsDe {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -37244,6 +37324,10 @@ extension on _StringsEs {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -38978,6 +39062,10 @@ extension on _StringsFr {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -40712,6 +40800,10 @@ extension on _StringsId {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -42446,6 +42538,10 @@ extension on _StringsIt {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -44180,6 +44276,10 @@ extension on _StringsJa {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -45914,6 +46014,10 @@ extension on _StringsKo {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -47648,6 +47752,10 @@ extension on _StringsNl {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -49382,6 +49490,10 @@ extension on _StringsPtBr {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -51116,6 +51228,10 @@ extension on _StringsRu {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -52850,6 +52966,10 @@ extension on _StringsTh {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -54584,6 +54704,10 @@ extension on _StringsTr {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -56318,6 +56442,10 @@ extension on _StringsVi {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
@@ -58052,6 +58180,10 @@ extension on _StringsZhCn {
 			case 'video_control_slot_top_center': return '顶栏（中间）';
 			case 'video_control_title': return '视频名称';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => '该快捷键已被“${s}”占用。要移到当前动作吗？';
+			case 'update_install_parent_exit_observed': return '启动安装器前已确认 Hibiki 退出。';
+			case 'update_install_parent_exit_not_observed': return '更新启动器未确认 Hibiki 已在安装器启动前退出。';
+			case 'update_install_failure_summary': return ({required Object summary}) => '原因：${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => '更新启动器 PID：${pid}';
 			default: return null;
 		}
 	}
@@ -59786,6 +59918,10 @@ extension on _StringsZhHk {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => '該快捷鍵已被「${s}」佔用。要移到目前動作嗎？';
+			case 'update_install_parent_exit_observed': return 'Hibiki exited before the installer was launched.';
+			case 'update_install_parent_exit_not_observed': return 'The update launcher did not observe Hibiki exiting before the installer launch.';
+			case 'update_install_failure_summary': return ({required Object summary}) => 'Reason: ${summary}';
+			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			default: return null;
 		}
 	}
