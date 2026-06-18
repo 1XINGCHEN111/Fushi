@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29070 (1710 per locale)
+/// Strings: 29223 (1719 per locale)
 ///
-/// Built on 2026-06-17 at 20:12 UTC
+/// Built on 2026-06-18 at 04:30 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1870,6 +1870,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	String get video_control_volume => 'Volume';
+	String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -3633,6 +3642,15 @@ class _StringsAr extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -5396,6 +5414,15 @@ class _StringsDe extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -7159,6 +7186,15 @@ class _StringsEs extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -8922,6 +8958,15 @@ class _StringsFr extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -10685,6 +10730,15 @@ class _StringsId extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -12448,6 +12502,15 @@ class _StringsIt extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -14211,6 +14274,15 @@ class _StringsJa extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -15974,6 +16046,15 @@ class _StringsKo extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -17737,6 +17818,15 @@ class _StringsNl extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -19500,6 +19590,15 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -21263,6 +21362,15 @@ class _StringsRu extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -23026,6 +23134,15 @@ class _StringsTh extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -24789,6 +24906,15 @@ class _StringsTr extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -26552,6 +26678,15 @@ class _StringsVi extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -28315,6 +28450,15 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => '音量只能放在底栏。';
 	@override String get video_control_reject_unavailable => '此控制不能放在这里。';
 	@override String get video_control_volume => '音量';
+	@override String update_install_current_executable({required Object path}) => '当前运行程序：${path}';
+	@override String update_install_target_dir({required Object path}) => '安装目标：${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => '检测到的安装位置（${source}）：${path}';
+	@override String update_install_path_mismatch({required Object warning}) => '安装目录不一致：${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => '仍在运行的 Hibiki 进程：PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv 持有进程：PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => '安装器无法替换 ${path}（代码 ${code}）';
+	@override String get update_install_manual_close_retry => '请按上方 PID/路径手动关闭 Hibiki，然后重试更新或重新运行安装器。';
+	@override String get update_install_restart_windows_hint => '如果上方进程已关闭但 libmpv-2.dll 仍被占用，请重启 Windows 后再安装。';
 }
 
 // Path: retrying_in
@@ -30078,6 +30222,15 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_control_reject_volume_bottom => 'Volume can only sit on the bottom bar.';
 	@override String get video_control_reject_unavailable => 'This control cannot be placed there.';
 	@override String get video_control_volume => 'Volume';
+	@override String update_install_current_executable({required Object path}) => 'Running executable: ${path}';
+	@override String update_install_target_dir({required Object path}) => 'Install target: ${path}';
+	@override String update_install_detected_location({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+	@override String update_install_path_mismatch({required Object warning}) => 'Install directory mismatch: ${warning}';
+	@override String update_install_running_process({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+	@override String update_install_libmpv_holder({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 }
 
 // Path: retrying_in
@@ -31826,6 +31979,15 @@ extension on _StringsEn {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -33548,6 +33710,15 @@ extension on _StringsAr {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -35270,6 +35441,15 @@ extension on _StringsDe {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -36992,6 +37172,15 @@ extension on _StringsEs {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -38714,6 +38903,15 @@ extension on _StringsFr {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -40436,6 +40634,15 @@ extension on _StringsId {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -42158,6 +42365,15 @@ extension on _StringsIt {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -43880,6 +44096,15 @@ extension on _StringsJa {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -45602,6 +45827,15 @@ extension on _StringsKo {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -47324,6 +47558,15 @@ extension on _StringsNl {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -49046,6 +49289,15 @@ extension on _StringsPtBr {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -50768,6 +51020,15 @@ extension on _StringsRu {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -52490,6 +52751,15 @@ extension on _StringsTh {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -54212,6 +54482,15 @@ extension on _StringsTr {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -55934,6 +56213,15 @@ extension on _StringsVi {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
@@ -57656,6 +57944,15 @@ extension on _StringsZhCn {
 			case 'video_control_reject_volume_bottom': return '音量只能放在底栏。';
 			case 'video_control_reject_unavailable': return '此控制不能放在这里。';
 			case 'video_control_volume': return '音量';
+			case 'update_install_current_executable': return ({required Object path}) => '当前运行程序：${path}';
+			case 'update_install_target_dir': return ({required Object path}) => '安装目标：${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => '检测到的安装位置（${source}）：${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => '安装目录不一致：${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => '仍在运行的 Hibiki 进程：PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv 持有进程：PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => '安装器无法替换 ${path}（代码 ${code}）';
+			case 'update_install_manual_close_retry': return '请按上方 PID/路径手动关闭 Hibiki，然后重试更新或重新运行安装器。';
+			case 'update_install_restart_windows_hint': return '如果上方进程已关闭但 libmpv-2.dll 仍被占用，请重启 Windows 后再安装。';
 			default: return null;
 		}
 	}
@@ -59378,6 +59675,15 @@ extension on _StringsZhHk {
 			case 'video_control_reject_volume_bottom': return 'Volume can only sit on the bottom bar.';
 			case 'video_control_reject_unavailable': return 'This control cannot be placed there.';
 			case 'video_control_volume': return 'Volume';
+			case 'update_install_current_executable': return ({required Object path}) => 'Running executable: ${path}';
+			case 'update_install_target_dir': return ({required Object path}) => 'Install target: ${path}';
+			case 'update_install_detected_location': return ({required Object source, required Object path}) => 'Detected install location (${source}): ${path}';
+			case 'update_install_path_mismatch': return ({required Object warning}) => 'Install directory mismatch: ${warning}';
+			case 'update_install_running_process': return ({required Object pid, required Object path}) => 'Running Hibiki process: PID ${pid} - ${path}';
+			case 'update_install_libmpv_holder': return ({required Object pid, required Object path}) => 'libmpv holder: PID ${pid} - ${path}';
+			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
+			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
+			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			default: return null;
 		}
 	}
