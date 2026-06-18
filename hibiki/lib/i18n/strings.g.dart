@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29257 (1721 per locale)
+/// Strings: 29274 (1722 per locale)
 ///
-/// Built on 2026-06-18 at 05:57 UTC
+/// Built on 2026-06-18 at 10:01 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1676,7 +1676,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	String get anki_tag_include_category => 'Add source category tag';
 	String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	String get shortcut_scope_video => 'Video';
 	String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	String get shortcut_action_video_play => 'Play';
@@ -1881,6 +1881,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	String get video_control_slot_top_center => 'Top bar (center)';
 	String get video_control_title => 'Video title';
+	String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -3450,7 +3451,7 @@ class _StringsAr extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -3655,6 +3656,7 @@ class _StringsAr extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -5224,7 +5226,7 @@ class _StringsDe extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -5429,6 +5431,7 @@ class _StringsDe extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -6998,7 +7001,7 @@ class _StringsEs extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -7203,6 +7206,7 @@ class _StringsEs extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -8772,7 +8776,7 @@ class _StringsFr extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -8977,6 +8981,7 @@ class _StringsFr extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -10546,7 +10551,7 @@ class _StringsId extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -10751,6 +10756,7 @@ class _StringsId extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -12320,7 +12326,7 @@ class _StringsIt extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -12525,6 +12531,7 @@ class _StringsIt extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -14094,7 +14101,7 @@ class _StringsJa extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -14299,6 +14306,7 @@ class _StringsJa extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -15868,7 +15876,7 @@ class _StringsKo extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -16073,6 +16081,7 @@ class _StringsKo extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -17642,7 +17651,7 @@ class _StringsNl extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -17847,6 +17856,7 @@ class _StringsNl extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -19416,7 +19426,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -19621,6 +19631,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -21190,7 +21201,7 @@ class _StringsRu extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -21395,6 +21406,7 @@ class _StringsRu extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -22964,7 +22976,7 @@ class _StringsTh extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -23169,6 +23181,7 @@ class _StringsTh extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -24738,7 +24751,7 @@ class _StringsTr extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -24943,6 +24956,7 @@ class _StringsTr extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -26512,7 +26526,7 @@ class _StringsVi extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => 'Reverse arrow-key page turn direction';
+	@override String get reverse_arrow_page_turn => 'Reverse keyboard left/right page-turn direction';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -26717,6 +26731,7 @@ class _StringsVi extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 }
 
 // Path: retrying_in
@@ -28286,7 +28301,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => '为每张 Hibiki 制出的卡片打上标记';
 	@override String get anki_tag_include_category => '添加来源分类标签';
 	@override String get anki_tag_include_category_hint => '书籍标「book」、视频标「video」';
-	@override String get reverse_arrow_page_turn => '反转方向键翻页方向';
+	@override String get reverse_arrow_page_turn => '反转键盘左右键翻页方向';
 	@override String get shortcut_scope_video => '视频';
 	@override String get shortcut_action_video_toggle_play_pause => '播放/暂停';
 	@override String get shortcut_action_video_play => '播放';
@@ -28491,6 +28506,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get update_install_restart_windows_hint => '如果上方进程已关闭但 libmpv-2.dll 仍被占用，请重启 Windows 后再安装。';
 	@override String get video_control_slot_top_center => '顶栏（中间）';
 	@override String get video_control_title => '视频名称';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => '该快捷键已被“${s}”占用。要移到当前动作吗？';
 }
 
 // Path: retrying_in
@@ -30060,7 +30076,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get anki_tag_include_hibiki_hint => 'Mark every card mined by Hibiki';
 	@override String get anki_tag_include_category => 'Add source category tag';
 	@override String get anki_tag_include_category_hint => 'Books get "book", videos get "video"';
-	@override String get reverse_arrow_page_turn => '反轉方向鍵翻頁方向';
+	@override String get reverse_arrow_page_turn => '反轉鍵盤左右鍵翻頁方向';
 	@override String get shortcut_scope_video => 'Video';
 	@override String get shortcut_action_video_toggle_play_pause => 'Play / Pause';
 	@override String get shortcut_action_video_play => 'Play';
@@ -30265,6 +30281,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
+	@override String shortcut_conflict_replace_confirm({required Object s}) => '該快捷鍵已被「${s}」佔用。要移到目前動作嗎？';
 }
 
 // Path: retrying_in
@@ -31819,7 +31836,7 @@ extension on _StringsEn {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -32024,6 +32041,7 @@ extension on _StringsEn {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -33552,7 +33570,7 @@ extension on _StringsAr {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -33757,6 +33775,7 @@ extension on _StringsAr {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -35285,7 +35304,7 @@ extension on _StringsDe {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -35490,6 +35509,7 @@ extension on _StringsDe {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -37018,7 +37038,7 @@ extension on _StringsEs {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -37223,6 +37243,7 @@ extension on _StringsEs {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -38751,7 +38772,7 @@ extension on _StringsFr {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -38956,6 +38977,7 @@ extension on _StringsFr {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -40484,7 +40506,7 @@ extension on _StringsId {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -40689,6 +40711,7 @@ extension on _StringsId {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -42217,7 +42240,7 @@ extension on _StringsIt {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -42422,6 +42445,7 @@ extension on _StringsIt {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -43950,7 +43974,7 @@ extension on _StringsJa {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -44155,6 +44179,7 @@ extension on _StringsJa {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -45683,7 +45708,7 @@ extension on _StringsKo {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -45888,6 +45913,7 @@ extension on _StringsKo {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -47416,7 +47442,7 @@ extension on _StringsNl {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -47621,6 +47647,7 @@ extension on _StringsNl {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -49149,7 +49176,7 @@ extension on _StringsPtBr {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -49354,6 +49381,7 @@ extension on _StringsPtBr {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -50882,7 +50910,7 @@ extension on _StringsRu {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -51087,6 +51115,7 @@ extension on _StringsRu {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -52615,7 +52644,7 @@ extension on _StringsTh {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -52820,6 +52849,7 @@ extension on _StringsTh {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -54348,7 +54378,7 @@ extension on _StringsTr {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -54553,6 +54583,7 @@ extension on _StringsTr {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -56081,7 +56112,7 @@ extension on _StringsVi {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return 'Reverse arrow-key page turn direction';
+			case 'reverse_arrow_page_turn': return 'Reverse keyboard left/right page-turn direction';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -56286,6 +56317,7 @@ extension on _StringsVi {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
 			default: return null;
 		}
 	}
@@ -57814,7 +57846,7 @@ extension on _StringsZhCn {
 			case 'anki_tag_include_hibiki_hint': return '为每张 Hibiki 制出的卡片打上标记';
 			case 'anki_tag_include_category': return '添加来源分类标签';
 			case 'anki_tag_include_category_hint': return '书籍标「book」、视频标「video」';
-			case 'reverse_arrow_page_turn': return '反转方向键翻页方向';
+			case 'reverse_arrow_page_turn': return '反转键盘左右键翻页方向';
 			case 'shortcut_scope_video': return '视频';
 			case 'shortcut_action_video_toggle_play_pause': return '播放/暂停';
 			case 'shortcut_action_video_play': return '播放';
@@ -58019,6 +58051,7 @@ extension on _StringsZhCn {
 			case 'update_install_restart_windows_hint': return '如果上方进程已关闭但 libmpv-2.dll 仍被占用，请重启 Windows 后再安装。';
 			case 'video_control_slot_top_center': return '顶栏（中间）';
 			case 'video_control_title': return '视频名称';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => '该快捷键已被“${s}”占用。要移到当前动作吗？';
 			default: return null;
 		}
 	}
@@ -59547,7 +59580,7 @@ extension on _StringsZhHk {
 			case 'anki_tag_include_hibiki_hint': return 'Mark every card mined by Hibiki';
 			case 'anki_tag_include_category': return 'Add source category tag';
 			case 'anki_tag_include_category_hint': return 'Books get "book", videos get "video"';
-			case 'reverse_arrow_page_turn': return '反轉方向鍵翻頁方向';
+			case 'reverse_arrow_page_turn': return '反轉鍵盤左右鍵翻頁方向';
 			case 'shortcut_scope_video': return 'Video';
 			case 'shortcut_action_video_toggle_play_pause': return 'Play / Pause';
 			case 'shortcut_action_video_play': return 'Play';
@@ -59752,6 +59785,7 @@ extension on _StringsZhHk {
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
+			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => '該快捷鍵已被「${s}」佔用。要移到目前動作嗎？';
 			default: return null;
 		}
 	}
