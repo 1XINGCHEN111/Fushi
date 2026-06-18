@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 29274 (1722 per locale)
 ///
-/// Built on 2026-06-18 at 10:01 UTC
+/// Built on 2026-06-18 at 15:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1741,13 +1741,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_settings_cat_controls => 'Controls';
 	String get video_control_placement_bottom => 'Bottom bar';
 	String get video_control_placement_right => 'Right side';
-	String get video_control_placement_settings => 'Settings only';
 	String get video_control_speed => 'Speed';
 	String get video_control_subtitle_list => 'Subtitle list';
 	String get video_control_favorite_sentence => 'Favorite current sentence';
 	String get video_control_favorite_sentences => 'Episode favorites';
 	String get video_control_settings => 'Player settings';
-	String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	String get video_setting_long_press_speed => 'Long-press speed';
 	String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	String get video_favorite_sentences => 'Episode favorites';
@@ -1882,6 +1880,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_control_slot_top_center => 'Top bar (center)';
 	String get video_control_title => 'Video title';
 	String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	String get video_control_reset_layout => 'Reset player button layout';
+	String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -3516,13 +3516,11 @@ class _StringsAr extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -3657,6 +3655,8 @@ class _StringsAr extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -5291,13 +5291,11 @@ class _StringsDe extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -5432,6 +5430,8 @@ class _StringsDe extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -7066,13 +7066,11 @@ class _StringsEs extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -7207,6 +7205,8 @@ class _StringsEs extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -8841,13 +8841,11 @@ class _StringsFr extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -8982,6 +8980,8 @@ class _StringsFr extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -10616,13 +10616,11 @@ class _StringsId extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -10757,6 +10755,8 @@ class _StringsId extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -12391,13 +12391,11 @@ class _StringsIt extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -12532,6 +12530,8 @@ class _StringsIt extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -14166,13 +14166,11 @@ class _StringsJa extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -14307,6 +14305,8 @@ class _StringsJa extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -15941,13 +15941,11 @@ class _StringsKo extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -16082,6 +16080,8 @@ class _StringsKo extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -17716,13 +17716,11 @@ class _StringsNl extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -17857,6 +17855,8 @@ class _StringsNl extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -19491,13 +19491,11 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -19632,6 +19630,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -21266,13 +21266,11 @@ class _StringsRu extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -21407,6 +21405,8 @@ class _StringsRu extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -23041,13 +23041,11 @@ class _StringsTh extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -23182,6 +23180,8 @@ class _StringsTh extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -24816,13 +24816,11 @@ class _StringsTr extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -24957,6 +24955,8 @@ class _StringsTr extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -26591,13 +26591,11 @@ class _StringsVi extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -26732,6 +26730,8 @@ class _StringsVi extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -28366,13 +28366,11 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_settings_cat_controls => '控制按钮';
 	@override String get video_control_placement_bottom => '底栏';
 	@override String get video_control_placement_right => '右侧';
-	@override String get video_control_placement_settings => '仅设置';
 	@override String get video_control_speed => '倍速';
 	@override String get video_control_subtitle_list => '字幕列表';
 	@override String get video_control_favorite_sentence => '收藏当前句';
 	@override String get video_control_favorite_sentences => '本集收藏';
 	@override String get video_control_settings => '播放器设置';
-	@override String get video_control_settings_required_hint => '移出播放器后仍可从设置和右键菜单进入。';
 	@override String get video_setting_long_press_speed => '长按倍速';
 	@override String get video_setting_long_press_speed_hint => '按住画面时临时使用这个倍速。';
 	@override String get video_favorite_sentences => '本集收藏句子';
@@ -28507,6 +28505,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_control_slot_top_center => '顶栏（中间）';
 	@override String get video_control_title => '视频名称';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => '该快捷键已被“${s}”占用。要移到当前动作吗？';
+	@override String get video_control_reset_layout => '恢复默认播放器按钮布局';
+	@override String get video_control_reset_layout_hint => '把移动和移出的按钮恢复为默认播放器布局。';
 }
 
 // Path: retrying_in
@@ -30141,13 +30141,11 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_settings_cat_controls => 'Controls';
 	@override String get video_control_placement_bottom => 'Bottom bar';
 	@override String get video_control_placement_right => 'Right side';
-	@override String get video_control_placement_settings => 'Settings only';
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
 	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
-	@override String get video_control_settings_required_hint => 'Removed buttons stay reachable from Settings and the right-click menu.';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
 	@override String get video_favorite_sentences => 'Episode favorites';
@@ -30282,6 +30280,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_control_slot_top_center => 'Top bar (center)';
 	@override String get video_control_title => 'Video title';
 	@override String shortcut_conflict_replace_confirm({required Object s}) => '該快捷鍵已被「${s}」佔用。要移到目前動作嗎？';
+	@override String get video_control_reset_layout => 'Reset player button layout';
+	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 }
 
 // Path: retrying_in
@@ -31901,13 +31901,11 @@ extension on _StringsEn {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -32042,6 +32040,8 @@ extension on _StringsEn {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -33635,13 +33635,11 @@ extension on _StringsAr {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -33776,6 +33774,8 @@ extension on _StringsAr {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -35369,13 +35369,11 @@ extension on _StringsDe {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -35510,6 +35508,8 @@ extension on _StringsDe {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -37103,13 +37103,11 @@ extension on _StringsEs {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -37244,6 +37242,8 @@ extension on _StringsEs {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -38837,13 +38837,11 @@ extension on _StringsFr {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -38978,6 +38976,8 @@ extension on _StringsFr {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -40571,13 +40571,11 @@ extension on _StringsId {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -40712,6 +40710,8 @@ extension on _StringsId {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -42305,13 +42305,11 @@ extension on _StringsIt {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -42446,6 +42444,8 @@ extension on _StringsIt {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -44039,13 +44039,11 @@ extension on _StringsJa {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -44180,6 +44178,8 @@ extension on _StringsJa {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -45773,13 +45773,11 @@ extension on _StringsKo {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -45914,6 +45912,8 @@ extension on _StringsKo {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -47507,13 +47507,11 @@ extension on _StringsNl {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -47648,6 +47646,8 @@ extension on _StringsNl {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -49241,13 +49241,11 @@ extension on _StringsPtBr {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -49382,6 +49380,8 @@ extension on _StringsPtBr {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -50975,13 +50975,11 @@ extension on _StringsRu {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -51116,6 +51114,8 @@ extension on _StringsRu {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -52709,13 +52709,11 @@ extension on _StringsTh {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -52850,6 +52848,8 @@ extension on _StringsTh {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -54443,13 +54443,11 @@ extension on _StringsTr {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -54584,6 +54582,8 @@ extension on _StringsTr {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -56177,13 +56177,11 @@ extension on _StringsVi {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -56318,6 +56316,8 @@ extension on _StringsVi {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => 'This shortcut is already used by ${s}. Move it to this action?';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
@@ -57911,13 +57911,11 @@ extension on _StringsZhCn {
 			case 'video_settings_cat_controls': return '控制按钮';
 			case 'video_control_placement_bottom': return '底栏';
 			case 'video_control_placement_right': return '右侧';
-			case 'video_control_placement_settings': return '仅设置';
 			case 'video_control_speed': return '倍速';
 			case 'video_control_subtitle_list': return '字幕列表';
 			case 'video_control_favorite_sentence': return '收藏当前句';
 			case 'video_control_favorite_sentences': return '本集收藏';
 			case 'video_control_settings': return '播放器设置';
-			case 'video_control_settings_required_hint': return '移出播放器后仍可从设置和右键菜单进入。';
 			case 'video_setting_long_press_speed': return '长按倍速';
 			case 'video_setting_long_press_speed_hint': return '按住画面时临时使用这个倍速。';
 			case 'video_favorite_sentences': return '本集收藏句子';
@@ -58052,6 +58050,8 @@ extension on _StringsZhCn {
 			case 'video_control_slot_top_center': return '顶栏（中间）';
 			case 'video_control_title': return '视频名称';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => '该快捷键已被“${s}”占用。要移到当前动作吗？';
+			case 'video_control_reset_layout': return '恢复默认播放器按钮布局';
+			case 'video_control_reset_layout_hint': return '把移动和移出的按钮恢复为默认播放器布局。';
 			default: return null;
 		}
 	}
@@ -59645,13 +59645,11 @@ extension on _StringsZhHk {
 			case 'video_settings_cat_controls': return 'Controls';
 			case 'video_control_placement_bottom': return 'Bottom bar';
 			case 'video_control_placement_right': return 'Right side';
-			case 'video_control_placement_settings': return 'Settings only';
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
 			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
-			case 'video_control_settings_required_hint': return 'Removed buttons stay reachable from Settings and the right-click menu.';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
 			case 'video_favorite_sentences': return 'Episode favorites';
@@ -59786,6 +59784,8 @@ extension on _StringsZhHk {
 			case 'video_control_slot_top_center': return 'Top bar (center)';
 			case 'video_control_title': return 'Video title';
 			case 'shortcut_conflict_replace_confirm': return ({required Object s}) => '該快捷鍵已被「${s}」佔用。要移到目前動作嗎？';
+			case 'video_control_reset_layout': return 'Reset player button layout';
+			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			default: return null;
 		}
 	}
