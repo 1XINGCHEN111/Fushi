@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29223 (1719 per locale)
+/// Strings: 29257 (1721 per locale)
 ///
-/// Built on 2026-06-18 at 04:30 UTC
+/// Built on 2026-06-18 at 05:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1879,6 +1879,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	String get video_control_slot_top_center => 'Top bar (center)';
+	String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -3651,6 +3653,8 @@ class _StringsAr extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -5423,6 +5427,8 @@ class _StringsDe extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -7195,6 +7201,8 @@ class _StringsEs extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -8967,6 +8975,8 @@ class _StringsFr extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -10739,6 +10749,8 @@ class _StringsId extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -12511,6 +12523,8 @@ class _StringsIt extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -14283,6 +14297,8 @@ class _StringsJa extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -16055,6 +16071,8 @@ class _StringsKo extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -17827,6 +17845,8 @@ class _StringsNl extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -19599,6 +19619,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -21371,6 +21393,8 @@ class _StringsRu extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -23143,6 +23167,8 @@ class _StringsTh extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -24915,6 +24941,8 @@ class _StringsTr extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -26687,6 +26715,8 @@ class _StringsVi extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -28459,6 +28489,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => '安装器无法替换 ${path}（代码 ${code}）';
 	@override String get update_install_manual_close_retry => '请按上方 PID/路径手动关闭 Hibiki，然后重试更新或重新运行安装器。';
 	@override String get update_install_restart_windows_hint => '如果上方进程已关闭但 libmpv-2.dll 仍被占用，请重启 Windows 后再安装。';
+	@override String get video_control_slot_top_center => '顶栏（中间）';
+	@override String get video_control_title => '视频名称';
 }
 
 // Path: retrying_in
@@ -30231,6 +30263,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String update_install_deletefile_failure({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 	@override String get update_install_manual_close_retry => 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 	@override String get update_install_restart_windows_hint => 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+	@override String get video_control_slot_top_center => 'Top bar (center)';
+	@override String get video_control_title => 'Video title';
 }
 
 // Path: retrying_in
@@ -31988,6 +32022,8 @@ extension on _StringsEn {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -33719,6 +33755,8 @@ extension on _StringsAr {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -35450,6 +35488,8 @@ extension on _StringsDe {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -37181,6 +37221,8 @@ extension on _StringsEs {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -38912,6 +38954,8 @@ extension on _StringsFr {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -40643,6 +40687,8 @@ extension on _StringsId {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -42374,6 +42420,8 @@ extension on _StringsIt {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -44105,6 +44153,8 @@ extension on _StringsJa {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -45836,6 +45886,8 @@ extension on _StringsKo {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -47567,6 +47619,8 @@ extension on _StringsNl {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -49298,6 +49352,8 @@ extension on _StringsPtBr {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -51029,6 +51085,8 @@ extension on _StringsRu {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -52760,6 +52818,8 @@ extension on _StringsTh {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -54491,6 +54551,8 @@ extension on _StringsTr {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -56222,6 +56284,8 @@ extension on _StringsVi {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
@@ -57953,6 +58017,8 @@ extension on _StringsZhCn {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => '安装器无法替换 ${path}（代码 ${code}）';
 			case 'update_install_manual_close_retry': return '请按上方 PID/路径手动关闭 Hibiki，然后重试更新或重新运行安装器。';
 			case 'update_install_restart_windows_hint': return '如果上方进程已关闭但 libmpv-2.dll 仍被占用，请重启 Windows 后再安装。';
+			case 'video_control_slot_top_center': return '顶栏（中间）';
+			case 'video_control_title': return '视频名称';
 			default: return null;
 		}
 	}
@@ -59684,6 +59750,8 @@ extension on _StringsZhHk {
 			case 'update_install_deletefile_failure': return ({required Object path, required Object code}) => 'Installer failed to replace ${path} (code ${code})';
 			case 'update_install_manual_close_retry': return 'Close Hibiki from the listed PID/path, then retry the update or run the installer again.';
 			case 'update_install_restart_windows_hint': return 'If the listed processes are closed but libmpv-2.dll is still locked, restart Windows and install again.';
+			case 'video_control_slot_top_center': return 'Top bar (center)';
+			case 'video_control_title': return 'Video title';
 			default: return null;
 		}
 	}
