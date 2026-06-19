@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 29410 (1730 per locale)
 ///
-/// Built on 2026-06-19 at 10:42 UTC
+/// Built on 2026-06-19 at 15:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -28447,14 +28447,14 @@ class _StringsZhCn extends _StringsEn {
 	@override String get shortcut_action_video_escape => '退出/返回';
 	@override String get book_edit_author => '作者';
 	@override String get floating_lyric_toggle_action => '悬浮字幕';
-	@override String get video_setting_picture_fit_cover => '填充(保持比例裁剪边缘)';
+	@override String get video_setting_picture_fit_cover => '填充';
 	@override String get video_subtitle_list_jump => '跳到此句';
 	@override String get video_subtitle_list_font_smaller => '缩小字号';
 	@override String get video_setting_picture_fit => '画面缩放';
 	@override String get video_subtitle_list_auto_scroll => '自动滚动';
 	@override String get video_setting_picture_fit_hint => '画面如何填充播放区域';
 	@override String get video_setting_picture_fit_fill => '拉伸填满';
-	@override String get video_setting_picture_fit_contain => '适应(保持比例加黑边)';
+	@override String get video_setting_picture_fit_contain => '适应';
 	@override String get video_setting_lock_window_aspect => '锁定窗口为视频比例';
 	@override String get video_subtitle_list_font_larger => '放大字号';
 	@override String get video_double_tap_next_cue => '下一句';
@@ -58128,14 +58128,14 @@ extension on _StringsZhCn {
 			case 'shortcut_action_video_escape': return '退出/返回';
 			case 'book_edit_author': return '作者';
 			case 'floating_lyric_toggle_action': return '悬浮字幕';
-			case 'video_setting_picture_fit_cover': return '填充(保持比例裁剪边缘)';
+			case 'video_setting_picture_fit_cover': return '填充';
 			case 'video_subtitle_list_jump': return '跳到此句';
 			case 'video_subtitle_list_font_smaller': return '缩小字号';
 			case 'video_setting_picture_fit': return '画面缩放';
 			case 'video_subtitle_list_auto_scroll': return '自动滚动';
 			case 'video_setting_picture_fit_hint': return '画面如何填充播放区域';
 			case 'video_setting_picture_fit_fill': return '拉伸填满';
-			case 'video_setting_picture_fit_contain': return '适应(保持比例加黑边)';
+			case 'video_setting_picture_fit_contain': return '适应';
 			case 'video_setting_lock_window_aspect': return '锁定窗口为视频比例';
 			case 'video_subtitle_list_font_larger': return '放大字号';
 			case 'video_double_tap_next_cue': return '下一句';
