@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29376 (1728 per locale)
+/// Strings: 29410 (1730 per locale)
 ///
-/// Built on 2026-06-19 at 05:51 UTC
+/// Built on 2026-06-19 at 10:42 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1888,6 +1888,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	String get video_control_reset_layout => 'Reset player button layout';
 	String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -3669,6 +3671,8 @@ class _StringsAr extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -5450,6 +5454,8 @@ class _StringsDe extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -7231,6 +7237,8 @@ class _StringsEs extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -9012,6 +9020,8 @@ class _StringsFr extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -10793,6 +10803,8 @@ class _StringsId extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -12574,6 +12586,8 @@ class _StringsIt extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -14355,6 +14369,8 @@ class _StringsJa extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -16136,6 +16152,8 @@ class _StringsKo extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -17917,6 +17935,8 @@ class _StringsNl extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -19698,6 +19718,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -21479,6 +21501,8 @@ class _StringsRu extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -23260,6 +23284,8 @@ class _StringsTh extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -25041,6 +25067,8 @@ class _StringsTr extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -26822,6 +26850,8 @@ class _StringsVi extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -28603,6 +28633,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => '更新启动器 PID：${pid}';
 	@override String get video_control_reset_layout => '恢复默认播放器按钮布局';
 	@override String get video_control_reset_layout_hint => '把移动和移出的按钮恢复为默认播放器布局。';
+	@override String get floating_lyric_bg_opacity => '悬浮字幕背景不透明度';
+	@override String get floating_lyric_bg_opacity_hint => '调低让悬浮字幕条更透明、更不挡视野';
 }
 
 // Path: retrying_in
@@ -30384,6 +30416,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String update_install_launcher_pid({required Object pid}) => 'Update launcher PID: ${pid}';
 	@override String get video_control_reset_layout => 'Reset player button layout';
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
+	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
+	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 }
 
 // Path: retrying_in
@@ -32150,6 +32184,8 @@ extension on _StringsEn {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -33890,6 +33926,8 @@ extension on _StringsAr {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -35630,6 +35668,8 @@ extension on _StringsDe {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -37370,6 +37410,8 @@ extension on _StringsEs {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -39110,6 +39152,8 @@ extension on _StringsFr {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -40850,6 +40894,8 @@ extension on _StringsId {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -42590,6 +42636,8 @@ extension on _StringsIt {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -44330,6 +44378,8 @@ extension on _StringsJa {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -46070,6 +46120,8 @@ extension on _StringsKo {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -47810,6 +47862,8 @@ extension on _StringsNl {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -49550,6 +49604,8 @@ extension on _StringsPtBr {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -51290,6 +51346,8 @@ extension on _StringsRu {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -53030,6 +53088,8 @@ extension on _StringsTh {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -54770,6 +54830,8 @@ extension on _StringsTr {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -56510,6 +56572,8 @@ extension on _StringsVi {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
@@ -58250,6 +58314,8 @@ extension on _StringsZhCn {
 			case 'update_install_launcher_pid': return ({required Object pid}) => '更新启动器 PID：${pid}';
 			case 'video_control_reset_layout': return '恢复默认播放器按钮布局';
 			case 'video_control_reset_layout_hint': return '把移动和移出的按钮恢复为默认播放器布局。';
+			case 'floating_lyric_bg_opacity': return '悬浮字幕背景不透明度';
+			case 'floating_lyric_bg_opacity_hint': return '调低让悬浮字幕条更透明、更不挡视野';
 			default: return null;
 		}
 	}
@@ -59990,6 +60056,8 @@ extension on _StringsZhHk {
 			case 'update_install_launcher_pid': return ({required Object pid}) => 'Update launcher PID: ${pid}';
 			case 'video_control_reset_layout': return 'Reset player button layout';
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
+			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
+			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
 			default: return null;
 		}
 	}
