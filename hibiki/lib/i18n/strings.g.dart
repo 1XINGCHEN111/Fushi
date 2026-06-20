@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29410 (1730 per locale)
+/// Strings: 29444 (1732 per locale)
 ///
-/// Built on 2026-06-19 at 15:58 UTC
+/// Built on 2026-06-20 at 03:56 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1890,6 +1890,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	String get video_subtitle_list_lock => 'Lock list';
+	String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -3673,6 +3675,8 @@ class _StringsAr extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -5456,6 +5460,8 @@ class _StringsDe extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -7239,6 +7245,8 @@ class _StringsEs extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -9022,6 +9030,8 @@ class _StringsFr extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -10805,6 +10815,8 @@ class _StringsId extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -12588,6 +12600,8 @@ class _StringsIt extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -14371,6 +14385,8 @@ class _StringsJa extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -16154,6 +16170,8 @@ class _StringsKo extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -17937,6 +17955,8 @@ class _StringsNl extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -19720,6 +19740,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -21503,6 +21525,8 @@ class _StringsRu extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -23286,6 +23310,8 @@ class _StringsTh extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -25069,6 +25095,8 @@ class _StringsTr extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -26852,6 +26880,8 @@ class _StringsVi extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -28635,6 +28665,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_control_reset_layout_hint => '把移动和移出的按钮恢复为默认播放器布局。';
 	@override String get floating_lyric_bg_opacity => '悬浮字幕背景不透明度';
 	@override String get floating_lyric_bg_opacity_hint => '调低让悬浮字幕条更透明、更不挡视野';
+	@override String get video_subtitle_list_lock => '锁定列表';
+	@override String get video_subtitle_list_unlock => '解锁列表';
 }
 
 // Path: retrying_in
@@ -30418,6 +30450,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+	@override String get video_subtitle_list_lock => 'Lock list';
+	@override String get video_subtitle_list_unlock => 'Unlock list';
 }
 
 // Path: retrying_in
@@ -32186,6 +32220,8 @@ extension on _StringsEn {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -33928,6 +33964,8 @@ extension on _StringsAr {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -35670,6 +35708,8 @@ extension on _StringsDe {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -37412,6 +37452,8 @@ extension on _StringsEs {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -39154,6 +39196,8 @@ extension on _StringsFr {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -40896,6 +40940,8 @@ extension on _StringsId {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -42638,6 +42684,8 @@ extension on _StringsIt {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -44380,6 +44428,8 @@ extension on _StringsJa {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -46122,6 +46172,8 @@ extension on _StringsKo {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -47864,6 +47916,8 @@ extension on _StringsNl {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -49606,6 +49660,8 @@ extension on _StringsPtBr {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -51348,6 +51404,8 @@ extension on _StringsRu {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -53090,6 +53148,8 @@ extension on _StringsTh {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -54832,6 +54892,8 @@ extension on _StringsTr {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -56574,6 +56636,8 @@ extension on _StringsVi {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
@@ -58316,6 +58380,8 @@ extension on _StringsZhCn {
 			case 'video_control_reset_layout_hint': return '把移动和移出的按钮恢复为默认播放器布局。';
 			case 'floating_lyric_bg_opacity': return '悬浮字幕背景不透明度';
 			case 'floating_lyric_bg_opacity_hint': return '调低让悬浮字幕条更透明、更不挡视野';
+			case 'video_subtitle_list_lock': return '锁定列表';
+			case 'video_subtitle_list_unlock': return '解锁列表';
 			default: return null;
 		}
 	}
@@ -60058,6 +60124,8 @@ extension on _StringsZhHk {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
+			case 'video_subtitle_list_lock': return 'Lock list';
+			case 'video_subtitle_list_unlock': return 'Unlock list';
 			default: return null;
 		}
 	}
