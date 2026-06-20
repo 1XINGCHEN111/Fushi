@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29750 (1750 per locale)
+/// Strings: 29767 (1751 per locale)
 ///
-/// Built on 2026-06-20 at 13:59 UTC
+/// Built on 2026-06-20 at 15:18 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1910,6 +1910,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	String get video_auto_play_next_cancel => 'Cancel';
 	String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -3713,6 +3714,7 @@ class _StringsAr extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -5516,6 +5518,7 @@ class _StringsDe extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -7319,6 +7322,7 @@ class _StringsEs extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -9122,6 +9126,7 @@ class _StringsFr extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -10925,6 +10930,7 @@ class _StringsId extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -12728,6 +12734,7 @@ class _StringsIt extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -14531,6 +14538,7 @@ class _StringsJa extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -16334,6 +16342,7 @@ class _StringsKo extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -18137,6 +18146,7 @@ class _StringsNl extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -19940,6 +19950,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -21743,6 +21754,7 @@ class _StringsRu extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -23546,6 +23558,7 @@ class _StringsTh extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -25349,6 +25362,7 @@ class _StringsTr extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -27152,6 +27166,7 @@ class _StringsVi extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -28955,6 +28970,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_setting_auto_play_next => '自动连播下一集';
 	@override String get video_setting_auto_play_next_hint => '播放列表里一集播完后自动播放下一集';
 	@override String get video_auto_play_next_cancel => '取消';
+	@override String get video_episode_list_empty => '无剧集';
 }
 
 // Path: retrying_in
@@ -30758,6 +30774,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
 	@override String get video_auto_play_next_cancel => 'Cancel';
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
+	@override String get video_episode_list_empty => 'No episodes';
 }
 
 // Path: retrying_in
@@ -32546,6 +32563,7 @@ extension on _StringsEn {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -34308,6 +34326,7 @@ extension on _StringsAr {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -36070,6 +36089,7 @@ extension on _StringsDe {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -37832,6 +37852,7 @@ extension on _StringsEs {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -39594,6 +39615,7 @@ extension on _StringsFr {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -41356,6 +41378,7 @@ extension on _StringsId {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -43118,6 +43141,7 @@ extension on _StringsIt {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -44880,6 +44904,7 @@ extension on _StringsJa {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -46642,6 +46667,7 @@ extension on _StringsKo {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -48404,6 +48430,7 @@ extension on _StringsNl {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -50166,6 +50193,7 @@ extension on _StringsPtBr {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -51928,6 +51956,7 @@ extension on _StringsRu {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -53690,6 +53719,7 @@ extension on _StringsTh {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -55452,6 +55482,7 @@ extension on _StringsTr {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -57214,6 +57245,7 @@ extension on _StringsVi {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
@@ -58976,6 +59008,7 @@ extension on _StringsZhCn {
 			case 'video_setting_auto_play_next': return '自动连播下一集';
 			case 'video_setting_auto_play_next_hint': return '播放列表里一集播完后自动播放下一集';
 			case 'video_auto_play_next_cancel': return '取消';
+			case 'video_episode_list_empty': return '无剧集';
 			default: return null;
 		}
 	}
@@ -60738,6 +60771,7 @@ extension on _StringsZhHk {
 			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
 			case 'video_auto_play_next_cancel': return 'Cancel';
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
+			case 'video_episode_list_empty': return 'No episodes';
 			default: return null;
 		}
 	}
