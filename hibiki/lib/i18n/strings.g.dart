@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29682 (1746 per locale)
+/// Strings: 29750 (1750 per locale)
 ///
-/// Built on 2026-06-20 at 13:37 UTC
+/// Built on 2026-06-20 at 13:59 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1906,6 +1906,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_overwrite_scope_latest => 'Latest card only';
 	String get anki_overwrite_scope_all => 'All matching cards';
 	String video_favorite_count({required Object count}) => '${count} favorites';
+	String get video_setting_auto_play_next => 'Auto-play next episode';
+	String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	String get video_auto_play_next_cancel => 'Cancel';
+	String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -3705,6 +3709,10 @@ class _StringsAr extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -5504,6 +5512,10 @@ class _StringsDe extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -7303,6 +7315,10 @@ class _StringsEs extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -9102,6 +9118,10 @@ class _StringsFr extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -10901,6 +10921,10 @@ class _StringsId extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -12700,6 +12724,10 @@ class _StringsIt extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -14499,6 +14527,10 @@ class _StringsJa extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -16298,6 +16330,10 @@ class _StringsKo extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -18097,6 +18133,10 @@ class _StringsNl extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -19896,6 +19936,10 @@ class _StringsPtBr extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -21695,6 +21739,10 @@ class _StringsRu extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -23494,6 +23542,10 @@ class _StringsTh extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -25293,6 +25345,10 @@ class _StringsTr extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -27092,6 +27148,10 @@ class _StringsVi extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -28891,6 +28951,10 @@ class _StringsZhCn extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => '仅最近一张';
 	@override String get anki_overwrite_scope_all => '全部匹配的卡片';
 	@override String video_favorite_count({required Object count}) => '收藏 ${count} 句';
+	@override String video_auto_play_next_countdown({required Object seconds}) => '${seconds} 秒后播放下一集';
+	@override String get video_setting_auto_play_next => '自动连播下一集';
+	@override String get video_setting_auto_play_next_hint => '播放列表里一集播完后自动播放下一集';
+	@override String get video_auto_play_next_cancel => '取消';
 }
 
 // Path: retrying_in
@@ -30690,6 +30754,10 @@ class _StringsZhHk extends _StringsEn {
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
 	@override String video_favorite_count({required Object count}) => '${count} favorites';
+	@override String get video_setting_auto_play_next => 'Auto-play next episode';
+	@override String get video_setting_auto_play_next_hint => 'Automatically play the next episode in a playlist when one finishes';
+	@override String get video_auto_play_next_cancel => 'Cancel';
+	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 }
 
 // Path: retrying_in
@@ -32474,6 +32542,10 @@ extension on _StringsEn {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -34232,6 +34304,10 @@ extension on _StringsAr {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -35990,6 +36066,10 @@ extension on _StringsDe {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -37748,6 +37828,10 @@ extension on _StringsEs {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -39506,6 +39590,10 @@ extension on _StringsFr {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -41264,6 +41352,10 @@ extension on _StringsId {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -43022,6 +43114,10 @@ extension on _StringsIt {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -44780,6 +44876,10 @@ extension on _StringsJa {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -46538,6 +46638,10 @@ extension on _StringsKo {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -48296,6 +48400,10 @@ extension on _StringsNl {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -50054,6 +50162,10 @@ extension on _StringsPtBr {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -51812,6 +51924,10 @@ extension on _StringsRu {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -53570,6 +53686,10 @@ extension on _StringsTh {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -55328,6 +55448,10 @@ extension on _StringsTr {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -57086,6 +57210,10 @@ extension on _StringsVi {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
@@ -58844,6 +58972,10 @@ extension on _StringsZhCn {
 			case 'anki_overwrite_scope_latest': return '仅最近一张';
 			case 'anki_overwrite_scope_all': return '全部匹配的卡片';
 			case 'video_favorite_count': return ({required Object count}) => '收藏 ${count} 句';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => '${seconds} 秒后播放下一集';
+			case 'video_setting_auto_play_next': return '自动连播下一集';
+			case 'video_setting_auto_play_next_hint': return '播放列表里一集播完后自动播放下一集';
+			case 'video_auto_play_next_cancel': return '取消';
 			default: return null;
 		}
 	}
@@ -60602,6 +60734,10 @@ extension on _StringsZhHk {
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
 			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
+			case 'video_setting_auto_play_next': return 'Auto-play next episode';
+			case 'video_setting_auto_play_next_hint': return 'Automatically play the next episode in a playlist when one finishes';
+			case 'video_auto_play_next_cancel': return 'Cancel';
+			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			default: return null;
 		}
 	}
