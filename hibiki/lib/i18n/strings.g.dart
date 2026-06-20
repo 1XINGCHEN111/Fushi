@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29597 (1741 per locale)
+/// Strings: 29716 (1748 per locale)
 ///
-/// Built on 2026-06-20 at 05:24 UTC
+/// Built on 2026-06-20 at 06:24 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1901,6 +1901,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dict_update_latest => 'Already up to date.';
 	String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	String get crash_dump_empty => 'No crash dumps';
+	String get crash_dump_open_folder => 'Open dump folder';
+	String get crash_dump_share => 'Share dump';
+	String get crash_dump_share_subject => 'hibiki Crash Dump';
+	String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -3695,6 +3702,13 @@ class _StringsAr extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -5489,6 +5503,13 @@ class _StringsDe extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -7283,6 +7304,13 @@ class _StringsEs extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -9077,6 +9105,13 @@ class _StringsFr extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -10871,6 +10906,13 @@ class _StringsId extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -12665,6 +12707,13 @@ class _StringsIt extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -14459,6 +14508,13 @@ class _StringsJa extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -16253,6 +16309,13 @@ class _StringsKo extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -18047,6 +18110,13 @@ class _StringsNl extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -19841,6 +19911,13 @@ class _StringsPtBr extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -21635,6 +21712,13 @@ class _StringsRu extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -23429,6 +23513,13 @@ class _StringsTh extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -25223,6 +25314,13 @@ class _StringsTr extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -27017,6 +27115,13 @@ class _StringsVi extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -28811,6 +28916,13 @@ class _StringsZhCn extends _StringsEn {
 	@override String get dict_update_latest => '已是最新。';
 	@override String dict_update_failed({required Object error}) => '更新失败：${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} 个已更新，${current} 个最新，${failed} 个失败。';
+	@override String crash_dump_label({required Object n}) => '崩溃转储 (${n})';
+	@override String get crash_dump_empty => '暂无崩溃转储';
+	@override String get crash_dump_open_folder => '打开转储文件夹';
+	@override String get crash_dump_share => '分享转储';
+	@override String get crash_dump_share_subject => 'hibiki 崩溃转储';
+	@override String get crash_dump_privacy_notice => '崩溃转储文件（.dmp）含进程内存快照，可能包含你正在阅读的文本、查过的词或其它应用内数据。仅分享给你信任的开发者。';
+	@override String get refresh => '刷新';
 }
 
 // Path: retrying_in
@@ -30605,6 +30717,13 @@ class _StringsZhHk extends _StringsEn {
 	@override String get dict_update_latest => 'Already up to date.';
 	@override String dict_update_failed({required Object error}) => 'Update failed: ${error}';
 	@override String dict_update_summary({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+	@override String crash_dump_label({required Object n}) => 'Crash Dumps (${n})';
+	@override String get crash_dump_empty => 'No crash dumps';
+	@override String get crash_dump_open_folder => 'Open dump folder';
+	@override String get crash_dump_share => 'Share dump';
+	@override String get crash_dump_share_subject => 'hibiki Crash Dump';
+	@override String get crash_dump_privacy_notice => 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+	@override String get refresh => 'Refresh';
 }
 
 // Path: retrying_in
@@ -32384,6 +32503,13 @@ extension on _StringsEn {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -34137,6 +34263,13 @@ extension on _StringsAr {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -35890,6 +36023,13 @@ extension on _StringsDe {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -37643,6 +37783,13 @@ extension on _StringsEs {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -39396,6 +39543,13 @@ extension on _StringsFr {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -41149,6 +41303,13 @@ extension on _StringsId {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -42902,6 +43063,13 @@ extension on _StringsIt {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -44655,6 +44823,13 @@ extension on _StringsJa {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -46408,6 +46583,13 @@ extension on _StringsKo {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -48161,6 +48343,13 @@ extension on _StringsNl {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -49914,6 +50103,13 @@ extension on _StringsPtBr {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -51667,6 +51863,13 @@ extension on _StringsRu {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -53420,6 +53623,13 @@ extension on _StringsTh {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -55173,6 +55383,13 @@ extension on _StringsTr {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -56926,6 +57143,13 @@ extension on _StringsVi {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
@@ -58679,6 +58903,13 @@ extension on _StringsZhCn {
 			case 'dict_update_latest': return '已是最新。';
 			case 'dict_update_failed': return ({required Object error}) => '更新失败：${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} 个已更新，${current} 个最新，${failed} 个失败。';
+			case 'crash_dump_label': return ({required Object n}) => '崩溃转储 (${n})';
+			case 'crash_dump_empty': return '暂无崩溃转储';
+			case 'crash_dump_open_folder': return '打开转储文件夹';
+			case 'crash_dump_share': return '分享转储';
+			case 'crash_dump_share_subject': return 'hibiki 崩溃转储';
+			case 'crash_dump_privacy_notice': return '崩溃转储文件（.dmp）含进程内存快照，可能包含你正在阅读的文本、查过的词或其它应用内数据。仅分享给你信任的开发者。';
+			case 'refresh': return '刷新';
 			default: return null;
 		}
 	}
@@ -60432,6 +60663,13 @@ extension on _StringsZhHk {
 			case 'dict_update_latest': return 'Already up to date.';
 			case 'dict_update_failed': return ({required Object error}) => 'Update failed: ${error}';
 			case 'dict_update_summary': return ({required Object updated, required Object current, required Object failed}) => '${updated} updated, ${current} up to date, ${failed} failed.';
+			case 'crash_dump_label': return ({required Object n}) => 'Crash Dumps (${n})';
+			case 'crash_dump_empty': return 'No crash dumps';
+			case 'crash_dump_open_folder': return 'Open dump folder';
+			case 'crash_dump_share': return 'Share dump';
+			case 'crash_dump_share_subject': return 'hibiki Crash Dump';
+			case 'crash_dump_privacy_notice': return 'Crash dumps (.dmp) contain a snapshot of process memory and may include text you were reading, words you looked up, or other in-app data. Share them only with developers you trust.';
+			case 'refresh': return 'Refresh';
 			default: return null;
 		}
 	}
