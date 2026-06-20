@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29784 (1752 per locale)
+/// Strings: 29682 (1746 per locale)
 ///
-/// Built on 2026-06-20 at 06:25 UTC
+/// Built on 2026-06-20 at 13:37 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1744,15 +1744,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_control_speed => 'Speed';
 	String get video_control_subtitle_list => 'Subtitle list';
 	String get video_control_favorite_sentence => 'Favorite current sentence';
-	String get video_control_favorite_sentences => 'Episode favorites';
 	String get video_control_settings => 'Player settings';
 	String get video_setting_long_press_speed => 'Long-press speed';
 	String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	String get video_favorite_sentences => 'Episode favorites';
-	String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	String get video_subtitle_filter_all => 'All';
 	String get video_subtitle_filter_favorites => 'Favorites';
 	String get video_subtitle_filter_selected => 'Selected';
@@ -1779,7 +1775,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_bottom_seek_forward_label => '+10s';
 	String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	String get now_listening_label => 'Now listening';
-	String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	String get video_jimaku_api_key_set => 'API key set';
 	String get lyrics_text_color => 'Lyrics text color';
 	String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -1890,8 +1885,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	String get video_subtitle_list_lock => 'Lock list';
-	String get video_subtitle_list_unlock => 'Unlock list';
 	String get dict_update_check => 'Check for Updates';
 	String get dict_update_tooltip => 'Update dictionary';
 	String get dict_update_checking => 'Checking for updates…';
@@ -1912,6 +1905,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	String get anki_overwrite_scope_latest => 'Latest card only';
 	String get anki_overwrite_scope_all => 'All matching cards';
+	String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -3549,15 +3543,11 @@ class _StringsAr extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -3584,7 +3574,6 @@ class _StringsAr extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -3695,8 +3684,6 @@ class _StringsAr extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -3717,6 +3704,7 @@ class _StringsAr extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -5354,15 +5342,11 @@ class _StringsDe extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -5389,7 +5373,6 @@ class _StringsDe extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -5500,8 +5483,6 @@ class _StringsDe extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -5522,6 +5503,7 @@ class _StringsDe extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -7159,15 +7141,11 @@ class _StringsEs extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -7194,7 +7172,6 @@ class _StringsEs extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -7305,8 +7282,6 @@ class _StringsEs extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -7327,6 +7302,7 @@ class _StringsEs extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -8964,15 +8940,11 @@ class _StringsFr extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -8999,7 +8971,6 @@ class _StringsFr extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -9110,8 +9081,6 @@ class _StringsFr extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -9132,6 +9101,7 @@ class _StringsFr extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -10769,15 +10739,11 @@ class _StringsId extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -10804,7 +10770,6 @@ class _StringsId extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -10915,8 +10880,6 @@ class _StringsId extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -10937,6 +10900,7 @@ class _StringsId extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -12574,15 +12538,11 @@ class _StringsIt extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -12609,7 +12569,6 @@ class _StringsIt extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -12720,8 +12679,6 @@ class _StringsIt extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -12742,6 +12699,7 @@ class _StringsIt extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -14379,15 +14337,11 @@ class _StringsJa extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -14414,7 +14368,6 @@ class _StringsJa extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -14525,8 +14478,6 @@ class _StringsJa extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -14547,6 +14498,7 @@ class _StringsJa extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -16184,15 +16136,11 @@ class _StringsKo extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -16219,7 +16167,6 @@ class _StringsKo extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -16330,8 +16277,6 @@ class _StringsKo extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -16352,6 +16297,7 @@ class _StringsKo extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -17989,15 +17935,11 @@ class _StringsNl extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -18024,7 +17966,6 @@ class _StringsNl extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -18135,8 +18076,6 @@ class _StringsNl extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -18157,6 +18096,7 @@ class _StringsNl extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -19794,15 +19734,11 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -19829,7 +19765,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -19940,8 +19875,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -19962,6 +19895,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -21599,15 +21533,11 @@ class _StringsRu extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -21634,7 +21564,6 @@ class _StringsRu extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -21745,8 +21674,6 @@ class _StringsRu extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -21767,6 +21694,7 @@ class _StringsRu extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -23404,15 +23332,11 @@ class _StringsTh extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -23439,7 +23363,6 @@ class _StringsTh extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -23550,8 +23473,6 @@ class _StringsTh extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -23572,6 +23493,7 @@ class _StringsTh extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -25209,15 +25131,11 @@ class _StringsTr extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -25244,7 +25162,6 @@ class _StringsTr extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -25355,8 +25272,6 @@ class _StringsTr extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -25377,6 +25292,7 @@ class _StringsTr extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -27014,15 +26930,11 @@ class _StringsVi extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -27049,7 +26961,6 @@ class _StringsVi extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -27160,8 +27071,6 @@ class _StringsVi extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -27182,6 +27091,7 @@ class _StringsVi extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -28819,15 +28729,11 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_control_speed => '倍速';
 	@override String get video_control_subtitle_list => '字幕列表';
 	@override String get video_control_favorite_sentence => '收藏当前句';
-	@override String get video_control_favorite_sentences => '本集收藏';
 	@override String get video_control_settings => '播放器设置';
 	@override String get video_setting_long_press_speed => '长按倍速';
 	@override String get video_setting_long_press_speed_hint => '按住画面时临时使用这个倍速。';
-	@override String get video_favorite_sentences => '本集收藏句子';
-	@override String get video_favorite_sentences_empty => '本集还没有收藏句子';
 	@override String get shortcut_action_video_toggle_favorite_sentence => '收藏当前句';
 	@override String get shortcut_action_video_replay_current_subtitle => '重播当前句';
-	@override String get shortcut_action_video_show_favorite_sentences => '显示本集收藏句';
 	@override String get video_subtitle_filter_all => '全部';
 	@override String get video_subtitle_filter_favorites => '收藏';
 	@override String get video_subtitle_filter_selected => '已选';
@@ -28854,7 +28760,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => '这本书没有可听的音频';
 	@override String get now_listening_label => '正在听书';
-	@override String video_favorite_sentences_count({required Object count}) => '本集收藏 ${count} 句';
 	@override String get video_jimaku_api_key_set => 'API key 已配置';
 	@override String get lyrics_text_color => '歌词字幕颜色';
 	@override String get lyrics_text_color_hint => '歌词字幕用自定义颜色（不跟随主题）';
@@ -28965,8 +28870,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_control_reset_layout_hint => '把移动和移出的按钮恢复为默认播放器布局。';
 	@override String get floating_lyric_bg_opacity => '悬浮字幕背景不透明度';
 	@override String get floating_lyric_bg_opacity_hint => '调低让悬浮字幕条更透明、更不挡视野';
-	@override String get video_subtitle_list_lock => '锁定列表';
-	@override String get video_subtitle_list_unlock => '解锁列表';
 	@override String get dict_update_check => '检查更新';
 	@override String get dict_update_tooltip => '更新词典';
 	@override String get dict_update_checking => '正在检查更新…';
@@ -28987,6 +28890,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => '绿色 ✓ 能覆写哪些已制卡片';
 	@override String get anki_overwrite_scope_latest => '仅最近一张';
 	@override String get anki_overwrite_scope_all => '全部匹配的卡片';
+	@override String video_favorite_count({required Object count}) => '收藏 ${count} 句';
 }
 
 // Path: retrying_in
@@ -30624,15 +30528,11 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_control_speed => 'Speed';
 	@override String get video_control_subtitle_list => 'Subtitle list';
 	@override String get video_control_favorite_sentence => 'Favorite current sentence';
-	@override String get video_control_favorite_sentences => 'Episode favorites';
 	@override String get video_control_settings => 'Player settings';
 	@override String get video_setting_long_press_speed => 'Long-press speed';
 	@override String get video_setting_long_press_speed_hint => 'Temporarily use this speed while holding the video.';
-	@override String get video_favorite_sentences => 'Episode favorites';
-	@override String get video_favorite_sentences_empty => 'No saved sentences in this episode';
 	@override String get shortcut_action_video_toggle_favorite_sentence => 'Favorite current sentence';
 	@override String get shortcut_action_video_replay_current_subtitle => 'Replay current subtitle';
-	@override String get shortcut_action_video_show_favorite_sentences => 'Show episode favorites';
 	@override String get video_subtitle_filter_all => 'All';
 	@override String get video_subtitle_filter_favorites => 'Favorites';
 	@override String get video_subtitle_filter_selected => 'Selected';
@@ -30659,7 +30559,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_bottom_seek_forward_label => '+10s';
 	@override String get floating_lyric_no_audio => 'This book has no audio to listen to';
 	@override String get now_listening_label => 'Now listening';
-	@override String video_favorite_sentences_count({required Object count}) => '${count} saved in this episode';
 	@override String get video_jimaku_api_key_set => 'API key set';
 	@override String get lyrics_text_color => 'Lyrics text color';
 	@override String get lyrics_text_color_hint => 'Use a custom color for lyrics text instead of following the theme';
@@ -30770,8 +30669,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_control_reset_layout_hint => 'Restore moved and removed buttons to the default player layout.';
 	@override String get floating_lyric_bg_opacity => 'Floating subtitle background opacity';
 	@override String get floating_lyric_bg_opacity_hint => 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-	@override String get video_subtitle_list_lock => 'Lock list';
-	@override String get video_subtitle_list_unlock => 'Unlock list';
 	@override String get dict_update_check => 'Check for Updates';
 	@override String get dict_update_tooltip => 'Update dictionary';
 	@override String get dict_update_checking => 'Checking for updates…';
@@ -30792,6 +30689,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get anki_overwrite_scope_hint => 'Which already-made cards the green ✓ can overwrite';
 	@override String get anki_overwrite_scope_latest => 'Latest card only';
 	@override String get anki_overwrite_scope_all => 'All matching cards';
+	@override String video_favorite_count({required Object count}) => '${count} favorites';
 }
 
 // Path: retrying_in
@@ -32414,15 +32312,11 @@ extension on _StringsEn {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -32449,7 +32343,6 @@ extension on _StringsEn {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -32560,8 +32453,6 @@ extension on _StringsEn {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -32582,6 +32473,7 @@ extension on _StringsEn {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -34178,15 +34070,11 @@ extension on _StringsAr {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -34213,7 +34101,6 @@ extension on _StringsAr {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -34324,8 +34211,6 @@ extension on _StringsAr {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -34346,6 +34231,7 @@ extension on _StringsAr {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -35942,15 +35828,11 @@ extension on _StringsDe {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -35977,7 +35859,6 @@ extension on _StringsDe {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -36088,8 +35969,6 @@ extension on _StringsDe {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -36110,6 +35989,7 @@ extension on _StringsDe {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -37706,15 +37586,11 @@ extension on _StringsEs {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -37741,7 +37617,6 @@ extension on _StringsEs {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -37852,8 +37727,6 @@ extension on _StringsEs {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -37874,6 +37747,7 @@ extension on _StringsEs {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -39470,15 +39344,11 @@ extension on _StringsFr {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -39505,7 +39375,6 @@ extension on _StringsFr {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -39616,8 +39485,6 @@ extension on _StringsFr {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -39638,6 +39505,7 @@ extension on _StringsFr {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -41234,15 +41102,11 @@ extension on _StringsId {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -41269,7 +41133,6 @@ extension on _StringsId {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -41380,8 +41243,6 @@ extension on _StringsId {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -41402,6 +41263,7 @@ extension on _StringsId {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -42998,15 +42860,11 @@ extension on _StringsIt {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -43033,7 +42891,6 @@ extension on _StringsIt {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -43144,8 +43001,6 @@ extension on _StringsIt {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -43166,6 +43021,7 @@ extension on _StringsIt {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -44762,15 +44618,11 @@ extension on _StringsJa {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -44797,7 +44649,6 @@ extension on _StringsJa {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -44908,8 +44759,6 @@ extension on _StringsJa {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -44930,6 +44779,7 @@ extension on _StringsJa {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -46526,15 +46376,11 @@ extension on _StringsKo {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -46561,7 +46407,6 @@ extension on _StringsKo {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -46672,8 +46517,6 @@ extension on _StringsKo {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -46694,6 +46537,7 @@ extension on _StringsKo {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -48290,15 +48134,11 @@ extension on _StringsNl {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -48325,7 +48165,6 @@ extension on _StringsNl {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -48436,8 +48275,6 @@ extension on _StringsNl {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -48458,6 +48295,7 @@ extension on _StringsNl {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -50054,15 +49892,11 @@ extension on _StringsPtBr {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -50089,7 +49923,6 @@ extension on _StringsPtBr {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -50200,8 +50033,6 @@ extension on _StringsPtBr {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -50222,6 +50053,7 @@ extension on _StringsPtBr {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -51818,15 +51650,11 @@ extension on _StringsRu {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -51853,7 +51681,6 @@ extension on _StringsRu {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -51964,8 +51791,6 @@ extension on _StringsRu {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -51986,6 +51811,7 @@ extension on _StringsRu {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -53582,15 +53408,11 @@ extension on _StringsTh {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -53617,7 +53439,6 @@ extension on _StringsTh {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -53728,8 +53549,6 @@ extension on _StringsTh {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -53750,6 +53569,7 @@ extension on _StringsTh {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -55346,15 +55166,11 @@ extension on _StringsTr {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -55381,7 +55197,6 @@ extension on _StringsTr {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -55492,8 +55307,6 @@ extension on _StringsTr {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -55514,6 +55327,7 @@ extension on _StringsTr {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -57110,15 +56924,11 @@ extension on _StringsVi {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -57145,7 +56955,6 @@ extension on _StringsVi {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -57256,8 +57065,6 @@ extension on _StringsVi {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -57278,6 +57085,7 @@ extension on _StringsVi {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
@@ -58874,15 +58682,11 @@ extension on _StringsZhCn {
 			case 'video_control_speed': return '倍速';
 			case 'video_control_subtitle_list': return '字幕列表';
 			case 'video_control_favorite_sentence': return '收藏当前句';
-			case 'video_control_favorite_sentences': return '本集收藏';
 			case 'video_control_settings': return '播放器设置';
 			case 'video_setting_long_press_speed': return '长按倍速';
 			case 'video_setting_long_press_speed_hint': return '按住画面时临时使用这个倍速。';
-			case 'video_favorite_sentences': return '本集收藏句子';
-			case 'video_favorite_sentences_empty': return '本集还没有收藏句子';
 			case 'shortcut_action_video_toggle_favorite_sentence': return '收藏当前句';
 			case 'shortcut_action_video_replay_current_subtitle': return '重播当前句';
-			case 'shortcut_action_video_show_favorite_sentences': return '显示本集收藏句';
 			case 'video_subtitle_filter_all': return '全部';
 			case 'video_subtitle_filter_favorites': return '收藏';
 			case 'video_subtitle_filter_selected': return '已选';
@@ -58909,7 +58713,6 @@ extension on _StringsZhCn {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return '这本书没有可听的音频';
 			case 'now_listening_label': return '正在听书';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '本集收藏 ${count} 句';
 			case 'video_jimaku_api_key_set': return 'API key 已配置';
 			case 'lyrics_text_color': return '歌词字幕颜色';
 			case 'lyrics_text_color_hint': return '歌词字幕用自定义颜色（不跟随主题）';
@@ -59020,8 +58823,6 @@ extension on _StringsZhCn {
 			case 'video_control_reset_layout_hint': return '把移动和移出的按钮恢复为默认播放器布局。';
 			case 'floating_lyric_bg_opacity': return '悬浮字幕背景不透明度';
 			case 'floating_lyric_bg_opacity_hint': return '调低让悬浮字幕条更透明、更不挡视野';
-			case 'video_subtitle_list_lock': return '锁定列表';
-			case 'video_subtitle_list_unlock': return '解锁列表';
 			case 'dict_update_check': return '检查更新';
 			case 'dict_update_tooltip': return '更新词典';
 			case 'dict_update_checking': return '正在检查更新…';
@@ -59042,6 +58843,7 @@ extension on _StringsZhCn {
 			case 'anki_overwrite_scope_hint': return '绿色 ✓ 能覆写哪些已制卡片';
 			case 'anki_overwrite_scope_latest': return '仅最近一张';
 			case 'anki_overwrite_scope_all': return '全部匹配的卡片';
+			case 'video_favorite_count': return ({required Object count}) => '收藏 ${count} 句';
 			default: return null;
 		}
 	}
@@ -60638,15 +60440,11 @@ extension on _StringsZhHk {
 			case 'video_control_speed': return 'Speed';
 			case 'video_control_subtitle_list': return 'Subtitle list';
 			case 'video_control_favorite_sentence': return 'Favorite current sentence';
-			case 'video_control_favorite_sentences': return 'Episode favorites';
 			case 'video_control_settings': return 'Player settings';
 			case 'video_setting_long_press_speed': return 'Long-press speed';
 			case 'video_setting_long_press_speed_hint': return 'Temporarily use this speed while holding the video.';
-			case 'video_favorite_sentences': return 'Episode favorites';
-			case 'video_favorite_sentences_empty': return 'No saved sentences in this episode';
 			case 'shortcut_action_video_toggle_favorite_sentence': return 'Favorite current sentence';
 			case 'shortcut_action_video_replay_current_subtitle': return 'Replay current subtitle';
-			case 'shortcut_action_video_show_favorite_sentences': return 'Show episode favorites';
 			case 'video_subtitle_filter_all': return 'All';
 			case 'video_subtitle_filter_favorites': return 'Favorites';
 			case 'video_subtitle_filter_selected': return 'Selected';
@@ -60673,7 +60471,6 @@ extension on _StringsZhHk {
 			case 'video_bottom_seek_forward_label': return '+10s';
 			case 'floating_lyric_no_audio': return 'This book has no audio to listen to';
 			case 'now_listening_label': return 'Now listening';
-			case 'video_favorite_sentences_count': return ({required Object count}) => '${count} saved in this episode';
 			case 'video_jimaku_api_key_set': return 'API key set';
 			case 'lyrics_text_color': return 'Lyrics text color';
 			case 'lyrics_text_color_hint': return 'Use a custom color for lyrics text instead of following the theme';
@@ -60784,8 +60581,6 @@ extension on _StringsZhHk {
 			case 'video_control_reset_layout_hint': return 'Restore moved and removed buttons to the default player layout.';
 			case 'floating_lyric_bg_opacity': return 'Floating subtitle background opacity';
 			case 'floating_lyric_bg_opacity_hint': return 'Lower this to make the floating subtitle bar more transparent so it blocks less of your view';
-			case 'video_subtitle_list_lock': return 'Lock list';
-			case 'video_subtitle_list_unlock': return 'Unlock list';
 			case 'dict_update_check': return 'Check for Updates';
 			case 'dict_update_tooltip': return 'Update dictionary';
 			case 'dict_update_checking': return 'Checking for updates…';
@@ -60806,6 +60601,7 @@ extension on _StringsZhHk {
 			case 'anki_overwrite_scope_hint': return 'Which already-made cards the green ✓ can overwrite';
 			case 'anki_overwrite_scope_latest': return 'Latest card only';
 			case 'anki_overwrite_scope_all': return 'All matching cards';
+			case 'video_favorite_count': return ({required Object count}) => '${count} favorites';
 			default: return null;
 		}
 	}
