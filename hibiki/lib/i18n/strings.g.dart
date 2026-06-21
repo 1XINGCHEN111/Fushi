@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30090 (1770 per locale)
+/// Strings: 30107 (1771 per locale)
 ///
-/// Built on 2026-06-21 at 09:19 UTC
+/// Built on 2026-06-21 at 15:17 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1930,6 +1930,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get stat_sort_by_chars => 'By Characters';
 	String get collection_mined => 'Mined';
 	String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -3753,6 +3754,7 @@ class _StringsAr extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -5576,6 +5578,7 @@ class _StringsDe extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -7399,6 +7402,7 @@ class _StringsEs extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -9222,6 +9226,7 @@ class _StringsFr extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -11045,6 +11050,7 @@ class _StringsId extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -12868,6 +12874,7 @@ class _StringsIt extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -14691,6 +14698,7 @@ class _StringsJa extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -16514,6 +16522,7 @@ class _StringsKo extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -18337,6 +18346,7 @@ class _StringsNl extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -20160,6 +20170,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -21983,6 +21994,7 @@ class _StringsRu extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -23806,6 +23818,7 @@ class _StringsTh extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -25629,6 +25642,7 @@ class _StringsTr extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -27452,6 +27466,7 @@ class _StringsVi extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -29275,6 +29290,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get stat_sort_by_chars => '按字数';
 	@override String get collection_mined => '制卡句';
 	@override String get collection_mined_clear_confirm => '清空全部制卡历史？';
+	@override String get update_connecting => '正在连接更新源…';
 }
 
 // Path: retrying_in
@@ -31098,6 +31114,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get stat_sort_by_chars => 'By Characters';
 	@override String get collection_mined => 'Mined';
 	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get update_connecting => 'Connecting…';
 }
 
 // Path: retrying_in
@@ -32906,6 +32923,7 @@ extension on _StringsEn {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -34688,6 +34706,7 @@ extension on _StringsAr {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -36470,6 +36489,7 @@ extension on _StringsDe {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -38252,6 +38272,7 @@ extension on _StringsEs {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -40034,6 +40055,7 @@ extension on _StringsFr {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -41816,6 +41838,7 @@ extension on _StringsId {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -43598,6 +43621,7 @@ extension on _StringsIt {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -45380,6 +45404,7 @@ extension on _StringsJa {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -47162,6 +47187,7 @@ extension on _StringsKo {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -48944,6 +48970,7 @@ extension on _StringsNl {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -50726,6 +50753,7 @@ extension on _StringsPtBr {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -52508,6 +52536,7 @@ extension on _StringsRu {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -54290,6 +54319,7 @@ extension on _StringsTh {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -56072,6 +56102,7 @@ extension on _StringsTr {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -57854,6 +57885,7 @@ extension on _StringsVi {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
@@ -59636,6 +59668,7 @@ extension on _StringsZhCn {
 			case 'stat_sort_by_chars': return '按字数';
 			case 'collection_mined': return '制卡句';
 			case 'collection_mined_clear_confirm': return '清空全部制卡历史？';
+			case 'update_connecting': return '正在连接更新源…';
 			default: return null;
 		}
 	}
@@ -61418,6 +61451,7 @@ extension on _StringsZhHk {
 			case 'stat_sort_by_chars': return 'By Characters';
 			case 'collection_mined': return 'Mined';
 			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'update_connecting': return 'Connecting…';
 			default: return null;
 		}
 	}
