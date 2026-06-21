@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 29818 (1754 per locale)
+/// Strings: 30056 (1768 per locale)
 ///
-/// Built on 2026-06-21 at 08:59 UTC
+/// Built on 2026-06-21 at 08:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1912,8 +1912,22 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	String get video_episode_list_empty => 'No episodes';
 	String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	String get collection_mined => 'Mined';
-	String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	String get stat_reading_speed => 'Reading Speed';
+	String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	String get stat_trend => 'Trend';
+	String get stat_trend_daily => 'Daily';
+	String get stat_trend_weekly => 'Weekly';
+	String get stat_trend_monthly => 'Monthly';
+	String get stat_speed_trend => 'Reading Speed Trend';
+	String get stat_speed_avg => 'Moving Average';
+	String get stat_speed_anomaly => 'Anomaly';
+	String get stat_total_books => 'Books';
+	String get stat_active_days => 'Active Days';
+	String get stat_date_range => 'Date Range';
+	String get stat_overview => 'Overview';
+	String get stat_sort_by_speed => 'By Speed';
+	String get stat_sort_by_time => 'By Time';
+	String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -3719,8 +3733,22 @@ class _StringsAr extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -5526,8 +5554,22 @@ class _StringsDe extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -7333,8 +7375,22 @@ class _StringsEs extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -9140,8 +9196,22 @@ class _StringsFr extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -10947,8 +11017,22 @@ class _StringsId extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -12754,8 +12838,22 @@ class _StringsIt extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -14561,8 +14659,22 @@ class _StringsJa extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -16368,8 +16480,22 @@ class _StringsKo extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -18175,8 +18301,22 @@ class _StringsNl extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -19982,8 +20122,22 @@ class _StringsPtBr extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -21789,8 +21943,22 @@ class _StringsRu extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -23596,8 +23764,22 @@ class _StringsTh extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -25403,8 +25585,22 @@ class _StringsTr extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -27210,8 +27406,22 @@ class _StringsVi extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -29017,8 +29227,22 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_auto_play_next_cancel => '取消';
 	@override String get video_episode_list_empty => '无剧集';
 	@override String video_subtitle_delay_osd({required Object ms}) => '字幕同步：${ms} ms';
-	@override String get collection_mined => '制卡句';
-	@override String get collection_mined_clear_confirm => '清空全部制卡历史？';
+	@override String get stat_reading_speed => '阅读速度';
+	@override String stat_speed_cph({required Object n}) => '${n} 字/时';
+	@override String get stat_trend => '趋势';
+	@override String get stat_trend_daily => '日';
+	@override String get stat_trend_weekly => '周';
+	@override String get stat_trend_monthly => '月';
+	@override String get stat_speed_trend => '阅读速度趋势';
+	@override String get stat_speed_avg => '移动平均';
+	@override String get stat_speed_anomaly => '异常日';
+	@override String get stat_total_books => '书籍数';
+	@override String get stat_active_days => '活跃天数';
+	@override String get stat_date_range => '日期范围';
+	@override String get stat_overview => '总览';
+	@override String get stat_sort_by_speed => '按速度';
+	@override String get stat_sort_by_time => '按时长';
+	@override String get stat_sort_by_chars => '按字数';
 }
 
 // Path: retrying_in
@@ -30824,8 +31048,22 @@ class _StringsZhHk extends _StringsEn {
 	@override String video_auto_play_next_countdown({required Object seconds}) => 'Next episode in ${seconds}s';
 	@override String get video_episode_list_empty => 'No episodes';
 	@override String video_subtitle_delay_osd({required Object ms}) => 'Subtitle sync: ${ms} ms';
-	@override String get collection_mined => 'Mined';
-	@override String get collection_mined_clear_confirm => 'Clear all mined-sentence history?';
+	@override String get stat_reading_speed => 'Reading Speed';
+	@override String stat_speed_cph({required Object n}) => '${n} chars/hr';
+	@override String get stat_trend => 'Trend';
+	@override String get stat_trend_daily => 'Daily';
+	@override String get stat_trend_weekly => 'Weekly';
+	@override String get stat_trend_monthly => 'Monthly';
+	@override String get stat_speed_trend => 'Reading Speed Trend';
+	@override String get stat_speed_avg => 'Moving Average';
+	@override String get stat_speed_anomaly => 'Anomaly';
+	@override String get stat_total_books => 'Books';
+	@override String get stat_active_days => 'Active Days';
+	@override String get stat_date_range => 'Date Range';
+	@override String get stat_overview => 'Overview';
+	@override String get stat_sort_by_speed => 'By Speed';
+	@override String get stat_sort_by_time => 'By Time';
+	@override String get stat_sort_by_chars => 'By Characters';
 }
 
 // Path: retrying_in
@@ -32616,8 +32854,22 @@ extension on _StringsEn {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -34382,8 +34634,22 @@ extension on _StringsAr {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -36148,8 +36414,22 @@ extension on _StringsDe {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -37914,8 +38194,22 @@ extension on _StringsEs {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -39680,8 +39974,22 @@ extension on _StringsFr {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -41446,8 +41754,22 @@ extension on _StringsId {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -43212,8 +43534,22 @@ extension on _StringsIt {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -44978,8 +45314,22 @@ extension on _StringsJa {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -46744,8 +47094,22 @@ extension on _StringsKo {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -48510,8 +48874,22 @@ extension on _StringsNl {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -50276,8 +50654,22 @@ extension on _StringsPtBr {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -52042,8 +52434,22 @@ extension on _StringsRu {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -53808,8 +54214,22 @@ extension on _StringsTh {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -55574,8 +55994,22 @@ extension on _StringsTr {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -57340,8 +57774,22 @@ extension on _StringsVi {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
@@ -59106,8 +59554,22 @@ extension on _StringsZhCn {
 			case 'video_auto_play_next_cancel': return '取消';
 			case 'video_episode_list_empty': return '无剧集';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => '字幕同步：${ms} ms';
-			case 'collection_mined': return '制卡句';
-			case 'collection_mined_clear_confirm': return '清空全部制卡历史？';
+			case 'stat_reading_speed': return '阅读速度';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} 字/时';
+			case 'stat_trend': return '趋势';
+			case 'stat_trend_daily': return '日';
+			case 'stat_trend_weekly': return '周';
+			case 'stat_trend_monthly': return '月';
+			case 'stat_speed_trend': return '阅读速度趋势';
+			case 'stat_speed_avg': return '移动平均';
+			case 'stat_speed_anomaly': return '异常日';
+			case 'stat_total_books': return '书籍数';
+			case 'stat_active_days': return '活跃天数';
+			case 'stat_date_range': return '日期范围';
+			case 'stat_overview': return '总览';
+			case 'stat_sort_by_speed': return '按速度';
+			case 'stat_sort_by_time': return '按时长';
+			case 'stat_sort_by_chars': return '按字数';
 			default: return null;
 		}
 	}
@@ -60872,8 +61334,22 @@ extension on _StringsZhHk {
 			case 'video_auto_play_next_countdown': return ({required Object seconds}) => 'Next episode in ${seconds}s';
 			case 'video_episode_list_empty': return 'No episodes';
 			case 'video_subtitle_delay_osd': return ({required Object ms}) => 'Subtitle sync: ${ms} ms';
-			case 'collection_mined': return 'Mined';
-			case 'collection_mined_clear_confirm': return 'Clear all mined-sentence history?';
+			case 'stat_reading_speed': return 'Reading Speed';
+			case 'stat_speed_cph': return ({required Object n}) => '${n} chars/hr';
+			case 'stat_trend': return 'Trend';
+			case 'stat_trend_daily': return 'Daily';
+			case 'stat_trend_weekly': return 'Weekly';
+			case 'stat_trend_monthly': return 'Monthly';
+			case 'stat_speed_trend': return 'Reading Speed Trend';
+			case 'stat_speed_avg': return 'Moving Average';
+			case 'stat_speed_anomaly': return 'Anomaly';
+			case 'stat_total_books': return 'Books';
+			case 'stat_active_days': return 'Active Days';
+			case 'stat_date_range': return 'Date Range';
+			case 'stat_overview': return 'Overview';
+			case 'stat_sort_by_speed': return 'By Speed';
+			case 'stat_sort_by_time': return 'By Time';
+			case 'stat_sort_by_chars': return 'By Characters';
 			default: return null;
 		}
 	}
