@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30107 (1771 per locale)
+/// Strings: 30124 (1772 per locale)
 ///
-/// Built on 2026-06-22 at 12:45 UTC
+/// Built on 2026-06-22 at 14:42 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1419,7 +1419,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_compare_skip => 'Skip';
   String sync_compare_applied({required Object count}) =>
       'Applied ${count} changes';
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'Sync now (${count})';
   String get sync_auto_sync => 'Auto Sync';
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
@@ -2373,6 +2373,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get collection_mined_clear_confirm =>
       'Clear all mined-sentence history?';
   String get update_connecting => 'Connecting…';
+  String get sync_compare_close => 'Close';
 }
 
 // Path: retrying_in
@@ -4687,7 +4688,8 @@ class _StringsAr extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       'تم تطبيق ${count} تغيير';
   @override
-  String sync_compare_apply({required Object count}) => 'تطبيق (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'المزامنة الآن (${count})';
   @override
   String get sync_auto_sync => 'مزامنة تلقائية';
   @override
@@ -6378,6 +6380,8 @@ class _StringsAr extends _StringsEn {
       'مسح كل سجل الجمل المُنشأة منها بطاقات؟';
   @override
   String get update_connecting => 'جارٍ الاتصال…';
+  @override
+  String get sync_compare_close => 'إغلاق';
 }
 
 // Path: retrying_in
@@ -8767,7 +8771,8 @@ class _StringsDe extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       '${count} Änderungen angewendet';
   @override
-  String sync_compare_apply({required Object count}) => 'Anwenden (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'Jetzt synchronisieren (${count})';
   @override
   String get sync_auto_sync => 'Auto-Sync';
   @override
@@ -10505,6 +10510,8 @@ class _StringsDe extends _StringsEn {
       'Gesamten Verlauf erstellter Sätze löschen?';
   @override
   String get update_connecting => 'Verbinde…';
+  @override
+  String get sync_compare_close => 'Schließen';
 }
 
 // Path: retrying_in
@@ -12903,7 +12910,8 @@ class _StringsEs extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       'Se aplicaron ${count} cambios';
   @override
-  String sync_compare_apply({required Object count}) => 'Aplicar (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'Sincronizar ahora (${count})';
   @override
   String get sync_auto_sync => 'Sincronización automática';
   @override
@@ -14650,6 +14658,8 @@ class _StringsEs extends _StringsEn {
       '¿Borrar todo el historial de frases para tarjetas?';
   @override
   String get update_connecting => 'Conectando…';
+  @override
+  String get sync_compare_close => 'Cerrar';
 }
 
 // Path: retrying_in
@@ -17064,7 +17074,8 @@ class _StringsFr extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       '${count} modifications appliquées';
   @override
-  String sync_compare_apply({required Object count}) => 'Appliquer (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'Synchroniser maintenant (${count})';
   @override
   String get sync_auto_sync => 'Sync auto';
   @override
@@ -18814,6 +18825,8 @@ class _StringsFr extends _StringsEn {
       'Effacer tout l\'historique des phrases utilisées pour les cartes ?';
   @override
   String get update_connecting => 'Connexion…';
+  @override
+  String get sync_compare_close => 'Fermer';
 }
 
 // Path: retrying_in
@@ -21167,7 +21180,8 @@ class _StringsId extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       '${count} perubahan diterapkan';
   @override
-  String sync_compare_apply({required Object count}) => 'Terapkan (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'Sinkronkan sekarang (${count})';
   @override
   String get sync_auto_sync => 'Sinkronisasi Otomatis';
   @override
@@ -22879,6 +22893,8 @@ class _StringsId extends _StringsEn {
       'Kosongkan semua riwayat kalimat yang dibuat kartu?';
   @override
   String get update_connecting => 'Menghubungkan…';
+  @override
+  String get sync_compare_close => 'Tutup';
 }
 
 // Path: retrying_in
@@ -25265,7 +25281,8 @@ class _StringsIt extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       'Applicate ${count} modifiche';
   @override
-  String sync_compare_apply({required Object count}) => 'Applica (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'Sincronizza ora (${count})';
   @override
   String get sync_auto_sync => 'Sincronizzazione automatica';
   @override
@@ -27006,6 +27023,8 @@ class _StringsIt extends _StringsEn {
       'Cancellare tutta la cronologia delle frasi usate per le carte?';
   @override
   String get update_connecting => 'Connessione…';
+  @override
+  String get sync_compare_close => 'Chiudi';
 }
 
 // Path: retrying_in
@@ -29244,7 +29263,7 @@ class _StringsJa extends _StringsEn {
   @override
   String sync_compare_applied({required Object count}) => '${count}件の変更を適用しました';
   @override
-  String sync_compare_apply({required Object count}) => '適用 (${count})';
+  String sync_compare_apply({required Object count}) => '今すぐ同期 (${count})';
   @override
   String get sync_auto_sync => '自動同期';
   @override
@@ -30861,6 +30880,8 @@ class _StringsJa extends _StringsEn {
   String get collection_mined_clear_confirm => 'カード作成した文の履歴をすべて消去しますか？';
   @override
   String get update_connecting => '更新元に接続中…';
+  @override
+  String get sync_compare_close => '閉じる';
 }
 
 // Path: retrying_in
@@ -33105,7 +33126,7 @@ class _StringsKo extends _StringsEn {
   @override
   String sync_compare_applied({required Object count}) => '변경 사항 ${count}개 적용됨';
   @override
-  String sync_compare_apply({required Object count}) => '적용 (${count})';
+  String sync_compare_apply({required Object count}) => '지금 동기화 (${count})';
   @override
   String get sync_auto_sync => '자동 동기화';
   @override
@@ -34721,6 +34742,8 @@ class _StringsKo extends _StringsEn {
   String get collection_mined_clear_confirm => '마이닝한 문장 기록을 모두 지울까요?';
   @override
   String get update_connecting => '연결 중…';
+  @override
+  String get sync_compare_close => '닫기';
 }
 
 // Path: retrying_in
@@ -37091,7 +37114,8 @@ class _StringsNl extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       '${count} wijzigingen toegepast';
   @override
-  String sync_compare_apply({required Object count}) => 'Toepassen (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'Nu synchroniseren (${count})';
   @override
   String get sync_auto_sync => 'Automatisch synchroniseren';
   @override
@@ -38815,6 +38839,8 @@ class _StringsNl extends _StringsEn {
       'Alle geschiedenis van gemaakte zinnen wissen?';
   @override
   String get update_connecting => 'Verbinden…';
+  @override
+  String get sync_compare_close => 'Sluiten';
 }
 
 // Path: retrying_in
@@ -41200,7 +41226,8 @@ class _StringsPtBr extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       '${count} alterações aplicadas';
   @override
-  String sync_compare_apply({required Object count}) => 'Aplicar (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'Sincronizar agora (${count})';
   @override
   String get sync_auto_sync => 'Sincronização automática';
   @override
@@ -42933,6 +42960,8 @@ class _StringsPtBr extends _StringsEn {
       'Limpar todo o histórico de frases usadas em cartões?';
   @override
   String get update_connecting => 'Conectando…';
+  @override
+  String get sync_compare_close => 'Fechar';
 }
 
 // Path: retrying_in
@@ -45300,7 +45329,8 @@ class _StringsRu extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       'Применено изменений: ${count}';
   @override
-  String sync_compare_apply({required Object count}) => 'Применить (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'Синхронизировать сейчас (${count})';
   @override
   String get sync_auto_sync => 'Автосинхронизация';
   @override
@@ -47023,6 +47053,8 @@ class _StringsRu extends _StringsEn {
       'Очистить всю историю предложений с карточками?';
   @override
   String get update_connecting => 'Подключение…';
+  @override
+  String get sync_compare_close => 'Закрыть';
 }
 
 // Path: retrying_in
@@ -49338,7 +49370,8 @@ class _StringsTh extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       'ปรับใช้ ${count} รายการแล้ว';
   @override
-  String sync_compare_apply({required Object count}) => 'ปรับใช้ (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'ซิงค์ตอนนี้ (${count})';
   @override
   String get sync_auto_sync => 'ซิงค์อัตโนมัติ';
   @override
@@ -51028,6 +51061,8 @@ class _StringsTh extends _StringsEn {
       'ล้างประวัติประโยคที่สร้างการ์ดทั้งหมด?';
   @override
   String get update_connecting => 'กำลังเชื่อมต่อแหล่งอัปเดต…';
+  @override
+  String get sync_compare_close => 'ปิด';
 }
 
 // Path: retrying_in
@@ -53379,7 +53414,8 @@ class _StringsTr extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       '${count} değişiklik uygulandı';
   @override
-  String sync_compare_apply({required Object count}) => 'Uygula (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'Şimdi eşitle (${count})';
   @override
   String get sync_auto_sync => 'Otomatik Eşitleme';
   @override
@@ -55089,6 +55125,8 @@ class _StringsTr extends _StringsEn {
       'Tüm kart çıkarılan cümle geçmişi temizlensin mi?';
   @override
   String get update_connecting => 'Bağlanılıyor…';
+  @override
+  String get sync_compare_close => 'Kapat';
 }
 
 // Path: retrying_in
@@ -57420,7 +57458,8 @@ class _StringsVi extends _StringsEn {
   String sync_compare_applied({required Object count}) =>
       'Đã áp dụng ${count} thay đổi';
   @override
-  String sync_compare_apply({required Object count}) => 'Áp dụng (${count})';
+  String sync_compare_apply({required Object count}) =>
+      'Đồng bộ ngay (${count})';
   @override
   String get sync_auto_sync => 'Tự động đồng bộ';
   @override
@@ -59124,6 +59163,8 @@ class _StringsVi extends _StringsEn {
       'Xóa toàn bộ lịch sử câu đã tạo thẻ?';
   @override
   String get update_connecting => 'Đang kết nối…';
+  @override
+  String get sync_compare_close => 'Đóng';
 }
 
 // Path: retrying_in
@@ -61328,7 +61369,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String sync_compare_applied({required Object count}) => '已应用 ${count} 项更改';
   @override
-  String sync_compare_apply({required Object count}) => '应用（${count}）';
+  String sync_compare_apply({required Object count}) => '立即同步（${count}）';
   @override
   String get sync_auto_sync => '自动同步';
   @override
@@ -62885,6 +62926,8 @@ class _StringsZhCn extends _StringsEn {
   String get collection_mined_clear_confirm => '清空全部制卡历史？';
   @override
   String get update_connecting => '正在连接更新源…';
+  @override
+  String get sync_compare_close => '关闭';
 }
 
 // Path: retrying_in
@@ -65086,7 +65129,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String sync_compare_applied({required Object count}) => '已套用 ${count} 項變更';
   @override
-  String sync_compare_apply({required Object count}) => '套用（${count}）';
+  String sync_compare_apply({required Object count}) => '立即同步（${count}）';
   @override
   String get sync_auto_sync => '自動同步';
   @override
@@ -66648,6 +66691,8 @@ class _StringsZhHk extends _StringsEn {
   String get collection_mined_clear_confirm => '清空全部製卡句記錄？';
   @override
   String get update_connecting => '正在連接更新來源…';
+  @override
+  String get sync_compare_close => '關閉';
 }
 
 // Path: retrying_in
@@ -68809,7 +68854,7 @@ extension on _StringsEn {
       case 'sync_compare_applied':
         return ({required Object count}) => 'Applied ${count} changes';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'Sync now (${count})';
       case 'sync_auto_sync':
         return 'Auto Sync';
       case 'sync_auto_complete':
@@ -70317,6 +70362,8 @@ extension on _StringsEn {
         return 'Clear all mined-sentence history?';
       case 'update_connecting':
         return 'Connecting…';
+      case 'sync_compare_close':
+        return 'Close';
       default:
         return null;
     }
@@ -72436,7 +72483,7 @@ extension on _StringsAr {
       case 'sync_compare_applied':
         return ({required Object count}) => 'تم تطبيق ${count} تغيير';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'تطبيق (${count})';
+        return ({required Object count}) => 'المزامنة الآن (${count})';
       case 'sync_auto_sync':
         return 'مزامنة تلقائية';
       case 'sync_auto_complete':
@@ -73945,6 +73992,8 @@ extension on _StringsAr {
         return 'مسح كل سجل الجمل المُنشأة منها بطاقات؟';
       case 'update_connecting':
         return 'جارٍ الاتصال…';
+      case 'sync_compare_close':
+        return 'إغلاق';
       default:
         return null;
     }
@@ -76078,7 +76127,7 @@ extension on _StringsDe {
       case 'sync_compare_applied':
         return ({required Object count}) => '${count} Änderungen angewendet';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Anwenden (${count})';
+        return ({required Object count}) => 'Jetzt synchronisieren (${count})';
       case 'sync_auto_sync':
         return 'Auto-Sync';
       case 'sync_auto_complete':
@@ -77595,6 +77644,8 @@ extension on _StringsDe {
         return 'Gesamten Verlauf erstellter Sätze löschen?';
       case 'update_connecting':
         return 'Verbinde…';
+      case 'sync_compare_close':
+        return 'Schließen';
       default:
         return null;
     }
@@ -79727,7 +79778,7 @@ extension on _StringsEs {
       case 'sync_compare_applied':
         return ({required Object count}) => 'Se aplicaron ${count} cambios';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Aplicar (${count})';
+        return ({required Object count}) => 'Sincronizar ahora (${count})';
       case 'sync_auto_sync':
         return 'Sincronización automática';
       case 'sync_auto_complete':
@@ -81244,6 +81295,8 @@ extension on _StringsEs {
         return '¿Borrar todo el historial de frases para tarjetas?';
       case 'update_connecting':
         return 'Conectando…';
+      case 'sync_compare_close':
+        return 'Cerrar';
       default:
         return null;
     }
@@ -83377,7 +83430,8 @@ extension on _StringsFr {
       case 'sync_compare_applied':
         return ({required Object count}) => '${count} modifications appliquées';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Appliquer (${count})';
+        return ({required Object count}) =>
+            'Synchroniser maintenant (${count})';
       case 'sync_auto_sync':
         return 'Sync auto';
       case 'sync_auto_complete':
@@ -84899,6 +84953,8 @@ extension on _StringsFr {
         return 'Effacer tout l\'historique des phrases utilisées pour les cartes ?';
       case 'update_connecting':
         return 'Connexion…';
+      case 'sync_compare_close':
+        return 'Fermer';
       default:
         return null;
     }
@@ -87023,7 +87079,7 @@ extension on _StringsId {
       case 'sync_compare_applied':
         return ({required Object count}) => '${count} perubahan diterapkan';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Terapkan (${count})';
+        return ({required Object count}) => 'Sinkronkan sekarang (${count})';
       case 'sync_auto_sync':
         return 'Sinkronisasi Otomatis';
       case 'sync_auto_complete':
@@ -88534,6 +88590,8 @@ extension on _StringsId {
         return 'Kosongkan semua riwayat kalimat yang dibuat kartu?';
       case 'update_connecting':
         return 'Menghubungkan…';
+      case 'sync_compare_close':
+        return 'Tutup';
       default:
         return null;
     }
@@ -90664,7 +90722,7 @@ extension on _StringsIt {
       case 'sync_compare_applied':
         return ({required Object count}) => 'Applicate ${count} modifiche';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Applica (${count})';
+        return ({required Object count}) => 'Sincronizza ora (${count})';
       case 'sync_auto_sync':
         return 'Sincronizzazione automatica';
       case 'sync_auto_complete':
@@ -92187,6 +92245,8 @@ extension on _StringsIt {
         return 'Cancellare tutta la cronologia delle frasi usate per le carte?';
       case 'update_connecting':
         return 'Connessione…';
+      case 'sync_compare_close':
+        return 'Chiudi';
       default:
         return null;
     }
@@ -94297,7 +94357,7 @@ extension on _StringsJa {
       case 'sync_compare_applied':
         return ({required Object count}) => '${count}件の変更を適用しました';
       case 'sync_compare_apply':
-        return ({required Object count}) => '適用 (${count})';
+        return ({required Object count}) => '今すぐ同期 (${count})';
       case 'sync_auto_sync':
         return '自動同期';
       case 'sync_auto_complete':
@@ -95798,6 +95858,8 @@ extension on _StringsJa {
         return 'カード作成した文の履歴をすべて消去しますか？';
       case 'update_connecting':
         return '更新元に接続中…';
+      case 'sync_compare_close':
+        return '閉じる';
       default:
         return null;
     }
@@ -97910,7 +97972,7 @@ extension on _StringsKo {
       case 'sync_compare_applied':
         return ({required Object count}) => '변경 사항 ${count}개 적용됨';
       case 'sync_compare_apply':
-        return ({required Object count}) => '적용 (${count})';
+        return ({required Object count}) => '지금 동기화 (${count})';
       case 'sync_auto_sync':
         return '자동 동기화';
       case 'sync_auto_complete':
@@ -99412,6 +99474,8 @@ extension on _StringsKo {
         return '마이닝한 문장 기록을 모두 지울까요?';
       case 'update_connecting':
         return '연결 중…';
+      case 'sync_compare_close':
+        return '닫기';
       default:
         return null;
     }
@@ -101540,7 +101604,7 @@ extension on _StringsNl {
       case 'sync_compare_applied':
         return ({required Object count}) => '${count} wijzigingen toegepast';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Toepassen (${count})';
+        return ({required Object count}) => 'Nu synchroniseren (${count})';
       case 'sync_auto_sync':
         return 'Automatisch synchroniseren';
       case 'sync_auto_complete':
@@ -103057,6 +103121,8 @@ extension on _StringsNl {
         return 'Alle geschiedenis van gemaakte zinnen wissen?';
       case 'update_connecting':
         return 'Verbinden…';
+      case 'sync_compare_close':
+        return 'Sluiten';
       default:
         return null;
     }
@@ -105185,7 +105251,7 @@ extension on _StringsPtBr {
       case 'sync_compare_applied':
         return ({required Object count}) => '${count} alterações aplicadas';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Aplicar (${count})';
+        return ({required Object count}) => 'Sincronizar agora (${count})';
       case 'sync_auto_sync':
         return 'Sincronização automática';
       case 'sync_auto_complete':
@@ -106700,6 +106766,8 @@ extension on _StringsPtBr {
         return 'Limpar todo o histórico de frases usadas em cartões?';
       case 'update_connecting':
         return 'Conectando…';
+      case 'sync_compare_close':
+        return 'Fechar';
       default:
         return null;
     }
@@ -108828,7 +108896,8 @@ extension on _StringsRu {
       case 'sync_compare_applied':
         return ({required Object count}) => 'Применено изменений: ${count}';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Применить (${count})';
+        return ({required Object count}) =>
+            'Синхронизировать сейчас (${count})';
       case 'sync_auto_sync':
         return 'Автосинхронизация';
       case 'sync_auto_complete':
@@ -110346,6 +110415,8 @@ extension on _StringsRu {
         return 'Очистить всю историю предложений с карточками?';
       case 'update_connecting':
         return 'Подключение…';
+      case 'sync_compare_close':
+        return 'Закрыть';
       default:
         return null;
     }
@@ -112466,7 +112537,7 @@ extension on _StringsTh {
       case 'sync_compare_applied':
         return ({required Object count}) => 'ปรับใช้ ${count} รายการแล้ว';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'ปรับใช้ (${count})';
+        return ({required Object count}) => 'ซิงค์ตอนนี้ (${count})';
       case 'sync_auto_sync':
         return 'ซิงค์อัตโนมัติ';
       case 'sync_auto_complete':
@@ -113974,6 +114045,8 @@ extension on _StringsTh {
         return 'ล้างประวัติประโยคที่สร้างการ์ดทั้งหมด?';
       case 'update_connecting':
         return 'กำลังเชื่อมต่อแหล่งอัปเดต…';
+      case 'sync_compare_close':
+        return 'ปิด';
       default:
         return null;
     }
@@ -116097,7 +116170,7 @@ extension on _StringsTr {
       case 'sync_compare_applied':
         return ({required Object count}) => '${count} değişiklik uygulandı';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Uygula (${count})';
+        return ({required Object count}) => 'Şimdi eşitle (${count})';
       case 'sync_auto_sync':
         return 'Otomatik Eşitleme';
       case 'sync_auto_complete':
@@ -117612,6 +117685,8 @@ extension on _StringsTr {
         return 'Tüm kart çıkarılan cümle geçmişi temizlensin mi?';
       case 'update_connecting':
         return 'Bağlanılıyor…';
+      case 'sync_compare_close':
+        return 'Kapat';
       default:
         return null;
     }
@@ -119732,7 +119807,7 @@ extension on _StringsVi {
       case 'sync_compare_applied':
         return ({required Object count}) => 'Đã áp dụng ${count} thay đổi';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Áp dụng (${count})';
+        return ({required Object count}) => 'Đồng bộ ngay (${count})';
       case 'sync_auto_sync':
         return 'Tự động đồng bộ';
       case 'sync_auto_complete':
@@ -121244,6 +121319,8 @@ extension on _StringsVi {
         return 'Xóa toàn bộ lịch sử câu đã tạo thẻ?';
       case 'update_connecting':
         return 'Đang kết nối…';
+      case 'sync_compare_close':
+        return 'Đóng';
       default:
         return null;
     }
@@ -123351,7 +123428,7 @@ extension on _StringsZhCn {
       case 'sync_compare_applied':
         return ({required Object count}) => '已应用 ${count} 项更改';
       case 'sync_compare_apply':
-        return ({required Object count}) => '应用（${count}）';
+        return ({required Object count}) => '立即同步（${count}）';
       case 'sync_auto_sync':
         return '自动同步';
       case 'sync_auto_complete':
@@ -124847,6 +124924,8 @@ extension on _StringsZhCn {
         return '清空全部制卡历史？';
       case 'update_connecting':
         return '正在连接更新源…';
+      case 'sync_compare_close':
+        return '关闭';
       default:
         return null;
     }
@@ -126954,7 +127033,7 @@ extension on _StringsZhHk {
       case 'sync_compare_applied':
         return ({required Object count}) => '已套用 ${count} 項變更';
       case 'sync_compare_apply':
-        return ({required Object count}) => '套用（${count}）';
+        return ({required Object count}) => '立即同步（${count}）';
       case 'sync_auto_sync':
         return '自動同步';
       case 'sync_auto_complete':
@@ -128451,6 +128530,8 @@ extension on _StringsZhHk {
         return '清空全部製卡句記錄？';
       case 'update_connecting':
         return '正在連接更新來源…';
+      case 'sync_compare_close':
+        return '關閉';
       default:
         return null;
     }
