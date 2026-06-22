@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30107 (1771 per locale)
+/// Strings: 30175 (1775 per locale)
 ///
-/// Built on 2026-06-22 at 12:45 UTC
+/// Built on 2026-06-22 at 14:07 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2373,6 +2373,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get collection_mined_clear_confirm =>
       'Clear all mined-sentence history?';
   String get update_connecting => 'Connecting…';
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -6378,6 +6384,16 @@ class _StringsAr extends _StringsEn {
       'مسح كل سجل الجمل المُنشأة منها بطاقات؟';
   @override
   String get update_connecting => 'جارٍ الاتصال…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -10505,6 +10521,16 @@ class _StringsDe extends _StringsEn {
       'Gesamten Verlauf erstellter Sätze löschen?';
   @override
   String get update_connecting => 'Verbinde…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -14650,6 +14676,16 @@ class _StringsEs extends _StringsEn {
       '¿Borrar todo el historial de frases para tarjetas?';
   @override
   String get update_connecting => 'Conectando…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -18814,6 +18850,16 @@ class _StringsFr extends _StringsEn {
       'Effacer tout l\'historique des phrases utilisées pour les cartes ?';
   @override
   String get update_connecting => 'Connexion…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -22879,6 +22925,16 @@ class _StringsId extends _StringsEn {
       'Kosongkan semua riwayat kalimat yang dibuat kartu?';
   @override
   String get update_connecting => 'Menghubungkan…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -27006,6 +27062,16 @@ class _StringsIt extends _StringsEn {
       'Cancellare tutta la cronologia delle frasi usate per le carte?';
   @override
   String get update_connecting => 'Connessione…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -30861,6 +30927,16 @@ class _StringsJa extends _StringsEn {
   String get collection_mined_clear_confirm => 'カード作成した文の履歴をすべて消去しますか？';
   @override
   String get update_connecting => '更新元に接続中…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -34721,6 +34797,16 @@ class _StringsKo extends _StringsEn {
   String get collection_mined_clear_confirm => '마이닝한 문장 기록을 모두 지울까요?';
   @override
   String get update_connecting => '연결 중…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -38815,6 +38901,16 @@ class _StringsNl extends _StringsEn {
       'Alle geschiedenis van gemaakte zinnen wissen?';
   @override
   String get update_connecting => 'Verbinden…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -42933,6 +43029,16 @@ class _StringsPtBr extends _StringsEn {
       'Limpar todo o histórico de frases usadas em cartões?';
   @override
   String get update_connecting => 'Conectando…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -47023,6 +47129,16 @@ class _StringsRu extends _StringsEn {
       'Очистить всю историю предложений с карточками?';
   @override
   String get update_connecting => 'Подключение…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -51028,6 +51144,16 @@ class _StringsTh extends _StringsEn {
       'ล้างประวัติประโยคที่สร้างการ์ดทั้งหมด?';
   @override
   String get update_connecting => 'กำลังเชื่อมต่อแหล่งอัปเดต…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -55089,6 +55215,16 @@ class _StringsTr extends _StringsEn {
       'Tüm kart çıkarılan cümle geçmişi temizlensin mi?';
   @override
   String get update_connecting => 'Bağlanılıyor…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -59124,6 +59260,16 @@ class _StringsVi extends _StringsEn {
       'Xóa toàn bộ lịch sử câu đã tạo thẻ?';
   @override
   String get update_connecting => 'Đang kết nối…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -62885,6 +63031,15 @@ class _StringsZhCn extends _StringsEn {
   String get collection_mined_clear_confirm => '清空全部制卡历史？';
   @override
   String get update_connecting => '正在连接更新源…';
+  @override
+  String get video_subtitle_auto_align => '自动对轴';
+  @override
+  String get video_subtitle_auto_align_running => '正在自动对轴…';
+  @override
+  String get video_subtitle_auto_align_low_confidence => '无法可靠自动对轴（未找到明显的语音匹配）';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      '已自动对轴 ${ms} ms';
 }
 
 // Path: retrying_in
@@ -66648,6 +66803,16 @@ class _StringsZhHk extends _StringsEn {
   String get collection_mined_clear_confirm => '清空全部製卡句記錄？';
   @override
   String get update_connecting => '正在連接更新來源…';
+  @override
+  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  @override
+  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  @override
+  String get video_subtitle_auto_align_low_confidence =>
+      'Couldn\'t confidently auto-align (no clear voice match)';
+  @override
+  String video_subtitle_auto_align_done({required Object ms}) =>
+      'Auto-aligned subtitle by ${ms} ms';
 }
 
 // Path: retrying_in
@@ -70317,6 +70482,14 @@ extension on _StringsEn {
         return 'Clear all mined-sentence history?';
       case 'update_connecting':
         return 'Connecting…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -73945,6 +74118,14 @@ extension on _StringsAr {
         return 'مسح كل سجل الجمل المُنشأة منها بطاقات؟';
       case 'update_connecting':
         return 'جارٍ الاتصال…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -77595,6 +77776,14 @@ extension on _StringsDe {
         return 'Gesamten Verlauf erstellter Sätze löschen?';
       case 'update_connecting':
         return 'Verbinde…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -81244,6 +81433,14 @@ extension on _StringsEs {
         return '¿Borrar todo el historial de frases para tarjetas?';
       case 'update_connecting':
         return 'Conectando…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -84899,6 +85096,14 @@ extension on _StringsFr {
         return 'Effacer tout l\'historique des phrases utilisées pour les cartes ?';
       case 'update_connecting':
         return 'Connexion…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -88534,6 +88739,14 @@ extension on _StringsId {
         return 'Kosongkan semua riwayat kalimat yang dibuat kartu?';
       case 'update_connecting':
         return 'Menghubungkan…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -92187,6 +92400,14 @@ extension on _StringsIt {
         return 'Cancellare tutta la cronologia delle frasi usate per le carte?';
       case 'update_connecting':
         return 'Connessione…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -95798,6 +96019,14 @@ extension on _StringsJa {
         return 'カード作成した文の履歴をすべて消去しますか？';
       case 'update_connecting':
         return '更新元に接続中…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -99412,6 +99641,14 @@ extension on _StringsKo {
         return '마이닝한 문장 기록을 모두 지울까요?';
       case 'update_connecting':
         return '연결 중…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -103057,6 +103294,14 @@ extension on _StringsNl {
         return 'Alle geschiedenis van gemaakte zinnen wissen?';
       case 'update_connecting':
         return 'Verbinden…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -106700,6 +106945,14 @@ extension on _StringsPtBr {
         return 'Limpar todo o histórico de frases usadas em cartões?';
       case 'update_connecting':
         return 'Conectando…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -110346,6 +110599,14 @@ extension on _StringsRu {
         return 'Очистить всю историю предложений с карточками?';
       case 'update_connecting':
         return 'Подключение…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -113974,6 +114235,14 @@ extension on _StringsTh {
         return 'ล้างประวัติประโยคที่สร้างการ์ดทั้งหมด?';
       case 'update_connecting':
         return 'กำลังเชื่อมต่อแหล่งอัปเดต…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -117612,6 +117881,14 @@ extension on _StringsTr {
         return 'Tüm kart çıkarılan cümle geçmişi temizlensin mi?';
       case 'update_connecting':
         return 'Bağlanılıyor…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -121244,6 +121521,14 @@ extension on _StringsVi {
         return 'Xóa toàn bộ lịch sử câu đã tạo thẻ?';
       case 'update_connecting':
         return 'Đang kết nối…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
@@ -124847,6 +125132,14 @@ extension on _StringsZhCn {
         return '清空全部制卡历史？';
       case 'update_connecting':
         return '正在连接更新源…';
+      case 'video_subtitle_auto_align':
+        return '自动对轴';
+      case 'video_subtitle_auto_align_running':
+        return '正在自动对轴…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return '无法可靠自动对轴（未找到明显的语音匹配）';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => '已自动对轴 ${ms} ms';
       default:
         return null;
     }
@@ -128451,6 +128744,14 @@ extension on _StringsZhHk {
         return '清空全部製卡句記錄？';
       case 'update_connecting':
         return '正在連接更新來源…';
+      case 'video_subtitle_auto_align':
+        return 'Auto-align subtitle';
+      case 'video_subtitle_auto_align_running':
+        return 'Auto-aligning subtitle…';
+      case 'video_subtitle_auto_align_low_confidence':
+        return 'Couldn\'t confidently auto-align (no clear voice match)';
+      case 'video_subtitle_auto_align_done':
+        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
       default:
         return null;
     }
