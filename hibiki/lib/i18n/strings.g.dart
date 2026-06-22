@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30175 (1775 per locale)
+/// Strings: 30209 (1777 per locale)
 ///
-/// Built on 2026-06-22 at 14:07 UTC
+/// Built on 2026-06-22 at 15:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2379,6 +2379,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Couldn\'t confidently auto-align (no clear voice match)';
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -6394,6 +6397,11 @@ class _StringsAr extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -10531,6 +10539,11 @@ class _StringsDe extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -14686,6 +14699,11 @@ class _StringsEs extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -18860,6 +18878,11 @@ class _StringsFr extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -22935,6 +22958,11 @@ class _StringsId extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -27072,6 +27100,11 @@ class _StringsIt extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -30937,6 +30970,11 @@ class _StringsJa extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -34807,6 +34845,11 @@ class _StringsKo extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -38911,6 +38954,11 @@ class _StringsNl extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -43039,6 +43087,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -47139,6 +47192,11 @@ class _StringsRu extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -51154,6 +51212,11 @@ class _StringsTh extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -55225,6 +55288,11 @@ class _StringsTr extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -59270,6 +59338,11 @@ class _StringsVi extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -63040,6 +63113,11 @@ class _StringsZhCn extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       '已自动对轴 ${ms} ms';
+  @override
+  String get audiobook_background_play => '退出后继续播放';
+  @override
+  String get audiobook_background_play_hint =>
+      '关闭时，退出阅读页即停止有声书播放；开启后退出仍在后台继续播放。';
 }
 
 // Path: retrying_in
@@ -66813,6 +66891,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
       'Auto-aligned subtitle by ${ms} ms';
+  @override
+  String get audiobook_background_play => 'Keep playing after exit';
+  @override
+  String get audiobook_background_play_hint =>
+      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
 }
 
 // Path: retrying_in
@@ -70490,6 +70573,10 @@ extension on _StringsEn {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -74126,6 +74213,10 @@ extension on _StringsAr {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -77784,6 +77875,10 @@ extension on _StringsDe {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -81441,6 +81536,10 @@ extension on _StringsEs {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -85104,6 +85203,10 @@ extension on _StringsFr {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -88747,6 +88850,10 @@ extension on _StringsId {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -92408,6 +92515,10 @@ extension on _StringsIt {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -96027,6 +96138,10 @@ extension on _StringsJa {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -99649,6 +99764,10 @@ extension on _StringsKo {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -103302,6 +103421,10 @@ extension on _StringsNl {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -106953,6 +107076,10 @@ extension on _StringsPtBr {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -110607,6 +110734,10 @@ extension on _StringsRu {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -114243,6 +114374,10 @@ extension on _StringsTh {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -117889,6 +118024,10 @@ extension on _StringsTr {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -121529,6 +121668,10 @@ extension on _StringsVi {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
@@ -125140,6 +125283,10 @@ extension on _StringsZhCn {
         return '无法可靠自动对轴（未找到明显的语音匹配）';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => '已自动对轴 ${ms} ms';
+      case 'audiobook_background_play':
+        return '退出后继续播放';
+      case 'audiobook_background_play_hint':
+        return '关闭时，退出阅读页即停止有声书播放；开启后退出仍在后台继续播放。';
       default:
         return null;
     }
@@ -128752,6 +128899,10 @@ extension on _StringsZhHk {
         return 'Couldn\'t confidently auto-align (no clear voice match)';
       case 'video_subtitle_auto_align_done':
         return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+      case 'audiobook_background_play':
+        return 'Keep playing after exit';
+      case 'audiobook_background_play_hint':
+        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
       default:
         return null;
     }
