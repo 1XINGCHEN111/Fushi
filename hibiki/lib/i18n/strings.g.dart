@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30498 (1794 per locale)
+/// Strings: 30532 (1796 per locale)
 ///
-/// Built on 2026-06-23 at 12:08 UTC
+/// Built on 2026-06-23 at 13:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2404,6 +2404,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -6464,6 +6467,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -10646,6 +10654,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -14846,6 +14859,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -19065,6 +19083,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -23185,6 +23208,11 @@ class _StringsId extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -27367,6 +27395,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -31276,6 +31309,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -35190,6 +35228,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -39339,6 +39382,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -43512,6 +43560,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -47657,6 +47710,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -51717,6 +51775,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -55833,6 +55896,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -59923,6 +59991,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -63733,6 +63806,10 @@ class _StringsZhCn extends _StringsEn {
   String get anki_error_http => '无法导出到 Anki：连接 AnkiConnect 时发生 HTTP 错误。';
   @override
   String get anki_error_connection_unknown => '无法导出到 Anki：发生未知的连接错误。详情见错误日志。';
+  @override
+  String get compress_mining_media => '压缩制卡媒体';
+  @override
+  String get compress_mining_media_hint => '关闭后媒体更清晰但体积更大；Android 句子音频本就无损不受影响';
 }
 
 // Path: retrying_in
@@ -67550,6 +67627,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get anki_error_connection_unknown =>
       'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  @override
+  String get compress_mining_media => 'Compress card media';
+  @override
+  String get compress_mining_media_hint =>
+      'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
 }
 
 // Path: retrying_in
@@ -71265,6 +71347,10 @@ extension on _StringsEn {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -74939,6 +75025,10 @@ extension on _StringsAr {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -78635,6 +78725,10 @@ extension on _StringsDe {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -82330,6 +82424,10 @@ extension on _StringsEs {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -86032,6 +86130,10 @@ extension on _StringsFr {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -89713,6 +89815,10 @@ extension on _StringsId {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -93412,6 +93518,10 @@ extension on _StringsIt {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -97069,6 +97179,10 @@ extension on _StringsJa {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -100729,6 +100843,10 @@ extension on _StringsKo {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -104420,6 +104538,10 @@ extension on _StringsNl {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -108109,6 +108231,10 @@ extension on _StringsPtBr {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -111802,6 +111928,10 @@ extension on _StringsRu {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -115476,6 +115606,10 @@ extension on _StringsTh {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -119160,6 +119294,10 @@ extension on _StringsTr {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -122838,6 +122976,10 @@ extension on _StringsVi {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
@@ -126487,6 +126629,10 @@ extension on _StringsZhCn {
         return '无法导出到 Anki：连接 AnkiConnect 时发生 HTTP 错误。';
       case 'anki_error_connection_unknown':
         return '无法导出到 Anki：发生未知的连接错误。详情见错误日志。';
+      case 'compress_mining_media':
+        return '压缩制卡媒体';
+      case 'compress_mining_media_hint':
+        return '关闭后媒体更清晰但体积更大；Android 句子音频本就无损不受影响';
       default:
         return null;
     }
@@ -130137,6 +130283,10 @@ extension on _StringsZhHk {
         return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
       case 'anki_error_connection_unknown':
         return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      case 'compress_mining_media':
+        return 'Compress card media';
+      case 'compress_mining_media_hint':
+        return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       default:
         return null;
     }
