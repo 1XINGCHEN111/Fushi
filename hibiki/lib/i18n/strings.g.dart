@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 30226 (1778 per locale)
 ///
-/// Built on 2026-06-22 at 16:00 UTC
+/// Built on 2026-06-23 at 03:20 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1970,7 +1970,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_shader_tier_high_hint =>
       'Anime4K HQ. Sharper; best for animation, also usable on live-action (smaller gain). Needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32. Best quality for HD animation; also usable on live-action (smaller gain). Needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
+      'ArtCNN C4F32 DS (denoise + sharpen). Best quality for HD animation and tuned for web-encoded sources (removes compression artifacts, light sharpening); also usable on live-action (smaller gain). Needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
   String get video_shader_tier_custom_hint =>
       'Custom shader selection. Pick a tier above to switch to a preset.';
   String get video_shader_section_advanced => 'Advanced (manual shaders)';
@@ -62508,7 +62508,7 @@ class _StringsZhCn extends _StringsEn {
       'Anime4K HQ。更锐利，对动画效果最佳，真人内容也可用（提升较小）。需要中高端 GPU（N卡 RTX 4060 / RTX 3070，A卡 RX 6700 XT / RX 7700 XT）。';
   @override
   String get video_shader_tier_ultra_hint =>
-      'ArtCNN C4F32，HD 动画最佳画质，真人内容也可用（提升较小）。需要旗舰 GPU（N卡 RTX 4080 / RTX 5090，A卡 RX 7900 XTX）。显卡较弱请往低档选。';
+      'ArtCNN C4F32 DS（去噪+锐化变体），HD 动画最佳画质，并针对 web 压制源调优（去压缩伪影、轻锐化）；真人内容也可用（提升较小）。需要旗舰 GPU（N卡 RTX 4080 / RTX 5090，A卡 RX 7900 XTX）。显卡较弱请往低档选。';
   @override
   String get video_shader_tier_custom_hint => '自定义着色器组合。点上方档位可切回预设。';
   @override
@@ -70000,7 +70000,7 @@ extension on _StringsEn {
       case 'video_shader_tier_high_hint':
         return 'Anime4K HQ. Sharper; best for animation, also usable on live-action (smaller gain). Needs an upper-mid GPU (NVIDIA RTX 4060 / RTX 3070, AMD RX 6700 XT / RX 7700 XT).';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32. Best quality for HD animation; also usable on live-action (smaller gain). Needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
+        return 'ArtCNN C4F32 DS (denoise + sharpen). Best quality for HD animation and tuned for web-encoded sources (removes compression artifacts, light sharpening); also usable on live-action (smaller gain). Needs a flagship GPU (NVIDIA RTX 4080 / RTX 5090, AMD RX 7900 XTX). Pick a lower tier if your GPU is weaker.';
       case 'video_shader_tier_custom_hint':
         return 'Custom shader selection. Pick a tier above to switch to a preset.';
       case 'video_shader_section_advanced':
@@ -124745,7 +124745,7 @@ extension on _StringsZhCn {
       case 'video_shader_tier_high_hint':
         return 'Anime4K HQ。更锐利，对动画效果最佳，真人内容也可用（提升较小）。需要中高端 GPU（N卡 RTX 4060 / RTX 3070，A卡 RX 6700 XT / RX 7700 XT）。';
       case 'video_shader_tier_ultra_hint':
-        return 'ArtCNN C4F32，HD 动画最佳画质，真人内容也可用（提升较小）。需要旗舰 GPU（N卡 RTX 4080 / RTX 5090，A卡 RX 7900 XTX）。显卡较弱请往低档选。';
+        return 'ArtCNN C4F32 DS（去噪+锐化变体），HD 动画最佳画质，并针对 web 压制源调优（去压缩伪影、轻锐化）；真人内容也可用（提升较小）。需要旗舰 GPU（N卡 RTX 4080 / RTX 5090，A卡 RX 7900 XTX）。显卡较弱请往低档选。';
       case 'video_shader_tier_custom_hint':
         return '自定义着色器组合。点上方档位可切回预设。';
       case 'video_shader_section_advanced':
