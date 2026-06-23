@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30243 (1779 per locale)
+/// Strings: 30294 (1782 per locale)
 ///
-/// Built on 2026-06-23 at 04:00 UTC
+/// Built on 2026-06-23 at 06:32 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2384,6 +2384,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
   String get sync_compare_close => 'Close';
   String get show_top_progress_bar => 'Reading progress indicator';
+  String get update_cancel => 'Cancel';
+  String get update_cancelling => 'Cancelling…';
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -6409,6 +6412,12 @@ class _StringsAr extends _StringsEn {
   String get sync_compare_close => 'إغلاق';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -10556,6 +10565,12 @@ class _StringsDe extends _StringsEn {
   String get sync_compare_close => 'Schließen';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -14721,6 +14736,12 @@ class _StringsEs extends _StringsEn {
   String get sync_compare_close => 'Cerrar';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -18905,6 +18926,12 @@ class _StringsFr extends _StringsEn {
   String get sync_compare_close => 'Fermer';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -22990,6 +23017,12 @@ class _StringsId extends _StringsEn {
   String get sync_compare_close => 'Tutup';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -27137,6 +27170,12 @@ class _StringsIt extends _StringsEn {
   String get sync_compare_close => 'Chiudi';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -31011,6 +31050,12 @@ class _StringsJa extends _StringsEn {
   String get sync_compare_close => '閉じる';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -34890,6 +34935,12 @@ class _StringsKo extends _StringsEn {
   String get sync_compare_close => '닫기';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -39004,6 +39055,12 @@ class _StringsNl extends _StringsEn {
   String get sync_compare_close => 'Sluiten';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -43142,6 +43199,12 @@ class _StringsPtBr extends _StringsEn {
   String get sync_compare_close => 'Fechar';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -47252,6 +47315,12 @@ class _StringsRu extends _StringsEn {
   String get sync_compare_close => 'Закрыть';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -51277,6 +51346,12 @@ class _StringsTh extends _StringsEn {
   String get sync_compare_close => 'ปิด';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -55358,6 +55433,12 @@ class _StringsTr extends _StringsEn {
   String get sync_compare_close => 'Kapat';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -59413,6 +59494,12 @@ class _StringsVi extends _StringsEn {
   String get sync_compare_close => 'Đóng';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => 'Cancel';
+  @override
+  String get update_cancelling => 'Cancelling…';
+  @override
+  String get update_cancelled => 'Download cancelled';
 }
 
 // Path: retrying_in
@@ -63192,6 +63279,12 @@ class _StringsZhCn extends _StringsEn {
   String get sync_compare_close => '关闭';
   @override
   String get show_top_progress_bar => '顶部阅读进度';
+  @override
+  String get update_cancel => '取消';
+  @override
+  String get update_cancelling => '正在取消…';
+  @override
+  String get update_cancelled => '已取消下载';
 }
 
 // Path: retrying_in
@@ -66974,6 +67067,12 @@ class _StringsZhHk extends _StringsEn {
   String get sync_compare_close => '關閉';
   @override
   String get show_top_progress_bar => 'Reading progress indicator';
+  @override
+  String get update_cancel => '取消';
+  @override
+  String get update_cancelling => '正在取消…';
+  @override
+  String get update_cancelled => '已取消下載';
 }
 
 // Path: retrying_in
@@ -70659,6 +70758,12 @@ extension on _StringsEn {
         return 'Close';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -74303,6 +74408,12 @@ extension on _StringsAr {
         return 'إغلاق';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -77969,6 +78080,12 @@ extension on _StringsDe {
         return 'Schließen';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -81634,6 +81751,12 @@ extension on _StringsEs {
         return 'Cerrar';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -85306,6 +85429,12 @@ extension on _StringsFr {
         return 'Fermer';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -88957,6 +89086,12 @@ extension on _StringsId {
         return 'Tutup';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -92626,6 +92761,12 @@ extension on _StringsIt {
         return 'Chiudi';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -96253,6 +96394,12 @@ extension on _StringsJa {
         return '閉じる';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -99883,6 +100030,12 @@ extension on _StringsKo {
         return '닫기';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -103544,6 +103697,12 @@ extension on _StringsNl {
         return 'Sluiten';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -107203,6 +107362,12 @@ extension on _StringsPtBr {
         return 'Fechar';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -110866,6 +111031,12 @@ extension on _StringsRu {
         return 'Закрыть';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -114510,6 +114681,12 @@ extension on _StringsTh {
         return 'ปิด';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -118164,6 +118341,12 @@ extension on _StringsTr {
         return 'Kapat';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -121812,6 +121995,12 @@ extension on _StringsVi {
         return 'Đóng';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return 'Cancel';
+      case 'update_cancelling':
+        return 'Cancelling…';
+      case 'update_cancelled':
+        return 'Download cancelled';
       default:
         return null;
     }
@@ -125431,6 +125620,12 @@ extension on _StringsZhCn {
         return '关闭';
       case 'show_top_progress_bar':
         return '顶部阅读进度';
+      case 'update_cancel':
+        return '取消';
+      case 'update_cancelling':
+        return '正在取消…';
+      case 'update_cancelled':
+        return '已取消下载';
       default:
         return null;
     }
@@ -129051,6 +129246,12 @@ extension on _StringsZhHk {
         return '關閉';
       case 'show_top_progress_bar':
         return 'Reading progress indicator';
+      case 'update_cancel':
+        return '取消';
+      case 'update_cancelling':
+        return '正在取消…';
+      case 'update_cancelled':
+        return '已取消下載';
       default:
         return null;
     }
