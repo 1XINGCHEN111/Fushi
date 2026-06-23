@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30583 (1799 per locale)
+/// Strings: 30651 (1803 per locale)
 ///
-/// Built on 2026-06-23 at 16:08 UTC
+/// Built on 2026-06-23 at 18:06 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2411,6 +2411,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get hover_auto_lookup => 'Look up on hover';
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  String get remote_book_info => 'Info';
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_video_info => 'Info';
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -6483,6 +6487,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -10677,6 +10689,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -14889,6 +14909,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -19120,6 +19148,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -23252,6 +23288,14 @@ class _StringsId extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -27446,6 +27490,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -31367,6 +31419,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -35293,6 +35353,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -39454,6 +39522,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -43639,6 +43715,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -47796,6 +47880,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -51868,6 +51960,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -55996,6 +56096,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -60098,6 +60206,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -63918,6 +64034,14 @@ class _StringsZhCn extends _StringsEn {
   String get hover_auto_lookup => '悬停即查词';
   @override
   String get hover_auto_lookup_hint => '鼠标悬停在文字上即自动查词，无需按住 Shift。仅桌面端。';
+  @override
+  String get remote_book_info => '信息';
+  @override
+  String get remote_book_info_has_audiobook => '包含有声书';
+  @override
+  String get remote_video_info => '信息';
+  @override
+  String get remote_video_info_has_subtitle => '包含字幕';
 }
 
 // Path: retrying_in
@@ -67747,6 +67871,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get hover_auto_lookup_hint =>
       'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  @override
+  String get remote_book_info => 'Info';
+  @override
+  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  @override
+  String get remote_video_info => 'Info';
+  @override
+  String get remote_video_info_has_subtitle => 'Includes subtitles';
 }
 
 // Path: retrying_in
@@ -71472,6 +71604,14 @@ extension on _StringsEn {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -75156,6 +75296,14 @@ extension on _StringsAr {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -78862,6 +79010,14 @@ extension on _StringsDe {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -82567,6 +82723,14 @@ extension on _StringsEs {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -86279,6 +86443,14 @@ extension on _StringsFr {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -89970,6 +90142,14 @@ extension on _StringsId {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -93679,6 +93859,14 @@ extension on _StringsIt {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -97346,6 +97534,14 @@ extension on _StringsJa {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -101016,6 +101212,14 @@ extension on _StringsKo {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -104717,6 +104921,14 @@ extension on _StringsNl {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -108416,6 +108628,14 @@ extension on _StringsPtBr {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -112119,6 +112339,14 @@ extension on _StringsRu {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -115803,6 +116031,14 @@ extension on _StringsTh {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -119497,6 +119733,14 @@ extension on _StringsTr {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -123185,6 +123429,14 @@ extension on _StringsVi {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
@@ -126844,6 +127096,14 @@ extension on _StringsZhCn {
         return '悬停即查词';
       case 'hover_auto_lookup_hint':
         return '鼠标悬停在文字上即自动查词，无需按住 Shift。仅桌面端。';
+      case 'remote_book_info':
+        return '信息';
+      case 'remote_book_info_has_audiobook':
+        return '包含有声书';
+      case 'remote_video_info':
+        return '信息';
+      case 'remote_video_info_has_subtitle':
+        return '包含字幕';
       default:
         return null;
     }
@@ -130504,6 +130764,14 @@ extension on _StringsZhHk {
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
         return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      case 'remote_book_info':
+        return 'Info';
+      case 'remote_book_info_has_audiobook':
+        return 'Includes audiobook';
+      case 'remote_video_info':
+        return 'Info';
+      case 'remote_video_info_has_subtitle':
+        return 'Includes subtitles';
       default:
         return null;
     }
