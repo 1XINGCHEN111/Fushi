@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30396 (1788 per locale)
+/// Strings: 30413 (1789 per locale)
 ///
-/// Built on 2026-06-23 at 07:41 UTC
+/// Built on 2026-06-23 at 10:18 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2393,6 +2393,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get shortcut_action_dpad_left => 'D-pad Left';
   String get shortcut_action_dpad_right => 'D-pad Right';
   String get shortcut_scope_gamepad => 'Gamepad';
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -6436,6 +6437,8 @@ class _StringsAr extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -10601,6 +10604,8 @@ class _StringsDe extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -14784,6 +14789,8 @@ class _StringsEs extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -18986,6 +18993,8 @@ class _StringsFr extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -23089,6 +23098,8 @@ class _StringsId extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -27254,6 +27265,8 @@ class _StringsIt extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -31146,6 +31159,8 @@ class _StringsJa extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -35043,6 +35058,8 @@ class _StringsKo extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -39175,6 +39192,8 @@ class _StringsNl extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -43331,6 +43350,8 @@ class _StringsPtBr extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -47459,6 +47480,8 @@ class _StringsRu extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -51502,6 +51525,8 @@ class _StringsTh extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -55601,6 +55626,8 @@ class _StringsTr extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -59674,6 +59701,8 @@ class _StringsVi extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -63471,6 +63500,8 @@ class _StringsZhCn extends _StringsEn {
   String get shortcut_action_dpad_right => '方向键 右';
   @override
   String get shortcut_scope_gamepad => '手柄';
+  @override
+  String get section_page_turn_direction => '翻页方向';
 }
 
 // Path: retrying_in
@@ -67271,6 +67302,8 @@ class _StringsZhHk extends _StringsEn {
   String get shortcut_action_dpad_right => 'D-pad Right';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
+  @override
+  String get section_page_turn_direction => 'Page-turn direction';
 }
 
 // Path: retrying_in
@@ -70974,6 +71007,8 @@ extension on _StringsEn {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -74636,6 +74671,8 @@ extension on _StringsAr {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -78320,6 +78357,8 @@ extension on _StringsDe {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -82003,6 +82042,8 @@ extension on _StringsEs {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -85693,6 +85734,8 @@ extension on _StringsFr {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -89362,6 +89405,8 @@ extension on _StringsId {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -93049,6 +93094,8 @@ extension on _StringsIt {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -96694,6 +96741,8 @@ extension on _StringsJa {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -100342,6 +100391,8 @@ extension on _StringsKo {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -104021,6 +104072,8 @@ extension on _StringsNl {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -107698,6 +107751,8 @@ extension on _StringsPtBr {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -111379,6 +111434,8 @@ extension on _StringsRu {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -115041,6 +115098,8 @@ extension on _StringsTh {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -118713,6 +118772,8 @@ extension on _StringsTr {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -122379,6 +122440,8 @@ extension on _StringsVi {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
@@ -126016,6 +126079,8 @@ extension on _StringsZhCn {
         return '方向键 右';
       case 'shortcut_scope_gamepad':
         return '手柄';
+      case 'section_page_turn_direction':
+        return '翻页方向';
       default:
         return null;
     }
@@ -129654,6 +129719,8 @@ extension on _StringsZhHk {
         return 'D-pad Right';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
+      case 'section_page_turn_direction':
+        return 'Page-turn direction';
       default:
         return null;
     }
