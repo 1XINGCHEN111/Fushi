@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30430 (1790 per locale)
+/// Strings: 30498 (1794 per locale)
 ///
-/// Built on 2026-06-23 at 11:29 UTC
+/// Built on 2026-06-23 at 12:08 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2396,6 +2396,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get section_page_turn_direction => 'Page-turn direction';
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -6444,6 +6452,18 @@ class _StringsAr extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -10614,6 +10634,18 @@ class _StringsDe extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -14802,6 +14834,18 @@ class _StringsEs extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -19009,6 +19053,18 @@ class _StringsFr extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -23117,6 +23173,18 @@ class _StringsId extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -27287,6 +27355,18 @@ class _StringsIt extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -31184,6 +31264,18 @@ class _StringsJa extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -35086,6 +35178,18 @@ class _StringsKo extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -39223,6 +39327,18 @@ class _StringsNl extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -43384,6 +43500,18 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -47517,6 +47645,18 @@ class _StringsRu extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -51565,6 +51705,18 @@ class _StringsTh extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -55669,6 +55821,18 @@ class _StringsTr extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -59747,6 +59911,18 @@ class _StringsVi extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -63548,6 +63724,15 @@ class _StringsZhCn extends _StringsEn {
   String get section_page_turn_direction => '翻页方向';
   @override
   String get remote_book_audiobook_download_failed => '无法下载这本书的有声书';
+  @override
+  String get anki_error_connection_refused =>
+      '无法连接 Anki：连接被拒绝。请确认 Anki 桌面版正在运行，且已安装 AnkiConnect 插件。';
+  @override
+  String get anki_error_connection_timeout => '无法连接 Anki：连接超时。请检查主机、端口和防火墙设置。';
+  @override
+  String get anki_error_http => '无法导出到 Anki：连接 AnkiConnect 时发生 HTTP 错误。';
+  @override
+  String get anki_error_connection_unknown => '无法导出到 Anki：发生未知的连接错误。详情见错误日志。';
 }
 
 // Path: retrying_in
@@ -67353,6 +67538,18 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get remote_book_audiobook_download_failed =>
       'Could not download audiobook for this book';
+  @override
+  String get anki_error_connection_refused =>
+      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+  @override
+  String get anki_error_connection_timeout =>
+      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  @override
+  String get anki_error_http =>
+      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  @override
+  String get anki_error_connection_unknown =>
+      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
 }
 
 // Path: retrying_in
@@ -71060,6 +71257,14 @@ extension on _StringsEn {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -74726,6 +74931,14 @@ extension on _StringsAr {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -78414,6 +78627,14 @@ extension on _StringsDe {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -82101,6 +82322,14 @@ extension on _StringsEs {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -85795,6 +86024,14 @@ extension on _StringsFr {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -89468,6 +89705,14 @@ extension on _StringsId {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -93159,6 +93404,14 @@ extension on _StringsIt {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -96808,6 +97061,14 @@ extension on _StringsJa {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -100460,6 +100721,14 @@ extension on _StringsKo {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -104143,6 +104412,14 @@ extension on _StringsNl {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -107824,6 +108101,14 @@ extension on _StringsPtBr {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -111509,6 +111794,14 @@ extension on _StringsRu {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -115175,6 +115468,14 @@ extension on _StringsTh {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -118851,6 +119152,14 @@ extension on _StringsTr {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -122521,6 +122830,14 @@ extension on _StringsVi {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
@@ -126162,6 +126479,14 @@ extension on _StringsZhCn {
         return '翻页方向';
       case 'remote_book_audiobook_download_failed':
         return '无法下载这本书的有声书';
+      case 'anki_error_connection_refused':
+        return '无法连接 Anki：连接被拒绝。请确认 Anki 桌面版正在运行，且已安装 AnkiConnect 插件。';
+      case 'anki_error_connection_timeout':
+        return '无法连接 Anki：连接超时。请检查主机、端口和防火墙设置。';
+      case 'anki_error_http':
+        return '无法导出到 Anki：连接 AnkiConnect 时发生 HTTP 错误。';
+      case 'anki_error_connection_unknown':
+        return '无法导出到 Anki：发生未知的连接错误。详情见错误日志。';
       default:
         return null;
     }
@@ -129804,6 +130129,14 @@ extension on _StringsZhHk {
         return 'Page-turn direction';
       case 'remote_book_audiobook_download_failed':
         return 'Could not download audiobook for this book';
+      case 'anki_error_connection_refused':
+        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      case 'anki_error_connection_timeout':
+        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      case 'anki_error_http':
+        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      case 'anki_error_connection_unknown':
+        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
       default:
         return null;
     }
