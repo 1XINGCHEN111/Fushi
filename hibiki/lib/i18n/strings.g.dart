@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30294 (1782 per locale)
+/// Strings: 30396 (1788 per locale)
 ///
-/// Built on 2026-06-23 at 06:32 UTC
+/// Built on 2026-06-23 at 07:41 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2387,6 +2387,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get update_cancel => 'Cancel';
   String get update_cancelling => 'Cancelling…';
   String get update_cancelled => 'Download cancelled';
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -6418,6 +6424,18 @@ class _StringsAr extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -10571,6 +10589,18 @@ class _StringsDe extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -14742,6 +14772,18 @@ class _StringsEs extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -18932,6 +18974,18 @@ class _StringsFr extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -23023,6 +23077,18 @@ class _StringsId extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -27176,6 +27242,18 @@ class _StringsIt extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -31056,6 +31134,18 @@ class _StringsJa extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -34941,6 +35031,18 @@ class _StringsKo extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -39061,6 +39163,18 @@ class _StringsNl extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -43205,6 +43319,18 @@ class _StringsPtBr extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -47321,6 +47447,18 @@ class _StringsRu extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -51352,6 +51490,18 @@ class _StringsTh extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -55439,6 +55589,18 @@ class _StringsTr extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -59500,6 +59662,18 @@ class _StringsVi extends _StringsEn {
   String get update_cancelling => 'Cancelling…';
   @override
   String get update_cancelled => 'Download cancelled';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -63285,6 +63459,18 @@ class _StringsZhCn extends _StringsEn {
   String get update_cancelling => '正在取消…';
   @override
   String get update_cancelled => '已取消下载';
+  @override
+  String get shortcut_action_reader_enter_caret => '进入选字查词光标';
+  @override
+  String get shortcut_action_dpad_up => '方向键 上';
+  @override
+  String get shortcut_action_dpad_down => '方向键 下';
+  @override
+  String get shortcut_action_dpad_left => '方向键 左';
+  @override
+  String get shortcut_action_dpad_right => '方向键 右';
+  @override
+  String get shortcut_scope_gamepad => '手柄';
 }
 
 // Path: retrying_in
@@ -67073,6 +67259,18 @@ class _StringsZhHk extends _StringsEn {
   String get update_cancelling => '正在取消…';
   @override
   String get update_cancelled => '已取消下載';
+  @override
+  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  @override
+  String get shortcut_action_dpad_up => 'D-pad Up';
+  @override
+  String get shortcut_action_dpad_down => 'D-pad Down';
+  @override
+  String get shortcut_action_dpad_left => 'D-pad Left';
+  @override
+  String get shortcut_action_dpad_right => 'D-pad Right';
+  @override
+  String get shortcut_scope_gamepad => 'Gamepad';
 }
 
 // Path: retrying_in
@@ -70764,6 +70962,18 @@ extension on _StringsEn {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -74414,6 +74624,18 @@ extension on _StringsAr {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -78086,6 +78308,18 @@ extension on _StringsDe {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -81757,6 +81991,18 @@ extension on _StringsEs {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -85435,6 +85681,18 @@ extension on _StringsFr {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -89092,6 +89350,18 @@ extension on _StringsId {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -92767,6 +93037,18 @@ extension on _StringsIt {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -96400,6 +96682,18 @@ extension on _StringsJa {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -100036,6 +100330,18 @@ extension on _StringsKo {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -103703,6 +104009,18 @@ extension on _StringsNl {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -107368,6 +107686,18 @@ extension on _StringsPtBr {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -111037,6 +111367,18 @@ extension on _StringsRu {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -114687,6 +115029,18 @@ extension on _StringsTh {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -118347,6 +118701,18 @@ extension on _StringsTr {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -122001,6 +122367,18 @@ extension on _StringsVi {
         return 'Cancelling…';
       case 'update_cancelled':
         return 'Download cancelled';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
@@ -125626,6 +126004,18 @@ extension on _StringsZhCn {
         return '正在取消…';
       case 'update_cancelled':
         return '已取消下载';
+      case 'shortcut_action_reader_enter_caret':
+        return '进入选字查词光标';
+      case 'shortcut_action_dpad_up':
+        return '方向键 上';
+      case 'shortcut_action_dpad_down':
+        return '方向键 下';
+      case 'shortcut_action_dpad_left':
+        return '方向键 左';
+      case 'shortcut_action_dpad_right':
+        return '方向键 右';
+      case 'shortcut_scope_gamepad':
+        return '手柄';
       default:
         return null;
     }
@@ -129252,6 +129642,18 @@ extension on _StringsZhHk {
         return '正在取消…';
       case 'update_cancelled':
         return '已取消下載';
+      case 'shortcut_action_reader_enter_caret':
+        return 'Enter lookup cursor';
+      case 'shortcut_action_dpad_up':
+        return 'D-pad Up';
+      case 'shortcut_action_dpad_down':
+        return 'D-pad Down';
+      case 'shortcut_action_dpad_left':
+        return 'D-pad Left';
+      case 'shortcut_action_dpad_right':
+        return 'D-pad Right';
+      case 'shortcut_scope_gamepad':
+        return 'Gamepad';
       default:
         return null;
     }
