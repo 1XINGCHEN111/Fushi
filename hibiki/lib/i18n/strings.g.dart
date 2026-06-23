@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30413 (1789 per locale)
+/// Strings: 30430 (1790 per locale)
 ///
-/// Built on 2026-06-23 at 10:18 UTC
+/// Built on 2026-06-23 at 11:29 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2394,6 +2394,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get shortcut_action_dpad_right => 'D-pad Right';
   String get shortcut_scope_gamepad => 'Gamepad';
   String get section_page_turn_direction => 'Page-turn direction';
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -6439,6 +6441,9 @@ class _StringsAr extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -10606,6 +10611,9 @@ class _StringsDe extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -14791,6 +14799,9 @@ class _StringsEs extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -18995,6 +19006,9 @@ class _StringsFr extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -23100,6 +23114,9 @@ class _StringsId extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -27267,6 +27284,9 @@ class _StringsIt extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -31161,6 +31181,9 @@ class _StringsJa extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -35060,6 +35083,9 @@ class _StringsKo extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -39194,6 +39220,9 @@ class _StringsNl extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -43352,6 +43381,9 @@ class _StringsPtBr extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -47482,6 +47514,9 @@ class _StringsRu extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -51527,6 +51562,9 @@ class _StringsTh extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -55628,6 +55666,9 @@ class _StringsTr extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -59703,6 +59744,9 @@ class _StringsVi extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -63502,6 +63546,8 @@ class _StringsZhCn extends _StringsEn {
   String get shortcut_scope_gamepad => '手柄';
   @override
   String get section_page_turn_direction => '翻页方向';
+  @override
+  String get remote_book_audiobook_download_failed => '无法下载这本书的有声书';
 }
 
 // Path: retrying_in
@@ -67304,6 +67350,9 @@ class _StringsZhHk extends _StringsEn {
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
   String get section_page_turn_direction => 'Page-turn direction';
+  @override
+  String get remote_book_audiobook_download_failed =>
+      'Could not download audiobook for this book';
 }
 
 // Path: retrying_in
@@ -71009,6 +71058,8 @@ extension on _StringsEn {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -74673,6 +74724,8 @@ extension on _StringsAr {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -78359,6 +78412,8 @@ extension on _StringsDe {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -82044,6 +82099,8 @@ extension on _StringsEs {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -85736,6 +85793,8 @@ extension on _StringsFr {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -89407,6 +89466,8 @@ extension on _StringsId {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -93096,6 +93157,8 @@ extension on _StringsIt {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -96743,6 +96806,8 @@ extension on _StringsJa {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -100393,6 +100458,8 @@ extension on _StringsKo {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -104074,6 +104141,8 @@ extension on _StringsNl {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -107753,6 +107822,8 @@ extension on _StringsPtBr {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -111436,6 +111507,8 @@ extension on _StringsRu {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -115100,6 +115173,8 @@ extension on _StringsTh {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -118774,6 +118849,8 @@ extension on _StringsTr {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -122442,6 +122519,8 @@ extension on _StringsVi {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
@@ -126081,6 +126160,8 @@ extension on _StringsZhCn {
         return '手柄';
       case 'section_page_turn_direction':
         return '翻页方向';
+      case 'remote_book_audiobook_download_failed':
+        return '无法下载这本书的有声书';
       default:
         return null;
     }
@@ -129721,6 +129802,8 @@ extension on _StringsZhHk {
         return 'Gamepad';
       case 'section_page_turn_direction':
         return 'Page-turn direction';
+      case 'remote_book_audiobook_download_failed':
+        return 'Could not download audiobook for this book';
       default:
         return null;
     }
