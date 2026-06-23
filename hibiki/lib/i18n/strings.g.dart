@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30549 (1797 per locale)
+/// Strings: 30583 (1799 per locale)
 ///
-/// Built on 2026-06-23 at 15:24 UTC
+/// Built on 2026-06-23 at 16:08 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2408,6 +2408,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   String get log_copy_all => 'Copy All';
+  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -6475,6 +6478,11 @@ class _StringsAr extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -10664,6 +10672,11 @@ class _StringsDe extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -14871,6 +14884,11 @@ class _StringsEs extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -19097,6 +19115,11 @@ class _StringsFr extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -23224,6 +23247,11 @@ class _StringsId extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -27413,6 +27441,11 @@ class _StringsIt extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -31329,6 +31362,11 @@ class _StringsJa extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -35250,6 +35288,11 @@ class _StringsKo extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -39406,6 +39449,11 @@ class _StringsNl extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -43586,6 +43634,11 @@ class _StringsPtBr extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -47738,6 +47791,11 @@ class _StringsRu extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -51805,6 +51863,11 @@ class _StringsTh extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -55928,6 +55991,11 @@ class _StringsTr extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -60025,6 +60093,11 @@ class _StringsVi extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -63841,6 +63914,10 @@ class _StringsZhCn extends _StringsEn {
   String get compress_mining_media_hint => '关闭后媒体更清晰但体积更大；Android 句子音频本就无损不受影响';
   @override
   String get log_copy_all => '复制全部';
+  @override
+  String get hover_auto_lookup => '悬停即查词';
+  @override
+  String get hover_auto_lookup_hint => '鼠标悬停在文字上即自动查词，无需按住 Shift。仅桌面端。';
 }
 
 // Path: retrying_in
@@ -67665,6 +67742,11 @@ class _StringsZhHk extends _StringsEn {
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
   @override
   String get log_copy_all => 'Copy All';
+  @override
+  String get hover_auto_lookup => 'Look up on hover';
+  @override
+  String get hover_auto_lookup_hint =>
+      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
 }
 
 // Path: retrying_in
@@ -71386,6 +71468,10 @@ extension on _StringsEn {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -75066,6 +75152,10 @@ extension on _StringsAr {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -78768,6 +78858,10 @@ extension on _StringsDe {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -82469,6 +82563,10 @@ extension on _StringsEs {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -86177,6 +86275,10 @@ extension on _StringsFr {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -89864,6 +89966,10 @@ extension on _StringsId {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -93569,6 +93675,10 @@ extension on _StringsIt {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -97232,6 +97342,10 @@ extension on _StringsJa {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -100898,6 +101012,10 @@ extension on _StringsKo {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -104595,6 +104713,10 @@ extension on _StringsNl {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -108290,6 +108412,10 @@ extension on _StringsPtBr {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -111989,6 +112115,10 @@ extension on _StringsRu {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -115669,6 +115799,10 @@ extension on _StringsTh {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -119359,6 +119493,10 @@ extension on _StringsTr {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -123043,6 +123181,10 @@ extension on _StringsVi {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
@@ -126698,6 +126840,10 @@ extension on _StringsZhCn {
         return '关闭后媒体更清晰但体积更大；Android 句子音频本就无损不受影响';
       case 'log_copy_all':
         return '复制全部';
+      case 'hover_auto_lookup':
+        return '悬停即查词';
+      case 'hover_auto_lookup_hint':
+        return '鼠标悬停在文字上即自动查词，无需按住 Shift。仅桌面端。';
       default:
         return null;
     }
@@ -130354,6 +130500,10 @@ extension on _StringsZhHk {
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
       case 'log_copy_all':
         return 'Copy All';
+      case 'hover_auto_lookup':
+        return 'Look up on hover';
+      case 'hover_auto_lookup_hint':
+        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
       default:
         return null;
     }
