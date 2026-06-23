@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30532 (1796 per locale)
+/// Strings: 30549 (1797 per locale)
 ///
-/// Built on 2026-06-23 at 13:02 UTC
+/// Built on 2026-06-23 at 15:24 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2407,6 +2407,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get compress_mining_media => 'Compress card media';
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -6472,6 +6473,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -10659,6 +10662,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -14864,6 +14869,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -19088,6 +19095,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -23213,6 +23222,8 @@ class _StringsId extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -27400,6 +27411,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -31314,6 +31327,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -35233,6 +35248,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -39387,6 +39404,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -43565,6 +43584,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -47715,6 +47736,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -51780,6 +51803,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -55901,6 +55926,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -59996,6 +60023,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -63810,6 +63839,8 @@ class _StringsZhCn extends _StringsEn {
   String get compress_mining_media => '压缩制卡媒体';
   @override
   String get compress_mining_media_hint => '关闭后媒体更清晰但体积更大；Android 句子音频本就无损不受影响';
+  @override
+  String get log_copy_all => '复制全部';
 }
 
 // Path: retrying_in
@@ -67632,6 +67663,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get compress_mining_media_hint =>
       'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+  @override
+  String get log_copy_all => 'Copy All';
 }
 
 // Path: retrying_in
@@ -71351,6 +71384,8 @@ extension on _StringsEn {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -75029,6 +75064,8 @@ extension on _StringsAr {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -78729,6 +78766,8 @@ extension on _StringsDe {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -82428,6 +82467,8 @@ extension on _StringsEs {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -86134,6 +86175,8 @@ extension on _StringsFr {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -89819,6 +89862,8 @@ extension on _StringsId {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -93522,6 +93567,8 @@ extension on _StringsIt {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -97183,6 +97230,8 @@ extension on _StringsJa {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -100847,6 +100896,8 @@ extension on _StringsKo {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -104542,6 +104593,8 @@ extension on _StringsNl {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -108235,6 +108288,8 @@ extension on _StringsPtBr {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -111932,6 +111987,8 @@ extension on _StringsRu {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -115610,6 +115667,8 @@ extension on _StringsTh {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -119298,6 +119357,8 @@ extension on _StringsTr {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -122980,6 +123041,8 @@ extension on _StringsVi {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
@@ -126633,6 +126696,8 @@ extension on _StringsZhCn {
         return '压缩制卡媒体';
       case 'compress_mining_media_hint':
         return '关闭后媒体更清晰但体积更大；Android 句子音频本就无损不受影响';
+      case 'log_copy_all':
+        return '复制全部';
       default:
         return null;
     }
@@ -130287,6 +130352,8 @@ extension on _StringsZhHk {
         return 'Compress card media';
       case 'compress_mining_media_hint':
         return 'Off keeps card media sharper but larger; Android sentence audio is always lossless and unaffected';
+      case 'log_copy_all':
+        return 'Copy All';
       default:
         return null;
     }
