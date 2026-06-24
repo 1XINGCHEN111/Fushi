@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 30719 (1807 per locale)
 ///
-/// Built on 2026-06-24 at 16:57 UTC
+/// Built on 2026-06-24 at 18:51 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6429,90 +6429,91 @@ class _StringsAr extends _StringsEn {
   @override
   String get update_connecting => 'جارٍ الاتصال…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'محاذاة الترجمة تلقائيًا';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running =>
+      'جارٍ محاذاة الترجمة تلقائيًا…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'تعذّرت المحاذاة التلقائية بثقة (لا يوجد تطابق صوتي واضح)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'تمت محاذاة الترجمة تلقائيًا بمقدار ${ms} مللي ثانية';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => 'متابعة التشغيل بعد الخروج';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'عند الإيقاف، يتوقف تشغيل الكتاب الصوتي عند مغادرة القارئ. فعّله لمتابعة التشغيل في الخلفية.';
   @override
   String get sync_compare_close => 'إغلاق';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'مؤشر تقدّم القراءة';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'إلغاء';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'جارٍ الإلغاء…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'تم إلغاء التنزيل';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => 'الدخول إلى مؤشر البحث';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'أزرار الاتجاهات للأعلى';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'أزرار الاتجاهات للأسفل';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'أزرار الاتجاهات لليسار';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'أزرار الاتجاهات لليمين';
   @override
-  String get shortcut_scope_gamepad => 'Gamepad';
+  String get shortcut_scope_gamepad => 'لوحة الألعاب';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'اتجاه قلب الصفحة';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'تعذّر تنزيل الكتاب الصوتي لهذا الكتاب';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'تعذّر الاتصال بـ Anki: تم رفض الاتصال. تأكد من تشغيل Anki Desktop وتثبيت الإضافة AnkiConnect.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'تعذّر الاتصال بـ Anki: انتهت مهلة الاتصال. تحقق من المضيف والمنفذ وإعدادات الجدار الناري.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'تعذّر التصدير إلى Anki: حدث خطأ HTTP أثناء الاتصال بـ AnkiConnect.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'تعذّر التصدير إلى Anki: حدث خطأ اتصال غير متوقع. راجع سجل الأخطاء لمزيد من التفاصيل.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'ضغط وسائط البطاقات';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'إيقافه يبقي وسائط البطاقات أوضح لكن أكبر حجمًا';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'نسخ الكل';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'البحث عند التمرير';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'البحث تلقائيًا عند تمرير مؤشر الماوس فوق حرف؛ دون الحاجة إلى الضغط على Shift. لأجهزة سطح المكتب فقط.';
   @override
-  String get remote_book_info => 'Info';
+  String get remote_book_info => 'معلومات';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'يتضمّن كتابًا صوتيًا';
   @override
-  String get remote_video_info => 'Info';
+  String get remote_video_info => 'معلومات';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'يتضمّن ترجمات';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'القواميس في كل صف';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'عرض عدة قواميس جنبًا إلى جنب؛ استخدم أعمدة أقل على الشاشات الضيقة';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'تم تصدير البطاقة، لكن فشل تنزيل الصوت (${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'تم إنشاء البطاقة بدون صوت الجملة (لم يُعثر على صوت لهذا التحديد).';
 }
 
 // Path: retrying_in
@@ -9602,7 +9603,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_setting_mpv_high_quality => 'Hochwertige Skalierung';
   @override
-  String get video_setting_mpv_deband => 'Debanding';
+  String get video_setting_mpv_deband => 'Entbänderung';
   @override
   String get video_setting_mpv_dither => 'Dithering';
   @override
@@ -10642,90 +10643,92 @@ class _StringsDe extends _StringsEn {
   @override
   String get update_connecting => 'Verbinde…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'Untertitel automatisch ausrichten';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running =>
+      'Untertitel werden automatisch ausgerichtet…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'Automatische Ausrichtung nicht sicher möglich (keine eindeutige Sprachübereinstimmung)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'Untertitel automatisch um ${ms} ms ausgerichtet';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => 'Nach Verlassen weiterspielen';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'Wenn deaktiviert, stoppt das Hörbuch beim Verlassen des Lesers. Aktiviere die Option, um im Hintergrund weiterzuspielen.';
   @override
   String get sync_compare_close => 'Schließen';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'Lesefortschritt-Anzeige';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'Abbrechen';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'Wird abgebrochen…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'Download abgebrochen';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret =>
+      'Nachschlage-Cursor aktivieren';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'D-pad oben';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'D-pad unten';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'D-pad links';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'D-pad rechts';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'Blätterrichtung';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'Hörbuch für dieses Buch konnte nicht heruntergeladen werden';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'Verbindung zu Anki fehlgeschlagen: Verbindung abgelehnt. Stelle sicher, dass Anki Desktop läuft und das AnkiConnect-Add-on installiert ist.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'Verbindung zu Anki fehlgeschlagen: Zeitüberschreitung. Prüfe Host, Port und Firewall-Einstellungen.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'Export zu Anki fehlgeschlagen: beim Verbinden mit AnkiConnect ist ein HTTP-Fehler aufgetreten.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'Export zu Anki fehlgeschlagen: ein unerwarteter Verbindungsfehler ist aufgetreten. Einzelheiten im Fehlerprotokoll.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'Kartenmedien komprimieren';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'Deaktiviert bleiben Kartenmedien schärfer, aber größer';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'Alles kopieren';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'Beim Überfahren nachschlagen';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'Automatisch nachschlagen, wenn die Maus über ein Zeichen fährt; ohne Shift zu halten. Nur Desktop.';
   @override
   String get remote_book_info => 'Info';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'Enthält Hörbuch';
   @override
   String get remote_video_info => 'Info';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'Enthält Untertitel';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'Wörterbücher pro Zeile';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'Mehrere Wörterbücher nebeneinander anzeigen; auf schmalen Bildschirmen weniger Spalten verwenden';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'Karte exportiert, aber das Audio konnte nicht heruntergeladen werden (${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'Karte ohne Satz-Audio erstellt (keines für diese Auswahl gefunden).';
 }
 
 // Path: retrying_in
@@ -13085,7 +13088,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get update_channel_stable => 'Estable';
   @override
-  String get anki_connect_host => 'Host';
+  String get anki_connect_host => 'Servidor';
   @override
   String get anki_connect_port => 'Puerto';
   @override
@@ -13259,7 +13262,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_connection_failed => 'Error de conexión';
   @override
-  String get sync_host => 'Host';
+  String get sync_host => 'Servidor';
   @override
   String get sync_port => 'Puerto';
   @override
@@ -13984,7 +13987,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_rename_hint => 'Título';
   @override
-  String video_playlist_episodes({required Object count}) => '${count} eps';
+  String video_playlist_episodes({required Object count}) => '${count} ep.';
   @override
   String get video_audio_track => 'Pista de audio';
   @override
@@ -14873,90 +14876,90 @@ class _StringsEs extends _StringsEn {
   @override
   String get update_connecting => 'Conectando…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'Alinear subtítulos';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running => 'Alineando subtítulos…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'No se pudo alinear con fiabilidad (sin coincidencia de voz clara)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'Subtítulos alineados ${ms} ms';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => 'Seguir tras salir';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'Si está desactivado, el audiolibro se detiene al salir del lector. Actívalo para seguir en segundo plano.';
   @override
   String get sync_compare_close => 'Cerrar';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'Indicador de progreso';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'Cancelar';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'Cancelando…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'Descarga cancelada';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => 'Activar cursor de búsqueda';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'Cruceta Arriba';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'Cruceta Abajo';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'Cruceta Izquierda';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'Cruceta Derecha';
   @override
-  String get shortcut_scope_gamepad => 'Gamepad';
+  String get shortcut_scope_gamepad => 'Mando';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'Dirección de paso de página';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'No se pudo descargar el audiolibro de este libro';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'No se pudo conectar con Anki: conexión rechazada. Asegúrate de que Anki Desktop esté abierto y el complemento AnkiConnect instalado.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'No se pudo conectar con Anki: se agotó el tiempo de espera. Revisa el servidor, el puerto y el cortafuegos.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'No se pudo exportar a Anki: ocurrió un error HTTP al contactar con AnkiConnect.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'No se pudo exportar a Anki: error de conexión inesperado. Consulta el registro de errores.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'Comprimir medios de tarjetas';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'Desactivado mantiene los medios más nítidos pero más grandes';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'Copiar todo';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'Buscar al pasar el cursor';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'Busca automáticamente al pasar el ratón sobre un carácter; sin mantener Mayús. Solo en escritorio.';
   @override
-  String get remote_book_info => 'Info';
+  String get remote_book_info => 'Información';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'Incluye audiolibro';
   @override
-  String get remote_video_info => 'Info';
+  String get remote_video_info => 'Información';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'Incluye subtítulos';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'Diccionarios por fila';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'Muestra varios diccionarios en paralelo; usa menos columnas en pantallas estrechas';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'Tarjeta exportada, pero falló la descarga del audio (${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'Tarjeta creada sin audio de frase (no se encontró para esta selección).';
 }
 
 // Path: retrying_in
@@ -19123,90 +19126,91 @@ class _StringsFr extends _StringsEn {
   @override
   String get update_connecting => 'Connexion…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'Aligner les sous-titres';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running => 'Alignement des sous-titres…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'Alignement automatique peu fiable (aucune correspondance vocale claire)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'Sous-titres alignés de ${ms} ms';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => 'Continuer après la sortie';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'Désactivé, le livre audio s\'arrête quand vous quittez le lecteur. Activez-le pour continuer en arrière-plan.';
   @override
   String get sync_compare_close => 'Fermer';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'Indicateur de progression';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'Annuler';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'Annulation…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'Téléchargement annulé';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret =>
+      'Activer le curseur de recherche';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'Croix directionnelle Haut';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'Croix directionnelle Bas';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'Croix directionnelle Gauche';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'Croix directionnelle Droite';
   @override
-  String get shortcut_scope_gamepad => 'Gamepad';
+  String get shortcut_scope_gamepad => 'Manette';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'Sens de tournage des pages';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'Impossible de télécharger le livre audio pour ce livre';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'Connexion à Anki impossible : connexion refusée. Vérifiez qu\'Anki Desktop est lancé et que le module AnkiConnect est installé.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'Connexion à Anki impossible : délai dépassé. Vérifiez l\'hôte, le port et le pare-feu.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'Export vers Anki impossible : une erreur HTTP est survenue lors de la communication avec AnkiConnect.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'Export vers Anki impossible : une erreur de connexion inattendue est survenue. Consultez le journal d\'erreurs.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'Compresser les médias des cartes';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'Désactivé, les médias restent plus nets mais plus volumineux';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'Tout copier';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'Rechercher au survol';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'Recherche automatique lorsque la souris survole un caractère ; pas besoin de maintenir Maj. Bureau uniquement.';
   @override
-  String get remote_book_info => 'Info';
+  String get remote_book_info => 'Infos';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'Livre audio inclus';
   @override
-  String get remote_video_info => 'Info';
+  String get remote_video_info => 'Infos';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'Sous-titres inclus';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'Dictionnaires par ligne';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'Afficher plusieurs dictionnaires côte à côte ; réduisez les colonnes sur écrans étroits';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'Carte exportée, mais le téléchargement de l\'audio a échoué (${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'Carte créée sans audio de phrase (aucun trouvé pour cette sélection).';
 }
 
 // Path: retrying_in
@@ -23274,90 +23278,91 @@ class _StringsId extends _StringsEn {
   @override
   String get update_connecting => 'Menghubungkan…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'Sejajarkan subtitle otomatis';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running =>
+      'Menyejajarkan subtitle otomatis…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'Tidak dapat menyejajarkan otomatis dengan yakin (tidak ada kecocokan suara yang jelas)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'Subtitle disejajarkan otomatis sebesar ${ms} ms';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => 'Terus putar setelah keluar';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'Saat nonaktif, pemutaran buku audio berhenti ketika Anda meninggalkan pembaca. Aktifkan untuk terus memutar di latar belakang.';
   @override
   String get sync_compare_close => 'Tutup';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'Indikator progres baca';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'Batal';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'Membatalkan…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'Unduhan dibatalkan';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => 'Masuk kursor pencarian';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'D-pad Atas';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'D-pad Bawah';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'D-pad Kiri';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'D-pad Kanan';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'Arah ganti halaman';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'Tidak dapat mengunduh buku audio untuk buku ini';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'Tidak dapat terhubung ke Anki: koneksi ditolak. Pastikan Anki Desktop sedang berjalan dan add-on AnkiConnect sudah terpasang.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'Tidak dapat terhubung ke Anki: koneksi habis waktu. Periksa host, port, dan pengaturan firewall.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'Tidak dapat mengekspor ke Anki: terjadi kesalahan HTTP saat menghubungi AnkiConnect.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'Tidak dapat mengekspor ke Anki: terjadi kesalahan koneksi yang tidak terduga. Lihat log kesalahan untuk detailnya.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'Kompres media kartu';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'Jika nonaktif, media kartu lebih tajam tetapi lebih besar';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'Salin Semua';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'Cari saat hover';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'Cari otomatis saat mouse diarahkan ke sebuah karakter; tidak perlu menahan Shift. Hanya desktop.';
   @override
   String get remote_book_info => 'Info';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'Termasuk buku audio';
   @override
   String get remote_video_info => 'Info';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'Termasuk subtitle';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'Kamus per baris';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'Tampilkan beberapa kamus berdampingan; gunakan lebih sedikit kolom pada layar sempit';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'Kartu diekspor, tetapi audio gagal diunduh (${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'Kartu dibuat tanpa audio kalimat (tidak ditemukan untuk pilihan ini).';
 }
 
 // Path: retrying_in
@@ -25186,7 +25191,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get reader_theme_light => 'Bianco';
   @override
-  String get reader_theme_ecru => 'Ecru';
+  String get reader_theme_ecru => 'Écru';
   @override
   String get reader_theme_water => 'Azzurro';
   @override
@@ -27487,90 +27492,90 @@ class _StringsIt extends _StringsEn {
   @override
   String get update_connecting => 'Connessione…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'Allinea sottotitoli';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running => 'Allineamento sottotitoli…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'Allineamento automatico poco affidabile (nessuna corrispondenza vocale chiara)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'Sottotitoli allineati di ${ms} ms';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => 'Continua dopo l\'uscita';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'Se disattivato, l\'audiolibro si ferma quando esci dal lettore. Attivalo per continuare in background.';
   @override
   String get sync_compare_close => 'Chiudi';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'Indicatore di avanzamento';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'Annulla';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'Annullamento…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'Download annullato';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => 'Attiva cursore di ricerca';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'D-pad Su';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'D-pad Giù';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'D-pad Sinistra';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'D-pad Destra';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'Direzione di scorrimento pagine';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'Impossibile scaricare l\'audiolibro di questo libro';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'Impossibile connettersi ad Anki: connessione rifiutata. Assicurati che Anki Desktop sia in esecuzione e il componente AnkiConnect sia installato.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'Impossibile connettersi ad Anki: connessione scaduta. Controlla host, porta e firewall.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'Impossibile esportare in Anki: errore HTTP durante la connessione ad AnkiConnect.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'Impossibile esportare in Anki: errore di connessione imprevisto. Vedi il log degli errori.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'Comprimi media delle carte';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'Disattivato mantiene i media più nitidi ma più pesanti';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'Copia tutto';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'Cerca al passaggio';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'Cerca automaticamente al passaggio del mouse su un carattere; senza tenere Maiusc. Solo desktop.';
   @override
   String get remote_book_info => 'Info';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'Include audiolibro';
   @override
   String get remote_video_info => 'Info';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'Include sottotitoli';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'Dizionari per riga';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'Mostra più dizionari affiancati; usa meno colonne su schermi stretti';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'Carta esportata, ma il download dell\'audio non è riuscito (${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'Carta creata senza audio della frase (nessuno trovato per questa selezione).';
 }
 
 // Path: retrying_in
@@ -31427,90 +31432,89 @@ class _StringsJa extends _StringsEn {
   @override
   String get update_connecting => '更新元に接続中…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => '字幕を自動同期';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running => '字幕を自動同期中…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      '自動同期できませんでした（明確な音声の一致が見つかりません）';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      '字幕を ${ms} ms 自動同期しました';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => '終了後も再生を続ける';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'オフのときはリーダーを離れるとオーディオブックの再生が停止します。オンにするとバックグラウンドで再生を続けます。';
   @override
   String get sync_compare_close => '閉じる';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => '上部の読書進捗バー';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'キャンセル';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'キャンセル中…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'ダウンロードをキャンセルしました';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => '辞書引きカーソルに入る';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => '十字キー 上';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => '十字キー 下';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => '十字キー 左';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => '十字キー 右';
   @override
-  String get shortcut_scope_gamepad => 'Gamepad';
+  String get shortcut_scope_gamepad => 'ゲームパッド';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'ページめくり方向';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'この本のオーディオブックをダウンロードできませんでした';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'Anki に接続できません：接続が拒否されました。Anki デスクトップ版が起動していて、AnkiConnect アドオンがインストールされているか確認してください。';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'Anki に接続できません：接続がタイムアウトしました。ホスト・ポート・ファイアウォールの設定を確認してください。';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'Anki に書き出せません：AnkiConnect への接続中に HTTP エラーが発生しました。';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'Anki に書き出せません：予期しない接続エラーが発生しました。詳細はエラーログを確認してください。';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'カードのメディアを圧縮';
   @override
-  String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+  String get compress_mining_media_hint => 'オフにするとメディアはより鮮明ですが容量が大きくなります';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'すべてコピー';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'ホバーで辞書を引く';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'マウスを文字に重ねると自動で辞書を引きます。Shift を押す必要はありません。デスクトップのみ。';
   @override
-  String get remote_book_info => 'Info';
+  String get remote_book_info => '情報';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'オーディオブックを含む';
   @override
-  String get remote_video_info => 'Info';
+  String get remote_video_info => '情報';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => '字幕を含む';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => '1 行あたりの辞書数';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      '複数の辞書を横並びで表示します。画面が狭い場合は列数を減らしてください';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'カードを書き出しましたが、音声のダウンロードに失敗しました（${reason}）。';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'カードを作成しましたが、今回の選択範囲では例文の音声が見つかりませんでした。';
 }
 
 // Path: retrying_in
@@ -35372,90 +35376,88 @@ class _StringsKo extends _StringsEn {
   @override
   String get update_connecting => '연결 중…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => '자막 자동 정렬';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running => '자막 자동 정렬 중…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      '자동 정렬할 수 없습니다(명확한 음성 일치를 찾지 못함)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      '자막을 ${ms} ms 자동 정렬했습니다';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => '종료 후에도 계속 재생';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      '꺼져 있으면 리더를 떠날 때 오디오북 재생이 멈춥니다. 켜면 백그라운드에서 계속 재생합니다.';
   @override
   String get sync_compare_close => '닫기';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => '상단 읽기 진행률 표시줄';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => '취소';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => '취소 중…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => '다운로드를 취소했습니다';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => '사전 찾기 커서 진입';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => '방향키 위';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => '방향키 아래';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => '방향키 왼쪽';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => '방향키 오른쪽';
   @override
-  String get shortcut_scope_gamepad => 'Gamepad';
+  String get shortcut_scope_gamepad => '게임패드';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => '페이지 넘김 방향';
   @override
-  String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+  String get remote_book_audiobook_download_failed => '이 책의 오디오북을 다운로드할 수 없습니다';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'Anki에 연결할 수 없습니다: 연결이 거부되었습니다. Anki 데스크톱이 실행 중이고 AnkiConnect 애드온이 설치되어 있는지 확인하세요.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'Anki에 연결할 수 없습니다: 연결 시간이 초과되었습니다. 호스트, 포트, 방화벽 설정을 확인하세요.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'Anki로 내보낼 수 없습니다: AnkiConnect에 연결하는 중 HTTP 오류가 발생했습니다.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'Anki로 내보낼 수 없습니다: 알 수 없는 연결 오류가 발생했습니다. 자세한 내용은 오류 로그를 확인하세요.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => '카드 미디어 압축';
   @override
-  String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+  String get compress_mining_media_hint => '끄면 미디어가 더 선명하지만 용량이 커집니다';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => '모두 복사';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => '마우스를 올리면 사전 찾기';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      '마우스를 글자 위에 올리면 자동으로 사전을 찾습니다. Shift를 누를 필요가 없습니다. 데스크톱 전용.';
   @override
-  String get remote_book_info => 'Info';
+  String get remote_book_info => '정보';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => '오디오북 포함';
   @override
-  String get remote_video_info => 'Info';
+  String get remote_video_info => '정보';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => '자막 포함';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => '한 줄당 사전 수';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      '여러 사전을 나란히 표시합니다. 화면이 좁으면 열 수를 줄이세요';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      '카드를 내보냈지만 오디오 다운로드에 실패했습니다(${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      '카드를 만들었지만 이번 선택 범위에서 문장 오디오를 찾지 못했습니다.';
 }
 
 // Path: retrying_in
@@ -39552,90 +39554,91 @@ class _StringsNl extends _StringsEn {
   @override
   String get update_connecting => 'Verbinden…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'Ondertitel automatisch uitlijnen';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running =>
+      'Ondertitel automatisch uitlijnen…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'Kon niet betrouwbaar automatisch uitlijnen (geen duidelijke stemovereenkomst)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'Ondertitel automatisch uitgelijnd met ${ms} ms';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => 'Blijven afspelen na afsluiten';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'Indien uit, stopt het luisterboek wanneer je de lezer verlaat. Schakel in om op de achtergrond door te spelen.';
   @override
   String get sync_compare_close => 'Sluiten';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'Leesvoortgangsindicator';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'Annuleren';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'Bezig met annuleren…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'Download geannuleerd';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => 'Opzoekcursor activeren';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'D-pad omhoog';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'D-pad omlaag';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'D-pad links';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'D-pad rechts';
   @override
   String get shortcut_scope_gamepad => 'Gamepad';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'Bladerrichting';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'Kon het luisterboek voor dit boek niet downloaden';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'Kon geen verbinding maken met Anki: verbinding geweigerd. Controleer of Anki Desktop draait en de AnkiConnect-add-on is geïnstalleerd.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'Kon geen verbinding maken met Anki: time-out van de verbinding. Controleer de host, poort en firewallinstellingen.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'Kon niet exporteren naar Anki: er is een HTTP-fout opgetreden tijdens het contact met AnkiConnect.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'Kon niet exporteren naar Anki: er is een onverwachte verbindingsfout opgetreden. Zie het foutenlogboek voor details.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'Kaartmedia comprimeren';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'Uit houdt kaartmedia scherper maar groter';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'Alles kopiëren';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'Opzoeken bij hover';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'Automatisch opzoeken wanneer de muis over een teken zweeft; zonder Shift in te drukken. Alleen desktop.';
   @override
   String get remote_book_info => 'Info';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'Bevat luisterboek';
   @override
   String get remote_video_info => 'Info';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'Bevat ondertitels';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'Woordenboeken per rij';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'Meerdere woordenboeken naast elkaar tonen; gebruik minder kolommen op smalle schermen';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'Kaart geëxporteerd, maar de audio kon niet worden gedownload (${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'Kaart aangemaakt zonder zinsaudio (geen gevonden voor deze selectie).';
 }
 
 // Path: retrying_in
@@ -43756,90 +43759,90 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get update_connecting => 'Conectando…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'Alinhar legenda';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running => 'Alinhando legenda…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'Não foi possível alinhar com confiança (sem correspondência de voz clara)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'Legenda alinhada em ${ms} ms';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => 'Continuar após sair';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'Quando desativado, o audiolivro para ao sair do leitor. Ative para continuar em segundo plano.';
   @override
   String get sync_compare_close => 'Fechar';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'Indicador de progresso';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'Cancelar';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'Cancelando…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'Download cancelado';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => 'Ativar cursor de pesquisa';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'Direcional Cima';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'Direcional Baixo';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'Direcional Esquerda';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'Direcional Direita';
   @override
-  String get shortcut_scope_gamepad => 'Gamepad';
+  String get shortcut_scope_gamepad => 'Controle';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'Direção de virada de página';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'Não foi possível baixar o audiolivro deste livro';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'Não foi possível conectar ao Anki: conexão recusada. Verifique se o Anki Desktop está aberto e o complemento AnkiConnect instalado.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'Não foi possível conectar ao Anki: tempo limite esgotado. Verifique o host, a porta e o firewall.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'Não foi possível exportar para o Anki: ocorreu um erro HTTP ao contatar o AnkiConnect.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'Não foi possível exportar para o Anki: erro de conexão inesperado. Consulte o log de erros.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'Comprimir mídia dos cartões';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'Desativado mantém a mídia mais nítida, porém maior';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'Copiar tudo';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'Pesquisar ao passar o cursor';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'Pesquisa automaticamente ao passar o mouse sobre um caractere; sem segurar Shift. Apenas no desktop.';
   @override
-  String get remote_book_info => 'Info';
+  String get remote_book_info => 'Informações';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'Inclui audiolivro';
   @override
-  String get remote_video_info => 'Info';
+  String get remote_video_info => 'Informações';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'Inclui legendas';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'Dicionários por linha';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'Mostrar vários dicionários lado a lado; use menos colunas em telas estreitas';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'Cartão exportado, mas o download do áudio falhou (${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'Cartão criado sem áudio da frase (nenhum encontrado para esta seleção).';
 }
 
 // Path: retrying_in
@@ -47932,90 +47935,93 @@ class _StringsRu extends _StringsEn {
   @override
   String get update_connecting => 'Подключение…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'Авто-выравнивание субтитров';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running =>
+      'Авто-выравнивание субтитров…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'Не удалось уверенно авто-выровнять (нет чёткого совпадения голоса)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'Субтитры авто-выровнены на ${ms} мс';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play =>
+      'Продолжать воспроизведение после выхода';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'Когда выключено, воспроизведение аудиокниги останавливается при выходе из читалки. Включите, чтобы продолжать воспроизведение в фоне.';
   @override
   String get sync_compare_close => 'Закрыть';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'Индикатор прогресса чтения';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'Отмена';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'Отмена…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'Загрузка отменена';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret =>
+      'Войти в режим курсора поиска';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'Крестовина вверх';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'Крестовина вниз';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'Крестовина влево';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'Крестовина вправо';
   @override
-  String get shortcut_scope_gamepad => 'Gamepad';
+  String get shortcut_scope_gamepad => 'Геймпад';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'Направление перелистывания';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'Не удалось загрузить аудиокнигу для этой книги';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'Не удалось подключиться к Anki: соединение отклонено. Убедитесь, что Anki Desktop запущен и установлен аддон AnkiConnect.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'Не удалось подключиться к Anki: время ожидания соединения истекло. Проверьте хост, порт и настройки брандмауэра.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'Не удалось экспортировать в Anki: при обращении к AnkiConnect произошла ошибка HTTP.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'Не удалось экспортировать в Anki: произошла непредвиденная ошибка соединения. Подробности см. в журнале ошибок.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'Сжимать медиа карточек';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'При выключении медиа карточек чётче, но больше по размеру';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'Копировать всё';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'Поиск при наведении';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'Автоматический поиск слова при наведении курсора на символ; удерживать Shift не нужно. Только для ПК.';
   @override
-  String get remote_book_info => 'Info';
+  String get remote_book_info => 'Сведения';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'Включает аудиокнигу';
   @override
-  String get remote_video_info => 'Info';
+  String get remote_video_info => 'Сведения';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'Включает субтитры';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'Словарей в ряду';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'Показывать несколько словарей рядом; на узких экранах используйте меньше столбцов';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'Карточка экспортирована, но не удалось загрузить аудио (${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'Карточка создана без аудио предложения (для этого выделения ничего не найдено).';
 }
 
 // Path: retrying_in
@@ -52023,90 +52029,91 @@ class _StringsTh extends _StringsEn {
   @override
   String get update_connecting => 'กำลังเชื่อมต่อแหล่งอัปเดต…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'จัดแนวคำบรรยายอัตโนมัติ';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running =>
+      'กำลังจัดแนวคำบรรยายอัตโนมัติ…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'ไม่สามารถจัดแนวอัตโนมัติได้อย่างมั่นใจ (ไม่พบเสียงที่ตรงกันชัดเจน)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'จัดแนวคำบรรยายอัตโนมัติแล้ว ${ms} มิลลิวินาที';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => 'เล่นต่อหลังออกจากหน้าจอ';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'เมื่อปิด การเล่นหนังสือเสียงจะหยุดเมื่อคุณออกจากตัวอ่าน เปิดเพื่อเล่นต่อในเบื้องหลัง';
   @override
   String get sync_compare_close => 'ปิด';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'ตัวบ่งชี้ความคืบหน้าการอ่าน';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'ยกเลิก';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'กำลังยกเลิก…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'ยกเลิกการดาวน์โหลดแล้ว';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => 'เข้าสู่เคอร์เซอร์ค้นหา';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'ปุ่มทิศทาง ขึ้น';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'ปุ่มทิศทาง ลง';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'ปุ่มทิศทาง ซ้าย';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'ปุ่มทิศทาง ขวา';
   @override
-  String get shortcut_scope_gamepad => 'Gamepad';
+  String get shortcut_scope_gamepad => 'เกมแพด';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'ทิศทางการพลิกหน้า';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'ไม่สามารถดาวน์โหลดหนังสือเสียงสำหรับหนังสือเล่มนี้';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'ไม่สามารถเชื่อมต่อกับ Anki: การเชื่อมต่อถูกปฏิเสธ โปรดตรวจสอบว่า Anki Desktop กำลังทำงานอยู่และติดตั้งส่วนเสริม AnkiConnect แล้ว';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'ไม่สามารถเชื่อมต่อกับ Anki: การเชื่อมต่อหมดเวลา โปรดตรวจสอบโฮสต์ พอร์ต และการตั้งค่าไฟร์วอลล์';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'ไม่สามารถส่งออกไปยัง Anki: เกิดข้อผิดพลาด HTTP ขณะติดต่อ AnkiConnect';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'ไม่สามารถส่งออกไปยัง Anki: เกิดข้อผิดพลาดในการเชื่อมต่อที่ไม่คาดคิด ดูรายละเอียดในบันทึกข้อผิดพลาด';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'บีบอัดสื่อของการ์ด';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'การปิดจะทำให้สื่อของการ์ดคมชัดขึ้นแต่มีขนาดใหญ่ขึ้น';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'คัดลอกทั้งหมด';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'ค้นหาเมื่อชี้เมาส์';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'ค้นหาคำโดยอัตโนมัติเมื่อชี้เมาส์ไปที่ตัวอักษร โดยไม่ต้องกด Shift ค้างไว้ สำหรับเดสก์ท็อปเท่านั้น';
   @override
-  String get remote_book_info => 'Info';
+  String get remote_book_info => 'ข้อมูล';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'มีหนังสือเสียง';
   @override
-  String get remote_video_info => 'Info';
+  String get remote_video_info => 'ข้อมูล';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'มีคำบรรยาย';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'จำนวนพจนานุกรมต่อแถว';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'แสดงพจนานุกรมหลายเล่มเคียงข้างกัน ใช้คอลัมน์น้อยลงบนหน้าจอแคบ';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'ส่งออกการ์ดแล้ว แต่ดาวน์โหลดเสียงไม่สำเร็จ (${reason})';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'สร้างการ์ดโดยไม่มีเสียงประโยค (ไม่พบเสียงสำหรับส่วนที่เลือกนี้)';
 }
 
 // Path: retrying_in
@@ -56170,90 +56177,91 @@ class _StringsTr extends _StringsEn {
   @override
   String get update_connecting => 'Bağlanılıyor…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'Altyazıyı otomatik hizala';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running =>
+      'Altyazı otomatik hizalanıyor…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'Güvenle otomatik hizalanamadı (net bir ses eşleşmesi bulunamadı)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'Altyazı ${ms} ms otomatik hizalandı';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => 'Çıkıştan sonra çalmaya devam et';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'Kapalıyken, okuyucudan çıktığınızda sesli kitap çalması durur. Arka planda çalmaya devam etmek için açın.';
   @override
   String get sync_compare_close => 'Kapat';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'Okuma ilerleme göstergesi';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'İptal';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'İptal ediliyor…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'İndirme iptal edildi';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => 'Arama imlecine gir';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'Yön Tuşu Yukarı';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'Yön Tuşu Aşağı';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'Yön Tuşu Sol';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'Yön Tuşu Sağ';
   @override
-  String get shortcut_scope_gamepad => 'Gamepad';
+  String get shortcut_scope_gamepad => 'Oyun kumandası';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'Sayfa çevirme yönü';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'Bu kitabın sesli kitabı indirilemedi';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'Anki\'ye bağlanılamadı: bağlantı reddedildi. Anki Masaüstü\'nün çalıştığından ve AnkiConnect eklentisinin yüklü olduğundan emin olun.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'Anki\'ye bağlanılamadı: bağlantı zaman aşımına uğradı. Sunucu, bağlantı noktası ve güvenlik duvarı ayarlarını kontrol edin.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'Anki\'ye aktarılamadı: AnkiConnect ile iletişim kurulurken bir HTTP hatası oluştu.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'Anki\'ye aktarılamadı: beklenmeyen bir bağlantı hatası oluştu. Ayrıntılar için hata günlüğüne bakın.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'Kart medyasını sıkıştır';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'Kapalıyken kart medyası daha net ama daha büyük olur';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'Tümünü Kopyala';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'Üzerine gelince ara';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'Fare bir karakterin üzerine geldiğinde otomatik olarak ara; Shift tuşunu basılı tutmaya gerek yok. Yalnızca masaüstü.';
   @override
-  String get remote_book_info => 'Info';
+  String get remote_book_info => 'Bilgi';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'Sesli kitap içerir';
   @override
-  String get remote_video_info => 'Info';
+  String get remote_video_info => 'Bilgi';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'Altyazı içerir';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'Satır başına sözlük';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'Birden çok sözlüğü yan yana göster; dar ekranlarda daha az sütun kullan';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'Kart aktarıldı ancak ses indirilemedi (${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'Kart cümle sesi olmadan oluşturuldu (bu seçim için bulunamadı).';
 }
 
 // Path: retrying_in
@@ -59302,9 +59310,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_setting_mpv_channels_auto => 'Tự động';
   @override
-  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  String get video_setting_mpv_channels_stereo => 'Stereo (trộn xuống)';
   @override
-  String get video_setting_mpv_channels_mono => 'Mono';
+  String get video_setting_mpv_channels_mono => 'Đơn kênh';
   @override
   String get video_setting_mpv_normalize => 'Chuẩn hóa độ to khi downmix';
   @override
@@ -60291,90 +60299,91 @@ class _StringsVi extends _StringsEn {
   @override
   String get update_connecting => 'Đang kết nối…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => 'Tự động căn chỉnh phụ đề';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running =>
+      'Đang tự động căn chỉnh phụ đề…';
   @override
   String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+      'Không thể tự động căn chỉnh một cách chắc chắn (không tìm thấy khớp giọng nói rõ ràng)';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      'Đã tự động căn chỉnh phụ đề ${ms} ms';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => 'Tiếp tục phát sau khi thoát';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      'Khi tắt, sách nói sẽ dừng phát khi bạn rời trình đọc. Bật để tiếp tục phát ở chế độ nền.';
   @override
   String get sync_compare_close => 'Đóng';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => 'Chỉ báo tiến độ đọc';
   @override
-  String get update_cancel => 'Cancel';
+  String get update_cancel => 'Hủy';
   @override
-  String get update_cancelling => 'Cancelling…';
+  String get update_cancelling => 'Đang hủy…';
   @override
-  String get update_cancelled => 'Download cancelled';
+  String get update_cancelled => 'Đã hủy tải xuống';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => 'Vào con trỏ tra cứu';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => 'D-pad Lên';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => 'D-pad Xuống';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => 'D-pad Trái';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => 'D-pad Phải';
   @override
-  String get shortcut_scope_gamepad => 'Gamepad';
+  String get shortcut_scope_gamepad => 'Tay cầm';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => 'Hướng lật trang';
   @override
   String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+      'Không thể tải sách nói cho cuốn sách này';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      'Không thể kết nối tới Anki: kết nối bị từ chối. Hãy đảm bảo Anki Desktop đang chạy và add-on AnkiConnect đã được cài đặt.';
   @override
   String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+      'Không thể kết nối tới Anki: kết nối đã hết thời gian chờ. Hãy kiểm tra máy chủ, cổng và cài đặt tường lửa.';
   @override
   String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+      'Không thể xuất sang Anki: đã xảy ra lỗi HTTP khi liên hệ với AnkiConnect.';
   @override
   String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+      'Không thể xuất sang Anki: đã xảy ra lỗi kết nối không xác định. Xem nhật ký lỗi để biết chi tiết.';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => 'Nén media của thẻ';
   @override
   String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+      'Khi tắt, media của thẻ sắc nét hơn nhưng dung lượng lớn hơn';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => 'Sao chép tất cả';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => 'Tra cứu khi di chuột';
   @override
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'Tự động tra cứu khi di chuột qua một ký tự; không cần giữ Shift. Chỉ trên máy tính.';
   @override
-  String get remote_book_info => 'Info';
+  String get remote_book_info => 'Thông tin';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => 'Bao gồm sách nói';
   @override
-  String get remote_video_info => 'Info';
+  String get remote_video_info => 'Thông tin';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => 'Bao gồm phụ đề';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => 'Số từ điển mỗi hàng';
   @override
   String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      'Hiển thị nhiều từ điển cạnh nhau; dùng ít cột hơn trên màn hình hẹp';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      'Đã xuất thẻ, nhưng tải âm thanh thất bại (${reason}).';
   @override
   String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+      'Đã tạo thẻ nhưng không có âm thanh câu (không tìm thấy cho vùng chọn này).';
 }
 
 // Path: retrying_in
@@ -62541,9 +62550,9 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get sync_title => '同步';
   @override
-  String get anki_connect_host => 'Host';
+  String get anki_connect_host => '主机';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => '端口';
   @override
   String get sync_compare => '对比数据';
   @override
@@ -66375,9 +66384,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get update_channel_stable => '穩定版';
   @override
-  String get anki_connect_host => 'Host';
+  String get anki_connect_host => '主機';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => '連接埠';
   @override
   String get sync_compare => '比對資料';
   @override
@@ -66537,9 +66546,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_connection_failed => '連線失敗';
   @override
-  String get sync_host => 'Host';
+  String get sync_host => '主機';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => '連接埠';
   @override
   String get sync_username => '用戶名稱';
   @override
@@ -67976,24 +67985,23 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get update_connecting => '正在連接更新來源…';
   @override
-  String get video_subtitle_auto_align => 'Auto-align subtitle';
+  String get video_subtitle_auto_align => '自動對軸';
   @override
-  String get video_subtitle_auto_align_running => 'Auto-aligning subtitle…';
+  String get video_subtitle_auto_align_running => '正在自動對軸…';
   @override
-  String get video_subtitle_auto_align_low_confidence =>
-      'Couldn\'t confidently auto-align (no clear voice match)';
+  String get video_subtitle_auto_align_low_confidence => '無法可靠自動對軸（未找到明顯的語音匹配）';
   @override
   String video_subtitle_auto_align_done({required Object ms}) =>
-      'Auto-aligned subtitle by ${ms} ms';
+      '已自動對軸 ${ms} ms';
   @override
-  String get audiobook_background_play => 'Keep playing after exit';
+  String get audiobook_background_play => '離開後繼續播放';
   @override
   String get audiobook_background_play_hint =>
-      'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+      '關閉時，離開閱讀頁即停止有聲書播放；開啟後離開仍在背景繼續播放。';
   @override
   String get sync_compare_close => '關閉';
   @override
-  String get show_top_progress_bar => 'Reading progress indicator';
+  String get show_top_progress_bar => '頂部閱讀進度';
   @override
   String get update_cancel => '取消';
   @override
@@ -68001,65 +68009,57 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get update_cancelled => '已取消下載';
   @override
-  String get shortcut_action_reader_enter_caret => 'Enter lookup cursor';
+  String get shortcut_action_reader_enter_caret => '進入選字查詞游標';
   @override
-  String get shortcut_action_dpad_up => 'D-pad Up';
+  String get shortcut_action_dpad_up => '方向鍵 上';
   @override
-  String get shortcut_action_dpad_down => 'D-pad Down';
+  String get shortcut_action_dpad_down => '方向鍵 下';
   @override
-  String get shortcut_action_dpad_left => 'D-pad Left';
+  String get shortcut_action_dpad_left => '方向鍵 左';
   @override
-  String get shortcut_action_dpad_right => 'D-pad Right';
+  String get shortcut_action_dpad_right => '方向鍵 右';
   @override
-  String get shortcut_scope_gamepad => 'Gamepad';
+  String get shortcut_scope_gamepad => '手掣';
   @override
-  String get section_page_turn_direction => 'Page-turn direction';
+  String get section_page_turn_direction => '翻頁方向';
   @override
-  String get remote_book_audiobook_download_failed =>
-      'Could not download audiobook for this book';
+  String get remote_book_audiobook_download_failed => '無法下載這本書的有聲書';
   @override
   String get anki_error_connection_refused =>
-      'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+      '無法連接 Anki：連接被拒絕。請確認 Anki 桌面版正在執行，且已安裝 AnkiConnect 外掛程式。';
   @override
-  String get anki_error_connection_timeout =>
-      'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+  String get anki_error_connection_timeout => '無法連接 Anki：連接逾時。請檢查主機、連接埠和防火牆設定。';
   @override
-  String get anki_error_http =>
-      'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+  String get anki_error_http => '無法匯出到 Anki：連接 AnkiConnect 時發生 HTTP 錯誤。';
   @override
-  String get anki_error_connection_unknown =>
-      'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+  String get anki_error_connection_unknown => '無法匯出到 Anki：發生未知的連接錯誤。詳情見錯誤記錄檔。';
   @override
-  String get compress_mining_media => 'Compress card media';
+  String get compress_mining_media => '壓縮製卡媒體';
   @override
-  String get compress_mining_media_hint =>
-      'Off keeps card media sharper but larger';
+  String get compress_mining_media_hint => '關閉後媒體更清晰但體積更大';
   @override
-  String get log_copy_all => 'Copy All';
+  String get log_copy_all => '全部複製';
   @override
-  String get hover_auto_lookup => 'Look up on hover';
+  String get hover_auto_lookup => '停留即查詞';
   @override
-  String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+  String get hover_auto_lookup_hint => '滑鼠停留在文字上即自動查詞，無需按住 Shift。僅桌面版。';
   @override
-  String get remote_book_info => 'Info';
+  String get remote_book_info => '資訊';
   @override
-  String get remote_book_info_has_audiobook => 'Includes audiobook';
+  String get remote_book_info_has_audiobook => '包含有聲書';
   @override
-  String get remote_video_info => 'Info';
+  String get remote_video_info => '資訊';
   @override
-  String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get remote_video_info_has_subtitle => '包含字幕';
   @override
-  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns => '每行詞典數';
   @override
-  String get popup_dictionary_columns_hint =>
-      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  String get popup_dictionary_columns_hint => '在一行內並排顯示多個詞典；窄螢幕建議少列';
   @override
   String card_exported_audio_failed({required Object reason}) =>
-      'Card exported, but the audio failed to download (${reason}).';
+      '卡片已匯出，但音訊下載失敗（${reason}）。';
   @override
-  String get card_mined_without_sentence_audio =>
-      'Card created without sentence audio (none found for this selection).';
+  String get card_mined_without_sentence_audio => '已製卡，但今次選取範圍找不到例句音訊。';
 }
 
 // Path: retrying_in
@@ -75431,78 +75431,79 @@ extension on _StringsAr {
       case 'update_connecting':
         return 'جارٍ الاتصال…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'محاذاة الترجمة تلقائيًا';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'جارٍ محاذاة الترجمة تلقائيًا…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'تعذّرت المحاذاة التلقائية بثقة (لا يوجد تطابق صوتي واضح)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) =>
+            'تمت محاذاة الترجمة تلقائيًا بمقدار ${ms} مللي ثانية';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'متابعة التشغيل بعد الخروج';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'عند الإيقاف، يتوقف تشغيل الكتاب الصوتي عند مغادرة القارئ. فعّله لمتابعة التشغيل في الخلفية.';
       case 'sync_compare_close':
         return 'إغلاق';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'مؤشر تقدّم القراءة';
       case 'update_cancel':
-        return 'Cancel';
+        return 'إلغاء';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'جارٍ الإلغاء…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'تم إلغاء التنزيل';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'الدخول إلى مؤشر البحث';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'أزرار الاتجاهات للأعلى';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'أزرار الاتجاهات للأسفل';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'أزرار الاتجاهات لليسار';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'أزرار الاتجاهات لليمين';
       case 'shortcut_scope_gamepad':
-        return 'Gamepad';
+        return 'لوحة الألعاب';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'اتجاه قلب الصفحة';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'تعذّر تنزيل الكتاب الصوتي لهذا الكتاب';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'تعذّر الاتصال بـ Anki: تم رفض الاتصال. تأكد من تشغيل Anki Desktop وتثبيت الإضافة AnkiConnect.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'تعذّر الاتصال بـ Anki: انتهت مهلة الاتصال. تحقق من المضيف والمنفذ وإعدادات الجدار الناري.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'تعذّر التصدير إلى Anki: حدث خطأ HTTP أثناء الاتصال بـ AnkiConnect.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'تعذّر التصدير إلى Anki: حدث خطأ اتصال غير متوقع. راجع سجل الأخطاء لمزيد من التفاصيل.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'ضغط وسائط البطاقات';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'إيقافه يبقي وسائط البطاقات أوضح لكن أكبر حجمًا';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'نسخ الكل';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'البحث عند التمرير';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'البحث تلقائيًا عند تمرير مؤشر الماوس فوق حرف؛ دون الحاجة إلى الضغط على Shift. لأجهزة سطح المكتب فقط.';
       case 'remote_book_info':
-        return 'Info';
+        return 'معلومات';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'يتضمّن كتابًا صوتيًا';
       case 'remote_video_info':
-        return 'Info';
+        return 'معلومات';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'يتضمّن ترجمات';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'القواميس في كل صف';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'عرض عدة قواميس جنبًا إلى جنب؛ استخدم أعمدة أقل على الشاشات الضيقة';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'تم تصدير البطاقة، لكن فشل تنزيل الصوت (${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'تم إنشاء البطاقة بدون صوت الجملة (لم يُعثر على صوت لهذا التحديد).';
       default:
         return null;
     }
@@ -78262,7 +78263,7 @@ extension on _StringsDe {
       case 'video_setting_mpv_high_quality':
         return 'Hochwertige Skalierung';
       case 'video_setting_mpv_deband':
-        return 'Debanding';
+        return 'Entbänderung';
       case 'video_setting_mpv_dither':
         return 'Dithering';
       case 'video_setting_mpv_interpolation':
@@ -79154,78 +79155,79 @@ extension on _StringsDe {
       case 'update_connecting':
         return 'Verbinde…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'Untertitel automatisch ausrichten';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'Untertitel werden automatisch ausgerichtet…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'Automatische Ausrichtung nicht sicher möglich (keine eindeutige Sprachübereinstimmung)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) =>
+            'Untertitel automatisch um ${ms} ms ausgerichtet';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'Nach Verlassen weiterspielen';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'Wenn deaktiviert, stoppt das Hörbuch beim Verlassen des Lesers. Aktiviere die Option, um im Hintergrund weiterzuspielen.';
       case 'sync_compare_close':
         return 'Schließen';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'Lesefortschritt-Anzeige';
       case 'update_cancel':
-        return 'Cancel';
+        return 'Abbrechen';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'Wird abgebrochen…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'Download abgebrochen';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'Nachschlage-Cursor aktivieren';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'D-pad oben';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'D-pad unten';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'D-pad links';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'D-pad rechts';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'Blätterrichtung';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'Hörbuch für dieses Buch konnte nicht heruntergeladen werden';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'Verbindung zu Anki fehlgeschlagen: Verbindung abgelehnt. Stelle sicher, dass Anki Desktop läuft und das AnkiConnect-Add-on installiert ist.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'Verbindung zu Anki fehlgeschlagen: Zeitüberschreitung. Prüfe Host, Port und Firewall-Einstellungen.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'Export zu Anki fehlgeschlagen: beim Verbinden mit AnkiConnect ist ein HTTP-Fehler aufgetreten.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'Export zu Anki fehlgeschlagen: ein unerwarteter Verbindungsfehler ist aufgetreten. Einzelheiten im Fehlerprotokoll.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'Kartenmedien komprimieren';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'Deaktiviert bleiben Kartenmedien schärfer, aber größer';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'Alles kopieren';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'Beim Überfahren nachschlagen';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'Automatisch nachschlagen, wenn die Maus über ein Zeichen fährt; ohne Shift zu halten. Nur Desktop.';
       case 'remote_book_info':
         return 'Info';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'Enthält Hörbuch';
       case 'remote_video_info':
         return 'Info';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'Enthält Untertitel';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'Wörterbücher pro Zeile';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'Mehrere Wörterbücher nebeneinander anzeigen; auf schmalen Bildschirmen weniger Spalten verwenden';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'Karte exportiert, aber das Audio konnte nicht heruntergeladen werden (${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'Karte ohne Satz-Audio erstellt (keines für diese Auswahl gefunden).';
       default:
         return null;
     }
@@ -81320,7 +81322,7 @@ extension on _StringsEs {
       case 'update_channel_stable':
         return 'Estable';
       case 'anki_connect_host':
-        return 'Host';
+        return 'Servidor';
       case 'anki_connect_port':
         return 'Puerto';
       case 'sync_compare':
@@ -81483,7 +81485,7 @@ extension on _StringsEs {
       case 'sync_connection_failed':
         return 'Error de conexión';
       case 'sync_host':
-        return 'Host';
+        return 'Servidor';
       case 'sync_port':
         return 'Puerto';
       case 'sync_username':
@@ -82121,7 +82123,7 @@ extension on _StringsEs {
       case 'video_rename_hint':
         return 'Título';
       case 'video_playlist_episodes':
-        return ({required Object count}) => '${count} eps';
+        return ({required Object count}) => '${count} ep.';
       case 'video_audio_track':
         return 'Pista de audio';
       case 'video_more':
@@ -82876,78 +82878,78 @@ extension on _StringsEs {
       case 'update_connecting':
         return 'Conectando…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'Alinear subtítulos';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'Alineando subtítulos…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'No se pudo alinear con fiabilidad (sin coincidencia de voz clara)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) => 'Subtítulos alineados ${ms} ms';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'Seguir tras salir';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'Si está desactivado, el audiolibro se detiene al salir del lector. Actívalo para seguir en segundo plano.';
       case 'sync_compare_close':
         return 'Cerrar';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'Indicador de progreso';
       case 'update_cancel':
-        return 'Cancel';
+        return 'Cancelar';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'Cancelando…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'Descarga cancelada';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'Activar cursor de búsqueda';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'Cruceta Arriba';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'Cruceta Abajo';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'Cruceta Izquierda';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'Cruceta Derecha';
       case 'shortcut_scope_gamepad':
-        return 'Gamepad';
+        return 'Mando';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'Dirección de paso de página';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'No se pudo descargar el audiolibro de este libro';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'No se pudo conectar con Anki: conexión rechazada. Asegúrate de que Anki Desktop esté abierto y el complemento AnkiConnect instalado.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'No se pudo conectar con Anki: se agotó el tiempo de espera. Revisa el servidor, el puerto y el cortafuegos.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'No se pudo exportar a Anki: ocurrió un error HTTP al contactar con AnkiConnect.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'No se pudo exportar a Anki: error de conexión inesperado. Consulta el registro de errores.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'Comprimir medios de tarjetas';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'Desactivado mantiene los medios más nítidos pero más grandes';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'Copiar todo';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'Buscar al pasar el cursor';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'Busca automáticamente al pasar el ratón sobre un carácter; sin mantener Mayús. Solo en escritorio.';
       case 'remote_book_info':
-        return 'Info';
+        return 'Información';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'Incluye audiolibro';
       case 'remote_video_info':
-        return 'Info';
+        return 'Información';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'Incluye subtítulos';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'Diccionarios por fila';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'Muestra varios diccionarios en paralelo; usa menos columnas en pantallas estrechas';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'Tarjeta exportada, pero falló la descarga del audio (${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'Tarjeta creada sin audio de frase (no se encontró para esta selección).';
       default:
         return null;
     }
@@ -86605,78 +86607,78 @@ extension on _StringsFr {
       case 'update_connecting':
         return 'Connexion…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'Aligner les sous-titres';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'Alignement des sous-titres…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'Alignement automatique peu fiable (aucune correspondance vocale claire)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) => 'Sous-titres alignés de ${ms} ms';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'Continuer après la sortie';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'Désactivé, le livre audio s\'arrête quand vous quittez le lecteur. Activez-le pour continuer en arrière-plan.';
       case 'sync_compare_close':
         return 'Fermer';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'Indicateur de progression';
       case 'update_cancel':
-        return 'Cancel';
+        return 'Annuler';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'Annulation…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'Téléchargement annulé';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'Activer le curseur de recherche';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'Croix directionnelle Haut';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'Croix directionnelle Bas';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'Croix directionnelle Gauche';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'Croix directionnelle Droite';
       case 'shortcut_scope_gamepad':
-        return 'Gamepad';
+        return 'Manette';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'Sens de tournage des pages';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'Impossible de télécharger le livre audio pour ce livre';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'Connexion à Anki impossible : connexion refusée. Vérifiez qu\'Anki Desktop est lancé et que le module AnkiConnect est installé.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'Connexion à Anki impossible : délai dépassé. Vérifiez l\'hôte, le port et le pare-feu.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'Export vers Anki impossible : une erreur HTTP est survenue lors de la communication avec AnkiConnect.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'Export vers Anki impossible : une erreur de connexion inattendue est survenue. Consultez le journal d\'erreurs.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'Compresser les médias des cartes';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'Désactivé, les médias restent plus nets mais plus volumineux';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'Tout copier';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'Rechercher au survol';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'Recherche automatique lorsque la souris survole un caractère ; pas besoin de maintenir Maj. Bureau uniquement.';
       case 'remote_book_info':
-        return 'Info';
+        return 'Infos';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'Livre audio inclus';
       case 'remote_video_info':
-        return 'Info';
+        return 'Infos';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'Sous-titres inclus';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'Dictionnaires par ligne';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'Afficher plusieurs dictionnaires côte à côte ; réduisez les colonnes sur écrans étroits';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'Carte exportée, mais le téléchargement de l\'audio a échoué (${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'Carte créée sans audio de phrase (aucun trouvé pour cette sélection).';
       default:
         return null;
     }
@@ -90313,78 +90315,79 @@ extension on _StringsId {
       case 'update_connecting':
         return 'Menghubungkan…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'Sejajarkan subtitle otomatis';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'Menyejajarkan subtitle otomatis…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'Tidak dapat menyejajarkan otomatis dengan yakin (tidak ada kecocokan suara yang jelas)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) =>
+            'Subtitle disejajarkan otomatis sebesar ${ms} ms';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'Terus putar setelah keluar';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'Saat nonaktif, pemutaran buku audio berhenti ketika Anda meninggalkan pembaca. Aktifkan untuk terus memutar di latar belakang.';
       case 'sync_compare_close':
         return 'Tutup';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'Indikator progres baca';
       case 'update_cancel':
-        return 'Cancel';
+        return 'Batal';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'Membatalkan…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'Unduhan dibatalkan';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'Masuk kursor pencarian';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'D-pad Atas';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'D-pad Bawah';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'D-pad Kiri';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'D-pad Kanan';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'Arah ganti halaman';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'Tidak dapat mengunduh buku audio untuk buku ini';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'Tidak dapat terhubung ke Anki: koneksi ditolak. Pastikan Anki Desktop sedang berjalan dan add-on AnkiConnect sudah terpasang.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'Tidak dapat terhubung ke Anki: koneksi habis waktu. Periksa host, port, dan pengaturan firewall.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'Tidak dapat mengekspor ke Anki: terjadi kesalahan HTTP saat menghubungi AnkiConnect.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'Tidak dapat mengekspor ke Anki: terjadi kesalahan koneksi yang tidak terduga. Lihat log kesalahan untuk detailnya.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'Kompres media kartu';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'Jika nonaktif, media kartu lebih tajam tetapi lebih besar';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'Salin Semua';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'Cari saat hover';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'Cari otomatis saat mouse diarahkan ke sebuah karakter; tidak perlu menahan Shift. Hanya desktop.';
       case 'remote_book_info':
         return 'Info';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'Termasuk buku audio';
       case 'remote_video_info':
         return 'Info';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'Termasuk subtitle';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'Kamus per baris';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'Tampilkan beberapa kamus berdampingan; gunakan lebih sedikit kolom pada layar sempit';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'Kartu diekspor, tetapi audio gagal diunduh (${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'Kartu dibuat tanpa audio kalimat (tidak ditemukan untuk pilihan ini).';
       default:
         return null;
     }
@@ -91999,7 +92002,7 @@ extension on _StringsIt {
       case 'reader_theme_light':
         return 'Bianco';
       case 'reader_theme_ecru':
-        return 'Ecru';
+        return 'Écru';
       case 'reader_theme_water':
         return 'Azzurro';
       case 'reader_theme_gray':
@@ -94039,78 +94042,78 @@ extension on _StringsIt {
       case 'update_connecting':
         return 'Connessione…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'Allinea sottotitoli';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'Allineamento sottotitoli…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'Allineamento automatico poco affidabile (nessuna corrispondenza vocale chiara)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) => 'Sottotitoli allineati di ${ms} ms';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'Continua dopo l\'uscita';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'Se disattivato, l\'audiolibro si ferma quando esci dal lettore. Attivalo per continuare in background.';
       case 'sync_compare_close':
         return 'Chiudi';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'Indicatore di avanzamento';
       case 'update_cancel':
-        return 'Cancel';
+        return 'Annulla';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'Annullamento…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'Download annullato';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'Attiva cursore di ricerca';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'D-pad Su';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'D-pad Giù';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'D-pad Sinistra';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'D-pad Destra';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'Direzione di scorrimento pagine';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'Impossibile scaricare l\'audiolibro di questo libro';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'Impossibile connettersi ad Anki: connessione rifiutata. Assicurati che Anki Desktop sia in esecuzione e il componente AnkiConnect sia installato.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'Impossibile connettersi ad Anki: connessione scaduta. Controlla host, porta e firewall.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'Impossibile esportare in Anki: errore HTTP durante la connessione ad AnkiConnect.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'Impossibile esportare in Anki: errore di connessione imprevisto. Vedi il log degli errori.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'Comprimi media delle carte';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'Disattivato mantiene i media più nitidi ma più pesanti';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'Copia tutto';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'Cerca al passaggio';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'Cerca automaticamente al passaggio del mouse su un carattere; senza tenere Maiusc. Solo desktop.';
       case 'remote_book_info':
         return 'Info';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'Include audiolibro';
       case 'remote_video_info':
         return 'Info';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'Include sottotitoli';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'Dizionari per riga';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'Mostra più dizionari affiancati; usa meno colonne su schermi stretti';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'Carta esportata, ma il download dell\'audio non è riuscito (${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'Carta creata senza audio della frase (nessuno trovato per questa selezione).';
       default:
         return null;
     }
@@ -97723,78 +97726,78 @@ extension on _StringsJa {
       case 'update_connecting':
         return '更新元に接続中…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return '字幕を自動同期';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return '字幕を自動同期中…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return '自動同期できませんでした（明確な音声の一致が見つかりません）';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) => '字幕を ${ms} ms 自動同期しました';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return '終了後も再生を続ける';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'オフのときはリーダーを離れるとオーディオブックの再生が停止します。オンにするとバックグラウンドで再生を続けます。';
       case 'sync_compare_close':
         return '閉じる';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return '上部の読書進捗バー';
       case 'update_cancel':
-        return 'Cancel';
+        return 'キャンセル';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'キャンセル中…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'ダウンロードをキャンセルしました';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return '辞書引きカーソルに入る';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return '十字キー 上';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return '十字キー 下';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return '十字キー 左';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return '十字キー 右';
       case 'shortcut_scope_gamepad':
-        return 'Gamepad';
+        return 'ゲームパッド';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'ページめくり方向';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'この本のオーディオブックをダウンロードできませんでした';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'Anki に接続できません：接続が拒否されました。Anki デスクトップ版が起動していて、AnkiConnect アドオンがインストールされているか確認してください。';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'Anki に接続できません：接続がタイムアウトしました。ホスト・ポート・ファイアウォールの設定を確認してください。';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'Anki に書き出せません：AnkiConnect への接続中に HTTP エラーが発生しました。';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'Anki に書き出せません：予期しない接続エラーが発生しました。詳細はエラーログを確認してください。';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'カードのメディアを圧縮';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'オフにするとメディアはより鮮明ですが容量が大きくなります';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'すべてコピー';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'ホバーで辞書を引く';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'マウスを文字に重ねると自動で辞書を引きます。Shift を押す必要はありません。デスクトップのみ。';
       case 'remote_book_info':
-        return 'Info';
+        return '情報';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'オーディオブックを含む';
       case 'remote_video_info':
-        return 'Info';
+        return '情報';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return '字幕を含む';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return '1 行あたりの辞書数';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return '複数の辞書を横並びで表示します。画面が狭い場合は列数を減らしてください';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'カードを書き出しましたが、音声のダウンロードに失敗しました（${reason}）。';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'カードを作成しましたが、今回の選択範囲では例文の音声が見つかりませんでした。';
       default:
         return null;
     }
@@ -101410,78 +101413,78 @@ extension on _StringsKo {
       case 'update_connecting':
         return '연결 중…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return '자막 자동 정렬';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return '자막 자동 정렬 중…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return '자동 정렬할 수 없습니다(명확한 음성 일치를 찾지 못함)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) => '자막을 ${ms} ms 자동 정렬했습니다';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return '종료 후에도 계속 재생';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return '꺼져 있으면 리더를 떠날 때 오디오북 재생이 멈춥니다. 켜면 백그라운드에서 계속 재생합니다.';
       case 'sync_compare_close':
         return '닫기';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return '상단 읽기 진행률 표시줄';
       case 'update_cancel':
-        return 'Cancel';
+        return '취소';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return '취소 중…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return '다운로드를 취소했습니다';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return '사전 찾기 커서 진입';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return '방향키 위';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return '방향키 아래';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return '방향키 왼쪽';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return '방향키 오른쪽';
       case 'shortcut_scope_gamepad':
-        return 'Gamepad';
+        return '게임패드';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return '페이지 넘김 방향';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return '이 책의 오디오북을 다운로드할 수 없습니다';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'Anki에 연결할 수 없습니다: 연결이 거부되었습니다. Anki 데스크톱이 실행 중이고 AnkiConnect 애드온이 설치되어 있는지 확인하세요.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'Anki에 연결할 수 없습니다: 연결 시간이 초과되었습니다. 호스트, 포트, 방화벽 설정을 확인하세요.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'Anki로 내보낼 수 없습니다: AnkiConnect에 연결하는 중 HTTP 오류가 발생했습니다.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'Anki로 내보낼 수 없습니다: 알 수 없는 연결 오류가 발생했습니다. 자세한 내용은 오류 로그를 확인하세요.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return '카드 미디어 압축';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return '끄면 미디어가 더 선명하지만 용량이 커집니다';
       case 'log_copy_all':
-        return 'Copy All';
+        return '모두 복사';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return '마우스를 올리면 사전 찾기';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return '마우스를 글자 위에 올리면 자동으로 사전을 찾습니다. Shift를 누를 필요가 없습니다. 데스크톱 전용.';
       case 'remote_book_info':
-        return 'Info';
+        return '정보';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return '오디오북 포함';
       case 'remote_video_info':
-        return 'Info';
+        return '정보';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return '자막 포함';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return '한 줄당 사전 수';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return '여러 사전을 나란히 표시합니다. 화면이 좁으면 열 수를 줄이세요';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            '카드를 내보냈지만 오디오 다운로드에 실패했습니다(${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return '카드를 만들었지만 이번 선택 범위에서 문장 오디오를 찾지 못했습니다.';
       default:
         return null;
     }
@@ -105128,78 +105131,79 @@ extension on _StringsNl {
       case 'update_connecting':
         return 'Verbinden…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'Ondertitel automatisch uitlijnen';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'Ondertitel automatisch uitlijnen…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'Kon niet betrouwbaar automatisch uitlijnen (geen duidelijke stemovereenkomst)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) =>
+            'Ondertitel automatisch uitgelijnd met ${ms} ms';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'Blijven afspelen na afsluiten';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'Indien uit, stopt het luisterboek wanneer je de lezer verlaat. Schakel in om op de achtergrond door te spelen.';
       case 'sync_compare_close':
         return 'Sluiten';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'Leesvoortgangsindicator';
       case 'update_cancel':
-        return 'Cancel';
+        return 'Annuleren';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'Bezig met annuleren…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'Download geannuleerd';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'Opzoekcursor activeren';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'D-pad omhoog';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'D-pad omlaag';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'D-pad links';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'D-pad rechts';
       case 'shortcut_scope_gamepad':
         return 'Gamepad';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'Bladerrichting';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'Kon het luisterboek voor dit boek niet downloaden';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'Kon geen verbinding maken met Anki: verbinding geweigerd. Controleer of Anki Desktop draait en de AnkiConnect-add-on is geïnstalleerd.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'Kon geen verbinding maken met Anki: time-out van de verbinding. Controleer de host, poort en firewallinstellingen.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'Kon niet exporteren naar Anki: er is een HTTP-fout opgetreden tijdens het contact met AnkiConnect.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'Kon niet exporteren naar Anki: er is een onverwachte verbindingsfout opgetreden. Zie het foutenlogboek voor details.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'Kaartmedia comprimeren';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'Uit houdt kaartmedia scherper maar groter';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'Alles kopiëren';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'Opzoeken bij hover';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'Automatisch opzoeken wanneer de muis over een teken zweeft; zonder Shift in te drukken. Alleen desktop.';
       case 'remote_book_info':
         return 'Info';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'Bevat luisterboek';
       case 'remote_video_info':
         return 'Info';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'Bevat ondertitels';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'Woordenboeken per rij';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'Meerdere woordenboeken naast elkaar tonen; gebruik minder kolommen op smalle schermen';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'Kaart geëxporteerd, maar de audio kon niet worden gedownload (${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'Kaart aangemaakt zonder zinsaudio (geen gevonden voor deze selectie).';
       default:
         return null;
     }
@@ -108844,78 +108848,78 @@ extension on _StringsPtBr {
       case 'update_connecting':
         return 'Conectando…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'Alinhar legenda';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'Alinhando legenda…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'Não foi possível alinhar com confiança (sem correspondência de voz clara)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) => 'Legenda alinhada em ${ms} ms';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'Continuar após sair';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'Quando desativado, o audiolivro para ao sair do leitor. Ative para continuar em segundo plano.';
       case 'sync_compare_close':
         return 'Fechar';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'Indicador de progresso';
       case 'update_cancel':
-        return 'Cancel';
+        return 'Cancelar';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'Cancelando…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'Download cancelado';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'Ativar cursor de pesquisa';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'Direcional Cima';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'Direcional Baixo';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'Direcional Esquerda';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'Direcional Direita';
       case 'shortcut_scope_gamepad':
-        return 'Gamepad';
+        return 'Controle';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'Direção de virada de página';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'Não foi possível baixar o audiolivro deste livro';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'Não foi possível conectar ao Anki: conexão recusada. Verifique se o Anki Desktop está aberto e o complemento AnkiConnect instalado.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'Não foi possível conectar ao Anki: tempo limite esgotado. Verifique o host, a porta e o firewall.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'Não foi possível exportar para o Anki: ocorreu um erro HTTP ao contatar o AnkiConnect.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'Não foi possível exportar para o Anki: erro de conexão inesperado. Consulte o log de erros.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'Comprimir mídia dos cartões';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'Desativado mantém a mídia mais nítida, porém maior';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'Copiar tudo';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'Pesquisar ao passar o cursor';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'Pesquisa automaticamente ao passar o mouse sobre um caractere; sem segurar Shift. Apenas no desktop.';
       case 'remote_book_info':
-        return 'Info';
+        return 'Informações';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'Inclui audiolivro';
       case 'remote_video_info':
-        return 'Info';
+        return 'Informações';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'Inclui legendas';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'Dicionários por linha';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'Mostrar vários dicionários lado a lado; use menos colunas em telas estreitas';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'Cartão exportado, mas o download do áudio falhou (${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'Cartão criado sem áudio da frase (nenhum encontrado para esta seleção).';
       default:
         return null;
     }
@@ -112564,78 +112568,78 @@ extension on _StringsRu {
       case 'update_connecting':
         return 'Подключение…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'Авто-выравнивание субтитров';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'Авто-выравнивание субтитров…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'Не удалось уверенно авто-выровнять (нет чёткого совпадения голоса)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) => 'Субтитры авто-выровнены на ${ms} мс';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'Продолжать воспроизведение после выхода';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'Когда выключено, воспроизведение аудиокниги останавливается при выходе из читалки. Включите, чтобы продолжать воспроизведение в фоне.';
       case 'sync_compare_close':
         return 'Закрыть';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'Индикатор прогресса чтения';
       case 'update_cancel':
-        return 'Cancel';
+        return 'Отмена';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'Отмена…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'Загрузка отменена';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'Войти в режим курсора поиска';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'Крестовина вверх';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'Крестовина вниз';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'Крестовина влево';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'Крестовина вправо';
       case 'shortcut_scope_gamepad':
-        return 'Gamepad';
+        return 'Геймпад';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'Направление перелистывания';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'Не удалось загрузить аудиокнигу для этой книги';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'Не удалось подключиться к Anki: соединение отклонено. Убедитесь, что Anki Desktop запущен и установлен аддон AnkiConnect.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'Не удалось подключиться к Anki: время ожидания соединения истекло. Проверьте хост, порт и настройки брандмауэра.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'Не удалось экспортировать в Anki: при обращении к AnkiConnect произошла ошибка HTTP.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'Не удалось экспортировать в Anki: произошла непредвиденная ошибка соединения. Подробности см. в журнале ошибок.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'Сжимать медиа карточек';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'При выключении медиа карточек чётче, но больше по размеру';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'Копировать всё';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'Поиск при наведении';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'Автоматический поиск слова при наведении курсора на символ; удерживать Shift не нужно. Только для ПК.';
       case 'remote_book_info':
-        return 'Info';
+        return 'Сведения';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'Включает аудиокнигу';
       case 'remote_video_info':
-        return 'Info';
+        return 'Сведения';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'Включает субтитры';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'Словарей в ряду';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'Показывать несколько словарей рядом; на узких экранах используйте меньше столбцов';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'Карточка экспортирована, но не удалось загрузить аудио (${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'Карточка создана без аудио предложения (для этого выделения ничего не найдено).';
       default:
         return null;
     }
@@ -116265,78 +116269,79 @@ extension on _StringsTh {
       case 'update_connecting':
         return 'กำลังเชื่อมต่อแหล่งอัปเดต…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'จัดแนวคำบรรยายอัตโนมัติ';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'กำลังจัดแนวคำบรรยายอัตโนมัติ…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'ไม่สามารถจัดแนวอัตโนมัติได้อย่างมั่นใจ (ไม่พบเสียงที่ตรงกันชัดเจน)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) =>
+            'จัดแนวคำบรรยายอัตโนมัติแล้ว ${ms} มิลลิวินาที';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'เล่นต่อหลังออกจากหน้าจอ';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'เมื่อปิด การเล่นหนังสือเสียงจะหยุดเมื่อคุณออกจากตัวอ่าน เปิดเพื่อเล่นต่อในเบื้องหลัง';
       case 'sync_compare_close':
         return 'ปิด';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'ตัวบ่งชี้ความคืบหน้าการอ่าน';
       case 'update_cancel':
-        return 'Cancel';
+        return 'ยกเลิก';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'กำลังยกเลิก…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'ยกเลิกการดาวน์โหลดแล้ว';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'เข้าสู่เคอร์เซอร์ค้นหา';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'ปุ่มทิศทาง ขึ้น';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'ปุ่มทิศทาง ลง';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'ปุ่มทิศทาง ซ้าย';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'ปุ่มทิศทาง ขวา';
       case 'shortcut_scope_gamepad':
-        return 'Gamepad';
+        return 'เกมแพด';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'ทิศทางการพลิกหน้า';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'ไม่สามารถดาวน์โหลดหนังสือเสียงสำหรับหนังสือเล่มนี้';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'ไม่สามารถเชื่อมต่อกับ Anki: การเชื่อมต่อถูกปฏิเสธ โปรดตรวจสอบว่า Anki Desktop กำลังทำงานอยู่และติดตั้งส่วนเสริม AnkiConnect แล้ว';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'ไม่สามารถเชื่อมต่อกับ Anki: การเชื่อมต่อหมดเวลา โปรดตรวจสอบโฮสต์ พอร์ต และการตั้งค่าไฟร์วอลล์';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'ไม่สามารถส่งออกไปยัง Anki: เกิดข้อผิดพลาด HTTP ขณะติดต่อ AnkiConnect';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'ไม่สามารถส่งออกไปยัง Anki: เกิดข้อผิดพลาดในการเชื่อมต่อที่ไม่คาดคิด ดูรายละเอียดในบันทึกข้อผิดพลาด';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'บีบอัดสื่อของการ์ด';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'การปิดจะทำให้สื่อของการ์ดคมชัดขึ้นแต่มีขนาดใหญ่ขึ้น';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'คัดลอกทั้งหมด';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'ค้นหาเมื่อชี้เมาส์';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'ค้นหาคำโดยอัตโนมัติเมื่อชี้เมาส์ไปที่ตัวอักษร โดยไม่ต้องกด Shift ค้างไว้ สำหรับเดสก์ท็อปเท่านั้น';
       case 'remote_book_info':
-        return 'Info';
+        return 'ข้อมูล';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'มีหนังสือเสียง';
       case 'remote_video_info':
-        return 'Info';
+        return 'ข้อมูล';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'มีคำบรรยาย';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'จำนวนพจนานุกรมต่อแถว';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'แสดงพจนานุกรมหลายเล่มเคียงข้างกัน ใช้คอลัมน์น้อยลงบนหน้าจอแคบ';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'ส่งออกการ์ดแล้ว แต่ดาวน์โหลดเสียงไม่สำเร็จ (${reason})';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'สร้างการ์ดโดยไม่มีเสียงประโยค (ไม่พบเสียงสำหรับส่วนที่เลือกนี้)';
       default:
         return null;
     }
@@ -119976,78 +119981,78 @@ extension on _StringsTr {
       case 'update_connecting':
         return 'Bağlanılıyor…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'Altyazıyı otomatik hizala';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'Altyazı otomatik hizalanıyor…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'Güvenle otomatik hizalanamadı (net bir ses eşleşmesi bulunamadı)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) => 'Altyazı ${ms} ms otomatik hizalandı';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'Çıkıştan sonra çalmaya devam et';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'Kapalıyken, okuyucudan çıktığınızda sesli kitap çalması durur. Arka planda çalmaya devam etmek için açın.';
       case 'sync_compare_close':
         return 'Kapat';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'Okuma ilerleme göstergesi';
       case 'update_cancel':
-        return 'Cancel';
+        return 'İptal';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'İptal ediliyor…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'İndirme iptal edildi';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'Arama imlecine gir';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'Yön Tuşu Yukarı';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'Yön Tuşu Aşağı';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'Yön Tuşu Sol';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'Yön Tuşu Sağ';
       case 'shortcut_scope_gamepad':
-        return 'Gamepad';
+        return 'Oyun kumandası';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'Sayfa çevirme yönü';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'Bu kitabın sesli kitabı indirilemedi';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'Anki\'ye bağlanılamadı: bağlantı reddedildi. Anki Masaüstü\'nün çalıştığından ve AnkiConnect eklentisinin yüklü olduğundan emin olun.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'Anki\'ye bağlanılamadı: bağlantı zaman aşımına uğradı. Sunucu, bağlantı noktası ve güvenlik duvarı ayarlarını kontrol edin.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'Anki\'ye aktarılamadı: AnkiConnect ile iletişim kurulurken bir HTTP hatası oluştu.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'Anki\'ye aktarılamadı: beklenmeyen bir bağlantı hatası oluştu. Ayrıntılar için hata günlüğüne bakın.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'Kart medyasını sıkıştır';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'Kapalıyken kart medyası daha net ama daha büyük olur';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'Tümünü Kopyala';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'Üzerine gelince ara';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'Fare bir karakterin üzerine geldiğinde otomatik olarak ara; Shift tuşunu basılı tutmaya gerek yok. Yalnızca masaüstü.';
       case 'remote_book_info':
-        return 'Info';
+        return 'Bilgi';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'Sesli kitap içerir';
       case 'remote_video_info':
-        return 'Info';
+        return 'Bilgi';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'Altyazı içerir';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'Satır başına sözlük';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'Birden çok sözlüğü yan yana göster; dar ekranlarda daha az sütun kullan';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'Kart aktarıldı ancak ses indirilemedi (${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'Kart cümle sesi olmadan oluşturuldu (bu seçim için bulunamadı).';
       default:
         return null;
     }
@@ -122817,9 +122822,9 @@ extension on _StringsVi {
       case 'video_setting_mpv_channels_auto':
         return 'Tự động';
       case 'video_setting_mpv_channels_stereo':
-        return 'Stereo (downmix)';
+        return 'Stereo (trộn xuống)';
       case 'video_setting_mpv_channels_mono':
-        return 'Mono';
+        return 'Đơn kênh';
       case 'video_setting_mpv_normalize':
         return 'Chuẩn hóa độ to khi downmix';
       case 'video_setting_mpv_brightness':
@@ -123681,78 +123686,78 @@ extension on _StringsVi {
       case 'update_connecting':
         return 'Đang kết nối…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return 'Tự động căn chỉnh phụ đề';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return 'Đang tự động căn chỉnh phụ đề…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return 'Không thể tự động căn chỉnh một cách chắc chắn (không tìm thấy khớp giọng nói rõ ràng)';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) => 'Đã tự động căn chỉnh phụ đề ${ms} ms';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return 'Tiếp tục phát sau khi thoát';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return 'Khi tắt, sách nói sẽ dừng phát khi bạn rời trình đọc. Bật để tiếp tục phát ở chế độ nền.';
       case 'sync_compare_close':
         return 'Đóng';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return 'Chỉ báo tiến độ đọc';
       case 'update_cancel':
-        return 'Cancel';
+        return 'Hủy';
       case 'update_cancelling':
-        return 'Cancelling…';
+        return 'Đang hủy…';
       case 'update_cancelled':
-        return 'Download cancelled';
+        return 'Đã hủy tải xuống';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return 'Vào con trỏ tra cứu';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return 'D-pad Lên';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return 'D-pad Xuống';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return 'D-pad Trái';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return 'D-pad Phải';
       case 'shortcut_scope_gamepad':
-        return 'Gamepad';
+        return 'Tay cầm';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return 'Hướng lật trang';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return 'Không thể tải sách nói cho cuốn sách này';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return 'Không thể kết nối tới Anki: kết nối bị từ chối. Hãy đảm bảo Anki Desktop đang chạy và add-on AnkiConnect đã được cài đặt.';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return 'Không thể kết nối tới Anki: kết nối đã hết thời gian chờ. Hãy kiểm tra máy chủ, cổng và cài đặt tường lửa.';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return 'Không thể xuất sang Anki: đã xảy ra lỗi HTTP khi liên hệ với AnkiConnect.';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return 'Không thể xuất sang Anki: đã xảy ra lỗi kết nối không xác định. Xem nhật ký lỗi để biết chi tiết.';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return 'Nén media của thẻ';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return 'Khi tắt, media của thẻ sắc nét hơn nhưng dung lượng lớn hơn';
       case 'log_copy_all':
-        return 'Copy All';
+        return 'Sao chép tất cả';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return 'Tra cứu khi di chuột';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'Tự động tra cứu khi di chuột qua một ký tự; không cần giữ Shift. Chỉ trên máy tính.';
       case 'remote_book_info':
-        return 'Info';
+        return 'Thông tin';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return 'Bao gồm sách nói';
       case 'remote_video_info':
-        return 'Info';
+        return 'Thông tin';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return 'Bao gồm phụ đề';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return 'Số từ điển mỗi hàng';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return 'Hiển thị nhiều từ điển cạnh nhau; dùng ít cột hơn trên màn hình hẹp';
       case 'card_exported_audio_failed':
         return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+            'Đã xuất thẻ, nhưng tải âm thanh thất bại (${reason}).';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return 'Đã tạo thẻ nhưng không có âm thanh câu (không tìm thấy cho vùng chọn này).';
       default:
         return null;
     }
@@ -125822,9 +125827,9 @@ extension on _StringsZhCn {
       case 'sync_title':
         return '同步';
       case 'anki_connect_host':
-        return 'Host';
+        return '主机';
       case 'anki_connect_port':
-        return 'Port';
+        return '端口';
       case 'sync_compare':
         return '对比数据';
       case 'sync_compare_title':
@@ -129497,9 +129502,9 @@ extension on _StringsZhHk {
       case 'update_channel_stable':
         return '穩定版';
       case 'anki_connect_host':
-        return 'Host';
+        return '主機';
       case 'anki_connect_port':
-        return 'Port';
+        return '連接埠';
       case 'sync_compare':
         return '比對資料';
       case 'sync_compare_title':
@@ -129657,9 +129662,9 @@ extension on _StringsZhHk {
       case 'sync_connection_failed':
         return '連線失敗';
       case 'sync_host':
-        return 'Host';
+        return '主機';
       case 'sync_port':
-        return 'Port';
+        return '連接埠';
       case 'sync_username':
         return '用戶名稱';
       case 'sync_password':
@@ -131033,21 +131038,21 @@ extension on _StringsZhHk {
       case 'update_connecting':
         return '正在連接更新來源…';
       case 'video_subtitle_auto_align':
-        return 'Auto-align subtitle';
+        return '自動對軸';
       case 'video_subtitle_auto_align_running':
-        return 'Auto-aligning subtitle…';
+        return '正在自動對軸…';
       case 'video_subtitle_auto_align_low_confidence':
-        return 'Couldn\'t confidently auto-align (no clear voice match)';
+        return '無法可靠自動對軸（未找到明顯的語音匹配）';
       case 'video_subtitle_auto_align_done':
-        return ({required Object ms}) => 'Auto-aligned subtitle by ${ms} ms';
+        return ({required Object ms}) => '已自動對軸 ${ms} ms';
       case 'audiobook_background_play':
-        return 'Keep playing after exit';
+        return '離開後繼續播放';
       case 'audiobook_background_play_hint':
-        return 'When off, audiobook playback stops when you leave the reader. Turn on to keep playing in the background.';
+        return '關閉時，離開閱讀頁即停止有聲書播放；開啟後離開仍在背景繼續播放。';
       case 'sync_compare_close':
         return '關閉';
       case 'show_top_progress_bar':
-        return 'Reading progress indicator';
+        return '頂部閱讀進度';
       case 'update_cancel':
         return '取消';
       case 'update_cancelling':
@@ -131055,56 +131060,55 @@ extension on _StringsZhHk {
       case 'update_cancelled':
         return '已取消下載';
       case 'shortcut_action_reader_enter_caret':
-        return 'Enter lookup cursor';
+        return '進入選字查詞游標';
       case 'shortcut_action_dpad_up':
-        return 'D-pad Up';
+        return '方向鍵 上';
       case 'shortcut_action_dpad_down':
-        return 'D-pad Down';
+        return '方向鍵 下';
       case 'shortcut_action_dpad_left':
-        return 'D-pad Left';
+        return '方向鍵 左';
       case 'shortcut_action_dpad_right':
-        return 'D-pad Right';
+        return '方向鍵 右';
       case 'shortcut_scope_gamepad':
-        return 'Gamepad';
+        return '手掣';
       case 'section_page_turn_direction':
-        return 'Page-turn direction';
+        return '翻頁方向';
       case 'remote_book_audiobook_download_failed':
-        return 'Could not download audiobook for this book';
+        return '無法下載這本書的有聲書';
       case 'anki_error_connection_refused':
-        return 'Could not connect to Anki: connection refused. Make sure Anki Desktop is running and the AnkiConnect add-on is installed.';
+        return '無法連接 Anki：連接被拒絕。請確認 Anki 桌面版正在執行，且已安裝 AnkiConnect 外掛程式。';
       case 'anki_error_connection_timeout':
-        return 'Could not connect to Anki: the connection timed out. Check the host, port, and firewall settings.';
+        return '無法連接 Anki：連接逾時。請檢查主機、連接埠和防火牆設定。';
       case 'anki_error_http':
-        return 'Could not export to Anki: an HTTP error occurred while contacting AnkiConnect.';
+        return '無法匯出到 Anki：連接 AnkiConnect 時發生 HTTP 錯誤。';
       case 'anki_error_connection_unknown':
-        return 'Could not export to Anki: an unexpected connection error occurred. See the error log for details.';
+        return '無法匯出到 Anki：發生未知的連接錯誤。詳情見錯誤記錄檔。';
       case 'compress_mining_media':
-        return 'Compress card media';
+        return '壓縮製卡媒體';
       case 'compress_mining_media_hint':
-        return 'Off keeps card media sharper but larger';
+        return '關閉後媒體更清晰但體積更大';
       case 'log_copy_all':
-        return 'Copy All';
+        return '全部複製';
       case 'hover_auto_lookup':
-        return 'Look up on hover';
+        return '停留即查詞';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return '滑鼠停留在文字上即自動查詞，無需按住 Shift。僅桌面版。';
       case 'remote_book_info':
-        return 'Info';
+        return '資訊';
       case 'remote_book_info_has_audiobook':
-        return 'Includes audiobook';
+        return '包含有聲書';
       case 'remote_video_info':
-        return 'Info';
+        return '資訊';
       case 'remote_video_info_has_subtitle':
-        return 'Includes subtitles';
+        return '包含字幕';
       case 'popup_dictionary_columns':
-        return 'Dictionaries per row';
+        return '每行詞典數';
       case 'popup_dictionary_columns_hint':
-        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+        return '在一行內並排顯示多個詞典；窄螢幕建議少列';
       case 'card_exported_audio_failed':
-        return ({required Object reason}) =>
-            'Card exported, but the audio failed to download (${reason}).';
+        return ({required Object reason}) => '卡片已匯出，但音訊下載失敗（${reason}）。';
       case 'card_mined_without_sentence_audio':
-        return 'Card created without sentence audio (none found for this selection).';
+        return '已製卡，但今次選取範圍找不到例句音訊。';
       default:
         return null;
     }
