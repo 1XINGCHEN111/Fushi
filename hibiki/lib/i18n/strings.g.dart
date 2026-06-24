@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30651 (1803 per locale)
+/// Strings: 30685 (1805 per locale)
 ///
-/// Built on 2026-06-24 at 03:30 UTC
+/// Built on 2026-06-24 at 03:54 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2415,6 +2415,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get remote_book_info_has_audiobook => 'Includes audiobook';
   String get remote_video_info => 'Info';
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -6495,6 +6498,11 @@ class _StringsAr extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -10697,6 +10705,11 @@ class _StringsDe extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -14917,6 +14930,11 @@ class _StringsEs extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -19156,6 +19174,11 @@ class _StringsFr extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -23296,6 +23319,11 @@ class _StringsId extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -27498,6 +27526,11 @@ class _StringsIt extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -31427,6 +31460,11 @@ class _StringsJa extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -35361,6 +35399,11 @@ class _StringsKo extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -39530,6 +39573,11 @@ class _StringsNl extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -43723,6 +43771,11 @@ class _StringsPtBr extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -47888,6 +47941,11 @@ class _StringsRu extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -51968,6 +52026,11 @@ class _StringsTh extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -56104,6 +56167,11 @@ class _StringsTr extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -60214,6 +60282,11 @@ class _StringsVi extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -64042,6 +64115,10 @@ class _StringsZhCn extends _StringsEn {
   String get remote_video_info => '信息';
   @override
   String get remote_video_info_has_subtitle => '包含字幕';
+  @override
+  String get popup_dictionary_columns => '每行词典数';
+  @override
+  String get popup_dictionary_columns_hint => '在一行内并排显示多个词典；窄屏建议少列';
 }
 
 // Path: retrying_in
@@ -67879,6 +67956,11 @@ class _StringsZhHk extends _StringsEn {
   String get remote_video_info => 'Info';
   @override
   String get remote_video_info_has_subtitle => 'Includes subtitles';
+  @override
+  String get popup_dictionary_columns => 'Dictionaries per row';
+  @override
+  String get popup_dictionary_columns_hint =>
+      'Show multiple dictionaries side by side; use fewer columns on narrow screens';
 }
 
 // Path: retrying_in
@@ -71612,6 +71694,10 @@ extension on _StringsEn {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -75304,6 +75390,10 @@ extension on _StringsAr {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -79018,6 +79108,10 @@ extension on _StringsDe {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -82731,6 +82825,10 @@ extension on _StringsEs {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -86451,6 +86549,10 @@ extension on _StringsFr {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -90150,6 +90252,10 @@ extension on _StringsId {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -93867,6 +93973,10 @@ extension on _StringsIt {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -97542,6 +97652,10 @@ extension on _StringsJa {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -101220,6 +101334,10 @@ extension on _StringsKo {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -104929,6 +105047,10 @@ extension on _StringsNl {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -108636,6 +108758,10 @@ extension on _StringsPtBr {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -112347,6 +112473,10 @@ extension on _StringsRu {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -116039,6 +116169,10 @@ extension on _StringsTh {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -119741,6 +119875,10 @@ extension on _StringsTr {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -123437,6 +123575,10 @@ extension on _StringsVi {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
@@ -127104,6 +127246,10 @@ extension on _StringsZhCn {
         return '信息';
       case 'remote_video_info_has_subtitle':
         return '包含字幕';
+      case 'popup_dictionary_columns':
+        return '每行词典数';
+      case 'popup_dictionary_columns_hint':
+        return '在一行内并排显示多个词典；窄屏建议少列';
       default:
         return null;
     }
@@ -130772,6 +130918,10 @@ extension on _StringsZhHk {
         return 'Info';
       case 'remote_video_info_has_subtitle':
         return 'Includes subtitles';
+      case 'popup_dictionary_columns':
+        return 'Dictionaries per row';
+      case 'popup_dictionary_columns_hint':
+        return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
       default:
         return null;
     }
