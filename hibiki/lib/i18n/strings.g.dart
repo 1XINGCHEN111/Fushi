@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30685 (1805 per locale)
+/// Strings: 30702 (1806 per locale)
 ///
-/// Built on 2026-06-24 at 03:54 UTC
+/// Built on 2026-06-24 at 04:04 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2418,6 +2418,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get popup_dictionary_columns => 'Dictionaries per row';
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -6503,6 +6505,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -10710,6 +10715,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -14935,6 +14943,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -19179,6 +19190,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -23324,6 +23338,9 @@ class _StringsId extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -27531,6 +27548,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -31465,6 +31485,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -35404,6 +35427,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -39578,6 +39604,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -43776,6 +43805,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -47946,6 +47978,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -52031,6 +52066,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -56172,6 +56210,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -60287,6 +60328,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -64119,6 +64163,9 @@ class _StringsZhCn extends _StringsEn {
   String get popup_dictionary_columns => '每行词典数';
   @override
   String get popup_dictionary_columns_hint => '在一行内并排显示多个词典；窄屏建议少列';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      '卡片已导出，但音频下载失败（${reason}）。';
 }
 
 // Path: retrying_in
@@ -67961,6 +68008,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get popup_dictionary_columns_hint =>
       'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+  @override
+  String card_exported_audio_failed({required Object reason}) =>
+      'Card exported, but the audio failed to download (${reason}).';
 }
 
 // Path: retrying_in
@@ -71698,6 +71748,9 @@ extension on _StringsEn {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -75394,6 +75447,9 @@ extension on _StringsAr {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -79112,6 +79168,9 @@ extension on _StringsDe {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -82829,6 +82888,9 @@ extension on _StringsEs {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -86553,6 +86615,9 @@ extension on _StringsFr {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -90256,6 +90321,9 @@ extension on _StringsId {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -93977,6 +94045,9 @@ extension on _StringsIt {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -97656,6 +97727,9 @@ extension on _StringsJa {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -101338,6 +101412,9 @@ extension on _StringsKo {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -105051,6 +105128,9 @@ extension on _StringsNl {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -108762,6 +108842,9 @@ extension on _StringsPtBr {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -112477,6 +112560,9 @@ extension on _StringsRu {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -116173,6 +116259,9 @@ extension on _StringsTh {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -119879,6 +119968,9 @@ extension on _StringsTr {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -123579,6 +123671,9 @@ extension on _StringsVi {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
@@ -127250,6 +127345,8 @@ extension on _StringsZhCn {
         return '每行词典数';
       case 'popup_dictionary_columns_hint':
         return '在一行内并排显示多个词典；窄屏建议少列';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) => '卡片已导出，但音频下载失败（${reason}）。';
       default:
         return null;
     }
@@ -130922,6 +131019,9 @@ extension on _StringsZhHk {
         return 'Dictionaries per row';
       case 'popup_dictionary_columns_hint':
         return 'Show multiple dictionaries side by side; use fewer columns on narrow screens';
+      case 'card_exported_audio_failed':
+        return ({required Object reason}) =>
+            'Card exported, but the audio failed to download (${reason}).';
       default:
         return null;
     }
