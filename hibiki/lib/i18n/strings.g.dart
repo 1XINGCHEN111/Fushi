@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30889 (1817 per locale)
+/// Strings: 30923 (1819 per locale)
 ///
-/// Built on 2026-06-25 at 14:04 UTC
+/// Built on 2026-06-25 at 15:09 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2433,6 +2433,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get collection_export_pick_book => 'Choose a book';
   String get collection_export_all_words => 'All favorite words';
   String get collection_export_no_items => 'Nothing to export';
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -6546,6 +6549,11 @@ class _StringsAr extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -10782,6 +10790,11 @@ class _StringsDe extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -15034,6 +15047,11 @@ class _StringsEs extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -19306,6 +19324,11 @@ class _StringsFr extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -23479,6 +23502,11 @@ class _StringsId extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -27713,6 +27741,11 @@ class _StringsIt extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -31673,6 +31706,11 @@ class _StringsJa extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -35637,6 +35675,11 @@ class _StringsKo extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -39839,6 +39882,11 @@ class _StringsNl extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -44064,6 +44112,11 @@ class _StringsPtBr extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -48264,6 +48317,11 @@ class _StringsRu extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -52377,6 +52435,11 @@ class _StringsTh extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -56546,6 +56609,11 @@ class _StringsTr extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -60689,6 +60757,11 @@ class _StringsVi extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -64547,6 +64620,10 @@ class _StringsZhCn extends _StringsEn {
   String get collection_export_all_words => '全部收藏词';
   @override
   String get collection_export_no_items => '没有可导出的内容';
+  @override
+  String get invert_audiobook_skip_direction => '反转底栏前进后退按钮';
+  @override
+  String get section_bottom_bar_layout => '底栏布局';
 }
 
 // Path: retrying_in
@@ -68407,6 +68484,11 @@ class _StringsZhHk extends _StringsEn {
   String get collection_export_all_words => 'All favorite words';
   @override
   String get collection_export_no_items => 'Nothing to export';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -72170,6 +72252,10 @@ extension on _StringsEn {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -75893,6 +75979,10 @@ extension on _StringsAr {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -79638,6 +79728,10 @@ extension on _StringsDe {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -83381,6 +83475,10 @@ extension on _StringsEs {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -87131,6 +87229,10 @@ extension on _StringsFr {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -90861,6 +90963,10 @@ extension on _StringsId {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -94608,6 +94714,10 @@ extension on _StringsIt {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -98313,6 +98423,10 @@ extension on _StringsJa {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -102021,6 +102135,10 @@ extension on _StringsKo {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -105761,6 +105879,10 @@ extension on _StringsNl {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -109498,6 +109620,10 @@ extension on _StringsPtBr {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -113239,6 +113365,10 @@ extension on _StringsRu {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -116962,6 +117092,10 @@ extension on _StringsTh {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -120694,6 +120828,10 @@ extension on _StringsTr {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -124420,6 +124558,10 @@ extension on _StringsVi {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -128115,6 +128257,10 @@ extension on _StringsZhCn {
         return '全部收藏词';
       case 'collection_export_no_items':
         return '没有可导出的内容';
+      case 'invert_audiobook_skip_direction':
+        return '反转底栏前进后退按钮';
+      case 'section_bottom_bar_layout':
+        return '底栏布局';
       default:
         return null;
     }
@@ -131812,6 +131958,10 @@ extension on _StringsZhHk {
         return 'All favorite words';
       case 'collection_export_no_items':
         return 'Nothing to export';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
