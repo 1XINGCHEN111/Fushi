@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30736 (1808 per locale)
+/// Strings: 30889 (1817 per locale)
 ///
-/// Built on 2026-06-25 at 04:22 UTC
+/// Built on 2026-06-25 at 14:04 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2424,6 +2424,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Card created without sentence audio (none found for this selection).';
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  String get collection_export_words_title => 'Favorite Words';
+  String get collection_export_save => 'Save Export';
+  String get collection_export_saved => 'Export saved';
+  String get collection_export_failed => 'Export failed';
+  String get collection_export_format => 'Format';
+  String get collection_export_pick_book => 'Choose a book';
+  String get collection_export_all_words => 'All favorite words';
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -6519,6 +6528,24 @@ class _StringsAr extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -10737,6 +10764,24 @@ class _StringsDe extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -14971,6 +15016,24 @@ class _StringsEs extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -19225,6 +19288,24 @@ class _StringsFr extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -23380,6 +23461,24 @@ class _StringsId extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -27596,6 +27695,24 @@ class _StringsIt extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -31538,6 +31655,24 @@ class _StringsJa extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -35484,6 +35619,24 @@ class _StringsKo extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -39668,6 +39821,24 @@ class _StringsNl extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -43875,6 +44046,24 @@ class _StringsPtBr extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -48057,6 +48246,24 @@ class _StringsRu extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -52152,6 +52359,24 @@ class _StringsTh extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -56303,6 +56528,24 @@ class _StringsTr extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -60428,6 +60671,24 @@ class _StringsVi extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -64268,6 +64529,24 @@ class _StringsZhCn extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       '卡片封面已降级为静态帧（动图不可用）：${reason}';
+  @override
+  String get collection_export_sentences_title => '收藏句子';
+  @override
+  String get collection_export_words_title => '收藏词';
+  @override
+  String get collection_export_save => '保存导出';
+  @override
+  String get collection_export_saved => '已保存导出';
+  @override
+  String get collection_export_failed => '导出失败';
+  @override
+  String get collection_export_format => '格式';
+  @override
+  String get collection_export_pick_book => '选择书籍';
+  @override
+  String get collection_export_all_words => '全部收藏词';
+  @override
+  String get collection_export_no_items => '没有可导出的内容';
 }
 
 // Path: retrying_in
@@ -68110,6 +68389,24 @@ class _StringsZhHk extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get collection_export_sentences_title => 'Favorite Sentences';
+  @override
+  String get collection_export_words_title => 'Favorite Words';
+  @override
+  String get collection_export_save => 'Save Export';
+  @override
+  String get collection_export_saved => 'Export saved';
+  @override
+  String get collection_export_failed => 'Export failed';
+  @override
+  String get collection_export_format => 'Format';
+  @override
+  String get collection_export_pick_book => 'Choose a book';
+  @override
+  String get collection_export_all_words => 'All favorite words';
+  @override
+  String get collection_export_no_items => 'Nothing to export';
 }
 
 // Path: retrying_in
@@ -71855,6 +72152,24 @@ extension on _StringsEn {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -75560,6 +75875,24 @@ extension on _StringsAr {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -79287,6 +79620,24 @@ extension on _StringsDe {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -83012,6 +83363,24 @@ extension on _StringsEs {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -86744,6 +87113,24 @@ extension on _StringsFr {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -90456,6 +90843,24 @@ extension on _StringsId {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -94185,6 +94590,24 @@ extension on _StringsIt {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -97872,6 +98295,24 @@ extension on _StringsJa {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -101562,6 +102003,24 @@ extension on _StringsKo {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -105284,6 +105743,24 @@ extension on _StringsNl {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -109003,6 +109480,24 @@ extension on _StringsPtBr {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -112726,6 +113221,24 @@ extension on _StringsRu {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -116431,6 +116944,24 @@ extension on _StringsTh {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -120145,6 +120676,24 @@ extension on _StringsTr {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -123853,6 +124402,24 @@ extension on _StringsVi {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
@@ -127530,6 +128097,24 @@ extension on _StringsZhCn {
         return '已制卡，但本次选区找不到句子音频。';
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) => '卡片封面已降级为静态帧（动图不可用）：${reason}';
+      case 'collection_export_sentences_title':
+        return '收藏句子';
+      case 'collection_export_words_title':
+        return '收藏词';
+      case 'collection_export_save':
+        return '保存导出';
+      case 'collection_export_saved':
+        return '已保存导出';
+      case 'collection_export_failed':
+        return '导出失败';
+      case 'collection_export_format':
+        return '格式';
+      case 'collection_export_pick_book':
+        return '选择书籍';
+      case 'collection_export_all_words':
+        return '全部收藏词';
+      case 'collection_export_no_items':
+        return '没有可导出的内容';
       default:
         return null;
     }
@@ -131209,6 +131794,24 @@ extension on _StringsZhHk {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'collection_export_sentences_title':
+        return 'Favorite Sentences';
+      case 'collection_export_words_title':
+        return 'Favorite Words';
+      case 'collection_export_save':
+        return 'Save Export';
+      case 'collection_export_saved':
+        return 'Export saved';
+      case 'collection_export_failed':
+        return 'Export failed';
+      case 'collection_export_format':
+        return 'Format';
+      case 'collection_export_pick_book':
+        return 'Choose a book';
+      case 'collection_export_all_words':
+        return 'All favorite words';
+      case 'collection_export_no_items':
+        return 'Nothing to export';
       default:
         return null;
     }
