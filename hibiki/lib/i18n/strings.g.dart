@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30736 (1808 per locale)
+/// Strings: 30770 (1810 per locale)
 ///
-/// Built on 2026-06-25 at 04:22 UTC
+/// Built on 2026-06-25 at 14:15 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2424,6 +2424,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Card created without sentence audio (none found for this selection).';
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -6519,6 +6522,11 @@ class _StringsAr extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -10737,6 +10745,11 @@ class _StringsDe extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -14971,6 +14984,11 @@ class _StringsEs extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -19225,6 +19243,11 @@ class _StringsFr extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -23380,6 +23403,11 @@ class _StringsId extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -27596,6 +27624,11 @@ class _StringsIt extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -31538,6 +31571,11 @@ class _StringsJa extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -35484,6 +35522,11 @@ class _StringsKo extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -39668,6 +39711,11 @@ class _StringsNl extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -43875,6 +43923,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -48057,6 +48110,11 @@ class _StringsRu extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -52152,6 +52210,11 @@ class _StringsTh extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -56303,6 +56366,11 @@ class _StringsTr extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -60428,6 +60496,11 @@ class _StringsVi extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -64268,6 +64341,10 @@ class _StringsZhCn extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       '卡片封面已降级为静态帧（动图不可用）：${reason}';
+  @override
+  String get invert_audiobook_skip_direction => '反转底栏前进后退按钮';
+  @override
+  String get section_bottom_bar_layout => '底栏布局';
 }
 
 // Path: retrying_in
@@ -68110,6 +68187,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String card_cover_degraded_to_static({required Object reason}) =>
       'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+  @override
+  String get invert_audiobook_skip_direction =>
+      'Invert bottom-bar skip buttons';
+  @override
+  String get section_bottom_bar_layout => 'Bottom bar layout';
 }
 
 // Path: retrying_in
@@ -71855,6 +71937,10 @@ extension on _StringsEn {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -75560,6 +75646,10 @@ extension on _StringsAr {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -79287,6 +79377,10 @@ extension on _StringsDe {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -83012,6 +83106,10 @@ extension on _StringsEs {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -86744,6 +86842,10 @@ extension on _StringsFr {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -90456,6 +90558,10 @@ extension on _StringsId {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -94185,6 +94291,10 @@ extension on _StringsIt {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -97872,6 +97982,10 @@ extension on _StringsJa {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -101562,6 +101676,10 @@ extension on _StringsKo {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -105284,6 +105402,10 @@ extension on _StringsNl {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -109003,6 +109125,10 @@ extension on _StringsPtBr {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -112726,6 +112852,10 @@ extension on _StringsRu {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -116431,6 +116561,10 @@ extension on _StringsTh {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -120145,6 +120279,10 @@ extension on _StringsTr {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -123853,6 +123991,10 @@ extension on _StringsVi {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
@@ -127530,6 +127672,10 @@ extension on _StringsZhCn {
         return '已制卡，但本次选区找不到句子音频。';
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) => '卡片封面已降级为静态帧（动图不可用）：${reason}';
+      case 'invert_audiobook_skip_direction':
+        return '反转底栏前进后退按钮';
+      case 'section_bottom_bar_layout':
+        return '底栏布局';
       default:
         return null;
     }
@@ -131209,6 +131355,10 @@ extension on _StringsZhHk {
       case 'card_cover_degraded_to_static':
         return ({required Object reason}) =>
             'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
+      case 'invert_audiobook_skip_direction':
+        return 'Invert bottom-bar skip buttons';
+      case 'section_bottom_bar_layout':
+        return 'Bottom bar layout';
       default:
         return null;
     }
