@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30719 (1807 per locale)
+/// Strings: 30736 (1808 per locale)
 ///
-/// Built on 2026-06-24 at 18:51 UTC
+/// Built on 2026-06-25 at 04:22 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2422,6 +2422,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Card exported, but the audio failed to download (${reason}).';
   String get card_mined_without_sentence_audio =>
       'Card created without sentence audio (none found for this selection).';
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -6514,6 +6516,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'تم إنشاء البطاقة بدون صوت الجملة (لم يُعثر على صوت لهذا التحديد).';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -10729,6 +10734,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'Karte ohne Satz-Audio erstellt (keines für diese Auswahl gefunden).';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -14960,6 +14968,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'Tarjeta creada sin audio de frase (no se encontró para esta selección).';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -19211,6 +19222,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'Carte créée sans audio de phrase (aucun trouvé pour cette sélection).';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -23363,6 +23377,9 @@ class _StringsId extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'Kartu dibuat tanpa audio kalimat (tidak ditemukan untuk pilihan ini).';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -27576,6 +27593,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'Carta creata senza audio della frase (nessuno trovato per questa selezione).';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -31515,6 +31535,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'カードを作成しましたが、今回の選択範囲では例文の音声が見つかりませんでした。';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -35458,6 +35481,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       '카드를 만들었지만 이번 선택 범위에서 문장 오디오를 찾지 못했습니다.';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -39639,6 +39665,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'Kaart aangemaakt zonder zinsaudio (geen gevonden voor deze selectie).';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -43843,6 +43872,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'Cartão criado sem áudio da frase (nenhum encontrado para esta seleção).';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -48022,6 +48054,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'Карточка создана без аудио предложения (для этого выделения ничего не найдено).';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -52114,6 +52149,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'สร้างการ์ดโดยไม่มีเสียงประโยค (ไม่พบเสียงสำหรับส่วนที่เลือกนี้)';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -56262,6 +56300,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'Kart cümle sesi olmadan oluşturuldu (bu seçim için bulunamadı).';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -60384,6 +60425,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get card_mined_without_sentence_audio =>
       'Đã tạo thẻ nhưng không có âm thanh câu (không tìm thấy cho vùng chọn này).';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -64221,6 +64265,9 @@ class _StringsZhCn extends _StringsEn {
       '卡片已导出，但音频下载失败（${reason}）。';
   @override
   String get card_mined_without_sentence_audio => '已制卡，但本次选区找不到句子音频。';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      '卡片封面已降级为静态帧（动图不可用）：${reason}';
 }
 
 // Path: retrying_in
@@ -68060,6 +68107,9 @@ class _StringsZhHk extends _StringsEn {
       '卡片已匯出，但音訊下載失敗（${reason}）。';
   @override
   String get card_mined_without_sentence_audio => '已製卡，但今次選取範圍找不到例句音訊。';
+  @override
+  String card_cover_degraded_to_static({required Object reason}) =>
+      'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
 }
 
 // Path: retrying_in
@@ -71802,6 +71852,9 @@ extension on _StringsEn {
             'Card exported, but the audio failed to download (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'Card created without sentence audio (none found for this selection).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -75504,6 +75557,9 @@ extension on _StringsAr {
             'تم تصدير البطاقة، لكن فشل تنزيل الصوت (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'تم إنشاء البطاقة بدون صوت الجملة (لم يُعثر على صوت لهذا التحديد).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -79228,6 +79284,9 @@ extension on _StringsDe {
             'Karte exportiert, aber das Audio konnte nicht heruntergeladen werden (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'Karte ohne Satz-Audio erstellt (keines für diese Auswahl gefunden).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -82950,6 +83009,9 @@ extension on _StringsEs {
             'Tarjeta exportada, pero falló la descarga del audio (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'Tarjeta creada sin audio de frase (no se encontró para esta selección).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -86679,6 +86741,9 @@ extension on _StringsFr {
             'Carte exportée, mais le téléchargement de l\'audio a échoué (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'Carte créée sans audio de phrase (aucun trouvé pour cette sélection).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -90388,6 +90453,9 @@ extension on _StringsId {
             'Kartu diekspor, tetapi audio gagal diunduh (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'Kartu dibuat tanpa audio kalimat (tidak ditemukan untuk pilihan ini).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -94114,6 +94182,9 @@ extension on _StringsIt {
             'Carta esportata, ma il download dell\'audio non è riuscito (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'Carta creata senza audio della frase (nessuno trovato per questa selezione).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -97798,6 +97869,9 @@ extension on _StringsJa {
             'カードを書き出しましたが、音声のダウンロードに失敗しました（${reason}）。';
       case 'card_mined_without_sentence_audio':
         return 'カードを作成しましたが、今回の選択範囲では例文の音声が見つかりませんでした。';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -101485,6 +101559,9 @@ extension on _StringsKo {
             '카드를 내보냈지만 오디오 다운로드에 실패했습니다(${reason}).';
       case 'card_mined_without_sentence_audio':
         return '카드를 만들었지만 이번 선택 범위에서 문장 오디오를 찾지 못했습니다.';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -105204,6 +105281,9 @@ extension on _StringsNl {
             'Kaart geëxporteerd, maar de audio kon niet worden gedownload (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'Kaart aangemaakt zonder zinsaudio (geen gevonden voor deze selectie).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -108920,6 +109000,9 @@ extension on _StringsPtBr {
             'Cartão exportado, mas o download do áudio falhou (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'Cartão criado sem áudio da frase (nenhum encontrado para esta seleção).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -112640,6 +112723,9 @@ extension on _StringsRu {
             'Карточка экспортирована, но не удалось загрузить аудио (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'Карточка создана без аудио предложения (для этого выделения ничего не найдено).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -116342,6 +116428,9 @@ extension on _StringsTh {
             'ส่งออกการ์ดแล้ว แต่ดาวน์โหลดเสียงไม่สำเร็จ (${reason})';
       case 'card_mined_without_sentence_audio':
         return 'สร้างการ์ดโดยไม่มีเสียงประโยค (ไม่พบเสียงสำหรับส่วนที่เลือกนี้)';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -120053,6 +120142,9 @@ extension on _StringsTr {
             'Kart aktarıldı ancak ses indirilemedi (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'Kart cümle sesi olmadan oluşturuldu (bu seçim için bulunamadı).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -123758,6 +123850,9 @@ extension on _StringsVi {
             'Đã xuất thẻ, nhưng tải âm thanh thất bại (${reason}).';
       case 'card_mined_without_sentence_audio':
         return 'Đã tạo thẻ nhưng không có âm thanh câu (không tìm thấy cho vùng chọn này).';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
@@ -127433,6 +127528,8 @@ extension on _StringsZhCn {
         return ({required Object reason}) => '卡片已导出，但音频下载失败（${reason}）。';
       case 'card_mined_without_sentence_audio':
         return '已制卡，但本次选区找不到句子音频。';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) => '卡片封面已降级为静态帧（动图不可用）：${reason}';
       default:
         return null;
     }
@@ -131109,6 +131206,9 @@ extension on _StringsZhHk {
         return ({required Object reason}) => '卡片已匯出，但音訊下載失敗（${reason}）。';
       case 'card_mined_without_sentence_audio':
         return '已製卡，但今次選取範圍找不到例句音訊。';
+      case 'card_cover_degraded_to_static':
+        return ({required Object reason}) =>
+            'Card cover fell back to a still frame (animated clip unavailable): ${reason}';
       default:
         return null;
     }
