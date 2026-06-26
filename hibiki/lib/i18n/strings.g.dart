@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31535 (1855 per locale)
+/// Strings: 31773 (1869 per locale)
 ///
-/// Built on 2026-06-26 at 15:07 UTC
+/// Built on 2026-06-26 at 15:39 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2479,6 +2479,21 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
           {required Object incoming, required Object existing}) =>
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   String get dialog_replace => 'Replace';
+  String get media_source_manage_title => 'Manage Sources';
+  String get media_source_add_local_folder => 'Local Folder';
+  String get media_source_add_network => 'Network';
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  String get media_source_rescan => 'Rescan';
+  String get media_source_open_folder => 'Open Folder';
+  String get media_source_remove => 'Remove Source';
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  String get media_source_scan_error => 'Scan failed';
+  String get media_source_no_sources => 'No sources yet';
+  String get media_source_add => 'Add Source';
+  String media_source_count_video({required Object n}) => '${n} videos';
+  String media_source_count_book({required Object n}) => '${n} books';
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -6676,6 +6691,35 @@ class _StringsAr extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -10995,6 +11039,35 @@ class _StringsDe extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -15331,6 +15404,35 @@ class _StringsEs extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -19686,6 +19788,35 @@ class _StringsFr extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -23943,6 +24074,35 @@ class _StringsId extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -28261,6 +28421,35 @@ class _StringsIt extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -32305,6 +32494,35 @@ class _StringsJa extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -36353,6 +36571,35 @@ class _StringsKo extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -40639,6 +40886,35 @@ class _StringsNl extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -44948,6 +45224,35 @@ class _StringsPtBr extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -49232,6 +49537,35 @@ class _StringsRu extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -53429,6 +53763,35 @@ class _StringsTh extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -57681,6 +58044,35 @@ class _StringsTr extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -61908,6 +62300,35 @@ class _StringsVi extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -65848,6 +66269,34 @@ class _StringsZhCn extends _StringsEn {
       '所选文件是「${incoming}」，但你正在更新「${existing}」。仍要替换吗？';
   @override
   String get dialog_replace => '替换';
+  @override
+  String get media_source_manage_title => '管理来源';
+  @override
+  String get media_source_add_local_folder => '本地文件夹';
+  @override
+  String get media_source_add_network => '网络';
+  @override
+  String get media_source_network_coming_soon => '网络来源敬请期待';
+  @override
+  String get media_source_rescan => '重新扫描';
+  @override
+  String get media_source_open_folder => '打开文件夹';
+  @override
+  String get media_source_remove => '移除来源';
+  @override
+  String get media_source_remove_keeps_media => '移除来源不会删除已导入的媒体。';
+  @override
+  String get media_source_scan_error => '扫描失败';
+  @override
+  String get media_source_no_sources => '暂无来源';
+  @override
+  String get media_source_add => '添加来源';
+  @override
+  String media_source_count_video({required Object n}) => '${n} 个视频';
+  @override
+  String media_source_count_book({required Object n}) => '${n} 本书';
+  @override
+  String media_source_last_scan({required Object time}) => '上次扫描 ${time}';
 }
 
 // Path: retrying_in
@@ -69794,6 +70243,35 @@ class _StringsZhHk extends _StringsEn {
       'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
   @override
   String get dialog_replace => 'Replace';
+  @override
+  String get media_source_manage_title => 'Manage Sources';
+  @override
+  String get media_source_add_local_folder => 'Local Folder';
+  @override
+  String get media_source_add_network => 'Network';
+  @override
+  String get media_source_network_coming_soon => 'Network sources coming soon';
+  @override
+  String get media_source_rescan => 'Rescan';
+  @override
+  String get media_source_open_folder => 'Open Folder';
+  @override
+  String get media_source_remove => 'Remove Source';
+  @override
+  String get media_source_remove_keeps_media =>
+      'Removing a source does not delete imported media.';
+  @override
+  String get media_source_scan_error => 'Scan failed';
+  @override
+  String get media_source_no_sources => 'No sources yet';
+  @override
+  String get media_source_add => 'Add Source';
+  @override
+  String media_source_count_video({required Object n}) => '${n} videos';
+  @override
+  String media_source_count_book({required Object n}) => '${n} books';
+  @override
+  String media_source_last_scan({required Object time}) => 'Last scan ${time}';
 }
 
 // Path: retrying_in
@@ -73634,6 +74112,34 @@ extension on _StringsEn {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -77434,6 +77940,34 @@ extension on _StringsAr {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -81256,6 +81790,34 @@ extension on _StringsDe {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -85076,6 +85638,34 @@ extension on _StringsEs {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -88903,6 +89493,34 @@ extension on _StringsFr {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -92710,6 +93328,34 @@ extension on _StringsId {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -96534,6 +97180,34 @@ extension on _StringsIt {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -100316,6 +100990,34 @@ extension on _StringsJa {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -104101,6 +104803,34 @@ extension on _StringsKo {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -107918,6 +108648,34 @@ extension on _StringsNl {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -111732,6 +112490,34 @@ extension on _StringsPtBr {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -115550,6 +116336,34 @@ extension on _StringsRu {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -119350,6 +120164,34 @@ extension on _StringsTh {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -123159,6 +124001,34 @@ extension on _StringsTr {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -126962,6 +127832,34 @@ extension on _StringsVi {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
@@ -130734,6 +131632,34 @@ extension on _StringsZhCn {
             '所选文件是「${incoming}」，但你正在更新「${existing}」。仍要替换吗？';
       case 'dialog_replace':
         return '替换';
+      case 'media_source_manage_title':
+        return '管理来源';
+      case 'media_source_add_local_folder':
+        return '本地文件夹';
+      case 'media_source_add_network':
+        return '网络';
+      case 'media_source_network_coming_soon':
+        return '网络来源敬请期待';
+      case 'media_source_rescan':
+        return '重新扫描';
+      case 'media_source_open_folder':
+        return '打开文件夹';
+      case 'media_source_remove':
+        return '移除来源';
+      case 'media_source_remove_keeps_media':
+        return '移除来源不会删除已导入的媒体。';
+      case 'media_source_scan_error':
+        return '扫描失败';
+      case 'media_source_no_sources':
+        return '暂无来源';
+      case 'media_source_add':
+        return '添加来源';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} 个视频';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} 本书';
+      case 'media_source_last_scan':
+        return ({required Object time}) => '上次扫描 ${time}';
       default:
         return null;
     }
@@ -134508,6 +135434,34 @@ extension on _StringsZhHk {
             'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
       case 'dialog_replace':
         return 'Replace';
+      case 'media_source_manage_title':
+        return 'Manage Sources';
+      case 'media_source_add_local_folder':
+        return 'Local Folder';
+      case 'media_source_add_network':
+        return 'Network';
+      case 'media_source_network_coming_soon':
+        return 'Network sources coming soon';
+      case 'media_source_rescan':
+        return 'Rescan';
+      case 'media_source_open_folder':
+        return 'Open Folder';
+      case 'media_source_remove':
+        return 'Remove Source';
+      case 'media_source_remove_keeps_media':
+        return 'Removing a source does not delete imported media.';
+      case 'media_source_scan_error':
+        return 'Scan failed';
+      case 'media_source_no_sources':
+        return 'No sources yet';
+      case 'media_source_add':
+        return 'Add Source';
+      case 'media_source_count_video':
+        return ({required Object n}) => '${n} videos';
+      case 'media_source_count_book':
+        return ({required Object n}) => '${n} books';
+      case 'media_source_last_scan':
+        return ({required Object time}) => 'Last scan ${time}';
       default:
         return null;
     }
