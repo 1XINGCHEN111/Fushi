@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31348 (1844 per locale)
+/// Strings: 31433 (1849 per locale)
 ///
-/// Built on 2026-06-26 at 09:39 UTC
+/// Built on 2026-06-26 at 10:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1475,8 +1475,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_server_mode_active => 'This device is a sync server';
 	String get sync_server_mode_clients_drive => 'Connected clients start the sync — no manual sync needed here.';
 	String card_export_failed_detail({required Object reason}) => 'Failed to export card: ${reason}';
-	String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
-	String get video_setting_subtitle_blur_hint => 'Hide subtitles by default; hover or tap to reveal for listening practice.';
 	String get video_setting_subtitle_appearance => 'Subtitle appearance';
 	String get video_setting_subtitle_font_size => 'Font size';
 	String get video_setting_subtitle_bg_opacity => 'Background opacity';
@@ -2004,6 +2002,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get top_progress_pos_right => 'Top-right';
 	String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	String get video_setting_subtitle_obscure_none => 'Off';
+	String get video_setting_subtitle_obscure_blur => 'Blur';
+	String get video_setting_subtitle_obscure_hide => 'Hide';
+	String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -3372,8 +3377,6 @@ class _StringsAr extends _StringsEn {
 	@override String get sync_server_mode_active => 'هذا الجهاز خادم مزامنة';
 	@override String get sync_server_mode_clients_drive => 'تبدأ المزامنة من العملاء المتصلين — لا حاجة للمزامنة اليدوية هنا.';
 	@override String card_export_failed_detail({required Object reason}) => 'فشل تصدير البطاقة: ${reason}';
-	@override String get video_setting_subtitle_blur => 'تمويه الترجمة (انغماس)';
-	@override String get video_setting_subtitle_blur_hint => 'إخفاء الترجمة افتراضيًا؛ مرّر فوقها أو انقرها لإظهارها بهدف تدريب الاستماع.';
 	@override String get video_setting_subtitle_appearance => 'مظهر الترجمة';
 	@override String get video_setting_subtitle_font_size => 'حجم الخط';
 	@override String get video_setting_subtitle_bg_opacity => 'تعتيم الخلفية';
@@ -3901,6 +3904,13 @@ class _StringsAr extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -5269,8 +5279,6 @@ class _StringsDe extends _StringsEn {
 	@override String get sync_server_mode_active => 'Dieses Gerät ist ein Sync-Server';
 	@override String get sync_server_mode_clients_drive => 'Verbundene Clients starten die Synchronisierung – hier ist keine manuelle Synchronisierung nötig.';
 	@override String card_export_failed_detail({required Object reason}) => 'Karte konnte nicht exportiert werden: ${reason}';
-	@override String get video_setting_subtitle_blur => 'Untertitel verschwommen (Immersion)';
-	@override String get video_setting_subtitle_blur_hint => 'Untertitel standardmäßig ausblenden; zum Hörtraining per Mauszeiger oder Tippen einblenden.';
 	@override String get video_setting_subtitle_appearance => 'Untertitel-Darstellung';
 	@override String get video_setting_subtitle_font_size => 'Schriftgröße';
 	@override String get video_setting_subtitle_bg_opacity => 'Hintergrund-Deckkraft';
@@ -5798,6 +5806,13 @@ class _StringsDe extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -7166,8 +7181,6 @@ class _StringsEs extends _StringsEn {
 	@override String get sync_server_mode_active => 'Este dispositivo es un servidor de sincronización';
 	@override String get sync_server_mode_clients_drive => 'Los clientes conectados inician la sincronización: aquí no hace falta sincronizar manualmente.';
 	@override String card_export_failed_detail({required Object reason}) => 'Error al exportar la tarjeta: ${reason}';
-	@override String get video_setting_subtitle_blur => 'Difuminar subtítulos (inmersión)';
-	@override String get video_setting_subtitle_blur_hint => 'Oculta los subtítulos por defecto; pasa el ratón o toca para mostrarlos en la práctica de escucha.';
 	@override String get video_setting_subtitle_appearance => 'Aspecto de los subtítulos';
 	@override String get video_setting_subtitle_font_size => 'Tamaño de fuente';
 	@override String get video_setting_subtitle_bg_opacity => 'Opacidad del fondo';
@@ -7695,6 +7708,13 @@ class _StringsEs extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -9063,8 +9083,6 @@ class _StringsFr extends _StringsEn {
 	@override String get sync_server_mode_active => 'Cet appareil est un serveur de synchronisation';
 	@override String get sync_server_mode_clients_drive => 'Ce sont les clients connectés qui lancent la synchronisation — aucune synchro manuelle ici.';
 	@override String card_export_failed_detail({required Object reason}) => 'Échec de l\'export de la carte : ${reason}';
-	@override String get video_setting_subtitle_blur => 'Flouter les sous-titres (immersion)';
-	@override String get video_setting_subtitle_blur_hint => 'Masque les sous-titres par défaut ; survolez ou touchez pour les révéler, pour l\'entraînement à l\'écoute.';
 	@override String get video_setting_subtitle_appearance => 'Apparence des sous-titres';
 	@override String get video_setting_subtitle_font_size => 'Taille de police';
 	@override String get video_setting_subtitle_bg_opacity => 'Opacité du fond';
@@ -9592,6 +9610,13 @@ class _StringsFr extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -10960,8 +10985,6 @@ class _StringsId extends _StringsEn {
 	@override String get sync_server_mode_active => 'Perangkat ini adalah server sinkronisasi';
 	@override String get sync_server_mode_clients_drive => 'Sinkronisasi dimulai oleh klien yang terhubung — tidak perlu sinkron manual di sini.';
 	@override String card_export_failed_detail({required Object reason}) => 'Gagal mengekspor kartu: ${reason}';
-	@override String get video_setting_subtitle_blur => 'Buramkan subtitle (imersi)';
-	@override String get video_setting_subtitle_blur_hint => 'Sembunyikan subtitle secara default; arahkan kursor atau ketuk untuk menampilkannya saat latihan menyimak.';
 	@override String get video_setting_subtitle_appearance => 'Tampilan subtitle';
 	@override String get video_setting_subtitle_font_size => 'Ukuran font';
 	@override String get video_setting_subtitle_bg_opacity => 'Opasitas latar';
@@ -11489,6 +11512,13 @@ class _StringsId extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -12857,8 +12887,6 @@ class _StringsIt extends _StringsEn {
 	@override String get sync_server_mode_active => 'Questo dispositivo è un server di sincronizzazione';
 	@override String get sync_server_mode_clients_drive => 'Sono i client connessi ad avviare la sincronizzazione — qui non serve farlo manualmente.';
 	@override String card_export_failed_detail({required Object reason}) => 'Esportazione della carta non riuscita: ${reason}';
-	@override String get video_setting_subtitle_blur => 'Sfoca sottotitoli (immersione)';
-	@override String get video_setting_subtitle_blur_hint => 'Nasconde i sottotitoli per impostazione predefinita; passa sopra o tocca per rivelarli e allenare l\'ascolto.';
 	@override String get video_setting_subtitle_appearance => 'Aspetto sottotitoli';
 	@override String get video_setting_subtitle_font_size => 'Dimensione carattere';
 	@override String get video_setting_subtitle_bg_opacity => 'Opacità sfondo';
@@ -13386,6 +13414,13 @@ class _StringsIt extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -14754,8 +14789,6 @@ class _StringsJa extends _StringsEn {
 	@override String get sync_server_mode_active => 'このデバイスは同期サーバーです';
 	@override String get sync_server_mode_clients_drive => '接続中のクライアントが同期を開始します — このデバイスでの手動同期は不要です。';
 	@override String card_export_failed_detail({required Object reason}) => 'カードの書き出しに失敗しました：${reason}';
-	@override String get video_setting_subtitle_blur => '字幕をぼかす（イマージョン）';
-	@override String get video_setting_subtitle_blur_hint => '通常は字幕を隠し、ホバーまたはタップで表示します。リスニング練習に。';
 	@override String get video_setting_subtitle_appearance => '字幕の見た目';
 	@override String get video_setting_subtitle_font_size => '文字サイズ';
 	@override String get video_setting_subtitle_bg_opacity => '背景の不透明度';
@@ -15283,6 +15316,13 @@ class _StringsJa extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -16651,8 +16691,6 @@ class _StringsKo extends _StringsEn {
 	@override String get sync_server_mode_active => '이 기기는 동기화 서버입니다';
 	@override String get sync_server_mode_clients_drive => '연결된 클라이언트가 동기화를 시작하므로 이 기기에서는 수동 동기화가 필요 없습니다.';
 	@override String card_export_failed_detail({required Object reason}) => '카드 내보내기 실패: ${reason}';
-	@override String get video_setting_subtitle_blur => '자막 흐리게(몰입)';
-	@override String get video_setting_subtitle_blur_hint => '기본적으로 자막을 가리고, 마우스를 올리거나 탭하면 보여 듣기 연습에 활용합니다.';
 	@override String get video_setting_subtitle_appearance => '자막 외관';
 	@override String get video_setting_subtitle_font_size => '글자 크기';
 	@override String get video_setting_subtitle_bg_opacity => '배경 불투명도';
@@ -17180,6 +17218,13 @@ class _StringsKo extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -18548,8 +18593,6 @@ class _StringsNl extends _StringsEn {
 	@override String get sync_server_mode_active => 'Dit apparaat is een synchronisatieserver';
 	@override String get sync_server_mode_clients_drive => 'Verbonden clients starten de synchronisatie — hier is geen handmatige synchronisatie nodig.';
 	@override String card_export_failed_detail({required Object reason}) => 'Kaart exporteren mislukt: ${reason}';
-	@override String get video_setting_subtitle_blur => 'Ondertitels vervagen (immersie)';
-	@override String get video_setting_subtitle_blur_hint => 'Verberg ondertitels standaard; beweeg de muis erover of tik om ze te tonen voor luisteroefening.';
 	@override String get video_setting_subtitle_appearance => 'Weergave ondertitels';
 	@override String get video_setting_subtitle_font_size => 'Tekengrootte';
 	@override String get video_setting_subtitle_bg_opacity => 'Dekking achtergrond';
@@ -19077,6 +19120,13 @@ class _StringsNl extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -20445,8 +20495,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get sync_server_mode_active => 'Este dispositivo é um servidor de sincronização';
 	@override String get sync_server_mode_clients_drive => 'Os clientes conectados iniciam a sincronização — nenhuma sincronização manual é necessária aqui.';
 	@override String card_export_failed_detail({required Object reason}) => 'Falha ao exportar o cartão: ${reason}';
-	@override String get video_setting_subtitle_blur => 'Desfocar legendas (imersão)';
-	@override String get video_setting_subtitle_blur_hint => 'Oculta as legendas por padrão; passe o mouse ou toque para revelar, ideal para praticar escuta.';
 	@override String get video_setting_subtitle_appearance => 'Aparência da legenda';
 	@override String get video_setting_subtitle_font_size => 'Tamanho da fonte';
 	@override String get video_setting_subtitle_bg_opacity => 'Opacidade do fundo';
@@ -20974,6 +21022,13 @@ class _StringsPtBr extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -22342,8 +22397,6 @@ class _StringsRu extends _StringsEn {
 	@override String get sync_server_mode_active => 'Это устройство — сервер синхронизации';
 	@override String get sync_server_mode_clients_drive => 'Синхронизацию запускают подключённые клиенты — вручную здесь не нужно.';
 	@override String card_export_failed_detail({required Object reason}) => 'Не удалось экспортировать карточку: ${reason}';
-	@override String get video_setting_subtitle_blur => 'Размытие субтитров (погружение)';
-	@override String get video_setting_subtitle_blur_hint => 'Скрывать субтитры по умолчанию; наведите или коснитесь, чтобы показать — для тренировки восприятия на слух.';
 	@override String get video_setting_subtitle_appearance => 'Вид субтитров';
 	@override String get video_setting_subtitle_font_size => 'Размер шрифта';
 	@override String get video_setting_subtitle_bg_opacity => 'Непрозрачность фона';
@@ -22871,6 +22924,13 @@ class _StringsRu extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -24239,8 +24299,6 @@ class _StringsTh extends _StringsEn {
 	@override String get sync_server_mode_active => 'เครื่องนี้เป็นเซิร์ฟเวอร์ซิงค์';
 	@override String get sync_server_mode_clients_drive => 'ไคลเอนต์ที่เชื่อมต่อจะเป็นผู้เริ่มซิงค์ — เครื่องนี้ไม่ต้องซิงค์เอง';
 	@override String card_export_failed_detail({required Object reason}) => 'ส่งออกการ์ดไม่สำเร็จ: ${reason}';
-	@override String get video_setting_subtitle_blur => 'เบลอคำบรรยาย (โหมดดื่มด่ำ)';
-	@override String get video_setting_subtitle_blur_hint => 'ซ่อนคำบรรยายไว้ก่อน; ชี้เมาส์หรือแตะเพื่อแสดงสำหรับฝึกฟัง';
 	@override String get video_setting_subtitle_appearance => 'หน้าตาคำบรรยาย';
 	@override String get video_setting_subtitle_font_size => 'ขนาดตัวอักษร';
 	@override String get video_setting_subtitle_bg_opacity => 'ความทึบของพื้นหลัง';
@@ -24768,6 +24826,13 @@ class _StringsTh extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -26136,8 +26201,6 @@ class _StringsTr extends _StringsEn {
 	@override String get sync_server_mode_active => 'Bu cihaz bir eşitleme sunucusu';
 	@override String get sync_server_mode_clients_drive => 'Eşitlemeyi bağlı istemciler başlatır — burada elle eşitleme gerekmez.';
 	@override String card_export_failed_detail({required Object reason}) => 'Kart dışa aktarılamadı: ${reason}';
-	@override String get video_setting_subtitle_blur => 'Altyazıları bulanıklaştır (dinleme alıştırması)';
-	@override String get video_setting_subtitle_blur_hint => 'Altyazıları varsayılan olarak gizle; dinleme alıştırması için üzerine gelin veya dokunarak gösterin.';
 	@override String get video_setting_subtitle_appearance => 'Altyazı görünümü';
 	@override String get video_setting_subtitle_font_size => 'Yazı boyutu';
 	@override String get video_setting_subtitle_bg_opacity => 'Arka plan matlığı';
@@ -26665,6 +26728,13 @@ class _StringsTr extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -28033,8 +28103,6 @@ class _StringsVi extends _StringsEn {
 	@override String get sync_server_mode_active => 'Thiết bị này là máy chủ đồng bộ';
 	@override String get sync_server_mode_clients_drive => 'Các máy khách đã kết nối sẽ khởi tạo đồng bộ — máy này không cần đồng bộ thủ công.';
 	@override String card_export_failed_detail({required Object reason}) => 'Xuất thẻ thất bại: ${reason}';
-	@override String get video_setting_subtitle_blur => 'Làm mờ phụ đề (đắm chìm)';
-	@override String get video_setting_subtitle_blur_hint => 'Mặc định ẩn phụ đề; di chuột hoặc chạm để hiện, dùng để luyện nghe.';
 	@override String get video_setting_subtitle_appearance => 'Giao diện phụ đề';
 	@override String get video_setting_subtitle_font_size => 'Cỡ chữ';
 	@override String get video_setting_subtitle_bg_opacity => 'Độ mờ nền';
@@ -28562,6 +28630,13 @@ class _StringsVi extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -29930,8 +30005,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_server_mode_active => '本机作为同步服务端';
 	@override String get sync_server_mode_clients_drive => '由已连接的客户端发起同步，本机无需手动同步';
 	@override String card_export_failed_detail({required Object reason}) => '导出卡片失败：${reason}';
-	@override String get video_setting_subtitle_blur => '字幕模糊（沉浸）';
-	@override String get video_setting_subtitle_blur_hint => '默认遮挡字幕，悬停或点击显形，用于听力沉浸。';
 	@override String get video_setting_subtitle_appearance => '字幕外观';
 	@override String get video_setting_subtitle_font_size => '字号';
 	@override String get video_setting_subtitle_bg_opacity => '背景不透明度';
@@ -30459,6 +30532,13 @@ class _StringsZhCn extends _StringsEn {
 	@override String get top_progress_pos_right => '右上';
 	@override String get gamepad_auto_immersive => '连接手柄自动沉浸';
 	@override String get shortcut_action_reader_open_menu => '打开设置菜单';
+	@override String get video_setting_subtitle_obscure => '字幕遮蔽';
+	@override String get video_setting_subtitle_obscure_hint => '选择听力练习时如何遮蔽字幕：关闭、模糊（悬停或点击显形）或隐藏。';
+	@override String get video_setting_subtitle_obscure_none => '关闭';
+	@override String get video_setting_subtitle_obscure_blur => '模糊';
+	@override String get video_setting_subtitle_obscure_hide => '隐藏';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => '循环字幕遮蔽模式';
+	@override String get shortcut_action_video_toggle_subtitle_hide => '切换隐藏字幕';
 }
 
 // Path: retrying_in
@@ -31827,8 +31907,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get sync_server_mode_active => '本機作為同步伺服器';
 	@override String get sync_server_mode_clients_drive => '由已連接的客戶端發起同步，本機無需手動同步。';
 	@override String card_export_failed_detail({required Object reason}) => '匯出卡片失敗：${reason}';
-	@override String get video_setting_subtitle_blur => '字幕模糊（沉浸）';
-	@override String get video_setting_subtitle_blur_hint => '預設遮蔽字幕，懸停或點按即可顯示，用於聽力沉浸練習。';
 	@override String get video_setting_subtitle_appearance => '字幕外觀';
 	@override String get video_setting_subtitle_font_size => '字型大小';
 	@override String get video_setting_subtitle_bg_opacity => '背景不透明度';
@@ -32356,6 +32434,13 @@ class _StringsZhHk extends _StringsEn {
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
+	@override String get video_setting_subtitle_obscure => 'Obscure subtitles';
+	@override String get video_setting_subtitle_obscure_hint => 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+	@override String get video_setting_subtitle_obscure_none => 'Off';
+	@override String get video_setting_subtitle_obscure_blur => 'Blur';
+	@override String get video_setting_subtitle_obscure_hide => 'Hide';
+	@override String get shortcut_action_video_cycle_subtitle_obscure => 'Cycle Subtitle Obscure Mode';
+	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 }
 
 // Path: retrying_in
@@ -33709,8 +33794,6 @@ extension on _StringsEn {
 			case 'sync_server_mode_active': return 'This device is a sync server';
 			case 'sync_server_mode_clients_drive': return 'Connected clients start the sync — no manual sync needed here.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'Failed to export card: ${reason}';
-			case 'video_setting_subtitle_blur': return 'Blur subtitles (immersion)';
-			case 'video_setting_subtitle_blur_hint': return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
 			case 'video_setting_subtitle_appearance': return 'Subtitle appearance';
 			case 'video_setting_subtitle_font_size': return 'Font size';
 			case 'video_setting_subtitle_bg_opacity': return 'Background opacity';
@@ -34238,6 +34321,13 @@ extension on _StringsEn {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -35565,8 +35655,6 @@ extension on _StringsAr {
 			case 'sync_server_mode_active': return 'هذا الجهاز خادم مزامنة';
 			case 'sync_server_mode_clients_drive': return 'تبدأ المزامنة من العملاء المتصلين — لا حاجة للمزامنة اليدوية هنا.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'فشل تصدير البطاقة: ${reason}';
-			case 'video_setting_subtitle_blur': return 'تمويه الترجمة (انغماس)';
-			case 'video_setting_subtitle_blur_hint': return 'إخفاء الترجمة افتراضيًا؛ مرّر فوقها أو انقرها لإظهارها بهدف تدريب الاستماع.';
 			case 'video_setting_subtitle_appearance': return 'مظهر الترجمة';
 			case 'video_setting_subtitle_font_size': return 'حجم الخط';
 			case 'video_setting_subtitle_bg_opacity': return 'تعتيم الخلفية';
@@ -36094,6 +36182,13 @@ extension on _StringsAr {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -37421,8 +37516,6 @@ extension on _StringsDe {
 			case 'sync_server_mode_active': return 'Dieses Gerät ist ein Sync-Server';
 			case 'sync_server_mode_clients_drive': return 'Verbundene Clients starten die Synchronisierung – hier ist keine manuelle Synchronisierung nötig.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'Karte konnte nicht exportiert werden: ${reason}';
-			case 'video_setting_subtitle_blur': return 'Untertitel verschwommen (Immersion)';
-			case 'video_setting_subtitle_blur_hint': return 'Untertitel standardmäßig ausblenden; zum Hörtraining per Mauszeiger oder Tippen einblenden.';
 			case 'video_setting_subtitle_appearance': return 'Untertitel-Darstellung';
 			case 'video_setting_subtitle_font_size': return 'Schriftgröße';
 			case 'video_setting_subtitle_bg_opacity': return 'Hintergrund-Deckkraft';
@@ -37950,6 +38043,13 @@ extension on _StringsDe {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -39277,8 +39377,6 @@ extension on _StringsEs {
 			case 'sync_server_mode_active': return 'Este dispositivo es un servidor de sincronización';
 			case 'sync_server_mode_clients_drive': return 'Los clientes conectados inician la sincronización: aquí no hace falta sincronizar manualmente.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'Error al exportar la tarjeta: ${reason}';
-			case 'video_setting_subtitle_blur': return 'Difuminar subtítulos (inmersión)';
-			case 'video_setting_subtitle_blur_hint': return 'Oculta los subtítulos por defecto; pasa el ratón o toca para mostrarlos en la práctica de escucha.';
 			case 'video_setting_subtitle_appearance': return 'Aspecto de los subtítulos';
 			case 'video_setting_subtitle_font_size': return 'Tamaño de fuente';
 			case 'video_setting_subtitle_bg_opacity': return 'Opacidad del fondo';
@@ -39806,6 +39904,13 @@ extension on _StringsEs {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -41133,8 +41238,6 @@ extension on _StringsFr {
 			case 'sync_server_mode_active': return 'Cet appareil est un serveur de synchronisation';
 			case 'sync_server_mode_clients_drive': return 'Ce sont les clients connectés qui lancent la synchronisation — aucune synchro manuelle ici.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'Échec de l\'export de la carte : ${reason}';
-			case 'video_setting_subtitle_blur': return 'Flouter les sous-titres (immersion)';
-			case 'video_setting_subtitle_blur_hint': return 'Masque les sous-titres par défaut ; survolez ou touchez pour les révéler, pour l\'entraînement à l\'écoute.';
 			case 'video_setting_subtitle_appearance': return 'Apparence des sous-titres';
 			case 'video_setting_subtitle_font_size': return 'Taille de police';
 			case 'video_setting_subtitle_bg_opacity': return 'Opacité du fond';
@@ -41662,6 +41765,13 @@ extension on _StringsFr {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -42989,8 +43099,6 @@ extension on _StringsId {
 			case 'sync_server_mode_active': return 'Perangkat ini adalah server sinkronisasi';
 			case 'sync_server_mode_clients_drive': return 'Sinkronisasi dimulai oleh klien yang terhubung — tidak perlu sinkron manual di sini.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'Gagal mengekspor kartu: ${reason}';
-			case 'video_setting_subtitle_blur': return 'Buramkan subtitle (imersi)';
-			case 'video_setting_subtitle_blur_hint': return 'Sembunyikan subtitle secara default; arahkan kursor atau ketuk untuk menampilkannya saat latihan menyimak.';
 			case 'video_setting_subtitle_appearance': return 'Tampilan subtitle';
 			case 'video_setting_subtitle_font_size': return 'Ukuran font';
 			case 'video_setting_subtitle_bg_opacity': return 'Opasitas latar';
@@ -43518,6 +43626,13 @@ extension on _StringsId {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -44845,8 +44960,6 @@ extension on _StringsIt {
 			case 'sync_server_mode_active': return 'Questo dispositivo è un server di sincronizzazione';
 			case 'sync_server_mode_clients_drive': return 'Sono i client connessi ad avviare la sincronizzazione — qui non serve farlo manualmente.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'Esportazione della carta non riuscita: ${reason}';
-			case 'video_setting_subtitle_blur': return 'Sfoca sottotitoli (immersione)';
-			case 'video_setting_subtitle_blur_hint': return 'Nasconde i sottotitoli per impostazione predefinita; passa sopra o tocca per rivelarli e allenare l\'ascolto.';
 			case 'video_setting_subtitle_appearance': return 'Aspetto sottotitoli';
 			case 'video_setting_subtitle_font_size': return 'Dimensione carattere';
 			case 'video_setting_subtitle_bg_opacity': return 'Opacità sfondo';
@@ -45374,6 +45487,13 @@ extension on _StringsIt {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -46701,8 +46821,6 @@ extension on _StringsJa {
 			case 'sync_server_mode_active': return 'このデバイスは同期サーバーです';
 			case 'sync_server_mode_clients_drive': return '接続中のクライアントが同期を開始します — このデバイスでの手動同期は不要です。';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'カードの書き出しに失敗しました：${reason}';
-			case 'video_setting_subtitle_blur': return '字幕をぼかす（イマージョン）';
-			case 'video_setting_subtitle_blur_hint': return '通常は字幕を隠し、ホバーまたはタップで表示します。リスニング練習に。';
 			case 'video_setting_subtitle_appearance': return '字幕の見た目';
 			case 'video_setting_subtitle_font_size': return '文字サイズ';
 			case 'video_setting_subtitle_bg_opacity': return '背景の不透明度';
@@ -47230,6 +47348,13 @@ extension on _StringsJa {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -48557,8 +48682,6 @@ extension on _StringsKo {
 			case 'sync_server_mode_active': return '이 기기는 동기화 서버입니다';
 			case 'sync_server_mode_clients_drive': return '연결된 클라이언트가 동기화를 시작하므로 이 기기에서는 수동 동기화가 필요 없습니다.';
 			case 'card_export_failed_detail': return ({required Object reason}) => '카드 내보내기 실패: ${reason}';
-			case 'video_setting_subtitle_blur': return '자막 흐리게(몰입)';
-			case 'video_setting_subtitle_blur_hint': return '기본적으로 자막을 가리고, 마우스를 올리거나 탭하면 보여 듣기 연습에 활용합니다.';
 			case 'video_setting_subtitle_appearance': return '자막 외관';
 			case 'video_setting_subtitle_font_size': return '글자 크기';
 			case 'video_setting_subtitle_bg_opacity': return '배경 불투명도';
@@ -49086,6 +49209,13 @@ extension on _StringsKo {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -50413,8 +50543,6 @@ extension on _StringsNl {
 			case 'sync_server_mode_active': return 'Dit apparaat is een synchronisatieserver';
 			case 'sync_server_mode_clients_drive': return 'Verbonden clients starten de synchronisatie — hier is geen handmatige synchronisatie nodig.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'Kaart exporteren mislukt: ${reason}';
-			case 'video_setting_subtitle_blur': return 'Ondertitels vervagen (immersie)';
-			case 'video_setting_subtitle_blur_hint': return 'Verberg ondertitels standaard; beweeg de muis erover of tik om ze te tonen voor luisteroefening.';
 			case 'video_setting_subtitle_appearance': return 'Weergave ondertitels';
 			case 'video_setting_subtitle_font_size': return 'Tekengrootte';
 			case 'video_setting_subtitle_bg_opacity': return 'Dekking achtergrond';
@@ -50942,6 +51070,13 @@ extension on _StringsNl {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -52269,8 +52404,6 @@ extension on _StringsPtBr {
 			case 'sync_server_mode_active': return 'Este dispositivo é um servidor de sincronização';
 			case 'sync_server_mode_clients_drive': return 'Os clientes conectados iniciam a sincronização — nenhuma sincronização manual é necessária aqui.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'Falha ao exportar o cartão: ${reason}';
-			case 'video_setting_subtitle_blur': return 'Desfocar legendas (imersão)';
-			case 'video_setting_subtitle_blur_hint': return 'Oculta as legendas por padrão; passe o mouse ou toque para revelar, ideal para praticar escuta.';
 			case 'video_setting_subtitle_appearance': return 'Aparência da legenda';
 			case 'video_setting_subtitle_font_size': return 'Tamanho da fonte';
 			case 'video_setting_subtitle_bg_opacity': return 'Opacidade do fundo';
@@ -52798,6 +52931,13 @@ extension on _StringsPtBr {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -54125,8 +54265,6 @@ extension on _StringsRu {
 			case 'sync_server_mode_active': return 'Это устройство — сервер синхронизации';
 			case 'sync_server_mode_clients_drive': return 'Синхронизацию запускают подключённые клиенты — вручную здесь не нужно.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'Не удалось экспортировать карточку: ${reason}';
-			case 'video_setting_subtitle_blur': return 'Размытие субтитров (погружение)';
-			case 'video_setting_subtitle_blur_hint': return 'Скрывать субтитры по умолчанию; наведите или коснитесь, чтобы показать — для тренировки восприятия на слух.';
 			case 'video_setting_subtitle_appearance': return 'Вид субтитров';
 			case 'video_setting_subtitle_font_size': return 'Размер шрифта';
 			case 'video_setting_subtitle_bg_opacity': return 'Непрозрачность фона';
@@ -54654,6 +54792,13 @@ extension on _StringsRu {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -55981,8 +56126,6 @@ extension on _StringsTh {
 			case 'sync_server_mode_active': return 'เครื่องนี้เป็นเซิร์ฟเวอร์ซิงค์';
 			case 'sync_server_mode_clients_drive': return 'ไคลเอนต์ที่เชื่อมต่อจะเป็นผู้เริ่มซิงค์ — เครื่องนี้ไม่ต้องซิงค์เอง';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'ส่งออกการ์ดไม่สำเร็จ: ${reason}';
-			case 'video_setting_subtitle_blur': return 'เบลอคำบรรยาย (โหมดดื่มด่ำ)';
-			case 'video_setting_subtitle_blur_hint': return 'ซ่อนคำบรรยายไว้ก่อน; ชี้เมาส์หรือแตะเพื่อแสดงสำหรับฝึกฟัง';
 			case 'video_setting_subtitle_appearance': return 'หน้าตาคำบรรยาย';
 			case 'video_setting_subtitle_font_size': return 'ขนาดตัวอักษร';
 			case 'video_setting_subtitle_bg_opacity': return 'ความทึบของพื้นหลัง';
@@ -56510,6 +56653,13 @@ extension on _StringsTh {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -57837,8 +57987,6 @@ extension on _StringsTr {
 			case 'sync_server_mode_active': return 'Bu cihaz bir eşitleme sunucusu';
 			case 'sync_server_mode_clients_drive': return 'Eşitlemeyi bağlı istemciler başlatır — burada elle eşitleme gerekmez.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'Kart dışa aktarılamadı: ${reason}';
-			case 'video_setting_subtitle_blur': return 'Altyazıları bulanıklaştır (dinleme alıştırması)';
-			case 'video_setting_subtitle_blur_hint': return 'Altyazıları varsayılan olarak gizle; dinleme alıştırması için üzerine gelin veya dokunarak gösterin.';
 			case 'video_setting_subtitle_appearance': return 'Altyazı görünümü';
 			case 'video_setting_subtitle_font_size': return 'Yazı boyutu';
 			case 'video_setting_subtitle_bg_opacity': return 'Arka plan matlığı';
@@ -58366,6 +58514,13 @@ extension on _StringsTr {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -59693,8 +59848,6 @@ extension on _StringsVi {
 			case 'sync_server_mode_active': return 'Thiết bị này là máy chủ đồng bộ';
 			case 'sync_server_mode_clients_drive': return 'Các máy khách đã kết nối sẽ khởi tạo đồng bộ — máy này không cần đồng bộ thủ công.';
 			case 'card_export_failed_detail': return ({required Object reason}) => 'Xuất thẻ thất bại: ${reason}';
-			case 'video_setting_subtitle_blur': return 'Làm mờ phụ đề (đắm chìm)';
-			case 'video_setting_subtitle_blur_hint': return 'Mặc định ẩn phụ đề; di chuột hoặc chạm để hiện, dùng để luyện nghe.';
 			case 'video_setting_subtitle_appearance': return 'Giao diện phụ đề';
 			case 'video_setting_subtitle_font_size': return 'Cỡ chữ';
 			case 'video_setting_subtitle_bg_opacity': return 'Độ mờ nền';
@@ -60222,6 +60375,13 @@ extension on _StringsVi {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
@@ -61549,8 +61709,6 @@ extension on _StringsZhCn {
 			case 'sync_server_mode_active': return '本机作为同步服务端';
 			case 'sync_server_mode_clients_drive': return '由已连接的客户端发起同步，本机无需手动同步';
 			case 'card_export_failed_detail': return ({required Object reason}) => '导出卡片失败：${reason}';
-			case 'video_setting_subtitle_blur': return '字幕模糊（沉浸）';
-			case 'video_setting_subtitle_blur_hint': return '默认遮挡字幕，悬停或点击显形，用于听力沉浸。';
 			case 'video_setting_subtitle_appearance': return '字幕外观';
 			case 'video_setting_subtitle_font_size': return '字号';
 			case 'video_setting_subtitle_bg_opacity': return '背景不透明度';
@@ -62078,6 +62236,13 @@ extension on _StringsZhCn {
 			case 'top_progress_pos_right': return '右上';
 			case 'gamepad_auto_immersive': return '连接手柄自动沉浸';
 			case 'shortcut_action_reader_open_menu': return '打开设置菜单';
+			case 'video_setting_subtitle_obscure': return '字幕遮蔽';
+			case 'video_setting_subtitle_obscure_hint': return '选择听力练习时如何遮蔽字幕：关闭、模糊（悬停或点击显形）或隐藏。';
+			case 'video_setting_subtitle_obscure_none': return '关闭';
+			case 'video_setting_subtitle_obscure_blur': return '模糊';
+			case 'video_setting_subtitle_obscure_hide': return '隐藏';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return '循环字幕遮蔽模式';
+			case 'shortcut_action_video_toggle_subtitle_hide': return '切换隐藏字幕';
 			default: return null;
 		}
 	}
@@ -63405,8 +63570,6 @@ extension on _StringsZhHk {
 			case 'sync_server_mode_active': return '本機作為同步伺服器';
 			case 'sync_server_mode_clients_drive': return '由已連接的客戶端發起同步，本機無需手動同步。';
 			case 'card_export_failed_detail': return ({required Object reason}) => '匯出卡片失敗：${reason}';
-			case 'video_setting_subtitle_blur': return '字幕模糊（沉浸）';
-			case 'video_setting_subtitle_blur_hint': return '預設遮蔽字幕，懸停或點按即可顯示，用於聽力沉浸練習。';
 			case 'video_setting_subtitle_appearance': return '字幕外觀';
 			case 'video_setting_subtitle_font_size': return '字型大小';
 			case 'video_setting_subtitle_bg_opacity': return '背景不透明度';
@@ -63934,6 +64097,13 @@ extension on _StringsZhHk {
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
+			case 'video_setting_subtitle_obscure': return 'Obscure subtitles';
+			case 'video_setting_subtitle_obscure_hint': return 'Choose how subtitles are obscured for listening practice: off, blurred (hover or tap to reveal), or hidden.';
+			case 'video_setting_subtitle_obscure_none': return 'Off';
+			case 'video_setting_subtitle_obscure_blur': return 'Blur';
+			case 'video_setting_subtitle_obscure_hide': return 'Hide';
+			case 'shortcut_action_video_cycle_subtitle_obscure': return 'Cycle Subtitle Obscure Mode';
+			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			default: return null;
 		}
 	}
