@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 30923 (1819 per locale)
+/// Strings: 31008 (1824 per locale)
 ///
-/// Built on 2026-06-25 at 15:09 UTC
+/// Built on 2026-06-26 at 04:14 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2436,6 +2436,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get invert_audiobook_skip_direction =>
       'Invert bottom-bar skip buttons';
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  String get video_jimaku_episode => 'Episode (optional)';
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  String get video_jimaku_language => 'Language';
+  String get video_jimaku_language_all => 'All';
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -6554,6 +6559,16 @@ class _StringsAr extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -10795,6 +10810,16 @@ class _StringsDe extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -15052,6 +15077,16 @@ class _StringsEs extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -19329,6 +19364,16 @@ class _StringsFr extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -23507,6 +23552,16 @@ class _StringsId extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -27746,6 +27801,16 @@ class _StringsIt extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -31711,6 +31776,16 @@ class _StringsJa extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -35680,6 +35755,16 @@ class _StringsKo extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -39887,6 +39972,16 @@ class _StringsNl extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -44117,6 +44212,16 @@ class _StringsPtBr extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -48322,6 +48427,16 @@ class _StringsRu extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -52440,6 +52555,16 @@ class _StringsTh extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -56614,6 +56739,16 @@ class _StringsTr extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -60762,6 +60897,16 @@ class _StringsVi extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -64624,6 +64769,16 @@ class _StringsZhCn extends _StringsEn {
   String get invert_audiobook_skip_direction => '反转底栏前进后退按钮';
   @override
   String get section_bottom_bar_layout => '底栏布局';
+  @override
+  String get video_jimaku_episode => '集数（可选）';
+  @override
+  String get video_jimaku_episode_hint => '留空列出全部';
+  @override
+  String get video_jimaku_language => '语言';
+  @override
+  String get video_jimaku_language_all => '全部';
+  @override
+  String get video_jimaku_show_all_episodes => '显示全部集';
 }
 
 // Path: retrying_in
@@ -68489,6 +68644,16 @@ class _StringsZhHk extends _StringsEn {
       'Invert bottom-bar skip buttons';
   @override
   String get section_bottom_bar_layout => 'Bottom bar layout';
+  @override
+  String get video_jimaku_episode => 'Episode (optional)';
+  @override
+  String get video_jimaku_episode_hint => 'Leave empty to list all';
+  @override
+  String get video_jimaku_language => 'Language';
+  @override
+  String get video_jimaku_language_all => 'All';
+  @override
+  String get video_jimaku_show_all_episodes => 'Show all episodes';
 }
 
 // Path: retrying_in
@@ -72256,6 +72421,16 @@ extension on _StringsEn {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -75983,6 +76158,16 @@ extension on _StringsAr {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -79732,6 +79917,16 @@ extension on _StringsDe {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -83479,6 +83674,16 @@ extension on _StringsEs {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -87233,6 +87438,16 @@ extension on _StringsFr {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -90967,6 +91182,16 @@ extension on _StringsId {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -94718,6 +94943,16 @@ extension on _StringsIt {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -98427,6 +98662,16 @@ extension on _StringsJa {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -102139,6 +102384,16 @@ extension on _StringsKo {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -105883,6 +106138,16 @@ extension on _StringsNl {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -109624,6 +109889,16 @@ extension on _StringsPtBr {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -113369,6 +113644,16 @@ extension on _StringsRu {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -117096,6 +117381,16 @@ extension on _StringsTh {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -120832,6 +121127,16 @@ extension on _StringsTr {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -124562,6 +124867,16 @@ extension on _StringsVi {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
@@ -128261,6 +128576,16 @@ extension on _StringsZhCn {
         return '反转底栏前进后退按钮';
       case 'section_bottom_bar_layout':
         return '底栏布局';
+      case 'video_jimaku_episode':
+        return '集数（可选）';
+      case 'video_jimaku_episode_hint':
+        return '留空列出全部';
+      case 'video_jimaku_language':
+        return '语言';
+      case 'video_jimaku_language_all':
+        return '全部';
+      case 'video_jimaku_show_all_episodes':
+        return '显示全部集';
       default:
         return null;
     }
@@ -131962,6 +132287,16 @@ extension on _StringsZhHk {
         return 'Invert bottom-bar skip buttons';
       case 'section_bottom_bar_layout':
         return 'Bottom bar layout';
+      case 'video_jimaku_episode':
+        return 'Episode (optional)';
+      case 'video_jimaku_episode_hint':
+        return 'Leave empty to list all';
+      case 'video_jimaku_language':
+        return 'Language';
+      case 'video_jimaku_language_all':
+        return 'All';
+      case 'video_jimaku_show_all_episodes':
+        return 'Show all episodes';
       default:
         return null;
     }
