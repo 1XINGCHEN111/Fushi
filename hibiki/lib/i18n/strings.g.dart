@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 31008 (1824 per locale)
 ///
-/// Built on 2026-06-26 at 04:14 UTC
+/// Built on 2026-06-26 at 05:15 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2410,7 +2410,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get log_copy_all => 'Copy All';
   String get hover_auto_lookup => 'Look up on hover';
   String get hover_auto_lookup_hint =>
-      'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+      'Look up automatically when the mouse hovers over a character; no need to click or hold Shift. Triggers at most one popup layer. Desktop only.';
   String get remote_book_info => 'Info';
   String get remote_book_info_has_audiobook => 'Includes audiobook';
   String get remote_video_info => 'Info';
@@ -6513,7 +6513,7 @@ class _StringsAr extends _StringsEn {
   String get hover_auto_lookup => 'البحث عند التمرير';
   @override
   String get hover_auto_lookup_hint =>
-      'البحث تلقائيًا عند تمرير مؤشر الماوس فوق حرف؛ دون الحاجة إلى الضغط على Shift. لأجهزة سطح المكتب فقط.';
+      'البحث تلقائيًا عند تمرير مؤشر الماوس فوق حرف؛ دون الحاجة إلى النقر أو الضغط على Shift. يُظهر طبقة منبثقة واحدة كحد أقصى. لأجهزة سطح المكتب فقط.';
   @override
   String get remote_book_info => 'معلومات';
   @override
@@ -10764,7 +10764,7 @@ class _StringsDe extends _StringsEn {
   String get hover_auto_lookup => 'Beim Überfahren nachschlagen';
   @override
   String get hover_auto_lookup_hint =>
-      'Automatisch nachschlagen, wenn die Maus über ein Zeichen fährt; ohne Shift zu halten. Nur Desktop.';
+      'Automatisch nachschlagen, wenn die Maus über ein Zeichen fährt; ohne Klicken oder Shift zu halten. Erzeugt höchstens eine Popup-Ebene. Nur Desktop.';
   @override
   String get remote_book_info => 'Info';
   @override
@@ -15031,7 +15031,7 @@ class _StringsEs extends _StringsEn {
   String get hover_auto_lookup => 'Buscar al pasar el cursor';
   @override
   String get hover_auto_lookup_hint =>
-      'Busca automáticamente al pasar el ratón sobre un carácter; sin mantener Mayús. Solo en escritorio.';
+      'Busca automáticamente al pasar el ratón sobre un carácter; sin hacer clic ni mantener Mayús. Muestra como máximo una capa de ventana emergente. Solo en escritorio.';
   @override
   String get remote_book_info => 'Información';
   @override
@@ -19318,7 +19318,7 @@ class _StringsFr extends _StringsEn {
   String get hover_auto_lookup => 'Rechercher au survol';
   @override
   String get hover_auto_lookup_hint =>
-      'Recherche automatique lorsque la souris survole un caractère ; pas besoin de maintenir Maj. Bureau uniquement.';
+      'Recherche automatique lorsque la souris survole un caractère ; pas besoin de cliquer ni de maintenir Maj. Affiche au plus une fenêtre contextuelle. Bureau uniquement.';
   @override
   String get remote_book_info => 'Infos';
   @override
@@ -23506,7 +23506,7 @@ class _StringsId extends _StringsEn {
   String get hover_auto_lookup => 'Cari saat hover';
   @override
   String get hover_auto_lookup_hint =>
-      'Cari otomatis saat mouse diarahkan ke sebuah karakter; tidak perlu menahan Shift. Hanya desktop.';
+      'Cari otomatis saat mouse diarahkan ke sebuah karakter; tanpa mengeklik atau menahan Shift. Memunculkan maksimal satu lapis popup. Hanya desktop.';
   @override
   String get remote_book_info => 'Info';
   @override
@@ -27755,7 +27755,7 @@ class _StringsIt extends _StringsEn {
   String get hover_auto_lookup => 'Cerca al passaggio';
   @override
   String get hover_auto_lookup_hint =>
-      'Cerca automaticamente al passaggio del mouse su un carattere; senza tenere Maiusc. Solo desktop.';
+      'Cerca automaticamente al passaggio del mouse su un carattere; senza fare clic né tenere premuto Maiusc. Mostra al massimo un livello di popup. Solo desktop.';
   @override
   String get remote_book_info => 'Info';
   @override
@@ -31730,7 +31730,7 @@ class _StringsJa extends _StringsEn {
   String get hover_auto_lookup => 'ホバーで辞書を引く';
   @override
   String get hover_auto_lookup_hint =>
-      'マウスを文字に重ねると自動で辞書を引きます。Shift を押す必要はありません。デスクトップのみ。';
+      'マウスを文字に重ねると自動で辞書を引きます。クリックや Shift を押す必要はありません。ポップアップは最大1層まで。デスクトップのみ。';
   @override
   String get remote_book_info => '情報';
   @override
@@ -35709,7 +35709,7 @@ class _StringsKo extends _StringsEn {
   String get hover_auto_lookup => '마우스를 올리면 사전 찾기';
   @override
   String get hover_auto_lookup_hint =>
-      '마우스를 글자 위에 올리면 자동으로 사전을 찾습니다. Shift를 누를 필요가 없습니다. 데스크톱 전용.';
+      '마우스를 글자 위에 올리면 자동으로 사전을 찾습니다. 클릭하거나 Shift를 누를 필요가 없습니다. 팝업은 최대 1개 층까지. 데스크톱 전용.';
   @override
   String get remote_book_info => '정보';
   @override
@@ -39926,7 +39926,7 @@ class _StringsNl extends _StringsEn {
   String get hover_auto_lookup => 'Opzoeken bij hover';
   @override
   String get hover_auto_lookup_hint =>
-      'Automatisch opzoeken wanneer de muis over een teken zweeft; zonder Shift in te drukken. Alleen desktop.';
+      'Automatisch opzoeken wanneer de muis over een teken zweeft; zonder te klikken of Shift in te drukken. Toont hooguit één popuplaag. Alleen desktop.';
   @override
   String get remote_book_info => 'Info';
   @override
@@ -44166,7 +44166,7 @@ class _StringsPtBr extends _StringsEn {
   String get hover_auto_lookup => 'Pesquisar ao passar o cursor';
   @override
   String get hover_auto_lookup_hint =>
-      'Pesquisa automaticamente ao passar o mouse sobre um caractere; sem segurar Shift. Apenas no desktop.';
+      'Pesquisa automaticamente ao passar o mouse sobre um caractere; sem clicar ou segurar Shift. Exibe no máximo uma camada de pop-up. Apenas no desktop.';
   @override
   String get remote_book_info => 'Informações';
   @override
@@ -48381,7 +48381,7 @@ class _StringsRu extends _StringsEn {
   String get hover_auto_lookup => 'Поиск при наведении';
   @override
   String get hover_auto_lookup_hint =>
-      'Автоматический поиск слова при наведении курсора на символ; удерживать Shift не нужно. Только для ПК.';
+      'Автоматический поиск слова при наведении курсора на символ; без щелчка и удержания Shift. Открывает не более одного всплывающего слоя. Только для ПК.';
   @override
   String get remote_book_info => 'Сведения';
   @override
@@ -52509,7 +52509,7 @@ class _StringsTh extends _StringsEn {
   String get hover_auto_lookup => 'ค้นหาเมื่อชี้เมาส์';
   @override
   String get hover_auto_lookup_hint =>
-      'ค้นหาคำโดยอัตโนมัติเมื่อชี้เมาส์ไปที่ตัวอักษร โดยไม่ต้องกด Shift ค้างไว้ สำหรับเดสก์ท็อปเท่านั้น';
+      'ค้นหาคำโดยอัตโนมัติเมื่อชี้เมาส์ไปที่ตัวอักษร โดยไม่ต้องคลิกหรือกด Shift ค้างไว้ แสดงป๊อปอัปได้สูงสุดหนึ่งชั้น สำหรับเดสก์ท็อปเท่านั้น';
   @override
   String get remote_book_info => 'ข้อมูล';
   @override
@@ -56693,7 +56693,7 @@ class _StringsTr extends _StringsEn {
   String get hover_auto_lookup => 'Üzerine gelince ara';
   @override
   String get hover_auto_lookup_hint =>
-      'Fare bir karakterin üzerine geldiğinde otomatik olarak ara; Shift tuşunu basılı tutmaya gerek yok. Yalnızca masaüstü.';
+      'Fare bir karakterin üzerine geldiğinde otomatik olarak ara; tıklamaya veya Shift tuşunu basılı tutmaya gerek yok. En fazla bir açılır katman gösterir. Yalnızca masaüstü.';
   @override
   String get remote_book_info => 'Bilgi';
   @override
@@ -60851,7 +60851,7 @@ class _StringsVi extends _StringsEn {
   String get hover_auto_lookup => 'Tra cứu khi di chuột';
   @override
   String get hover_auto_lookup_hint =>
-      'Tự động tra cứu khi di chuột qua một ký tự; không cần giữ Shift. Chỉ trên máy tính.';
+      'Tự động tra cứu khi di chuột qua một ký tự; không cần nhấp hay giữ Shift. Hiển thị tối đa một lớp cửa sổ bật lên. Chỉ trên máy tính.';
   @override
   String get remote_book_info => 'Thông tin';
   @override
@@ -64726,7 +64726,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get hover_auto_lookup => '悬停即查词';
   @override
-  String get hover_auto_lookup_hint => '鼠标悬停在文字上即自动查词，无需按住 Shift。仅桌面端。';
+  String get hover_auto_lookup_hint =>
+      '鼠标悬停在文字上即自动查词，无需点击或按住 Shift；最多触发一层弹窗。仅桌面端。';
   @override
   String get remote_book_info => '信息';
   @override
@@ -68600,7 +68601,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get hover_auto_lookup => '停留即查詞';
   @override
-  String get hover_auto_lookup_hint => '滑鼠停留在文字上即自動查詞，無需按住 Shift。僅桌面版。';
+  String get hover_auto_lookup_hint =>
+      '滑鼠停留在文字上即自動查詞，無需點擊或按住 Shift；最多觸發一層彈窗。僅桌面版。';
   @override
   String get remote_book_info => '資訊';
   @override
@@ -72378,7 +72380,7 @@ extension on _StringsEn {
       case 'hover_auto_lookup':
         return 'Look up on hover';
       case 'hover_auto_lookup_hint':
-        return 'Look up automatically when the mouse hovers over a character; no need to hold Shift. Desktop only.';
+        return 'Look up automatically when the mouse hovers over a character; no need to click or hold Shift. Triggers at most one popup layer. Desktop only.';
       case 'remote_book_info':
         return 'Info';
       case 'remote_book_info_has_audiobook':
@@ -76115,7 +76117,7 @@ extension on _StringsAr {
       case 'hover_auto_lookup':
         return 'البحث عند التمرير';
       case 'hover_auto_lookup_hint':
-        return 'البحث تلقائيًا عند تمرير مؤشر الماوس فوق حرف؛ دون الحاجة إلى الضغط على Shift. لأجهزة سطح المكتب فقط.';
+        return 'البحث تلقائيًا عند تمرير مؤشر الماوس فوق حرف؛ دون الحاجة إلى النقر أو الضغط على Shift. يُظهر طبقة منبثقة واحدة كحد أقصى. لأجهزة سطح المكتب فقط.';
       case 'remote_book_info':
         return 'معلومات';
       case 'remote_book_info_has_audiobook':
@@ -79874,7 +79876,7 @@ extension on _StringsDe {
       case 'hover_auto_lookup':
         return 'Beim Überfahren nachschlagen';
       case 'hover_auto_lookup_hint':
-        return 'Automatisch nachschlagen, wenn die Maus über ein Zeichen fährt; ohne Shift zu halten. Nur Desktop.';
+        return 'Automatisch nachschlagen, wenn die Maus über ein Zeichen fährt; ohne Klicken oder Shift zu halten. Erzeugt höchstens eine Popup-Ebene. Nur Desktop.';
       case 'remote_book_info':
         return 'Info';
       case 'remote_book_info_has_audiobook':
@@ -83631,7 +83633,7 @@ extension on _StringsEs {
       case 'hover_auto_lookup':
         return 'Buscar al pasar el cursor';
       case 'hover_auto_lookup_hint':
-        return 'Busca automáticamente al pasar el ratón sobre un carácter; sin mantener Mayús. Solo en escritorio.';
+        return 'Busca automáticamente al pasar el ratón sobre un carácter; sin hacer clic ni mantener Mayús. Muestra como máximo una capa de ventana emergente. Solo en escritorio.';
       case 'remote_book_info':
         return 'Información';
       case 'remote_book_info_has_audiobook':
@@ -87395,7 +87397,7 @@ extension on _StringsFr {
       case 'hover_auto_lookup':
         return 'Rechercher au survol';
       case 'hover_auto_lookup_hint':
-        return 'Recherche automatique lorsque la souris survole un caractère ; pas besoin de maintenir Maj. Bureau uniquement.';
+        return 'Recherche automatique lorsque la souris survole un caractère ; pas besoin de cliquer ni de maintenir Maj. Affiche au plus une fenêtre contextuelle. Bureau uniquement.';
       case 'remote_book_info':
         return 'Infos';
       case 'remote_book_info_has_audiobook':
@@ -91139,7 +91141,7 @@ extension on _StringsId {
       case 'hover_auto_lookup':
         return 'Cari saat hover';
       case 'hover_auto_lookup_hint':
-        return 'Cari otomatis saat mouse diarahkan ke sebuah karakter; tidak perlu menahan Shift. Hanya desktop.';
+        return 'Cari otomatis saat mouse diarahkan ke sebuah karakter; tanpa mengeklik atau menahan Shift. Memunculkan maksimal satu lapis popup. Hanya desktop.';
       case 'remote_book_info':
         return 'Info';
       case 'remote_book_info_has_audiobook':
@@ -94900,7 +94902,7 @@ extension on _StringsIt {
       case 'hover_auto_lookup':
         return 'Cerca al passaggio';
       case 'hover_auto_lookup_hint':
-        return 'Cerca automaticamente al passaggio del mouse su un carattere; senza tenere Maiusc. Solo desktop.';
+        return 'Cerca automaticamente al passaggio del mouse su un carattere; senza fare clic né tenere premuto Maiusc. Mostra al massimo un livello di popup. Solo desktop.';
       case 'remote_book_info':
         return 'Info';
       case 'remote_book_info_has_audiobook':
@@ -98619,7 +98621,7 @@ extension on _StringsJa {
       case 'hover_auto_lookup':
         return 'ホバーで辞書を引く';
       case 'hover_auto_lookup_hint':
-        return 'マウスを文字に重ねると自動で辞書を引きます。Shift を押す必要はありません。デスクトップのみ。';
+        return 'マウスを文字に重ねると自動で辞書を引きます。クリックや Shift を押す必要はありません。ポップアップは最大1層まで。デスクトップのみ。';
       case 'remote_book_info':
         return '情報';
       case 'remote_book_info_has_audiobook':
@@ -102341,7 +102343,7 @@ extension on _StringsKo {
       case 'hover_auto_lookup':
         return '마우스를 올리면 사전 찾기';
       case 'hover_auto_lookup_hint':
-        return '마우스를 글자 위에 올리면 자동으로 사전을 찾습니다. Shift를 누를 필요가 없습니다. 데스크톱 전용.';
+        return '마우스를 글자 위에 올리면 자동으로 사전을 찾습니다. 클릭하거나 Shift를 누를 필요가 없습니다. 팝업은 최대 1개 층까지. 데스크톱 전용.';
       case 'remote_book_info':
         return '정보';
       case 'remote_book_info_has_audiobook':
@@ -106095,7 +106097,7 @@ extension on _StringsNl {
       case 'hover_auto_lookup':
         return 'Opzoeken bij hover';
       case 'hover_auto_lookup_hint':
-        return 'Automatisch opzoeken wanneer de muis over een teken zweeft; zonder Shift in te drukken. Alleen desktop.';
+        return 'Automatisch opzoeken wanneer de muis over een teken zweeft; zonder te klikken of Shift in te drukken. Toont hooguit één popuplaag. Alleen desktop.';
       case 'remote_book_info':
         return 'Info';
       case 'remote_book_info_has_audiobook':
@@ -109846,7 +109848,7 @@ extension on _StringsPtBr {
       case 'hover_auto_lookup':
         return 'Pesquisar ao passar o cursor';
       case 'hover_auto_lookup_hint':
-        return 'Pesquisa automaticamente ao passar o mouse sobre um caractere; sem segurar Shift. Apenas no desktop.';
+        return 'Pesquisa automaticamente ao passar o mouse sobre um caractere; sem clicar ou segurar Shift. Exibe no máximo uma camada de pop-up. Apenas no desktop.';
       case 'remote_book_info':
         return 'Informações';
       case 'remote_book_info_has_audiobook':
@@ -113601,7 +113603,7 @@ extension on _StringsRu {
       case 'hover_auto_lookup':
         return 'Поиск при наведении';
       case 'hover_auto_lookup_hint':
-        return 'Автоматический поиск слова при наведении курсора на символ; удерживать Shift не нужно. Только для ПК.';
+        return 'Автоматический поиск слова при наведении курсора на символ; без щелчка и удержания Shift. Открывает не более одного всплывающего слоя. Только для ПК.';
       case 'remote_book_info':
         return 'Сведения';
       case 'remote_book_info_has_audiobook':
@@ -117338,7 +117340,7 @@ extension on _StringsTh {
       case 'hover_auto_lookup':
         return 'ค้นหาเมื่อชี้เมาส์';
       case 'hover_auto_lookup_hint':
-        return 'ค้นหาคำโดยอัตโนมัติเมื่อชี้เมาส์ไปที่ตัวอักษร โดยไม่ต้องกด Shift ค้างไว้ สำหรับเดสก์ท็อปเท่านั้น';
+        return 'ค้นหาคำโดยอัตโนมัติเมื่อชี้เมาส์ไปที่ตัวอักษร โดยไม่ต้องคลิกหรือกด Shift ค้างไว้ แสดงป๊อปอัปได้สูงสุดหนึ่งชั้น สำหรับเดสก์ท็อปเท่านั้น';
       case 'remote_book_info':
         return 'ข้อมูล';
       case 'remote_book_info_has_audiobook':
@@ -121084,7 +121086,7 @@ extension on _StringsTr {
       case 'hover_auto_lookup':
         return 'Üzerine gelince ara';
       case 'hover_auto_lookup_hint':
-        return 'Fare bir karakterin üzerine geldiğinde otomatik olarak ara; Shift tuşunu basılı tutmaya gerek yok. Yalnızca masaüstü.';
+        return 'Fare bir karakterin üzerine geldiğinde otomatik olarak ara; tıklamaya veya Shift tuşunu basılı tutmaya gerek yok. En fazla bir açılır katman gösterir. Yalnızca masaüstü.';
       case 'remote_book_info':
         return 'Bilgi';
       case 'remote_book_info_has_audiobook':
@@ -124824,7 +124826,7 @@ extension on _StringsVi {
       case 'hover_auto_lookup':
         return 'Tra cứu khi di chuột';
       case 'hover_auto_lookup_hint':
-        return 'Tự động tra cứu khi di chuột qua một ký tự; không cần giữ Shift. Chỉ trên máy tính.';
+        return 'Tự động tra cứu khi di chuột qua một ký tự; không cần nhấp hay giữ Shift. Hiển thị tối đa một lớp cửa sổ bật lên. Chỉ trên máy tính.';
       case 'remote_book_info':
         return 'Thông tin';
       case 'remote_book_info_has_audiobook':
@@ -128535,7 +128537,7 @@ extension on _StringsZhCn {
       case 'hover_auto_lookup':
         return '悬停即查词';
       case 'hover_auto_lookup_hint':
-        return '鼠标悬停在文字上即自动查词，无需按住 Shift。仅桌面端。';
+        return '鼠标悬停在文字上即自动查词，无需点击或按住 Shift；最多触发一层弹窗。仅桌面端。';
       case 'remote_book_info':
         return '信息';
       case 'remote_book_info_has_audiobook':
@@ -132245,7 +132247,7 @@ extension on _StringsZhHk {
       case 'hover_auto_lookup':
         return '停留即查詞';
       case 'hover_auto_lookup_hint':
-        return '滑鼠停留在文字上即自動查詞，無需按住 Shift。僅桌面版。';
+        return '滑鼠停留在文字上即自動查詞，無需點擊或按住 Shift；最多觸發一層彈窗。僅桌面版。';
       case 'remote_book_info':
         return '資訊';
       case 'remote_book_info_has_audiobook':
