@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31229 (1837 per locale)
+/// Strings: 31331 (1843 per locale)
 ///
-/// Built on 2026-06-26 at 07:41 UTC
+/// Built on 2026-06-26 at 08:11 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1997,6 +1997,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get profile_import_success => 'Profile imported';
 	String get profile_import_failed => 'Import failed';
 	String get profile_import_invalid => 'Invalid profile file';
+	String get show_bottom_bar_cue => 'Show current sentence';
+	String get top_progress_position => 'Progress position';
+	String get top_progress_pos_left => 'Top-left';
+	String get top_progress_pos_center => 'Center';
+	String get top_progress_pos_right => 'Top-right';
+	String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -3887,6 +3893,12 @@ class _StringsAr extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -5777,6 +5789,12 @@ class _StringsDe extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -7667,6 +7685,12 @@ class _StringsEs extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -9557,6 +9581,12 @@ class _StringsFr extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -11447,6 +11477,12 @@ class _StringsId extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -13337,6 +13373,12 @@ class _StringsIt extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -15227,6 +15269,12 @@ class _StringsJa extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -17117,6 +17165,12 @@ class _StringsKo extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -19007,6 +19061,12 @@ class _StringsNl extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -20897,6 +20957,12 @@ class _StringsPtBr extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -22787,6 +22853,12 @@ class _StringsRu extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -24677,6 +24749,12 @@ class _StringsTh extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -26567,6 +26645,12 @@ class _StringsTr extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -28457,6 +28541,12 @@ class _StringsVi extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -30347,6 +30437,12 @@ class _StringsZhCn extends _StringsEn {
 	@override String get profile_import_success => '配置方案已导入';
 	@override String get profile_import_failed => '导入失败';
 	@override String get profile_import_invalid => '配置方案文件无效';
+	@override String get show_bottom_bar_cue => '显示当前句子';
+	@override String get top_progress_position => '进度位置';
+	@override String get top_progress_pos_left => '左上';
+	@override String get top_progress_pos_center => '居中';
+	@override String get top_progress_pos_right => '右上';
+	@override String get gamepad_auto_immersive => '连接手柄自动沉浸';
 }
 
 // Path: retrying_in
@@ -32237,6 +32333,12 @@ class _StringsZhHk extends _StringsEn {
 	@override String get profile_import_success => 'Profile imported';
 	@override String get profile_import_failed => 'Import failed';
 	@override String get profile_import_invalid => 'Invalid profile file';
+	@override String get show_bottom_bar_cue => 'Show current sentence';
+	@override String get top_progress_position => 'Progress position';
+	@override String get top_progress_pos_left => 'Top-left';
+	@override String get top_progress_pos_center => 'Center';
+	@override String get top_progress_pos_right => 'Top-right';
+	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
 }
 
 // Path: retrying_in
@@ -34112,6 +34214,12 @@ extension on _StringsEn {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -35961,6 +36069,12 @@ extension on _StringsAr {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -37810,6 +37924,12 @@ extension on _StringsDe {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -39659,6 +39779,12 @@ extension on _StringsEs {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -41508,6 +41634,12 @@ extension on _StringsFr {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -43357,6 +43489,12 @@ extension on _StringsId {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -45206,6 +45344,12 @@ extension on _StringsIt {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -47055,6 +47199,12 @@ extension on _StringsJa {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -48904,6 +49054,12 @@ extension on _StringsKo {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -50753,6 +50909,12 @@ extension on _StringsNl {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -52602,6 +52764,12 @@ extension on _StringsPtBr {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -54451,6 +54619,12 @@ extension on _StringsRu {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -56300,6 +56474,12 @@ extension on _StringsTh {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -58149,6 +58329,12 @@ extension on _StringsTr {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -59998,6 +60184,12 @@ extension on _StringsVi {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
@@ -61847,6 +62039,12 @@ extension on _StringsZhCn {
 			case 'profile_import_success': return '配置方案已导入';
 			case 'profile_import_failed': return '导入失败';
 			case 'profile_import_invalid': return '配置方案文件无效';
+			case 'show_bottom_bar_cue': return '显示当前句子';
+			case 'top_progress_position': return '进度位置';
+			case 'top_progress_pos_left': return '左上';
+			case 'top_progress_pos_center': return '居中';
+			case 'top_progress_pos_right': return '右上';
+			case 'gamepad_auto_immersive': return '连接手柄自动沉浸';
 			default: return null;
 		}
 	}
@@ -63696,6 +63894,12 @@ extension on _StringsZhHk {
 			case 'profile_import_success': return 'Profile imported';
 			case 'profile_import_failed': return 'Import failed';
 			case 'profile_import_invalid': return 'Invalid profile file';
+			case 'show_bottom_bar_cue': return 'Show current sentence';
+			case 'top_progress_position': return 'Progress position';
+			case 'top_progress_pos_left': return 'Top-left';
+			case 'top_progress_pos_center': return 'Center';
+			case 'top_progress_pos_right': return 'Top-right';
+			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
 			default: return null;
 		}
 	}
