@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31331 (1843 per locale)
+/// Strings: 31348 (1844 per locale)
 ///
-/// Built on 2026-06-26 at 08:11 UTC
+/// Built on 2026-06-26 at 09:39 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2003,6 +2003,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get top_progress_pos_center => 'Center';
 	String get top_progress_pos_right => 'Top-right';
 	String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -3899,6 +3900,7 @@ class _StringsAr extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -5795,6 +5797,7 @@ class _StringsDe extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -7691,6 +7694,7 @@ class _StringsEs extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -9587,6 +9591,7 @@ class _StringsFr extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -11483,6 +11488,7 @@ class _StringsId extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -13379,6 +13385,7 @@ class _StringsIt extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -15275,6 +15282,7 @@ class _StringsJa extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -17171,6 +17179,7 @@ class _StringsKo extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -19067,6 +19076,7 @@ class _StringsNl extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -20963,6 +20973,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -22859,6 +22870,7 @@ class _StringsRu extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -24755,6 +24767,7 @@ class _StringsTh extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -26651,6 +26664,7 @@ class _StringsTr extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -28547,6 +28561,7 @@ class _StringsVi extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -30443,6 +30458,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get top_progress_pos_center => '居中';
 	@override String get top_progress_pos_right => '右上';
 	@override String get gamepad_auto_immersive => '连接手柄自动沉浸';
+	@override String get shortcut_action_reader_open_menu => '打开设置菜单';
 }
 
 // Path: retrying_in
@@ -32339,6 +32355,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get top_progress_pos_center => 'Center';
 	@override String get top_progress_pos_right => 'Top-right';
 	@override String get gamepad_auto_immersive => 'Auto-immersive on gamepad';
+	@override String get shortcut_action_reader_open_menu => 'Open Settings Menu';
 }
 
 // Path: retrying_in
@@ -34220,6 +34237,7 @@ extension on _StringsEn {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -36075,6 +36093,7 @@ extension on _StringsAr {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -37930,6 +37949,7 @@ extension on _StringsDe {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -39785,6 +39805,7 @@ extension on _StringsEs {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -41640,6 +41661,7 @@ extension on _StringsFr {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -43495,6 +43517,7 @@ extension on _StringsId {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -45350,6 +45373,7 @@ extension on _StringsIt {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -47205,6 +47229,7 @@ extension on _StringsJa {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -49060,6 +49085,7 @@ extension on _StringsKo {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -50915,6 +50941,7 @@ extension on _StringsNl {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -52770,6 +52797,7 @@ extension on _StringsPtBr {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -54625,6 +54653,7 @@ extension on _StringsRu {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -56480,6 +56509,7 @@ extension on _StringsTh {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -58335,6 +58365,7 @@ extension on _StringsTr {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -60190,6 +60221,7 @@ extension on _StringsVi {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
@@ -62045,6 +62077,7 @@ extension on _StringsZhCn {
 			case 'top_progress_pos_center': return '居中';
 			case 'top_progress_pos_right': return '右上';
 			case 'gamepad_auto_immersive': return '连接手柄自动沉浸';
+			case 'shortcut_action_reader_open_menu': return '打开设置菜单';
 			default: return null;
 		}
 	}
@@ -63900,6 +63933,7 @@ extension on _StringsZhHk {
 			case 'top_progress_pos_center': return 'Center';
 			case 'top_progress_pos_right': return 'Top-right';
 			case 'gamepad_auto_immersive': return 'Auto-immersive on gamepad';
+			case 'shortcut_action_reader_open_menu': return 'Open Settings Menu';
 			default: return null;
 		}
 	}
