@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31773 (1869 per locale)
+/// Strings: 31756 (1868 per locale)
 ///
-/// Built on 2026-06-26 at 15:39 UTC
+/// Built on 2026-06-26 at 15:52 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1229,7 +1229,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Tap an icon to switch, or pick a custom image below.';
   String get icon_default => 'Default';
   String get icon_full => 'Full';
-  String get icon_minimal => 'Minimal';
   String get icon_shortcut_created => 'Home screen shortcut created.';
   String get icon_shortcut_unsupported =>
       'Shortcuts are not supported on this device.';
@@ -4394,8 +4393,6 @@ class _StringsAr extends _StringsEn {
   String get icon_default => 'افتراضي';
   @override
   String get icon_full => 'كامل';
-  @override
-  String get icon_minimal => 'بسيط';
   @override
   String get icon_shortcut_created => 'تم إنشاء اختصار على الشاشة الرئيسية.';
   @override
@@ -8687,8 +8684,6 @@ class _StringsDe extends _StringsEn {
   String get icon_default => 'Standard';
   @override
   String get icon_full => 'Vollständig';
-  @override
-  String get icon_minimal => 'Minimal';
   @override
   String get icon_shortcut_created => 'Startbildschirm-Verknüpfung erstellt.';
   @override
@@ -13042,8 +13037,6 @@ class _StringsEs extends _StringsEn {
   String get icon_default => 'Predeterminado';
   @override
   String get icon_full => 'Completo';
-  @override
-  String get icon_minimal => 'Mínimo';
   @override
   String get icon_shortcut_created =>
       'Acceso directo creado en la pantalla de inicio.';
@@ -17421,8 +17414,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get icon_full => 'Complet';
   @override
-  String get icon_minimal => 'Minimaliste';
-  @override
   String get icon_shortcut_created => 'Raccourci de l\'écran d\'accueil créé.';
   @override
   String get icon_shortcut_unsupported =>
@@ -21756,8 +21747,6 @@ class _StringsId extends _StringsEn {
   @override
   String get icon_full => 'Penuh';
   @override
-  String get icon_minimal => 'Minimal';
-  @override
   String get icon_shortcut_created => 'Pintasan layar beranda dibuat.';
   @override
   String get icon_shortcut_unsupported =>
@@ -26070,8 +26059,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get icon_full => 'Completa';
   @override
-  String get icon_minimal => 'Minima';
-  @override
   String get icon_shortcut_created =>
       'Collegamento sulla schermata iniziale creato.';
   @override
@@ -30302,8 +30289,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get icon_full => 'フル';
   @override
-  String get icon_minimal => 'ミニマル';
-  @override
   String get icon_shortcut_created => 'ホーム画面にショートカットを作成しました。';
   @override
   String get icon_shortcut_unsupported => 'このデバイスではショートカットがサポートされていません。';
@@ -34367,8 +34352,6 @@ class _StringsKo extends _StringsEn {
   String get icon_default => '기본';
   @override
   String get icon_full => '전체';
-  @override
-  String get icon_minimal => '미니멀';
   @override
   String get icon_shortcut_created => '홈 화면 바로가기가 생성되었습니다.';
   @override
@@ -38549,8 +38532,6 @@ class _StringsNl extends _StringsEn {
   String get icon_default => 'Standaard';
   @override
   String get icon_full => 'Volledig';
-  @override
-  String get icon_minimal => 'Minimaal';
   @override
   String get icon_shortcut_created =>
       'Snelkoppeling op startscherm aangemaakt.';
@@ -42881,8 +42862,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get icon_full => 'Completo';
   @override
-  String get icon_minimal => 'Mínimo';
-  @override
   String get icon_shortcut_created => 'Atalho criado na tela inicial.';
   @override
   String get icon_shortcut_unsupported =>
@@ -47201,8 +47180,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get icon_full => 'Полная';
   @override
-  String get icon_minimal => 'Минимальная';
-  @override
   String get icon_shortcut_created => 'Ярлык на главном экране создан.';
   @override
   String get icon_shortcut_unsupported =>
@@ -51468,8 +51445,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get icon_full => 'เต็ม';
   @override
-  String get icon_minimal => 'เรียบง่าย';
-  @override
   String get icon_shortcut_created => 'สร้างทางลัดบนหน้าจอหลักแล้ว';
   @override
   String get icon_shortcut_unsupported => 'อุปกรณ์นี้ไม่รองรับทางลัด';
@@ -55725,8 +55700,6 @@ class _StringsTr extends _StringsEn {
   String get icon_default => 'Varsayılan';
   @override
   String get icon_full => 'Tam';
-  @override
-  String get icon_minimal => 'Sade';
   @override
   String get icon_shortcut_created => 'Ana ekran kısayolu oluşturuldu.';
   @override
@@ -59990,8 +59963,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get icon_full => 'Đầy đủ';
   @override
-  String get icon_minimal => 'Tối giản';
-  @override
   String get icon_shortcut_created => 'Đã tạo lối tắt trên màn hình chính.';
   @override
   String get icon_shortcut_unsupported => 'Thiết bị không hỗ trợ lối tắt.';
@@ -64187,8 +64158,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get icon_full => '完整';
   @override
-  String get icon_minimal => '简约';
-  @override
   String get icon_shortcut_created => '已创建主屏幕快捷方式。';
   @override
   String get icon_shortcut_unsupported => '此设备不支持快捷方式。';
@@ -68109,8 +68078,6 @@ class _StringsZhHk extends _StringsEn {
   String get icon_default => '預設';
   @override
   String get icon_full => '完整';
-  @override
-  String get icon_minimal => '簡約';
   @override
   String get icon_shortcut_created => '已建立主畫面捷徑。';
   @override
@@ -72101,8 +72068,6 @@ extension on _StringsEn {
         return 'Default';
       case 'icon_full':
         return 'Full';
-      case 'icon_minimal':
-        return 'Minimal';
       case 'icon_shortcut_created':
         return 'Home screen shortcut created.';
       case 'icon_shortcut_unsupported':
@@ -75871,8 +75836,6 @@ extension on _StringsAr {
         return 'افتراضي';
       case 'icon_full':
         return 'كامل';
-      case 'icon_minimal':
-        return 'بسيط';
       case 'icon_shortcut_created':
         return 'تم إنشاء اختصار على الشاشة الرئيسية.';
       case 'icon_shortcut_unsupported':
@@ -79708,8 +79671,6 @@ extension on _StringsDe {
         return 'Standard';
       case 'icon_full':
         return 'Vollständig';
-      case 'icon_minimal':
-        return 'Minimal';
       case 'icon_shortcut_created':
         return 'Startbildschirm-Verknüpfung erstellt.';
       case 'icon_shortcut_unsupported':
@@ -83556,8 +83517,6 @@ extension on _StringsEs {
         return 'Predeterminado';
       case 'icon_full':
         return 'Completo';
-      case 'icon_minimal':
-        return 'Mínimo';
       case 'icon_shortcut_created':
         return 'Acceso directo creado en la pantalla de inicio.';
       case 'icon_shortcut_unsupported':
@@ -87404,8 +87363,6 @@ extension on _StringsFr {
         return 'Par défaut';
       case 'icon_full':
         return 'Complet';
-      case 'icon_minimal':
-        return 'Minimaliste';
       case 'icon_shortcut_created':
         return 'Raccourci de l\'écran d\'accueil créé.';
       case 'icon_shortcut_unsupported':
@@ -91255,8 +91212,6 @@ extension on _StringsId {
         return 'Default';
       case 'icon_full':
         return 'Penuh';
-      case 'icon_minimal':
-        return 'Minimal';
       case 'icon_shortcut_created':
         return 'Pintasan layar beranda dibuat.';
       case 'icon_shortcut_unsupported':
@@ -95093,8 +95048,6 @@ extension on _StringsIt {
         return 'Predefinita';
       case 'icon_full':
         return 'Completa';
-      case 'icon_minimal':
-        return 'Minima';
       case 'icon_shortcut_created':
         return 'Collegamento sulla schermata iniziale creato.';
       case 'icon_shortcut_unsupported':
@@ -98944,8 +98897,6 @@ extension on _StringsJa {
         return 'デフォルト';
       case 'icon_full':
         return 'フル';
-      case 'icon_minimal':
-        return 'ミニマル';
       case 'icon_shortcut_created':
         return 'ホーム画面にショートカットを作成しました。';
       case 'icon_shortcut_unsupported':
@@ -102746,8 +102697,6 @@ extension on _StringsKo {
         return '기본';
       case 'icon_full':
         return '전체';
-      case 'icon_minimal':
-        return '미니멀';
       case 'icon_shortcut_created':
         return '홈 화면 바로가기가 생성되었습니다.';
       case 'icon_shortcut_unsupported':
@@ -106570,8 +106519,6 @@ extension on _StringsNl {
         return 'Standaard';
       case 'icon_full':
         return 'Volledig';
-      case 'icon_minimal':
-        return 'Minimaal';
       case 'icon_shortcut_created':
         return 'Snelkoppeling op startscherm aangemaakt.';
       case 'icon_shortcut_unsupported':
@@ -110413,8 +110360,6 @@ extension on _StringsPtBr {
         return 'Padrão';
       case 'icon_full':
         return 'Completo';
-      case 'icon_minimal':
-        return 'Mínimo';
       case 'icon_shortcut_created':
         return 'Atalho criado na tela inicial.';
       case 'icon_shortcut_unsupported':
@@ -114254,8 +114199,6 @@ extension on _StringsRu {
         return 'По умолчанию';
       case 'icon_full':
         return 'Полная';
-      case 'icon_minimal':
-        return 'Минимальная';
       case 'icon_shortcut_created':
         return 'Ярлык на главном экране создан.';
       case 'icon_shortcut_unsupported':
@@ -118096,8 +118039,6 @@ extension on _StringsTh {
         return 'ค่าเริ่มต้น';
       case 'icon_full':
         return 'เต็ม';
-      case 'icon_minimal':
-        return 'เรียบง่าย';
       case 'icon_shortcut_created':
         return 'สร้างทางลัดบนหน้าจอหลักแล้ว';
       case 'icon_shortcut_unsupported':
@@ -121925,8 +121866,6 @@ extension on _StringsTr {
         return 'Varsayılan';
       case 'icon_full':
         return 'Tam';
-      case 'icon_minimal':
-        return 'Sade';
       case 'icon_shortcut_created':
         return 'Ana ekran kısayolu oluşturuldu.';
       case 'icon_shortcut_unsupported':
@@ -125761,8 +125700,6 @@ extension on _StringsVi {
         return 'Mặc định';
       case 'icon_full':
         return 'Đầy đủ';
-      case 'icon_minimal':
-        return 'Tối giản';
       case 'icon_shortcut_created':
         return 'Đã tạo lối tắt trên màn hình chính.';
       case 'icon_shortcut_unsupported':
@@ -129625,8 +129562,6 @@ extension on _StringsZhCn {
         return '默认';
       case 'icon_full':
         return '完整';
-      case 'icon_minimal':
-        return '简约';
       case 'icon_shortcut_created':
         return '已创建主屏幕快捷方式。';
       case 'icon_shortcut_unsupported':
@@ -133383,8 +133318,6 @@ extension on _StringsZhHk {
         return '預設';
       case 'icon_full':
         return '完整';
-      case 'icon_minimal':
-        return '簡約';
       case 'icon_shortcut_created':
         return '已建立主畫面捷徑。';
       case 'icon_shortcut_unsupported':
