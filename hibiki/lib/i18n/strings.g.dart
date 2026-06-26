@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31807 (1871 per locale)
+/// Strings: 31824 (1872 per locale)
 ///
-/// Built on 2026-06-26 at 16:55 UTC
+/// Built on 2026-06-26 at 17:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2497,6 +2497,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get update_custom_proxy_hint =>
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -6728,6 +6729,8 @@ class _StringsAr extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -11081,6 +11084,8 @@ class _StringsDe extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -15451,6 +15456,8 @@ class _StringsEs extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -19840,6 +19847,8 @@ class _StringsFr extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -24131,6 +24140,8 @@ class _StringsId extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -28483,6 +28494,8 @@ class _StringsIt extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -32561,6 +32574,8 @@ class _StringsJa extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -36643,6 +36658,8 @@ class _StringsKo extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -40963,6 +40980,8 @@ class _StringsNl extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -45306,6 +45325,8 @@ class _StringsPtBr extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -49624,6 +49645,8 @@ class _StringsRu extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -53855,6 +53878,8 @@ class _StringsTh extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -58141,6 +58166,8 @@ class _StringsTr extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -62402,6 +62429,8 @@ class _StringsVi extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => 'Video Subtitle Font';
 }
 
 // Path: retrying_in
@@ -66375,6 +66404,8 @@ class _StringsZhCn extends _StringsEn {
       'host:port，例如 127.0.0.1:7890（仅 IPv4/域名）';
   @override
   String get update_custom_proxy_invalid => '代理格式无效，请用 host:port';
+  @override
+  String get font_target_video_subtitle => '视频字幕字体';
 }
 
 // Path: retrying_in
@@ -70355,6 +70386,8 @@ class _StringsZhHk extends _StringsEn {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   @override
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
+  @override
+  String get font_target_video_subtitle => '視頻字幕字體';
 }
 
 // Path: retrying_in
@@ -74227,6 +74260,8 @@ extension on _StringsEn {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -78059,6 +78094,8 @@ extension on _StringsAr {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -81913,6 +81950,8 @@ extension on _StringsDe {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -85765,6 +85804,8 @@ extension on _StringsEs {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -89624,6 +89665,8 @@ extension on _StringsFr {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -93463,6 +93506,8 @@ extension on _StringsId {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -97319,6 +97364,8 @@ extension on _StringsIt {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -101133,6 +101180,8 @@ extension on _StringsJa {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -104950,6 +104999,8 @@ extension on _StringsKo {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -108799,6 +108850,8 @@ extension on _StringsNl {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -112645,6 +112698,8 @@ extension on _StringsPtBr {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -116495,6 +116550,8 @@ extension on _StringsRu {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -120327,6 +120384,8 @@ extension on _StringsTh {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -124168,6 +124227,8 @@ extension on _StringsTr {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -128003,6 +128064,8 @@ extension on _StringsVi {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return 'Video Subtitle Font';
       default:
         return null;
     }
@@ -131807,6 +131870,8 @@ extension on _StringsZhCn {
         return 'host:port，例如 127.0.0.1:7890（仅 IPv4/域名）';
       case 'update_custom_proxy_invalid':
         return '代理格式无效，请用 host:port';
+      case 'font_target_video_subtitle':
+        return '视频字幕字体';
       default:
         return null;
     }
@@ -135613,6 +135678,8 @@ extension on _StringsZhHk {
         return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
       case 'update_custom_proxy_invalid':
         return 'Invalid proxy. Use host:port';
+      case 'font_target_video_subtitle':
+        return '視頻字幕字體';
       default:
         return null;
     }
