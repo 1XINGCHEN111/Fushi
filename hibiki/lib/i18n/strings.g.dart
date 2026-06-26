@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31110 (1830 per locale)
+/// Strings: 31229 (1837 per locale)
 ///
-/// Built on 2026-06-26 at 07:38 UTC
+/// Built on 2026-06-26 at 07:41 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1990,6 +1990,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get update_install_permission_cancel => 'Cancel';
 	String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	String get profile_export => 'Export';
+	String get profile_import => 'Import';
+	String get profile_export_success => 'Profile exported';
+	String get profile_export_failed => 'Export failed';
+	String get profile_import_success => 'Profile imported';
+	String get profile_import_failed => 'Import failed';
+	String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -3873,6 +3880,13 @@ class _StringsAr extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -5756,6 +5770,13 @@ class _StringsDe extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -7639,6 +7660,13 @@ class _StringsEs extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -9522,6 +9550,13 @@ class _StringsFr extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -11405,6 +11440,13 @@ class _StringsId extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -13288,6 +13330,13 @@ class _StringsIt extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -15171,6 +15220,13 @@ class _StringsJa extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -17054,6 +17110,13 @@ class _StringsKo extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -18937,6 +19000,13 @@ class _StringsNl extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -20820,6 +20890,13 @@ class _StringsPtBr extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -22703,6 +22780,13 @@ class _StringsRu extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -24586,6 +24670,13 @@ class _StringsTh extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -26469,6 +26560,13 @@ class _StringsTr extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -28352,6 +28450,13 @@ class _StringsVi extends _StringsEn {
 	@override String get update_install_permission_cancel => 'Cancel';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -30235,6 +30340,13 @@ class _StringsZhCn extends _StringsEn {
 	@override String get update_install_permission_cancel => '取消';
 	@override String get popup_auto_expand_dictionaries => '自动展开词典数';
 	@override String get popup_auto_expand_dictionaries_hint => '即使开启「折叠词典」，也保持前 N 个词典展开（0 = 全部折叠）';
+	@override String get profile_export => '导出';
+	@override String get profile_import => '导入';
+	@override String get profile_export_success => '配置方案已导出';
+	@override String get profile_export_failed => '导出失败';
+	@override String get profile_import_success => '配置方案已导入';
+	@override String get profile_import_failed => '导入失败';
+	@override String get profile_import_invalid => '配置方案文件无效';
 }
 
 // Path: retrying_in
@@ -32118,6 +32230,13 @@ class _StringsZhHk extends _StringsEn {
 	@override String get update_install_permission_cancel => '取消';
 	@override String get popup_auto_expand_dictionaries => 'Auto-expand dictionaries';
 	@override String get popup_auto_expand_dictionaries_hint => 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+	@override String get profile_export => 'Export';
+	@override String get profile_import => 'Import';
+	@override String get profile_export_success => 'Profile exported';
+	@override String get profile_export_failed => 'Export failed';
+	@override String get profile_import_success => 'Profile imported';
+	@override String get profile_import_failed => 'Import failed';
+	@override String get profile_import_invalid => 'Invalid profile file';
 }
 
 // Path: retrying_in
@@ -33986,6 +34105,13 @@ extension on _StringsEn {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -35828,6 +35954,13 @@ extension on _StringsAr {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -37670,6 +37803,13 @@ extension on _StringsDe {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -39512,6 +39652,13 @@ extension on _StringsEs {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -41354,6 +41501,13 @@ extension on _StringsFr {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -43196,6 +43350,13 @@ extension on _StringsId {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -45038,6 +45199,13 @@ extension on _StringsIt {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -46880,6 +47048,13 @@ extension on _StringsJa {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -48722,6 +48897,13 @@ extension on _StringsKo {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -50564,6 +50746,13 @@ extension on _StringsNl {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -52406,6 +52595,13 @@ extension on _StringsPtBr {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -54248,6 +54444,13 @@ extension on _StringsRu {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -56090,6 +56293,13 @@ extension on _StringsTh {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -57932,6 +58142,13 @@ extension on _StringsTr {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -59774,6 +59991,13 @@ extension on _StringsVi {
 			case 'update_install_permission_cancel': return 'Cancel';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
@@ -61616,6 +61840,13 @@ extension on _StringsZhCn {
 			case 'update_install_permission_cancel': return '取消';
 			case 'popup_auto_expand_dictionaries': return '自动展开词典数';
 			case 'popup_auto_expand_dictionaries_hint': return '即使开启「折叠词典」，也保持前 N 个词典展开（0 = 全部折叠）';
+			case 'profile_export': return '导出';
+			case 'profile_import': return '导入';
+			case 'profile_export_success': return '配置方案已导出';
+			case 'profile_export_failed': return '导出失败';
+			case 'profile_import_success': return '配置方案已导入';
+			case 'profile_import_failed': return '导入失败';
+			case 'profile_import_invalid': return '配置方案文件无效';
 			default: return null;
 		}
 	}
@@ -63458,6 +63689,13 @@ extension on _StringsZhHk {
 			case 'update_install_permission_cancel': return '取消';
 			case 'popup_auto_expand_dictionaries': return 'Auto-expand dictionaries';
 			case 'popup_auto_expand_dictionaries_hint': return 'Keep the first N dictionary blocks expanded even when \'Collapse dictionaries\' is on (0 = collapse all)';
+			case 'profile_export': return 'Export';
+			case 'profile_import': return 'Import';
+			case 'profile_export_success': return 'Profile exported';
+			case 'profile_export_failed': return 'Export failed';
+			case 'profile_import_success': return 'Profile imported';
+			case 'profile_import_failed': return 'Import failed';
+			case 'profile_import_invalid': return 'Invalid profile file';
 			default: return null;
 		}
 	}
