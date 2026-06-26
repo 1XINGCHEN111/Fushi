@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31008 (1824 per locale)
+/// Strings: 31076 (1828 per locale)
 ///
-/// Built on 2026-06-26 at 05:15 UTC
+/// Built on 2026-06-26 at 06:00 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2441,6 +2441,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_jimaku_language => 'Language';
   String get video_jimaku_language_all => 'All';
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  String get update_install_permission_title => 'Allow installing updates';
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  String get update_install_permission_retry => 'Retry install';
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -6569,6 +6574,15 @@ class _StringsAr extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -10820,6 +10834,15 @@ class _StringsDe extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -15087,6 +15110,15 @@ class _StringsEs extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -19374,6 +19406,15 @@ class _StringsFr extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -23562,6 +23603,15 @@ class _StringsId extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -27811,6 +27861,15 @@ class _StringsIt extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -31786,6 +31845,15 @@ class _StringsJa extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -35765,6 +35833,15 @@ class _StringsKo extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -39982,6 +40059,15 @@ class _StringsNl extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -44222,6 +44308,15 @@ class _StringsPtBr extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -48437,6 +48532,15 @@ class _StringsRu extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -52565,6 +52669,15 @@ class _StringsTh extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -56749,6 +56862,15 @@ class _StringsTr extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -60907,6 +61029,15 @@ class _StringsVi extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => 'Allow installing updates';
+  @override
+  String get update_install_permission_message =>
+      'Please allow Hibiki to install apps in system settings, then retry.';
+  @override
+  String get update_install_permission_retry => 'Retry install';
+  @override
+  String get update_install_permission_cancel => 'Cancel';
 }
 
 // Path: retrying_in
@@ -64780,6 +64911,15 @@ class _StringsZhCn extends _StringsEn {
   String get video_jimaku_language_all => '全部';
   @override
   String get video_jimaku_show_all_episodes => '显示全部集';
+  @override
+  String get update_install_permission_title => '允许安装更新';
+  @override
+  String get update_install_permission_message =>
+      '请在系统设置中允许 Hibiki 安装应用，然后重试安装。';
+  @override
+  String get update_install_permission_retry => '重试安装';
+  @override
+  String get update_install_permission_cancel => '取消';
 }
 
 // Path: retrying_in
@@ -68656,6 +68796,15 @@ class _StringsZhHk extends _StringsEn {
   String get video_jimaku_language_all => 'All';
   @override
   String get video_jimaku_show_all_episodes => 'Show all episodes';
+  @override
+  String get update_install_permission_title => '允許安裝更新';
+  @override
+  String get update_install_permission_message =>
+      '請在系統設定中允許 Hibiki 安裝應用程式，然後重試安裝。';
+  @override
+  String get update_install_permission_retry => '重試安裝';
+  @override
+  String get update_install_permission_cancel => '取消';
 }
 
 // Path: retrying_in
@@ -72433,6 +72582,14 @@ extension on _StringsEn {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -76170,6 +76327,14 @@ extension on _StringsAr {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -79929,6 +80094,14 @@ extension on _StringsDe {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -83686,6 +83859,14 @@ extension on _StringsEs {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -87450,6 +87631,14 @@ extension on _StringsFr {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -91194,6 +91383,14 @@ extension on _StringsId {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -94955,6 +95152,14 @@ extension on _StringsIt {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -98674,6 +98879,14 @@ extension on _StringsJa {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -102396,6 +102609,14 @@ extension on _StringsKo {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -106150,6 +106371,14 @@ extension on _StringsNl {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -109901,6 +110130,14 @@ extension on _StringsPtBr {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -113656,6 +113893,14 @@ extension on _StringsRu {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -117393,6 +117638,14 @@ extension on _StringsTh {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -121139,6 +121392,14 @@ extension on _StringsTr {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -124879,6 +125140,14 @@ extension on _StringsVi {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return 'Allow installing updates';
+      case 'update_install_permission_message':
+        return 'Please allow Hibiki to install apps in system settings, then retry.';
+      case 'update_install_permission_retry':
+        return 'Retry install';
+      case 'update_install_permission_cancel':
+        return 'Cancel';
       default:
         return null;
     }
@@ -128588,6 +128857,14 @@ extension on _StringsZhCn {
         return '全部';
       case 'video_jimaku_show_all_episodes':
         return '显示全部集';
+      case 'update_install_permission_title':
+        return '允许安装更新';
+      case 'update_install_permission_message':
+        return '请在系统设置中允许 Hibiki 安装应用，然后重试安装。';
+      case 'update_install_permission_retry':
+        return '重试安装';
+      case 'update_install_permission_cancel':
+        return '取消';
       default:
         return null;
     }
@@ -132299,6 +132576,14 @@ extension on _StringsZhHk {
         return 'All';
       case 'video_jimaku_show_all_episodes':
         return 'Show all episodes';
+      case 'update_install_permission_title':
+        return '允許安裝更新';
+      case 'update_install_permission_message':
+        return '請在系統設定中允許 Hibiki 安裝應用程式，然後重試安裝。';
+      case 'update_install_permission_retry':
+        return '重試安裝';
+      case 'update_install_permission_cancel':
+        return '取消';
       default:
         return null;
     }
