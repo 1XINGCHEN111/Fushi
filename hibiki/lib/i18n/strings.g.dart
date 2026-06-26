@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31467 (1851 per locale)
+/// Strings: 31518 (1854 per locale)
 ///
-/// Built on 2026-06-26 at 13:26 UTC
+/// Built on 2026-06-26 at 14:30 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2011,6 +2011,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	String get dict_update_name_mismatch_title => 'Names do not match';
+	String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -3915,6 +3918,9 @@ class _StringsAr extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -5819,6 +5825,9 @@ class _StringsDe extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -7723,6 +7732,9 @@ class _StringsEs extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -9627,6 +9639,9 @@ class _StringsFr extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -11531,6 +11546,9 @@ class _StringsId extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -13435,6 +13453,9 @@ class _StringsIt extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -15339,6 +15360,9 @@ class _StringsJa extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -17243,6 +17267,9 @@ class _StringsKo extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -19147,6 +19174,9 @@ class _StringsNl extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -21051,6 +21081,9 @@ class _StringsPtBr extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -22955,6 +22988,9 @@ class _StringsRu extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -24859,6 +24895,9 @@ class _StringsTh extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -26763,6 +26802,9 @@ class _StringsTr extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -28667,6 +28709,9 @@ class _StringsVi extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -30571,6 +30616,9 @@ class _StringsZhCn extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => '切换隐藏字幕';
 	@override String get video_secondary_subtitle_sources => '副字幕';
 	@override String get video_secondary_subtitle_hint => '由播放器渲染（不可查词）';
+	@override String get dict_update_name_mismatch_title => '词典名称不一致';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => '所选文件是「${incoming}」，但你正在更新「${existing}」。仍要替换吗？';
+	@override String get dialog_replace => '替换';
 }
 
 // Path: retrying_in
@@ -32475,6 +32523,9 @@ class _StringsZhHk extends _StringsEn {
 	@override String get shortcut_action_video_toggle_subtitle_hide => 'Toggle Hide Subtitles';
 	@override String get video_secondary_subtitle_sources => 'Secondary subtitle';
 	@override String get video_secondary_subtitle_hint => 'Rendered by player (not lookupable)';
+	@override String get dict_update_name_mismatch_title => 'Names do not match';
+	@override String dict_update_name_mismatch_body({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+	@override String get dialog_replace => 'Replace';
 }
 
 // Path: retrying_in
@@ -34364,6 +34415,9 @@ extension on _StringsEn {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -36227,6 +36281,9 @@ extension on _StringsAr {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -38090,6 +38147,9 @@ extension on _StringsDe {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -39953,6 +40013,9 @@ extension on _StringsEs {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -41816,6 +41879,9 @@ extension on _StringsFr {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -43679,6 +43745,9 @@ extension on _StringsId {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -45542,6 +45611,9 @@ extension on _StringsIt {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -47405,6 +47477,9 @@ extension on _StringsJa {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -49268,6 +49343,9 @@ extension on _StringsKo {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -51131,6 +51209,9 @@ extension on _StringsNl {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -52994,6 +53075,9 @@ extension on _StringsPtBr {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -54857,6 +54941,9 @@ extension on _StringsRu {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -56720,6 +56807,9 @@ extension on _StringsTh {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -58583,6 +58673,9 @@ extension on _StringsTr {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -60446,6 +60539,9 @@ extension on _StringsVi {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
@@ -62309,6 +62405,9 @@ extension on _StringsZhCn {
 			case 'shortcut_action_video_toggle_subtitle_hide': return '切换隐藏字幕';
 			case 'video_secondary_subtitle_sources': return '副字幕';
 			case 'video_secondary_subtitle_hint': return '由播放器渲染（不可查词）';
+			case 'dict_update_name_mismatch_title': return '词典名称不一致';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => '所选文件是「${incoming}」，但你正在更新「${existing}」。仍要替换吗？';
+			case 'dialog_replace': return '替换';
 			default: return null;
 		}
 	}
@@ -64172,6 +64271,9 @@ extension on _StringsZhHk {
 			case 'shortcut_action_video_toggle_subtitle_hide': return 'Toggle Hide Subtitles';
 			case 'video_secondary_subtitle_sources': return 'Secondary subtitle';
 			case 'video_secondary_subtitle_hint': return 'Rendered by player (not lookupable)';
+			case 'dict_update_name_mismatch_title': return 'Names do not match';
+			case 'dict_update_name_mismatch_body': return ({required Object incoming, required Object existing}) => 'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+			case 'dialog_replace': return 'Replace';
 			default: return null;
 		}
 	}
