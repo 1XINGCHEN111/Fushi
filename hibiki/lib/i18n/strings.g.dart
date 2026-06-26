@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31756 (1868 per locale)
+/// Strings: 31807 (1871 per locale)
 ///
-/// Built on 2026-06-26 at 15:52 UTC
+/// Built on 2026-06-26 at 16:55 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2493,6 +2493,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String media_source_count_video({required Object n}) => '${n} videos';
   String media_source_count_book({required Object n}) => '${n} books';
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  String get update_custom_proxy_label => 'Custom update proxy';
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -6717,6 +6721,13 @@ class _StringsAr extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -11063,6 +11074,13 @@ class _StringsDe extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -15426,6 +15444,13 @@ class _StringsEs extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -19808,6 +19833,13 @@ class _StringsFr extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -24092,6 +24124,13 @@ class _StringsId extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -28437,6 +28476,13 @@ class _StringsIt extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -32508,6 +32554,13 @@ class _StringsJa extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -36583,6 +36636,13 @@ class _StringsKo extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -40896,6 +40956,13 @@ class _StringsNl extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -45232,6 +45299,13 @@ class _StringsPtBr extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -49543,6 +49617,13 @@ class _StringsRu extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -53767,6 +53848,13 @@ class _StringsTh extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -58046,6 +58134,13 @@ class _StringsTr extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -62300,6 +62395,13 @@ class _StringsVi extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -66266,6 +66368,13 @@ class _StringsZhCn extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} 本书';
   @override
   String media_source_last_scan({required Object time}) => '上次扫描 ${time}';
+  @override
+  String get update_custom_proxy_label => '自定义更新代理';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port，例如 127.0.0.1:7890（仅 IPv4/域名）';
+  @override
+  String get update_custom_proxy_invalid => '代理格式无效，请用 host:port';
 }
 
 // Path: retrying_in
@@ -70239,6 +70348,13 @@ class _StringsZhHk extends _StringsEn {
   String media_source_count_book({required Object n}) => '${n} books';
   @override
   String media_source_last_scan({required Object time}) => 'Last scan ${time}';
+  @override
+  String get update_custom_proxy_label => 'Custom update proxy';
+  @override
+  String get update_custom_proxy_hint =>
+      'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+  @override
+  String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
 }
 
 // Path: retrying_in
@@ -74105,6 +74221,12 @@ extension on _StringsEn {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -77931,6 +78053,12 @@ extension on _StringsAr {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -81779,6 +81907,12 @@ extension on _StringsDe {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -85625,6 +85759,12 @@ extension on _StringsEs {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -89478,6 +89618,12 @@ extension on _StringsFr {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -93311,6 +93457,12 @@ extension on _StringsId {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -97161,6 +97313,12 @@ extension on _StringsIt {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -100969,6 +101127,12 @@ extension on _StringsJa {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -104780,6 +104944,12 @@ extension on _StringsKo {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -108623,6 +108793,12 @@ extension on _StringsNl {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -112463,6 +112639,12 @@ extension on _StringsPtBr {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -116307,6 +116489,12 @@ extension on _StringsRu {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -120133,6 +120321,12 @@ extension on _StringsTh {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -123968,6 +124162,12 @@ extension on _StringsTr {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -127797,6 +127997,12 @@ extension on _StringsVi {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
@@ -131595,6 +131801,12 @@ extension on _StringsZhCn {
         return ({required Object n}) => '${n} 本书';
       case 'media_source_last_scan':
         return ({required Object time}) => '上次扫描 ${time}';
+      case 'update_custom_proxy_label':
+        return '自定义更新代理';
+      case 'update_custom_proxy_hint':
+        return 'host:port，例如 127.0.0.1:7890（仅 IPv4/域名）';
+      case 'update_custom_proxy_invalid':
+        return '代理格式无效，请用 host:port';
       default:
         return null;
     }
@@ -135395,6 +135607,12 @@ extension on _StringsZhHk {
         return ({required Object n}) => '${n} books';
       case 'media_source_last_scan':
         return ({required Object time}) => 'Last scan ${time}';
+      case 'update_custom_proxy_label':
+        return 'Custom update proxy';
+      case 'update_custom_proxy_hint':
+        return 'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
+      case 'update_custom_proxy_invalid':
+        return 'Invalid proxy. Use host:port';
       default:
         return null;
     }
