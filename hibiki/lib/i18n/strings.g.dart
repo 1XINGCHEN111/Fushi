@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31858 (1874 per locale)
+/// Strings: 31943 (1879 per locale)
 ///
-/// Built on 2026-06-27 at 03:02 UTC
+/// Built on 2026-06-27 at 03:23 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2501,6 +2501,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_err_scope_upgrade =>
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   String get reader_open_failed => 'Failed to open book';
+  String get reader_gallery => 'Gallery';
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  String get reader_gallery_empty => 'No illustrations in this book';
+  String get reader_gallery_current => 'Reading here';
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -6739,6 +6744,16 @@ class _StringsAr extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -11099,6 +11114,16 @@ class _StringsDe extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -15476,6 +15501,16 @@ class _StringsEs extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -19872,6 +19907,16 @@ class _StringsFr extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -24170,6 +24215,16 @@ class _StringsId extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -28529,6 +28584,16 @@ class _StringsIt extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -32614,6 +32679,16 @@ class _StringsJa extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -36703,6 +36778,16 @@ class _StringsKo extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -41030,6 +41115,16 @@ class _StringsNl extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -45380,6 +45475,16 @@ class _StringsPtBr extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -49705,6 +49810,16 @@ class _StringsRu extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -53943,6 +54058,16 @@ class _StringsTh extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -58236,6 +58361,16 @@ class _StringsTr extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -62504,6 +62639,16 @@ class _StringsVi extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -66483,6 +66628,16 @@ class _StringsZhCn extends _StringsEn {
   String get sync_err_scope_upgrade => '同步权限已更新，请重新登录 Google 账号以继续同步。';
   @override
   String get reader_open_failed => '打开书籍失败';
+  @override
+  String get reader_gallery => '插图';
+  @override
+  String get reader_gallery_tooltip => '浏览插图';
+  @override
+  String get reader_gallery_empty => '本书没有插图';
+  @override
+  String get reader_gallery_current => '正在阅读';
+  @override
+  String get reader_gallery_jump => '跳转到此插图';
 }
 
 // Path: retrying_in
@@ -70470,6 +70625,16 @@ class _StringsZhHk extends _StringsEn {
       'Sync permissions changed — please sign in to Google again to continue syncing.';
   @override
   String get reader_open_failed => 'Failed to open book';
+  @override
+  String get reader_gallery => 'Gallery';
+  @override
+  String get reader_gallery_tooltip => 'Browse illustrations';
+  @override
+  String get reader_gallery_empty => 'No illustrations in this book';
+  @override
+  String get reader_gallery_current => 'Reading here';
+  @override
+  String get reader_gallery_jump => 'Jump to this illustration';
 }
 
 // Path: retrying_in
@@ -74348,6 +74513,16 @@ extension on _StringsEn {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -78186,6 +78361,16 @@ extension on _StringsAr {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -82046,6 +82231,16 @@ extension on _StringsDe {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -85904,6 +86099,16 @@ extension on _StringsEs {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -89769,6 +89974,16 @@ extension on _StringsFr {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -93614,6 +93829,16 @@ extension on _StringsId {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -97476,6 +97701,16 @@ extension on _StringsIt {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -101296,6 +101531,16 @@ extension on _StringsJa {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -105119,6 +105364,16 @@ extension on _StringsKo {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -108974,6 +109229,16 @@ extension on _StringsNl {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -112826,6 +113091,16 @@ extension on _StringsPtBr {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -116682,6 +116957,16 @@ extension on _StringsRu {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -120520,6 +120805,16 @@ extension on _StringsTh {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -124367,6 +124662,16 @@ extension on _StringsTr {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -128208,6 +128513,16 @@ extension on _StringsVi {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
@@ -132018,6 +132333,16 @@ extension on _StringsZhCn {
         return '同步权限已更新，请重新登录 Google 账号以继续同步。';
       case 'reader_open_failed':
         return '打开书籍失败';
+      case 'reader_gallery':
+        return '插图';
+      case 'reader_gallery_tooltip':
+        return '浏览插图';
+      case 'reader_gallery_empty':
+        return '本书没有插图';
+      case 'reader_gallery_current':
+        return '正在阅读';
+      case 'reader_gallery_jump':
+        return '跳转到此插图';
       default:
         return null;
     }
@@ -135830,6 +136155,16 @@ extension on _StringsZhHk {
         return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       case 'reader_open_failed':
         return 'Failed to open book';
+      case 'reader_gallery':
+        return 'Gallery';
+      case 'reader_gallery_tooltip':
+        return 'Browse illustrations';
+      case 'reader_gallery_empty':
+        return 'No illustrations in this book';
+      case 'reader_gallery_current':
+        return 'Reading here';
+      case 'reader_gallery_jump':
+        return 'Jump to this illustration';
       default:
         return null;
     }
