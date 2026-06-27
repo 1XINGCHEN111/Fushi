@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32419 (1907 per locale)
+/// Strings: 32606 (1918 per locale)
 ///
-/// Built on 2026-06-27 at 18:59 UTC
+/// Built on 2026-06-27 at 20:07 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2541,6 +2541,19 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get collection_export_mined_title => 'Mined Sentences';
   String get collection_export_scope => 'Export scope';
   String get collection_export_all_mined => 'All mined sentences';
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_never => 'Never';
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -6852,6 +6865,30 @@ class _StringsAr extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -11285,6 +11322,30 @@ class _StringsDe extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -15735,6 +15796,30 @@ class _StringsEs extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -20204,6 +20289,30 @@ class _StringsFr extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -24575,6 +24684,30 @@ class _StringsId extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -29007,6 +29140,30 @@ class _StringsIt extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -33165,6 +33322,30 @@ class _StringsJa extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -37327,6 +37508,30 @@ class _StringsKo extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -41727,6 +41932,30 @@ class _StringsNl extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -46150,6 +46379,30 @@ class _StringsPtBr extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -50548,6 +50801,30 @@ class _StringsRu extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -54859,6 +55136,30 @@ class _StringsTh extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -59225,6 +59526,30 @@ class _StringsTr extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -63566,6 +63891,30 @@ class _StringsVi extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -67614,6 +67963,28 @@ class _StringsZhCn extends _StringsEn {
   String get collection_export_scope => '导出范围';
   @override
   String get collection_export_all_mined => '全部制卡句';
+  @override
+  String get ttu_paragraph_spacing => '段落间距';
+  @override
+  String get ttu_blur_images => '图片模糊（防剧透）';
+  @override
+  String get scan_non_japanese_text => '扫描非日文文本';
+  @override
+  String get scan_non_japanese_text_hint => '关闭后选区遇非日文字符即停止';
+  @override
+  String get dict_auto_update => '自动更新';
+  @override
+  String get dict_auto_update_hint => '启动时检查词典更新';
+  @override
+  String get dict_auto_update_never => '从未';
+  @override
+  String dict_auto_update_last({required Object time}) => '上次更新：${time}';
+  @override
+  String get dict_update_interval_daily => '每天';
+  @override
+  String get dict_update_interval_weekly => '每周';
+  @override
+  String get dict_update_interval_monthly => '每月';
 }
 
 // Path: retrying_in
@@ -71674,6 +72045,30 @@ class _StringsZhHk extends _StringsEn {
   String get collection_export_scope => 'Export scope';
   @override
   String get collection_export_all_mined => 'All mined sentences';
+  @override
+  String get ttu_paragraph_spacing => 'Paragraph spacing';
+  @override
+  String get ttu_blur_images => 'Blur images (spoiler guard)';
+  @override
+  String get scan_non_japanese_text => 'Scan non-Japanese text';
+  @override
+  String get scan_non_japanese_text_hint =>
+      'When off, selection stops at non-Japanese characters';
+  @override
+  String get dict_auto_update => 'Update automatically';
+  @override
+  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  @override
+  String get dict_auto_update_never => 'Never';
+  @override
+  String dict_auto_update_last({required Object time}) =>
+      'Last update: ${time}';
+  @override
+  String get dict_update_interval_daily => 'Daily';
+  @override
+  String get dict_update_interval_weekly => 'Weekly';
+  @override
+  String get dict_update_interval_monthly => 'Monthly';
 }
 
 // Path: retrying_in
@@ -75619,6 +76014,28 @@ extension on _StringsEn {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -79524,6 +79941,28 @@ extension on _StringsAr {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -83451,6 +83890,28 @@ extension on _StringsDe {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -87376,6 +87837,28 @@ extension on _StringsEs {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -91308,6 +91791,28 @@ extension on _StringsFr {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -95220,6 +95725,28 @@ extension on _StringsId {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -99149,6 +99676,28 @@ extension on _StringsIt {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -103036,6 +103585,28 @@ extension on _StringsJa {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -106926,6 +107497,28 @@ extension on _StringsKo {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -110848,6 +111441,28 @@ extension on _StringsNl {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -114767,6 +115382,28 @@ extension on _StringsPtBr {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -118690,6 +119327,28 @@ extension on _StringsRu {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -122595,6 +123254,28 @@ extension on _StringsTh {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -126509,6 +127190,28 @@ extension on _StringsTr {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -130417,6 +131120,28 @@ extension on _StringsVi {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
@@ -134294,6 +135019,28 @@ extension on _StringsZhCn {
         return '导出范围';
       case 'collection_export_all_mined':
         return '全部制卡句';
+      case 'ttu_paragraph_spacing':
+        return '段落间距';
+      case 'ttu_blur_images':
+        return '图片模糊（防剧透）';
+      case 'scan_non_japanese_text':
+        return '扫描非日文文本';
+      case 'scan_non_japanese_text_hint':
+        return '关闭后选区遇非日文字符即停止';
+      case 'dict_auto_update':
+        return '自动更新';
+      case 'dict_auto_update_hint':
+        return '启动时检查词典更新';
+      case 'dict_auto_update_never':
+        return '从未';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => '上次更新：${time}';
+      case 'dict_update_interval_daily':
+        return '每天';
+      case 'dict_update_interval_weekly':
+        return '每周';
+      case 'dict_update_interval_monthly':
+        return '每月';
       default:
         return null;
     }
@@ -138173,6 +138920,28 @@ extension on _StringsZhHk {
         return 'Export scope';
       case 'collection_export_all_mined':
         return 'All mined sentences';
+      case 'ttu_paragraph_spacing':
+        return 'Paragraph spacing';
+      case 'ttu_blur_images':
+        return 'Blur images (spoiler guard)';
+      case 'scan_non_japanese_text':
+        return 'Scan non-Japanese text';
+      case 'scan_non_japanese_text_hint':
+        return 'When off, selection stops at non-Japanese characters';
+      case 'dict_auto_update':
+        return 'Update automatically';
+      case 'dict_auto_update_hint':
+        return 'Check for dictionary updates on launch';
+      case 'dict_auto_update_never':
+        return 'Never';
+      case 'dict_auto_update_last':
+        return ({required Object time}) => 'Last update: ${time}';
+      case 'dict_update_interval_daily':
+        return 'Daily';
+      case 'dict_update_interval_weekly':
+        return 'Weekly';
+      case 'dict_update_interval_monthly':
+        return 'Monthly';
       default:
         return null;
     }
