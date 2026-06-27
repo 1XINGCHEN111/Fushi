@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32334 (1902 per locale)
+/// Strings: 32368 (1904 per locale)
 ///
-/// Built on 2026-06-27 at 16:54 UTC
+/// Built on 2026-06-27 at 17:20 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2535,6 +2535,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   String get video_file_not_found => 'Video file not found';
+  String get lyrics_blur => 'Blur lyrics';
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -6835,6 +6838,11 @@ class _StringsAr extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -11257,6 +11265,11 @@ class _StringsDe extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -15696,6 +15709,11 @@ class _StringsEs extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -20154,6 +20172,11 @@ class _StringsFr extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -24514,6 +24537,11 @@ class _StringsId extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -28935,6 +28963,11 @@ class _StringsIt extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -33082,6 +33115,11 @@ class _StringsJa extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -37233,6 +37271,11 @@ class _StringsKo extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -41622,6 +41665,11 @@ class _StringsNl extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -46034,6 +46082,11 @@ class _StringsPtBr extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -50421,6 +50474,11 @@ class _StringsRu extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -54721,6 +54779,11 @@ class _StringsTh extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -59076,6 +59139,11 @@ class _StringsTr extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -63406,6 +63474,11 @@ class _StringsVi extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -67444,6 +67517,10 @@ class _StringsZhCn extends _StringsEn {
   String get lyrics_vertical_writing_hint => '歌词竖排显示，从右到左（独立于书本模式）';
   @override
   String get video_file_not_found => '找不到视频文件';
+  @override
+  String get lyrics_blur => '模糊歌词';
+  @override
+  String get lyrics_blur_hint => '听力沉浸：模糊当前句，悬停或点击显形';
 }
 
 // Path: retrying_in
@@ -71493,6 +71570,11 @@ class _StringsZhHk extends _StringsEn {
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
   @override
   String get video_file_not_found => 'Video file not found';
+  @override
+  String get lyrics_blur => 'Blur lyrics';
+  @override
+  String get lyrics_blur_hint =>
+      'Blur the current line for listening immersion; hover or tap to reveal';
 }
 
 // Path: retrying_in
@@ -75428,6 +75510,10 @@ extension on _StringsEn {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -79323,6 +79409,10 @@ extension on _StringsAr {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -83240,6 +83330,10 @@ extension on _StringsDe {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -87155,6 +87249,10 @@ extension on _StringsEs {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -91077,6 +91175,10 @@ extension on _StringsFr {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -94979,6 +95081,10 @@ extension on _StringsId {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -98898,6 +99004,10 @@ extension on _StringsIt {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -102775,6 +102885,10 @@ extension on _StringsJa {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -106655,6 +106769,10 @@ extension on _StringsKo {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -110567,6 +110685,10 @@ extension on _StringsNl {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -114476,6 +114598,10 @@ extension on _StringsPtBr {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -118389,6 +118515,10 @@ extension on _StringsRu {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -122284,6 +122414,10 @@ extension on _StringsTh {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -126188,6 +126322,10 @@ extension on _StringsTr {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -130086,6 +130224,10 @@ extension on _StringsVi {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
@@ -133953,6 +134095,10 @@ extension on _StringsZhCn {
         return '歌词竖排显示，从右到左（独立于书本模式）';
       case 'video_file_not_found':
         return '找不到视频文件';
+      case 'lyrics_blur':
+        return '模糊歌词';
+      case 'lyrics_blur_hint':
+        return '听力沉浸：模糊当前句，悬停或点击显形';
       default:
         return null;
     }
@@ -137822,6 +137968,10 @@ extension on _StringsZhHk {
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
       case 'video_file_not_found':
         return 'Video file not found';
+      case 'lyrics_blur':
+        return 'Blur lyrics';
+      case 'lyrics_blur_hint':
+        return 'Blur the current line for listening immersion; hover or tap to reveal';
       default:
         return null;
     }
