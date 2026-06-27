@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32198 (1894 per locale)
+/// Strings: 32249 (1897 per locale)
 ///
-/// Built on 2026-06-27 at 15:25 UTC
+/// Built on 2026-06-27 at 15:26 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2054,6 +2054,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_resource_missing_title => 'Video unavailable';
 	String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	String get video_resource_missing_reimport => 'Re-import';
+	String get backup_import_mode_label => 'Import mode';
+	String get backup_import_mode_overwrite => 'Overwrite entire library';
+	String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -4001,6 +4004,9 @@ class _StringsAr extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -5948,6 +5954,9 @@ class _StringsDe extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -7895,6 +7904,9 @@ class _StringsEs extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -9842,6 +9854,9 @@ class _StringsFr extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -11789,6 +11804,9 @@ class _StringsId extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -13736,6 +13754,9 @@ class _StringsIt extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -15683,6 +15704,9 @@ class _StringsJa extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -17630,6 +17654,9 @@ class _StringsKo extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -19577,6 +19604,9 @@ class _StringsNl extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -21524,6 +21554,9 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -23471,6 +23504,9 @@ class _StringsRu extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -25418,6 +25454,9 @@ class _StringsTh extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -27365,6 +27404,9 @@ class _StringsTr extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -29312,6 +29354,9 @@ class _StringsVi extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -31259,6 +31304,9 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_resource_missing_title => '视频无法访问';
 	@override String video_resource_missing_message({required Object title}) => '找不到『${title}』的视频文件。资源位置可能已变化，或所在磁盘未连接。你可以重新导入，或删除此条目。';
 	@override String get video_resource_missing_reimport => '重新导入';
+	@override String get backup_import_mode_label => '导入方式';
+	@override String get backup_import_mode_overwrite => '覆盖整库';
+	@override String get backup_import_mode_merge => '合并到现有库';
 }
 
 // Path: retrying_in
@@ -33206,6 +33254,9 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_resource_missing_title => 'Video unavailable';
 	@override String video_resource_missing_message({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 	@override String get video_resource_missing_reimport => 'Re-import';
+	@override String get backup_import_mode_label => 'Import mode';
+	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
+	@override String get backup_import_mode_merge => 'Merge into current library';
 }
 
 // Path: retrying_in
@@ -35138,6 +35189,9 @@ extension on _StringsEn {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -37044,6 +37098,9 @@ extension on _StringsAr {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -38950,6 +39007,9 @@ extension on _StringsDe {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -40856,6 +40916,9 @@ extension on _StringsEs {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -42762,6 +42825,9 @@ extension on _StringsFr {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -44668,6 +44734,9 @@ extension on _StringsId {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -46574,6 +46643,9 @@ extension on _StringsIt {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -48480,6 +48552,9 @@ extension on _StringsJa {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -50386,6 +50461,9 @@ extension on _StringsKo {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -52292,6 +52370,9 @@ extension on _StringsNl {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -54198,6 +54279,9 @@ extension on _StringsPtBr {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -56104,6 +56188,9 @@ extension on _StringsRu {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -58010,6 +58097,9 @@ extension on _StringsTh {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -59916,6 +60006,9 @@ extension on _StringsTr {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -61822,6 +61915,9 @@ extension on _StringsVi {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
@@ -63728,6 +63824,9 @@ extension on _StringsZhCn {
 			case 'video_resource_missing_title': return '视频无法访问';
 			case 'video_resource_missing_message': return ({required Object title}) => '找不到『${title}』的视频文件。资源位置可能已变化，或所在磁盘未连接。你可以重新导入，或删除此条目。';
 			case 'video_resource_missing_reimport': return '重新导入';
+			case 'backup_import_mode_label': return '导入方式';
+			case 'backup_import_mode_overwrite': return '覆盖整库';
+			case 'backup_import_mode_merge': return '合并到现有库';
 			default: return null;
 		}
 	}
@@ -65634,6 +65733,9 @@ extension on _StringsZhHk {
 			case 'video_resource_missing_title': return 'Video unavailable';
 			case 'video_resource_missing_message': return ({required Object title}) => 'The file for 『${title}』 could not be found. Its location may have changed, or the drive may not be connected. You can re-import it, or remove this entry.';
 			case 'video_resource_missing_reimport': return 'Re-import';
+			case 'backup_import_mode_label': return 'Import mode';
+			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
+			case 'backup_import_mode_merge': return 'Merge into current library';
 			default: return null;
 		}
 	}
