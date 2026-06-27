@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31824 (1872 per locale)
+/// Strings: 31841 (1873 per locale)
 ///
-/// Built on 2026-06-27 at 01:47 UTC
+/// Built on 2026-06-27 at 02:23 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2498,6 +2498,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'host:port, e.g. 127.0.0.1:7890 (IPv4/host only)';
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -6731,6 +6733,9 @@ class _StringsAr extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -11086,6 +11091,9 @@ class _StringsDe extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -15458,6 +15466,9 @@ class _StringsEs extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -19849,6 +19860,9 @@ class _StringsFr extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -24142,6 +24156,9 @@ class _StringsId extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -28496,6 +28513,9 @@ class _StringsIt extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -32576,6 +32596,9 @@ class _StringsJa extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -36660,6 +36683,9 @@ class _StringsKo extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -40982,6 +41008,9 @@ class _StringsNl extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -45327,6 +45356,9 @@ class _StringsPtBr extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -49647,6 +49679,9 @@ class _StringsRu extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -53880,6 +53915,9 @@ class _StringsTh extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -58168,6 +58206,9 @@ class _StringsTr extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -62431,6 +62472,9 @@ class _StringsVi extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => 'Video Subtitle Font';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -66406,6 +66450,8 @@ class _StringsZhCn extends _StringsEn {
   String get update_custom_proxy_invalid => '代理格式无效，请用 host:port';
   @override
   String get font_target_video_subtitle => '视频字幕字体';
+  @override
+  String get sync_err_scope_upgrade => '同步权限已更新，请重新登录 Google 账号以继续同步。';
 }
 
 // Path: retrying_in
@@ -70388,6 +70434,9 @@ class _StringsZhHk extends _StringsEn {
   String get update_custom_proxy_invalid => 'Invalid proxy. Use host:port';
   @override
   String get font_target_video_subtitle => '視頻字幕字體';
+  @override
+  String get sync_err_scope_upgrade =>
+      'Sync permissions changed — please sign in to Google again to continue syncing.';
 }
 
 // Path: retrying_in
@@ -74262,6 +74311,8 @@ extension on _StringsEn {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -78096,6 +78147,8 @@ extension on _StringsAr {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -81952,6 +82005,8 @@ extension on _StringsDe {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -85806,6 +85861,8 @@ extension on _StringsEs {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -89667,6 +89724,8 @@ extension on _StringsFr {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -93508,6 +93567,8 @@ extension on _StringsId {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -97366,6 +97427,8 @@ extension on _StringsIt {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -101182,6 +101245,8 @@ extension on _StringsJa {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -105001,6 +105066,8 @@ extension on _StringsKo {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -108852,6 +108919,8 @@ extension on _StringsNl {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -112700,6 +112769,8 @@ extension on _StringsPtBr {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -116552,6 +116623,8 @@ extension on _StringsRu {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -120386,6 +120459,8 @@ extension on _StringsTh {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -124229,6 +124304,8 @@ extension on _StringsTr {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -128066,6 +128143,8 @@ extension on _StringsVi {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return 'Video Subtitle Font';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
@@ -131872,6 +131951,8 @@ extension on _StringsZhCn {
         return '代理格式无效，请用 host:port';
       case 'font_target_video_subtitle':
         return '视频字幕字体';
+      case 'sync_err_scope_upgrade':
+        return '同步权限已更新，请重新登录 Google 账号以继续同步。';
       default:
         return null;
     }
@@ -135680,6 +135761,8 @@ extension on _StringsZhHk {
         return 'Invalid proxy. Use host:port';
       case 'font_target_video_subtitle':
         return '視頻字幕字體';
+      case 'sync_err_scope_upgrade':
+        return 'Sync permissions changed — please sign in to Google again to continue syncing.';
       default:
         return null;
     }
