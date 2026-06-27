@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32317 (1901 per locale)
+/// Strings: 32334 (1902 per locale)
 ///
-/// Built on 2026-06-27 at 16:36 UTC
+/// Built on 2026-06-27 at 16:54 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2534,6 +2534,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get lyrics_vertical_writing => 'Vertical lyrics';
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -6832,6 +6833,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -11252,6 +11255,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -15689,6 +15694,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -20145,6 +20152,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -24503,6 +24512,8 @@ class _StringsId extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -28922,6 +28933,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -33067,6 +33080,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -37216,6 +37231,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -41603,6 +41620,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -46013,6 +46032,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -50398,6 +50419,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -54696,6 +54719,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -59049,6 +59074,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -63377,6 +63404,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -67413,6 +67442,8 @@ class _StringsZhCn extends _StringsEn {
   String get lyrics_vertical_writing => '竖排歌词';
   @override
   String get lyrics_vertical_writing_hint => '歌词竖排显示，从右到左（独立于书本模式）';
+  @override
+  String get video_file_not_found => '找不到视频文件';
 }
 
 // Path: retrying_in
@@ -71460,6 +71491,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get lyrics_vertical_writing_hint =>
       'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+  @override
+  String get video_file_not_found => 'Video file not found';
 }
 
 // Path: retrying_in
@@ -75393,6 +75426,8 @@ extension on _StringsEn {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -79286,6 +79321,8 @@ extension on _StringsAr {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -83201,6 +83238,8 @@ extension on _StringsDe {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -87114,6 +87153,8 @@ extension on _StringsEs {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -91034,6 +91075,8 @@ extension on _StringsFr {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -94934,6 +94977,8 @@ extension on _StringsId {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -98851,6 +98896,8 @@ extension on _StringsIt {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -102726,6 +102773,8 @@ extension on _StringsJa {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -106604,6 +106653,8 @@ extension on _StringsKo {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -110514,6 +110565,8 @@ extension on _StringsNl {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -114421,6 +114474,8 @@ extension on _StringsPtBr {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -118332,6 +118387,8 @@ extension on _StringsRu {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -122225,6 +122282,8 @@ extension on _StringsTh {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -126127,6 +126186,8 @@ extension on _StringsTr {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -130023,6 +130084,8 @@ extension on _StringsVi {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
@@ -133888,6 +133951,8 @@ extension on _StringsZhCn {
         return '竖排歌词';
       case 'lyrics_vertical_writing_hint':
         return '歌词竖排显示，从右到左（独立于书本模式）';
+      case 'video_file_not_found':
+        return '找不到视频文件';
       default:
         return null;
     }
@@ -137755,6 +137820,8 @@ extension on _StringsZhHk {
         return 'Vertical lyrics';
       case 'lyrics_vertical_writing_hint':
         return 'Read lyrics top-to-bottom, right-to-left (independent of book mode)';
+      case 'video_file_not_found':
+        return 'Video file not found';
       default:
         return null;
     }
