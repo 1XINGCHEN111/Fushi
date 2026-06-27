@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 31824 (1872 per locale)
 ///
-/// Built on 2026-06-26 at 17:58 UTC
+/// Built on 2026-06-27 at 01:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1613,7 +1613,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_role_locked_by_client =>
       'Already connected to another device. Remove the connection before hosting as a server.';
   String get sync_compare_unavailable => 'Set up a sync backend first';
-  String get sync_audiobook_files => 'Upload audiobook files';
+  String get sync_audiobook_files => 'Sync audiobook files';
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
   String get book_import_duplicate_title => 'Duplicate book';
@@ -64955,7 +64955,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get sync_compare_unavailable => '请先设置同步后端';
   @override
-  String get sync_audiobook_files => '上传有声书文件';
+  String get sync_audiobook_files => '同步有声书文件';
   @override
   String get sync_audiobook_files_warning => '音频和字幕可能很大。';
   @override
@@ -68927,7 +68927,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_compare_unavailable => '請先設定同步後端';
   @override
-  String get sync_audiobook_files => '上傳有聲書文件';
+  String get sync_audiobook_files => '同步有聲書文件';
   @override
   String get sync_audiobook_files_warning => '音訊與字幕可能很大。';
   @override
@@ -72868,7 +72868,7 @@ extension on _StringsEn {
       case 'sync_compare_unavailable':
         return 'Set up a sync backend first';
       case 'sync_audiobook_files':
-        return 'Upload audiobook files';
+        return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
       case 'book_import_duplicate_title':
@@ -130489,7 +130489,7 @@ extension on _StringsZhCn {
       case 'sync_compare_unavailable':
         return '请先设置同步后端';
       case 'sync_audiobook_files':
-        return '上传有声书文件';
+        return '同步有声书文件';
       case 'sync_audiobook_files_warning':
         return '音频和字幕可能很大。';
       case 'book_import_duplicate_title':
@@ -134295,7 +134295,7 @@ extension on _StringsZhHk {
       case 'sync_compare_unavailable':
         return '請先設定同步後端';
       case 'sync_audiobook_files':
-        return '上傳有聲書文件';
+        return '同步有聲書文件';
       case 'sync_audiobook_files_warning':
         return '音訊與字幕可能很大。';
       case 'book_import_duplicate_title':
