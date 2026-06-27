@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32368 (1904 per locale)
+/// Strings: 32419 (1907 per locale)
 ///
-/// Built on 2026-06-27 at 17:20 UTC
+/// Built on 2026-06-27 at 18:59 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2538,6 +2538,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get lyrics_blur => 'Blur lyrics';
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  String get collection_export_mined_title => 'Mined Sentences';
+  String get collection_export_scope => 'Export scope';
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -6843,6 +6846,12 @@ class _StringsAr extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -11270,6 +11279,12 @@ class _StringsDe extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -15714,6 +15729,12 @@ class _StringsEs extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -20177,6 +20198,12 @@ class _StringsFr extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -24542,6 +24569,12 @@ class _StringsId extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -28968,6 +29001,12 @@ class _StringsIt extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -33120,6 +33159,12 @@ class _StringsJa extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -37276,6 +37321,12 @@ class _StringsKo extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -41670,6 +41721,12 @@ class _StringsNl extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -46087,6 +46144,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -50479,6 +50542,12 @@ class _StringsRu extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -54784,6 +54853,12 @@ class _StringsTh extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -59144,6 +59219,12 @@ class _StringsTr extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -63479,6 +63560,12 @@ class _StringsVi extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -67521,6 +67608,12 @@ class _StringsZhCn extends _StringsEn {
   String get lyrics_blur => '模糊歌词';
   @override
   String get lyrics_blur_hint => '听力沉浸：模糊当前句，悬停或点击显形';
+  @override
+  String get collection_export_mined_title => '制卡语句';
+  @override
+  String get collection_export_scope => '导出范围';
+  @override
+  String get collection_export_all_mined => '全部制卡句';
 }
 
 // Path: retrying_in
@@ -71575,6 +71668,12 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get lyrics_blur_hint =>
       'Blur the current line for listening immersion; hover or tap to reveal';
+  @override
+  String get collection_export_mined_title => 'Mined Sentences';
+  @override
+  String get collection_export_scope => 'Export scope';
+  @override
+  String get collection_export_all_mined => 'All mined sentences';
 }
 
 // Path: retrying_in
@@ -75514,6 +75613,12 @@ extension on _StringsEn {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -79413,6 +79518,12 @@ extension on _StringsAr {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -83334,6 +83445,12 @@ extension on _StringsDe {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -87253,6 +87370,12 @@ extension on _StringsEs {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -91179,6 +91302,12 @@ extension on _StringsFr {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -95085,6 +95214,12 @@ extension on _StringsId {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -99008,6 +99143,12 @@ extension on _StringsIt {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -102889,6 +103030,12 @@ extension on _StringsJa {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -106773,6 +106920,12 @@ extension on _StringsKo {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -110689,6 +110842,12 @@ extension on _StringsNl {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -114602,6 +114761,12 @@ extension on _StringsPtBr {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -118519,6 +118684,12 @@ extension on _StringsRu {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -122418,6 +122589,12 @@ extension on _StringsTh {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -126326,6 +126503,12 @@ extension on _StringsTr {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -130228,6 +130411,12 @@ extension on _StringsVi {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
@@ -134099,6 +134288,12 @@ extension on _StringsZhCn {
         return '模糊歌词';
       case 'lyrics_blur_hint':
         return '听力沉浸：模糊当前句，悬停或点击显形';
+      case 'collection_export_mined_title':
+        return '制卡语句';
+      case 'collection_export_scope':
+        return '导出范围';
+      case 'collection_export_all_mined':
+        return '全部制卡句';
       default:
         return null;
     }
@@ -137972,6 +138167,12 @@ extension on _StringsZhHk {
         return 'Blur lyrics';
       case 'lyrics_blur_hint':
         return 'Blur the current line for listening immersion; hover or tap to reveal';
+      case 'collection_export_mined_title':
+        return 'Mined Sentences';
+      case 'collection_export_scope':
+        return 'Export scope';
+      case 'collection_export_all_mined':
+        return 'All mined sentences';
       default:
         return null;
     }
