@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 31943 (1879 per locale)
+/// Strings: 32096 (1888 per locale)
 ///
-/// Built on 2026-06-27 at 03:23 UTC
+/// Built on 2026-06-27 at 13:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2506,6 +2506,18 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get reader_gallery_empty => 'No illustrations in this book';
   String get reader_gallery_current => 'Reading here';
   String get reader_gallery_jump => 'Jump to this illustration';
+  String get video_import_paste_url => 'Paste video URL';
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  String get video_import_stream_url_field => 'Video stream URL';
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  String get video_import_stream_referer => 'Referer (optional)';
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  String get video_import_stream_play => 'Play stream';
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -6754,6 +6766,27 @@ class _StringsAr extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -11124,6 +11157,27 @@ class _StringsDe extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -15511,6 +15565,27 @@ class _StringsEs extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -19917,6 +19992,27 @@ class _StringsFr extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -24225,6 +24321,27 @@ class _StringsId extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -28594,6 +28711,27 @@ class _StringsIt extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -32689,6 +32827,27 @@ class _StringsJa extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -36788,6 +36947,27 @@ class _StringsKo extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -41125,6 +41305,27 @@ class _StringsNl extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -45485,6 +45686,27 @@ class _StringsPtBr extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -49820,6 +50042,27 @@ class _StringsRu extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -54068,6 +54311,27 @@ class _StringsTh extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -58371,6 +58635,27 @@ class _StringsTr extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -62649,6 +62934,27 @@ class _StringsVi extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -66638,6 +66944,25 @@ class _StringsZhCn extends _StringsEn {
   String get reader_gallery_current => '正在阅读';
   @override
   String get reader_gallery_jump => '跳转到此插图';
+  @override
+  String get video_import_paste_url => '粘贴视频 URL';
+  @override
+  String get video_import_stream_url_hint =>
+      '播放 HLS/m3u8/mp4 直链（可选外挂字幕 URL 与防盗链 Referer/User-Agent）';
+  @override
+  String get video_import_stream_url_field => '视频流 URL';
+  @override
+  String get video_import_stream_subtitle_url_field => '外挂字幕 URL（可选）';
+  @override
+  String get video_import_stream_advanced => '高级（防盗链请求头）';
+  @override
+  String get video_import_stream_referer => 'Referer（可选）';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent（可选）';
+  @override
+  String get video_import_stream_play => '播放流';
+  @override
+  String get video_import_stream_url_invalid => '请输入有效的 http(s) 流地址';
 }
 
 // Path: retrying_in
@@ -70635,6 +70960,27 @@ class _StringsZhHk extends _StringsEn {
   String get reader_gallery_current => 'Reading here';
   @override
   String get reader_gallery_jump => 'Jump to this illustration';
+  @override
+  String get video_import_paste_url => 'Paste video URL';
+  @override
+  String get video_import_stream_url_hint =>
+      'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+  @override
+  String get video_import_stream_url_field => 'Video stream URL';
+  @override
+  String get video_import_stream_subtitle_url_field =>
+      'External subtitle URL (optional)';
+  @override
+  String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
+  @override
+  String get video_import_stream_referer => 'Referer (optional)';
+  @override
+  String get video_import_stream_user_agent => 'User-Agent (optional)';
+  @override
+  String get video_import_stream_play => 'Play stream';
+  @override
+  String get video_import_stream_url_invalid =>
+      'Enter a valid http(s) stream URL';
 }
 
 // Path: retrying_in
@@ -74523,6 +74869,24 @@ extension on _StringsEn {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -78371,6 +78735,24 @@ extension on _StringsAr {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -82241,6 +82623,24 @@ extension on _StringsDe {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -86109,6 +86509,24 @@ extension on _StringsEs {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -89984,6 +90402,24 @@ extension on _StringsFr {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -93839,6 +94275,24 @@ extension on _StringsId {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -97711,6 +98165,24 @@ extension on _StringsIt {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -101541,6 +102013,24 @@ extension on _StringsJa {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -105374,6 +105864,24 @@ extension on _StringsKo {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -109239,6 +109747,24 @@ extension on _StringsNl {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -113101,6 +113627,24 @@ extension on _StringsPtBr {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -116967,6 +117511,24 @@ extension on _StringsRu {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -120815,6 +121377,24 @@ extension on _StringsTh {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -124672,6 +125252,24 @@ extension on _StringsTr {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -128523,6 +129121,24 @@ extension on _StringsVi {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
@@ -132343,6 +132959,24 @@ extension on _StringsZhCn {
         return '正在阅读';
       case 'reader_gallery_jump':
         return '跳转到此插图';
+      case 'video_import_paste_url':
+        return '粘贴视频 URL';
+      case 'video_import_stream_url_hint':
+        return '播放 HLS/m3u8/mp4 直链（可选外挂字幕 URL 与防盗链 Referer/User-Agent）';
+      case 'video_import_stream_url_field':
+        return '视频流 URL';
+      case 'video_import_stream_subtitle_url_field':
+        return '外挂字幕 URL（可选）';
+      case 'video_import_stream_advanced':
+        return '高级（防盗链请求头）';
+      case 'video_import_stream_referer':
+        return 'Referer（可选）';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent（可选）';
+      case 'video_import_stream_play':
+        return '播放流';
+      case 'video_import_stream_url_invalid':
+        return '请输入有效的 http(s) 流地址';
       default:
         return null;
     }
@@ -136165,6 +136799,24 @@ extension on _StringsZhHk {
         return 'Reading here';
       case 'reader_gallery_jump':
         return 'Jump to this illustration';
+      case 'video_import_paste_url':
+        return 'Paste video URL';
+      case 'video_import_stream_url_hint':
+        return 'Play HLS/m3u8/mp4 stream URL (with optional external subtitle URL and anti-leech Referer/User-Agent)';
+      case 'video_import_stream_url_field':
+        return 'Video stream URL';
+      case 'video_import_stream_subtitle_url_field':
+        return 'External subtitle URL (optional)';
+      case 'video_import_stream_advanced':
+        return 'Advanced (anti-leech headers)';
+      case 'video_import_stream_referer':
+        return 'Referer (optional)';
+      case 'video_import_stream_user_agent':
+        return 'User-Agent (optional)';
+      case 'video_import_stream_play':
+        return 'Play stream';
+      case 'video_import_stream_url_invalid':
+        return 'Enter a valid http(s) stream URL';
       default:
         return null;
     }
