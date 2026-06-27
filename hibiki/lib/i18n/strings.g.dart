@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32249 (1897 per locale)
+/// Strings: 32283 (1899 per locale)
 ///
-/// Built on 2026-06-27 at 15:26 UTC
+/// Built on 2026-06-27 at 15:56 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2057,6 +2057,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get backup_import_mode_label => 'Import mode';
 	String get backup_import_mode_overwrite => 'Overwrite entire library';
 	String get backup_import_mode_merge => 'Merge into current library';
+	String get db_unrecoverable_title => 'Database damaged';
+	String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -4007,6 +4009,8 @@ class _StringsAr extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -5957,6 +5961,8 @@ class _StringsDe extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -7907,6 +7913,8 @@ class _StringsEs extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -9857,6 +9865,8 @@ class _StringsFr extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -11807,6 +11817,8 @@ class _StringsId extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -13757,6 +13769,8 @@ class _StringsIt extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -15707,6 +15721,8 @@ class _StringsJa extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -17657,6 +17673,8 @@ class _StringsKo extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -19607,6 +19625,8 @@ class _StringsNl extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -21557,6 +21577,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -23507,6 +23529,8 @@ class _StringsRu extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -25457,6 +25481,8 @@ class _StringsTh extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -27407,6 +27433,8 @@ class _StringsTr extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -29357,6 +29385,8 @@ class _StringsVi extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -31307,6 +31337,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get backup_import_mode_label => '导入方式';
 	@override String get backup_import_mode_overwrite => '覆盖整库';
 	@override String get backup_import_mode_merge => '合并到现有库';
+	@override String get db_unrecoverable_title => '数据库已损坏';
+	@override String get db_unrecoverable_message => '自动修复后仍无法打开数据库，文件可能已损坏。可在设置中恢复备份，或清除应用数据重新开始。';
 }
 
 // Path: retrying_in
@@ -33257,6 +33289,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get backup_import_mode_label => 'Import mode';
 	@override String get backup_import_mode_overwrite => 'Overwrite entire library';
 	@override String get backup_import_mode_merge => 'Merge into current library';
+	@override String get db_unrecoverable_title => 'Database damaged';
+	@override String get db_unrecoverable_message => 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 }
 
 // Path: retrying_in
@@ -35192,6 +35226,8 @@ extension on _StringsEn {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -37101,6 +37137,8 @@ extension on _StringsAr {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -39010,6 +39048,8 @@ extension on _StringsDe {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -40919,6 +40959,8 @@ extension on _StringsEs {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -42828,6 +42870,8 @@ extension on _StringsFr {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -44737,6 +44781,8 @@ extension on _StringsId {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -46646,6 +46692,8 @@ extension on _StringsIt {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -48555,6 +48603,8 @@ extension on _StringsJa {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -50464,6 +50514,8 @@ extension on _StringsKo {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -52373,6 +52425,8 @@ extension on _StringsNl {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -54282,6 +54336,8 @@ extension on _StringsPtBr {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -56191,6 +56247,8 @@ extension on _StringsRu {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -58100,6 +58158,8 @@ extension on _StringsTh {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -60009,6 +60069,8 @@ extension on _StringsTr {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -61918,6 +61980,8 @@ extension on _StringsVi {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
@@ -63827,6 +63891,8 @@ extension on _StringsZhCn {
 			case 'backup_import_mode_label': return '导入方式';
 			case 'backup_import_mode_overwrite': return '覆盖整库';
 			case 'backup_import_mode_merge': return '合并到现有库';
+			case 'db_unrecoverable_title': return '数据库已损坏';
+			case 'db_unrecoverable_message': return '自动修复后仍无法打开数据库，文件可能已损坏。可在设置中恢复备份，或清除应用数据重新开始。';
 			default: return null;
 		}
 	}
@@ -65736,6 +65802,8 @@ extension on _StringsZhHk {
 			case 'backup_import_mode_label': return 'Import mode';
 			case 'backup_import_mode_overwrite': return 'Overwrite entire library';
 			case 'backup_import_mode_merge': return 'Merge into current library';
+			case 'db_unrecoverable_title': return 'Database damaged';
+			case 'db_unrecoverable_message': return 'The database could not be opened even after automatic repair. It is likely corrupt. You can restore a backup in Settings, or clear app data to start fresh.';
 			default: return null;
 		}
 	}
