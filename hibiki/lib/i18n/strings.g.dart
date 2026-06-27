@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32096 (1888 per locale)
+/// Strings: 32147 (1891 per locale)
 ///
-/// Built on 2026-06-27 at 13:43 UTC
+/// Built on 2026-06-27 at 14:35 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2518,6 +2518,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_import_stream_play => 'Play stream';
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  String get settings_check_update_now => 'Check for updates';
+  String get update_checking_now => 'Checking for updates…';
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -6787,6 +6790,12 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -11178,6 +11187,12 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -15586,6 +15601,12 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -20013,6 +20034,12 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -24342,6 +24369,12 @@ class _StringsId extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -28732,6 +28765,12 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -32848,6 +32887,12 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -36968,6 +37013,12 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -41326,6 +41377,12 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -45707,6 +45764,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -50063,6 +50126,12 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -54332,6 +54401,12 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -58656,6 +58731,12 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -62955,6 +63036,12 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -66963,6 +67050,12 @@ class _StringsZhCn extends _StringsEn {
   String get video_import_stream_play => '播放流';
   @override
   String get video_import_stream_url_invalid => '请输入有效的 http(s) 流地址';
+  @override
+  String get settings_check_update_now => '检查更新';
+  @override
+  String get update_checking_now => '正在检查更新…';
+  @override
+  String get update_already_latest => '已是最新版本';
 }
 
 // Path: retrying_in
@@ -70981,6 +71074,12 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_import_stream_url_invalid =>
       'Enter a valid http(s) stream URL';
+  @override
+  String get settings_check_update_now => 'Check for updates';
+  @override
+  String get update_checking_now => 'Checking for updates…';
+  @override
+  String get update_already_latest => 'You\'re on the latest version';
 }
 
 // Path: retrying_in
@@ -74887,6 +74986,12 @@ extension on _StringsEn {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -78753,6 +78858,12 @@ extension on _StringsAr {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -82641,6 +82752,12 @@ extension on _StringsDe {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -86527,6 +86644,12 @@ extension on _StringsEs {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -90420,6 +90543,12 @@ extension on _StringsFr {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -94293,6 +94422,12 @@ extension on _StringsId {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -98183,6 +98318,12 @@ extension on _StringsIt {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -102031,6 +102172,12 @@ extension on _StringsJa {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -105882,6 +106029,12 @@ extension on _StringsKo {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -109765,6 +109918,12 @@ extension on _StringsNl {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -113645,6 +113804,12 @@ extension on _StringsPtBr {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -117529,6 +117694,12 @@ extension on _StringsRu {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -121395,6 +121566,12 @@ extension on _StringsTh {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -125270,6 +125447,12 @@ extension on _StringsTr {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -129139,6 +129322,12 @@ extension on _StringsVi {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
@@ -132977,6 +133166,12 @@ extension on _StringsZhCn {
         return '播放流';
       case 'video_import_stream_url_invalid':
         return '请输入有效的 http(s) 流地址';
+      case 'settings_check_update_now':
+        return '检查更新';
+      case 'update_checking_now':
+        return '正在检查更新…';
+      case 'update_already_latest':
+        return '已是最新版本';
       default:
         return null;
     }
@@ -136817,6 +137012,12 @@ extension on _StringsZhHk {
         return 'Play stream';
       case 'video_import_stream_url_invalid':
         return 'Enter a valid http(s) stream URL';
+      case 'settings_check_update_now':
+        return 'Check for updates';
+      case 'update_checking_now':
+        return 'Checking for updates…';
+      case 'update_already_latest':
+        return 'You\'re on the latest version';
       default:
         return null;
     }
