@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32759 (1927 per locale)
+/// Strings: 32844 (1932 per locale)
 ///
-/// Built on 2026-06-28 at 05:13 UTC
+/// Built on 2026-06-28 at 05:14 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2565,6 +2565,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Tap to switch · long-press to edit';
   String get shelf_edit_order => 'Edit order';
   String get shelf_done => 'Done';
+  String get series => 'Series';
+  String get manage_series => 'Manage series';
+  String get add_to_series => 'Add to series';
+  String get create_series => 'Create series';
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -6920,6 +6925,16 @@ class _StringsAr extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -11397,6 +11412,16 @@ class _StringsDe extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -15891,6 +15916,16 @@ class _StringsEs extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -20404,6 +20439,16 @@ class _StringsFr extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -24819,6 +24864,16 @@ class _StringsId extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -29295,6 +29350,16 @@ class _StringsIt extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -33497,6 +33562,16 @@ class _StringsJa extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -37703,6 +37778,16 @@ class _StringsKo extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -42147,6 +42232,16 @@ class _StringsNl extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -46614,6 +46709,16 @@ class _StringsPtBr extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -51056,6 +51161,16 @@ class _StringsRu extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -55411,6 +55526,16 @@ class _StringsTh extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -59821,6 +59946,16 @@ class _StringsTr extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -64206,6 +64341,16 @@ class _StringsVi extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -68295,6 +68440,16 @@ class _StringsZhCn extends _StringsEn {
   String get shelf_edit_order => '编辑排序';
   @override
   String get shelf_done => '完成';
+  @override
+  String get series => '系列';
+  @override
+  String get manage_series => '管理系列';
+  @override
+  String get add_to_series => '加入系列';
+  @override
+  String get create_series => '新建系列';
+  @override
+  String series_item_count({required Object n}) => '${n} 项';
 }
 
 // Path: retrying_in
@@ -72399,6 +72554,16 @@ class _StringsZhHk extends _StringsEn {
   String get shelf_edit_order => 'Edit order';
   @override
   String get shelf_done => 'Done';
+  @override
+  String get series => 'Series';
+  @override
+  String get manage_series => 'Manage series';
+  @override
+  String get add_to_series => 'Add to series';
+  @override
+  String get create_series => 'Create series';
+  @override
+  String series_item_count({required Object n}) => '${n} items';
 }
 
 // Path: retrying_in
@@ -76385,6 +76550,16 @@ extension on _StringsEn {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -80331,6 +80506,16 @@ extension on _StringsAr {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -84299,6 +84484,16 @@ extension on _StringsDe {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -88265,6 +88460,16 @@ extension on _StringsEs {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -92238,6 +92443,16 @@ extension on _StringsFr {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -96191,6 +96406,16 @@ extension on _StringsId {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -100161,6 +100386,16 @@ extension on _StringsIt {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -104089,6 +104324,16 @@ extension on _StringsJa {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -108020,6 +108265,16 @@ extension on _StringsKo {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -111983,6 +112238,16 @@ extension on _StringsNl {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -115943,6 +116208,16 @@ extension on _StringsPtBr {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -119907,6 +120182,16 @@ extension on _StringsRu {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -123853,6 +124138,16 @@ extension on _StringsTh {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -127808,6 +128103,16 @@ extension on _StringsTr {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -131757,6 +132062,16 @@ extension on _StringsVi {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
@@ -135674,6 +135989,16 @@ extension on _StringsZhCn {
         return '编辑排序';
       case 'shelf_done':
         return '完成';
+      case 'series':
+        return '系列';
+      case 'manage_series':
+        return '管理系列';
+      case 'add_to_series':
+        return '加入系列';
+      case 'create_series':
+        return '新建系列';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} 项';
       default:
         return null;
     }
@@ -139594,6 +139919,16 @@ extension on _StringsZhHk {
         return 'Edit order';
       case 'shelf_done':
         return 'Done';
+      case 'series':
+        return 'Series';
+      case 'manage_series':
+        return 'Manage series';
+      case 'add_to_series':
+        return 'Add to series';
+      case 'create_series':
+        return 'Create series';
+      case 'series_item_count':
+        return ({required Object n}) => '${n} items';
       default:
         return null;
     }
