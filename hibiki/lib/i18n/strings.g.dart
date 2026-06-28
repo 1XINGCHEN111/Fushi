@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32674 (1922 per locale)
+/// Strings: 32691 (1923 per locale)
 ///
-/// Built on 2026-06-28 at 04:11 UTC
+/// Built on 2026-06-28 at 04:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2559,6 +2559,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get collection_export_all_books => 'All books';
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -6903,6 +6904,8 @@ class _StringsAr extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -11369,6 +11372,8 @@ class _StringsDe extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -15852,6 +15857,8 @@ class _StringsEs extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -20354,6 +20361,8 @@ class _StringsFr extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -24758,6 +24767,8 @@ class _StringsId extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -29223,6 +29234,8 @@ class _StringsIt extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -33414,6 +33427,8 @@ class _StringsJa extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -37609,6 +37624,8 @@ class _StringsKo extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -42042,6 +42059,8 @@ class _StringsNl extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -46498,6 +46517,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -50929,6 +50950,8 @@ class _StringsRu extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -55273,6 +55296,8 @@ class _StringsTh extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -59672,6 +59697,8 @@ class _StringsTr extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -64046,6 +64073,8 @@ class _StringsVi extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -68125,6 +68154,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       '导入音频数据库失败：${reason}';
+  @override
+  String get ttu_vn => '视觉小说';
 }
 
 // Path: retrying_in
@@ -72218,6 +72249,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
+  @override
+  String get ttu_vn => 'Visual Novel';
 }
 
 // Path: retrying_in
@@ -76194,6 +76227,8 @@ extension on _StringsEn {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -80130,6 +80165,8 @@ extension on _StringsAr {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -84088,6 +84125,8 @@ extension on _StringsDe {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -88044,6 +88083,8 @@ extension on _StringsEs {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -92007,6 +92048,8 @@ extension on _StringsFr {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -95950,6 +95993,8 @@ extension on _StringsId {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -99910,6 +99955,8 @@ extension on _StringsIt {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -103828,6 +103875,8 @@ extension on _StringsJa {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -107749,6 +107798,8 @@ extension on _StringsKo {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -111702,6 +111753,8 @@ extension on _StringsNl {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -115652,6 +115705,8 @@ extension on _StringsPtBr {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -119606,6 +119661,8 @@ extension on _StringsRu {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -123542,6 +123599,8 @@ extension on _StringsTh {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -127487,6 +127546,8 @@ extension on _StringsTr {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -131426,6 +131487,8 @@ extension on _StringsVi {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
@@ -135333,6 +135396,8 @@ extension on _StringsZhCn {
         return '全部书籍';
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) => '导入音频数据库失败：${reason}';
+      case 'ttu_vn':
+        return '视觉小说';
       default:
         return null;
     }
@@ -139243,6 +139308,8 @@ extension on _StringsZhHk {
       case 'local_audio_import_failed_detail':
         return ({required Object reason}) =>
             'Failed to import audio database: ${reason}';
+      case 'ttu_vn':
+        return 'Visual Novel';
       default:
         return null;
     }
