@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33524 (1972 per locale)
+/// Strings: 33575 (1975 per locale)
 ///
-/// Built on 2026-06-28 at 10:16 UTC
+/// Built on 2026-06-28 at 10:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2624,6 +2624,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  String get audiobook_export_clip_saved => 'Clip saved';
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -7083,6 +7086,12 @@ class _StringsAr extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -11664,6 +11673,12 @@ class _StringsDe extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -16262,6 +16277,12 @@ class _StringsEs extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -20879,6 +20900,12 @@ class _StringsFr extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -25398,6 +25425,12 @@ class _StringsId extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -29978,6 +30011,12 @@ class _StringsIt extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -34284,6 +34323,12 @@ class _StringsJa extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -38594,6 +38639,12 @@ class _StringsKo extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -43142,6 +43193,12 @@ class _StringsNl extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -47713,6 +47770,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -52259,6 +52322,12 @@ class _StringsRu extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -56718,6 +56787,12 @@ class _StringsTh extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -61232,6 +61307,12 @@ class _StringsTr extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -65721,6 +65802,12 @@ class _StringsVi extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -69906,6 +69993,12 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       '卡片已创建并含句子音频，但当前 Anki 卡片模板没有字段映射到它。请把某字段映射到 {sasayaki-audio}。';
+  @override
+  String get audiobook_export_clip_in_progress => '正在导出片段…';
+  @override
+  String get audiobook_export_clip_saved => '片段已保存';
+  @override
+  String get audiobook_export_clip_failed => '片段导出失败';
 }
 
 // Path: retrying_in
@@ -74114,6 +74207,12 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get card_mined_unmapped_sentence_audio_field =>
       'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+  @override
+  String get audiobook_export_clip_in_progress => 'Exporting clip…';
+  @override
+  String get audiobook_export_clip_saved => 'Clip saved';
+  @override
+  String get audiobook_export_clip_failed => 'Clip export failed';
 }
 
 // Path: retrying_in
@@ -78190,6 +78289,12 @@ extension on _StringsEn {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -82226,6 +82331,12 @@ extension on _StringsAr {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -86284,6 +86395,12 @@ extension on _StringsDe {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -90340,6 +90457,12 @@ extension on _StringsEs {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -94403,6 +94526,12 @@ extension on _StringsFr {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -98446,6 +98575,12 @@ extension on _StringsId {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -102506,6 +102641,12 @@ extension on _StringsIt {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -106524,6 +106665,12 @@ extension on _StringsJa {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -110545,6 +110692,12 @@ extension on _StringsKo {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -114598,6 +114751,12 @@ extension on _StringsNl {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -118648,6 +118807,12 @@ extension on _StringsPtBr {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -122702,6 +122867,12 @@ extension on _StringsRu {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -126738,6 +126909,12 @@ extension on _StringsTh {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -130783,6 +130960,12 @@ extension on _StringsTr {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -134822,6 +135005,12 @@ extension on _StringsVi {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
@@ -138829,6 +139018,12 @@ extension on _StringsZhCn {
         return '卡片已创建，但当前 Anki 卡片模板没有任何字段映射到句子。请用设置页『一键创建 Lapis 卡组』，或把某字段映射到 {sentence}。';
       case 'card_mined_unmapped_sentence_audio_field':
         return '卡片已创建并含句子音频，但当前 Anki 卡片模板没有字段映射到它。请把某字段映射到 {sasayaki-audio}。';
+      case 'audiobook_export_clip_in_progress':
+        return '正在导出片段…';
+      case 'audiobook_export_clip_saved':
+        return '片段已保存';
+      case 'audiobook_export_clip_failed':
+        return '片段导出失败';
       default:
         return null;
     }
@@ -142839,6 +143034,12 @@ extension on _StringsZhHk {
         return 'Card created, but your Anki note type has no field mapped to the sentence. Use Settings -> \'Create Lapis deck\' or map a field to {sentence}.';
       case 'card_mined_unmapped_sentence_audio_field':
         return 'Card created with sentence audio, but your Anki note type has no field mapped to it. Map a field to {sasayaki-audio}.';
+      case 'audiobook_export_clip_in_progress':
+        return 'Exporting clip…';
+      case 'audiobook_export_clip_saved':
+        return 'Clip saved';
+      case 'audiobook_export_clip_failed':
+        return 'Clip export failed';
       default:
         return null;
     }
