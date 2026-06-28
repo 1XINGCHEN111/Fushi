@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32725 (1925 per locale)
+/// Strings: 32759 (1927 per locale)
 ///
-/// Built on 2026-06-28 at 05:10 UTC
+/// Built on 2026-06-28 at 05:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2563,6 +2563,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get edit_custom_theme => 'Edit custom theme';
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  String get shelf_edit_order => 'Edit order';
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -6914,6 +6916,10 @@ class _StringsAr extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -11387,6 +11393,10 @@ class _StringsDe extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -15877,6 +15887,10 @@ class _StringsEs extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -20386,6 +20400,10 @@ class _StringsFr extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -24797,6 +24815,10 @@ class _StringsId extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -29269,6 +29291,10 @@ class _StringsIt extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -33467,6 +33493,10 @@ class _StringsJa extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -37669,6 +37699,10 @@ class _StringsKo extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -42109,6 +42143,10 @@ class _StringsNl extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -46572,6 +46610,10 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -51010,6 +51052,10 @@ class _StringsRu extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -55361,6 +55407,10 @@ class _StringsTh extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -59767,6 +59817,10 @@ class _StringsTr extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -64148,6 +64202,10 @@ class _StringsVi extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -68233,6 +68291,10 @@ class _StringsZhCn extends _StringsEn {
   String get edit_custom_theme => '编辑自定义主题';
   @override
   String get custom_theme_long_press_hint => '点击切换 · 长按编辑';
+  @override
+  String get shelf_edit_order => '编辑排序';
+  @override
+  String get shelf_done => '完成';
 }
 
 // Path: retrying_in
@@ -72333,6 +72395,10 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get custom_theme_long_press_hint =>
       'Tap to switch · long-press to edit';
+  @override
+  String get shelf_edit_order => 'Edit order';
+  @override
+  String get shelf_done => 'Done';
 }
 
 // Path: retrying_in
@@ -76315,6 +76381,10 @@ extension on _StringsEn {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -80257,6 +80327,10 @@ extension on _StringsAr {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -84221,6 +84295,10 @@ extension on _StringsDe {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -88183,6 +88261,10 @@ extension on _StringsEs {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -92152,6 +92234,10 @@ extension on _StringsFr {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -96101,6 +96187,10 @@ extension on _StringsId {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -100067,6 +100157,10 @@ extension on _StringsIt {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -103991,6 +104085,10 @@ extension on _StringsJa {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -107918,6 +108016,10 @@ extension on _StringsKo {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -111877,6 +111979,10 @@ extension on _StringsNl {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -115833,6 +115939,10 @@ extension on _StringsPtBr {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -119793,6 +119903,10 @@ extension on _StringsRu {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -123735,6 +123849,10 @@ extension on _StringsTh {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -127686,6 +127804,10 @@ extension on _StringsTr {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -131631,6 +131753,10 @@ extension on _StringsVi {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
@@ -135544,6 +135670,10 @@ extension on _StringsZhCn {
         return '编辑自定义主题';
       case 'custom_theme_long_press_hint':
         return '点击切换 · 长按编辑';
+      case 'shelf_edit_order':
+        return '编辑排序';
+      case 'shelf_done':
+        return '完成';
       default:
         return null;
     }
@@ -139460,6 +139590,10 @@ extension on _StringsZhHk {
         return 'Edit custom theme';
       case 'custom_theme_long_press_hint':
         return 'Tap to switch · long-press to edit';
+      case 'shelf_edit_order':
+        return 'Edit order';
+      case 'shelf_done':
+        return 'Done';
       default:
         return null;
     }
