@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32606 (1918 per locale)
+/// Strings: 32657 (1921 per locale)
 ///
-/// Built on 2026-06-27 at 20:07 UTC
+/// Built on 2026-06-28 at 04:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2554,6 +2554,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get dict_update_interval_daily => 'Daily';
   String get dict_update_interval_weekly => 'Weekly';
   String get dict_update_interval_monthly => 'Monthly';
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -6889,6 +6892,12 @@ class _StringsAr extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -11346,6 +11355,12 @@ class _StringsDe extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -15820,6 +15835,12 @@ class _StringsEs extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -20313,6 +20334,12 @@ class _StringsFr extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -24708,6 +24735,12 @@ class _StringsId extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -29164,6 +29197,12 @@ class _StringsIt extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -33346,6 +33385,12 @@ class _StringsJa extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -37532,6 +37577,12 @@ class _StringsKo extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -41956,6 +42007,12 @@ class _StringsNl extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -46403,6 +46460,12 @@ class _StringsPtBr extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -50825,6 +50888,12 @@ class _StringsRu extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -55160,6 +55229,12 @@ class _StringsTh extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -59550,6 +59625,12 @@ class _StringsTr extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -63915,6 +63996,12 @@ class _StringsVi extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -67985,6 +68072,12 @@ class _StringsZhCn extends _StringsEn {
   String get dict_update_interval_weekly => '每周';
   @override
   String get dict_update_interval_monthly => '每月';
+  @override
+  String get collection_export_dedupe => '按句去重';
+  @override
+  String get collection_export_favorites_scope => '收藏句';
+  @override
+  String get collection_export_all_books => '全部书籍';
 }
 
 // Path: retrying_in
@@ -72069,6 +72162,12 @@ class _StringsZhHk extends _StringsEn {
   String get dict_update_interval_weekly => 'Weekly';
   @override
   String get dict_update_interval_monthly => 'Monthly';
+  @override
+  String get collection_export_dedupe => 'Deduplicate by sentence';
+  @override
+  String get collection_export_favorites_scope => 'Favorite sentences';
+  @override
+  String get collection_export_all_books => 'All books';
 }
 
 // Path: retrying_in
@@ -76036,6 +76135,12 @@ extension on _StringsEn {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -79963,6 +80068,12 @@ extension on _StringsAr {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -83912,6 +84023,12 @@ extension on _StringsDe {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -87859,6 +87976,12 @@ extension on _StringsEs {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -91813,6 +91936,12 @@ extension on _StringsFr {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -95747,6 +95876,12 @@ extension on _StringsId {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -99698,6 +99833,12 @@ extension on _StringsIt {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -103607,6 +103748,12 @@ extension on _StringsJa {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -107519,6 +107666,12 @@ extension on _StringsKo {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -111463,6 +111616,12 @@ extension on _StringsNl {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -115404,6 +115563,12 @@ extension on _StringsPtBr {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -119349,6 +119514,12 @@ extension on _StringsRu {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -123276,6 +123447,12 @@ extension on _StringsTh {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -127212,6 +127389,12 @@ extension on _StringsTr {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -131142,6 +131325,12 @@ extension on _StringsVi {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
@@ -135041,6 +135230,12 @@ extension on _StringsZhCn {
         return '每周';
       case 'dict_update_interval_monthly':
         return '每月';
+      case 'collection_export_dedupe':
+        return '按句去重';
+      case 'collection_export_favorites_scope':
+        return '收藏句';
+      case 'collection_export_all_books':
+        return '全部书籍';
       default:
         return null;
     }
@@ -138942,6 +139137,12 @@ extension on _StringsZhHk {
         return 'Weekly';
       case 'dict_update_interval_monthly':
         return 'Monthly';
+      case 'collection_export_dedupe':
+        return 'Deduplicate by sentence';
+      case 'collection_export_favorites_scope':
+        return 'Favorite sentences';
+      case 'collection_export_all_books':
+        return 'All books';
       default:
         return null;
     }
