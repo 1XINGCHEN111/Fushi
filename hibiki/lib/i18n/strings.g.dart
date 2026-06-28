@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33184 (1952 per locale)
+/// Strings: 33201 (1953 per locale)
 ///
-/// Built on 2026-06-28 at 07:59 UTC
+/// Built on 2026-06-28 at 08:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2112,6 +2112,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get series_created => 'Series created';
 	String get combine_into_series => 'Combine into series';
 	String get series_empty => 'No books in this series';
+	String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -4117,6 +4118,7 @@ class _StringsAr extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -6122,6 +6124,7 @@ class _StringsDe extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -8127,6 +8130,7 @@ class _StringsEs extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -10132,6 +10136,7 @@ class _StringsFr extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -12137,6 +12142,7 @@ class _StringsId extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -14142,6 +14148,7 @@ class _StringsIt extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -16147,6 +16154,7 @@ class _StringsJa extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -18152,6 +18160,7 @@ class _StringsKo extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -20157,6 +20166,7 @@ class _StringsNl extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -22162,6 +22172,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -24167,6 +24178,7 @@ class _StringsRu extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -26172,6 +26184,7 @@ class _StringsTh extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -28177,6 +28190,7 @@ class _StringsTr extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -30182,6 +30196,7 @@ class _StringsVi extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -32187,6 +32202,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get series_created => '已创建系列';
 	@override String get combine_into_series => '组合成系列';
 	@override String get series_empty => '此系列暂无书籍';
+	@override String get backup_category_local_audio => '本地音频数据库';
 }
 
 // Path: retrying_in
@@ -34192,6 +34208,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get series_created => 'Series created';
 	@override String get combine_into_series => 'Combine into series';
 	@override String get series_empty => 'No books in this series';
+	@override String get backup_category_local_audio => 'Local audio databases';
 }
 
 // Path: retrying_in
@@ -36182,6 +36199,7 @@ extension on _StringsEn {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -38146,6 +38164,7 @@ extension on _StringsAr {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -40110,6 +40129,7 @@ extension on _StringsDe {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -42074,6 +42094,7 @@ extension on _StringsEs {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -44038,6 +44059,7 @@ extension on _StringsFr {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -46002,6 +46024,7 @@ extension on _StringsId {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -47966,6 +47989,7 @@ extension on _StringsIt {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -49930,6 +49954,7 @@ extension on _StringsJa {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -51894,6 +51919,7 @@ extension on _StringsKo {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -53858,6 +53884,7 @@ extension on _StringsNl {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -55822,6 +55849,7 @@ extension on _StringsPtBr {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -57786,6 +57814,7 @@ extension on _StringsRu {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -59750,6 +59779,7 @@ extension on _StringsTh {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -61714,6 +61744,7 @@ extension on _StringsTr {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -63678,6 +63709,7 @@ extension on _StringsVi {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
@@ -65642,6 +65674,7 @@ extension on _StringsZhCn {
 			case 'series_created': return '已创建系列';
 			case 'combine_into_series': return '组合成系列';
 			case 'series_empty': return '此系列暂无书籍';
+			case 'backup_category_local_audio': return '本地音频数据库';
 			default: return null;
 		}
 	}
@@ -67606,6 +67639,7 @@ extension on _StringsZhHk {
 			case 'series_created': return 'Series created';
 			case 'combine_into_series': return 'Combine into series';
 			case 'series_empty': return 'No books in this series';
+			case 'backup_category_local_audio': return 'Local audio databases';
 			default: return null;
 		}
 	}
