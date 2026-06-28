@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33286 (1958 per locale)
+/// Strings: 33473 (1969 per locale)
 ///
-/// Built on 2026-06-28 at 09:12 UTC
+/// Built on 2026-06-28 at 09:50 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2595,6 +2595,22 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get series_empty => 'No books in this series';
   String get backup_category_local_audio => 'Local audio databases';
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  String get data_storage_location_default => 'Default location';
+  String get data_storage_change_button => 'Change location';
+  String get settings_section_data_storage => 'Data storage location';
+  String get data_storage_location_title => 'Data storage location';
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  String get data_storage_migrating => 'Moving data…';
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
   String get audiobook_export_clip => 'Export clip video';
   String get audiobook_export_clip_no_selection =>
       'Select text first to export a clip';
@@ -7014,6 +7030,33 @@ class _StringsAr extends _StringsEn {
   String get backup_category_local_audio => 'Local audio databases';
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
+  @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
   @override
   String get audiobook_export_clip => 'Export clip video';
   @override
@@ -11559,6 +11602,33 @@ class _StringsDe extends _StringsEn {
   String get backup_category_local_audio => 'Local audio databases';
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
+  @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
   @override
   String get audiobook_export_clip => 'Export clip video';
   @override
@@ -16121,6 +16191,33 @@ class _StringsEs extends _StringsEn {
   String get backup_category_local_audio => 'Local audio databases';
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
+  @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
   @override
   String get audiobook_export_clip => 'Export clip video';
   @override
@@ -20703,6 +20800,33 @@ class _StringsFr extends _StringsEn {
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
   @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
+  @override
   String get audiobook_export_clip => 'Export clip video';
   @override
   String get audiobook_export_clip_no_selection =>
@@ -25185,6 +25309,33 @@ class _StringsId extends _StringsEn {
   String get backup_category_local_audio => 'Local audio databases';
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
+  @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
   @override
   String get audiobook_export_clip => 'Export clip video';
   @override
@@ -29730,6 +29881,33 @@ class _StringsIt extends _StringsEn {
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
   @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
+  @override
   String get audiobook_export_clip => 'Export clip video';
   @override
   String get audiobook_export_clip_no_selection =>
@@ -33999,6 +34177,33 @@ class _StringsJa extends _StringsEn {
   String get backup_category_local_audio => 'Local audio databases';
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
+  @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
   @override
   String get audiobook_export_clip => 'Export clip video';
   @override
@@ -38273,6 +38478,33 @@ class _StringsKo extends _StringsEn {
   String get backup_category_local_audio => 'Local audio databases';
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
+  @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
   @override
   String get audiobook_export_clip => 'Export clip video';
   @override
@@ -42785,6 +43017,33 @@ class _StringsNl extends _StringsEn {
   String get backup_category_local_audio => 'Local audio databases';
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
+  @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
   @override
   String get audiobook_export_clip => 'Export clip video';
   @override
@@ -47321,6 +47580,33 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
   @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
+  @override
   String get audiobook_export_clip => 'Export clip video';
   @override
   String get audiobook_export_clip_no_selection =>
@@ -51831,6 +52117,33 @@ class _StringsRu extends _StringsEn {
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
   @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
+  @override
   String get audiobook_export_clip => 'Export clip video';
   @override
   String get audiobook_export_clip_no_selection =>
@@ -56253,6 +56566,33 @@ class _StringsTh extends _StringsEn {
   String get backup_category_local_audio => 'Local audio databases';
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
+  @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
   @override
   String get audiobook_export_clip => 'Export clip video';
   @override
@@ -60732,6 +61072,33 @@ class _StringsTr extends _StringsEn {
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
   @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
+  @override
   String get audiobook_export_clip => 'Export clip video';
   @override
   String get audiobook_export_clip_no_selection =>
@@ -65185,6 +65552,33 @@ class _StringsVi extends _StringsEn {
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
   @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
+  @override
   String get audiobook_export_clip => 'Export clip video';
   @override
   String get audiobook_export_clip_no_selection =>
@@ -69339,6 +69733,30 @@ class _StringsZhCn extends _StringsEn {
   String get backup_category_local_audio => '本地音频数据库';
   @override
   String get shortcut_tap_to_assign => '未设置 · 点击设置';
+  @override
+  String get data_storage_location_hint => 'Hibiki 存放书库、有声书和数据库的位置（仅桌面端）。';
+  @override
+  String get data_storage_location_default => '默认位置';
+  @override
+  String get data_storage_change_button => '更改位置';
+  @override
+  String get settings_section_data_storage => '数据存储位置';
+  @override
+  String get data_storage_location_title => '数据存储位置';
+  @override
+  String get data_storage_change_confirm_title => '更改数据存储位置？';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki 会把所有数据迁移到新文件夹，然后自动重启。迁移过程中请勿关闭应用。';
+  @override
+  String get data_storage_migrating => '正在迁移数据…';
+  @override
+  String get data_storage_migrate_success => '数据已迁移，正在重启…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      '数据迁移失败：${message}';
+  @override
+  String get data_storage_restart_failed => '数据已迁移，但自动重启失败，请手动重新打开 Hibiki。';
   @override
   String get audiobook_export_clip => '导出片段视频';
   @override
@@ -73509,6 +73927,33 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get shortcut_tap_to_assign => 'Not set · tap to assign';
   @override
+  String get data_storage_location_hint =>
+      'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+  @override
+  String get data_storage_location_default => 'Default location';
+  @override
+  String get data_storage_change_button => 'Change location';
+  @override
+  String get settings_section_data_storage => 'Data storage location';
+  @override
+  String get data_storage_location_title => 'Data storage location';
+  @override
+  String get data_storage_change_confirm_title =>
+      'Change data storage location?';
+  @override
+  String get data_storage_change_confirm_body =>
+      'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+  @override
+  String get data_storage_migrating => 'Moving data…';
+  @override
+  String get data_storage_migrate_success => 'Data moved. Restarting…';
+  @override
+  String data_storage_migrate_failed({required Object message}) =>
+      'Could not move data: ${message}';
+  @override
+  String get data_storage_restart_failed =>
+      'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
+  @override
   String get audiobook_export_clip => 'Export clip video';
   @override
   String get audiobook_export_clip_no_selection =>
@@ -77559,6 +78004,28 @@ extension on _StringsEn {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -81567,6 +82034,28 @@ extension on _StringsAr {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -85597,6 +86086,28 @@ extension on _StringsDe {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -89625,6 +90136,28 @@ extension on _StringsEs {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -93660,6 +94193,28 @@ extension on _StringsFr {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -97675,6 +98230,28 @@ extension on _StringsId {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -101707,6 +102284,28 @@ extension on _StringsIt {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -105697,6 +106296,28 @@ extension on _StringsJa {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -109690,6 +110311,28 @@ extension on _StringsKo {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -113715,6 +114358,28 @@ extension on _StringsNl {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -117737,6 +118402,28 @@ extension on _StringsPtBr {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -121763,6 +122450,28 @@ extension on _StringsRu {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -125771,6 +126480,28 @@ extension on _StringsTh {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -129788,6 +130519,28 @@ extension on _StringsTr {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -133799,6 +134552,28 @@ extension on _StringsVi {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
@@ -137778,6 +138553,28 @@ extension on _StringsZhCn {
         return '本地音频数据库';
       case 'shortcut_tap_to_assign':
         return '未设置 · 点击设置';
+      case 'data_storage_location_hint':
+        return 'Hibiki 存放书库、有声书和数据库的位置（仅桌面端）。';
+      case 'data_storage_location_default':
+        return '默认位置';
+      case 'data_storage_change_button':
+        return '更改位置';
+      case 'settings_section_data_storage':
+        return '数据存储位置';
+      case 'data_storage_location_title':
+        return '数据存储位置';
+      case 'data_storage_change_confirm_title':
+        return '更改数据存储位置？';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki 会把所有数据迁移到新文件夹，然后自动重启。迁移过程中请勿关闭应用。';
+      case 'data_storage_migrating':
+        return '正在迁移数据…';
+      case 'data_storage_migrate_success':
+        return '数据已迁移，正在重启…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => '数据迁移失败：${message}';
+      case 'data_storage_restart_failed':
+        return '数据已迁移，但自动重启失败，请手动重新打开 Hibiki。';
       case 'audiobook_export_clip':
         return '导出片段视频';
       case 'audiobook_export_clip_no_selection':
@@ -141760,6 +142557,28 @@ extension on _StringsZhHk {
         return 'Local audio databases';
       case 'shortcut_tap_to_assign':
         return 'Not set · tap to assign';
+      case 'data_storage_location_hint':
+        return 'Where Hibiki keeps your library, audiobooks and database. Desktop only.';
+      case 'data_storage_location_default':
+        return 'Default location';
+      case 'data_storage_change_button':
+        return 'Change location';
+      case 'settings_section_data_storage':
+        return 'Data storage location';
+      case 'data_storage_location_title':
+        return 'Data storage location';
+      case 'data_storage_change_confirm_title':
+        return 'Change data storage location?';
+      case 'data_storage_change_confirm_body':
+        return 'Hibiki will move all your data to the new folder and then restart. Do not close the app during the move.';
+      case 'data_storage_migrating':
+        return 'Moving data…';
+      case 'data_storage_migrate_success':
+        return 'Data moved. Restarting…';
+      case 'data_storage_migrate_failed':
+        return ({required Object message}) => 'Could not move data: ${message}';
+      case 'data_storage_restart_failed':
+        return 'Data moved, but automatic restart failed. Please reopen Hibiki manually.';
       case 'audiobook_export_clip':
         return 'Export clip video';
       case 'audiobook_export_clip_no_selection':
