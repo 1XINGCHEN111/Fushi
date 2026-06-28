@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33048 (1944 per locale)
+/// Strings: 33184 (1952 per locale)
 ///
-/// Built on 2026-06-28 at 07:40 UTC
+/// Built on 2026-06-28 at 07:59 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2104,6 +2104,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get audiobook_audio_missing => 'Audio file missing';
 	String get audiobook_relocate => 'Relocate file';
 	String get audiobook_relocate_done => 'Audio relocated';
+	String get rename_series => 'Rename series';
+	String get delete_series => 'Delete series';
+	String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	String get remove_from_series => 'Remove from series';
+	String get series_name_hint => 'Series name';
+	String get series_created => 'Series created';
+	String get combine_into_series => 'Combine into series';
+	String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -4101,6 +4109,14 @@ class _StringsAr extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -6098,6 +6114,14 @@ class _StringsDe extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -8095,6 +8119,14 @@ class _StringsEs extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -10092,6 +10124,14 @@ class _StringsFr extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -12089,6 +12129,14 @@ class _StringsId extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -14086,6 +14134,14 @@ class _StringsIt extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -16083,6 +16139,14 @@ class _StringsJa extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -18080,6 +18144,14 @@ class _StringsKo extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -20077,6 +20149,14 @@ class _StringsNl extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -22074,6 +22154,14 @@ class _StringsPtBr extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -24071,6 +24159,14 @@ class _StringsRu extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -26068,6 +26164,14 @@ class _StringsTh extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -28065,6 +28169,14 @@ class _StringsTr extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -30062,6 +30174,14 @@ class _StringsVi extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -32059,6 +32179,14 @@ class _StringsZhCn extends _StringsEn {
 	@override String get audiobook_audio_missing => '音频文件丢失';
 	@override String get audiobook_relocate => '重新定位文件';
 	@override String get audiobook_relocate_done => '音频已重新定位';
+	@override String get rename_series => '重命名系列';
+	@override String get delete_series => '删除系列';
+	@override String get delete_series_confirm => '删除此系列？书籍会散回书架。';
+	@override String get remove_from_series => '移出系列';
+	@override String get series_name_hint => '系列名称';
+	@override String get series_created => '已创建系列';
+	@override String get combine_into_series => '组合成系列';
+	@override String get series_empty => '此系列暂无书籍';
 }
 
 // Path: retrying_in
@@ -34056,6 +34184,14 @@ class _StringsZhHk extends _StringsEn {
 	@override String get audiobook_audio_missing => 'Audio file missing';
 	@override String get audiobook_relocate => 'Relocate file';
 	@override String get audiobook_relocate_done => 'Audio relocated';
+	@override String get rename_series => 'Rename series';
+	@override String get delete_series => 'Delete series';
+	@override String get delete_series_confirm => 'Delete this series? Books stay on the shelf.';
+	@override String get remove_from_series => 'Remove from series';
+	@override String get series_name_hint => 'Series name';
+	@override String get series_created => 'Series created';
+	@override String get combine_into_series => 'Combine into series';
+	@override String get series_empty => 'No books in this series';
 }
 
 // Path: retrying_in
@@ -36038,6 +36174,14 @@ extension on _StringsEn {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -37994,6 +38138,14 @@ extension on _StringsAr {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -39950,6 +40102,14 @@ extension on _StringsDe {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -41906,6 +42066,14 @@ extension on _StringsEs {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -43862,6 +44030,14 @@ extension on _StringsFr {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -45818,6 +45994,14 @@ extension on _StringsId {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -47774,6 +47958,14 @@ extension on _StringsIt {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -49730,6 +49922,14 @@ extension on _StringsJa {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -51686,6 +51886,14 @@ extension on _StringsKo {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -53642,6 +53850,14 @@ extension on _StringsNl {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -55598,6 +55814,14 @@ extension on _StringsPtBr {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -57554,6 +57778,14 @@ extension on _StringsRu {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -59510,6 +59742,14 @@ extension on _StringsTh {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -61466,6 +61706,14 @@ extension on _StringsTr {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -63422,6 +63670,14 @@ extension on _StringsVi {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
@@ -65378,6 +65634,14 @@ extension on _StringsZhCn {
 			case 'audiobook_audio_missing': return '音频文件丢失';
 			case 'audiobook_relocate': return '重新定位文件';
 			case 'audiobook_relocate_done': return '音频已重新定位';
+			case 'rename_series': return '重命名系列';
+			case 'delete_series': return '删除系列';
+			case 'delete_series_confirm': return '删除此系列？书籍会散回书架。';
+			case 'remove_from_series': return '移出系列';
+			case 'series_name_hint': return '系列名称';
+			case 'series_created': return '已创建系列';
+			case 'combine_into_series': return '组合成系列';
+			case 'series_empty': return '此系列暂无书籍';
 			default: return null;
 		}
 	}
@@ -67334,6 +67598,14 @@ extension on _StringsZhHk {
 			case 'audiobook_audio_missing': return 'Audio file missing';
 			case 'audiobook_relocate': return 'Relocate file';
 			case 'audiobook_relocate_done': return 'Audio relocated';
+			case 'rename_series': return 'Rename series';
+			case 'delete_series': return 'Delete series';
+			case 'delete_series_confirm': return 'Delete this series? Books stay on the shelf.';
+			case 'remove_from_series': return 'Remove from series';
+			case 'series_name_hint': return 'Series name';
+			case 'series_created': return 'Series created';
+			case 'combine_into_series': return 'Combine into series';
+			case 'series_empty': return 'No books in this series';
 			default: return null;
 		}
 	}
