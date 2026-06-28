@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33575 (1975 per locale)
+/// Strings: 33660 (1980 per locale)
 ///
-/// Built on 2026-06-28 at 10:53 UTC
+/// Built on 2026-06-28 at 11:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2627,6 +2627,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get audiobook_export_clip_in_progress => 'Exporting clip…';
   String get audiobook_export_clip_saved => 'Clip saved';
   String get audiobook_export_clip_failed => 'Clip export failed';
+  String get folder_picker_title => 'Select a folder';
+  String get folder_picker_select => 'Select this folder';
+  String get folder_picker_up => 'Up';
+  String get folder_picker_empty => 'No subfolders';
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -7092,6 +7098,17 @@ class _StringsAr extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -11679,6 +11696,17 @@ class _StringsDe extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -16283,6 +16311,17 @@ class _StringsEs extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -20906,6 +20945,17 @@ class _StringsFr extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -25431,6 +25481,17 @@ class _StringsId extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -30017,6 +30078,17 @@ class _StringsIt extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -34329,6 +34401,17 @@ class _StringsJa extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -38645,6 +38728,17 @@ class _StringsKo extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -43199,6 +43293,17 @@ class _StringsNl extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -47776,6 +47881,17 @@ class _StringsPtBr extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -52328,6 +52444,17 @@ class _StringsRu extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -56793,6 +56920,17 @@ class _StringsTh extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -61313,6 +61451,17 @@ class _StringsTr extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -65808,6 +65957,17 @@ class _StringsVi extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -69999,6 +70159,16 @@ class _StringsZhCn extends _StringsEn {
   String get audiobook_export_clip_saved => '片段已保存';
   @override
   String get audiobook_export_clip_failed => '片段导出失败';
+  @override
+  String get folder_picker_title => '选择文件夹';
+  @override
+  String get folder_picker_select => '选择此文件夹';
+  @override
+  String get folder_picker_up => '上一级';
+  @override
+  String get folder_picker_empty => '没有子文件夹';
+  @override
+  String get folder_picker_permission_required => '浏览文件夹需要存储权限';
 }
 
 // Path: retrying_in
@@ -74213,6 +74383,17 @@ class _StringsZhHk extends _StringsEn {
   String get audiobook_export_clip_saved => 'Clip saved';
   @override
   String get audiobook_export_clip_failed => 'Clip export failed';
+  @override
+  String get folder_picker_title => 'Select a folder';
+  @override
+  String get folder_picker_select => 'Select this folder';
+  @override
+  String get folder_picker_up => 'Up';
+  @override
+  String get folder_picker_empty => 'No subfolders';
+  @override
+  String get folder_picker_permission_required =>
+      'Storage permission is required to browse folders';
 }
 
 // Path: retrying_in
@@ -78295,6 +78476,16 @@ extension on _StringsEn {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -82337,6 +82528,16 @@ extension on _StringsAr {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -86401,6 +86602,16 @@ extension on _StringsDe {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -90463,6 +90674,16 @@ extension on _StringsEs {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -94532,6 +94753,16 @@ extension on _StringsFr {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -98581,6 +98812,16 @@ extension on _StringsId {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -102647,6 +102888,16 @@ extension on _StringsIt {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -106671,6 +106922,16 @@ extension on _StringsJa {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -110698,6 +110959,16 @@ extension on _StringsKo {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -114757,6 +115028,16 @@ extension on _StringsNl {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -118813,6 +119094,16 @@ extension on _StringsPtBr {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -122873,6 +123164,16 @@ extension on _StringsRu {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -126915,6 +127216,16 @@ extension on _StringsTh {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -130966,6 +131277,16 @@ extension on _StringsTr {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -135011,6 +135332,16 @@ extension on _StringsVi {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
@@ -139024,6 +139355,16 @@ extension on _StringsZhCn {
         return '片段已保存';
       case 'audiobook_export_clip_failed':
         return '片段导出失败';
+      case 'folder_picker_title':
+        return '选择文件夹';
+      case 'folder_picker_select':
+        return '选择此文件夹';
+      case 'folder_picker_up':
+        return '上一级';
+      case 'folder_picker_empty':
+        return '没有子文件夹';
+      case 'folder_picker_permission_required':
+        return '浏览文件夹需要存储权限';
       default:
         return null;
     }
@@ -143040,6 +143381,16 @@ extension on _StringsZhHk {
         return 'Clip saved';
       case 'audiobook_export_clip_failed':
         return 'Clip export failed';
+      case 'folder_picker_title':
+        return 'Select a folder';
+      case 'folder_picker_select':
+        return 'Select this folder';
+      case 'folder_picker_up':
+        return 'Up';
+      case 'folder_picker_empty':
+        return 'No subfolders';
+      case 'folder_picker_permission_required':
+        return 'Storage permission is required to browse folders';
       default:
         return null;
     }
