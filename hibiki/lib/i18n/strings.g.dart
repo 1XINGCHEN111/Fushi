@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32657 (1921 per locale)
+/// Strings: 32674 (1922 per locale)
 ///
-/// Built on 2026-06-28 at 04:02 UTC
+/// Built on 2026-06-28 at 04:11 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2557,6 +2557,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get collection_export_dedupe => 'Deduplicate by sentence';
   String get collection_export_favorites_scope => 'Favorite sentences';
   String get collection_export_all_books => 'All books';
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -6898,6 +6900,9 @@ class _StringsAr extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -11361,6 +11366,9 @@ class _StringsDe extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -15841,6 +15849,9 @@ class _StringsEs extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -20340,6 +20351,9 @@ class _StringsFr extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -24741,6 +24755,9 @@ class _StringsId extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -29203,6 +29220,9 @@ class _StringsIt extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -33391,6 +33411,9 @@ class _StringsJa extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -37583,6 +37606,9 @@ class _StringsKo extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -42013,6 +42039,9 @@ class _StringsNl extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -46466,6 +46495,9 @@ class _StringsPtBr extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -50894,6 +50926,9 @@ class _StringsRu extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -55235,6 +55270,9 @@ class _StringsTh extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -59631,6 +59669,9 @@ class _StringsTr extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -64002,6 +64043,9 @@ class _StringsVi extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -68078,6 +68122,9 @@ class _StringsZhCn extends _StringsEn {
   String get collection_export_favorites_scope => '收藏句';
   @override
   String get collection_export_all_books => '全部书籍';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      '导入音频数据库失败：${reason}';
 }
 
 // Path: retrying_in
@@ -72168,6 +72215,9 @@ class _StringsZhHk extends _StringsEn {
   String get collection_export_favorites_scope => 'Favorite sentences';
   @override
   String get collection_export_all_books => 'All books';
+  @override
+  String local_audio_import_failed_detail({required Object reason}) =>
+      'Failed to import audio database: ${reason}';
 }
 
 // Path: retrying_in
@@ -76141,6 +76191,9 @@ extension on _StringsEn {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -80074,6 +80127,9 @@ extension on _StringsAr {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -84029,6 +84085,9 @@ extension on _StringsDe {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -87982,6 +88041,9 @@ extension on _StringsEs {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -91942,6 +92004,9 @@ extension on _StringsFr {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -95882,6 +95947,9 @@ extension on _StringsId {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -99839,6 +99907,9 @@ extension on _StringsIt {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -103754,6 +103825,9 @@ extension on _StringsJa {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -107672,6 +107746,9 @@ extension on _StringsKo {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -111622,6 +111699,9 @@ extension on _StringsNl {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -115569,6 +115649,9 @@ extension on _StringsPtBr {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -119520,6 +119603,9 @@ extension on _StringsRu {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -123453,6 +123539,9 @@ extension on _StringsTh {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -127395,6 +127484,9 @@ extension on _StringsTr {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -131331,6 +131423,9 @@ extension on _StringsVi {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
@@ -135236,6 +135331,8 @@ extension on _StringsZhCn {
         return '收藏句';
       case 'collection_export_all_books':
         return '全部书籍';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) => '导入音频数据库失败：${reason}';
       default:
         return null;
     }
@@ -139143,6 +139240,9 @@ extension on _StringsZhHk {
         return 'Favorite sentences';
       case 'collection_export_all_books':
         return 'All books';
+      case 'local_audio_import_failed_detail':
+        return ({required Object reason}) =>
+            'Failed to import audio database: ${reason}';
       default:
         return null;
     }
