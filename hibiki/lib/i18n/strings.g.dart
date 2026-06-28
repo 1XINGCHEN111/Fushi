@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 32691 (1923 per locale)
+/// Strings: 32725 (1925 per locale)
 ///
-/// Built on 2026-06-28 at 04:53 UTC
+/// Built on 2026-06-28 at 05:10 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2560,6 +2560,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String local_audio_import_failed_detail({required Object reason}) =>
       'Failed to import audio database: ${reason}';
   String get ttu_vn => 'Visual Novel';
+  String get edit_custom_theme => 'Edit custom theme';
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -6906,6 +6909,11 @@ class _StringsAr extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -11374,6 +11382,11 @@ class _StringsDe extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -15859,6 +15872,11 @@ class _StringsEs extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -20363,6 +20381,11 @@ class _StringsFr extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -24769,6 +24792,11 @@ class _StringsId extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -29236,6 +29264,11 @@ class _StringsIt extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -33429,6 +33462,11 @@ class _StringsJa extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -37626,6 +37664,11 @@ class _StringsKo extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -42061,6 +42104,11 @@ class _StringsNl extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -46519,6 +46567,11 @@ class _StringsPtBr extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -50952,6 +51005,11 @@ class _StringsRu extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -55298,6 +55356,11 @@ class _StringsTh extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -59699,6 +59762,11 @@ class _StringsTr extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -64075,6 +64143,11 @@ class _StringsVi extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -68156,6 +68229,10 @@ class _StringsZhCn extends _StringsEn {
       '导入音频数据库失败：${reason}';
   @override
   String get ttu_vn => '视觉小说';
+  @override
+  String get edit_custom_theme => '编辑自定义主题';
+  @override
+  String get custom_theme_long_press_hint => '点击切换 · 长按编辑';
 }
 
 // Path: retrying_in
@@ -72251,6 +72328,11 @@ class _StringsZhHk extends _StringsEn {
       'Failed to import audio database: ${reason}';
   @override
   String get ttu_vn => 'Visual Novel';
+  @override
+  String get edit_custom_theme => 'Edit custom theme';
+  @override
+  String get custom_theme_long_press_hint =>
+      'Tap to switch · long-press to edit';
 }
 
 // Path: retrying_in
@@ -76229,6 +76311,10 @@ extension on _StringsEn {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -80167,6 +80253,10 @@ extension on _StringsAr {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -84127,6 +84217,10 @@ extension on _StringsDe {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -88085,6 +88179,10 @@ extension on _StringsEs {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -92050,6 +92148,10 @@ extension on _StringsFr {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -95995,6 +96097,10 @@ extension on _StringsId {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -99957,6 +100063,10 @@ extension on _StringsIt {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -103877,6 +103987,10 @@ extension on _StringsJa {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -107800,6 +107914,10 @@ extension on _StringsKo {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -111755,6 +111873,10 @@ extension on _StringsNl {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -115707,6 +115829,10 @@ extension on _StringsPtBr {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -119663,6 +119789,10 @@ extension on _StringsRu {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -123601,6 +123731,10 @@ extension on _StringsTh {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -127548,6 +127682,10 @@ extension on _StringsTr {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -131489,6 +131627,10 @@ extension on _StringsVi {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
@@ -135398,6 +135540,10 @@ extension on _StringsZhCn {
         return ({required Object reason}) => '导入音频数据库失败：${reason}';
       case 'ttu_vn':
         return '视觉小说';
+      case 'edit_custom_theme':
+        return '编辑自定义主题';
+      case 'custom_theme_long_press_hint':
+        return '点击切换 · 长按编辑';
       default:
         return null;
     }
@@ -139310,6 +139456,10 @@ extension on _StringsZhHk {
             'Failed to import audio database: ${reason}';
       case 'ttu_vn':
         return 'Visual Novel';
+      case 'edit_custom_theme':
+        return 'Edit custom theme';
+      case 'custom_theme_long_press_hint':
+        return 'Tap to switch · long-press to edit';
       default:
         return null;
     }
