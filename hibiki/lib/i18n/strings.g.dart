@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33864 (1992 per locale)
+/// Strings: 33898 (1994 per locale)
 ///
-/// Built on 2026-06-30 at 13:18 UTC
+/// Built on 2026-06-30 at 14:38 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2652,6 +2652,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -7158,6 +7162,12 @@ class _StringsAr extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -11786,6 +11796,12 @@ class _StringsDe extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -16431,6 +16447,12 @@ class _StringsEs extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -21095,6 +21117,12 @@ class _StringsFr extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -25661,6 +25689,12 @@ class _StringsId extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -30288,6 +30322,12 @@ class _StringsIt extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -34641,6 +34681,12 @@ class _StringsJa extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -38998,6 +39044,12 @@ class _StringsKo extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -43593,6 +43645,12 @@ class _StringsNl extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -48211,6 +48269,12 @@ class _StringsPtBr extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -52804,6 +52868,12 @@ class _StringsRu extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -57310,6 +57380,12 @@ class _StringsTh extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -61871,6 +61947,12 @@ class _StringsTr extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -66407,6 +66489,12 @@ class _StringsVi extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -70636,6 +70724,12 @@ class _StringsZhCn extends _StringsEn {
   String get video_import_webpage_url_try_anyway => '仍要尝试';
   @override
   String get sync_pair_pin_label => '在另一台设备上输入此 PIN';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      '已是最新已知版本 ${version}（校验中…）';
+  @override
+  String update_cached_newer({required Object version}) =>
+      '发现新版 ${version}（校验中…）';
 }
 
 // Path: retrying_in
@@ -74891,6 +74985,12 @@ class _StringsZhHk extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -79008,6 +79108,12 @@ extension on _StringsEn {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -83085,6 +83191,12 @@ extension on _StringsAr {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -87184,6 +87296,12 @@ extension on _StringsDe {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -91281,6 +91399,12 @@ extension on _StringsEs {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -95385,6 +95509,12 @@ extension on _StringsFr {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -99469,6 +99599,12 @@ extension on _StringsId {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -103570,6 +103706,12 @@ extension on _StringsIt {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -107629,6 +107771,12 @@ extension on _StringsJa {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -111691,6 +111839,12 @@ extension on _StringsKo {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -115785,6 +115939,12 @@ extension on _StringsNl {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -119876,6 +120036,12 @@ extension on _StringsPtBr {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -123971,6 +124137,12 @@ extension on _StringsRu {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -128048,6 +128220,12 @@ extension on _StringsTh {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -132134,6 +132312,12 @@ extension on _StringsTr {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -136214,6 +136398,12 @@ extension on _StringsVi {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -140262,6 +140452,10 @@ extension on _StringsZhCn {
         return '仍要尝试';
       case 'sync_pair_pin_label':
         return '在另一台设备上输入此 PIN';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) => '已是最新已知版本 ${version}（校验中…）';
+      case 'update_cached_newer':
+        return ({required Object version}) => '发现新版 ${version}（校验中…）';
       default:
         return null;
     }
@@ -144313,6 +144507,12 @@ extension on _StringsZhHk {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
