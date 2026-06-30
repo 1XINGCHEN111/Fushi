@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34034 (2002 per locale)
+/// Strings: 34068 (2004 per locale)
 ///
-/// Built on 2026-06-30 at 14:47 UTC
+/// Built on 2026-06-30 at 14:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2664,6 +2664,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get anki_note_viewer_open_in_anki => 'Open in Anki';
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -7192,6 +7196,12 @@ class _StringsAr extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -11842,6 +11852,12 @@ class _StringsDe extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -16509,6 +16525,12 @@ class _StringsEs extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -21195,6 +21217,12 @@ class _StringsFr extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -25783,6 +25811,12 @@ class _StringsId extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -30432,6 +30466,12 @@ class _StringsIt extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -34807,6 +34847,12 @@ class _StringsJa extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -39186,6 +39232,12 @@ class _StringsKo extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -43803,6 +43855,12 @@ class _StringsNl extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -48443,6 +48501,12 @@ class _StringsPtBr extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -53058,6 +53122,12 @@ class _StringsRu extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -57586,6 +57656,12 @@ class _StringsTh extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -62169,6 +62245,12 @@ class _StringsTr extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -66727,6 +66809,12 @@ class _StringsVi extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -70977,6 +71065,12 @@ class _StringsZhCn extends _StringsEn {
   String get anki_note_viewer_empty => '这张卡片没有可读取的字段。';
   @override
   String get anki_note_open_failed => '无法在 Anki 中打开这张卡片。';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      '已是最新已知版本 ${version}（校验中…）';
+  @override
+  String update_cached_newer({required Object version}) =>
+      '发现新版 ${version}（校验中…）';
 }
 
 // Path: retrying_in
@@ -75254,6 +75348,12 @@ class _StringsZhHk extends _StringsEn {
   String get anki_note_viewer_empty => 'This card has no readable fields.';
   @override
   String get anki_note_open_failed => 'Could not open the card in Anki.';
+  @override
+  String update_cached_up_to_date({required Object version}) =>
+      'On latest known version ${version} (checking…)';
+  @override
+  String update_cached_newer({required Object version}) =>
+      'Update ${version} available (verifying…)';
 }
 
 // Path: retrying_in
@@ -79391,6 +79491,12 @@ extension on _StringsEn {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -83488,6 +83594,12 @@ extension on _StringsAr {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -87607,6 +87719,12 @@ extension on _StringsDe {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -91724,6 +91842,12 @@ extension on _StringsEs {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -95848,6 +95972,12 @@ extension on _StringsFr {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -99952,6 +100082,12 @@ extension on _StringsId {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -104073,6 +104209,12 @@ extension on _StringsIt {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -108152,6 +108294,12 @@ extension on _StringsJa {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -112234,6 +112382,12 @@ extension on _StringsKo {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -116348,6 +116502,12 @@ extension on _StringsNl {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -120459,6 +120619,12 @@ extension on _StringsPtBr {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -124574,6 +124740,12 @@ extension on _StringsRu {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -128671,6 +128843,12 @@ extension on _StringsTh {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -132777,6 +132955,12 @@ extension on _StringsTr {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -136877,6 +137061,12 @@ extension on _StringsVi {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
@@ -140945,6 +141135,10 @@ extension on _StringsZhCn {
         return '这张卡片没有可读取的字段。';
       case 'anki_note_open_failed':
         return '无法在 Anki 中打开这张卡片。';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) => '已是最新已知版本 ${version}（校验中…）';
+      case 'update_cached_newer':
+        return ({required Object version}) => '发现新版 ${version}（校验中…）';
       default:
         return null;
     }
@@ -145016,6 +145210,12 @@ extension on _StringsZhHk {
         return 'This card has no readable fields.';
       case 'anki_note_open_failed':
         return 'Could not open the card in Anki.';
+      case 'update_cached_up_to_date':
+        return ({required Object version}) =>
+            'On latest known version ${version} (checking…)';
+      case 'update_cached_newer':
+        return ({required Object version}) =>
+            'Update ${version} available (verifying…)';
       default:
         return null;
     }
