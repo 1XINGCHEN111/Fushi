@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 33762 (1986 per locale)
 ///
-/// Built on 2026-06-30 at 03:46 UTC
+/// Built on 2026-06-30 at 05:46 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1017,8 +1017,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get font_color_desc => 'Reader text color';
   String get background_color_desc => 'Reader page background';
   String get selection_color_desc => 'Reader text selection highlight';
-  String get color_sasayaki => 'Sasayaki Highlight';
-  String get color_sasayaki_desc => 'Audiobook subtitle sync highlight';
+  String get color_sasayaki => 'Audio Highlight';
+  String get color_sasayaki_desc =>
+      'Current-sentence highlight that follows audiobook playback';
   String get color_link => 'Link Color';
   String get color_link_desc => 'Reader hyperlink color';
   String get section_reader_colors => 'Reader Colors';
@@ -67708,9 +67709,9 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get selection_color_desc => '阅读器选中高亮';
   @override
-  String get color_sasayaki => 'Sasayaki 高亮';
+  String get color_sasayaki => '音频高亮';
   @override
-  String get color_sasayaki_desc => '有声书字幕同步高亮';
+  String get color_sasayaki_desc => '有声书播放时跟随当前句的高亮颜色';
   @override
   String get color_link => '链接颜色';
   @override
@@ -71881,9 +71882,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get selection_color_desc => '閱讀器文字選取醒目標示';
   @override
-  String get color_sasayaki => 'Sasayaki 醒目標示';
+  String get color_sasayaki => '音訊醒目標示';
   @override
-  String get color_sasayaki_desc => '有聲書字幕同步醒目標示';
+  String get color_sasayaki_desc => '有聲書播放時跟隨當前句的醒目標示顏色';
   @override
   String get color_link => '連結顏色';
   @override
@@ -76131,9 +76132,9 @@ extension on _StringsEn {
       case 'selection_color_desc':
         return 'Reader text selection highlight';
       case 'color_sasayaki':
-        return 'Sasayaki Highlight';
+        return 'Audio Highlight';
       case 'color_sasayaki_desc':
-        return 'Audiobook subtitle sync highlight';
+        return 'Current-sentence highlight that follows audiobook playback';
       case 'color_link':
         return 'Link Color';
       case 'color_link_desc':
@@ -137225,9 +137226,9 @@ extension on _StringsZhCn {
       case 'selection_color_desc':
         return '阅读器选中高亮';
       case 'color_sasayaki':
-        return 'Sasayaki 高亮';
+        return '音频高亮';
       case 'color_sasayaki_desc':
-        return '有声书字幕同步高亮';
+        return '有声书播放时跟随当前句的高亮颜色';
       case 'color_link':
         return '链接颜色';
       case 'color_link_desc':
@@ -141219,9 +141220,9 @@ extension on _StringsZhHk {
       case 'selection_color_desc':
         return '閱讀器文字選取醒目標示';
       case 'color_sasayaki':
-        return 'Sasayaki 醒目標示';
+        return '音訊醒目標示';
       case 'color_sasayaki_desc':
-        return '有聲書字幕同步醒目標示';
+        return '有聲書播放時跟隨當前句的醒目標示顏色';
       case 'color_link':
         return '連結顏色';
       case 'color_link_desc':
