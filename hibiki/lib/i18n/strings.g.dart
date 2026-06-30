@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33864 (1992 per locale)
+/// Strings: 34034 (2002 per locale)
 ///
-/// Built on 2026-06-30 at 13:18 UTC
+/// Built on 2026-06-30 at 14:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2652,6 +2652,18 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  String get anki_mined_card_title => 'Card already in Anki';
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  String get anki_mined_action_view => 'View / open in Anki';
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  String get anki_note_viewer_title => 'Existing card';
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -7158,6 +7170,28 @@ class _StringsAr extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -11786,6 +11820,28 @@ class _StringsDe extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -16431,6 +16487,28 @@ class _StringsEs extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -21095,6 +21173,28 @@ class _StringsFr extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -25661,6 +25761,28 @@ class _StringsId extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -30288,6 +30410,28 @@ class _StringsIt extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -34641,6 +34785,28 @@ class _StringsJa extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -38998,6 +39164,28 @@ class _StringsKo extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -43593,6 +43781,28 @@ class _StringsNl extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -48211,6 +48421,28 @@ class _StringsPtBr extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -52804,6 +53036,28 @@ class _StringsRu extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -57310,6 +57564,28 @@ class _StringsTh extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -61871,6 +62147,28 @@ class _StringsTr extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -66407,6 +66705,28 @@ class _StringsVi extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -70636,6 +70956,27 @@ class _StringsZhCn extends _StringsEn {
   String get video_import_webpage_url_try_anyway => '仍要尝试';
   @override
   String get sync_pair_pin_label => '在另一台设备上输入此 PIN';
+  @override
+  String get anki_mined_card_title => '卡片已在 Anki 中';
+  @override
+  String get anki_mined_card_subtitle => '选择对这张已存在的卡片做什么。';
+  @override
+  String get anki_mined_action_overwrite => '覆写这张卡';
+  @override
+  String get anki_mined_action_add_duplicate => '新增为重复卡';
+  @override
+  String get anki_mined_action_view => '查看 / 在 Anki 中打开';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} 张匹配的卡片';
+  @override
+  String get anki_note_viewer_title => '已存在的卡片';
+  @override
+  String get anki_note_viewer_open_in_anki => '在 Anki 中打开';
+  @override
+  String get anki_note_viewer_empty => '这张卡片没有可读取的字段。';
+  @override
+  String get anki_note_open_failed => '无法在 Anki 中打开这张卡片。';
 }
 
 // Path: retrying_in
@@ -74891,6 +75232,28 @@ class _StringsZhHk extends _StringsEn {
   String get video_import_webpage_url_try_anyway => 'Try anyway';
   @override
   String get sync_pair_pin_label => 'Enter this PIN on the other device';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -79008,6 +79371,26 @@ extension on _StringsEn {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -83085,6 +83468,26 @@ extension on _StringsAr {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -87184,6 +87587,26 @@ extension on _StringsDe {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -91281,6 +91704,26 @@ extension on _StringsEs {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -95385,6 +95828,26 @@ extension on _StringsFr {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -99469,6 +99932,26 @@ extension on _StringsId {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -103570,6 +104053,26 @@ extension on _StringsIt {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -107629,6 +108132,26 @@ extension on _StringsJa {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -111691,6 +112214,26 @@ extension on _StringsKo {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -115785,6 +116328,26 @@ extension on _StringsNl {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -119876,6 +120439,26 @@ extension on _StringsPtBr {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -123971,6 +124554,26 @@ extension on _StringsRu {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -128048,6 +128651,26 @@ extension on _StringsTh {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -132134,6 +132757,26 @@ extension on _StringsTr {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -136214,6 +136857,26 @@ extension on _StringsVi {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -140262,6 +140925,26 @@ extension on _StringsZhCn {
         return '仍要尝试';
       case 'sync_pair_pin_label':
         return '在另一台设备上输入此 PIN';
+      case 'anki_mined_card_title':
+        return '卡片已在 Anki 中';
+      case 'anki_mined_card_subtitle':
+        return '选择对这张已存在的卡片做什么。';
+      case 'anki_mined_action_overwrite':
+        return '覆写这张卡';
+      case 'anki_mined_action_add_duplicate':
+        return '新增为重复卡';
+      case 'anki_mined_action_view':
+        return '查看 / 在 Anki 中打开';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} 张匹配的卡片';
+      case 'anki_note_viewer_title':
+        return '已存在的卡片';
+      case 'anki_note_viewer_open_in_anki':
+        return '在 Anki 中打开';
+      case 'anki_note_viewer_empty':
+        return '这张卡片没有可读取的字段。';
+      case 'anki_note_open_failed':
+        return '无法在 Anki 中打开这张卡片。';
       default:
         return null;
     }
@@ -144313,6 +144996,26 @@ extension on _StringsZhHk {
         return 'Try anyway';
       case 'sync_pair_pin_label':
         return 'Enter this PIN on the other device';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
