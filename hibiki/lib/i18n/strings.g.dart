@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34255 (2015 per locale)
+/// Strings: 34289 (2017 per locale)
 ///
-/// Built on 2026-06-30 at 15:16 UTC
+/// Built on 2026-06-30 at 16:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2683,6 +2683,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_pair_pairing => 'Pairing…';
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -7242,6 +7246,12 @@ class _StringsAr extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -11923,6 +11933,12 @@ class _StringsDe extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -16621,6 +16637,12 @@ class _StringsEs extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -21338,6 +21360,12 @@ class _StringsFr extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -25957,6 +25985,12 @@ class _StringsId extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -30637,6 +30671,12 @@ class _StringsIt extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -35044,6 +35084,12 @@ class _StringsJa extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -39455,6 +39501,12 @@ class _StringsKo extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -44103,6 +44155,12 @@ class _StringsNl extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -48774,6 +48832,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -53420,6 +53484,12 @@ class _StringsRu extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -57980,6 +58050,12 @@ class _StringsTh extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -62594,6 +62670,12 @@ class _StringsTr extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -67184,6 +67266,12 @@ class _StringsVi extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -71463,6 +71551,11 @@ class _StringsZhCn extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       '你正在与 ${device} 配对。继续前请确认这是你预期的设备。';
+  @override
+  String get local_audio_reference_original => '引用原文件（不复制）';
+  @override
+  String get local_audio_reference_original_desc =>
+      '数据库保留在原位置、按原路径读取；原文件被移动或删除后该来源会失效。';
 }
 
 // Path: retrying_in
@@ -75772,6 +75865,12 @@ class _StringsZhHk extends _StringsEn {
   @override
   String sync_pair_confirm_identity_body({required Object device}) =>
       'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+  @override
+  String get local_audio_reference_original =>
+      'Reference original file (don\'t copy)';
+  @override
+  String get local_audio_reference_original_desc =>
+      'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
 }
 
 // Path: retrying_in
@@ -79938,6 +80037,10 @@ extension on _StringsEn {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -84064,6 +84167,10 @@ extension on _StringsAr {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -88212,6 +88319,10 @@ extension on _StringsDe {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -92358,6 +92469,10 @@ extension on _StringsEs {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -96511,6 +96626,10 @@ extension on _StringsFr {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -100644,6 +100763,10 @@ extension on _StringsId {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -104794,6 +104917,10 @@ extension on _StringsIt {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -108902,6 +109029,10 @@ extension on _StringsJa {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -113013,6 +113144,10 @@ extension on _StringsKo {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -117156,6 +117291,10 @@ extension on _StringsNl {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -121296,6 +121435,10 @@ extension on _StringsPtBr {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -125440,6 +125583,10 @@ extension on _StringsRu {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -129566,6 +129713,10 @@ extension on _StringsTh {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -133701,6 +133852,10 @@ extension on _StringsTr {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -137830,6 +137985,10 @@ extension on _StringsVi {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
@@ -141925,6 +142084,10 @@ extension on _StringsZhCn {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             '你正在与 ${device} 配对。继续前请确认这是你预期的设备。';
+      case 'local_audio_reference_original':
+        return '引用原文件（不复制）';
+      case 'local_audio_reference_original_desc':
+        return '数据库保留在原位置、按原路径读取；原文件被移动或删除后该来源会失效。';
       default:
         return null;
     }
@@ -146025,6 +146188,10 @@ extension on _StringsZhHk {
       case 'sync_pair_confirm_identity_body':
         return ({required Object device}) =>
             'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
+      case 'local_audio_reference_original':
+        return 'Reference original file (don\'t copy)';
+      case 'local_audio_reference_original_desc':
+        return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
       default:
         return null;
     }
