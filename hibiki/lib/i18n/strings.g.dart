@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 34289 (2017 per locale)
 ///
-/// Built on 2026-06-30 at 16:02 UTC
+/// Built on 2026-06-30 at 17:19 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1478,7 +1478,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_backend_dropbox => 'Dropbox';
   String get sync_backend_ftp => 'FTP';
   String get sync_backend_sftp => 'SFTP';
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   String get sync_server_enable => 'Enable sync server';
   String get sync_server_port => 'Server port';
   String get sync_server_token => 'Access token';
@@ -1590,7 +1590,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get remote_audio_source => 'Remote audio';
   String get sync_pair_success => 'Paired — token filled in';
   String get sync_pair_failed => 'Pairing failed';
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   String get audio_sources_remote_group => 'Remote sources';
   String get audio_source_url_invalid =>
       'Link must be http(s) and contain a term or reading placeholder';
@@ -1903,7 +1903,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get popup_instant_scroll => 'Instant popup scroll';
   String get popup_instant_scroll_hint =>
       'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   String get remote_video_paired_device => 'Paired device videos';
   String get remote_video_download => 'Download to this device';
   String get remote_video_downloaded => 'Downloaded remote video';
@@ -1911,7 +1911,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get remote_video_download_failed => 'Could not download remote video';
   String get video_setting_subtitle_font_weight => 'Font weight';
   String get video_setting_subtitle_shadow => 'Shadow';
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   String get remote_book_paired_device => 'Paired device books';
   String get remote_book_download => 'Download to this device';
   String get remote_book_downloaded => 'Downloaded remote book';
@@ -4949,7 +4949,7 @@ class _StringsAr extends _StringsEn {
   String get sync_statistics => 'مزامنة الإحصائيات';
   @override
   String get sync_summary =>
-      'سحابة، Hibiki P2P عبر الشبكة المحلية ونسخ احتياطي محلي';
+      'سحابة، Hibiki Interconnect عبر الشبكة المحلية ونسخ احتياطي محلي';
   @override
   String get sync_title => 'المزامنة';
   @override
@@ -5102,7 +5102,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'تفعيل خادم المزامنة';
   @override
@@ -5308,7 +5308,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_pair_failed => 'فشل الاقتران';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'المصادر البعيدة';
   @override
@@ -5878,7 +5878,7 @@ class _StringsAr extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'نقل نافذة البحث المنبثقة بمسافات ثابتة دون تمرير متحرك، لشاشات الحبر الإلكتروني.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'فيديوهات الجهاز المقترن';
   @override
@@ -5894,7 +5894,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'الظل';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'كتب الجهاز المقترن';
   @override
@@ -9742,7 +9742,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'Sync-Server aktivieren';
   @override
@@ -9951,7 +9951,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_pair_failed => 'Kopplung fehlgeschlagen';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'Remote-Quellen';
   @override
@@ -10538,7 +10538,7 @@ class _StringsDe extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'Lässt das Nachschlage-Popup ohne Scroll-Animation um feste Distanzen springen – für E-Ink-Bildschirme.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'Videos vom gekoppelten Gerät';
   @override
@@ -10556,7 +10556,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'Schatten';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'Bücher vom gekoppelten Gerät';
   @override
@@ -14439,7 +14439,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'Activar servidor de sincronización';
   @override
@@ -14652,7 +14652,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_pair_failed => 'Error de emparejamiento';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'Fuentes remotas';
   @override
@@ -15240,7 +15240,7 @@ class _StringsEs extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'Mueve la ventana de consulta a distancias fijas sin animación de desplazamiento, para pantallas de tinta electrónica.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'Vídeos del dispositivo emparejado';
   @override
@@ -15258,7 +15258,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'Sombra';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'Libros del dispositivo emparejado';
   @override
@@ -19005,7 +19005,7 @@ class _StringsFr extends _StringsEn {
   String get sync_statistics => 'Synchroniser les statistiques';
   @override
   String get sync_summary =>
-      'Cloud, Hibiki P2P en réseau local et sauvegarde locale';
+      'Cloud, Hibiki Interconnect en réseau local et sauvegarde locale';
   @override
   String get sync_title => 'Synchronisation';
   @override
@@ -19159,7 +19159,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'Activer le serveur de sync';
   @override
@@ -19371,7 +19371,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_pair_failed => 'Échec de l\'appairage';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'Sources distantes';
   @override
@@ -19964,7 +19964,7 @@ class _StringsFr extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'Pour les écrans e-ink : la fenêtre de recherche saute par paliers fixes, sans animation de défilement.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'Vidéos de l\'appareil appairé';
   @override
@@ -19982,7 +19982,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'Ombre';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'Livres de l\'appareil appairé';
   @override
@@ -23820,7 +23820,7 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'Aktifkan server sinkronisasi';
   @override
@@ -24028,7 +24028,7 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_pair_failed => 'Pemasangan gagal';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'Sumber jarak jauh';
   @override
@@ -24601,7 +24601,7 @@ class _StringsId extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'Pindahkan popup pencarian dengan jarak tetap tanpa animasi gulir untuk layar e-ink.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'Video perangkat berpasangan';
   @override
@@ -24619,7 +24619,7 @@ class _StringsId extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'Bayangan';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'Buku perangkat berpasangan';
   @override
@@ -28479,7 +28479,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'Abilita server di sincronizzazione';
   @override
@@ -28691,7 +28691,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_pair_failed => 'Associazione non riuscita';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'Sorgenti remote';
   @override
@@ -29273,7 +29273,7 @@ class _StringsIt extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'Sposta il popup di ricerca a distanze fisse senza scorrimento animato, per schermi e-ink.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'Video del dispositivo abbinato';
   @override
@@ -29291,7 +29291,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'Ombra';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'Libri del dispositivo abbinato';
   @override
@@ -33011,7 +33011,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => '同期サーバーを有効化';
   @override
@@ -33209,7 +33209,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_pair_failed => 'ペアリングに失敗しました';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'リモートソース';
   @override
@@ -33759,7 +33759,7 @@ class _StringsJa extends _StringsEn {
   String get popup_instant_scroll_hint =>
       '電子ペーパー向け。辞書ポップアップをスクロールアニメなしで一定距離ずつ瞬時に移動します。';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'ペアリング済みデバイスの動画';
   @override
@@ -33775,7 +33775,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => '影';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'ペアリング済みデバイスの書籍';
   @override
@@ -37429,7 +37429,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => '동기화 서버 사용';
   @override
@@ -37624,7 +37624,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_pair_failed => '페어링 실패';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => '원격 소스';
   @override
@@ -38176,7 +38176,7 @@ class _StringsKo extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'e-잉크 화면용: 단어 찾기 팝업을 스크롤 애니메이션 없이 고정 거리만큼 즉시 이동합니다.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => '페어링된 기기의 비디오';
   @override
@@ -38192,7 +38192,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => '그림자';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => '페어링된 기기의 책';
   @override
@@ -41977,7 +41977,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'Syncserver inschakelen';
   @override
@@ -42186,7 +42186,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_pair_failed => 'Koppelen mislukt';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'Externe bronnen';
   @override
@@ -42766,7 +42766,7 @@ class _StringsNl extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'Verspring de opzoek-pop-up over vaste afstanden zonder scrollanimatie, voor e-inkschermen.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'Video\'s van gekoppeld apparaat';
   @override
@@ -42784,7 +42784,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'Schaduw';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'Boeken van gekoppeld apparaat';
   @override
@@ -46648,7 +46648,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'Ativar servidor de sincronização';
   @override
@@ -46857,7 +46857,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_pair_failed => 'Falha no pareamento';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'Fontes remotas';
   @override
@@ -47439,7 +47439,7 @@ class _StringsPtBr extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'Faz o pop-up de consulta saltar por distâncias fixas sem animação de rolagem, para telas de tinta eletrônica.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'Vídeos do dispositivo pareado';
   @override
@@ -47457,7 +47457,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'Sombra';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'Livros do dispositivo pareado';
   @override
@@ -51153,7 +51153,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_statistics => 'Синхронизировать статистику';
   @override
-  String get sync_summary => 'Облако, Hibiki P2P и локальная копия';
+  String get sync_summary => 'Облако, Hibiki Interconnect и локальная копия';
   @override
   String get sync_title => 'Синхронизация';
   @override
@@ -51306,7 +51306,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'Включить сервер синхронизации';
   @override
@@ -51518,7 +51518,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_pair_failed => 'Сопряжение не удалось';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'Удалённые источники';
   @override
@@ -52094,7 +52094,7 @@ class _StringsRu extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'Для экранов e-ink: окно поиска перемещается на фиксированное расстояние без анимации прокрутки.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'Видео сопряжённого устройства';
   @override
@@ -52112,7 +52112,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'Тень';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'Книги сопряжённого устройства';
   @override
@@ -55905,7 +55905,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'เปิดใช้เซิร์ฟเวอร์ซิงค์';
   @override
@@ -56111,7 +56111,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_pair_failed => 'จับคู่ไม่สำเร็จ';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'แหล่งระยะไกล';
   @override
@@ -56678,7 +56678,7 @@ class _StringsTh extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'สำหรับจอ e-ink: เลื่อนหน้าต่างค้นคำเป็นระยะคงที่แบบทันทีโดยไม่มีอนิเมชัน';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'วิดีโอจากอุปกรณ์ที่จับคู่';
   @override
@@ -56694,7 +56694,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'เงา';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'หนังสือจากอุปกรณ์ที่จับคู่';
   @override
@@ -60509,7 +60509,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'Eşitleme sunucusunu etkinleştir';
   @override
@@ -60718,7 +60718,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_pair_failed => 'Eşleştirme başarısız';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'Uzak kaynaklar';
   @override
@@ -61290,7 +61290,7 @@ class _StringsTr extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'E-mürekkep ekranlar için arama açılır penceresini animasyonlu kaydırma olmadan sabit mesafelerle atlat.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'Eşleştirilmiş cihaz videoları';
   @override
@@ -61307,7 +61307,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'Gölge';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'Eşleştirilmiş cihaz kitapları';
   @override
@@ -65110,7 +65110,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki Interconnect';
   @override
   String get sync_server_enable => 'Bật máy chủ đồng bộ';
   @override
@@ -65316,7 +65316,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_pair_failed => 'Ghép nối thất bại';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki Interconnect';
   @override
   String get audio_sources_remote_group => 'Nguồn từ xa';
   @override
@@ -65889,7 +65889,7 @@ class _StringsVi extends _StringsEn {
   String get popup_instant_scroll_hint =>
       'Dành cho màn hình e-ink: cửa sổ tra nhảy theo khoảng cách cố định, không có hiệu ứng cuộn.';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_video_paired_device => 'Video trên thiết bị đã ghép nối';
   @override
@@ -65907,7 +65907,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => 'Bóng đổ';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki Interconnect';
   @override
   String get remote_book_paired_device => 'Sách trên thiết bị đã ghép nối';
   @override
@@ -73849,7 +73849,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_backend_sftp => 'SFTP';
   @override
-  String get sync_backend_hibiki_server => 'Hibiki P2P';
+  String get sync_backend_hibiki_server => 'Hibiki 互聯';
   @override
   String get sync_server_enable => '啟用同步伺服器';
   @override
@@ -74039,7 +74039,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_pair_failed => '配對失敗';
   @override
-  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_source_hibiki_interconnect => 'Hibiki 互聯';
   @override
   String get audio_sources_remote_group => '遠端來源';
   @override
@@ -74569,7 +74569,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get popup_instant_scroll_hint => '供電子墨水屏使用：查詞彈窗按固定距離即時跳動，不播放捲動動畫。';
   @override
-  String get remote_video_interconnect => 'Hibiki P2P';
+  String get remote_video_interconnect => 'Hibiki 互聯';
   @override
   String get remote_video_paired_device => '已配對裝置的影片';
   @override
@@ -74585,7 +74585,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_setting_subtitle_shadow => '陰影';
   @override
-  String get remote_book_interconnect => 'Hibiki P2P';
+  String get remote_book_interconnect => 'Hibiki 互聯';
   @override
   String get remote_book_paired_device => '已配對裝置的書籍';
   @override
@@ -78124,7 +78124,7 @@ extension on _StringsEn {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'Enable sync server';
       case 'sync_server_port':
@@ -78313,7 +78313,7 @@ extension on _StringsEn {
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'Remote sources';
       case 'audio_source_url_invalid':
@@ -78828,7 +78828,7 @@ extension on _StringsEn {
       case 'popup_instant_scroll_hint':
         return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'Paired device videos';
       case 'remote_video_download':
@@ -78844,7 +78844,7 @@ extension on _StringsEn {
       case 'video_setting_subtitle_shadow':
         return 'Shadow';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'Paired device books';
       case 'remote_book_download':
@@ -82110,7 +82110,7 @@ extension on _StringsAr {
       case 'sync_statistics':
         return 'مزامنة الإحصائيات';
       case 'sync_summary':
-        return 'سحابة، Hibiki P2P عبر الشبكة المحلية ونسخ احتياطي محلي';
+        return 'سحابة، Hibiki Interconnect عبر الشبكة المحلية ونسخ احتياطي محلي';
       case 'sync_title':
         return 'المزامنة';
       case 'update_channel_beta':
@@ -82252,7 +82252,7 @@ extension on _StringsAr {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'تفعيل خادم المزامنة';
       case 'sync_server_port':
@@ -82441,7 +82441,7 @@ extension on _StringsAr {
       case 'sync_pair_failed':
         return 'فشل الاقتران';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'المصادر البعيدة';
       case 'audio_source_url_invalid':
@@ -82956,7 +82956,7 @@ extension on _StringsAr {
       case 'popup_instant_scroll_hint':
         return 'نقل نافذة البحث المنبثقة بمسافات ثابتة دون تمرير متحرك، لشاشات الحبر الإلكتروني.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'فيديوهات الجهاز المقترن';
       case 'remote_video_download':
@@ -82972,7 +82972,7 @@ extension on _StringsAr {
       case 'video_setting_subtitle_shadow':
         return 'الظل';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'كتب الجهاز المقترن';
       case 'remote_book_download':
@@ -86398,7 +86398,7 @@ extension on _StringsDe {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'Sync-Server aktivieren';
       case 'sync_server_port':
@@ -86587,7 +86587,7 @@ extension on _StringsDe {
       case 'sync_pair_failed':
         return 'Kopplung fehlgeschlagen';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'Remote-Quellen';
       case 'audio_source_url_invalid':
@@ -87104,7 +87104,7 @@ extension on _StringsDe {
       case 'popup_instant_scroll_hint':
         return 'Lässt das Nachschlage-Popup ohne Scroll-Animation um feste Distanzen springen – für E-Ink-Bildschirme.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'Videos vom gekoppelten Gerät';
       case 'remote_video_download':
@@ -87120,7 +87120,7 @@ extension on _StringsDe {
       case 'video_setting_subtitle_shadow':
         return 'Schatten';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'Bücher vom gekoppelten Gerät';
       case 'remote_book_download':
@@ -90548,7 +90548,7 @@ extension on _StringsEs {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'Activar servidor de sincronización';
       case 'sync_server_port':
@@ -90737,7 +90737,7 @@ extension on _StringsEs {
       case 'sync_pair_failed':
         return 'Error de emparejamiento';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'Fuentes remotas';
       case 'audio_source_url_invalid':
@@ -91254,7 +91254,7 @@ extension on _StringsEs {
       case 'popup_instant_scroll_hint':
         return 'Mueve la ventana de consulta a distancias fijas sin animación de desplazamiento, para pantallas de tinta electrónica.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'Vídeos del dispositivo emparejado';
       case 'remote_video_download':
@@ -91270,7 +91270,7 @@ extension on _StringsEs {
       case 'video_setting_subtitle_shadow':
         return 'Sombra';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'Libros del dispositivo emparejado';
       case 'remote_book_download':
@@ -94556,7 +94556,7 @@ extension on _StringsFr {
       case 'sync_statistics':
         return 'Synchroniser les statistiques';
       case 'sync_summary':
-        return 'Cloud, Hibiki P2P en réseau local et sauvegarde locale';
+        return 'Cloud, Hibiki Interconnect en réseau local et sauvegarde locale';
       case 'sync_title':
         return 'Synchronisation';
       case 'update_channel_beta':
@@ -94701,7 +94701,7 @@ extension on _StringsFr {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'Activer le serveur de sync';
       case 'sync_server_port':
@@ -94890,7 +94890,7 @@ extension on _StringsFr {
       case 'sync_pair_failed':
         return 'Échec de l\'appairage';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'Sources distantes';
       case 'audio_source_url_invalid':
@@ -95407,7 +95407,7 @@ extension on _StringsFr {
       case 'popup_instant_scroll_hint':
         return 'Pour les écrans e-ink : la fenêtre de recherche saute par paliers fixes, sans animation de défilement.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'Vidéos de l\'appareil appairé';
       case 'remote_video_download':
@@ -95423,7 +95423,7 @@ extension on _StringsFr {
       case 'video_setting_subtitle_shadow':
         return 'Ombre';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'Livres de l\'appareil appairé';
       case 'remote_book_download':
@@ -98846,7 +98846,7 @@ extension on _StringsId {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'Aktifkan server sinkronisasi';
       case 'sync_server_port':
@@ -99035,7 +99035,7 @@ extension on _StringsId {
       case 'sync_pair_failed':
         return 'Pemasangan gagal';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'Sumber jarak jauh';
       case 'audio_source_url_invalid':
@@ -99552,7 +99552,7 @@ extension on _StringsId {
       case 'popup_instant_scroll_hint':
         return 'Pindahkan popup pencarian dengan jarak tetap tanpa animasi gulir untuk layar e-ink.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'Video perangkat berpasangan';
       case 'remote_video_download':
@@ -99568,7 +99568,7 @@ extension on _StringsId {
       case 'video_setting_subtitle_shadow':
         return 'Bayangan';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'Buku perangkat berpasangan';
       case 'remote_book_download':
@@ -102991,7 +102991,7 @@ extension on _StringsIt {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'Abilita server di sincronizzazione';
       case 'sync_server_port':
@@ -103180,7 +103180,7 @@ extension on _StringsIt {
       case 'sync_pair_failed':
         return 'Associazione non riuscita';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'Sorgenti remote';
       case 'audio_source_url_invalid':
@@ -103697,7 +103697,7 @@ extension on _StringsIt {
       case 'popup_instant_scroll_hint':
         return 'Sposta il popup di ricerca a distanze fisse senza scorrimento animato, per schermi e-ink.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'Video del dispositivo abbinato';
       case 'remote_video_download':
@@ -103713,7 +103713,7 @@ extension on _StringsIt {
       case 'video_setting_subtitle_shadow':
         return 'Ombra';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'Libri del dispositivo abbinato';
       case 'remote_book_download':
@@ -107121,7 +107121,7 @@ extension on _StringsJa {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return '同期サーバーを有効化';
       case 'sync_server_port':
@@ -107310,7 +107310,7 @@ extension on _StringsJa {
       case 'sync_pair_failed':
         return 'ペアリングに失敗しました';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'リモートソース';
       case 'audio_source_url_invalid':
@@ -107821,7 +107821,7 @@ extension on _StringsJa {
       case 'popup_instant_scroll_hint':
         return '電子ペーパー向け。辞書ポップアップをスクロールアニメなしで一定距離ずつ瞬時に移動します。';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'ペアリング済みデバイスの動画';
       case 'remote_video_download':
@@ -107837,7 +107837,7 @@ extension on _StringsJa {
       case 'video_setting_subtitle_shadow':
         return '影';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'ペアリング済みデバイスの書籍';
       case 'remote_book_download':
@@ -111235,7 +111235,7 @@ extension on _StringsKo {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return '동기화 서버 사용';
       case 'sync_server_port':
@@ -111424,7 +111424,7 @@ extension on _StringsKo {
       case 'sync_pair_failed':
         return '페어링 실패';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return '원격 소스';
       case 'audio_source_url_invalid':
@@ -111936,7 +111936,7 @@ extension on _StringsKo {
       case 'popup_instant_scroll_hint':
         return 'e-잉크 화면용: 단어 찾기 팝업을 스크롤 애니메이션 없이 고정 거리만큼 즉시 이동합니다.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return '페어링된 기기의 비디오';
       case 'remote_video_download':
@@ -111952,7 +111952,7 @@ extension on _StringsKo {
       case 'video_setting_subtitle_shadow':
         return '그림자';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return '페어링된 기기의 책';
       case 'remote_book_download':
@@ -115369,7 +115369,7 @@ extension on _StringsNl {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'Syncserver inschakelen';
       case 'sync_server_port':
@@ -115558,7 +115558,7 @@ extension on _StringsNl {
       case 'sync_pair_failed':
         return 'Koppelen mislukt';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'Externe bronnen';
       case 'audio_source_url_invalid':
@@ -116075,7 +116075,7 @@ extension on _StringsNl {
       case 'popup_instant_scroll_hint':
         return 'Verspring de opzoek-pop-up over vaste afstanden zonder scrollanimatie, voor e-inkschermen.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'Video\'s van gekoppeld apparaat';
       case 'remote_video_download':
@@ -116091,7 +116091,7 @@ extension on _StringsNl {
       case 'video_setting_subtitle_shadow':
         return 'Schaduw';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'Boeken van gekoppeld apparaat';
       case 'remote_book_download':
@@ -119515,7 +119515,7 @@ extension on _StringsPtBr {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'Ativar servidor de sincronização';
       case 'sync_server_port':
@@ -119704,7 +119704,7 @@ extension on _StringsPtBr {
       case 'sync_pair_failed':
         return 'Falha no pareamento';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'Fontes remotas';
       case 'audio_source_url_invalid':
@@ -120221,7 +120221,7 @@ extension on _StringsPtBr {
       case 'popup_instant_scroll_hint':
         return 'Faz o pop-up de consulta saltar por distâncias fixas sem animação de rolagem, para telas de tinta eletrônica.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'Vídeos do dispositivo pareado';
       case 'remote_video_download':
@@ -120237,7 +120237,7 @@ extension on _StringsPtBr {
       case 'video_setting_subtitle_shadow':
         return 'Sombra';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'Livros do dispositivo pareado';
       case 'remote_book_download':
@@ -123517,7 +123517,7 @@ extension on _StringsRu {
       case 'sync_statistics':
         return 'Синхронизировать статистику';
       case 'sync_summary':
-        return 'Облако, Hibiki P2P и локальная копия';
+        return 'Облако, Hibiki Interconnect и локальная копия';
       case 'sync_title':
         return 'Синхронизация';
       case 'update_channel_beta':
@@ -123661,7 +123661,7 @@ extension on _StringsRu {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'Включить сервер синхронизации';
       case 'sync_server_port':
@@ -123850,7 +123850,7 @@ extension on _StringsRu {
       case 'sync_pair_failed':
         return 'Сопряжение не удалось';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'Удалённые источники';
       case 'audio_source_url_invalid':
@@ -124367,7 +124367,7 @@ extension on _StringsRu {
       case 'popup_instant_scroll_hint':
         return 'Для экранов e-ink: окно поиска перемещается на фиксированное расстояние без анимации прокрутки.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'Видео сопряжённого устройства';
       case 'remote_video_download':
@@ -124383,7 +124383,7 @@ extension on _StringsRu {
       case 'video_setting_subtitle_shadow':
         return 'Тень';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'Книги сопряжённого устройства';
       case 'remote_book_download':
@@ -127799,7 +127799,7 @@ extension on _StringsTh {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'เปิดใช้เซิร์ฟเวอร์ซิงค์';
       case 'sync_server_port':
@@ -127988,7 +127988,7 @@ extension on _StringsTh {
       case 'sync_pair_failed':
         return 'จับคู่ไม่สำเร็จ';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'แหล่งระยะไกล';
       case 'audio_source_url_invalid':
@@ -128502,7 +128502,7 @@ extension on _StringsTh {
       case 'popup_instant_scroll_hint':
         return 'สำหรับจอ e-ink: เลื่อนหน้าต่างค้นคำเป็นระยะคงที่แบบทันทีโดยไม่มีอนิเมชัน';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'วิดีโอจากอุปกรณ์ที่จับคู่';
       case 'remote_video_download':
@@ -128518,7 +128518,7 @@ extension on _StringsTh {
       case 'video_setting_subtitle_shadow':
         return 'เงา';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'หนังสือจากอุปกรณ์ที่จับคู่';
       case 'remote_book_download':
@@ -131932,7 +131932,7 @@ extension on _StringsTr {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'Eşitleme sunucusunu etkinleştir';
       case 'sync_server_port':
@@ -132121,7 +132121,7 @@ extension on _StringsTr {
       case 'sync_pair_failed':
         return 'Eşleştirme başarısız';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'Uzak kaynaklar';
       case 'audio_source_url_invalid':
@@ -132637,7 +132637,7 @@ extension on _StringsTr {
       case 'popup_instant_scroll_hint':
         return 'E-mürekkep ekranlar için arama açılır penceresini animasyonlu kaydırma olmadan sabit mesafelerle atlat.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'Eşleştirilmiş cihaz videoları';
       case 'remote_video_download':
@@ -132653,7 +132653,7 @@ extension on _StringsTr {
       case 'video_setting_subtitle_shadow':
         return 'Gölge';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'Eşleştirilmiş cihaz kitapları';
       case 'remote_book_download':
@@ -136068,7 +136068,7 @@ extension on _StringsVi {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'sync_server_enable':
         return 'Bật máy chủ đồng bộ';
       case 'sync_server_port':
@@ -136257,7 +136257,7 @@ extension on _StringsVi {
       case 'sync_pair_failed':
         return 'Ghép nối thất bại';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'audio_sources_remote_group':
         return 'Nguồn từ xa';
       case 'audio_source_url_invalid':
@@ -136771,7 +136771,7 @@ extension on _StringsVi {
       case 'popup_instant_scroll_hint':
         return 'Dành cho màn hình e-ink: cửa sổ tra nhảy theo khoảng cách cố định, không có hiệu ứng cuộn.';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_video_paired_device':
         return 'Video trên thiết bị đã ghép nối';
       case 'remote_video_download':
@@ -136787,7 +136787,7 @@ extension on _StringsVi {
       case 'video_setting_subtitle_shadow':
         return 'Bóng đổ';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki Interconnect';
       case 'remote_book_paired_device':
         return 'Sách trên thiết bị đã ghép nối';
       case 'remote_book_download':
@@ -144285,7 +144285,7 @@ extension on _StringsZhHk {
       case 'sync_backend_sftp':
         return 'SFTP';
       case 'sync_backend_hibiki_server':
-        return 'Hibiki P2P';
+        return 'Hibiki 互聯';
       case 'sync_server_enable':
         return '啟用同步伺服器';
       case 'sync_server_port':
@@ -144473,7 +144473,7 @@ extension on _StringsZhHk {
       case 'sync_pair_failed':
         return '配對失敗';
       case 'audio_source_hibiki_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki 互聯';
       case 'audio_sources_remote_group':
         return '遠端來源';
       case 'audio_source_url_invalid':
@@ -144983,7 +144983,7 @@ extension on _StringsZhHk {
       case 'popup_instant_scroll_hint':
         return '供電子墨水屏使用：查詞彈窗按固定距離即時跳動，不播放捲動動畫。';
       case 'remote_video_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki 互聯';
       case 'remote_video_paired_device':
         return '已配對裝置的影片';
       case 'remote_video_download':
@@ -144999,7 +144999,7 @@ extension on _StringsZhHk {
       case 'video_setting_subtitle_shadow':
         return '陰影';
       case 'remote_book_interconnect':
-        return 'Hibiki P2P';
+        return 'Hibiki 互聯';
       case 'remote_book_paired_device':
         return '已配對裝置的書籍';
       case 'remote_book_download':
