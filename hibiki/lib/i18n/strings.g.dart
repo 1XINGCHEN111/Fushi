@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33762 (1986 per locale)
+/// Strings: 33796 (1988 per locale)
 ///
-/// Built on 2026-06-30 at 05:46 UTC
+/// Built on 2026-06-30 at 06:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2643,6 +2643,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
   String get collection_word => 'Word';
+  String get reader_top_progress_floating => 'Floating reading progress';
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -7134,6 +7137,11 @@ class _StringsAr extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -11747,6 +11755,11 @@ class _StringsDe extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -16377,6 +16390,11 @@ class _StringsEs extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -21026,6 +21044,11 @@ class _StringsFr extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -25577,6 +25600,11 @@ class _StringsId extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -30189,6 +30217,11 @@ class _StringsIt extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -34527,6 +34560,11 @@ class _StringsJa extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -38869,6 +38907,11 @@ class _StringsKo extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -43449,6 +43492,11 @@ class _StringsNl extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -48052,6 +48100,11 @@ class _StringsPtBr extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -52630,6 +52683,11 @@ class _StringsRu extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -57121,6 +57179,11 @@ class _StringsTh extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -61667,6 +61730,11 @@ class _StringsTr extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -66188,6 +66256,11 @@ class _StringsVi extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -70404,6 +70477,10 @@ class _StringsZhCn extends _StringsEn {
       '正在复制文件：${copied} / ${total}';
   @override
   String get collection_word => '单词';
+  @override
+  String get reader_top_progress_floating => '悬浮阅读进度';
+  @override
+  String get reader_auto_hide_chrome_duration => '悬浮控件自动隐藏延时';
 }
 
 // Path: retrying_in
@@ -74644,6 +74721,11 @@ class _StringsZhHk extends _StringsEn {
       'Copying files: ${copied} / ${total}';
   @override
   String get collection_word => 'Word';
+  @override
+  String get reader_top_progress_floating => 'Floating reading progress';
+  @override
+  String get reader_auto_hide_chrome_duration =>
+      'Auto-hide floating controls after';
 }
 
 // Path: retrying_in
@@ -78749,6 +78831,10 @@ extension on _StringsEn {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -82814,6 +82900,10 @@ extension on _StringsAr {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -86901,6 +86991,10 @@ extension on _StringsDe {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -90986,6 +91080,10 @@ extension on _StringsEs {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -95078,6 +95176,10 @@ extension on _StringsFr {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -99150,6 +99252,10 @@ extension on _StringsId {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -103239,6 +103345,10 @@ extension on _StringsIt {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -107286,6 +107396,10 @@ extension on _StringsJa {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -111336,6 +111450,10 @@ extension on _StringsKo {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -115418,6 +115536,10 @@ extension on _StringsNl {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -119497,6 +119619,10 @@ extension on _StringsPtBr {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -123580,6 +123706,10 @@ extension on _StringsRu {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -127645,6 +127775,10 @@ extension on _StringsTh {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -131719,6 +131853,10 @@ extension on _StringsTr {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -135787,6 +135925,10 @@ extension on _StringsVi {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
@@ -139823,6 +139965,10 @@ extension on _StringsZhCn {
             '正在复制文件：${copied} / ${total}';
       case 'collection_word':
         return '单词';
+      case 'reader_top_progress_floating':
+        return '悬浮阅读进度';
+      case 'reader_auto_hide_chrome_duration':
+        return '悬浮控件自动隐藏延时';
       default:
         return null;
     }
@@ -143862,6 +144008,10 @@ extension on _StringsZhHk {
             'Copying files: ${copied} / ${total}';
       case 'collection_word':
         return 'Word';
+      case 'reader_top_progress_floating':
+        return 'Floating reading progress';
+      case 'reader_auto_hide_chrome_duration':
+        return 'Auto-hide floating controls after';
       default:
         return null;
     }
