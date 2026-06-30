@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33745 (1985 per locale)
+/// Strings: 33762 (1986 per locale)
 ///
-/// Built on 2026-06-29 at 13:31 UTC
+/// Built on 2026-06-30 at 03:46 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2641,6 +2641,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -7130,6 +7131,8 @@ class _StringsAr extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -11741,6 +11744,8 @@ class _StringsDe extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -16369,6 +16374,8 @@ class _StringsEs extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -21016,6 +21023,8 @@ class _StringsFr extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -25565,6 +25574,8 @@ class _StringsId extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -30175,6 +30186,8 @@ class _StringsIt extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -34511,6 +34524,8 @@ class _StringsJa extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -38851,6 +38866,8 @@ class _StringsKo extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -43429,6 +43446,8 @@ class _StringsNl extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -48030,6 +48049,8 @@ class _StringsPtBr extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -52606,6 +52627,8 @@ class _StringsRu extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -57095,6 +57118,8 @@ class _StringsTh extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -61639,6 +61664,8 @@ class _StringsTr extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -66158,6 +66185,8 @@ class _StringsVi extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -70372,6 +70401,8 @@ class _StringsZhCn extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       '正在复制文件：${copied} / ${total}';
+  @override
+  String get collection_word => '单词';
 }
 
 // Path: retrying_in
@@ -74610,6 +74641,8 @@ class _StringsZhHk extends _StringsEn {
   String data_storage_migrate_overlay_progress(
           {required Object copied, required Object total}) =>
       'Copying files: ${copied} / ${total}';
+  @override
+  String get collection_word => 'Word';
 }
 
 // Path: retrying_in
@@ -78713,6 +78746,8 @@ extension on _StringsEn {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -82776,6 +82811,8 @@ extension on _StringsAr {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -86861,6 +86898,8 @@ extension on _StringsDe {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -90944,6 +90983,8 @@ extension on _StringsEs {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -95034,6 +95075,8 @@ extension on _StringsFr {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -99104,6 +99147,8 @@ extension on _StringsId {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -103191,6 +103236,8 @@ extension on _StringsIt {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -107236,6 +107283,8 @@ extension on _StringsJa {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -111284,6 +111333,8 @@ extension on _StringsKo {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -115364,6 +115415,8 @@ extension on _StringsNl {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -119441,6 +119494,8 @@ extension on _StringsPtBr {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -123522,6 +123577,8 @@ extension on _StringsRu {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -127585,6 +127642,8 @@ extension on _StringsTh {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -131657,6 +131716,8 @@ extension on _StringsTr {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -135723,6 +135784,8 @@ extension on _StringsVi {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
@@ -139757,6 +139820,8 @@ extension on _StringsZhCn {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             '正在复制文件：${copied} / ${total}';
+      case 'collection_word':
+        return '单词';
       default:
         return null;
     }
@@ -143794,6 +143859,8 @@ extension on _StringsZhHk {
       case 'data_storage_migrate_overlay_progress':
         return ({required Object copied, required Object total}) =>
             'Copying files: ${copied} / ${total}';
+      case 'collection_word':
+        return 'Word';
       default:
         return null;
     }
