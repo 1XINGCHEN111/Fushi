@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 34255 (2015 per locale)
 ///
-/// Built on 2026-06-30 at 15:04 UTC
+/// Built on 2026-06-30 at 15:16 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -635,7 +635,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get use_br_tags => 'Use line break tag instead of newline on export';
   String get prepend_dictionary_names => 'Prepend dictionary name in meaning';
   String get highlight_on_tap => 'Highlight text on tap';
-  String get tap_empty_hide_chrome => 'Tap empty area to hide controls';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   String get no_audio_file => 'No audio file to save.';
   String get storage_permissions =>
       'Please grant the following permissions for exporting to AnkiDroid.';
@@ -3521,8 +3521,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get highlight_on_tap => 'تمييز النص عند النقر';
   @override
-  String get tap_empty_hide_chrome =>
-      'انقر على المنطقة الفارغة لإخفاء عناصر التحكم';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'لا يوجد ملف صوت للحفظ.';
   @override
@@ -8120,8 +8119,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get highlight_on_tap => 'Text beim Antippen hervorheben';
   @override
-  String get tap_empty_hide_chrome =>
-      'Auf leeren Bereich tippen, um Steuerung auszublenden';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'Keine Audiodatei zum Speichern.';
   @override
@@ -12804,8 +12802,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get highlight_on_tap => 'Resaltar texto al tocar';
   @override
-  String get tap_empty_hide_chrome =>
-      'Toca un área vacía para ocultar los controles';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'No hay archivo de audio para guardar.';
   @override
@@ -17510,8 +17507,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get highlight_on_tap => 'Surligner le texte au toucher';
   @override
-  String get tap_empty_hide_chrome =>
-      'Appuyez sur une zone vide pour masquer les contrôles';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'Aucun fichier audio à enregistrer.';
   @override
@@ -22206,8 +22202,7 @@ class _StringsId extends _StringsEn {
   @override
   String get highlight_on_tap => 'Sorot teks saat ketuk';
   @override
-  String get tap_empty_hide_chrome =>
-      'Ketuk area kosong untuk menyembunyikan kontrol';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'Tidak ada file audio untuk disimpan.';
   @override
@@ -26839,8 +26834,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get highlight_on_tap => 'Evidenzia il testo al tocco';
   @override
-  String get tap_empty_hide_chrome =>
-      'Tocca un\'area vuota per nascondere i controlli';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'Nessun file audio da salvare.';
   @override
@@ -31466,7 +31460,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get highlight_on_tap => 'タップでテキストをハイライト';
   @override
-  String get tap_empty_hide_chrome => '空白タップでコントロールを非表示';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => '保存する音声ファイルがありません。';
   @override
@@ -35875,7 +35869,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get highlight_on_tap => '탭 시 텍스트 강조';
   @override
-  String get tap_empty_hide_chrome => '빈 영역을 탭하여 컨트롤 숨기기';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => '저장할 오디오 파일이 없습니다.';
   @override
@@ -40327,8 +40321,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get highlight_on_tap => 'Tekst markeren bij tikken';
   @override
-  String get tap_empty_hide_chrome =>
-      'Tik op een leeg gebied om bedieningselementen te verbergen';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'Geen audiobestand om op te slaan.';
   @override
@@ -44987,8 +44980,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get highlight_on_tap => 'Destacar texto ao tocar';
   @override
-  String get tap_empty_hide_chrome =>
-      'Toque em uma área vazia para ocultar os controles';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'Nenhum arquivo de áudio para salvar.';
   @override
@@ -49649,8 +49641,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get highlight_on_tap => 'Подсветка текста при нажатии';
   @override
-  String get tap_empty_hide_chrome =>
-      'Нажмите на пустую область, чтобы скрыть панели управления';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'Нет аудиофайла для сохранения.';
   @override
@@ -54272,7 +54263,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get highlight_on_tap => 'เน้นข้อความเมื่อแตะ';
   @override
-  String get tap_empty_hide_chrome => 'แตะพื้นที่ว่างเพื่อซ่อนแถบควบคุม';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'ไม่มีไฟล์เสียงที่จะบันทึก';
   @override
@@ -58846,8 +58837,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get highlight_on_tap => 'Dokunma ile metni vurgula';
   @override
-  String get tap_empty_hide_chrome =>
-      'Kontrolleri gizlemek için boş alana dokunun';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'Kaydedilecek ses dosyası yok.';
   @override
@@ -63450,7 +63440,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get highlight_on_tap => 'Tô sáng văn bản khi chạm';
   @override
-  String get tap_empty_hide_chrome => 'Chạm vùng trống để ẩn thanh điều khiển';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => 'Không có tệp âm thanh để lưu.';
   @override
@@ -68037,7 +68027,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get highlight_on_tap => '点击时高亮文本';
   @override
-  String get tap_empty_hide_chrome => '点击空白处隐藏控制栏';
+  String get tap_empty_hide_chrome => '悬浮控制栏';
   @override
   String get no_audio_file => '没有可保存的音频。';
   @override
@@ -72284,7 +72274,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get highlight_on_tap => '點擊時醒目標示文字';
   @override
-  String get tap_empty_hide_chrome => '點擊空白處隱藏控制列';
+  String get tap_empty_hide_chrome => 'Floating control bar';
   @override
   String get no_audio_file => '沒有可儲存的音訊。';
   @override
@@ -76587,7 +76577,7 @@ extension on _StringsEn {
       case 'highlight_on_tap':
         return 'Highlight text on tap';
       case 'tap_empty_hide_chrome':
-        return 'Tap empty area to hide controls';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'No audio file to save.';
       case 'storage_permissions':
@@ -80681,7 +80671,7 @@ extension on _StringsAr {
       case 'highlight_on_tap':
         return 'تمييز النص عند النقر';
       case 'tap_empty_hide_chrome':
-        return 'انقر على المنطقة الفارغة لإخفاء عناصر التحكم';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'لا يوجد ملف صوت للحفظ.';
       case 'storage_permissions':
@@ -84809,7 +84799,7 @@ extension on _StringsDe {
       case 'highlight_on_tap':
         return 'Text beim Antippen hervorheben';
       case 'tap_empty_hide_chrome':
-        return 'Auf leeren Bereich tippen, um Steuerung auszublenden';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'Keine Audiodatei zum Speichern.';
       case 'storage_permissions':
@@ -88957,7 +88947,7 @@ extension on _StringsEs {
       case 'highlight_on_tap':
         return 'Resaltar texto al tocar';
       case 'tap_empty_hide_chrome':
-        return 'Toca un área vacía para ocultar los controles';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'No hay archivo de audio para guardar.';
       case 'storage_permissions':
@@ -93102,7 +93092,7 @@ extension on _StringsFr {
       case 'highlight_on_tap':
         return 'Surligner le texte au toucher';
       case 'tap_empty_hide_chrome':
-        return 'Appuyez sur une zone vide pour masquer les contrôles';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'Aucun fichier audio à enregistrer.';
       case 'storage_permissions':
@@ -97256,7 +97246,7 @@ extension on _StringsId {
       case 'highlight_on_tap':
         return 'Sorot teks saat ketuk';
       case 'tap_empty_hide_chrome':
-        return 'Ketuk area kosong untuk menyembunyikan kontrol';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'Tidak ada file audio untuk disimpan.';
       case 'storage_permissions':
@@ -101390,7 +101380,7 @@ extension on _StringsIt {
       case 'highlight_on_tap':
         return 'Evidenzia il testo al tocco';
       case 'tap_empty_hide_chrome':
-        return 'Tocca un\'area vuota per nascondere i controlli';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'Nessun file audio da salvare.';
       case 'storage_permissions':
@@ -105534,7 +105524,7 @@ extension on _StringsJa {
       case 'highlight_on_tap':
         return 'タップでテキストをハイライト';
       case 'tap_empty_hide_chrome':
-        return '空白タップでコントロールを非表示';
+        return 'Floating control bar';
       case 'no_audio_file':
         return '保存する音声ファイルがありません。';
       case 'storage_permissions':
@@ -109643,7 +109633,7 @@ extension on _StringsKo {
       case 'highlight_on_tap':
         return '탭 시 텍스트 강조';
       case 'tap_empty_hide_chrome':
-        return '빈 영역을 탭하여 컨트롤 숨기기';
+        return 'Floating control bar';
       case 'no_audio_file':
         return '저장할 오디오 파일이 없습니다.';
       case 'storage_permissions':
@@ -113759,7 +113749,7 @@ extension on _StringsNl {
       case 'highlight_on_tap':
         return 'Tekst markeren bij tikken';
       case 'tap_empty_hide_chrome':
-        return 'Tik op een leeg gebied om bedieningselementen te verbergen';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'Geen audiobestand om op te slaan.';
       case 'storage_permissions':
@@ -117900,7 +117890,7 @@ extension on _StringsPtBr {
       case 'highlight_on_tap':
         return 'Destacar texto ao tocar';
       case 'tap_empty_hide_chrome':
-        return 'Toque em uma área vazia para ocultar os controles';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'Nenhum arquivo de áudio para salvar.';
       case 'storage_permissions':
@@ -122040,7 +122030,7 @@ extension on _StringsRu {
       case 'highlight_on_tap':
         return 'Подсветка текста при нажатии';
       case 'tap_empty_hide_chrome':
-        return 'Нажмите на пустую область, чтобы скрыть панели управления';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'Нет аудиофайла для сохранения.';
       case 'storage_permissions':
@@ -126182,7 +126172,7 @@ extension on _StringsTh {
       case 'highlight_on_tap':
         return 'เน้นข้อความเมื่อแตะ';
       case 'tap_empty_hide_chrome':
-        return 'แตะพื้นที่ว่างเพื่อซ่อนแถบควบคุม';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'ไม่มีไฟล์เสียงที่จะบันทึก';
       case 'storage_permissions':
@@ -130309,7 +130299,7 @@ extension on _StringsTr {
       case 'highlight_on_tap':
         return 'Dokunma ile metni vurgula';
       case 'tap_empty_hide_chrome':
-        return 'Kontrolleri gizlemek için boş alana dokunun';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'Kaydedilecek ses dosyası yok.';
       case 'storage_permissions':
@@ -134444,7 +134434,7 @@ extension on _StringsVi {
       case 'highlight_on_tap':
         return 'Tô sáng văn bản khi chạm';
       case 'tap_empty_hide_chrome':
-        return 'Chạm vùng trống để ẩn thanh điều khiển';
+        return 'Floating control bar';
       case 'no_audio_file':
         return 'Không có tệp âm thanh để lưu.';
       case 'storage_permissions':
@@ -138601,7 +138591,7 @@ extension on _StringsZhCn {
       case 'highlight_on_tap':
         return '点击时高亮文本';
       case 'tap_empty_hide_chrome':
-        return '点击空白处隐藏控制栏';
+        return '悬浮控制栏';
       case 'no_audio_file':
         return '没有可保存的音频。';
       case 'storage_permissions':
@@ -142664,7 +142654,7 @@ extension on _StringsZhHk {
       case 'highlight_on_tap':
         return '點擊時醒目標示文字';
       case 'tap_empty_hide_chrome':
-        return '點擊空白處隱藏控制列';
+        return 'Floating control bar';
       case 'no_audio_file':
         return '沒有可儲存的音訊。';
       case 'storage_permissions':
