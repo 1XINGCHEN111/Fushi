@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34289 (2017 per locale)
+/// Strings: 34306 (2018 per locale)
 ///
-/// Built on 2026-06-30 at 17:19 UTC
+/// Built on 2026-06-30 at 21:14 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2687,6 +2687,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Reference original file (don\'t copy)';
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -7252,6 +7253,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -11939,6 +11942,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -16643,6 +16648,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -21366,6 +21373,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -25991,6 +26000,8 @@ class _StringsId extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -30677,6 +30688,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -35090,6 +35103,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -39507,6 +39522,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -44161,6 +44178,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -48838,6 +48857,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -53490,6 +53511,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -58056,6 +58079,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -62676,6 +62701,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -67272,6 +67299,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -71556,6 +71585,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       '数据库保留在原位置、按原路径读取；原文件被移动或删除后该来源会失效。';
+  @override
+  String get anki_card_action_failed => '卡片操作失败，请重试。';
 }
 
 // Path: retrying_in
@@ -75871,6 +75902,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get local_audio_reference_original_desc =>
       'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+  @override
+  String get anki_card_action_failed => 'Card action failed. Please try again.';
 }
 
 // Path: retrying_in
@@ -80041,6 +80074,8 @@ extension on _StringsEn {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -84171,6 +84206,8 @@ extension on _StringsAr {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -88323,6 +88360,8 @@ extension on _StringsDe {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -92473,6 +92512,8 @@ extension on _StringsEs {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -96630,6 +96671,8 @@ extension on _StringsFr {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -100767,6 +100810,8 @@ extension on _StringsId {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -104921,6 +104966,8 @@ extension on _StringsIt {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -109033,6 +109080,8 @@ extension on _StringsJa {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -113148,6 +113197,8 @@ extension on _StringsKo {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -117295,6 +117346,8 @@ extension on _StringsNl {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -121439,6 +121492,8 @@ extension on _StringsPtBr {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -125587,6 +125642,8 @@ extension on _StringsRu {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -129717,6 +129774,8 @@ extension on _StringsTh {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -133856,6 +133915,8 @@ extension on _StringsTr {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -137989,6 +138050,8 @@ extension on _StringsVi {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
@@ -142088,6 +142151,8 @@ extension on _StringsZhCn {
         return '引用原文件（不复制）';
       case 'local_audio_reference_original_desc':
         return '数据库保留在原位置、按原路径读取；原文件被移动或删除后该来源会失效。';
+      case 'anki_card_action_failed':
+        return '卡片操作失败，请重试。';
       default:
         return null;
     }
@@ -146192,6 +146257,8 @@ extension on _StringsZhHk {
         return 'Reference original file (don\'t copy)';
       case 'local_audio_reference_original_desc':
         return 'Keep the database where it is and read from its original path; the source breaks if the file is moved or deleted.';
+      case 'anki_card_action_failed':
+        return 'Card action failed. Please try again.';
       default:
         return null;
     }
