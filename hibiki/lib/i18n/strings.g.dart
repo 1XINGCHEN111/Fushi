@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33796 (1988 per locale)
+/// Strings: 33847 (1991 per locale)
 ///
-/// Built on 2026-06-30 at 06:43 UTC
+/// Built on 2026-06-30 at 12:45 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2646,6 +2646,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get reader_top_progress_floating => 'Floating reading progress';
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -7142,6 +7147,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -11760,6 +11773,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -16395,6 +16416,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -21049,6 +21078,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -25605,6 +25642,14 @@ class _StringsId extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -30222,6 +30267,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -34565,6 +34618,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -38912,6 +38973,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -43497,6 +43566,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -48105,6 +48182,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -52688,6 +52773,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -57184,6 +57277,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -61735,6 +61836,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -66261,6 +66370,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -70481,6 +70598,13 @@ class _StringsZhCn extends _StringsEn {
   String get reader_top_progress_floating => '悬浮阅读进度';
   @override
   String get reader_auto_hide_chrome_duration => '悬浮控件自动隐藏延时';
+  @override
+  String get video_import_webpage_url_warning_title => '网页地址，不是视频直链';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      '这是网页地址（如 YouTube/Netflix），不是直接的视频流（.m3u8/.mp4/直链）。Hibiki 暂不支持解析网页视频，请提供直链。你仍可强行尝试。';
+  @override
+  String get video_import_webpage_url_try_anyway => '仍要尝试';
 }
 
 // Path: retrying_in
@@ -74726,6 +74850,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get reader_auto_hide_chrome_duration =>
       'Auto-hide floating controls after';
+  @override
+  String get video_import_webpage_url_warning_title =>
+      'Web page address, not a direct stream';
+  @override
+  String get video_import_webpage_url_warning_body =>
+      'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+  @override
+  String get video_import_webpage_url_try_anyway => 'Try anyway';
 }
 
 // Path: retrying_in
@@ -78835,6 +78967,12 @@ extension on _StringsEn {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -82904,6 +83042,12 @@ extension on _StringsAr {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -86995,6 +87139,12 @@ extension on _StringsDe {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -91084,6 +91234,12 @@ extension on _StringsEs {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -95180,6 +95336,12 @@ extension on _StringsFr {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -99256,6 +99418,12 @@ extension on _StringsId {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -103349,6 +103517,12 @@ extension on _StringsIt {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -107400,6 +107574,12 @@ extension on _StringsJa {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -111454,6 +111634,12 @@ extension on _StringsKo {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -115540,6 +115726,12 @@ extension on _StringsNl {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -119623,6 +119815,12 @@ extension on _StringsPtBr {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -123710,6 +123908,12 @@ extension on _StringsRu {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -127779,6 +127983,12 @@ extension on _StringsTh {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -131857,6 +132067,12 @@ extension on _StringsTr {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -135929,6 +136145,12 @@ extension on _StringsVi {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
@@ -139969,6 +140191,12 @@ extension on _StringsZhCn {
         return '悬浮阅读进度';
       case 'reader_auto_hide_chrome_duration':
         return '悬浮控件自动隐藏延时';
+      case 'video_import_webpage_url_warning_title':
+        return '网页地址，不是视频直链';
+      case 'video_import_webpage_url_warning_body':
+        return '这是网页地址（如 YouTube/Netflix），不是直接的视频流（.m3u8/.mp4/直链）。Hibiki 暂不支持解析网页视频，请提供直链。你仍可强行尝试。';
+      case 'video_import_webpage_url_try_anyway':
+        return '仍要尝试';
       default:
         return null;
     }
@@ -144012,6 +144240,12 @@ extension on _StringsZhHk {
         return 'Floating reading progress';
       case 'reader_auto_hide_chrome_duration':
         return 'Auto-hide floating controls after';
+      case 'video_import_webpage_url_warning_title':
+        return 'Web page address, not a direct stream';
+      case 'video_import_webpage_url_warning_body':
+        return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
+      case 'video_import_webpage_url_try_anyway':
+        return 'Try anyway';
       default:
         return null;
     }
