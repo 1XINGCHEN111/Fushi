@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33847 (1991 per locale)
+/// Strings: 33864 (1992 per locale)
 ///
-/// Built on 2026-06-30 at 12:45 UTC
+/// Built on 2026-06-30 at 13:18 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2651,6 +2651,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_import_webpage_url_warning_body =>
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -7155,6 +7156,8 @@ class _StringsAr extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -11781,6 +11784,8 @@ class _StringsDe extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -16424,6 +16429,8 @@ class _StringsEs extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -21086,6 +21093,8 @@ class _StringsFr extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -25650,6 +25659,8 @@ class _StringsId extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -30275,6 +30286,8 @@ class _StringsIt extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -34626,6 +34639,8 @@ class _StringsJa extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -38981,6 +38996,8 @@ class _StringsKo extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -43574,6 +43591,8 @@ class _StringsNl extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -48190,6 +48209,8 @@ class _StringsPtBr extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -52781,6 +52802,8 @@ class _StringsRu extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -57285,6 +57308,8 @@ class _StringsTh extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -61844,6 +61869,8 @@ class _StringsTr extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -66378,6 +66405,8 @@ class _StringsVi extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -70605,6 +70634,8 @@ class _StringsZhCn extends _StringsEn {
       '这是网页地址（如 YouTube/Netflix），不是直接的视频流（.m3u8/.mp4/直链）。Hibiki 暂不支持解析网页视频，请提供直链。你仍可强行尝试。';
   @override
   String get video_import_webpage_url_try_anyway => '仍要尝试';
+  @override
+  String get sync_pair_pin_label => '在另一台设备上输入此 PIN';
 }
 
 // Path: retrying_in
@@ -74858,6 +74889,8 @@ class _StringsZhHk extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get sync_pair_pin_label => 'Enter this PIN on the other device';
 }
 
 // Path: retrying_in
@@ -78973,6 +79006,8 @@ extension on _StringsEn {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -83048,6 +83083,8 @@ extension on _StringsAr {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -87145,6 +87182,8 @@ extension on _StringsDe {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -91240,6 +91279,8 @@ extension on _StringsEs {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -95342,6 +95383,8 @@ extension on _StringsFr {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -99424,6 +99467,8 @@ extension on _StringsId {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -103523,6 +103568,8 @@ extension on _StringsIt {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -107580,6 +107627,8 @@ extension on _StringsJa {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -111640,6 +111689,8 @@ extension on _StringsKo {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -115732,6 +115783,8 @@ extension on _StringsNl {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -119821,6 +119874,8 @@ extension on _StringsPtBr {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -123914,6 +123969,8 @@ extension on _StringsRu {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -127989,6 +128046,8 @@ extension on _StringsTh {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -132073,6 +132132,8 @@ extension on _StringsTr {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -136151,6 +136212,8 @@ extension on _StringsVi {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
@@ -140197,6 +140260,8 @@ extension on _StringsZhCn {
         return '这是网页地址（如 YouTube/Netflix），不是直接的视频流（.m3u8/.mp4/直链）。Hibiki 暂不支持解析网页视频，请提供直链。你仍可强行尝试。';
       case 'video_import_webpage_url_try_anyway':
         return '仍要尝试';
+      case 'sync_pair_pin_label':
+        return '在另一台设备上输入此 PIN';
       default:
         return null;
     }
@@ -144246,6 +144311,8 @@ extension on _StringsZhHk {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'sync_pair_pin_label':
+        return 'Enter this PIN on the other device';
       default:
         return null;
     }
