@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34068 (2004 per locale)
+/// Strings: 34255 (2015 per locale)
 ///
-/// Built on 2026-06-30 at 14:53 UTC
+/// Built on 2026-06-30 at 15:04 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2668,6 +2668,21 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'On latest known version ${version} (checking…)';
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  String get sync_pair_probing => 'Checking device…';
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  String get sync_pair_continue => 'Continue';
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  String get sync_pair_pairing => 'Pairing…';
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -7202,6 +7217,32 @@ class _StringsAr extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -11858,6 +11899,32 @@ class _StringsDe extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -16531,6 +16598,32 @@ class _StringsEs extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -21223,6 +21316,32 @@ class _StringsFr extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -25817,6 +25936,32 @@ class _StringsId extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -30472,6 +30617,32 @@ class _StringsIt extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -34853,6 +35024,32 @@ class _StringsJa extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -39238,6 +39435,32 @@ class _StringsKo extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -43861,6 +44084,32 @@ class _StringsNl extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -48507,6 +48756,32 @@ class _StringsPtBr extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -53128,6 +53403,32 @@ class _StringsRu extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -57662,6 +57963,32 @@ class _StringsTh extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -62251,6 +62578,32 @@ class _StringsTr extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -66815,6 +67168,32 @@ class _StringsVi extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -71071,6 +71450,29 @@ class _StringsZhCn extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       '发现新版 ${version}（校验中…）';
+  @override
+  String get sync_pair_probing => '正在检查设备…';
+  @override
+  String get sync_pair_confirm_identity_title => '确认设备';
+  @override
+  String get sync_pair_fingerprint_label => '证书指纹';
+  @override
+  String get sync_pair_enter_pin_title => '输入 PIN';
+  @override
+  String get sync_pair_enter_pin_body => '输入另一台设备屏幕上显示的 6 位 PIN。';
+  @override
+  String get sync_pair_continue => '继续';
+  @override
+  String get sync_pair_pin_wrong => 'PIN 错误，请重试';
+  @override
+  String get sync_pair_fingerprint_changed => '证书已变更，为安全起见已中止配对（可能存在中间人攻击）。';
+  @override
+  String get sync_pair_not_hibiki => '此地址未找到 Hibiki 设备，已保存该地址。';
+  @override
+  String get sync_pair_pairing => '正在配对…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      '你正在与 ${device} 配对。继续前请确认这是你预期的设备。';
 }
 
 // Path: retrying_in
@@ -75354,6 +75756,32 @@ class _StringsZhHk extends _StringsEn {
   @override
   String update_cached_newer({required Object version}) =>
       'Update ${version} available (verifying…)';
+  @override
+  String get sync_pair_probing => 'Checking device…';
+  @override
+  String get sync_pair_confirm_identity_title => 'Confirm device';
+  @override
+  String get sync_pair_fingerprint_label => 'Certificate fingerprint';
+  @override
+  String get sync_pair_enter_pin_title => 'Enter PIN';
+  @override
+  String get sync_pair_enter_pin_body =>
+      'Enter the 6-digit PIN shown on the other device.';
+  @override
+  String get sync_pair_continue => 'Continue';
+  @override
+  String get sync_pair_pin_wrong => 'Wrong PIN — try again';
+  @override
+  String get sync_pair_fingerprint_changed =>
+      'Certificate changed — pairing aborted for safety (possible interception).';
+  @override
+  String get sync_pair_not_hibiki =>
+      'No Hibiki device found at this address. The address was saved.';
+  @override
+  String get sync_pair_pairing => 'Pairing…';
+  @override
+  String sync_pair_confirm_identity_body({required Object device}) =>
+      'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
 }
 
 // Path: retrying_in
@@ -79497,6 +79925,29 @@ extension on _StringsEn {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -83600,6 +84051,29 @@ extension on _StringsAr {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -87725,6 +88199,29 @@ extension on _StringsDe {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -91848,6 +92345,29 @@ extension on _StringsEs {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -95978,6 +96498,29 @@ extension on _StringsFr {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -100088,6 +100631,29 @@ extension on _StringsId {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -104215,6 +104781,29 @@ extension on _StringsIt {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -108300,6 +108889,29 @@ extension on _StringsJa {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -112388,6 +113000,29 @@ extension on _StringsKo {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -116508,6 +117143,29 @@ extension on _StringsNl {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -120625,6 +121283,29 @@ extension on _StringsPtBr {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -124746,6 +125427,29 @@ extension on _StringsRu {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -128849,6 +129553,29 @@ extension on _StringsTh {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -132961,6 +133688,29 @@ extension on _StringsTr {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -137067,6 +137817,29 @@ extension on _StringsVi {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
@@ -141139,6 +141912,29 @@ extension on _StringsZhCn {
         return ({required Object version}) => '已是最新已知版本 ${version}（校验中…）';
       case 'update_cached_newer':
         return ({required Object version}) => '发现新版 ${version}（校验中…）';
+      case 'sync_pair_probing':
+        return '正在检查设备…';
+      case 'sync_pair_confirm_identity_title':
+        return '确认设备';
+      case 'sync_pair_fingerprint_label':
+        return '证书指纹';
+      case 'sync_pair_enter_pin_title':
+        return '输入 PIN';
+      case 'sync_pair_enter_pin_body':
+        return '输入另一台设备屏幕上显示的 6 位 PIN。';
+      case 'sync_pair_continue':
+        return '继续';
+      case 'sync_pair_pin_wrong':
+        return 'PIN 错误，请重试';
+      case 'sync_pair_fingerprint_changed':
+        return '证书已变更，为安全起见已中止配对（可能存在中间人攻击）。';
+      case 'sync_pair_not_hibiki':
+        return '此地址未找到 Hibiki 设备，已保存该地址。';
+      case 'sync_pair_pairing':
+        return '正在配对…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            '你正在与 ${device} 配对。继续前请确认这是你预期的设备。';
       default:
         return null;
     }
@@ -145216,6 +146012,29 @@ extension on _StringsZhHk {
       case 'update_cached_newer':
         return ({required Object version}) =>
             'Update ${version} available (verifying…)';
+      case 'sync_pair_probing':
+        return 'Checking device…';
+      case 'sync_pair_confirm_identity_title':
+        return 'Confirm device';
+      case 'sync_pair_fingerprint_label':
+        return 'Certificate fingerprint';
+      case 'sync_pair_enter_pin_title':
+        return 'Enter PIN';
+      case 'sync_pair_enter_pin_body':
+        return 'Enter the 6-digit PIN shown on the other device.';
+      case 'sync_pair_continue':
+        return 'Continue';
+      case 'sync_pair_pin_wrong':
+        return 'Wrong PIN — try again';
+      case 'sync_pair_fingerprint_changed':
+        return 'Certificate changed — pairing aborted for safety (possible interception).';
+      case 'sync_pair_not_hibiki':
+        return 'No Hibiki device found at this address. The address was saved.';
+      case 'sync_pair_pairing':
+        return 'Pairing…';
+      case 'sync_pair_confirm_identity_body':
+        return ({required Object device}) =>
+            'You are pairing with ${device}. Confirm this is the device you expect before continuing.';
       default:
         return null;
     }
