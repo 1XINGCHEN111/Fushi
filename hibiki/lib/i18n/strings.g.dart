@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 33847 (1991 per locale)
+/// Strings: 34017 (2001 per locale)
 ///
-/// Built on 2026-06-30 at 12:45 UTC
+/// Built on 2026-06-30 at 13:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2651,6 +2651,18 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_import_webpage_url_warning_body =>
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  String get anki_mined_card_title => 'Card already in Anki';
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  String get anki_mined_action_view => 'View / open in Anki';
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  String get anki_note_viewer_title => 'Existing card';
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -7155,6 +7167,28 @@ class _StringsAr extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -11781,6 +11815,28 @@ class _StringsDe extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -16424,6 +16480,28 @@ class _StringsEs extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -21086,6 +21164,28 @@ class _StringsFr extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -25650,6 +25750,28 @@ class _StringsId extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -30275,6 +30397,28 @@ class _StringsIt extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -34626,6 +34770,28 @@ class _StringsJa extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -38981,6 +39147,28 @@ class _StringsKo extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -43574,6 +43762,28 @@ class _StringsNl extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -48190,6 +48400,28 @@ class _StringsPtBr extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -52781,6 +53013,28 @@ class _StringsRu extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -57285,6 +57539,28 @@ class _StringsTh extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -61844,6 +62120,28 @@ class _StringsTr extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -66378,6 +66676,28 @@ class _StringsVi extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -70605,6 +70925,27 @@ class _StringsZhCn extends _StringsEn {
       '这是网页地址（如 YouTube/Netflix），不是直接的视频流（.m3u8/.mp4/直链）。Hibiki 暂不支持解析网页视频，请提供直链。你仍可强行尝试。';
   @override
   String get video_import_webpage_url_try_anyway => '仍要尝试';
+  @override
+  String get anki_mined_card_title => '卡片已在 Anki 中';
+  @override
+  String get anki_mined_card_subtitle => '选择对这张已存在的卡片做什么。';
+  @override
+  String get anki_mined_action_overwrite => '覆写这张卡';
+  @override
+  String get anki_mined_action_add_duplicate => '新增为重复卡';
+  @override
+  String get anki_mined_action_view => '查看 / 在 Anki 中打开';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} 张匹配的卡片';
+  @override
+  String get anki_note_viewer_title => '已存在的卡片';
+  @override
+  String get anki_note_viewer_open_in_anki => '在 Anki 中打开';
+  @override
+  String get anki_note_viewer_empty => '这张卡片没有可读取的字段。';
+  @override
+  String get anki_note_open_failed => '无法在 Anki 中打开这张卡片。';
 }
 
 // Path: retrying_in
@@ -74858,6 +75199,28 @@ class _StringsZhHk extends _StringsEn {
       'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
   @override
   String get video_import_webpage_url_try_anyway => 'Try anyway';
+  @override
+  String get anki_mined_card_title => 'Card already in Anki';
+  @override
+  String get anki_mined_card_subtitle =>
+      'Choose what to do with the matching card.';
+  @override
+  String get anki_mined_action_overwrite => 'Overwrite this card';
+  @override
+  String get anki_mined_action_add_duplicate => 'Add as a new card';
+  @override
+  String get anki_mined_action_view => 'View / open in Anki';
+  @override
+  String anki_mined_multiple_matches({required Object count}) =>
+      '${count} matching cards';
+  @override
+  String get anki_note_viewer_title => 'Existing card';
+  @override
+  String get anki_note_viewer_open_in_anki => 'Open in Anki';
+  @override
+  String get anki_note_viewer_empty => 'This card has no readable fields.';
+  @override
+  String get anki_note_open_failed => 'Could not open the card in Anki.';
 }
 
 // Path: retrying_in
@@ -78973,6 +79336,26 @@ extension on _StringsEn {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -83048,6 +83431,26 @@ extension on _StringsAr {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -87145,6 +87548,26 @@ extension on _StringsDe {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -91240,6 +91663,26 @@ extension on _StringsEs {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -95342,6 +95785,26 @@ extension on _StringsFr {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -99424,6 +99887,26 @@ extension on _StringsId {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -103523,6 +104006,26 @@ extension on _StringsIt {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -107580,6 +108083,26 @@ extension on _StringsJa {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -111640,6 +112163,26 @@ extension on _StringsKo {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -115732,6 +116275,26 @@ extension on _StringsNl {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -119821,6 +120384,26 @@ extension on _StringsPtBr {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -123914,6 +124497,26 @@ extension on _StringsRu {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -127989,6 +128592,26 @@ extension on _StringsTh {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -132073,6 +132696,26 @@ extension on _StringsTr {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -136151,6 +136794,26 @@ extension on _StringsVi {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
@@ -140197,6 +140860,26 @@ extension on _StringsZhCn {
         return '这是网页地址（如 YouTube/Netflix），不是直接的视频流（.m3u8/.mp4/直链）。Hibiki 暂不支持解析网页视频，请提供直链。你仍可强行尝试。';
       case 'video_import_webpage_url_try_anyway':
         return '仍要尝试';
+      case 'anki_mined_card_title':
+        return '卡片已在 Anki 中';
+      case 'anki_mined_card_subtitle':
+        return '选择对这张已存在的卡片做什么。';
+      case 'anki_mined_action_overwrite':
+        return '覆写这张卡';
+      case 'anki_mined_action_add_duplicate':
+        return '新增为重复卡';
+      case 'anki_mined_action_view':
+        return '查看 / 在 Anki 中打开';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} 张匹配的卡片';
+      case 'anki_note_viewer_title':
+        return '已存在的卡片';
+      case 'anki_note_viewer_open_in_anki':
+        return '在 Anki 中打开';
+      case 'anki_note_viewer_empty':
+        return '这张卡片没有可读取的字段。';
+      case 'anki_note_open_failed':
+        return '无法在 Anki 中打开这张卡片。';
       default:
         return null;
     }
@@ -144246,6 +144929,26 @@ extension on _StringsZhHk {
         return 'This looks like a web page (e.g. YouTube/Netflix), not a direct video stream (.m3u8/.mp4/direct link). Hibiki cannot extract video from web pages yet — please provide a direct stream URL. You can still try anyway.';
       case 'video_import_webpage_url_try_anyway':
         return 'Try anyway';
+      case 'anki_mined_card_title':
+        return 'Card already in Anki';
+      case 'anki_mined_card_subtitle':
+        return 'Choose what to do with the matching card.';
+      case 'anki_mined_action_overwrite':
+        return 'Overwrite this card';
+      case 'anki_mined_action_add_duplicate':
+        return 'Add as a new card';
+      case 'anki_mined_action_view':
+        return 'View / open in Anki';
+      case 'anki_mined_multiple_matches':
+        return ({required Object count}) => '${count} matching cards';
+      case 'anki_note_viewer_title':
+        return 'Existing card';
+      case 'anki_note_viewer_open_in_anki':
+        return 'Open in Anki';
+      case 'anki_note_viewer_empty':
+        return 'This card has no readable fields.';
+      case 'anki_note_open_failed':
+        return 'Could not open the card in Anki.';
       default:
         return null;
     }
