@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34901 (2053 per locale)
+/// Strings: 34918 (2054 per locale)
 ///
-/// Built on 2026-07-01 at 12:48 UTC
+/// Built on 2026-07-01 at 13:52 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2731,6 +2731,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get shortcut_mouse_forward => 'Forward button';
   String get shortcut_mouse_wheel => 'Wheel';
   String get shortcut_mouse_button => 'Mouse button';
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -7375,6 +7377,9 @@ class _StringsAr extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -12142,6 +12147,9 @@ class _StringsDe extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -16926,6 +16934,9 @@ class _StringsEs extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -21729,6 +21740,9 @@ class _StringsFr extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -26434,6 +26448,9 @@ class _StringsId extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -31200,6 +31217,9 @@ class _StringsIt extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -35691,6 +35711,9 @@ class _StringsJa extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -40186,6 +40209,9 @@ class _StringsKo extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -44920,6 +44946,9 @@ class _StringsNl extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -49677,6 +49706,9 @@ class _StringsPtBr extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -54409,6 +54441,9 @@ class _StringsRu extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -59054,6 +59089,9 @@ class _StringsTh extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -63754,6 +63792,9 @@ class _StringsTr extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -68429,6 +68470,9 @@ class _StringsVi extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -72789,6 +72833,8 @@ class _StringsZhCn extends _StringsEn {
   String get shortcut_mouse_wheel => '滚轮';
   @override
   String get shortcut_mouse_button => '鼠标按键';
+  @override
+  String get error_log_diagnostics_section => '诊断/取证信息（非应用错误）';
 }
 
 // Path: retrying_in
@@ -77182,6 +77228,9 @@ class _StringsZhHk extends _StringsEn {
   String get shortcut_mouse_wheel => 'Wheel';
   @override
   String get shortcut_mouse_button => 'Mouse button';
+  @override
+  String get error_log_diagnostics_section =>
+      'Diagnostics / forensics (not app errors)';
 }
 
 // Path: retrying_in
@@ -81425,6 +81474,8 @@ extension on _StringsEn {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -85628,6 +85679,8 @@ extension on _StringsAr {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -89853,6 +89906,8 @@ extension on _StringsDe {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -94076,6 +94131,8 @@ extension on _StringsEs {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -98306,6 +98363,8 @@ extension on _StringsFr {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -102516,6 +102575,8 @@ extension on _StringsId {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -106743,6 +106804,8 @@ extension on _StringsIt {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -110928,6 +110991,8 @@ extension on _StringsJa {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -115116,6 +115181,8 @@ extension on _StringsKo {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -119336,6 +119403,8 @@ extension on _StringsNl {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -123553,6 +123622,8 @@ extension on _StringsPtBr {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -127774,6 +127845,8 @@ extension on _StringsRu {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -131977,6 +132050,8 @@ extension on _StringsTh {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -136189,6 +136264,8 @@ extension on _StringsTr {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -140395,6 +140472,8 @@ extension on _StringsVi {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
@@ -144567,6 +144646,8 @@ extension on _StringsZhCn {
         return '滚轮';
       case 'shortcut_mouse_button':
         return '鼠标按键';
+      case 'error_log_diagnostics_section':
+        return '诊断/取证信息（非应用错误）';
       default:
         return null;
     }
@@ -148744,6 +148825,8 @@ extension on _StringsZhHk {
         return 'Wheel';
       case 'shortcut_mouse_button':
         return 'Mouse button';
+      case 'error_log_diagnostics_section':
+        return 'Diagnostics / forensics (not app errors)';
       default:
         return null;
     }
