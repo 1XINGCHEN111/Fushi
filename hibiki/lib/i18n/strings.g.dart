@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34544 (2032 per locale)
+/// Strings: 34578 (2034 per locale)
 ///
-/// Built on 2026-07-01 at 08:38 UTC
+/// Built on 2026-07-01 at 10:12 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2707,6 +2707,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get floating_lyric_context_lines => 'Floating subtitle context lines';
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  String get install_browser_extension => 'Install browser extension';
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -7306,6 +7309,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -12027,6 +12035,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -16765,6 +16778,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -21522,6 +21540,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -26181,6 +26204,11 @@ class _StringsId extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -30901,6 +30929,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -35348,6 +35381,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -39799,6 +39837,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -44487,6 +44530,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -49198,6 +49246,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -53884,6 +53937,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -58484,6 +58542,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -63138,6 +63201,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -67768,6 +67836,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -72084,6 +72157,11 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 只显示当前行(单行,与今天一致);设 1-3 在当前行上下各显示这么多行上下文';
+  @override
+  String get install_browser_extension => '安装浏览器扩展';
+  @override
+  String get browser_extension_install_steps =>
+      '在 chrome://extensions（或 edge://extensions）：开启右上角「开发者模式」，点「加载已解压的扩展程序」，粘贴下方路径；再到扩展 options 填 Hibiki 的 host/port/配对 token。';
 }
 
 // Path: retrying_in
@@ -76433,6 +76511,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get floating_lyric_context_lines_hint =>
       '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+  @override
+  String get install_browser_extension => 'Install browser extension';
+  @override
+  String get browser_extension_install_steps =>
+      'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
 }
 
 // Path: retrying_in
@@ -80634,6 +80717,10 @@ extension on _StringsEn {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -84795,6 +84882,10 @@ extension on _StringsAr {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -88978,6 +89069,10 @@ extension on _StringsDe {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -93159,6 +93254,10 @@ extension on _StringsEs {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -97347,6 +97446,10 @@ extension on _StringsFr {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -101515,6 +101618,10 @@ extension on _StringsId {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -105700,6 +105807,10 @@ extension on _StringsIt {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -109843,6 +109954,10 @@ extension on _StringsJa {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -113989,6 +114104,10 @@ extension on _StringsKo {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -118167,6 +118286,10 @@ extension on _StringsNl {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -122342,6 +122465,10 @@ extension on _StringsPtBr {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -126521,6 +126648,10 @@ extension on _StringsRu {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -130682,6 +130813,10 @@ extension on _StringsTh {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -134852,6 +134987,10 @@ extension on _StringsTr {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -139016,6 +139155,10 @@ extension on _StringsVi {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
@@ -143146,6 +143289,10 @@ extension on _StringsZhCn {
         return '悬浮字幕上下文行数';
       case 'floating_lyric_context_lines_hint':
         return '0 只显示当前行(单行,与今天一致);设 1-3 在当前行上下各显示这么多行上下文';
+      case 'install_browser_extension':
+        return '安装浏览器扩展';
+      case 'browser_extension_install_steps':
+        return '在 chrome://extensions（或 edge://extensions）：开启右上角「开发者模式」，点「加载已解压的扩展程序」，粘贴下方路径；再到扩展 options 填 Hibiki 的 host/port/配对 token。';
       default:
         return null;
     }
@@ -147281,6 +147428,10 @@ extension on _StringsZhHk {
         return 'Floating subtitle context lines';
       case 'floating_lyric_context_lines_hint':
         return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
+      case 'install_browser_extension':
+        return 'Install browser extension';
+      case 'browser_extension_install_steps':
+        return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
       default:
         return null;
     }
