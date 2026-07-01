@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34697 (2041 per locale)
+/// Strings: 34714 (2042 per locale)
 ///
-/// Built on 2026-07-01 at 11:34 UTC
+/// Built on 2026-07-01 at 12:12 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2717,6 +2717,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_subtitle_bg_color_red => 'Red';
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   String get video_setting_subtitle_bg_color_green => 'Green';
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -7335,6 +7336,8 @@ class _StringsAr extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -12076,6 +12079,8 @@ class _StringsDe extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -16834,6 +16839,8 @@ class _StringsEs extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -21611,6 +21618,8 @@ class _StringsFr extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -26290,6 +26299,8 @@ class _StringsId extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -31030,6 +31041,8 @@ class _StringsIt extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -35495,6 +35508,8 @@ class _StringsJa extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -39964,6 +39979,8 @@ class _StringsKo extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -44672,6 +44689,8 @@ class _StringsNl extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -49403,6 +49422,8 @@ class _StringsPtBr extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -54109,6 +54130,8 @@ class _StringsRu extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -58728,6 +58751,8 @@ class _StringsTh extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -63402,6 +63427,8 @@ class _StringsTr extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -68051,6 +68078,8 @@ class _StringsVi extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -72386,6 +72415,8 @@ class _StringsZhCn extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => '蓝色';
   @override
   String get video_setting_subtitle_bg_color_green => '绿色';
+  @override
+  String get profile_media_video => '视频';
 }
 
 // Path: retrying_in
@@ -76753,6 +76784,8 @@ class _StringsZhHk extends _StringsEn {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   @override
   String get video_setting_subtitle_bg_color_green => 'Green';
+  @override
+  String get profile_media_video => 'Video';
 }
 
 // Path: retrying_in
@@ -80972,6 +81005,8 @@ extension on _StringsEn {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -85151,6 +85186,8 @@ extension on _StringsAr {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -89352,6 +89389,8 @@ extension on _StringsDe {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -93551,6 +93590,8 @@ extension on _StringsEs {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -97757,6 +97798,8 @@ extension on _StringsFr {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -101943,6 +101986,8 @@ extension on _StringsId {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -106146,6 +106191,8 @@ extension on _StringsIt {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -110307,6 +110354,8 @@ extension on _StringsJa {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -114471,6 +114520,8 @@ extension on _StringsKo {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -118667,6 +118718,8 @@ extension on _StringsNl {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -122860,6 +122913,8 @@ extension on _StringsPtBr {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -127057,6 +127112,8 @@ extension on _StringsRu {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -131236,6 +131293,8 @@ extension on _StringsTh {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -135424,6 +135483,8 @@ extension on _StringsTr {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -139606,6 +139667,8 @@ extension on _StringsVi {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
@@ -143754,6 +143817,8 @@ extension on _StringsZhCn {
         return '蓝色';
       case 'video_setting_subtitle_bg_color_green':
         return '绿色';
+      case 'profile_media_video':
+        return '视频';
       default:
         return null;
     }
@@ -147907,6 +147972,8 @@ extension on _StringsZhHk {
         return 'Blue';
       case 'video_setting_subtitle_bg_color_green':
         return 'Green';
+      case 'profile_media_video':
+        return 'Video';
       default:
         return null;
     }
