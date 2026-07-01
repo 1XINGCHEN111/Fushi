@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34340 (2020 per locale)
+/// Strings: 34408 (2024 per locale)
 ///
-/// Built on 2026-06-30 at 23:41 UTC
+/// Built on 2026-07-01 at 02:23 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2180,6 +2180,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_card_action_failed => 'Card action failed. Please try again.';
 	String get series_merged_hint => 'Merged · rename in series details';
 	String get series_default_name => 'New series';
+	String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	String get floating_lyric_width => 'Floating subtitle width';
+	String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -4253,6 +4257,10 @@ class _StringsAr extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -6326,6 +6334,10 @@ class _StringsDe extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -8399,6 +8411,10 @@ class _StringsEs extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -10472,6 +10488,10 @@ class _StringsFr extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -12545,6 +12565,10 @@ class _StringsId extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -14618,6 +14642,10 @@ class _StringsIt extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -16691,6 +16719,10 @@ class _StringsJa extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -18764,6 +18796,10 @@ class _StringsKo extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -20837,6 +20873,10 @@ class _StringsNl extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -22910,6 +22950,10 @@ class _StringsPtBr extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -24983,6 +25027,10 @@ class _StringsRu extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -27056,6 +27104,10 @@ class _StringsTh extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -29129,6 +29181,10 @@ class _StringsTr extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -31202,6 +31258,10 @@ class _StringsVi extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -33275,6 +33335,10 @@ class _StringsZhCn extends _StringsEn {
 	@override String get anki_card_action_failed => '卡片操作失败，请重试。';
 	@override String get series_merged_hint => '已合并·可在系列详情重命名';
 	@override String get series_default_name => '新系列';
+	@override String get floating_lyric_corner_radius => '悬浮字幕圆角';
+	@override String get floating_lyric_corner_radius_hint => '0 = 各平台默认圆角；调大让字幕条与按钮更圆';
+	@override String get floating_lyric_width => '悬浮字幕宽度';
+	@override String get floating_lyric_width_hint => '0 = 平台默认宽度；设定数值让字幕条固定宽';
 }
 
 // Path: retrying_in
@@ -35348,6 +35412,10 @@ class _StringsZhHk extends _StringsEn {
 	@override String get anki_card_action_failed => 'Card action failed. Please try again.';
 	@override String get series_merged_hint => 'Merged · rename in series details';
 	@override String get series_default_name => 'New series';
+	@override String get floating_lyric_corner_radius => 'Floating subtitle corner radius';
+	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+	@override String get floating_lyric_width => 'Floating subtitle width';
+	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
 }
 
 // Path: retrying_in
@@ -37406,6 +37474,10 @@ extension on _StringsEn {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -39438,6 +39510,10 @@ extension on _StringsAr {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -41470,6 +41546,10 @@ extension on _StringsDe {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -43502,6 +43582,10 @@ extension on _StringsEs {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -45534,6 +45618,10 @@ extension on _StringsFr {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -47566,6 +47654,10 @@ extension on _StringsId {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -49598,6 +49690,10 @@ extension on _StringsIt {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -51630,6 +51726,10 @@ extension on _StringsJa {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -53662,6 +53762,10 @@ extension on _StringsKo {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -55694,6 +55798,10 @@ extension on _StringsNl {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -57726,6 +57834,10 @@ extension on _StringsPtBr {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -59758,6 +59870,10 @@ extension on _StringsRu {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -61790,6 +61906,10 @@ extension on _StringsTh {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -63822,6 +63942,10 @@ extension on _StringsTr {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -65854,6 +65978,10 @@ extension on _StringsVi {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
@@ -67886,6 +68014,10 @@ extension on _StringsZhCn {
 			case 'anki_card_action_failed': return '卡片操作失败，请重试。';
 			case 'series_merged_hint': return '已合并·可在系列详情重命名';
 			case 'series_default_name': return '新系列';
+			case 'floating_lyric_corner_radius': return '悬浮字幕圆角';
+			case 'floating_lyric_corner_radius_hint': return '0 = 各平台默认圆角；调大让字幕条与按钮更圆';
+			case 'floating_lyric_width': return '悬浮字幕宽度';
+			case 'floating_lyric_width_hint': return '0 = 平台默认宽度；设定数值让字幕条固定宽';
 			default: return null;
 		}
 	}
@@ -69918,6 +70050,10 @@ extension on _StringsZhHk {
 			case 'anki_card_action_failed': return 'Card action failed. Please try again.';
 			case 'series_merged_hint': return 'Merged · rename in series details';
 			case 'series_default_name': return 'New series';
+			case 'floating_lyric_corner_radius': return 'Floating subtitle corner radius';
+			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
+			case 'floating_lyric_width': return 'Floating subtitle width';
+			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
 			default: return null;
 		}
 	}
