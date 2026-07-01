@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34510 (2030 per locale)
+/// Strings: 34544 (2032 per locale)
 ///
-/// Built on 2026-07-01 at 02:28 UTC
+/// Built on 2026-07-01 at 02:52 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2190,6 +2190,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get stat_goal_reached => 'Goal reached';
 	String get stat_goal_none => 'No goal set';
 	String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -4273,6 +4275,8 @@ class _StringsAr extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -6356,6 +6360,8 @@ class _StringsDe extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -8439,6 +8445,8 @@ class _StringsEs extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -10522,6 +10530,8 @@ class _StringsFr extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -12605,6 +12615,8 @@ class _StringsId extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -14688,6 +14700,8 @@ class _StringsIt extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -16771,6 +16785,8 @@ class _StringsJa extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -18854,6 +18870,8 @@ class _StringsKo extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -20937,6 +20955,8 @@ class _StringsNl extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -23020,6 +23040,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -25103,6 +25125,8 @@ class _StringsRu extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -27186,6 +27210,8 @@ class _StringsTh extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -29269,6 +29295,8 @@ class _StringsTr extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -31352,6 +31380,8 @@ class _StringsVi extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -33435,6 +33465,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get stat_goal_reached => '已达成';
 	@override String get stat_goal_none => '未设定目标';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} 字';
+	@override String get floating_lyric_context_lines => '悬浮字幕上下文行数';
+	@override String get floating_lyric_context_lines_hint => '0 只显示当前行(单行,与今天一致);设 1-3 在当前行上下各显示这么多行上下文';
 }
 
 // Path: retrying_in
@@ -35518,6 +35550,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get stat_goal_reached => 'Goal reached';
 	@override String get stat_goal_none => 'No goal set';
 	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
+	@override String get floating_lyric_context_lines => 'Floating subtitle context lines';
+	@override String get floating_lyric_context_lines_hint => '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 }
 
 // Path: retrying_in
@@ -37586,6 +37620,8 @@ extension on _StringsEn {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -39628,6 +39664,8 @@ extension on _StringsAr {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -41670,6 +41708,8 @@ extension on _StringsDe {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -43712,6 +43752,8 @@ extension on _StringsEs {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -45754,6 +45796,8 @@ extension on _StringsFr {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -47796,6 +47840,8 @@ extension on _StringsId {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -49838,6 +49884,8 @@ extension on _StringsIt {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -51880,6 +51928,8 @@ extension on _StringsJa {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -53922,6 +53972,8 @@ extension on _StringsKo {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -55964,6 +56016,8 @@ extension on _StringsNl {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -58006,6 +58060,8 @@ extension on _StringsPtBr {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -60048,6 +60104,8 @@ extension on _StringsRu {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -62090,6 +62148,8 @@ extension on _StringsTh {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -64132,6 +64192,8 @@ extension on _StringsTr {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -66174,6 +66236,8 @@ extension on _StringsVi {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
@@ -68216,6 +68280,8 @@ extension on _StringsZhCn {
 			case 'stat_goal_reached': return '已达成';
 			case 'stat_goal_none': return '未设定目标';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} 字';
+			case 'floating_lyric_context_lines': return '悬浮字幕上下文行数';
+			case 'floating_lyric_context_lines_hint': return '0 只显示当前行(单行,与今天一致);设 1-3 在当前行上下各显示这么多行上下文';
 			default: return null;
 		}
 	}
@@ -70258,6 +70324,8 @@ extension on _StringsZhHk {
 			case 'stat_goal_reached': return 'Goal reached';
 			case 'stat_goal_none': return 'No goal set';
 			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
+			case 'floating_lyric_context_lines': return 'Floating subtitle context lines';
+			case 'floating_lyric_context_lines_hint': return '0 shows only the current line (single-line, unchanged); set 1-3 to show that many lines before and after it';
 			default: return null;
 		}
 	}
