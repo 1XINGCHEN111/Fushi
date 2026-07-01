@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34935 (2055 per locale)
+/// Strings: 35071 (2063 per locale)
 ///
-/// Built on 2026-07-01 at 16:09 UTC
+/// Built on 2026-07-01 at 17:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2734,6 +2734,20 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -7383,6 +7397,28 @@ class _StringsAr extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -12155,6 +12191,28 @@ class _StringsDe extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -16944,6 +17002,28 @@ class _StringsEs extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -21752,6 +21832,28 @@ class _StringsFr extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -26462,6 +26564,28 @@ class _StringsId extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -31233,6 +31357,28 @@ class _StringsIt extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -35729,6 +35875,28 @@ class _StringsJa extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -40229,6 +40397,28 @@ class _StringsKo extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -44968,6 +45158,28 @@ class _StringsNl extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -49730,6 +49942,28 @@ class _StringsPtBr extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -54467,6 +54701,28 @@ class _StringsRu extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -59117,6 +59373,28 @@ class _StringsTh extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -63822,6 +64100,28 @@ class _StringsTr extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -68502,6 +68802,28 @@ class _StringsVi extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -72866,6 +73188,24 @@ class _StringsZhCn extends _StringsEn {
   String get error_log_diagnostics_section => '诊断/取证信息（非应用错误）';
   @override
   String get shortcut_press_mouse_button => '按下鼠标键……';
+  @override
+  String get browser_extension_step_open_page => '打开浏览器扩展管理页：';
+  @override
+  String get browser_extension_step_dev_mode => '打开右上角的「开发者模式」开关。';
+  @override
+  String get browser_extension_step_load_unpacked => '点击「加载已解压的扩展程序」。';
+  @override
+  String get browser_extension_step_pick_folder => '选择下方的扩展文件夹（其路径已复制到剪贴板）。';
+  @override
+  String get browser_extension_step_done_auto =>
+      '完成。扩展已自动配置为连接本应用——无需填写 host/端口/token。';
+  @override
+  String get browser_extension_enable_server_first =>
+      '提示：请先在上方开启「Yomitan API 服务器」并设置 API 密钥，扩展才能被自动配置为可用连接。';
+  @override
+  String get browser_extension_folder_label => '扩展文件夹（已复制）';
+  @override
+  String get copied => '已复制';
 }
 
 // Path: retrying_in
@@ -77264,6 +77604,28 @@ class _StringsZhHk extends _StringsEn {
       'Diagnostics / forensics (not app errors)';
   @override
   String get shortcut_press_mouse_button => 'Press a mouse button...';
+  @override
+  String get browser_extension_step_open_page =>
+      'Open the browser extensions page:';
+  @override
+  String get browser_extension_step_dev_mode =>
+      'Turn on "Developer mode" (toggle in the top-right corner).';
+  @override
+  String get browser_extension_step_load_unpacked => 'Click "Load unpacked".';
+  @override
+  String get browser_extension_step_pick_folder =>
+      'Select the extension folder below (its path is already copied to your clipboard).';
+  @override
+  String get browser_extension_step_done_auto =>
+      'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+  @override
+  String get browser_extension_enable_server_first =>
+      'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+  @override
+  String get browser_extension_folder_label =>
+      'Extension folder (already copied)';
+  @override
+  String get copied => 'Copied';
 }
 
 // Path: retrying_in
@@ -81511,6 +81873,22 @@ extension on _StringsEn {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -85718,6 +86096,22 @@ extension on _StringsAr {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -89947,6 +90341,22 @@ extension on _StringsDe {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -94174,6 +94584,22 @@ extension on _StringsEs {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -98408,6 +98834,22 @@ extension on _StringsFr {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -102622,6 +103064,22 @@ extension on _StringsId {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -106853,6 +107311,22 @@ extension on _StringsIt {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -111042,6 +111516,22 @@ extension on _StringsJa {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -115234,6 +115724,22 @@ extension on _StringsKo {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -119458,6 +119964,22 @@ extension on _StringsNl {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -123679,6 +124201,22 @@ extension on _StringsPtBr {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -127904,6 +128442,22 @@ extension on _StringsRu {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -132111,6 +132665,22 @@ extension on _StringsTh {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -136327,6 +136897,22 @@ extension on _StringsTr {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -140537,6 +141123,22 @@ extension on _StringsVi {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
@@ -144713,6 +145315,22 @@ extension on _StringsZhCn {
         return '诊断/取证信息（非应用错误）';
       case 'shortcut_press_mouse_button':
         return '按下鼠标键……';
+      case 'browser_extension_step_open_page':
+        return '打开浏览器扩展管理页：';
+      case 'browser_extension_step_dev_mode':
+        return '打开右上角的「开发者模式」开关。';
+      case 'browser_extension_step_load_unpacked':
+        return '点击「加载已解压的扩展程序」。';
+      case 'browser_extension_step_pick_folder':
+        return '选择下方的扩展文件夹（其路径已复制到剪贴板）。';
+      case 'browser_extension_step_done_auto':
+        return '完成。扩展已自动配置为连接本应用——无需填写 host/端口/token。';
+      case 'browser_extension_enable_server_first':
+        return '提示：请先在上方开启「Yomitan API 服务器」并设置 API 密钥，扩展才能被自动配置为可用连接。';
+      case 'browser_extension_folder_label':
+        return '扩展文件夹（已复制）';
+      case 'copied':
+        return '已复制';
       default:
         return null;
     }
@@ -148894,6 +149512,22 @@ extension on _StringsZhHk {
         return 'Diagnostics / forensics (not app errors)';
       case 'shortcut_press_mouse_button':
         return 'Press a mouse button...';
+      case 'browser_extension_step_open_page':
+        return 'Open the browser extensions page:';
+      case 'browser_extension_step_dev_mode':
+        return 'Turn on "Developer mode" (toggle in the top-right corner).';
+      case 'browser_extension_step_load_unpacked':
+        return 'Click "Load unpacked".';
+      case 'browser_extension_step_pick_folder':
+        return 'Select the extension folder below (its path is already copied to your clipboard).';
+      case 'browser_extension_step_done_auto':
+        return 'Done. The extension is auto-configured to connect to this app — no host/port/token to fill in.';
+      case 'browser_extension_enable_server_first':
+        return 'Tip: enable "Yomitan API server" and set an API key above first, so the extension is auto-configured with a working connection.';
+      case 'browser_extension_folder_label':
+        return 'Extension folder (already copied)';
+      case 'copied':
+        return 'Copied';
       default:
         return null;
     }
