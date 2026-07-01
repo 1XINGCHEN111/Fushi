@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 34697 (2041 per locale)
 ///
-/// Built on 2026-07-01 at 10:47 UTC
+/// Built on 2026-07-01 at 11:34 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -6904,11 +6904,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'الأسماء غير متطابقة';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'الملف المحدد هو "${incoming}"، لكنك تُحدّث "${existing}". هل تريد الاستبدال على أي حال؟';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -7037,20 +7037,20 @@ class _StringsAr extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'التحديث تلقائيًا';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint =>
+      'التحقق من تحديثات القواميس عند بدء التشغيل';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'أبدًا';
   @override
-  String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+  String dict_auto_update_last({required Object time}) => 'آخر تحديث: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'يوميًا';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'أسبوعيًا';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'شهريًا';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -11644,11 +11644,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'Namen stimmen nicht überein';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'Die ausgewählte Datei ist „${incoming}“, aber du aktualisierst „${existing}“. Trotzdem ersetzen?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -11777,20 +11777,21 @@ class _StringsDe extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'Automatisch aktualisieren';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint =>
+      'Beim Start nach Wörterbuch-Updates suchen';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'Nie';
   @override
   String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+      'Letzte Aktualisierung: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'Täglich';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'Wöchentlich';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'Monatlich';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -16401,11 +16402,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'Los nombres no coinciden';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'El archivo seleccionado es «${incoming}», pero estás actualizando «${existing}». ¿Reemplazar de todos modos?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -16534,20 +16535,21 @@ class _StringsEs extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'Actualizar automáticamente';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint =>
+      'Buscar actualizaciones de diccionarios al iniciar';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'Nunca';
   @override
   String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+      'Última actualización: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'Diariamente';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'Semanalmente';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'Mensualmente';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -21177,11 +21179,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'Les noms ne correspondent pas';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'Le fichier sélectionné est « ${incoming} », mais vous mettez à jour « ${existing} ». Remplacer quand même ?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -21310,20 +21312,21 @@ class _StringsFr extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'Mettre à jour automatiquement';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint =>
+      'Vérifier les mises à jour des dictionnaires au démarrage';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'Jamais';
   @override
   String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+      'Dernière mise à jour : ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'Quotidienne';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'Hebdomadaire';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'Mensuelle';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -25855,11 +25858,11 @@ class _StringsId extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'Nama tidak cocok';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'File yang dipilih adalah "${incoming}", tetapi Anda memperbarui "${existing}". Tetap ganti?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -25988,20 +25991,21 @@ class _StringsId extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'Perbarui otomatis';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint =>
+      'Periksa pembaruan kamus saat aplikasi dibuka';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'Tidak pernah';
   @override
   String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+      'Pembaruan terakhir: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'Harian';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'Mingguan';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'Bulanan';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -30594,11 +30598,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'I nomi non corrispondono';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'Il file selezionato è «${incoming}», ma stai aggiornando «${existing}». Sostituire comunque?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -30727,20 +30731,21 @@ class _StringsIt extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'Aggiorna automaticamente';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint =>
+      'Controlla gli aggiornamenti dei dizionari all’avvio';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'Mai';
   @override
   String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+      'Ultimo aggiornamento: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'Giornaliero';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'Settimanale';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'Mensile';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -35060,11 +35065,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => '名前が一致しません';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      '選択したファイルは「${incoming}」ですが、更新対象は「${existing}」です。置き換えますか？';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -35193,20 +35198,19 @@ class _StringsJa extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => '自動更新';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint => '起動時に辞書の更新を確認';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'なし';
   @override
-  String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+  String dict_auto_update_last({required Object time}) => '前回の更新: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => '毎日';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => '毎週';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => '毎月';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -39530,11 +39534,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => '이름이 일치하지 않습니다';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      '선택한 파일은 "${incoming}"이지만 "${existing}"을(를) 업데이트하고 있습니다. 그래도 교체할까요?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -39663,20 +39667,19 @@ class _StringsKo extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => '자동 업데이트';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint => '실행 시 사전 업데이트 확인';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => '없음';
   @override
-  String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+  String dict_auto_update_last({required Object time}) => '마지막 업데이트: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => '매일';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => '매주';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => '매월';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -44237,11 +44240,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'Namen komen niet overeen';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'Het geselecteerde bestand is "${incoming}", maar je werkt "${existing}" bij. Toch vervangen?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -44370,20 +44373,21 @@ class _StringsNl extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'Automatisch bijwerken';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint =>
+      'Bij het opstarten controleren op woordenboekupdates';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'Nooit';
   @override
   String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+      'Laatste update: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'Dagelijks';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'Wekelijks';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'Maandelijks';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -48967,11 +48971,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'Os nomes não coincidem';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'O arquivo selecionado é "${incoming}", mas você está atualizando "${existing}". Substituir mesmo assim?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -49100,20 +49104,21 @@ class _StringsPtBr extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'Atualizar automaticamente';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint =>
+      'Verificar atualizações de dicionários ao iniciar';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'Nunca';
   @override
   String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+      'Última atualização: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'Diariamente';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'Semanalmente';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'Mensalmente';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -53672,11 +53677,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'Имена не совпадают';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'Выбранный файл — «${incoming}», но вы обновляете «${existing}». Всё равно заменить?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -53805,20 +53810,21 @@ class _StringsRu extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'Обновлять автоматически';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint =>
+      'Проверять обновления словарей при запуске';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'Никогда';
   @override
   String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+      'Последнее обновление: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'Ежедневно';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'Еженедельно';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'Ежемесячно';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -58291,11 +58297,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'ชื่อไม่ตรงกัน';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'ไฟล์ที่เลือกคือ "${incoming}" แต่คุณกำลังอัปเดต "${existing}" จะแทนที่ต่อไปหรือไม่?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -58424,20 +58430,20 @@ class _StringsTh extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'อัปเดตอัตโนมัติ';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint => 'ตรวจหาการอัปเดตพจนานุกรมเมื่อเปิดแอป';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'ไม่เคย';
   @override
   String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+      'อัปเดตล่าสุด: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'รายวัน';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'รายสัปดาห์';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'รายเดือน';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -62964,11 +62970,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'Adlar eşleşmiyor';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'Seçilen dosya "${incoming}", ancak "${existing}" sözlüğünü güncelliyorsunuz. Yine de değiştirilsin mi?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -63097,20 +63103,21 @@ class _StringsTr extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'Otomatik güncelle';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint =>
+      'Başlangıçta sözlük güncellemelerini denetle';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'Hiçbir zaman';
   @override
   String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+      'Son güncelleme: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'Günlük';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'Haftalık';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'Aylık';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -67613,11 +67620,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => 'Tên không khớp';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      'Tệp đã chọn là "${incoming}", nhưng bạn đang cập nhật "${existing}". Vẫn thay thế?';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -67746,20 +67753,20 @@ class _StringsVi extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => 'Tự động cập nhật';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint => 'Kiểm tra cập nhật từ điển khi khởi động';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => 'Chưa bao giờ';
   @override
   String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+      'Cập nhật lần cuối: ${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => 'Hằng ngày';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => 'Hằng tuần';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => 'Hằng tháng';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -76316,11 +76323,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get handlebar_video_clip => 'Video Clip (GIF)';
   @override
-  String get dict_update_name_mismatch_title => 'Names do not match';
+  String get dict_update_name_mismatch_title => '詞典名稱不一致';
   @override
   String dict_update_name_mismatch_body(
           {required Object incoming, required Object existing}) =>
-      'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+      '所選檔案是「${incoming}」，但你正在更新「${existing}」。仍要替換嗎？';
   @override
   String get dialog_replace => 'Replace';
   @override
@@ -76449,20 +76456,19 @@ class _StringsZhHk extends _StringsEn {
   String get scan_non_japanese_text_hint =>
       'When off, selection stops at non-Japanese characters';
   @override
-  String get dict_auto_update => 'Update automatically';
+  String get dict_auto_update => '自動更新';
   @override
-  String get dict_auto_update_hint => 'Check for dictionary updates on launch';
+  String get dict_auto_update_hint => '啟動時檢查詞典更新';
   @override
-  String get dict_auto_update_never => 'Never';
+  String get dict_auto_update_never => '從未';
   @override
-  String dict_auto_update_last({required Object time}) =>
-      'Last update: ${time}';
+  String dict_auto_update_last({required Object time}) => '上次更新：${time}';
   @override
-  String get dict_update_interval_daily => 'Daily';
+  String get dict_update_interval_daily => '每日';
   @override
-  String get dict_update_interval_weekly => 'Weekly';
+  String get dict_update_interval_weekly => '每週';
   @override
-  String get dict_update_interval_monthly => 'Monthly';
+  String get dict_update_interval_monthly => '每月';
   @override
   String get collection_export_dedupe => 'Deduplicate by sentence';
   @override
@@ -84758,10 +84764,10 @@ extension on _StringsAr {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'الأسماء غير متطابقة';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'الملف المحدد هو "${incoming}"، لكنك تُحدّث "${existing}". هل تريد الاستبدال على أي حال؟';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -84880,19 +84886,19 @@ extension on _StringsAr {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'التحديث تلقائيًا';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'التحقق من تحديثات القواميس عند بدء التشغيل';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'أبدًا';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'آخر تحديث: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'يوميًا';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'أسبوعيًا';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'شهريًا';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -88959,10 +88965,10 @@ extension on _StringsDe {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'Namen stimmen nicht überein';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'Die ausgewählte Datei ist „${incoming}“, aber du aktualisierst „${existing}“. Trotzdem ersetzen?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -89081,19 +89087,19 @@ extension on _StringsDe {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'Automatisch aktualisieren';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'Beim Start nach Wörterbuch-Updates suchen';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'Nie';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'Letzte Aktualisierung: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'Täglich';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'Wöchentlich';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'Monatlich';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -93158,10 +93164,10 @@ extension on _StringsEs {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'Los nombres no coinciden';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'El archivo seleccionado es «${incoming}», pero estás actualizando «${existing}». ¿Reemplazar de todos modos?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -93280,19 +93286,19 @@ extension on _StringsEs {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'Actualizar automáticamente';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'Buscar actualizaciones de diccionarios al iniciar';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'Nunca';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'Última actualización: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'Diariamente';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'Semanalmente';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'Mensualmente';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -97364,10 +97370,10 @@ extension on _StringsFr {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'Les noms ne correspondent pas';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'Le fichier sélectionné est « ${incoming} », mais vous mettez à jour « ${existing} ». Remplacer quand même ?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -97486,19 +97492,19 @@ extension on _StringsFr {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'Mettre à jour automatiquement';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'Vérifier les mises à jour des dictionnaires au démarrage';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'Jamais';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'Dernière mise à jour : ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'Quotidienne';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'Hebdomadaire';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'Mensuelle';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -101550,10 +101556,10 @@ extension on _StringsId {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'Nama tidak cocok';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'File yang dipilih adalah "${incoming}", tetapi Anda memperbarui "${existing}". Tetap ganti?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -101672,19 +101678,19 @@ extension on _StringsId {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'Perbarui otomatis';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'Periksa pembaruan kamus saat aplikasi dibuka';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'Tidak pernah';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'Pembaruan terakhir: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'Harian';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'Mingguan';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'Bulanan';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -105753,10 +105759,10 @@ extension on _StringsIt {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'I nomi non corrispondono';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'Il file selezionato è «${incoming}», ma stai aggiornando «${existing}». Sostituire comunque?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -105875,19 +105881,19 @@ extension on _StringsIt {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'Aggiorna automaticamente';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'Controlla gli aggiornamenti dei dizionari all’avvio';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'Mai';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'Ultimo aggiornamento: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'Giornaliero';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'Settimanale';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'Mensile';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -109914,10 +109920,10 @@ extension on _StringsJa {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return '名前が一致しません';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            '選択したファイルは「${incoming}」ですが、更新対象は「${existing}」です。置き換えますか？';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -110036,19 +110042,19 @@ extension on _StringsJa {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return '自動更新';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return '起動時に辞書の更新を確認';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'なし';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => '前回の更新: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return '毎日';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return '毎週';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return '毎月';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -114078,10 +114084,10 @@ extension on _StringsKo {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return '이름이 일치하지 않습니다';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            '선택한 파일은 "${incoming}"이지만 "${existing}"을(를) 업데이트하고 있습니다. 그래도 교체할까요?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -114200,19 +114206,19 @@ extension on _StringsKo {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return '자동 업데이트';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return '실행 시 사전 업데이트 확인';
       case 'dict_auto_update_never':
-        return 'Never';
+        return '없음';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => '마지막 업데이트: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return '매일';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return '매주';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return '매월';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -118274,10 +118280,10 @@ extension on _StringsNl {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'Namen komen niet overeen';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'Het geselecteerde bestand is "${incoming}", maar je werkt "${existing}" bij. Toch vervangen?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -118396,19 +118402,19 @@ extension on _StringsNl {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'Automatisch bijwerken';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'Bij het opstarten controleren op woordenboekupdates';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'Nooit';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'Laatste update: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'Dagelijks';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'Wekelijks';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'Maandelijks';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -122467,10 +122473,10 @@ extension on _StringsPtBr {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'Os nomes não coincidem';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'O arquivo selecionado é "${incoming}", mas você está atualizando "${existing}". Substituir mesmo assim?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -122589,19 +122595,19 @@ extension on _StringsPtBr {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'Atualizar automaticamente';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'Verificar atualizações de dicionários ao iniciar';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'Nunca';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'Última atualização: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'Diariamente';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'Semanalmente';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'Mensalmente';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -126664,10 +126670,10 @@ extension on _StringsRu {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'Имена не совпадают';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'Выбранный файл — «${incoming}», но вы обновляете «${existing}». Всё равно заменить?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -126786,19 +126792,19 @@ extension on _StringsRu {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'Обновлять автоматически';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'Проверять обновления словарей при запуске';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'Никогда';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'Последнее обновление: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'Ежедневно';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'Еженедельно';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'Ежемесячно';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -130843,10 +130849,10 @@ extension on _StringsTh {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'ชื่อไม่ตรงกัน';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'ไฟล์ที่เลือกคือ "${incoming}" แต่คุณกำลังอัปเดต "${existing}" จะแทนที่ต่อไปหรือไม่?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -130965,19 +130971,19 @@ extension on _StringsTh {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'อัปเดตอัตโนมัติ';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'ตรวจหาการอัปเดตพจนานุกรมเมื่อเปิดแอป';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'ไม่เคย';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'อัปเดตล่าสุด: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'รายวัน';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'รายสัปดาห์';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'รายเดือน';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -135031,10 +135037,10 @@ extension on _StringsTr {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'Adlar eşleşmiyor';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'Seçilen dosya "${incoming}", ancak "${existing}" sözlüğünü güncelliyorsunuz. Yine de değiştirilsin mi?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -135153,19 +135159,19 @@ extension on _StringsTr {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'Otomatik güncelle';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'Başlangıçta sözlük güncellemelerini denetle';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'Hiçbir zaman';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'Son güncelleme: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'Günlük';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'Haftalık';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'Aylık';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -139213,10 +139219,10 @@ extension on _StringsVi {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return 'Tên không khớp';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            'Tệp đã chọn là "${incoming}", nhưng bạn đang cập nhật "${existing}". Vẫn thay thế?';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -139335,19 +139341,19 @@ extension on _StringsVi {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return 'Tự động cập nhật';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return 'Kiểm tra cập nhật từ điển khi khởi động';
       case 'dict_auto_update_never':
-        return 'Never';
+        return 'Chưa bao giờ';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => 'Cập nhật lần cuối: ${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return 'Hằng ngày';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return 'Hằng tuần';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return 'Hằng tháng';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
@@ -147514,10 +147520,10 @@ extension on _StringsZhHk {
       case 'handlebar_video_clip':
         return 'Video Clip (GIF)';
       case 'dict_update_name_mismatch_title':
-        return 'Names do not match';
+        return '詞典名稱不一致';
       case 'dict_update_name_mismatch_body':
         return ({required Object incoming, required Object existing}) =>
-            'The selected file is "${incoming}", but you are updating "${existing}". Replace anyway?';
+            '所選檔案是「${incoming}」，但你正在更新「${existing}」。仍要替換嗎？';
       case 'dialog_replace':
         return 'Replace';
       case 'media_source_manage_title':
@@ -147636,19 +147642,19 @@ extension on _StringsZhHk {
       case 'scan_non_japanese_text_hint':
         return 'When off, selection stops at non-Japanese characters';
       case 'dict_auto_update':
-        return 'Update automatically';
+        return '自動更新';
       case 'dict_auto_update_hint':
-        return 'Check for dictionary updates on launch';
+        return '啟動時檢查詞典更新';
       case 'dict_auto_update_never':
-        return 'Never';
+        return '從未';
       case 'dict_auto_update_last':
-        return ({required Object time}) => 'Last update: ${time}';
+        return ({required Object time}) => '上次更新：${time}';
       case 'dict_update_interval_daily':
-        return 'Daily';
+        return '每日';
       case 'dict_update_interval_weekly':
-        return 'Weekly';
+        return '每週';
       case 'dict_update_interval_monthly':
-        return 'Monthly';
+        return '每月';
       case 'collection_export_dedupe':
         return 'Deduplicate by sentence';
       case 'collection_export_favorites_scope':
