@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34765 (2045 per locale)
+/// Strings: 34901 (2053 per locale)
 ///
-/// Built on 2026-07-01 at 12:30 UTC
+/// Built on 2026-07-01 at 12:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2723,6 +2723,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'App-external lookup hotkey';
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  String get shortcut_mouse_left => 'Left click';
+  String get shortcut_mouse_right => 'Right click';
+  String get shortcut_mouse_middle => 'Middle click';
+  String get shortcut_mouse_back => 'Back button';
+  String get shortcut_mouse_forward => 'Forward button';
+  String get shortcut_mouse_wheel => 'Wheel';
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -7351,6 +7359,22 @@ class _StringsAr extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -12102,6 +12126,22 @@ class _StringsDe extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -16870,6 +16910,22 @@ class _StringsEs extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -21657,6 +21713,22 @@ class _StringsFr extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -26346,6 +26418,22 @@ class _StringsId extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -31096,6 +31184,22 @@ class _StringsIt extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -35571,6 +35675,22 @@ class _StringsJa extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -40050,6 +40170,22 @@ class _StringsKo extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -44768,6 +44904,22 @@ class _StringsNl extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -49509,6 +49661,22 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -54225,6 +54393,22 @@ class _StringsRu extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -58854,6 +59038,22 @@ class _StringsTh extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -63538,6 +63738,22 @@ class _StringsTr extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -68197,6 +68413,22 @@ class _StringsVi extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -72541,6 +72773,22 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       '由系统触发（选中文本菜单、分享、悬浮球），系统不允许应用自定义此热键。';
+  @override
+  String get shortcut_assign_pick_action => '分配到动作…';
+  @override
+  String get shortcut_mouse_left => '鼠标左键';
+  @override
+  String get shortcut_mouse_right => '鼠标右键';
+  @override
+  String get shortcut_mouse_middle => '鼠标中键';
+  @override
+  String get shortcut_mouse_back => '鼠标侧键(后退)';
+  @override
+  String get shortcut_mouse_forward => '鼠标侧键(前进)';
+  @override
+  String get shortcut_mouse_wheel => '滚轮';
+  @override
+  String get shortcut_mouse_button => '鼠标按键';
 }
 
 // Path: retrying_in
@@ -76918,6 +77166,22 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get shortcut_scope_global_external_mobile_note =>
       'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+  @override
+  String get shortcut_assign_pick_action => 'Assign to action…';
+  @override
+  String get shortcut_mouse_left => 'Left click';
+  @override
+  String get shortcut_mouse_right => 'Right click';
+  @override
+  String get shortcut_mouse_middle => 'Middle click';
+  @override
+  String get shortcut_mouse_back => 'Back button';
+  @override
+  String get shortcut_mouse_forward => 'Forward button';
+  @override
+  String get shortcut_mouse_wheel => 'Wheel';
+  @override
+  String get shortcut_mouse_button => 'Mouse button';
 }
 
 // Path: retrying_in
@@ -81145,6 +81409,22 @@ extension on _StringsEn {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -85332,6 +85612,22 @@ extension on _StringsAr {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -89541,6 +89837,22 @@ extension on _StringsDe {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -93748,6 +94060,22 @@ extension on _StringsEs {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -97962,6 +98290,22 @@ extension on _StringsFr {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -102156,6 +102500,22 @@ extension on _StringsId {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -106367,6 +106727,22 @@ extension on _StringsIt {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -110536,6 +110912,22 @@ extension on _StringsJa {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -114708,6 +115100,22 @@ extension on _StringsKo {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -118912,6 +119320,22 @@ extension on _StringsNl {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -123113,6 +123537,22 @@ extension on _StringsPtBr {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -127318,6 +127758,22 @@ extension on _StringsRu {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -131505,6 +131961,22 @@ extension on _StringsTh {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -135701,6 +136173,22 @@ extension on _StringsTr {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -139891,6 +140379,22 @@ extension on _StringsVi {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
@@ -144047,6 +144551,22 @@ extension on _StringsZhCn {
         return '应用外查词热键';
       case 'shortcut_scope_global_external_mobile_note':
         return '由系统触发（选中文本菜单、分享、悬浮球），系统不允许应用自定义此热键。';
+      case 'shortcut_assign_pick_action':
+        return '分配到动作…';
+      case 'shortcut_mouse_left':
+        return '鼠标左键';
+      case 'shortcut_mouse_right':
+        return '鼠标右键';
+      case 'shortcut_mouse_middle':
+        return '鼠标中键';
+      case 'shortcut_mouse_back':
+        return '鼠标侧键(后退)';
+      case 'shortcut_mouse_forward':
+        return '鼠标侧键(前进)';
+      case 'shortcut_mouse_wheel':
+        return '滚轮';
+      case 'shortcut_mouse_button':
+        return '鼠标按键';
       default:
         return null;
     }
@@ -148208,6 +148728,22 @@ extension on _StringsZhHk {
         return 'App-external lookup hotkey';
       case 'shortcut_scope_global_external_mobile_note':
         return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
+      case 'shortcut_assign_pick_action':
+        return 'Assign to action…';
+      case 'shortcut_mouse_left':
+        return 'Left click';
+      case 'shortcut_mouse_right':
+        return 'Right click';
+      case 'shortcut_mouse_middle':
+        return 'Middle click';
+      case 'shortcut_mouse_back':
+        return 'Back button';
+      case 'shortcut_mouse_forward':
+        return 'Forward button';
+      case 'shortcut_mouse_wheel':
+        return 'Wheel';
+      case 'shortcut_mouse_button':
+        return 'Mouse button';
       default:
         return null;
     }
