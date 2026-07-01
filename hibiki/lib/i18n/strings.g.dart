@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34714 (2042 per locale)
+/// Strings: 34765 (2045 per locale)
 ///
-/// Built on 2026-07-01 at 12:12 UTC
+/// Built on 2026-07-01 at 12:30 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2718,6 +2718,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_subtitle_bg_color_blue => 'Blue';
   String get video_setting_subtitle_bg_color_green => 'Green';
   String get profile_media_video => 'Video';
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -7338,6 +7343,14 @@ class _StringsAr extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -12081,6 +12094,14 @@ class _StringsDe extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -16841,6 +16862,14 @@ class _StringsEs extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -21620,6 +21649,14 @@ class _StringsFr extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -26301,6 +26338,14 @@ class _StringsId extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -31043,6 +31088,14 @@ class _StringsIt extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -35510,6 +35563,14 @@ class _StringsJa extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -39981,6 +40042,14 @@ class _StringsKo extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -44691,6 +44760,14 @@ class _StringsNl extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -49424,6 +49501,14 @@ class _StringsPtBr extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -54132,6 +54217,14 @@ class _StringsRu extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -58753,6 +58846,14 @@ class _StringsTh extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -63429,6 +63530,14 @@ class _StringsTr extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -68080,6 +68189,14 @@ class _StringsVi extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -72417,6 +72534,13 @@ class _StringsZhCn extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => '绿色';
   @override
   String get profile_media_video => '视频';
+  @override
+  String get shortcut_scope_global_external => '全局（应用外）';
+  @override
+  String get shortcut_action_global_external_lookup => '应用外查词热键';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      '由系统触发（选中文本菜单、分享、悬浮球），系统不允许应用自定义此热键。';
 }
 
 // Path: retrying_in
@@ -76786,6 +76910,14 @@ class _StringsZhHk extends _StringsEn {
   String get video_setting_subtitle_bg_color_green => 'Green';
   @override
   String get profile_media_video => 'Video';
+  @override
+  String get shortcut_scope_global_external => 'Global (app-external)';
+  @override
+  String get shortcut_action_global_external_lookup =>
+      'App-external lookup hotkey';
+  @override
+  String get shortcut_scope_global_external_mobile_note =>
+      'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
 }
 
 // Path: retrying_in
@@ -81007,6 +81139,12 @@ extension on _StringsEn {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -85188,6 +85326,12 @@ extension on _StringsAr {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -89391,6 +89535,12 @@ extension on _StringsDe {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -93592,6 +93742,12 @@ extension on _StringsEs {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -97800,6 +97956,12 @@ extension on _StringsFr {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -101988,6 +102150,12 @@ extension on _StringsId {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -106193,6 +106361,12 @@ extension on _StringsIt {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -110356,6 +110530,12 @@ extension on _StringsJa {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -114522,6 +114702,12 @@ extension on _StringsKo {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -118720,6 +118906,12 @@ extension on _StringsNl {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -122915,6 +123107,12 @@ extension on _StringsPtBr {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -127114,6 +127312,12 @@ extension on _StringsRu {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -131295,6 +131499,12 @@ extension on _StringsTh {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -135485,6 +135695,12 @@ extension on _StringsTr {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -139669,6 +139885,12 @@ extension on _StringsVi {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
@@ -143819,6 +144041,12 @@ extension on _StringsZhCn {
         return '绿色';
       case 'profile_media_video':
         return '视频';
+      case 'shortcut_scope_global_external':
+        return '全局（应用外）';
+      case 'shortcut_action_global_external_lookup':
+        return '应用外查词热键';
+      case 'shortcut_scope_global_external_mobile_note':
+        return '由系统触发（选中文本菜单、分享、悬浮球），系统不允许应用自定义此热键。';
       default:
         return null;
     }
@@ -147974,6 +148202,12 @@ extension on _StringsZhHk {
         return 'Green';
       case 'profile_media_video':
         return 'Video';
+      case 'shortcut_scope_global_external':
+        return 'Global (app-external)';
+      case 'shortcut_action_global_external_lookup':
+        return 'App-external lookup hotkey';
+      case 'shortcut_scope_global_external_mobile_note':
+        return 'Triggered by the system (text selection menu, share, floating ball); the OS does not allow apps to remap this hotkey.';
       default:
         return null;
     }
