@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34918 (2054 per locale)
+/// Strings: 34935 (2055 per locale)
 ///
-/// Built on 2026-07-01 at 13:52 UTC
+/// Built on 2026-07-01 at 16:09 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2733,6 +2733,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get shortcut_mouse_button => 'Mouse button';
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -7380,6 +7381,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -12150,6 +12153,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -16937,6 +16942,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -21743,6 +21750,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -26451,6 +26460,8 @@ class _StringsId extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -31220,6 +31231,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -35714,6 +35727,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -40212,6 +40227,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -44949,6 +44966,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -49709,6 +49728,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -54444,6 +54465,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -59092,6 +59115,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -63795,6 +63820,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -68473,6 +68500,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -72835,6 +72864,8 @@ class _StringsZhCn extends _StringsEn {
   String get shortcut_mouse_button => '鼠标按键';
   @override
   String get error_log_diagnostics_section => '诊断/取证信息（非应用错误）';
+  @override
+  String get shortcut_press_mouse_button => '按下鼠标键……';
 }
 
 // Path: retrying_in
@@ -77231,6 +77262,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get error_log_diagnostics_section =>
       'Diagnostics / forensics (not app errors)';
+  @override
+  String get shortcut_press_mouse_button => 'Press a mouse button...';
 }
 
 // Path: retrying_in
@@ -81476,6 +81509,8 @@ extension on _StringsEn {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -85681,6 +85716,8 @@ extension on _StringsAr {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -89908,6 +89945,8 @@ extension on _StringsDe {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -94133,6 +94172,8 @@ extension on _StringsEs {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -98365,6 +98406,8 @@ extension on _StringsFr {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -102577,6 +102620,8 @@ extension on _StringsId {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -106806,6 +106851,8 @@ extension on _StringsIt {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -110993,6 +111040,8 @@ extension on _StringsJa {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -115183,6 +115232,8 @@ extension on _StringsKo {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -119405,6 +119456,8 @@ extension on _StringsNl {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -123624,6 +123677,8 @@ extension on _StringsPtBr {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -127847,6 +127902,8 @@ extension on _StringsRu {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -132052,6 +132109,8 @@ extension on _StringsTh {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -136266,6 +136325,8 @@ extension on _StringsTr {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -140474,6 +140535,8 @@ extension on _StringsVi {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
@@ -144648,6 +144711,8 @@ extension on _StringsZhCn {
         return '鼠标按键';
       case 'error_log_diagnostics_section':
         return '诊断/取证信息（非应用错误）';
+      case 'shortcut_press_mouse_button':
+        return '按下鼠标键……';
       default:
         return null;
     }
@@ -148827,6 +148892,8 @@ extension on _StringsZhHk {
         return 'Mouse button';
       case 'error_log_diagnostics_section':
         return 'Diagnostics / forensics (not app errors)';
+      case 'shortcut_press_mouse_button':
+        return 'Press a mouse button...';
       default:
         return null;
     }
