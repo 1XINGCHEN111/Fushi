@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34408 (2024 per locale)
+/// Strings: 34510 (2030 per locale)
 ///
-/// Built on 2026-07-01 at 02:23 UTC
+/// Built on 2026-07-01 at 02:28 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2184,6 +2184,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	String get floating_lyric_width => 'Floating subtitle width';
 	String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	String get stat_goal_daily => 'Daily Goal';
+	String get stat_goal_weekly => 'Weekly Goal';
+	String get stat_goal_set => 'Set Goal';
+	String get stat_goal_reached => 'Goal reached';
+	String get stat_goal_none => 'No goal set';
+	String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -4261,6 +4267,12 @@ class _StringsAr extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -6338,6 +6350,12 @@ class _StringsDe extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -8415,6 +8433,12 @@ class _StringsEs extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -10492,6 +10516,12 @@ class _StringsFr extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -12569,6 +12599,12 @@ class _StringsId extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -14646,6 +14682,12 @@ class _StringsIt extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -16723,6 +16765,12 @@ class _StringsJa extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -18800,6 +18848,12 @@ class _StringsKo extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -20877,6 +20931,12 @@ class _StringsNl extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -22954,6 +23014,12 @@ class _StringsPtBr extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -25031,6 +25097,12 @@ class _StringsRu extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -27108,6 +27180,12 @@ class _StringsTh extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -29185,6 +29263,12 @@ class _StringsTr extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -31262,6 +31346,12 @@ class _StringsVi extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -33339,6 +33429,12 @@ class _StringsZhCn extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 = 各平台默认圆角；调大让字幕条与按钮更圆';
 	@override String get floating_lyric_width => '悬浮字幕宽度';
 	@override String get floating_lyric_width_hint => '0 = 平台默认宽度；设定数值让字幕条固定宽';
+	@override String get stat_goal_daily => '每日目标';
+	@override String get stat_goal_weekly => '每周目标';
+	@override String get stat_goal_set => '设定目标';
+	@override String get stat_goal_reached => '已达成';
+	@override String get stat_goal_none => '未设定目标';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} 字';
 }
 
 // Path: retrying_in
@@ -35416,6 +35512,12 @@ class _StringsZhHk extends _StringsEn {
 	@override String get floating_lyric_corner_radius_hint => '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 	@override String get floating_lyric_width => 'Floating subtitle width';
 	@override String get floating_lyric_width_hint => '0 uses the platform default width; set a value to make the bar a fixed width';
+	@override String get stat_goal_daily => 'Daily Goal';
+	@override String get stat_goal_weekly => 'Weekly Goal';
+	@override String get stat_goal_set => 'Set Goal';
+	@override String get stat_goal_reached => 'Goal reached';
+	@override String get stat_goal_none => 'No goal set';
+	@override String stat_goal_progress({required Object read, required Object goal}) => '${read} / ${goal} chars';
 }
 
 // Path: retrying_in
@@ -37478,6 +37580,12 @@ extension on _StringsEn {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -39514,6 +39622,12 @@ extension on _StringsAr {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -41550,6 +41664,12 @@ extension on _StringsDe {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -43586,6 +43706,12 @@ extension on _StringsEs {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -45622,6 +45748,12 @@ extension on _StringsFr {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -47658,6 +47790,12 @@ extension on _StringsId {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -49694,6 +49832,12 @@ extension on _StringsIt {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -51730,6 +51874,12 @@ extension on _StringsJa {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -53766,6 +53916,12 @@ extension on _StringsKo {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -55802,6 +55958,12 @@ extension on _StringsNl {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -57838,6 +58000,12 @@ extension on _StringsPtBr {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -59874,6 +60042,12 @@ extension on _StringsRu {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -61910,6 +62084,12 @@ extension on _StringsTh {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -63946,6 +64126,12 @@ extension on _StringsTr {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -65982,6 +66168,12 @@ extension on _StringsVi {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
@@ -68018,6 +68210,12 @@ extension on _StringsZhCn {
 			case 'floating_lyric_corner_radius_hint': return '0 = 各平台默认圆角；调大让字幕条与按钮更圆';
 			case 'floating_lyric_width': return '悬浮字幕宽度';
 			case 'floating_lyric_width_hint': return '0 = 平台默认宽度；设定数值让字幕条固定宽';
+			case 'stat_goal_daily': return '每日目标';
+			case 'stat_goal_weekly': return '每周目标';
+			case 'stat_goal_set': return '设定目标';
+			case 'stat_goal_reached': return '已达成';
+			case 'stat_goal_none': return '未设定目标';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} 字';
 			default: return null;
 		}
 	}
@@ -70054,6 +70252,12 @@ extension on _StringsZhHk {
 			case 'floating_lyric_corner_radius_hint': return '0 keeps each platform\'s default corners; raise it to round the bar and buttons more';
 			case 'floating_lyric_width': return 'Floating subtitle width';
 			case 'floating_lyric_width_hint': return '0 uses the platform default width; set a value to make the bar a fixed width';
+			case 'stat_goal_daily': return 'Daily Goal';
+			case 'stat_goal_weekly': return 'Weekly Goal';
+			case 'stat_goal_set': return 'Set Goal';
+			case 'stat_goal_reached': return 'Goal reached';
+			case 'stat_goal_none': return 'No goal set';
+			case 'stat_goal_progress': return ({required Object read, required Object goal}) => '${read} / ${goal} chars';
 			default: return null;
 		}
 	}
