@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 34578 (2034 per locale)
+/// Strings: 34697 (2041 per locale)
 ///
-/// Built on 2026-07-01 at 10:12 UTC
+/// Built on 2026-07-01 at 10:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2710,6 +2710,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get install_browser_extension => 'Install browser extension';
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  String get video_setting_subtitle_bg_color => 'Background color';
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  String get video_setting_subtitle_bg_color_white => 'White';
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -7314,6 +7321,20 @@ class _StringsAr extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -12040,6 +12061,20 @@ class _StringsDe extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -16783,6 +16818,20 @@ class _StringsEs extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -21545,6 +21594,20 @@ class _StringsFr extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -26209,6 +26272,20 @@ class _StringsId extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -30934,6 +31011,20 @@ class _StringsIt extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -35386,6 +35477,20 @@ class _StringsJa extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -39842,6 +39947,20 @@ class _StringsKo extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -44535,6 +44654,20 @@ class _StringsNl extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -49251,6 +49384,20 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -53942,6 +54089,20 @@ class _StringsRu extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -58547,6 +58708,20 @@ class _StringsTh extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -63206,6 +63381,20 @@ class _StringsTr extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -67841,6 +68030,20 @@ class _StringsVi extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -72162,6 +72365,20 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       '在 chrome://extensions（或 edge://extensions）：开启右上角「开发者模式」，点「加载已解压的扩展程序」，粘贴下方路径；再到扩展 options 填 Hibiki 的 host/port/配对 token。';
+  @override
+  String get video_setting_subtitle_bg_color => '背景颜色';
+  @override
+  String get video_setting_subtitle_bg_color_default => '默认（黑）';
+  @override
+  String get video_setting_subtitle_bg_color_white => '白色';
+  @override
+  String get video_setting_subtitle_bg_color_gray => '灰色';
+  @override
+  String get video_setting_subtitle_bg_color_red => '红色';
+  @override
+  String get video_setting_subtitle_bg_color_blue => '蓝色';
+  @override
+  String get video_setting_subtitle_bg_color_green => '绿色';
 }
 
 // Path: retrying_in
@@ -76516,6 +76733,20 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get browser_extension_install_steps =>
       'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+  @override
+  String get video_setting_subtitle_bg_color => 'Background color';
+  @override
+  String get video_setting_subtitle_bg_color_default => 'Default (black)';
+  @override
+  String get video_setting_subtitle_bg_color_white => 'White';
+  @override
+  String get video_setting_subtitle_bg_color_gray => 'Gray';
+  @override
+  String get video_setting_subtitle_bg_color_red => 'Red';
+  @override
+  String get video_setting_subtitle_bg_color_blue => 'Blue';
+  @override
+  String get video_setting_subtitle_bg_color_green => 'Green';
 }
 
 // Path: retrying_in
@@ -80721,6 +80952,20 @@ extension on _StringsEn {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -84886,6 +85131,20 @@ extension on _StringsAr {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -89073,6 +89332,20 @@ extension on _StringsDe {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -93258,6 +93531,20 @@ extension on _StringsEs {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -97450,6 +97737,20 @@ extension on _StringsFr {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -101622,6 +101923,20 @@ extension on _StringsId {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -105811,6 +106126,20 @@ extension on _StringsIt {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -109958,6 +110287,20 @@ extension on _StringsJa {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -114108,6 +114451,20 @@ extension on _StringsKo {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -118290,6 +118647,20 @@ extension on _StringsNl {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -122469,6 +122840,20 @@ extension on _StringsPtBr {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -126652,6 +127037,20 @@ extension on _StringsRu {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -130817,6 +131216,20 @@ extension on _StringsTh {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -134991,6 +135404,20 @@ extension on _StringsTr {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -139159,6 +139586,20 @@ extension on _StringsVi {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
@@ -143293,6 +143734,20 @@ extension on _StringsZhCn {
         return '安装浏览器扩展';
       case 'browser_extension_install_steps':
         return '在 chrome://extensions（或 edge://extensions）：开启右上角「开发者模式」，点「加载已解压的扩展程序」，粘贴下方路径；再到扩展 options 填 Hibiki 的 host/port/配对 token。';
+      case 'video_setting_subtitle_bg_color':
+        return '背景颜色';
+      case 'video_setting_subtitle_bg_color_default':
+        return '默认（黑）';
+      case 'video_setting_subtitle_bg_color_white':
+        return '白色';
+      case 'video_setting_subtitle_bg_color_gray':
+        return '灰色';
+      case 'video_setting_subtitle_bg_color_red':
+        return '红色';
+      case 'video_setting_subtitle_bg_color_blue':
+        return '蓝色';
+      case 'video_setting_subtitle_bg_color_green':
+        return '绿色';
       default:
         return null;
     }
@@ -147432,6 +147887,20 @@ extension on _StringsZhHk {
         return 'Install browser extension';
       case 'browser_extension_install_steps':
         return 'In chrome://extensions (or edge://extensions): enable Developer mode, click Load unpacked, and paste the path below. Then fill Hibiki host/port/token in the extension options.';
+      case 'video_setting_subtitle_bg_color':
+        return 'Background color';
+      case 'video_setting_subtitle_bg_color_default':
+        return 'Default (black)';
+      case 'video_setting_subtitle_bg_color_white':
+        return 'White';
+      case 'video_setting_subtitle_bg_color_gray':
+        return 'Gray';
+      case 'video_setting_subtitle_bg_color_red':
+        return 'Red';
+      case 'video_setting_subtitle_bg_color_blue':
+        return 'Blue';
+      case 'video_setting_subtitle_bg_color_green':
+        return 'Green';
       default:
         return null;
     }
