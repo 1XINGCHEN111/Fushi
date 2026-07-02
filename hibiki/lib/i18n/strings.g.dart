@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 35088 (2064 per locale)
+/// Strings: 35122 (2066 per locale)
 ///
-/// Built on 2026-07-02 at 06:14 UTC
+/// Built on 2026-07-02 at 16:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2749,6 +2749,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Extension folder (already copied)';
   String get copied => 'Copied';
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -7422,6 +7426,12 @@ class _StringsAr extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -12218,6 +12228,12 @@ class _StringsDe extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -17031,6 +17047,12 @@ class _StringsEs extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -21863,6 +21885,12 @@ class _StringsFr extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -26597,6 +26625,12 @@ class _StringsId extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -31392,6 +31426,12 @@ class _StringsIt extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -35912,6 +35952,12 @@ class _StringsJa extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -40436,6 +40482,12 @@ class _StringsKo extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -45199,6 +45251,12 @@ class _StringsNl extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -49985,6 +50043,12 @@ class _StringsPtBr extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -54746,6 +54810,12 @@ class _StringsRu extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -59420,6 +59490,12 @@ class _StringsTh extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -64149,6 +64225,12 @@ class _StringsTr extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -68853,6 +68935,12 @@ class _StringsVi extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -73237,6 +73325,11 @@ class _StringsZhCn extends _StringsEn {
   String get copied => '已复制';
   @override
   String get shortcut_action_global_toggle_fullscreen => '全屏切换';
+  @override
+  String get video_setting_subtitle_respect_ass => '尊重字幕自带样式';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      '有 .ass 字幕自带的字体、颜色、描边时优先采用；关闭则一律使用你的外观设置。';
 }
 
 // Path: retrying_in
@@ -77659,6 +77752,12 @@ class _StringsZhHk extends _StringsEn {
   String get copied => 'Copied';
   @override
   String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
+  @override
+  String get video_setting_subtitle_respect_ass =>
+      'Respect subtitle\'s own style';
+  @override
+  String get video_setting_subtitle_respect_ass_hint =>
+      'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
 }
 
 // Path: retrying_in
@@ -81924,6 +82023,10 @@ extension on _StringsEn {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -86149,6 +86252,10 @@ extension on _StringsAr {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -90396,6 +90503,10 @@ extension on _StringsDe {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -94641,6 +94752,10 @@ extension on _StringsEs {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -98893,6 +99008,10 @@ extension on _StringsFr {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -103125,6 +103244,10 @@ extension on _StringsId {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -107374,6 +107497,10 @@ extension on _StringsIt {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -111581,6 +111708,10 @@ extension on _StringsJa {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -115791,6 +115922,10 @@ extension on _StringsKo {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -120033,6 +120168,10 @@ extension on _StringsNl {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -124272,6 +124411,10 @@ extension on _StringsPtBr {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -128515,6 +128658,10 @@ extension on _StringsRu {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -132740,6 +132887,10 @@ extension on _StringsTh {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -136974,6 +137125,10 @@ extension on _StringsTr {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -141202,6 +141357,10 @@ extension on _StringsVi {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
@@ -145396,6 +145555,10 @@ extension on _StringsZhCn {
         return '已复制';
       case 'shortcut_action_global_toggle_fullscreen':
         return '全屏切换';
+      case 'video_setting_subtitle_respect_ass':
+        return '尊重字幕自带样式';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return '有 .ass 字幕自带的字体、颜色、描边时优先采用；关闭则一律使用你的外观设置。';
       default:
         return null;
     }
@@ -149595,6 +149758,10 @@ extension on _StringsZhHk {
         return 'Copied';
       case 'shortcut_action_global_toggle_fullscreen':
         return 'Toggle fullscreen';
+      case 'video_setting_subtitle_respect_ass':
+        return 'Respect subtitle\'s own style';
+      case 'video_setting_subtitle_respect_ass_hint':
+        return 'Use the font, color, and outline built into .ass subtitles when available; turn off to force your appearance settings.';
       default:
         return null;
     }
