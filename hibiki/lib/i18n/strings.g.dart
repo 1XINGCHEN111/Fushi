@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 35071 (2063 per locale)
+/// Strings: 35088 (2064 per locale)
 ///
-/// Built on 2026-07-01 at 17:13 UTC
+/// Built on 2026-07-02 at 06:14 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2748,6 +2748,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get browser_extension_folder_label =>
       'Extension folder (already copied)';
   String get copied => 'Copied';
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -7419,6 +7420,8 @@ class _StringsAr extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -12213,6 +12216,8 @@ class _StringsDe extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -17024,6 +17029,8 @@ class _StringsEs extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -21854,6 +21861,8 @@ class _StringsFr extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -26586,6 +26595,8 @@ class _StringsId extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -31379,6 +31390,8 @@ class _StringsIt extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -35897,6 +35910,8 @@ class _StringsJa extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -40419,6 +40434,8 @@ class _StringsKo extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -45180,6 +45197,8 @@ class _StringsNl extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -49964,6 +49983,8 @@ class _StringsPtBr extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -54723,6 +54744,8 @@ class _StringsRu extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -59395,6 +59418,8 @@ class _StringsTh extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -64122,6 +64147,8 @@ class _StringsTr extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -68824,6 +68851,8 @@ class _StringsVi extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -73206,6 +73235,8 @@ class _StringsZhCn extends _StringsEn {
   String get browser_extension_folder_label => '扩展文件夹（已复制）';
   @override
   String get copied => '已复制';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => '全屏切换';
 }
 
 // Path: retrying_in
@@ -77626,6 +77657,8 @@ class _StringsZhHk extends _StringsEn {
       'Extension folder (already copied)';
   @override
   String get copied => 'Copied';
+  @override
+  String get shortcut_action_global_toggle_fullscreen => 'Toggle fullscreen';
 }
 
 // Path: retrying_in
@@ -81889,6 +81922,8 @@ extension on _StringsEn {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -86112,6 +86147,8 @@ extension on _StringsAr {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -90357,6 +90394,8 @@ extension on _StringsDe {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -94600,6 +94639,8 @@ extension on _StringsEs {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -98850,6 +98891,8 @@ extension on _StringsFr {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -103080,6 +103123,8 @@ extension on _StringsId {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -107327,6 +107372,8 @@ extension on _StringsIt {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -111532,6 +111579,8 @@ extension on _StringsJa {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -115740,6 +115789,8 @@ extension on _StringsKo {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -119980,6 +120031,8 @@ extension on _StringsNl {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -124217,6 +124270,8 @@ extension on _StringsPtBr {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -128458,6 +128513,8 @@ extension on _StringsRu {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -132681,6 +132738,8 @@ extension on _StringsTh {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -136913,6 +136972,8 @@ extension on _StringsTr {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -141139,6 +141200,8 @@ extension on _StringsVi {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
@@ -145331,6 +145394,8 @@ extension on _StringsZhCn {
         return '扩展文件夹（已复制）';
       case 'copied':
         return '已复制';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return '全屏切换';
       default:
         return null;
     }
@@ -149528,6 +149593,8 @@ extension on _StringsZhHk {
         return 'Extension folder (already copied)';
       case 'copied':
         return 'Copied';
+      case 'shortcut_action_global_toggle_fullscreen':
+        return 'Toggle fullscreen';
       default:
         return null;
     }
