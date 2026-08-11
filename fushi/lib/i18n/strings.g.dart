@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 56933 (3349 per locale)
+/// Strings: 57222 (3366 per locale)
 ///
-/// Built on 2026-08-11 at 18:06 UTC
+/// Built on 2026-08-11 at 19:07 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1015,6 +1015,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_backend_not_configured =>
       'Download backend is not configured yet.';
   String get download_clear_finished => 'Clear finished';
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
   String get download_network_proxy_auto => 'Auto';
   String get download_network_proxy_auto_hint =>
       'Applies to AniList, Nyaa, and Jimaku only. Auto uses environment variables, then the enabled system proxy; torrent traffic is unchanged.';
@@ -1065,6 +1067,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_subscription_unavailable_hint =>
       'Choose a single-episode release with a recognizable release group to subscribe.';
   String get download_subscriptions_tab => 'Subscriptions';
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  String get download_task_delete => 'Delete task';
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  String get download_task_delete_files => 'Also delete downloaded files';
+  String get download_task_details => 'View details';
   String get download_tasks_tab => 'Tasks';
   String get download_test_connection => 'Test connection';
   String get download_test_connection_failed =>
@@ -3971,19 +3980,28 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_detail_backend_unsupported =>
       'Not supported by current download backend';
   String get download_detail_task_gone => 'Task not found in backend';
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
   String get download_detail_section_transfer => 'Transfer';
   String get download_detail_section_network => 'Network';
+  String get download_detail_section_task => 'Task';
   String get download_detail_seeds_label => 'Seeds';
   String get download_detail_leechers_label => 'Leechers';
   String get download_detail_connections_label => 'Connections';
+  String get download_detail_content_path_label => 'Content path';
   String get download_detail_time_active => 'Active time';
   String get download_detail_time_seeding => 'Seeding time';
+  String get download_detail_total_size_label => 'Total size';
   String get download_detail_listen_port => 'Listen port';
   String get download_detail_dht_nodes => 'DHT nodes';
+  String get download_detail_hash_label => 'Info hash';
   String get download_detail_port_mapping => 'Port mapping';
   String get download_detail_session_rates => 'Session rates';
   String get download_detail_pieces_label => 'Pieces';
   String get download_detail_priority_skip => 'Don\'t download';
+  String get download_detail_raw_state_label => 'Backend state';
+  String get download_detail_remaining_label => 'Remaining';
+  String get download_detail_save_path_label => 'Save path';
   String get download_detail_priority_normal => 'Normal';
   String get download_detail_priority_high => 'High';
   String get download_detail_tracker_working => 'Working';
@@ -4499,6 +4517,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_task_error_copied => 'Error details copied';
   String get download_task_lifecycle_active => 'In progress';
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  String get download_task_open_location => 'Show in folder';
   String get download_task_lifecycle_completed => 'Completed';
   String get download_task_lifecycle_failed => 'Failed';
   String get download_task_lifecycle_cancelled => 'Cancelled';
@@ -6034,6 +6057,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -6117,6 +6143,18 @@ class _StringsAr extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -11290,9 +11328,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -11300,13 +11343,19 @@ class _StringsAr extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -11315,6 +11364,12 @@ class _StringsAr extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -12205,6 +12260,14 @@ class _StringsAr extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -13783,6 +13846,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -13866,6 +13932,18 @@ class _StringsDe extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -19088,9 +19166,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -19098,13 +19181,19 @@ class _StringsDe extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -19113,6 +19202,12 @@ class _StringsDe extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -20003,6 +20098,14 @@ class _StringsDe extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -21581,6 +21684,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -21664,6 +21770,18 @@ class _StringsEs extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -26902,9 +27020,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -26912,13 +27035,19 @@ class _StringsEs extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -26927,6 +27056,12 @@ class _StringsEs extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -27817,6 +27952,14 @@ class _StringsEs extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -29405,6 +29548,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -29488,6 +29634,18 @@ class _StringsFr extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -34728,9 +34886,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -34738,13 +34901,19 @@ class _StringsFr extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -34753,6 +34922,12 @@ class _StringsFr extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -35643,6 +35818,14 @@ class _StringsFr extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -37203,6 +37386,9 @@ class _StringsId extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -37286,6 +37472,18 @@ class _StringsId extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -42482,9 +42680,14 @@ class _StringsId extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -42492,13 +42695,19 @@ class _StringsId extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -42507,6 +42716,12 @@ class _StringsId extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -43397,6 +43612,14 @@ class _StringsId extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -44970,6 +45193,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -45053,6 +45279,18 @@ class _StringsIt extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -50282,9 +50520,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -50292,13 +50535,19 @@ class _StringsIt extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -50307,6 +50556,12 @@ class _StringsIt extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -51197,6 +51452,14 @@ class _StringsIt extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -52734,6 +52997,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -52817,6 +53083,18 @@ class _StringsJa extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -57896,9 +58174,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -57906,13 +58189,19 @@ class _StringsJa extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -57921,6 +58210,12 @@ class _StringsJa extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -58811,6 +59106,14 @@ class _StringsJa extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -60348,6 +60651,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -60431,6 +60737,18 @@ class _StringsKo extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -65517,9 +65835,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -65527,13 +65850,19 @@ class _StringsKo extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -65542,6 +65871,12 @@ class _StringsKo extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -66432,6 +66767,14 @@ class _StringsKo extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -68003,6 +68346,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -68086,6 +68432,18 @@ class _StringsNl extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -73297,9 +73655,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -73307,13 +73670,19 @@ class _StringsNl extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -73322,6 +73691,12 @@ class _StringsNl extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -74212,6 +74587,14 @@ class _StringsNl extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -75788,6 +76171,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -75871,6 +76257,18 @@ class _StringsPtBr extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -81089,9 +81487,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -81099,13 +81502,19 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -81114,6 +81523,12 @@ class _StringsPtBr extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -82004,6 +82419,14 @@ class _StringsPtBr extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -83572,6 +83995,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -83655,6 +84081,18 @@ class _StringsRu extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -88867,9 +89305,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -88877,13 +89320,19 @@ class _StringsRu extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -88892,6 +89341,12 @@ class _StringsRu extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -89782,6 +90237,14 @@ class _StringsRu extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -91337,6 +91800,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -91420,6 +91886,18 @@ class _StringsTh extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -96593,9 +97071,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -96603,13 +97086,19 @@ class _StringsTh extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -96618,6 +97107,12 @@ class _StringsTh extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -97508,6 +98003,14 @@ class _StringsTh extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -99075,6 +99578,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -99158,6 +99664,18 @@ class _StringsTr extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -104350,9 +104868,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -104360,13 +104883,19 @@ class _StringsTr extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -104375,6 +104904,12 @@ class _StringsTr extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -105265,6 +105800,14 @@ class _StringsTr extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -106829,6 +107372,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -106912,6 +107458,18 @@ class _StringsVi extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -112092,9 +112650,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -112102,13 +112665,19 @@ class _StringsVi extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -112117,6 +112686,12 @@ class _StringsVi extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -113007,6 +113582,14 @@ class _StringsVi extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -114473,6 +115056,9 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get download_clear_finished => '清除已完成';
   @override
+  String get download_detail_backend_offline =>
+      '原下载后端当前离线。这里仍显示已保存的任务信息，但实时参数暂不可用。';
+  @override
   String get download_network_proxy_auto => '自动';
   @override
   String get download_network_proxy_auto_hint =>
@@ -114549,6 +115135,18 @@ class _StringsZhCn extends _StringsEn {
       '请选择能识别字幕组的单集发布后再订阅；合集仍可单次下载。';
   @override
   String get download_subscriptions_tab => '订阅';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      '任务操作失败：${error}';
+  @override
+  String get download_task_delete => '删除任务';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      '删除“${title}”的下载任务吗？';
+  @override
+  String get download_task_delete_files => '同时删除已下载文件';
+  @override
+  String get download_task_details => '查看详情';
   @override
   String get download_tasks_tab => '任务';
   @override
@@ -119360,9 +119958,14 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get download_detail_task_gone => '后端中找不到该任务';
   @override
+  String get download_detail_task_missing =>
+      '原下载后端在线，但该 torrent 已不在引擎中。实时节点和 Tracker 无法恢复，这里显示已保存的任务信息。';
+  @override
   String get download_detail_section_transfer => '传输';
   @override
   String get download_detail_section_network => '网络';
+  @override
+  String get download_detail_section_task => '任务';
   @override
   String get download_detail_seeds_label => '做种';
   @override
@@ -119370,13 +119973,19 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get download_detail_connections_label => '连接数';
   @override
+  String get download_detail_content_path_label => '内容路径';
+  @override
   String get download_detail_time_active => '活跃时长';
   @override
   String get download_detail_time_seeding => '做种时长';
   @override
+  String get download_detail_total_size_label => '总大小';
+  @override
   String get download_detail_listen_port => '监听端口';
   @override
   String get download_detail_dht_nodes => 'DHT 节点';
+  @override
+  String get download_detail_hash_label => '信息哈希';
   @override
   String get download_detail_port_mapping => '端口映射';
   @override
@@ -119385,6 +119994,12 @@ class _StringsZhCn extends _StringsEn {
   String get download_detail_pieces_label => '分片';
   @override
   String get download_detail_priority_skip => '不下载';
+  @override
+  String get download_detail_raw_state_label => '后端状态';
+  @override
+  String get download_detail_remaining_label => '剩余大小';
+  @override
+  String get download_detail_save_path_label => '保存路径';
   @override
   String get download_detail_priority_normal => '普通';
   @override
@@ -120190,6 +120805,12 @@ class _StringsZhCn extends _StringsEn {
   String get download_task_lifecycle_active => '进行中';
   @override
   String get download_task_lifecycle_needs_attention => '需要处理';
+  @override
+  String get download_task_location_missing => '找不到该任务对应的文件位置。';
+  @override
+  String get download_task_location_open_failed => '无法打开文件位置。';
+  @override
+  String get download_task_open_location => '打开文件位置';
   @override
   String get download_task_lifecycle_completed => '已完成';
   @override
@@ -121698,6 +122319,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get download_clear_finished => 'Clear finished';
   @override
+  String get download_detail_backend_offline =>
+      'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
+  @override
   String get download_network_proxy_auto => 'Auto';
   @override
   String get download_network_proxy_auto_hint =>
@@ -121781,6 +122405,18 @@ class _StringsZhHk extends _StringsEn {
       'Choose a single-episode release with a recognizable release group to subscribe.';
   @override
   String get download_subscriptions_tab => 'Subscriptions';
+  @override
+  String download_task_action_failed({required Object error}) =>
+      'The task action failed: ${error}';
+  @override
+  String get download_task_delete => 'Delete task';
+  @override
+  String download_task_delete_confirm({required Object title}) =>
+      'Delete the download task for ${title}?';
+  @override
+  String get download_task_delete_files => 'Also delete downloaded files';
+  @override
+  String get download_task_details => 'View details';
   @override
   String get download_tasks_tab => 'Tasks';
   @override
@@ -126808,9 +127444,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get download_detail_task_gone => 'Task not found in backend';
   @override
+  String get download_detail_task_missing =>
+      'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
+  @override
   String get download_detail_section_transfer => 'Transfer';
   @override
   String get download_detail_section_network => 'Network';
+  @override
+  String get download_detail_section_task => 'Task';
   @override
   String get download_detail_seeds_label => 'Seeds';
   @override
@@ -126818,13 +127459,19 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get download_detail_connections_label => 'Connections';
   @override
+  String get download_detail_content_path_label => 'Content path';
+  @override
   String get download_detail_time_active => 'Active time';
   @override
   String get download_detail_time_seeding => 'Seeding time';
   @override
+  String get download_detail_total_size_label => 'Total size';
+  @override
   String get download_detail_listen_port => 'Listen port';
   @override
   String get download_detail_dht_nodes => 'DHT nodes';
+  @override
+  String get download_detail_hash_label => 'Info hash';
   @override
   String get download_detail_port_mapping => 'Port mapping';
   @override
@@ -126833,6 +127480,12 @@ class _StringsZhHk extends _StringsEn {
   String get download_detail_pieces_label => 'Pieces';
   @override
   String get download_detail_priority_skip => 'Don\'t download';
+  @override
+  String get download_detail_raw_state_label => 'Backend state';
+  @override
+  String get download_detail_remaining_label => 'Remaining';
+  @override
+  String get download_detail_save_path_label => 'Save path';
   @override
   String get download_detail_priority_normal => 'Normal';
   @override
@@ -127722,6 +128375,14 @@ class _StringsZhHk extends _StringsEn {
   String get download_task_lifecycle_active => 'In progress';
   @override
   String get download_task_lifecycle_needs_attention => 'Needs attention';
+  @override
+  String get download_task_location_missing =>
+      'The task file location is unavailable.';
+  @override
+  String get download_task_location_open_failed =>
+      'Could not open the file location.';
+  @override
+  String get download_task_open_location => 'Show in folder';
   @override
   String get download_task_lifecycle_completed => 'Completed';
   @override
@@ -129115,6 +129776,8 @@ extension on _StringsEn {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -129186,6 +129849,17 @@ extension on _StringsEn {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -133813,24 +134487,34 @@ extension on _StringsEn {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -133839,6 +134523,12 @@ extension on _StringsEn {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -134609,6 +135299,12 @@ extension on _StringsEn {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -135995,6 +136691,8 @@ extension on _StringsAr {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -136066,6 +136764,17 @@ extension on _StringsAr {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -140688,24 +141397,34 @@ extension on _StringsAr {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -140714,6 +141433,12 @@ extension on _StringsAr {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -141486,6 +142211,12 @@ extension on _StringsAr {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -142876,6 +143607,8 @@ extension on _StringsDe {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -142947,6 +143680,17 @@ extension on _StringsDe {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -147587,24 +148331,34 @@ extension on _StringsDe {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -147613,6 +148367,12 @@ extension on _StringsDe {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -148385,6 +149145,12 @@ extension on _StringsDe {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -149776,6 +150542,8 @@ extension on _StringsEs {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -149847,6 +150615,17 @@ extension on _StringsEs {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -154485,24 +155264,34 @@ extension on _StringsEs {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -154511,6 +155300,12 @@ extension on _StringsEs {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -155283,6 +156078,12 @@ extension on _StringsEs {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -156677,6 +157478,8 @@ extension on _StringsFr {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -156748,6 +157551,17 @@ extension on _StringsFr {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -161389,24 +162203,34 @@ extension on _StringsFr {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -161415,6 +162239,12 @@ extension on _StringsFr {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -162187,6 +163017,12 @@ extension on _StringsFr {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -163576,6 +164412,8 @@ extension on _StringsId {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -163647,6 +164485,17 @@ extension on _StringsId {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -168275,24 +169124,34 @@ extension on _StringsId {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -168301,6 +169160,12 @@ extension on _StringsId {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -169073,6 +169938,12 @@ extension on _StringsId {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -170463,6 +171334,8 @@ extension on _StringsIt {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -170534,6 +171407,17 @@ extension on _StringsIt {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -175175,24 +176059,34 @@ extension on _StringsIt {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -175201,6 +176095,12 @@ extension on _StringsIt {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -175973,6 +176873,12 @@ extension on _StringsIt {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -177352,6 +178258,8 @@ extension on _StringsJa {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -177423,6 +178331,17 @@ extension on _StringsJa {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -182037,24 +182956,34 @@ extension on _StringsJa {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -182063,6 +182992,12 @@ extension on _StringsJa {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -182835,6 +183770,12 @@ extension on _StringsJa {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -184215,6 +185156,8 @@ extension on _StringsKo {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -184286,6 +185229,17 @@ extension on _StringsKo {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -188903,24 +189857,34 @@ extension on _StringsKo {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -188929,6 +189893,12 @@ extension on _StringsKo {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -189701,6 +190671,12 @@ extension on _StringsKo {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -191091,6 +192067,8 @@ extension on _StringsNl {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -191162,6 +192140,17 @@ extension on _StringsNl {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -195797,24 +196786,34 @@ extension on _StringsNl {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -195823,6 +196822,12 @@ extension on _StringsNl {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -196595,6 +197600,12 @@ extension on _StringsNl {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -197984,6 +198995,8 @@ extension on _StringsPtBr {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -198055,6 +199068,17 @@ extension on _StringsPtBr {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -202688,24 +203712,34 @@ extension on _StringsPtBr {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -202714,6 +203748,12 @@ extension on _StringsPtBr {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -203486,6 +204526,12 @@ extension on _StringsPtBr {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -204878,6 +205924,8 @@ extension on _StringsRu {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -204949,6 +205997,17 @@ extension on _StringsRu {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -209584,24 +210643,34 @@ extension on _StringsRu {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -209610,6 +210679,12 @@ extension on _StringsRu {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -210382,6 +211457,12 @@ extension on _StringsRu {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -211766,6 +212847,8 @@ extension on _StringsTh {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -211837,6 +212920,17 @@ extension on _StringsTh {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -216463,24 +217557,34 @@ extension on _StringsTh {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -216489,6 +217593,12 @@ extension on _StringsTh {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -217261,6 +218371,12 @@ extension on _StringsTh {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -218650,6 +219766,8 @@ extension on _StringsTr {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -218721,6 +219839,17 @@ extension on _StringsTr {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -223351,24 +224480,34 @@ extension on _StringsTr {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -223377,6 +224516,12 @@ extension on _StringsTr {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -224149,6 +225294,12 @@ extension on _StringsTr {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -225536,6 +226687,8 @@ extension on _StringsVi {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -225607,6 +226760,17 @@ extension on _StringsVi {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -230235,24 +231399,34 @@ extension on _StringsVi {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -230261,6 +231435,12 @@ extension on _StringsVi {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -231033,6 +232213,12 @@ extension on _StringsVi {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
@@ -232406,6 +233592,8 @@ extension on _StringsZhCn {
         return '请先配置下载后端。';
       case 'download_clear_finished':
         return '清除已完成';
+      case 'download_detail_backend_offline':
+        return '原下载后端当前离线。这里仍显示已保存的任务信息，但实时参数暂不可用。';
       case 'download_network_proxy_auto':
         return '自动';
       case 'download_network_proxy_auto_hint':
@@ -232475,6 +233663,16 @@ extension on _StringsZhCn {
         return '请选择能识别字幕组的单集发布后再订阅；合集仍可单次下载。';
       case 'download_subscriptions_tab':
         return '订阅';
+      case 'download_task_action_failed':
+        return ({required Object error}) => '任务操作失败：${error}';
+      case 'download_task_delete':
+        return '删除任务';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) => '删除“${title}”的下载任务吗？';
+      case 'download_task_delete_files':
+        return '同时删除已下载文件';
+      case 'download_task_details':
+        return '查看详情';
       case 'download_tasks_tab':
         return '任务';
       case 'download_test_connection':
@@ -237068,24 +238266,34 @@ extension on _StringsZhCn {
         return '当前下载后端不支持';
       case 'download_detail_task_gone':
         return '后端中找不到该任务';
+      case 'download_detail_task_missing':
+        return '原下载后端在线，但该 torrent 已不在引擎中。实时节点和 Tracker 无法恢复，这里显示已保存的任务信息。';
       case 'download_detail_section_transfer':
         return '传输';
       case 'download_detail_section_network':
         return '网络';
+      case 'download_detail_section_task':
+        return '任务';
       case 'download_detail_seeds_label':
         return '做种';
       case 'download_detail_leechers_label':
         return '下载者';
       case 'download_detail_connections_label':
         return '连接数';
+      case 'download_detail_content_path_label':
+        return '内容路径';
       case 'download_detail_time_active':
         return '活跃时长';
       case 'download_detail_time_seeding':
         return '做种时长';
+      case 'download_detail_total_size_label':
+        return '总大小';
       case 'download_detail_listen_port':
         return '监听端口';
       case 'download_detail_dht_nodes':
         return 'DHT 节点';
+      case 'download_detail_hash_label':
+        return '信息哈希';
       case 'download_detail_port_mapping':
         return '端口映射';
       case 'download_detail_session_rates':
@@ -237094,6 +238302,12 @@ extension on _StringsZhCn {
         return '分片';
       case 'download_detail_priority_skip':
         return '不下载';
+      case 'download_detail_raw_state_label':
+        return '后端状态';
+      case 'download_detail_remaining_label':
+        return '剩余大小';
+      case 'download_detail_save_path_label':
+        return '保存路径';
       case 'download_detail_priority_normal':
         return '普通';
       case 'download_detail_priority_high':
@@ -237860,6 +239074,12 @@ extension on _StringsZhCn {
         return '进行中';
       case 'download_task_lifecycle_needs_attention':
         return '需要处理';
+      case 'download_task_location_missing':
+        return '找不到该任务对应的文件位置。';
+      case 'download_task_location_open_failed':
+        return '无法打开文件位置。';
+      case 'download_task_open_location':
+        return '打开文件位置';
       case 'download_task_lifecycle_completed':
         return '已完成';
       case 'download_task_lifecycle_failed':
@@ -239238,6 +240458,8 @@ extension on _StringsZhHk {
         return 'Download backend is not configured yet.';
       case 'download_clear_finished':
         return 'Clear finished';
+      case 'download_detail_backend_offline':
+        return 'The original download backend is offline. Persisted task information is shown; live parameters are unavailable.';
       case 'download_network_proxy_auto':
         return 'Auto';
       case 'download_network_proxy_auto_hint':
@@ -239309,6 +240531,17 @@ extension on _StringsZhHk {
         return 'Choose a single-episode release with a recognizable release group to subscribe.';
       case 'download_subscriptions_tab':
         return 'Subscriptions';
+      case 'download_task_action_failed':
+        return ({required Object error}) => 'The task action failed: ${error}';
+      case 'download_task_delete':
+        return 'Delete task';
+      case 'download_task_delete_confirm':
+        return ({required Object title}) =>
+            'Delete the download task for ${title}?';
+      case 'download_task_delete_files':
+        return 'Also delete downloaded files';
+      case 'download_task_details':
+        return 'View details';
       case 'download_tasks_tab':
         return 'Tasks';
       case 'download_test_connection':
@@ -243919,24 +245152,34 @@ extension on _StringsZhHk {
         return 'Not supported by current download backend';
       case 'download_detail_task_gone':
         return 'Task not found in backend';
+      case 'download_detail_task_missing':
+        return 'The original download backend is online, but this torrent is no longer present. Live peers and trackers cannot be recovered; persisted task information is shown.';
       case 'download_detail_section_transfer':
         return 'Transfer';
       case 'download_detail_section_network':
         return 'Network';
+      case 'download_detail_section_task':
+        return 'Task';
       case 'download_detail_seeds_label':
         return 'Seeds';
       case 'download_detail_leechers_label':
         return 'Leechers';
       case 'download_detail_connections_label':
         return 'Connections';
+      case 'download_detail_content_path_label':
+        return 'Content path';
       case 'download_detail_time_active':
         return 'Active time';
       case 'download_detail_time_seeding':
         return 'Seeding time';
+      case 'download_detail_total_size_label':
+        return 'Total size';
       case 'download_detail_listen_port':
         return 'Listen port';
       case 'download_detail_dht_nodes':
         return 'DHT nodes';
+      case 'download_detail_hash_label':
+        return 'Info hash';
       case 'download_detail_port_mapping':
         return 'Port mapping';
       case 'download_detail_session_rates':
@@ -243945,6 +245188,12 @@ extension on _StringsZhHk {
         return 'Pieces';
       case 'download_detail_priority_skip':
         return 'Don\'t download';
+      case 'download_detail_raw_state_label':
+        return 'Backend state';
+      case 'download_detail_remaining_label':
+        return 'Remaining';
+      case 'download_detail_save_path_label':
+        return 'Save path';
       case 'download_detail_priority_normal':
         return 'Normal';
       case 'download_detail_priority_high':
@@ -244717,6 +245966,12 @@ extension on _StringsZhHk {
         return 'In progress';
       case 'download_task_lifecycle_needs_attention':
         return 'Needs attention';
+      case 'download_task_location_missing':
+        return 'The task file location is unavailable.';
+      case 'download_task_location_open_failed':
+        return 'Could not open the file location.';
+      case 'download_task_open_location':
+        return 'Show in folder';
       case 'download_task_lifecycle_completed':
         return 'Completed';
       case 'download_task_lifecycle_failed':
