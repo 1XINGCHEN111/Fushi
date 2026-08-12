@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 57222 (3366 per locale)
 ///
-/// Built on 2026-08-11 at 19:07 UTC
+/// Built on 2026-08-12 at 11:23 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4247,7 +4247,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_source_scrape_image_policy => 'Image write policy';
   String get video_source_scrape_policy_skip => 'Do not write';
   String get video_source_scrape_policy_missing_only => 'Only when missing';
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
   String get video_source_scrape_external_overwrite_hint =>
@@ -4255,7 +4255,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_source_scrape_external_overwrite_confirm_title =>
       'Overwrite protected sidecars?';
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   String get video_source_scrape_tasks_open => 'Background tasks';
   String get video_source_scrape_background_started =>
       'Scraping is running in the background';
@@ -11801,7 +11801,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -11813,7 +11813,7 @@ class _StringsAr extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -19639,7 +19639,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -19651,7 +19651,7 @@ class _StringsDe extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -27493,7 +27493,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -27505,7 +27505,7 @@ class _StringsEs extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -35359,7 +35359,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -35371,7 +35371,7 @@ class _StringsFr extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -43153,7 +43153,7 @@ class _StringsId extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -43165,7 +43165,7 @@ class _StringsId extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -50993,7 +50993,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -51005,7 +51005,7 @@ class _StringsIt extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -58647,7 +58647,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -58659,7 +58659,7 @@ class _StringsJa extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -66308,7 +66308,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -66320,7 +66320,7 @@ class _StringsKo extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -74128,7 +74128,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -74140,7 +74140,7 @@ class _StringsNl extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -81960,7 +81960,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -81972,7 +81972,7 @@ class _StringsPtBr extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -89778,7 +89778,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -89790,7 +89790,7 @@ class _StringsRu extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -97544,7 +97544,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -97556,7 +97556,7 @@ class _StringsTh extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -105341,7 +105341,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -105353,7 +105353,7 @@ class _StringsTr extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -113123,7 +113123,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -113135,7 +113135,7 @@ class _StringsVi extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -120388,7 +120388,7 @@ class _StringsZhCn extends _StringsEn {
   String get video_source_scrape_confirmation_title => '确认资料匹配';
   @override
   String get video_source_scrape_confirmation_hint =>
-      '找到多个严格匹配结果。请选择正确作品，Hibiki 会保存其来源绑定。';
+      '找到多个严格匹配结果。请选择正确作品，Fushi 会保存其来源绑定。';
   @override
   String get video_source_scrape_confirmation_skip => '跳过此作品';
   @override
@@ -120400,7 +120400,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => '仅缺失时写入';
   @override
-  String get video_source_scrape_policy_overwrite => '更新 Hibiki 生成物';
+  String get video_source_scrape_policy_overwrite => '更新 Fushi 生成物';
   @override
   String get video_source_scrape_external_overwrite => '允许覆盖受保护的 sidecar';
   @override
@@ -120411,7 +120411,7 @@ class _StringsZhCn extends _StringsEn {
       '覆盖受保护的 sidecar？';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      '本批次可能替换第三方 NFO/图片，或你修改过的 Hibiki 生成物；视频文件本身不会改动。是否继续？';
+      '本批次可能替换第三方 NFO/图片，或你修改过的 Fushi 生成物；视频文件本身不会改动。是否继续？';
   @override
   String get video_source_scrape_tasks_open => '后台任务';
   @override
@@ -127916,7 +127916,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_source_scrape_policy_missing_only => 'Only when missing';
   @override
-  String get video_source_scrape_policy_overwrite => 'Update Hibiki files';
+  String get video_source_scrape_policy_overwrite => 'Update Fushi files';
   @override
   String get video_source_scrape_external_overwrite =>
       'Allow protected sidecar overwrite';
@@ -127928,7 +127928,7 @@ class _StringsZhHk extends _StringsEn {
       'Overwrite protected sidecars?';
   @override
   String get video_source_scrape_external_overwrite_confirm_body =>
-      'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+      'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
   @override
   String get video_source_scrape_tasks_open => 'Background tasks';
   @override
@@ -134913,7 +134913,7 @@ extension on _StringsEn {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -134921,7 +134921,7 @@ extension on _StringsEn {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -141823,7 +141823,7 @@ extension on _StringsAr {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -141831,7 +141831,7 @@ extension on _StringsAr {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -148757,7 +148757,7 @@ extension on _StringsDe {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -148765,7 +148765,7 @@ extension on _StringsDe {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -155690,7 +155690,7 @@ extension on _StringsEs {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -155698,7 +155698,7 @@ extension on _StringsEs {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -162629,7 +162629,7 @@ extension on _StringsFr {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -162637,7 +162637,7 @@ extension on _StringsFr {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -169550,7 +169550,7 @@ extension on _StringsId {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -169558,7 +169558,7 @@ extension on _StringsId {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -176485,7 +176485,7 @@ extension on _StringsIt {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -176493,7 +176493,7 @@ extension on _StringsIt {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -183382,7 +183382,7 @@ extension on _StringsJa {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -183390,7 +183390,7 @@ extension on _StringsJa {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -190283,7 +190283,7 @@ extension on _StringsKo {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -190291,7 +190291,7 @@ extension on _StringsKo {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -197212,7 +197212,7 @@ extension on _StringsNl {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -197220,7 +197220,7 @@ extension on _StringsNl {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -204138,7 +204138,7 @@ extension on _StringsPtBr {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -204146,7 +204146,7 @@ extension on _StringsPtBr {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -211069,7 +211069,7 @@ extension on _StringsRu {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -211077,7 +211077,7 @@ extension on _StringsRu {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -217983,7 +217983,7 @@ extension on _StringsTh {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -217991,7 +217991,7 @@ extension on _StringsTh {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -224906,7 +224906,7 @@ extension on _StringsTr {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -224914,7 +224914,7 @@ extension on _StringsTr {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -231825,7 +231825,7 @@ extension on _StringsVi {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -231833,7 +231833,7 @@ extension on _StringsVi {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
@@ -238679,7 +238679,7 @@ extension on _StringsZhCn {
       case 'video_source_scrape_confirmation_title':
         return '确认资料匹配';
       case 'video_source_scrape_confirmation_hint':
-        return '找到多个严格匹配结果。请选择正确作品，Hibiki 会保存其来源绑定。';
+        return '找到多个严格匹配结果。请选择正确作品，Fushi 会保存其来源绑定。';
       case 'video_source_scrape_confirmation_skip':
         return '跳过此作品';
       case 'video_source_scrape_nfo_policy':
@@ -238691,7 +238691,7 @@ extension on _StringsZhCn {
       case 'video_source_scrape_policy_missing_only':
         return '仅缺失时写入';
       case 'video_source_scrape_policy_overwrite':
-        return '更新 Hibiki 生成物';
+        return '更新 Fushi 生成物';
       case 'video_source_scrape_external_overwrite':
         return '允许覆盖受保护的 sidecar';
       case 'video_source_scrape_external_overwrite_hint':
@@ -238699,7 +238699,7 @@ extension on _StringsZhCn {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return '覆盖受保护的 sidecar？';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return '本批次可能替换第三方 NFO/图片，或你修改过的 Hibiki 生成物；视频文件本身不会改动。是否继续？';
+        return '本批次可能替换第三方 NFO/图片，或你修改过的 Fushi 生成物；视频文件本身不会改动。是否继续？';
       case 'video_source_scrape_tasks_open':
         return '后台任务';
       case 'video_source_scrape_background_started':
@@ -245578,7 +245578,7 @@ extension on _StringsZhHk {
       case 'video_source_scrape_policy_missing_only':
         return 'Only when missing';
       case 'video_source_scrape_policy_overwrite':
-        return 'Update Hibiki files';
+        return 'Update Fushi files';
       case 'video_source_scrape_external_overwrite':
         return 'Allow protected sidecar overwrite';
       case 'video_source_scrape_external_overwrite_hint':
@@ -245586,7 +245586,7 @@ extension on _StringsZhHk {
       case 'video_source_scrape_external_overwrite_confirm_title':
         return 'Overwrite protected sidecars?';
       case 'video_source_scrape_external_overwrite_confirm_body':
-        return 'This batch may replace third-party NFO/images or Hibiki files you edited. Media files are not changed. Continue?';
+        return 'This batch may replace third-party NFO/images or Fushi files you edited. Media files are not changed. Continue?';
       case 'video_source_scrape_tasks_open':
         return 'Background tasks';
       case 'video_source_scrape_background_started':
