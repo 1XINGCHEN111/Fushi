@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57222 (3366 per locale)
+/// Strings: 57239 (3367 per locale)
 ///
-/// Built on 2026-08-12 at 11:23 UTC
+/// Built on 2026-08-13 at 05:25 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4555,6 +4555,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -12326,6 +12328,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -20164,6 +20169,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -28018,6 +28026,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -35884,6 +35895,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -43678,6 +43692,9 @@ class _StringsId extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -51518,6 +51535,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -59172,6 +59192,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -66833,6 +66856,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -74653,6 +74679,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -82485,6 +82514,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -90303,6 +90335,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -98069,6 +98104,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -105866,6 +105904,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -113648,6 +113689,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 // Path: <root>
@@ -120864,6 +120908,9 @@ class _StringsZhCn extends _StringsEn {
       '选择本设备要把哪些内容上传给已连接的互联对端。与云备份的同名开关互不影响，且默认全部关闭。本组开关只在「启用互联」打开时生效：关掉互联，这里的上传全部停止。';
   @override
   String get remote_delete_audiobook_partial => '书已在对端删除，但它的有声书没能删掉';
+  @override
+  String get download_detail_task_queued =>
+      '排队中：正在等其他下载让出槽位。任务还没交给下载器，所以暂时没有实时节点和 Tracker 数据。';
 }
 
 // Path: <root>
@@ -128441,6 +128488,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get remote_delete_audiobook_partial =>
       'Book deleted, but its audiobook could not be removed on the paired device';
+  @override
+  String get download_detail_task_queued =>
+      'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
 }
 
 /// Flat map(s) containing all translations.
@@ -135355,6 +135405,8 @@ extension on _StringsEn {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -142267,6 +142319,8 @@ extension on _StringsAr {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -149201,6 +149255,8 @@ extension on _StringsDe {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -156134,6 +156190,8 @@ extension on _StringsEs {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -163073,6 +163131,8 @@ extension on _StringsFr {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -169994,6 +170054,8 @@ extension on _StringsId {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -176929,6 +176991,8 @@ extension on _StringsIt {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -183826,6 +183890,8 @@ extension on _StringsJa {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -190727,6 +190793,8 @@ extension on _StringsKo {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -197656,6 +197724,8 @@ extension on _StringsNl {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -204582,6 +204652,8 @@ extension on _StringsPtBr {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -211513,6 +211585,8 @@ extension on _StringsRu {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -218427,6 +218501,8 @@ extension on _StringsTh {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -225350,6 +225426,8 @@ extension on _StringsTr {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -232269,6 +232347,8 @@ extension on _StringsVi {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
@@ -239130,6 +239210,8 @@ extension on _StringsZhCn {
         return '选择本设备要把哪些内容上传给已连接的互联对端。与云备份的同名开关互不影响，且默认全部关闭。本组开关只在「启用互联」打开时生效：关掉互联，这里的上传全部停止。';
       case 'remote_delete_audiobook_partial':
         return '书已在对端删除，但它的有声书没能删掉';
+      case 'download_detail_task_queued':
+        return '排队中：正在等其他下载让出槽位。任务还没交给下载器，所以暂时没有实时节点和 Tracker 数据。';
       default:
         return null;
     }
@@ -246022,6 +246104,8 @@ extension on _StringsZhHk {
         return 'Choose what this device uploads to the connected peer. Independent from the cloud backup switches and off by default. These switches only apply while Enable interconnect is on: turning interconnect off stops every upload here.';
       case 'remote_delete_audiobook_partial':
         return 'Book deleted, but its audiobook could not be removed on the paired device';
+      case 'download_detail_task_queued':
+        return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
       default:
         return null;
     }
