@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57307 (3371 per locale)
+/// Strings: 57409 (3377 per locale)
 ///
-/// Built on 2026-08-13 at 08:43 UTC
+/// Built on 2026-08-13 at 11:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4563,6 +4563,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_task_priority_high => 'High';
   String get download_task_priority_normal => 'Normal';
   String get download_task_priority_low => 'Low';
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -12337,6 +12345,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -12347,6 +12356,19 @@ class _StringsAr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -20188,6 +20210,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -20198,6 +20221,19 @@ class _StringsDe extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -28055,6 +28091,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -28065,6 +28102,19 @@ class _StringsEs extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -35934,6 +35984,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -35944,6 +35995,19 @@ class _StringsFr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -43741,6 +43805,7 @@ class _StringsId extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -43751,6 +43816,19 @@ class _StringsId extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -51594,6 +51672,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -51604,6 +51683,19 @@ class _StringsIt extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -59261,6 +59353,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -59271,6 +59364,19 @@ class _StringsJa extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -66935,6 +67041,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -66945,6 +67052,19 @@ class _StringsKo extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -74768,6 +74888,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -74778,6 +74899,19 @@ class _StringsNl extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -82613,6 +82747,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -82623,6 +82758,19 @@ class _StringsPtBr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -90444,6 +90592,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -90454,6 +90603,19 @@ class _StringsRu extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -98223,6 +98385,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -98233,6 +98396,19 @@ class _StringsTh extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -106033,6 +106209,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -106043,6 +106220,19 @@ class _StringsTr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -113828,6 +114018,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -113838,6 +114029,19 @@ class _StringsVi extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 // Path: <root>
@@ -121057,6 +121261,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       '排队中：正在等其他下载让出槽位。任务还没交给下载器，所以暂时没有实时节点和 Tracker 数据。';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '共 ${count} 个发布';
   @override
@@ -121067,6 +121272,17 @@ class _StringsZhCn extends _StringsEn {
   String get download_task_priority_normal => '普通';
   @override
   String get download_task_priority_low => '低';
+  @override
+  String get video_setting_secondary_av_delay => '副字幕调轴';
+  @override
+  String get video_setting_secondary_av_delay_hint => '副字幕独立偏移；未单独设置时跟随主字幕调轴。';
+  @override
+  String get video_setting_secondary_delay_follow => '跟随主字幕';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      '副字幕同步：${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd => '副字幕同步：跟随主字幕';
 }
 
 // Path: <root>
@@ -128647,6 +128863,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -128657,6 +128874,19 @@ class _StringsZhHk extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
 }
 
 /// Flat map(s) containing all translations.
@@ -135583,6 +135813,16 @@ extension on _StringsEn {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -142507,6 +142747,16 @@ extension on _StringsAr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -149453,6 +149703,16 @@ extension on _StringsDe {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -156398,6 +156658,16 @@ extension on _StringsEs {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -163349,6 +163619,16 @@ extension on _StringsFr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -170282,6 +170562,16 @@ extension on _StringsId {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -177229,6 +177519,16 @@ extension on _StringsIt {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -184138,6 +184438,16 @@ extension on _StringsJa {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -191051,6 +191361,16 @@ extension on _StringsKo {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -197992,6 +198312,16 @@ extension on _StringsNl {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -204930,6 +205260,16 @@ extension on _StringsPtBr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -211873,6 +212213,16 @@ extension on _StringsRu {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -218799,6 +219149,16 @@ extension on _StringsTh {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -225734,6 +226094,16 @@ extension on _StringsTr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -232665,6 +233035,16 @@ extension on _StringsVi {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
@@ -239538,6 +239918,16 @@ extension on _StringsZhCn {
         return '普通';
       case 'download_task_priority_low':
         return '低';
+      case 'video_setting_secondary_av_delay':
+        return '副字幕调轴';
+      case 'video_setting_secondary_av_delay_hint':
+        return '副字幕独立偏移；未单独设置时跟随主字幕调轴。';
+      case 'video_setting_secondary_delay_follow':
+        return '跟随主字幕';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => '副字幕同步：${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return '副字幕同步：跟随主字幕';
       default:
         return null;
     }
@@ -246442,6 +246832,16 @@ extension on _StringsZhHk {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
       default:
         return null;
     }
