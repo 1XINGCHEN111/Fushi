@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57239 (3367 per locale)
+/// Strings: 57307 (3371 per locale)
 ///
-/// Built on 2026-08-13 at 05:25 UTC
+/// Built on 2026-08-13 at 08:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4557,6 +4557,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Book deleted, but its audiobook could not be removed on the paired device';
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  String get download_task_priority => 'Queue priority';
+  String get download_task_priority_high => 'High';
+  String get download_task_priority_normal => 'Normal';
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -12331,6 +12337,16 @@ class _StringsAr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -20172,6 +20188,16 @@ class _StringsDe extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -28029,6 +28055,16 @@ class _StringsEs extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -35898,6 +35934,16 @@ class _StringsFr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -43695,6 +43741,16 @@ class _StringsId extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -51538,6 +51594,16 @@ class _StringsIt extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -59195,6 +59261,16 @@ class _StringsJa extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -66859,6 +66935,16 @@ class _StringsKo extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -74682,6 +74768,16 @@ class _StringsNl extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -82517,6 +82613,16 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -90338,6 +90444,16 @@ class _StringsRu extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -98107,6 +98223,16 @@ class _StringsTh extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -105907,6 +106033,16 @@ class _StringsTr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -113692,6 +113828,16 @@ class _StringsVi extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 // Path: <root>
@@ -120911,6 +121057,16 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       '排队中：正在等其他下载让出槽位。任务还没交给下载器，所以暂时没有实时节点和 Tracker 数据。';
+  String video_subscription_group_release_count({required Object count}) =>
+      '共 ${count} 个发布';
+  @override
+  String get download_task_priority => '排队优先级';
+  @override
+  String get download_task_priority_high => '高';
+  @override
+  String get download_task_priority_normal => '普通';
+  @override
+  String get download_task_priority_low => '低';
 }
 
 // Path: <root>
@@ -128491,6 +128647,16 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  String video_subscription_group_release_count({required Object count}) =>
+      '${count} releases';
+  @override
+  String get download_task_priority => 'Queue priority';
+  @override
+  String get download_task_priority_high => 'High';
+  @override
+  String get download_task_priority_normal => 'Normal';
+  @override
+  String get download_task_priority_low => 'Low';
 }
 
 /// Flat map(s) containing all translations.
@@ -135407,6 +135573,16 @@ extension on _StringsEn {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -142321,6 +142497,16 @@ extension on _StringsAr {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -149257,6 +149443,16 @@ extension on _StringsDe {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -156192,6 +156388,16 @@ extension on _StringsEs {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -163133,6 +163339,16 @@ extension on _StringsFr {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -170056,6 +170272,16 @@ extension on _StringsId {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -176993,6 +177219,16 @@ extension on _StringsIt {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -183892,6 +184128,16 @@ extension on _StringsJa {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -190795,6 +191041,16 @@ extension on _StringsKo {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -197726,6 +197982,16 @@ extension on _StringsNl {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -204654,6 +204920,16 @@ extension on _StringsPtBr {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -211587,6 +211863,16 @@ extension on _StringsRu {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -218503,6 +218789,16 @@ extension on _StringsTh {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -225428,6 +225724,16 @@ extension on _StringsTr {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -232349,6 +232655,16 @@ extension on _StringsVi {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
@@ -239212,6 +239528,16 @@ extension on _StringsZhCn {
         return '书已在对端删除，但它的有声书没能删掉';
       case 'download_detail_task_queued':
         return '排队中：正在等其他下载让出槽位。任务还没交给下载器，所以暂时没有实时节点和 Tracker 数据。';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '共 ${count} 个发布';
+      case 'download_task_priority':
+        return '排队优先级';
+      case 'download_task_priority_high':
+        return '高';
+      case 'download_task_priority_normal':
+        return '普通';
+      case 'download_task_priority_low':
+        return '低';
       default:
         return null;
     }
@@ -246106,6 +246432,16 @@ extension on _StringsZhHk {
         return 'Book deleted, but its audiobook could not be removed on the paired device';
       case 'download_detail_task_queued':
         return 'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+      case 'video_subscription_group_release_count':
+        return ({required Object count}) => '${count} releases';
+      case 'download_task_priority':
+        return 'Queue priority';
+      case 'download_task_priority_high':
+        return 'High';
+      case 'download_task_priority_normal':
+        return 'Normal';
+      case 'download_task_priority_low':
+        return 'Low';
       default:
         return null;
     }
