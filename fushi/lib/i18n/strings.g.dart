@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57460 (3380 per locale)
+/// Strings: 57647 (3391 per locale)
 ///
-/// Built on 2026-08-13 at 12:05 UTC
+/// Built on 2026-08-13 at 12:25 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4573,6 +4573,21 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get library_empty_go_import => 'Go to import';
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  String get library_view_sources => 'Sources';
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  String get video_subtitle_anchor_top => 'Top';
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -12376,6 +12391,32 @@ class _StringsAr extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -20246,6 +20287,32 @@ class _StringsDe extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -28132,6 +28199,32 @@ class _StringsEs extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -36030,6 +36123,32 @@ class _StringsFr extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -43856,6 +43975,32 @@ class _StringsId extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -51728,6 +51873,32 @@ class _StringsIt extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -59414,6 +59585,32 @@ class _StringsJa extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -67107,6 +67304,32 @@ class _StringsKo extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -74959,6 +75182,32 @@ class _StringsNl extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -82823,6 +83072,32 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -90673,6 +90948,32 @@ class _StringsRu extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -98471,6 +98772,32 @@ class _StringsTh extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -106300,6 +106627,32 @@ class _StringsTr extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -114114,6 +114467,32 @@ class _StringsVi extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -121360,6 +121739,29 @@ class _StringsZhCn extends _StringsEn {
   String get library_empty_go_import => '去导入';
   @override
   String get game_import_drop_hint => '也可以把 .exe 文件直接拖进游戏库添加';
+  @override
+  String get library_view_sources => '来源';
+  @override
+  String get video_setting_secondary_av_delay => '副字幕调轴';
+  @override
+  String get video_setting_secondary_av_delay_hint => '副字幕独立偏移；未单独设置时跟随主字幕调轴。';
+  @override
+  String get video_setting_secondary_delay_follow => '跟随主字幕';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      '副字幕同步：${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd => '副字幕同步：跟随主字幕';
+  @override
+  String get video_setting_subtitle_anchor => '主字幕锚定';
+  @override
+  String get video_subtitle_anchor_bottom => '底部';
+  @override
+  String get video_subtitle_anchor_top => '顶部';
+  @override
+  String get video_setting_subtitle_drag_adjust => '拖拽调整位置';
+  @override
+  String get video_subtitle_drag_adjust_hint => '上下拖动字幕调整位置';
 }
 
 // Path: <root>
@@ -128969,6 +129371,32 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
+  @override
+  String get library_view_sources => 'Sources';
+  @override
+  String get video_setting_secondary_av_delay => 'Secondary subtitle sync';
+  @override
+  String get video_setting_secondary_av_delay_hint =>
+      'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+  @override
+  String get video_setting_secondary_delay_follow => 'Follow primary';
+  @override
+  String video_subtitle_secondary_delay_osd({required Object ms}) =>
+      'Secondary subtitle sync: ${ms} ms';
+  @override
+  String get video_subtitle_secondary_delay_follow_osd =>
+      'Secondary subtitle sync: follow primary';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 /// Flat map(s) containing all translations.
@@ -135911,6 +136339,28 @@ extension on _StringsEn {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -142851,6 +143301,28 @@ extension on _StringsAr {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -149813,6 +150285,28 @@ extension on _StringsDe {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -156774,6 +157268,28 @@ extension on _StringsEs {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -163741,6 +164257,28 @@ extension on _StringsFr {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -170690,6 +171228,28 @@ extension on _StringsId {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -177653,6 +178213,28 @@ extension on _StringsIt {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -184578,6 +185160,28 @@ extension on _StringsJa {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -191507,6 +192111,28 @@ extension on _StringsKo {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -198464,6 +199090,28 @@ extension on _StringsNl {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -205418,6 +206066,28 @@ extension on _StringsPtBr {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -212377,6 +213047,28 @@ extension on _StringsRu {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -219319,6 +220011,28 @@ extension on _StringsTh {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -226270,6 +226984,28 @@ extension on _StringsTr {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -233217,6 +233953,28 @@ extension on _StringsVi {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -240106,6 +240864,28 @@ extension on _StringsZhCn {
         return '去导入';
       case 'game_import_drop_hint':
         return '也可以把 .exe 文件直接拖进游戏库添加';
+      case 'library_view_sources':
+        return '来源';
+      case 'video_setting_secondary_av_delay':
+        return '副字幕调轴';
+      case 'video_setting_secondary_av_delay_hint':
+        return '副字幕独立偏移；未单独设置时跟随主字幕调轴。';
+      case 'video_setting_secondary_delay_follow':
+        return '跟随主字幕';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => '副字幕同步：${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return '副字幕同步：跟随主字幕';
+      case 'video_setting_subtitle_anchor':
+        return '主字幕锚定';
+      case 'video_subtitle_anchor_bottom':
+        return '底部';
+      case 'video_subtitle_anchor_top':
+        return '顶部';
+      case 'video_setting_subtitle_drag_adjust':
+        return '拖拽调整位置';
+      case 'video_subtitle_drag_adjust_hint':
+        return '上下拖动字幕调整位置';
       default:
         return null;
     }
@@ -247026,6 +247806,28 @@ extension on _StringsZhHk {
         return 'Go to import';
       case 'game_import_drop_hint':
         return 'You can also drag .exe files into the game library';
+      case 'library_view_sources':
+        return 'Sources';
+      case 'video_setting_secondary_av_delay':
+        return 'Secondary subtitle sync';
+      case 'video_setting_secondary_av_delay_hint':
+        return 'Adjust the secondary subtitle offset independently. It follows the primary offset until set here.';
+      case 'video_setting_secondary_delay_follow':
+        return 'Follow primary';
+      case 'video_subtitle_secondary_delay_osd':
+        return ({required Object ms}) => 'Secondary subtitle sync: ${ms} ms';
+      case 'video_subtitle_secondary_delay_follow_osd':
+        return 'Secondary subtitle sync: follow primary';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
