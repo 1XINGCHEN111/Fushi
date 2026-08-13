@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57307 (3371 per locale)
+/// Strings: 57324 (3372 per locale)
 ///
-/// Built on 2026-08-13 at 08:43 UTC
+/// Built on 2026-08-13 at 11:34 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -12337,6 +12337,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -20188,6 +20189,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -28055,6 +28057,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -35934,6 +35937,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -43741,6 +43745,7 @@ class _StringsId extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -51594,6 +51599,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -59261,6 +59267,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -66935,6 +66942,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -74768,6 +74776,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -82613,6 +82622,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -90444,6 +90454,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -98223,6 +98234,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -106033,6 +106045,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -113828,6 +113841,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -121057,6 +121071,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       '排队中：正在等其他下载让出槽位。任务还没交给下载器，所以暂时没有实时节点和 Tracker 数据。';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '共 ${count} 个发布';
   @override
@@ -128647,6 +128662,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
