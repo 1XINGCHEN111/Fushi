@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57307 (3371 per locale)
+/// Strings: 57409 (3377 per locale)
 ///
-/// Built on 2026-08-13 at 08:43 UTC
+/// Built on 2026-08-13 at 11:51 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4563,6 +4563,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_task_priority_high => 'High';
   String get download_task_priority_normal => 'Normal';
   String get download_task_priority_low => 'Low';
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  String get video_subtitle_anchor_top => 'Top';
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -12337,6 +12343,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -12347,6 +12354,17 @@ class _StringsAr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -20188,6 +20206,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -20198,6 +20217,17 @@ class _StringsDe extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -28055,6 +28085,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -28065,6 +28096,17 @@ class _StringsEs extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -35934,6 +35976,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -35944,6 +35987,17 @@ class _StringsFr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -43741,6 +43795,7 @@ class _StringsId extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -43751,6 +43806,17 @@ class _StringsId extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -51594,6 +51660,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -51604,6 +51671,17 @@ class _StringsIt extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -59261,6 +59339,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -59271,6 +59350,17 @@ class _StringsJa extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -66935,6 +67025,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -66945,6 +67036,17 @@ class _StringsKo extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -74768,6 +74870,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -74778,6 +74881,17 @@ class _StringsNl extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -82613,6 +82727,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -82623,6 +82738,17 @@ class _StringsPtBr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -90444,6 +90570,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -90454,6 +90581,17 @@ class _StringsRu extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -98223,6 +98361,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -98233,6 +98372,17 @@ class _StringsTh extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -106033,6 +106183,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -106043,6 +106194,17 @@ class _StringsTr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -113828,6 +113990,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -113838,6 +114001,17 @@ class _StringsVi extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 // Path: <root>
@@ -121057,6 +121231,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       '排队中：正在等其他下载让出槽位。任务还没交给下载器，所以暂时没有实时节点和 Tracker 数据。';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '共 ${count} 个发布';
   @override
@@ -121067,6 +121242,16 @@ class _StringsZhCn extends _StringsEn {
   String get download_task_priority_normal => '普通';
   @override
   String get download_task_priority_low => '低';
+  @override
+  String get video_setting_subtitle_anchor => '主字幕锚定';
+  @override
+  String get video_subtitle_anchor_bottom => '底部';
+  @override
+  String get video_subtitle_anchor_top => '顶部';
+  @override
+  String get video_setting_subtitle_drag_adjust => '拖拽调整位置';
+  @override
+  String get video_subtitle_drag_adjust_hint => '上下拖动字幕调整位置';
 }
 
 // Path: <root>
@@ -128647,6 +128832,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get download_detail_task_queued =>
       'Queued: waiting for other downloads to free a slot. This task has not been handed to the downloader yet, so there is no live peer or tracker data.';
+  @override
   String video_subscription_group_release_count({required Object count}) =>
       '${count} releases';
   @override
@@ -128657,6 +128843,17 @@ class _StringsZhHk extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get video_setting_subtitle_anchor => 'Main subtitle anchor';
+  @override
+  String get video_subtitle_anchor_bottom => 'Bottom';
+  @override
+  String get video_subtitle_anchor_top => 'Top';
+  @override
+  String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
+  @override
+  String get video_subtitle_drag_adjust_hint =>
+      'Drag a subtitle up or down to reposition it';
 }
 
 /// Flat map(s) containing all translations.
@@ -135583,6 +135780,16 @@ extension on _StringsEn {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -142507,6 +142714,16 @@ extension on _StringsAr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -149453,6 +149670,16 @@ extension on _StringsDe {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -156398,6 +156625,16 @@ extension on _StringsEs {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -163349,6 +163586,16 @@ extension on _StringsFr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -170282,6 +170529,16 @@ extension on _StringsId {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -177229,6 +177486,16 @@ extension on _StringsIt {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -184138,6 +184405,16 @@ extension on _StringsJa {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -191051,6 +191328,16 @@ extension on _StringsKo {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -197992,6 +198279,16 @@ extension on _StringsNl {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -204930,6 +205227,16 @@ extension on _StringsPtBr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -211873,6 +212180,16 @@ extension on _StringsRu {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -218799,6 +219116,16 @@ extension on _StringsTh {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -225734,6 +226061,16 @@ extension on _StringsTr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -232665,6 +233002,16 @@ extension on _StringsVi {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
@@ -239538,6 +239885,16 @@ extension on _StringsZhCn {
         return '普通';
       case 'download_task_priority_low':
         return '低';
+      case 'video_setting_subtitle_anchor':
+        return '主字幕锚定';
+      case 'video_subtitle_anchor_bottom':
+        return '底部';
+      case 'video_subtitle_anchor_top':
+        return '顶部';
+      case 'video_setting_subtitle_drag_adjust':
+        return '拖拽调整位置';
+      case 'video_subtitle_drag_adjust_hint':
+        return '上下拖动字幕调整位置';
       default:
         return null;
     }
@@ -246442,6 +246799,16 @@ extension on _StringsZhHk {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'video_setting_subtitle_anchor':
+        return 'Main subtitle anchor';
+      case 'video_subtitle_anchor_bottom':
+        return 'Bottom';
+      case 'video_subtitle_anchor_top':
+        return 'Top';
+      case 'video_setting_subtitle_drag_adjust':
+        return 'Drag to adjust position';
+      case 'video_subtitle_drag_adjust_hint':
+        return 'Drag a subtitle up or down to reposition it';
       default:
         return null;
     }
