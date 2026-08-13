@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57324 (3372 per locale)
+/// Strings: 57460 (3380 per locale)
 ///
-/// Built on 2026-08-13 at 11:34 UTC
+/// Built on 2026-08-13 at 12:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3672,7 +3672,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String media_source_count_manga({required Object n}) => '${n} volumes';
   String get library_view_shelf => 'Shelf';
   String get library_view_browse => 'Browse';
-  String get library_view_sources => 'Sources';
   String get library_view_media => 'Library';
   String get scrape_failure_detail_show => 'Show details';
   String get scrape_failure_detail_hide => 'Hide details';
@@ -4563,6 +4562,17 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_task_priority_high => 'High';
   String get download_task_priority_normal => 'Normal';
   String get download_task_priority_low => 'Low';
+  String get library_view_import => 'Import';
+  String get quick_import_title => 'Quick import';
+  String get media_source_section_title => 'Library sources';
+  String get book_import_folder => 'Import folder';
+  String get book_import_folder_as_source => 'Add as library source';
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  String get book_import_folder_once => 'Import once only';
+  String get library_empty_go_import => 'Go to import';
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -10816,8 +10826,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -12348,6 +12356,26 @@ class _StringsAr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -18668,8 +18696,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -20200,6 +20226,26 @@ class _StringsDe extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -26536,8 +26582,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -28068,6 +28112,26 @@ class _StringsEs extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -34416,8 +34480,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -35948,6 +36010,26 @@ class _StringsFr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -42224,8 +42306,6 @@ class _StringsId extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -43756,6 +43836,26 @@ class _StringsId extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -50078,8 +50178,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -51610,6 +51708,26 @@ class _StringsIt extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -57746,8 +57864,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -59278,6 +59394,26 @@ class _StringsJa extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -65421,8 +65557,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -66953,6 +67087,26 @@ class _StringsKo extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -73255,8 +73409,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -74787,6 +74939,26 @@ class _StringsNl extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -81101,8 +81273,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -82633,6 +82803,26 @@ class _StringsPtBr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -88933,8 +89123,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -90465,6 +90653,26 @@ class _StringsRu extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -96713,8 +96921,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -98245,6 +98451,26 @@ class _StringsTh extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -104524,8 +104750,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -106056,6 +106280,26 @@ class _StringsTr extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -112320,8 +112564,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -113852,6 +114094,26 @@ class _StringsVi extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 // Path: <root>
@@ -119674,8 +119936,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get library_view_browse => '浏览';
   @override
-  String get library_view_sources => '来源';
-  @override
   String get library_view_media => '媒体库';
   @override
   String get scrape_failure_detail_show => '显示详情';
@@ -121082,6 +121342,24 @@ class _StringsZhCn extends _StringsEn {
   String get download_task_priority_normal => '普通';
   @override
   String get download_task_priority_low => '低';
+  @override
+  String get library_view_import => '导入';
+  @override
+  String get quick_import_title => '快速导入';
+  @override
+  String get media_source_section_title => '常驻来源';
+  @override
+  String get book_import_folder => '导入文件夹';
+  @override
+  String get book_import_folder_as_source => '设为常驻来源';
+  @override
+  String get book_import_folder_as_source_hint => '以后自动扫描此文件夹里的新书';
+  @override
+  String get book_import_folder_once => '仅导入这一次';
+  @override
+  String get library_empty_go_import => '去导入';
+  @override
+  String get game_import_drop_hint => '也可以把 .exe 文件直接拖进游戏库添加';
 }
 
 // Path: <root>
@@ -127142,8 +127420,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get library_view_browse => 'Browse';
   @override
-  String get library_view_sources => 'Sources';
-  @override
   String get library_view_media => 'Library';
   @override
   String get scrape_failure_detail_show => 'Show details';
@@ -128673,6 +128949,26 @@ class _StringsZhHk extends _StringsEn {
   String get download_task_priority_normal => 'Normal';
   @override
   String get download_task_priority_low => 'Low';
+  @override
+  String get library_view_import => 'Import';
+  @override
+  String get quick_import_title => 'Quick import';
+  @override
+  String get media_source_section_title => 'Library sources';
+  @override
+  String get book_import_folder => 'Import folder';
+  @override
+  String get book_import_folder_as_source => 'Add as library source';
+  @override
+  String get book_import_folder_as_source_hint =>
+      'Keep scanning this folder for new books';
+  @override
+  String get book_import_folder_once => 'Import once only';
+  @override
+  String get library_empty_go_import => 'Go to import';
+  @override
+  String get game_import_drop_hint =>
+      'You can also drag .exe files into the game library';
 }
 
 /// Flat map(s) containing all translations.
@@ -134267,8 +134563,6 @@ extension on _StringsEn {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -135599,6 +135893,24 @@ extension on _StringsEn {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -141191,8 +141503,6 @@ extension on _StringsAr {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -142523,6 +142833,24 @@ extension on _StringsAr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -148137,8 +148465,6 @@ extension on _StringsDe {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -149469,6 +149795,24 @@ extension on _StringsDe {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -155082,8 +155426,6 @@ extension on _StringsEs {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -156414,6 +156756,24 @@ extension on _StringsEs {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -162033,8 +162393,6 @@ extension on _StringsFr {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -163365,6 +163723,24 @@ extension on _StringsFr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -168966,8 +169342,6 @@ extension on _StringsId {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -170298,6 +170672,24 @@ extension on _StringsId {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -175913,8 +176305,6 @@ extension on _StringsIt {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -177245,6 +177635,24 @@ extension on _StringsIt {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -182822,8 +183230,6 @@ extension on _StringsJa {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -184154,6 +184560,24 @@ extension on _StringsJa {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -189735,8 +190159,6 @@ extension on _StringsKo {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -191067,6 +191489,24 @@ extension on _StringsKo {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -196676,8 +197116,6 @@ extension on _StringsNl {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -198008,6 +198446,24 @@ extension on _StringsNl {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -203614,8 +204070,6 @@ extension on _StringsPtBr {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -204946,6 +205400,24 @@ extension on _StringsPtBr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -210557,8 +211029,6 @@ extension on _StringsRu {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -211889,6 +212359,24 @@ extension on _StringsRu {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -217483,8 +217971,6 @@ extension on _StringsTh {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -218815,6 +219301,24 @@ extension on _StringsTh {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -224418,8 +224922,6 @@ extension on _StringsTr {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -225750,6 +226252,24 @@ extension on _StringsTr {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -231349,8 +231869,6 @@ extension on _StringsVi {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -232681,6 +233199,24 @@ extension on _StringsVi {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
@@ -238232,8 +238768,6 @@ extension on _StringsZhCn {
         return '书架';
       case 'library_view_browse':
         return '浏览';
-      case 'library_view_sources':
-        return '来源';
       case 'library_view_media':
         return '媒体库';
       case 'scrape_failure_detail_show':
@@ -239554,6 +240088,24 @@ extension on _StringsZhCn {
         return '普通';
       case 'download_task_priority_low':
         return '低';
+      case 'library_view_import':
+        return '导入';
+      case 'quick_import_title':
+        return '快速导入';
+      case 'media_source_section_title':
+        return '常驻来源';
+      case 'book_import_folder':
+        return '导入文件夹';
+      case 'book_import_folder_as_source':
+        return '设为常驻来源';
+      case 'book_import_folder_as_source_hint':
+        return '以后自动扫描此文件夹里的新书';
+      case 'book_import_folder_once':
+        return '仅导入这一次';
+      case 'library_empty_go_import':
+        return '去导入';
+      case 'game_import_drop_hint':
+        return '也可以把 .exe 文件直接拖进游戏库添加';
       default:
         return null;
     }
@@ -245126,8 +245678,6 @@ extension on _StringsZhHk {
         return 'Shelf';
       case 'library_view_browse':
         return 'Browse';
-      case 'library_view_sources':
-        return 'Sources';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -246458,6 +247008,24 @@ extension on _StringsZhHk {
         return 'Normal';
       case 'download_task_priority_low':
         return 'Low';
+      case 'library_view_import':
+        return 'Import';
+      case 'quick_import_title':
+        return 'Quick import';
+      case 'media_source_section_title':
+        return 'Library sources';
+      case 'book_import_folder':
+        return 'Import folder';
+      case 'book_import_folder_as_source':
+        return 'Add as library source';
+      case 'book_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new books';
+      case 'book_import_folder_once':
+        return 'Import once only';
+      case 'library_empty_go_import':
+        return 'Go to import';
+      case 'game_import_drop_hint':
+        return 'You can also drag .exe files into the game library';
       default:
         return null;
     }
