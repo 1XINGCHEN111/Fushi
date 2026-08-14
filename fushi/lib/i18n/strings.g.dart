@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57732 (3396 per locale)
+/// Strings: 58123 (3419 per locale)
 ///
-/// Built on 2026-08-14 at 15:35 UTC
+/// Built on 2026-08-14 at 20:31 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4602,6 +4602,34 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'No subtitle lines found in that file';
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  String get aidoku_extension_version => 'Version';
+  String get aidoku_repository_url => 'Repository URL';
+  String get aidoku_repository_sources => 'Repository sources';
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  String get aidoku_repository_installed => 'Installed';
+  String get aidoku_repository_search => 'Search repository sources';
+  String get aidoku_repository_install => 'Install';
+  String get aidoku_repository_update => 'Update';
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  String get aidoku_repository_added => 'Aidoku repository added';
+  String get aidoku_repository_browse => 'Browse repository';
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  String get aidoku_repository_remove => 'Remove repository';
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -12450,6 +12478,57 @@ class _StringsAr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -20365,6 +20444,57 @@ class _StringsDe extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -28296,6 +28426,57 @@ class _StringsEs extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -36239,6 +36420,57 @@ class _StringsFr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -44110,6 +44342,57 @@ class _StringsId extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -52027,6 +52310,57 @@ class _StringsIt extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -59758,6 +60092,57 @@ class _StringsJa extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -67496,6 +67881,57 @@ class _StringsKo extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -75393,6 +75829,57 @@ class _StringsNl extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -83302,6 +83789,57 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -91197,6 +91735,57 @@ class _StringsRu extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -99040,6 +99629,57 @@ class _StringsTh extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -106914,6 +107554,57 @@ class _StringsTr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -114773,6 +115464,57 @@ class _StringsVi extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 // Path: <root>
@@ -122058,6 +122800,54 @@ class _StringsZhCn extends _StringsEn {
   String get srt_book_reimport_no_cues => '该字幕文件解析不出任何字幕行';
   @override
   String get srt_book_reimport_body_rebuilt => '正文已重建，请重新打开本书';
+  @override
+  String get aidoku_runtime_unavailable => 'Aidoku 扩展目前仅支持 macOS。';
+  @override
+  String get aidoku_extensions_title => 'Aidoku 扩展';
+  @override
+  String get aidoku_extension_empty => '尚未安装 Aidoku 扩展。';
+  @override
+  String get aidoku_extension_remove => '移除 Aidoku 扩展';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku 扩展会执行具有网络访问权限的第三方 WebAssembly 代码。请只导入你信任的来源。';
+  @override
+  String get aidoku_webview_unsupported => '此扩展依赖尚未支持的 Aidoku WebView API。';
+  @override
+  String get aidoku_extension_imported => 'Aidoku 扩展已导入';
+  @override
+  String get aidoku_extension_import => '导入 Aidoku 扩展（.aix）';
+  @override
+  String get aidoku_extension_confirm_title => '安装 Aidoku 扩展？';
+  @override
+  String get aidoku_extension_version => '版本';
+  @override
+  String get aidoku_repository_url => '仓库地址';
+  @override
+  String get aidoku_repository_sources => '仓库扩展';
+  @override
+  String get aidoku_repository_identity_mismatch => '下载的扩展包与仓库索引不一致。';
+  @override
+  String get aidoku_repository_installed => '已安装';
+  @override
+  String get aidoku_repository_search => '搜索仓库扩展';
+  @override
+  String get aidoku_repository_install => '安装';
+  @override
+  String get aidoku_repository_update => '更新';
+  @override
+  String get aidoku_repository_add => '添加 Aidoku 仓库';
+  @override
+  String get aidoku_repository_added => 'Aidoku 仓库已添加';
+  @override
+  String get aidoku_repository_browse => '浏览仓库';
+  @override
+  String get aidoku_repository_hint =>
+      '粘贴 Aidoku 仓库主页或 index.min.json 地址。默认已填入社区仓库。';
+  @override
+  String get aidoku_repository_remove => '移除仓库';
+  @override
+  String get aidoku_repository_empty => '尚未添加 Aidoku 仓库。';
 }
 
 // Path: <root>
@@ -129712,6 +130502,57 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get aidoku_runtime_unavailable =>
+      'Aidoku extensions are currently available on macOS only.';
+  @override
+  String get aidoku_extensions_title => 'Aidoku extensions';
+  @override
+  String get aidoku_extension_empty => 'No Aidoku extensions installed.';
+  @override
+  String get aidoku_extension_remove => 'Remove Aidoku extension';
+  @override
+  String get aidoku_extension_warning =>
+      'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+  @override
+  String get aidoku_webview_unsupported =>
+      'This source requires Aidoku WebView APIs that are not supported yet.';
+  @override
+  String get aidoku_extension_imported => 'Aidoku extension imported';
+  @override
+  String get aidoku_extension_import => 'Import Aidoku extension (.aix)';
+  @override
+  String get aidoku_extension_confirm_title => 'Install Aidoku extension?';
+  @override
+  String get aidoku_extension_version => 'Version';
+  @override
+  String get aidoku_repository_url => 'Repository URL';
+  @override
+  String get aidoku_repository_sources => 'Repository sources';
+  @override
+  String get aidoku_repository_identity_mismatch =>
+      'The downloaded package does not match the repository index.';
+  @override
+  String get aidoku_repository_installed => 'Installed';
+  @override
+  String get aidoku_repository_search => 'Search repository sources';
+  @override
+  String get aidoku_repository_install => 'Install';
+  @override
+  String get aidoku_repository_update => 'Update';
+  @override
+  String get aidoku_repository_add => 'Add Aidoku repository';
+  @override
+  String get aidoku_repository_added => 'Aidoku repository added';
+  @override
+  String get aidoku_repository_browse => 'Browse repository';
+  @override
+  String get aidoku_repository_hint =>
+      'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+  @override
+  String get aidoku_repository_remove => 'Remove repository';
+  @override
+  String get aidoku_repository_empty => 'No Aidoku repositories added.';
 }
 
 /// Flat map(s) containing all translations.
@@ -136691,6 +137532,52 @@ extension on _StringsEn {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -143668,6 +144555,52 @@ extension on _StringsAr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -150667,6 +151600,52 @@ extension on _StringsDe {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -157665,6 +158644,52 @@ extension on _StringsEs {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -164669,6 +165694,52 @@ extension on _StringsFr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -171655,6 +172726,52 @@ extension on _StringsId {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -178655,6 +179772,52 @@ extension on _StringsIt {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -185617,6 +186780,52 @@ extension on _StringsJa {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -192583,6 +193792,52 @@ extension on _StringsKo {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -199577,6 +200832,52 @@ extension on _StringsNl {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -206568,6 +207869,52 @@ extension on _StringsPtBr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -213564,6 +214911,52 @@ extension on _StringsRu {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -220543,6 +221936,52 @@ extension on _StringsTh {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -227531,6 +228970,52 @@ extension on _StringsTr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -234515,6 +236000,52 @@ extension on _StringsVi {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
@@ -241441,6 +242972,52 @@ extension on _StringsZhCn {
         return '该字幕文件解析不出任何字幕行';
       case 'srt_book_reimport_body_rebuilt':
         return '正文已重建，请重新打开本书';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku 扩展目前仅支持 macOS。';
+      case 'aidoku_extensions_title':
+        return 'Aidoku 扩展';
+      case 'aidoku_extension_empty':
+        return '尚未安装 Aidoku 扩展。';
+      case 'aidoku_extension_remove':
+        return '移除 Aidoku 扩展';
+      case 'aidoku_extension_warning':
+        return 'Aidoku 扩展会执行具有网络访问权限的第三方 WebAssembly 代码。请只导入你信任的来源。';
+      case 'aidoku_webview_unsupported':
+        return '此扩展依赖尚未支持的 Aidoku WebView API。';
+      case 'aidoku_extension_imported':
+        return 'Aidoku 扩展已导入';
+      case 'aidoku_extension_import':
+        return '导入 Aidoku 扩展（.aix）';
+      case 'aidoku_extension_confirm_title':
+        return '安装 Aidoku 扩展？';
+      case 'aidoku_extension_version':
+        return '版本';
+      case 'aidoku_repository_url':
+        return '仓库地址';
+      case 'aidoku_repository_sources':
+        return '仓库扩展';
+      case 'aidoku_repository_identity_mismatch':
+        return '下载的扩展包与仓库索引不一致。';
+      case 'aidoku_repository_installed':
+        return '已安装';
+      case 'aidoku_repository_search':
+        return '搜索仓库扩展';
+      case 'aidoku_repository_install':
+        return '安装';
+      case 'aidoku_repository_update':
+        return '更新';
+      case 'aidoku_repository_add':
+        return '添加 Aidoku 仓库';
+      case 'aidoku_repository_added':
+        return 'Aidoku 仓库已添加';
+      case 'aidoku_repository_browse':
+        return '浏览仓库';
+      case 'aidoku_repository_hint':
+        return '粘贴 Aidoku 仓库主页或 index.min.json 地址。默认已填入社区仓库。';
+      case 'aidoku_repository_remove':
+        return '移除仓库';
+      case 'aidoku_repository_empty':
+        return '尚未添加 Aidoku 仓库。';
       default:
         return null;
     }
@@ -248398,6 +249975,52 @@ extension on _StringsZhHk {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'aidoku_runtime_unavailable':
+        return 'Aidoku extensions are currently available on macOS only.';
+      case 'aidoku_extensions_title':
+        return 'Aidoku extensions';
+      case 'aidoku_extension_empty':
+        return 'No Aidoku extensions installed.';
+      case 'aidoku_extension_remove':
+        return 'Remove Aidoku extension';
+      case 'aidoku_extension_warning':
+        return 'Aidoku extensions execute third-party WebAssembly code with network access. Only continue with sources you trust.';
+      case 'aidoku_webview_unsupported':
+        return 'This source requires Aidoku WebView APIs that are not supported yet.';
+      case 'aidoku_extension_imported':
+        return 'Aidoku extension imported';
+      case 'aidoku_extension_import':
+        return 'Import Aidoku extension (.aix)';
+      case 'aidoku_extension_confirm_title':
+        return 'Install Aidoku extension?';
+      case 'aidoku_extension_version':
+        return 'Version';
+      case 'aidoku_repository_url':
+        return 'Repository URL';
+      case 'aidoku_repository_sources':
+        return 'Repository sources';
+      case 'aidoku_repository_identity_mismatch':
+        return 'The downloaded package does not match the repository index.';
+      case 'aidoku_repository_installed':
+        return 'Installed';
+      case 'aidoku_repository_search':
+        return 'Search repository sources';
+      case 'aidoku_repository_install':
+        return 'Install';
+      case 'aidoku_repository_update':
+        return 'Update';
+      case 'aidoku_repository_add':
+        return 'Add Aidoku repository';
+      case 'aidoku_repository_added':
+        return 'Aidoku repository added';
+      case 'aidoku_repository_browse':
+        return 'Browse repository';
+      case 'aidoku_repository_hint':
+        return 'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
+      case 'aidoku_repository_remove':
+        return 'Remove repository';
+      case 'aidoku_repository_empty':
+        return 'No Aidoku repositories added.';
       default:
         return null;
     }
