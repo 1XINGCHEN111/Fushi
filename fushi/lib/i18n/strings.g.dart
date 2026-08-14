@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57664 (3392 per locale)
+/// Strings: 57647 (3391 per locale)
 ///
-/// Built on 2026-08-13 at 17:40 UTC
+/// Built on 2026-08-14 at 13:06 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1406,7 +1406,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get game_meta_added => 'Added';
   String get game_meta_ranking => 'Ranking';
   String get game_meta_source => 'Data source';
-  String get game_more_actions => 'More';
   String get game_never_played => 'Never played';
   String get game_no_active_line =>
       'Select a line to inspect its sentence-audio state.';
@@ -6766,8 +6765,6 @@ class _StringsAr extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -14625,8 +14622,6 @@ class _StringsDe extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -22524,8 +22519,6 @@ class _StringsEs extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -30448,8 +30441,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get game_meta_source => 'Data source';
   @override
-  String get game_more_actions => 'More';
-  @override
   String get game_never_played => 'Never played';
   @override
   String get game_no_active_line =>
@@ -38342,8 +38333,6 @@ class _StringsId extends _StringsEn {
   @override
   String get game_meta_source => 'Data source';
   @override
-  String get game_more_actions => 'More';
-  @override
   String get game_never_played => 'Never played';
   @override
   String get game_no_active_line =>
@@ -46216,8 +46205,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get game_meta_source => 'Data source';
   @override
-  String get game_more_actions => 'More';
-  @override
   String get game_never_played => 'Never played';
   @override
   String get game_no_active_line =>
@@ -54062,8 +54049,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get game_meta_source => 'Data source';
   @override
-  String get game_more_actions => 'More';
-  @override
   String get game_never_played => 'Never played';
   @override
   String get game_no_active_line =>
@@ -61777,8 +61762,6 @@ class _StringsKo extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -69547,8 +69530,6 @@ class _StringsNl extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -77437,8 +77418,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get game_meta_source => 'Data source';
   @override
-  String get game_more_actions => 'More';
-  @override
   String get game_never_played => 'Never played';
   @override
   String get game_no_active_line =>
@@ -85322,8 +85301,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get game_meta_source => 'Data source';
   @override
-  String get game_more_actions => 'More';
-  @override
   String get game_never_played => 'Never played';
   @override
   String get game_no_active_line =>
@@ -93180,8 +93157,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get game_meta_source => 'Data source';
   @override
-  String get game_more_actions => 'More';
-  @override
   String get game_never_played => 'Never played';
   @override
   String get game_no_active_line =>
@@ -101023,8 +100998,6 @@ class _StringsTr extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -108876,8 +108849,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get game_meta_source => 'Data source';
   @override
-  String get game_more_actions => 'More';
-  @override
   String get game_never_played => 'Never played';
   @override
   String get game_no_active_line =>
@@ -116561,8 +116532,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get game_meta_source => '数据来源';
   @override
-  String get game_more_actions => '更多';
-  @override
   String get game_never_played => '未游玩';
   @override
   String get game_no_active_line => '选择一条台词查看句音状态。';
@@ -123922,8 +123891,6 @@ class _StringsZhHk extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -131361,8 +131328,6 @@ extension on _StringsEn {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -138328,8 +138293,6 @@ extension on _StringsAr {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -145296,8 +145259,6 @@ extension on _StringsDe {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -152283,8 +152244,6 @@ extension on _StringsEs {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -159271,8 +159230,6 @@ extension on _StringsFr {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -166257,8 +166214,6 @@ extension on _StringsId {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -173231,8 +173186,6 @@ extension on _StringsIt {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -180207,8 +180160,6 @@ extension on _StringsJa {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -187157,8 +187108,6 @@ extension on _StringsKo {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -194120,8 +194069,6 @@ extension on _StringsNl {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -201100,8 +201047,6 @@ extension on _StringsPtBr {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -208081,8 +208026,6 @@ extension on _StringsRu {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -215056,8 +214999,6 @@ extension on _StringsTh {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -222027,8 +221968,6 @@ extension on _StringsTr {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -229000,8 +228939,6 @@ extension on _StringsVi {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -235953,8 +235890,6 @@ extension on _StringsZhCn {
         return '游戏排行';
       case 'game_meta_source':
         return '数据来源';
-      case 'game_more_actions':
-        return '更多';
       case 'game_never_played':
         return '未游玩';
       case 'game_no_active_line':
@@ -242875,8 +242810,6 @@ extension on _StringsZhHk {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
