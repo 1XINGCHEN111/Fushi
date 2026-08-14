@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57647 (3391 per locale)
+/// Strings: 57664 (3392 per locale)
 ///
-/// Built on 2026-08-13 at 12:25 UTC
+/// Built on 2026-08-13 at 17:40 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4311,13 +4311,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get game_audio_requires_thread =>
       'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect instead';
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
-  String get anki_connect_android_api_key_required =>
-      'Configure a matching AnkiConnect API key before enabling the Android backend.';
+  String get anki_connect_mobile_api_key_required =>
+      'Configure a matching AnkiConnect API key before switching to the AnkiConnect backend.';
   String anki_connect_backend_switch_failed({required Object error}) =>
       'Could not switch Anki backend: ${error}';
   String get migration_settings_entry => 'Migrate to Fushi';
@@ -4588,6 +4588,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_subtitle_drag_adjust => 'Drag to adjust position';
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -11946,15 +11948,15 @@ class _StringsAr extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -12417,6 +12419,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -19842,15 +19847,15 @@ class _StringsDe extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -20313,6 +20318,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -27754,15 +27762,15 @@ class _StringsEs extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -28225,6 +28233,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -35678,15 +35689,15 @@ class _StringsFr extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -36149,6 +36160,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -43530,15 +43544,15 @@ class _StringsId extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -44001,6 +44015,9 @@ class _StringsId extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -51428,15 +51445,15 @@ class _StringsIt extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -51899,6 +51916,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -59140,15 +59160,15 @@ class _StringsJa extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -59611,6 +59631,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -66859,15 +66882,15 @@ class _StringsKo extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -67330,6 +67353,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -74737,15 +74763,15 @@ class _StringsNl extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -75208,6 +75234,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -82627,15 +82656,15 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -83098,6 +83127,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -90503,15 +90535,15 @@ class _StringsRu extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -90974,6 +91006,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -98327,15 +98362,15 @@ class _StringsTh extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -98798,6 +98833,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -106182,15 +106220,15 @@ class _StringsTr extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -106653,6 +106691,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -114022,15 +114063,15 @@ class _StringsVi extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -114493,6 +114534,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 // Path: <root>
@@ -121348,15 +121392,15 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get game_session_waiting_thread => '等待选择台词线程';
   @override
-  String get anki_connect_use_on_android => '在 Android 上使用 AnkiConnect';
+  String get anki_connect_use_on_mobile => '改用 AnkiConnect';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       '仅在可信网络中使用。AnkiConnect 使用明文 HTTP；请配置匹配的 API key，切换后再刷新牌组与笔记类型。';
   @override
   String get anki_connect_api_key_hint => '远程 AnkiConnect 必填；必须与插件中配置的 key 一致';
   @override
-  String get anki_connect_android_api_key_required =>
-      '请先配置匹配的 AnkiConnect API key，再启用 Android 后端。';
+  String get anki_connect_mobile_api_key_required =>
+      '请先配置匹配的 AnkiConnect API key，再切换到 AnkiConnect 后端。';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
       '无法切换 Anki 后端：${error}';
@@ -121762,6 +121806,9 @@ class _StringsZhCn extends _StringsEn {
   String get video_setting_subtitle_drag_adjust => '拖拽调整位置';
   @override
   String get video_subtitle_drag_adjust_hint => '上下拖动字幕调整位置';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      '移动端使用 AnkiConnect 必须填 API key，清空后已自动关闭该开关，Anki 改回走内置后端。';
 }
 
 // Path: <root>
@@ -128926,15 +128973,15 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_session_waiting_thread => 'Waiting for a dialogue thread';
   @override
-  String get anki_connect_use_on_android => 'Use AnkiConnect on Android';
+  String get anki_connect_use_on_mobile => 'Use AnkiConnect on Android';
   @override
-  String get anki_connect_use_on_android_hint =>
+  String get anki_connect_use_on_mobile_hint =>
       'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
   @override
   String get anki_connect_api_key_hint =>
       'Required for remote AnkiConnect; must match the key configured in the add-on';
   @override
-  String get anki_connect_android_api_key_required =>
+  String get anki_connect_mobile_api_key_required =>
       'Configure a matching AnkiConnect API key before enabling the Android backend.';
   @override
   String anki_connect_backend_switch_failed({required Object error}) =>
@@ -129397,6 +129444,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_subtitle_drag_adjust_hint =>
       'Drag a subtitle up or down to reposition it';
+  @override
+  String get anki_connect_mobile_disabled_key_cleared =>
+      'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
 }
 
 /// Flat map(s) containing all translations.
@@ -135964,14 +136014,14 @@ extension on _StringsEn {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
-        return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile':
+        return 'Use AnkiConnect instead';
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
-        return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
+      case 'anki_connect_mobile_api_key_required':
+        return 'Configure a matching AnkiConnect API key before switching to the AnkiConnect backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
             'Could not switch Anki backend: ${error}';
@@ -136361,6 +136411,8 @@ extension on _StringsEn {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -142924,13 +142976,13 @@ extension on _StringsAr {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -143323,6 +143375,8 @@ extension on _StringsAr {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -149908,13 +149962,13 @@ extension on _StringsDe {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -150307,6 +150361,8 @@ extension on _StringsDe {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -156891,13 +156947,13 @@ extension on _StringsEs {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -157290,6 +157346,8 @@ extension on _StringsEs {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -163880,13 +163938,13 @@ extension on _StringsFr {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -164279,6 +164337,8 @@ extension on _StringsFr {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -170851,13 +170911,13 @@ extension on _StringsId {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -171250,6 +171310,8 @@ extension on _StringsId {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -177836,13 +177898,13 @@ extension on _StringsIt {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -178235,6 +178297,8 @@ extension on _StringsIt {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -184783,13 +184847,13 @@ extension on _StringsJa {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -185182,6 +185246,8 @@ extension on _StringsJa {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -191734,13 +191800,13 @@ extension on _StringsKo {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -192133,6 +192199,8 @@ extension on _StringsKo {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -198713,13 +198781,13 @@ extension on _StringsNl {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -199112,6 +199180,8 @@ extension on _StringsNl {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -205689,13 +205759,13 @@ extension on _StringsPtBr {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -206088,6 +206158,8 @@ extension on _StringsPtBr {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -212670,13 +212742,13 @@ extension on _StringsRu {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -213069,6 +213141,8 @@ extension on _StringsRu {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -219634,13 +219708,13 @@ extension on _StringsTh {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -220033,6 +220107,8 @@ extension on _StringsTh {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -226607,13 +226683,13 @@ extension on _StringsTr {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -227006,6 +227082,8 @@ extension on _StringsTr {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -233576,13 +233654,13 @@ extension on _StringsVi {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -233975,6 +234053,8 @@ extension on _StringsVi {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
@@ -240492,14 +240572,14 @@ extension on _StringsZhCn {
         return '音频采集源可能已经就绪，但选择线程并收到台词之前，不存在本句音频。';
       case 'game_session_waiting_thread':
         return '等待选择台词线程';
-      case 'anki_connect_use_on_android':
-        return '在 Android 上使用 AnkiConnect';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile':
+        return '改用 AnkiConnect';
+      case 'anki_connect_use_on_mobile_hint':
         return '仅在可信网络中使用。AnkiConnect 使用明文 HTTP；请配置匹配的 API key，切换后再刷新牌组与笔记类型。';
       case 'anki_connect_api_key_hint':
         return '远程 AnkiConnect 必填；必须与插件中配置的 key 一致';
-      case 'anki_connect_android_api_key_required':
-        return '请先配置匹配的 AnkiConnect API key，再启用 Android 后端。';
+      case 'anki_connect_mobile_api_key_required':
+        return '请先配置匹配的 AnkiConnect API key，再切换到 AnkiConnect 后端。';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) => '无法切换 Anki 后端：${error}';
       case 'migration_settings_entry':
@@ -240886,6 +240966,8 @@ extension on _StringsZhCn {
         return '拖拽调整位置';
       case 'video_subtitle_drag_adjust_hint':
         return '上下拖动字幕调整位置';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return '移动端使用 AnkiConnect 必须填 API key，清空后已自动关闭该开关，Anki 改回走内置后端。';
       default:
         return null;
     }
@@ -247429,13 +247511,13 @@ extension on _StringsZhHk {
         return 'The audio capture source may be ready, but sentence audio does not exist until a thread is selected and a line is received.';
       case 'game_session_waiting_thread':
         return 'Waiting for a dialogue thread';
-      case 'anki_connect_use_on_android':
+      case 'anki_connect_use_on_mobile':
         return 'Use AnkiConnect on Android';
-      case 'anki_connect_use_on_android_hint':
+      case 'anki_connect_use_on_mobile_hint':
         return 'Use only on a trusted network. AnkiConnect uses cleartext HTTP; configure a matching API key, then refresh decks and note types after switching.';
       case 'anki_connect_api_key_hint':
         return 'Required for remote AnkiConnect; must match the key configured in the add-on';
-      case 'anki_connect_android_api_key_required':
+      case 'anki_connect_mobile_api_key_required':
         return 'Configure a matching AnkiConnect API key before enabling the Android backend.';
       case 'anki_connect_backend_switch_failed':
         return ({required Object error}) =>
@@ -247828,6 +247910,8 @@ extension on _StringsZhHk {
         return 'Drag to adjust position';
       case 'video_subtitle_drag_adjust_hint':
         return 'Drag a subtitle up or down to reposition it';
+      case 'anki_connect_mobile_disabled_key_cleared':
+        return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
       default:
         return null;
     }
