@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57715 (3395 per locale)
+/// Strings: 57732 (3396 per locale)
 ///
-/// Built on 2026-08-14 at 13:26 UTC
+/// Built on 2026-08-14 at 15:35 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1406,7 +1406,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get game_meta_added => 'Added';
   String get game_meta_ranking => 'Ranking';
   String get game_meta_source => 'Data source';
-  String get game_more_actions => 'More';
   String get game_never_played => 'Never played';
   String get game_no_active_line =>
       'Select a line to inspect its sentence-audio state.';
@@ -4589,6 +4588,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Drag a subtitle up or down to reposition it';
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
   String get srt_book_reimport => 'Re-import';
   String get srt_book_reimport_subtitle_hint =>
       'Replacing the subtitle rebuilds the book text from the new cues.';
@@ -6772,8 +6778,6 @@ class _StringsAr extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -12427,6 +12431,15 @@ class _StringsAr extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -14640,8 +14653,6 @@ class _StringsDe extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -20335,6 +20346,15 @@ class _StringsDe extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -22548,8 +22568,6 @@ class _StringsEs extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -28259,6 +28277,15 @@ class _StringsEs extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -30480,8 +30507,6 @@ class _StringsFr extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -36195,6 +36220,15 @@ class _StringsFr extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -38383,8 +38417,6 @@ class _StringsId extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -44059,6 +44091,15 @@ class _StringsId extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -46266,8 +46307,6 @@ class _StringsIt extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -51969,6 +52008,15 @@ class _StringsIt extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -54121,8 +54169,6 @@ class _StringsJa extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -59693,6 +59739,15 @@ class _StringsJa extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -61846,8 +61901,6 @@ class _StringsKo extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -67424,6 +67477,15 @@ class _StringsKo extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -69625,8 +69687,6 @@ class _StringsNl extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -75314,6 +75374,15 @@ class _StringsNl extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -77523,8 +77592,6 @@ class _StringsPtBr extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -83216,6 +83283,15 @@ class _StringsPtBr extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -85417,8 +85493,6 @@ class _StringsRu extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -91104,6 +91178,15 @@ class _StringsRu extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -93284,8 +93367,6 @@ class _StringsTh extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -98940,6 +99021,15 @@ class _StringsTh extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -101137,8 +101227,6 @@ class _StringsTr extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -106807,6 +106895,15 @@ class _StringsTr extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -108998,8 +109095,6 @@ class _StringsVi extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -114659,6 +114754,15 @@ class _StringsVi extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -116692,8 +116796,6 @@ class _StringsZhCn extends _StringsEn {
   String get game_meta_ranking => '游戏排行';
   @override
   String get game_meta_source => '数据来源';
-  @override
-  String get game_more_actions => '更多';
   @override
   String get game_never_played => '未游玩';
   @override
@@ -121940,6 +122042,15 @@ class _StringsZhCn extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       '移动端使用 AnkiConnect 必须填 API key，清空后已自动关闭该开关，Anki 改回走内置后端。';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      '该文件夹里有 ${n} 个整卷文件，将逐卷各导入为一本，书名取各自的文件名。';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      '导入完成：成功 ${imported} 卷，跳过 ${skipped} 卷，失败 ${failed} 卷。';
+  @override
   String get srt_book_reimport => '重新导入';
   @override
   String get srt_book_reimport_subtitle_hint => '替换字幕会用新字幕重建这本书的正文。';
@@ -124060,8 +124171,6 @@ class _StringsZhHk extends _StringsEn {
   String get game_meta_ranking => 'Ranking';
   @override
   String get game_meta_source => 'Data source';
-  @override
-  String get game_more_actions => 'More';
   @override
   String get game_never_played => 'Never played';
   @override
@@ -129584,6 +129693,15 @@ class _StringsZhHk extends _StringsEn {
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
   @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
   String get srt_book_reimport => 'Re-import';
   @override
   String get srt_book_reimport_subtitle_hint =>
@@ -131508,8 +131626,6 @@ extension on _StringsEn {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -136558,6 +136674,15 @@ extension on _StringsEn {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -138481,8 +138606,6 @@ extension on _StringsAr {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -143528,6 +143651,15 @@ extension on _StringsAr {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -145455,8 +145587,6 @@ extension on _StringsDe {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -150520,6 +150650,15 @@ extension on _StringsDe {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -152448,8 +152587,6 @@ extension on _StringsEs {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -157511,6 +157648,15 @@ extension on _StringsEs {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -159442,8 +159588,6 @@ extension on _StringsFr {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -164508,6 +164652,15 @@ extension on _StringsFr {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -166434,8 +166587,6 @@ extension on _StringsId {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -171487,6 +171638,15 @@ extension on _StringsId {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -173414,8 +173574,6 @@ extension on _StringsIt {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -178480,6 +178638,15 @@ extension on _StringsIt {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -180396,8 +180563,6 @@ extension on _StringsJa {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -185435,6 +185600,15 @@ extension on _StringsJa {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -187352,8 +187526,6 @@ extension on _StringsKo {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -192394,6 +192566,15 @@ extension on _StringsKo {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -194321,8 +194502,6 @@ extension on _StringsNl {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -199381,6 +199560,15 @@ extension on _StringsNl {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -201307,8 +201495,6 @@ extension on _StringsPtBr {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -206365,6 +206551,15 @@ extension on _StringsPtBr {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -208294,8 +208489,6 @@ extension on _StringsRu {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -213354,6 +213547,15 @@ extension on _StringsRu {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -215275,8 +215477,6 @@ extension on _StringsTh {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -220326,6 +220526,15 @@ extension on _StringsTh {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -222252,8 +222461,6 @@ extension on _StringsTr {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -227307,6 +227514,15 @@ extension on _StringsTr {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -229231,8 +229447,6 @@ extension on _StringsVi {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -234284,6 +234498,15 @@ extension on _StringsVi {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
@@ -236190,8 +236413,6 @@ extension on _StringsZhCn {
         return '游戏排行';
       case 'game_meta_source':
         return '数据来源';
-      case 'game_more_actions':
-        return '更多';
       case 'game_never_played':
         return '未游玩';
       case 'game_no_active_line':
@@ -241203,6 +241424,15 @@ extension on _StringsZhCn {
         return '上下拖动字幕调整位置';
       case 'anki_connect_mobile_disabled_key_cleared':
         return '移动端使用 AnkiConnect 必须填 API key，清空后已自动关闭该开关，Anki 改回走内置后端。';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            '该文件夹里有 ${n} 个整卷文件，将逐卷各导入为一本，书名取各自的文件名。';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            '导入完成：成功 ${imported} 卷，跳过 ${skipped} 卷，失败 ${failed} 卷。';
       case 'srt_book_reimport':
         return '重新导入';
       case 'srt_book_reimport_subtitle_hint':
@@ -243118,8 +243348,6 @@ extension on _StringsZhHk {
         return 'Ranking';
       case 'game_meta_source':
         return 'Data source';
-      case 'game_more_actions':
-        return 'More';
       case 'game_never_played':
         return 'Never played';
       case 'game_no_active_line':
@@ -248153,6 +248381,15 @@ extension on _StringsZhHk {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       case 'srt_book_reimport':
         return 'Re-import';
       case 'srt_book_reimport_subtitle_hint':
