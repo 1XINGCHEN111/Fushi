@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57647 (3391 per locale)
+/// Strings: 57681 (3393 per locale)
 ///
-/// Built on 2026-08-14 at 13:06 UTC
+/// Built on 2026-08-14 at 15:30 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4589,6 +4589,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Drag a subtitle up or down to reposition it';
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -12419,6 +12426,15 @@ class _StringsAr extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -20316,6 +20332,15 @@ class _StringsDe extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -28229,6 +28254,15 @@ class _StringsEs extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -36154,6 +36188,15 @@ class _StringsFr extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -44007,6 +44050,15 @@ class _StringsId extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -51906,6 +51958,15 @@ class _StringsIt extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -59619,6 +59680,15 @@ class _StringsJa extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -67339,6 +67409,15 @@ class _StringsKo extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -75218,6 +75297,15 @@ class _StringsNl extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -83109,6 +83197,15 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -90986,6 +91083,15 @@ class _StringsRu extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -98811,6 +98917,15 @@ class _StringsTh extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -106667,6 +106782,15 @@ class _StringsTr extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -114508,6 +114632,15 @@ class _StringsVi extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 // Path: <root>
@@ -121778,6 +121911,15 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       '移动端使用 AnkiConnect 必须填 API key，清空后已自动关闭该开关，Anki 改回走内置后端。';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      '该文件夹里有 ${n} 个整卷文件，将逐卷各导入为一本，书名取各自的文件名。';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      '导入完成：成功 ${imported} 卷，跳过 ${skipped} 卷，失败 ${failed} 卷。';
 }
 
 // Path: <root>
@@ -129414,6 +129556,15 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get anki_connect_mobile_disabled_key_cleared =>
       'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+  @override
+  String manga_import_batch_hint({required Object n}) =>
+      'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+  @override
+  String manga_import_batch_done(
+          {required Object imported,
+          required Object skipped,
+          required Object failed}) =>
+      'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
 }
 
 /// Flat map(s) containing all translations.
@@ -136378,6 +136529,15 @@ extension on _StringsEn {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -143340,6 +143500,15 @@ extension on _StringsAr {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -150324,6 +150493,15 @@ extension on _StringsDe {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -157307,6 +157485,15 @@ extension on _StringsEs {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -164296,6 +164483,15 @@ extension on _StringsFr {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -171267,6 +171463,15 @@ extension on _StringsId {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -178252,6 +178457,15 @@ extension on _StringsIt {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -185199,6 +185413,15 @@ extension on _StringsJa {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -192150,6 +192373,15 @@ extension on _StringsKo {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -199129,6 +199361,15 @@ extension on _StringsNl {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -206105,6 +206346,15 @@ extension on _StringsPtBr {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -213086,6 +213336,15 @@ extension on _StringsRu {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -220050,6 +220309,15 @@ extension on _StringsTh {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -227023,6 +227291,15 @@ extension on _StringsTr {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -233992,6 +234269,15 @@ extension on _StringsVi {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
@@ -240903,6 +241189,15 @@ extension on _StringsZhCn {
         return '上下拖动字幕调整位置';
       case 'anki_connect_mobile_disabled_key_cleared':
         return '移动端使用 AnkiConnect 必须填 API key，清空后已自动关闭该开关，Anki 改回走内置后端。';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            '该文件夹里有 ${n} 个整卷文件，将逐卷各导入为一本，书名取各自的文件名。';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            '导入完成：成功 ${imported} 卷，跳过 ${skipped} 卷，失败 ${failed} 卷。';
       default:
         return null;
     }
@@ -247845,6 +248140,15 @@ extension on _StringsZhHk {
         return 'Drag a subtitle up or down to reposition it';
       case 'anki_connect_mobile_disabled_key_cleared':
         return 'AnkiConnect needs an API key on mobile, so clearing it turned the switch back off. Anki now goes through the built-in backend again.';
+      case 'manga_import_batch_hint':
+        return ({required Object n}) =>
+            'This folder holds ${n} volume files; each is imported as its own book, named after its file.';
+      case 'manga_import_batch_done':
+        return (
+                {required Object imported,
+                required Object skipped,
+                required Object failed}) =>
+            'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
       default:
         return null;
     }
