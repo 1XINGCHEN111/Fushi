@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57681 (3393 per locale)
+/// Strings: 57732 (3396 per locale)
 ///
-/// Built on 2026-08-14 at 15:30 UTC
+/// Built on 2026-08-14 at 15:35 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2353,7 +2353,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get spread_off => 'Off';
   String get spread_on => 'On';
   String get srt_audio_unresolved => 'Audio file not found — please re-attach';
-  String get srt_book_replace_audio => 'Replace audio files';
   String get srt_books_section => 'Subtitle audiobooks';
   String srt_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
@@ -4596,6 +4595,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  String get srt_book_reimport => 'Re-import';
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -8512,8 +8518,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get srt_audio_unresolved =>
       'لم يتم العثور على ملف الصوت — يرجى إعادة الإرفاق';
-  @override
-  String get srt_book_replace_audio => 'استبدال ملفات الصوت';
   @override
   String get srt_books_section => 'كتب الترجمات المسموعة';
   @override
@@ -12435,6 +12439,17 @@ class _StringsAr extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -16390,8 +16405,6 @@ class _StringsDe extends _StringsEn {
   String get srt_audio_unresolved =>
       'Audiodatei nicht gefunden — bitte erneut anhängen';
   @override
-  String get srt_book_replace_audio => 'Audiodateien ersetzen';
-  @override
   String get srt_books_section => 'Untertitel-Hörbücher';
   @override
   String srt_delete_confirm({required Object title}) =>
@@ -20341,6 +20354,17 @@ class _StringsDe extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -24306,8 +24330,6 @@ class _StringsEs extends _StringsEn {
   String get srt_audio_unresolved =>
       'Archivo de audio no encontrado — por favor vuelve a adjuntarlo';
   @override
-  String get srt_book_replace_audio => 'Reemplazar archivos de audio';
-  @override
   String get srt_books_section => 'Audiolibros con subtítulos';
   @override
   String srt_delete_confirm({required Object title}) =>
@@ -28263,6 +28285,17 @@ class _StringsEs extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -32238,8 +32271,6 @@ class _StringsFr extends _StringsEn {
   String get srt_audio_unresolved =>
       'Fichier audio introuvable — veuillez le rattacher';
   @override
-  String get srt_book_replace_audio => 'Remplacer les fichiers audio';
-  @override
   String get srt_books_section => 'Livres audio à sous-titres';
   @override
   String srt_delete_confirm({required Object title}) =>
@@ -36197,6 +36228,17 @@ class _StringsFr extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -40123,8 +40165,6 @@ class _StringsId extends _StringsEn {
   @override
   String get srt_audio_unresolved =>
       'File audio tidak ditemukan — silakan lampirkan ulang';
-  @override
-  String get srt_book_replace_audio => 'Ganti File Audio';
   @override
   String get srt_books_section => 'Buku Audio Subtitle';
   @override
@@ -44059,6 +44099,17 @@ class _StringsId extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -48016,8 +48067,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get srt_audio_unresolved => 'File audio non trovato — ricollegare';
   @override
-  String get srt_book_replace_audio => 'Sostituisci file audio';
-  @override
   String get srt_books_section => 'Audiolibri con sottotitoli';
   @override
   String srt_delete_confirm({required Object title}) =>
@@ -51967,6 +52016,17 @@ class _StringsIt extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -55819,8 +55879,6 @@ class _StringsJa extends _StringsEn {
   String get spread_on => 'オン';
   @override
   String get srt_audio_unresolved => '音声ファイルが見つかりません。再紐付けしてください';
-  @override
-  String get srt_book_replace_audio => '音声ファイルを置換';
   @override
   String get srt_books_section => '字幕オーディオブック';
   @override
@@ -59689,6 +59747,17 @@ class _StringsJa extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -63542,8 +63611,6 @@ class _StringsKo extends _StringsEn {
   String get spread_on => '켜기';
   @override
   String get srt_audio_unresolved => '오디오 파일을 찾을 수 없습니다 — 다시 연결하세요';
-  @override
-  String get srt_book_replace_audio => '오디오 파일 교체';
   @override
   String get srt_books_section => '자막 오디오북';
   @override
@@ -67418,6 +67485,17 @@ class _StringsKo extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -71359,8 +71437,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get srt_audio_unresolved =>
       'Audiobestand niet gevonden — koppel opnieuw';
-  @override
-  String get srt_book_replace_audio => 'Audiobestanden vervangen';
   @override
   String get srt_books_section => 'Ondertitelboeken';
   @override
@@ -75306,6 +75382,17 @@ class _StringsNl extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -79259,8 +79346,6 @@ class _StringsPtBr extends _StringsEn {
   String get srt_audio_unresolved =>
       'Arquivo de áudio não encontrado — reanexe-o';
   @override
-  String get srt_book_replace_audio => 'Substituir arquivos de áudio';
-  @override
   String get srt_books_section => 'Audiolivros com Legendas';
   @override
   String srt_delete_confirm({required Object title}) =>
@@ -83206,6 +83291,17 @@ class _StringsPtBr extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -87151,8 +87247,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get srt_audio_unresolved => 'Аудиофайл не найден — привяжите заново';
   @override
-  String get srt_book_replace_audio => 'Заменить аудиофайлы';
-  @override
   String get srt_books_section => 'Аудиокниги с субтитрами';
   @override
   String srt_delete_confirm({required Object title}) =>
@@ -91092,6 +91186,17 @@ class _StringsRu extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -94999,8 +95104,6 @@ class _StringsTh extends _StringsEn {
   String get spread_on => 'เปิด';
   @override
   String get srt_audio_unresolved => 'ไม่พบไฟล์เสียง กรุณาแนบใหม่';
-  @override
-  String get srt_book_replace_audio => 'แทนที่ไฟล์เสียง';
   @override
   String get srt_books_section => 'หนังสือเสียงซับไตเติล';
   @override
@@ -98926,6 +99029,17 @@ class _StringsTh extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -102859,8 +102973,6 @@ class _StringsTr extends _StringsEn {
   String get srt_audio_unresolved =>
       'Ses dosyası bulunamadı — lütfen yeniden bağlayın';
   @override
-  String get srt_book_replace_audio => 'Ses Dosyalarını Değiştir';
-  @override
   String get srt_books_section => 'Altyazılı sesli kitaplar';
   @override
   String srt_delete_confirm({required Object title}) =>
@@ -106791,6 +106903,17 @@ class _StringsTr extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -110717,8 +110840,6 @@ class _StringsVi extends _StringsEn {
   String get srt_audio_unresolved =>
       'Không tìm thấy tệp âm thanh — vui lòng gắn lại';
   @override
-  String get srt_book_replace_audio => 'Thay thế tệp âm thanh';
-  @override
   String get srt_books_section => 'Sách nói phụ đề';
   @override
   String srt_delete_confirm({required Object title}) =>
@@ -114641,6 +114762,17 @@ class _StringsVi extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 // Path: <root>
@@ -118303,8 +118435,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get srt_audio_unresolved => '未找到音频文件 — 请重新附加';
   @override
-  String get srt_book_replace_audio => '替换音频文件';
-  @override
   String get srt_books_section => '字幕有声书';
   @override
   String srt_delete_confirm({required Object title}) =>
@@ -121920,6 +122050,14 @@ class _StringsZhCn extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       '导入完成：成功 ${imported} 卷，跳过 ${skipped} 卷，失败 ${failed} 卷。';
+  @override
+  String get srt_book_reimport => '重新导入';
+  @override
+  String get srt_book_reimport_subtitle_hint => '替换字幕会用新字幕重建这本书的正文。';
+  @override
+  String get srt_book_reimport_no_cues => '该字幕文件解析不出任何字幕行';
+  @override
+  String get srt_book_reimport_body_rebuilt => '正文已重建，请重新打开本书';
 }
 
 // Path: <root>
@@ -125732,8 +125870,6 @@ class _StringsZhHk extends _StringsEn {
   String get spread_on => '開啟';
   @override
   String get srt_audio_unresolved => '未找到音訊檔案 — 請重新附加';
-  @override
-  String get srt_book_replace_audio => '替換音頻文件';
   @override
   String get srt_books_section => '字幕有聲書';
   @override
@@ -129565,6 +129701,17 @@ class _StringsZhHk extends _StringsEn {
           required Object skipped,
           required Object failed}) =>
       'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+  @override
+  String get srt_book_reimport => 'Re-import';
+  @override
+  String get srt_book_reimport_subtitle_hint =>
+      'Replacing the subtitle rebuilds the book text from the new cues.';
+  @override
+  String get srt_book_reimport_no_cues =>
+      'No subtitle lines found in that file';
+  @override
+  String get srt_book_reimport_body_rebuilt =>
+      'Book text rebuilt — reopen the book to read it';
 }
 
 /// Flat map(s) containing all translations.
@@ -133080,8 +133227,6 @@ extension on _StringsEn {
         return 'On';
       case 'srt_audio_unresolved':
         return 'Audio file not found — please re-attach';
-      case 'srt_book_replace_audio':
-        return 'Replace audio files';
       case 'srt_books_section':
         return 'Subtitle audiobooks';
       case 'srt_delete_confirm':
@@ -136538,6 +136683,14 @@ extension on _StringsEn {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -140053,8 +140206,6 @@ extension on _StringsAr {
         return 'تشغيل';
       case 'srt_audio_unresolved':
         return 'لم يتم العثور على ملف الصوت — يرجى إعادة الإرفاق';
-      case 'srt_book_replace_audio':
-        return 'استبدال ملفات الصوت';
       case 'srt_books_section':
         return 'كتب الترجمات المسموعة';
       case 'srt_delete_confirm':
@@ -143509,6 +143660,14 @@ extension on _StringsAr {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -147036,8 +147195,6 @@ extension on _StringsDe {
         return 'Ein';
       case 'srt_audio_unresolved':
         return 'Audiodatei nicht gefunden — bitte erneut anhängen';
-      case 'srt_book_replace_audio':
-        return 'Audiodateien ersetzen';
       case 'srt_books_section':
         return 'Untertitel-Hörbücher';
       case 'srt_delete_confirm':
@@ -150502,6 +150659,14 @@ extension on _StringsDe {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -154030,8 +154195,6 @@ extension on _StringsEs {
         return 'Activado';
       case 'srt_audio_unresolved':
         return 'Archivo de audio no encontrado — por favor vuelve a adjuntarlo';
-      case 'srt_book_replace_audio':
-        return 'Reemplazar archivos de audio';
       case 'srt_books_section':
         return 'Audiolibros con subtítulos';
       case 'srt_delete_confirm':
@@ -157494,6 +157657,14 @@ extension on _StringsEs {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -161026,8 +161197,6 @@ extension on _StringsFr {
         return 'Activé';
       case 'srt_audio_unresolved':
         return 'Fichier audio introuvable — veuillez le rattacher';
-      case 'srt_book_replace_audio':
-        return 'Remplacer les fichiers audio';
       case 'srt_books_section':
         return 'Livres audio à sous-titres';
       case 'srt_delete_confirm':
@@ -164492,6 +164661,14 @@ extension on _StringsFr {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -168013,8 +168190,6 @@ extension on _StringsId {
         return 'Nyala';
       case 'srt_audio_unresolved':
         return 'File audio tidak ditemukan — silakan lampirkan ulang';
-      case 'srt_book_replace_audio':
-        return 'Ganti File Audio';
       case 'srt_books_section':
         return 'Buku Audio Subtitle';
       case 'srt_delete_confirm':
@@ -171472,6 +171647,14 @@ extension on _StringsId {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -174997,8 +175180,6 @@ extension on _StringsIt {
         return 'Attivato';
       case 'srt_audio_unresolved':
         return 'File audio non trovato — ricollegare';
-      case 'srt_book_replace_audio':
-        return 'Sostituisci file audio';
       case 'srt_books_section':
         return 'Audiolibri con sottotitoli';
       case 'srt_delete_confirm':
@@ -178466,6 +178647,14 @@ extension on _StringsIt {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -181973,8 +182162,6 @@ extension on _StringsJa {
         return 'オン';
       case 'srt_audio_unresolved':
         return '音声ファイルが見つかりません。再紐付けしてください';
-      case 'srt_book_replace_audio':
-        return '音声ファイルを置換';
       case 'srt_books_section':
         return '字幕オーディオブック';
       case 'srt_delete_confirm':
@@ -185422,6 +185609,14 @@ extension on _StringsJa {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -188931,8 +189126,6 @@ extension on _StringsKo {
         return '켜기';
       case 'srt_audio_unresolved':
         return '오디오 파일을 찾을 수 없습니다 — 다시 연결하세요';
-      case 'srt_book_replace_audio':
-        return '오디오 파일 교체';
       case 'srt_books_section':
         return '자막 오디오북';
       case 'srt_delete_confirm':
@@ -192382,6 +192575,14 @@ extension on _StringsKo {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -195907,8 +196108,6 @@ extension on _StringsNl {
         return 'Aan';
       case 'srt_audio_unresolved':
         return 'Audiobestand niet gevonden — koppel opnieuw';
-      case 'srt_book_replace_audio':
-        return 'Audiobestanden vervangen';
       case 'srt_books_section':
         return 'Ondertitelboeken';
       case 'srt_delete_confirm':
@@ -199370,6 +199569,14 @@ extension on _StringsNl {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -202895,8 +203102,6 @@ extension on _StringsPtBr {
         return 'Ativado';
       case 'srt_audio_unresolved':
         return 'Arquivo de áudio não encontrado — reanexe-o';
-      case 'srt_book_replace_audio':
-        return 'Substituir arquivos de áudio';
       case 'srt_books_section':
         return 'Audiolivros com Legendas';
       case 'srt_delete_confirm':
@@ -206355,6 +206560,14 @@ extension on _StringsPtBr {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -209883,8 +210096,6 @@ extension on _StringsRu {
         return 'Вкл';
       case 'srt_audio_unresolved':
         return 'Аудиофайл не найден — привяжите заново';
-      case 'srt_book_replace_audio':
-        return 'Заменить аудиофайлы';
       case 'srt_books_section':
         return 'Аудиокниги с субтитрами';
       case 'srt_delete_confirm':
@@ -213345,6 +213556,14 @@ extension on _StringsRu {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -216860,8 +217079,6 @@ extension on _StringsTh {
         return 'เปิด';
       case 'srt_audio_unresolved':
         return 'ไม่พบไฟล์เสียง กรุณาแนบใหม่';
-      case 'srt_book_replace_audio':
-        return 'แทนที่ไฟล์เสียง';
       case 'srt_books_section':
         return 'หนังสือเสียงซับไตเติล';
       case 'srt_delete_confirm':
@@ -220318,6 +220535,14 @@ extension on _StringsTh {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -223839,8 +224064,6 @@ extension on _StringsTr {
         return 'Açık';
       case 'srt_audio_unresolved':
         return 'Ses dosyası bulunamadı — lütfen yeniden bağlayın';
-      case 'srt_book_replace_audio':
-        return 'Ses Dosyalarını Değiştir';
       case 'srt_books_section':
         return 'Altyazılı sesli kitaplar';
       case 'srt_delete_confirm':
@@ -227300,6 +227523,14 @@ extension on _StringsTr {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -230819,8 +231050,6 @@ extension on _StringsVi {
         return 'Bật';
       case 'srt_audio_unresolved':
         return 'Không tìm thấy tệp âm thanh — vui lòng gắn lại';
-      case 'srt_book_replace_audio':
-        return 'Thay thế tệp âm thanh';
       case 'srt_books_section':
         return 'Sách nói phụ đề';
       case 'srt_delete_confirm':
@@ -234278,6 +234507,14 @@ extension on _StringsVi {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
@@ -237772,8 +238009,6 @@ extension on _StringsZhCn {
         return '开启';
       case 'srt_audio_unresolved':
         return '未找到音频文件 — 请重新附加';
-      case 'srt_book_replace_audio':
-        return '替换音频文件';
       case 'srt_books_section':
         return '字幕有声书';
       case 'srt_delete_confirm':
@@ -241198,6 +241433,14 @@ extension on _StringsZhCn {
                 required Object skipped,
                 required Object failed}) =>
             '导入完成：成功 ${imported} 卷，跳过 ${skipped} 卷，失败 ${failed} 卷。';
+      case 'srt_book_reimport':
+        return '重新导入';
+      case 'srt_book_reimport_subtitle_hint':
+        return '替换字幕会用新字幕重建这本书的正文。';
+      case 'srt_book_reimport_no_cues':
+        return '该字幕文件解析不出任何字幕行';
+      case 'srt_book_reimport_body_rebuilt':
+        return '正文已重建，请重新打开本书';
       default:
         return null;
     }
@@ -244703,8 +244946,6 @@ extension on _StringsZhHk {
         return '開啟';
       case 'srt_audio_unresolved':
         return '未找到音訊檔案 — 請重新附加';
-      case 'srt_book_replace_audio':
-        return '替換音頻文件';
       case 'srt_books_section':
         return '字幕有聲書';
       case 'srt_delete_confirm':
@@ -248149,6 +248390,14 @@ extension on _StringsZhHk {
                 required Object skipped,
                 required Object failed}) =>
             'Imported ${imported}, skipped ${skipped}, failed ${failed}.';
+      case 'srt_book_reimport':
+        return 'Re-import';
+      case 'srt_book_reimport_subtitle_hint':
+        return 'Replacing the subtitle rebuilds the book text from the new cues.';
+      case 'srt_book_reimport_no_cues':
+        return 'No subtitle lines found in that file';
+      case 'srt_book_reimport_body_rebuilt':
+        return 'Book text rebuilt — reopen the book to read it';
       default:
         return null;
     }
