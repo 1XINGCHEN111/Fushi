@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 57732 (3396 per locale)
 ///
-/// Built on 2026-08-14 at 15:35 UTC
+/// Built on 2026-08-14 at 19:19 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3240,8 +3240,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_torrent_active_seeds => 'Max active seeds';
   String get video_setting_torrent_anonymous => 'Anonymous mode';
   String get video_setting_torrent_antileech => 'Enable anti-leech';
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop only)';
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
   String get video_setting_torrent_ban_relative_cheat =>
@@ -3633,8 +3631,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Subtitles: pending until download completes';
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   String get stat_source_breakdown => 'By source';
   String stat_format_pages({required Object n}) => '${n} pages';
   String anime_download_subs_season_mismatch({required Object season}) =>
@@ -4602,6 +4598,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'No subtitle lines found in that file';
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -10119,9 +10118,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -10787,9 +10783,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -12450,6 +12443,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -18029,9 +18027,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -18702,9 +18697,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -20365,6 +20357,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -25958,9 +25955,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -26633,9 +26627,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -28296,6 +28287,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -33900,9 +33896,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -34576,9 +34569,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -36239,6 +36229,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -41777,9 +41772,6 @@ class _StringsId extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -42447,9 +42439,6 @@ class _StringsId extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -44110,6 +44099,11 @@ class _StringsId extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -49690,9 +49684,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -50364,9 +50355,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -52027,6 +52015,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -57438,9 +57431,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -58095,9 +58085,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -59758,6 +59745,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -65173,9 +65165,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -65833,9 +65822,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -67496,6 +67482,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -73058,9 +73049,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -73730,9 +73718,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -75393,6 +75378,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -80966,9 +80956,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -81639,9 +81626,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -83302,6 +83286,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -88861,9 +88850,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -89534,9 +89520,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -91197,6 +91180,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -96709,9 +96697,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -97377,9 +97362,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -99040,6 +99022,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -104581,9 +104568,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -105251,9 +105235,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -106914,6 +106895,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -112441,9 +112427,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -113110,9 +113093,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -114773,6 +114753,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 // Path: <root>
@@ -119923,8 +119908,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => '启用反吸血';
   @override
-  String get video_setting_torrent_backend_embedded => '内置引擎（仅桌面）';
-  @override
   String get video_setting_torrent_backend_qb => '外接 qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => '封禁进度作弊';
@@ -120531,9 +120514,6 @@ class _StringsZhCn extends _StringsEn {
   String get anime_download_subs_pending => '字幕：待下载完成后配对';
   @override
   String get anime_download_subs_unmatched => '字幕：未匹配到（可手动补）';
-  @override
-  String get download_backend_desktop_only_note =>
-      '内置引擎仅桌面平台可用，本设备使用外接 qBittorrent。';
   @override
   String get stat_source_breakdown => '各来源';
   @override
@@ -122058,6 +122038,11 @@ class _StringsZhCn extends _StringsEn {
   String get srt_book_reimport_no_cues => '该字幕文件解析不出任何字幕行';
   @override
   String get srt_book_reimport_body_rebuilt => '正文已重建，请重新打开本书';
+  @override
+  String get video_setting_torrent_backend_embedded => '内置引擎';
+  @override
+  String get download_backend_unsupported_note =>
+      '本平台无内置引擎，下载使用外接 qBittorrent。';
 }
 
 // Path: <root>
@@ -127398,9 +127383,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_setting_torrent_antileech => 'Enable anti-leech';
   @override
-  String get video_setting_torrent_backend_embedded =>
-      'Built-in engine (desktop only)';
-  @override
   String get video_setting_torrent_backend_qb => 'External qBittorrent';
   @override
   String get video_setting_torrent_ban_progress_cheat => 'Ban progress cheat';
@@ -128050,9 +128032,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get anime_download_subs_unmatched =>
       'Subtitles: no match for this pack';
-  @override
-  String get download_backend_desktop_only_note =>
-      'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
   @override
   String get stat_source_breakdown => 'By source';
   @override
@@ -129712,6 +129691,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get video_setting_torrent_backend_embedded => 'Built-in engine';
+  @override
+  String get download_backend_unsupported_note =>
+      'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
 }
 
 /// Flat map(s) containing all translations.
@@ -134673,8 +134657,6 @@ extension on _StringsEn {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop only)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -135249,8 +135231,6 @@ extension on _StringsEn {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -136691,6 +136671,10 @@ extension on _StringsEn {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -141649,8 +141633,6 @@ extension on _StringsAr {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -142226,8 +142208,6 @@ extension on _StringsAr {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -143668,6 +143648,10 @@ extension on _StringsAr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -148648,8 +148632,6 @@ extension on _StringsDe {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -149225,8 +149207,6 @@ extension on _StringsDe {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -150667,6 +150647,10 @@ extension on _StringsDe {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -155647,8 +155631,6 @@ extension on _StringsEs {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -156223,8 +156205,6 @@ extension on _StringsEs {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -157665,6 +157645,10 @@ extension on _StringsEs {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -162651,8 +162635,6 @@ extension on _StringsFr {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -163227,8 +163209,6 @@ extension on _StringsFr {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -164669,6 +164649,10 @@ extension on _StringsFr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -169636,8 +169620,6 @@ extension on _StringsId {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -170213,8 +170195,6 @@ extension on _StringsId {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -171655,6 +171635,10 @@ extension on _StringsId {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -176636,8 +176620,6 @@ extension on _StringsIt {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -177213,8 +177195,6 @@ extension on _StringsIt {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -178655,6 +178635,10 @@ extension on _StringsIt {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -183600,8 +183584,6 @@ extension on _StringsJa {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -184175,8 +184157,6 @@ extension on _StringsJa {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -185617,6 +185597,10 @@ extension on _StringsJa {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -190565,8 +190549,6 @@ extension on _StringsKo {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -191141,8 +191123,6 @@ extension on _StringsKo {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -192583,6 +192563,10 @@ extension on _StringsKo {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -197558,8 +197542,6 @@ extension on _StringsNl {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -198135,8 +198117,6 @@ extension on _StringsNl {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -199577,6 +199557,10 @@ extension on _StringsNl {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -204550,8 +204534,6 @@ extension on _StringsPtBr {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -205126,8 +205108,6 @@ extension on _StringsPtBr {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -206568,6 +206548,10 @@ extension on _StringsPtBr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -211546,8 +211530,6 @@ extension on _StringsRu {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -212122,8 +212104,6 @@ extension on _StringsRu {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -213564,6 +213544,10 @@ extension on _StringsRu {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -218524,8 +218508,6 @@ extension on _StringsTh {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -219101,8 +219083,6 @@ extension on _StringsTh {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -220543,6 +220523,10 @@ extension on _StringsTh {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -225513,8 +225497,6 @@ extension on _StringsTr {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -226089,8 +226071,6 @@ extension on _StringsTr {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -227531,6 +227511,10 @@ extension on _StringsTr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -232497,8 +232481,6 @@ extension on _StringsVi {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -233073,8 +233055,6 @@ extension on _StringsVi {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -234515,6 +234495,10 @@ extension on _StringsVi {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
@@ -239438,8 +239422,6 @@ extension on _StringsZhCn {
         return '匿名模式';
       case 'video_setting_torrent_antileech':
         return '启用反吸血';
-      case 'video_setting_torrent_backend_embedded':
-        return '内置引擎（仅桌面）';
       case 'video_setting_torrent_backend_qb':
         return '外接 qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -240009,8 +239991,6 @@ extension on _StringsZhCn {
         return '字幕：待下载完成后配对';
       case 'anime_download_subs_unmatched':
         return '字幕：未匹配到（可手动补）';
-      case 'download_backend_desktop_only_note':
-        return '内置引擎仅桌面平台可用，本设备使用外接 qBittorrent。';
       case 'stat_source_breakdown':
         return '各来源';
       case 'stat_format_pages':
@@ -241441,6 +241421,10 @@ extension on _StringsZhCn {
         return '该字幕文件解析不出任何字幕行';
       case 'srt_book_reimport_body_rebuilt':
         return '正文已重建，请重新打开本书';
+      case 'video_setting_torrent_backend_embedded':
+        return '内置引擎';
+      case 'download_backend_unsupported_note':
+        return '本平台无内置引擎，下载使用外接 qBittorrent。';
       default:
         return null;
     }
@@ -246382,8 +246366,6 @@ extension on _StringsZhHk {
         return 'Anonymous mode';
       case 'video_setting_torrent_antileech':
         return 'Enable anti-leech';
-      case 'video_setting_torrent_backend_embedded':
-        return 'Built-in engine (desktop only)';
       case 'video_setting_torrent_backend_qb':
         return 'External qBittorrent';
       case 'video_setting_torrent_ban_progress_cheat':
@@ -246956,8 +246938,6 @@ extension on _StringsZhHk {
         return 'Subtitles: pending until download completes';
       case 'anime_download_subs_unmatched':
         return 'Subtitles: no match for this pack';
-      case 'download_backend_desktop_only_note':
-        return 'Built-in engine requires a desktop platform. This device uses external qBittorrent.';
       case 'stat_source_breakdown':
         return 'By source';
       case 'stat_format_pages':
@@ -248398,6 +248378,10 @@ extension on _StringsZhHk {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'video_setting_torrent_backend_embedded':
+        return 'Built-in engine';
+      case 'download_backend_unsupported_note':
+        return 'The built-in engine is not available on this platform. Downloads use external qBittorrent.';
       default:
         return null;
     }
