@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58225 (3425 per locale)
+/// Strings: 58310 (3430 per locale)
 ///
-/// Built on 2026-08-15 at 10:46 UTC
+/// Built on 2026-08-15 at 13:16 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4637,6 +4637,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get book_language_action => 'Content language';
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  String get video_collection_scrape => 'Scrape info & cover';
+  String get update_testflight_open => 'Open TestFlight';
+  String get update_app_store_open => 'Open App Store';
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -12549,6 +12555,17 @@ class _StringsAr extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -20528,6 +20545,17 @@ class _StringsDe extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -28523,6 +28551,17 @@ class _StringsEs extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -36530,6 +36569,17 @@ class _StringsFr extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -44465,6 +44515,17 @@ class _StringsId extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -52446,6 +52507,17 @@ class _StringsIt extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -60241,6 +60313,17 @@ class _StringsJa extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -68043,6 +68126,17 @@ class _StringsKo extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -76004,6 +76098,17 @@ class _StringsNl extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -83977,6 +84082,17 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -91936,6 +92052,17 @@ class _StringsRu extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -99843,6 +99970,17 @@ class _StringsTh extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -107781,6 +107919,17 @@ class _StringsTr extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -115704,6 +115853,17 @@ class _StringsVi extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -123049,6 +123209,17 @@ class _StringsZhCn extends _StringsEn {
   String get book_language_action => '内容语言';
   @override
   String get book_language_description => '决定这本书的正文用哪种字体渲染。自动 = 用 EPUB 里声明的语言。';
+  @override
+  String get local_audio_reference_unavailable =>
+      '没有「所有文件访问权限」无法引用原文件，已改为导入副本。';
+  @override
+  String get video_collection_scrape => '刮削资料与封面';
+  @override
+  String get update_testflight_open => '打开 TestFlight';
+  @override
+  String get update_app_store_open => '打开 App Store';
+  @override
+  String get update_release_page_open => '发布页';
 }
 
 // Path: <root>
@@ -130767,6 +130938,17 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 /// Flat map(s) containing all translations.
@@ -137804,6 +137986,16 @@ extension on _StringsEn {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -144839,6 +145031,16 @@ extension on _StringsAr {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -151896,6 +152098,16 @@ extension on _StringsDe {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -158952,6 +159164,16 @@ extension on _StringsEs {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -166014,6 +166236,16 @@ extension on _StringsFr {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -173058,6 +173290,16 @@ extension on _StringsId {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -180116,6 +180358,16 @@ extension on _StringsIt {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -187136,6 +187388,16 @@ extension on _StringsJa {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -194160,6 +194422,16 @@ extension on _StringsKo {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -201212,6 +201484,16 @@ extension on _StringsNl {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -208261,6 +208543,16 @@ extension on _StringsPtBr {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -215315,6 +215607,16 @@ extension on _StringsRu {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -222352,6 +222654,16 @@ extension on _StringsTh {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -229398,6 +229710,16 @@ extension on _StringsTr {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -236440,6 +236762,16 @@ extension on _StringsVi {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -243424,6 +243756,16 @@ extension on _StringsZhCn {
         return '内容语言';
       case 'book_language_description':
         return '决定这本书的正文用哪种字体渲染。自动 = 用 EPUB 里声明的语言。';
+      case 'local_audio_reference_unavailable':
+        return '没有「所有文件访问权限」无法引用原文件，已改为导入副本。';
+      case 'video_collection_scrape':
+        return '刮削资料与封面';
+      case 'update_testflight_open':
+        return '打开 TestFlight';
+      case 'update_app_store_open':
+        return '打开 App Store';
+      case 'update_release_page_open':
+        return '发布页';
       default:
         return null;
     }
@@ -250439,6 +250781,16 @@ extension on _StringsZhHk {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
