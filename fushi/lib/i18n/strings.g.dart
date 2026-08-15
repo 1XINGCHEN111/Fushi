@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58191 (3423 per locale)
+/// Strings: 58208 (3424 per locale)
 ///
-/// Built on 2026-08-15 at 12:23 UTC
+/// Built on 2026-08-15 at 13:11 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4629,6 +4629,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
   String get aidoku_repository_remove => 'Remove repository';
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
   String get video_collection_scrape => 'Scrape info & cover';
   String get update_testflight_open => 'Open TestFlight';
   String get update_app_store_open => 'Open App Store';
@@ -12531,6 +12533,9 @@ class _StringsAr extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
@@ -20504,6 +20509,9 @@ class _StringsDe extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
@@ -28493,6 +28501,9 @@ class _StringsEs extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
@@ -36495,6 +36506,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -44423,6 +44437,9 @@ class _StringsId extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
@@ -52399,6 +52416,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -60187,6 +60207,9 @@ class _StringsJa extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
@@ -67983,6 +68006,9 @@ class _StringsKo extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
@@ -75938,6 +75964,9 @@ class _StringsNl extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
@@ -83906,6 +83935,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -91859,6 +91891,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -99759,6 +99794,9 @@ class _StringsTh extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
@@ -107692,6 +107730,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -115609,6 +115650,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -122949,6 +122993,9 @@ class _StringsZhCn extends _StringsEn {
   String get aidoku_repository_remove => '移除仓库';
   @override
   String get aidoku_repository_empty => '尚未添加 Aidoku 仓库。';
+  @override
+  String get local_audio_reference_unavailable =>
+      '没有「所有文件访问权限」无法引用原文件，已改为导入副本。';
   @override
   String get video_collection_scrape => '刮削资料与封面';
   @override
@@ -130662,6 +130709,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -137694,6 +137744,8 @@ extension on _StringsEn {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -144725,6 +144777,8 @@ extension on _StringsAr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -151778,6 +151832,8 @@ extension on _StringsDe {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -158830,6 +158886,8 @@ extension on _StringsEs {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -165888,6 +165946,8 @@ extension on _StringsFr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -172928,6 +172988,8 @@ extension on _StringsId {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -179982,6 +180044,8 @@ extension on _StringsIt {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -186998,6 +187062,8 @@ extension on _StringsJa {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -194018,6 +194084,8 @@ extension on _StringsKo {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -201066,6 +201134,8 @@ extension on _StringsNl {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -208111,6 +208181,8 @@ extension on _StringsPtBr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -215161,6 +215233,8 @@ extension on _StringsRu {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -222194,6 +222268,8 @@ extension on _StringsTh {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -229236,6 +229312,8 @@ extension on _StringsTr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -236274,6 +236352,8 @@ extension on _StringsVi {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -243254,6 +243334,8 @@ extension on _StringsZhCn {
         return '移除仓库';
       case 'aidoku_repository_empty':
         return '尚未添加 Aidoku 仓库。';
+      case 'local_audio_reference_unavailable':
+        return '没有「所有文件访问权限」无法引用原文件，已改为导入副本。';
       case 'video_collection_scrape':
         return '刮削资料与封面';
       case 'update_testflight_open':
@@ -250265,6 +250347,8 @@ extension on _StringsZhHk {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
