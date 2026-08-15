@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58310 (3430 per locale)
+/// Strings: 58378 (3434 per locale)
 ///
-/// Built on 2026-08-15 at 13:16 UTC
+/// Built on 2026-08-15 at 13:50 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3034,7 +3034,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_mining_image_mode_current_frame => 'Screenshot at mining';
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
   String get video_next_episode => 'Next episode';
@@ -4643,6 +4643,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get update_testflight_open => 'Open TestFlight';
   String get update_app_store_open => 'Open App Store';
   String get update_release_page_open => 'Release page';
+  String get video_mining_still_format => 'Video card screenshot format';
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -9789,7 +9794,7 @@ class _StringsAr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -12566,6 +12571,15 @@ class _StringsAr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -17770,7 +17784,7 @@ class _StringsDe extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -20556,6 +20570,15 @@ class _StringsDe extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -25774,7 +25797,7 @@ class _StringsEs extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -28562,6 +28585,15 @@ class _StringsEs extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -33792,7 +33824,7 @@ class _StringsFr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -36580,6 +36612,15 @@ class _StringsFr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -41747,7 +41788,7 @@ class _StringsId extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -44526,6 +44567,15 @@ class _StringsId extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -49732,7 +49782,7 @@ class _StringsIt extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -52518,6 +52568,15 @@ class _StringsIt extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -57566,7 +57625,7 @@ class _StringsJa extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -60324,6 +60383,15 @@ class _StringsJa extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -65376,7 +65444,7 @@ class _StringsKo extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -68137,6 +68205,15 @@ class _StringsKo extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -73327,7 +73404,7 @@ class _StringsNl extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -76109,6 +76186,15 @@ class _StringsNl extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -81308,7 +81394,7 @@ class _StringsPtBr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -84093,6 +84179,15 @@ class _StringsPtBr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -89282,7 +89377,7 @@ class _StringsRu extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -92063,6 +92158,15 @@ class _StringsRu extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -97206,7 +97310,7 @@ class _StringsTh extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -99981,6 +100085,15 @@ class _StringsTh extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -105151,7 +105264,7 @@ class _StringsTr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -107930,6 +108043,15 @@ class _StringsTr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -113089,7 +113211,7 @@ class _StringsVi extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -115864,6 +115986,15 @@ class _StringsVi extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 // Path: <root>
@@ -120673,7 +120804,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_mining_image_mode_gif => '动图 GIF（字幕片段）';
   @override
-  String get video_mining_image_mode_hint => '视频制卡封面用动图还是截图';
+  String get video_mining_image_mode_hint =>
+      '视频卡片封面用字幕区间动图，还是某一帧静态截图（取哪一帧也在这里选）';
   @override
   String get video_mining_image_mode_subtitle_start => '字幕开头截图';
   @override
@@ -123220,6 +123352,15 @@ class _StringsZhCn extends _StringsEn {
   String get update_app_store_open => '打开 App Store';
   @override
   String get update_release_page_open => '发布页';
+  @override
+  String get video_mining_still_format => '视频卡片截图格式';
+  @override
+  String get video_mining_still_format_hint =>
+      '选「制卡时截图」或「字幕开头截图」时那张图用什么编码。JPG 体积小得多；PNG 无损但大好几倍。动图封面不受影响，它跟随「动图格式」那一项。';
+  @override
+  String get mining_still_format_jpg => 'JPG（体积更小）';
+  @override
+  String get mining_still_format_png => 'PNG（无损）';
 }
 
 // Path: <root>
@@ -128201,7 +128342,7 @@ class _StringsZhHk extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -130949,6 +131090,15 @@ class _StringsZhHk extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
 }
 
 /// Flat map(s) containing all translations.
@@ -135583,7 +135733,7 @@ extension on _StringsEn {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -137996,6 +138146,14 @@ extension on _StringsEn {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -142627,7 +142785,7 @@ extension on _StringsAr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -145041,6 +145199,14 @@ extension on _StringsAr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -149693,7 +149859,7 @@ extension on _StringsDe {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -152108,6 +152274,14 @@ extension on _StringsDe {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -156760,7 +156934,7 @@ extension on _StringsEs {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -159174,6 +159348,14 @@ extension on _StringsEs {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -163831,7 +164013,7 @@ extension on _StringsFr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -166246,6 +166428,14 @@ extension on _StringsFr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -170886,7 +171076,7 @@ extension on _StringsId {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -173300,6 +173490,14 @@ extension on _StringsId {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -177953,7 +178151,7 @@ extension on _StringsIt {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -180368,6 +180566,14 @@ extension on _StringsIt {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -184986,7 +185192,7 @@ extension on _StringsJa {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -187398,6 +187604,14 @@ extension on _StringsJa {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -192019,7 +192233,7 @@ extension on _StringsKo {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -194432,6 +194646,14 @@ extension on _StringsKo {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -199078,7 +199300,7 @@ extension on _StringsNl {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -201494,6 +201716,14 @@ extension on _StringsNl {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -206139,7 +206369,7 @@ extension on _StringsPtBr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -208553,6 +208783,14 @@ extension on _StringsPtBr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -213203,7 +213441,7 @@ extension on _StringsRu {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -215617,6 +215855,14 @@ extension on _StringsRu {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -220250,7 +220496,7 @@ extension on _StringsTh {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -222664,6 +222910,14 @@ extension on _StringsTh {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -227305,7 +227559,7 @@ extension on _StringsTr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -229720,6 +229974,14 @@ extension on _StringsTr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -234358,7 +234620,7 @@ extension on _StringsVi {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -236772,6 +237034,14 @@ extension on _StringsVi {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
@@ -241369,7 +241639,7 @@ extension on _StringsZhCn {
       case 'video_mining_image_mode_gif':
         return '动图 GIF（字幕片段）';
       case 'video_mining_image_mode_hint':
-        return '视频制卡封面用动图还是截图';
+        return '视频卡片封面用字幕区间动图，还是某一帧静态截图（取哪一帧也在这里选）';
       case 'video_mining_image_mode_subtitle_start':
         return '字幕开头截图';
       case 'video_next_episode':
@@ -243766,6 +244036,14 @@ extension on _StringsZhCn {
         return '打开 App Store';
       case 'update_release_page_open':
         return '发布页';
+      case 'video_mining_still_format':
+        return '视频卡片截图格式';
+      case 'video_mining_still_format_hint':
+        return '选「制卡时截图」或「字幕开头截图」时那张图用什么编码。JPG 体积小得多；PNG 无损但大好几倍。动图封面不受影响，它跟随「动图格式」那一项。';
+      case 'mining_still_format_jpg':
+        return 'JPG（体积更小）';
+      case 'mining_still_format_png':
+        return 'PNG（无损）';
       default:
         return null;
     }
@@ -248380,7 +248658,7 @@ extension on _StringsZhHk {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -250791,6 +251069,14 @@ extension on _StringsZhHk {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
       default:
         return null;
     }
