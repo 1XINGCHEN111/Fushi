@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58208 (3424 per locale)
+/// Strings: 58310 (3430 per locale)
 ///
-/// Built on 2026-08-15 at 13:11 UTC
+/// Built on 2026-08-15 at 13:16 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4629,6 +4629,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
   String get aidoku_repository_remove => 'Remove repository';
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  String get dict_language_tooltip => 'Content language';
+  String get dict_language_title => 'Dictionary content language';
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  String get dict_language_auto => 'Automatic';
+  String get book_language_action => 'Content language';
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
   String get video_collection_scrape => 'Scrape info & cover';
@@ -12533,6 +12541,20 @@ class _StringsAr extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
   @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
@@ -20509,6 +20531,20 @@ class _StringsDe extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
   @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
@@ -28501,6 +28537,20 @@ class _StringsEs extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
   @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
@@ -36506,6 +36556,20 @@ class _StringsFr extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
@@ -44437,6 +44501,20 @@ class _StringsId extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
   @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
@@ -52416,6 +52494,20 @@ class _StringsIt extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
@@ -60207,6 +60299,20 @@ class _StringsJa extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
   @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
@@ -68006,6 +68112,20 @@ class _StringsKo extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
   @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
@@ -75964,6 +76084,20 @@ class _StringsNl extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
   @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
@@ -83935,6 +84069,20 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
@@ -91891,6 +92039,20 @@ class _StringsRu extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
@@ -99794,6 +99956,20 @@ class _StringsTh extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
   @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
@@ -107730,6 +107906,20 @@ class _StringsTr extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
@@ -115650,6 +115840,20 @@ class _StringsVi extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
@@ -122993,6 +123197,18 @@ class _StringsZhCn extends _StringsEn {
   String get aidoku_repository_remove => '移除仓库';
   @override
   String get aidoku_repository_empty => '尚未添加 Aidoku 仓库。';
+  @override
+  String get dict_language_tooltip => '内容语言';
+  @override
+  String get dict_language_title => '词典内容语言';
+  @override
+  String get dict_language_description => '决定这本词典的文字用哪种字体渲染。自动 = 用词典自己声明的语言。';
+  @override
+  String get dict_language_auto => '自动';
+  @override
+  String get book_language_action => '内容语言';
+  @override
+  String get book_language_description => '决定这本书的正文用哪种字体渲染。自动 = 用 EPUB 里声明的语言。';
   @override
   String get local_audio_reference_unavailable =>
       '没有「所有文件访问权限」无法引用原文件，已改为导入副本。';
@@ -130709,6 +130925,20 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
   String get local_audio_reference_unavailable =>
       'Can\'t reference the original file without all-files access; a copy was imported instead.';
   @override
@@ -137744,6 +137974,18 @@ extension on _StringsEn {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -144777,6 +145019,18 @@ extension on _StringsAr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -151832,6 +152086,18 @@ extension on _StringsDe {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -158886,6 +159152,18 @@ extension on _StringsEs {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -165946,6 +166224,18 @@ extension on _StringsFr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -172988,6 +173278,18 @@ extension on _StringsId {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -180044,6 +180346,18 @@ extension on _StringsIt {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -187062,6 +187376,18 @@ extension on _StringsJa {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -194084,6 +194410,18 @@ extension on _StringsKo {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -201134,6 +201472,18 @@ extension on _StringsNl {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -208181,6 +208531,18 @@ extension on _StringsPtBr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -215233,6 +215595,18 @@ extension on _StringsRu {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -222268,6 +222642,18 @@ extension on _StringsTh {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -229312,6 +229698,18 @@ extension on _StringsTr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -236352,6 +236750,18 @@ extension on _StringsVi {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
@@ -243334,6 +243744,18 @@ extension on _StringsZhCn {
         return '移除仓库';
       case 'aidoku_repository_empty':
         return '尚未添加 Aidoku 仓库。';
+      case 'dict_language_tooltip':
+        return '内容语言';
+      case 'dict_language_title':
+        return '词典内容语言';
+      case 'dict_language_description':
+        return '决定这本词典的文字用哪种字体渲染。自动 = 用词典自己声明的语言。';
+      case 'dict_language_auto':
+        return '自动';
+      case 'book_language_action':
+        return '内容语言';
+      case 'book_language_description':
+        return '决定这本书的正文用哪种字体渲染。自动 = 用 EPUB 里声明的语言。';
       case 'local_audio_reference_unavailable':
         return '没有「所有文件访问权限」无法引用原文件，已改为导入副本。';
       case 'video_collection_scrape':
@@ -250347,6 +250769,18 @@ extension on _StringsZhHk {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       case 'local_audio_reference_unavailable':
         return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
