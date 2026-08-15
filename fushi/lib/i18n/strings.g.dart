@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58429 (3437 per locale)
+/// Strings: 58514 (3442 per locale)
 ///
-/// Built on 2026-08-16 at 04:43 UTC
+/// Built on 2026-08-16 at 05:16 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4654,6 +4654,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get gal_mining_still_format => 'Game card screenshot format';
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  String get manga_global_search_title => 'Search all sources';
+  String get manga_global_search_hint => 'Search every enabled source';
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -12595,6 +12603,19 @@ class _StringsAr extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -20603,6 +20624,19 @@ class _StringsDe extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -28627,6 +28661,19 @@ class _StringsEs extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -36663,6 +36710,19 @@ class _StringsFr extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -44627,6 +44687,19 @@ class _StringsId extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -52637,6 +52710,19 @@ class _StringsIt extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -60461,6 +60547,19 @@ class _StringsJa extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -68292,6 +68391,19 @@ class _StringsKo extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -76282,6 +76394,19 @@ class _StringsNl extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -84284,6 +84409,19 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -92272,6 +92410,19 @@ class _StringsRu extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -100208,6 +100359,19 @@ class _StringsTh extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -108175,6 +108339,19 @@ class _StringsTr extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -116127,6 +116304,19 @@ class _StringsVi extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 // Path: <root>
@@ -123502,6 +123692,17 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       '与视频卡片同样的格式，但分开保存。游戏窗口抓图本身是 PNG：选 PNG 无损但大好几倍，选 JPG 与这些截图过去的压缩方式一致。';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      '该来源受 Cloudflare 保护，内置阅读器暂时无法访问。';
+  @override
+  String get manga_global_search_title => '搜索全部来源';
+  @override
+  String get manga_global_search_hint => '搜索所有已启用来源';
+  @override
+  String get manga_global_search_prompt => '输入书名，一次搜索所有已启用的漫画来源。';
+  @override
+  String get manga_global_search_no_sources => '没有已启用的漫画来源，请先安装并启用扩展。';
 }
 
 // Path: <root>
@@ -131249,6 +131450,19 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get gal_mining_still_format_hint =>
       'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
 }
 
 /// Flat map(s) containing all translations.
@@ -138311,6 +138525,16 @@ extension on _StringsEn {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -145371,6 +145595,16 @@ extension on _StringsAr {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -152453,6 +152687,16 @@ extension on _StringsDe {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -159534,6 +159778,16 @@ extension on _StringsEs {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -166621,6 +166875,16 @@ extension on _StringsFr {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -173690,6 +173954,16 @@ extension on _StringsId {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -180773,6 +181047,16 @@ extension on _StringsIt {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -187818,6 +188102,16 @@ extension on _StringsJa {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -194867,6 +195161,16 @@ extension on _StringsKo {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -201944,6 +202248,16 @@ extension on _StringsNl {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -209018,6 +209332,16 @@ extension on _StringsPtBr {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -216097,6 +216421,16 @@ extension on _StringsRu {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -223159,6 +223493,16 @@ extension on _StringsTh {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -230230,6 +230574,16 @@ extension on _StringsTr {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -237297,6 +237651,16 @@ extension on _StringsVi {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
@@ -244306,6 +244670,16 @@ extension on _StringsZhCn {
         return '游戏卡片截图格式';
       case 'gal_mining_still_format_hint':
         return '与视频卡片同样的格式，但分开保存。游戏窗口抓图本身是 PNG：选 PNG 无损但大好几倍，选 JPG 与这些截图过去的压缩方式一致。';
+      case 'manga_source_cloudflare_blocked':
+        return '该来源受 Cloudflare 保护，内置阅读器暂时无法访问。';
+      case 'manga_global_search_title':
+        return '搜索全部来源';
+      case 'manga_global_search_hint':
+        return '搜索所有已启用来源';
+      case 'manga_global_search_prompt':
+        return '输入书名，一次搜索所有已启用的漫画来源。';
+      case 'manga_global_search_no_sources':
+        return '没有已启用的漫画来源，请先安装并启用扩展。';
       default:
         return null;
     }
@@ -251346,6 +251720,16 @@ extension on _StringsZhHk {
         return 'Game card screenshot format';
       case 'gal_mining_still_format_hint':
         return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       default:
         return null;
     }
