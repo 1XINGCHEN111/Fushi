@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58123 (3419 per locale)
+/// Strings: 58191 (3423 per locale)
 ///
-/// Built on 2026-08-15 at 04:17 UTC
+/// Built on 2026-08-15 at 12:23 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4629,6 +4629,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
   String get aidoku_repository_remove => 'Remove repository';
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  String get video_collection_scrape => 'Scrape info & cover';
+  String get update_testflight_open => 'Open TestFlight';
+  String get update_app_store_open => 'Open App Store';
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -12527,6 +12531,14 @@ class _StringsAr extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -20492,6 +20504,14 @@ class _StringsDe extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -28473,6 +28493,14 @@ class _StringsEs extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -36466,6 +36494,14 @@ class _StringsFr extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -44387,6 +44423,14 @@ class _StringsId extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -52354,6 +52398,14 @@ class _StringsIt extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -60135,6 +60187,14 @@ class _StringsJa extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -67923,6 +67983,14 @@ class _StringsKo extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -75870,6 +75938,14 @@ class _StringsNl extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -83829,6 +83905,14 @@ class _StringsPtBr extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -91774,6 +91858,14 @@ class _StringsRu extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -99667,6 +99759,14 @@ class _StringsTh extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -107591,6 +107691,14 @@ class _StringsTr extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -115500,6 +115608,14 @@ class _StringsVi extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 // Path: <root>
@@ -122833,6 +122949,14 @@ class _StringsZhCn extends _StringsEn {
   String get aidoku_repository_remove => '移除仓库';
   @override
   String get aidoku_repository_empty => '尚未添加 Aidoku 仓库。';
+  @override
+  String get video_collection_scrape => '刮削资料与封面';
+  @override
+  String get update_testflight_open => '打开 TestFlight';
+  @override
+  String get update_app_store_open => '打开 App Store';
+  @override
+  String get update_release_page_open => '发布页';
 }
 
 // Path: <root>
@@ -130537,6 +130661,14 @@ class _StringsZhHk extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get video_collection_scrape => 'Scrape info & cover';
+  @override
+  String get update_testflight_open => 'Open TestFlight';
+  @override
+  String get update_app_store_open => 'Open App Store';
+  @override
+  String get update_release_page_open => 'Release page';
 }
 
 /// Flat map(s) containing all translations.
@@ -137562,6 +137694,14 @@ extension on _StringsEn {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -144585,6 +144725,14 @@ extension on _StringsAr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -151630,6 +151778,14 @@ extension on _StringsDe {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -158674,6 +158830,14 @@ extension on _StringsEs {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -165724,6 +165888,14 @@ extension on _StringsFr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -172756,6 +172928,14 @@ extension on _StringsId {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -179802,6 +179982,14 @@ extension on _StringsIt {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -186810,6 +186998,14 @@ extension on _StringsJa {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -193822,6 +194018,14 @@ extension on _StringsKo {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -200862,6 +201066,14 @@ extension on _StringsNl {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -207899,6 +208111,14 @@ extension on _StringsPtBr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -214941,6 +215161,14 @@ extension on _StringsRu {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -221966,6 +222194,14 @@ extension on _StringsTh {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -229000,6 +229236,14 @@ extension on _StringsTr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -236030,6 +236274,14 @@ extension on _StringsVi {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
@@ -243002,6 +243254,14 @@ extension on _StringsZhCn {
         return '移除仓库';
       case 'aidoku_repository_empty':
         return '尚未添加 Aidoku 仓库。';
+      case 'video_collection_scrape':
+        return '刮削资料与封面';
+      case 'update_testflight_open':
+        return '打开 TestFlight';
+      case 'update_app_store_open':
+        return '打开 App Store';
+      case 'update_release_page_open':
+        return '发布页';
       default:
         return null;
     }
@@ -250005,6 +250265,14 @@ extension on _StringsZhHk {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'video_collection_scrape':
+        return 'Scrape info & cover';
+      case 'update_testflight_open':
+        return 'Open TestFlight';
+      case 'update_app_store_open':
+        return 'Open App Store';
+      case 'update_release_page_open':
+        return 'Release page';
       default:
         return null;
     }
