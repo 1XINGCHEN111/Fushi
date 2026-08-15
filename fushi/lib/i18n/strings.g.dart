@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58123 (3419 per locale)
+/// Strings: 58225 (3425 per locale)
 ///
-/// Built on 2026-08-15 at 04:17 UTC
+/// Built on 2026-08-15 at 10:46 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4629,6 +4629,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
   String get aidoku_repository_remove => 'Remove repository';
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  String get dict_language_tooltip => 'Content language';
+  String get dict_language_title => 'Dictionary content language';
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  String get dict_language_auto => 'Automatic';
+  String get book_language_action => 'Content language';
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -12527,6 +12535,20 @@ class _StringsAr extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -20492,6 +20514,20 @@ class _StringsDe extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -28473,6 +28509,20 @@ class _StringsEs extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -36466,6 +36516,20 @@ class _StringsFr extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -44387,6 +44451,20 @@ class _StringsId extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -52354,6 +52432,20 @@ class _StringsIt extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -60135,6 +60227,20 @@ class _StringsJa extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -67923,6 +68029,20 @@ class _StringsKo extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -75870,6 +75990,20 @@ class _StringsNl extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -83829,6 +83963,20 @@ class _StringsPtBr extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -91774,6 +91922,20 @@ class _StringsRu extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -99667,6 +99829,20 @@ class _StringsTh extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -107591,6 +107767,20 @@ class _StringsTr extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -115500,6 +115690,20 @@ class _StringsVi extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 // Path: <root>
@@ -122833,6 +123037,18 @@ class _StringsZhCn extends _StringsEn {
   String get aidoku_repository_remove => '移除仓库';
   @override
   String get aidoku_repository_empty => '尚未添加 Aidoku 仓库。';
+  @override
+  String get dict_language_tooltip => '内容语言';
+  @override
+  String get dict_language_title => '词典内容语言';
+  @override
+  String get dict_language_description => '决定这本词典的文字用哪种字体渲染。自动 = 用词典自己声明的语言。';
+  @override
+  String get dict_language_auto => '自动';
+  @override
+  String get book_language_action => '内容语言';
+  @override
+  String get book_language_description => '决定这本书的正文用哪种字体渲染。自动 = 用 EPUB 里声明的语言。';
 }
 
 // Path: <root>
@@ -130537,6 +130753,20 @@ class _StringsZhHk extends _StringsEn {
   String get aidoku_repository_remove => 'Remove repository';
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
 }
 
 /// Flat map(s) containing all translations.
@@ -137562,6 +137792,18 @@ extension on _StringsEn {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -144585,6 +144827,18 @@ extension on _StringsAr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -151630,6 +151884,18 @@ extension on _StringsDe {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -158674,6 +158940,18 @@ extension on _StringsEs {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -165724,6 +166002,18 @@ extension on _StringsFr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -172756,6 +173046,18 @@ extension on _StringsId {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -179802,6 +180104,18 @@ extension on _StringsIt {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -186810,6 +187124,18 @@ extension on _StringsJa {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -193822,6 +194148,18 @@ extension on _StringsKo {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -200862,6 +201200,18 @@ extension on _StringsNl {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -207899,6 +208249,18 @@ extension on _StringsPtBr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -214941,6 +215303,18 @@ extension on _StringsRu {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -221966,6 +222340,18 @@ extension on _StringsTh {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -229000,6 +229386,18 @@ extension on _StringsTr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -236030,6 +236428,18 @@ extension on _StringsVi {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
@@ -243002,6 +243412,18 @@ extension on _StringsZhCn {
         return '移除仓库';
       case 'aidoku_repository_empty':
         return '尚未添加 Aidoku 仓库。';
+      case 'dict_language_tooltip':
+        return '内容语言';
+      case 'dict_language_title':
+        return '词典内容语言';
+      case 'dict_language_description':
+        return '决定这本词典的文字用哪种字体渲染。自动 = 用词典自己声明的语言。';
+      case 'dict_language_auto':
+        return '自动';
+      case 'book_language_action':
+        return '内容语言';
+      case 'book_language_description':
+        return '决定这本书的正文用哪种字体渲染。自动 = 用 EPUB 里声明的语言。';
       default:
         return null;
     }
@@ -250005,6 +250427,18 @@ extension on _StringsZhHk {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
       default:
         return null;
     }
