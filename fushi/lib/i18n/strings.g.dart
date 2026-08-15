@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58378 (3434 per locale)
+/// Strings: 58412 (3436 per locale)
 ///
-/// Built on 2026-08-15 at 13:50 UTC
+/// Built on 2026-08-15 at 14:28 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4648,6 +4648,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
   String get mining_still_format_jpg => 'JPG (smaller)';
   String get mining_still_format_png => 'PNG (lossless)';
+  String get gal_mining_still_format => 'Game card screenshot format';
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -12580,6 +12583,11 @@ class _StringsAr extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -20579,6 +20587,11 @@ class _StringsDe extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -28594,6 +28607,11 @@ class _StringsEs extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -36621,6 +36639,11 @@ class _StringsFr extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -44576,6 +44599,11 @@ class _StringsId extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -52577,6 +52605,11 @@ class _StringsIt extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -60392,6 +60425,11 @@ class _StringsJa extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -68214,6 +68252,11 @@ class _StringsKo extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -76195,6 +76238,11 @@ class _StringsNl extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -84188,6 +84236,11 @@ class _StringsPtBr extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -92167,6 +92220,11 @@ class _StringsRu extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -100094,6 +100152,11 @@ class _StringsTh extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -108052,6 +108115,11 @@ class _StringsTr extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -115995,6 +116063,11 @@ class _StringsVi extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -123361,6 +123434,11 @@ class _StringsZhCn extends _StringsEn {
   String get mining_still_format_jpg => 'JPG（体积更小）';
   @override
   String get mining_still_format_png => 'PNG（无损）';
+  @override
+  String get gal_mining_still_format => '游戏卡片截图格式';
+  @override
+  String get gal_mining_still_format_hint =>
+      '与视频卡片同样的格式，但分开保存。游戏窗口抓图本身是 PNG：选 PNG 无损但大好几倍，选 JPG 与这些截图过去的压缩方式一致。';
 }
 
 // Path: <root>
@@ -131099,6 +131177,11 @@ class _StringsZhHk extends _StringsEn {
   String get mining_still_format_jpg => 'JPG (smaller)';
   @override
   String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 /// Flat map(s) containing all translations.
@@ -138154,6 +138237,10 @@ extension on _StringsEn {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -145207,6 +145294,10 @@ extension on _StringsAr {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -152282,6 +152373,10 @@ extension on _StringsDe {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -159356,6 +159451,10 @@ extension on _StringsEs {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -166436,6 +166535,10 @@ extension on _StringsFr {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -173498,6 +173601,10 @@ extension on _StringsId {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -180574,6 +180681,10 @@ extension on _StringsIt {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -187612,6 +187723,10 @@ extension on _StringsJa {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -194654,6 +194769,10 @@ extension on _StringsKo {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -201724,6 +201843,10 @@ extension on _StringsNl {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -208791,6 +208914,10 @@ extension on _StringsPtBr {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -215863,6 +215990,10 @@ extension on _StringsRu {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -222918,6 +223049,10 @@ extension on _StringsTh {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -229982,6 +230117,10 @@ extension on _StringsTr {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -237042,6 +237181,10 @@ extension on _StringsVi {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -244044,6 +244187,10 @@ extension on _StringsZhCn {
         return 'JPG（体积更小）';
       case 'mining_still_format_png':
         return 'PNG（无损）';
+      case 'gal_mining_still_format':
+        return '游戏卡片截图格式';
+      case 'gal_mining_still_format_hint':
+        return '与视频卡片同样的格式，但分开保存。游戏窗口抓图本身是 PNG：选 PNG 无损但大好几倍，选 JPG 与这些截图过去的压缩方式一致。';
       default:
         return null;
     }
@@ -251077,6 +251224,10 @@ extension on _StringsZhHk {
         return 'JPG (smaller)';
       case 'mining_still_format_png':
         return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
