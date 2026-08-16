@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58514 (3442 per locale)
+/// Strings: 58633 (3449 per locale)
 ///
-/// Built on 2026-08-16 at 05:16 UTC
+/// Built on 2026-08-16 at 09:44 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4662,6 +4662,19 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Type a title to search every enabled manga source at once.';
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -12616,6 +12629,26 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -20637,6 +20670,26 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -28674,6 +28727,26 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -36723,6 +36796,26 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -44700,6 +44793,26 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -52723,6 +52836,26 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -60560,6 +60693,26 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -68404,6 +68557,26 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -76407,6 +76580,26 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -84422,6 +84615,26 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -92423,6 +92636,26 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -100372,6 +100605,26 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -108352,6 +108605,26 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -116317,6 +116590,26 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 // Path: <root>
@@ -123703,6 +123996,25 @@ class _StringsZhCn extends _StringsEn {
   String get manga_global_search_prompt => '输入书名，一次搜索所有已启用的漫画来源。';
   @override
   String get manga_global_search_no_sources => '没有已启用的漫画来源，请先安装并启用扩展。';
+  @override
+  String get anki_connect_addon_install => '安装 AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      '从 AnkiWeb 下载 AnkiConnect 并交给正在运行的 Anki。Anki 会弹窗请你确认，之后按它的提示重启。';
+  @override
+  String get anki_connect_addon_handed =>
+      '已把 AnkiConnect 交给 Anki。请在 Anki 弹出的确认框中同意，然后按 Anki 的提示重启。';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      '没有检测到正在运行的 Anki。请先启动 Anki 桌面版再试。';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      '无法从 AnkiWeb 下载 AnkiConnect：${error}';
+  @override
+  String get anki_connect_addon_invalid => 'AnkiWeb 返回的内容不是可用的插件包。';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      '无法把插件交给 Anki：${error}';
 }
 
 // Path: <root>
@@ -131463,6 +131775,26 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_global_search_no_sources =>
       'No enabled manga sources. Install and enable an extension first.';
+  @override
+  String get anki_connect_addon_install => 'Install AnkiConnect';
+  @override
+  String get anki_connect_addon_install_hint =>
+      'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+  @override
+  String get anki_connect_addon_handed =>
+      'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+  @override
+  String get anki_connect_addon_anki_not_running =>
+      'No running Anki found. Start Anki desktop first, then try again.';
+  @override
+  String anki_connect_addon_download_failed({required Object error}) =>
+      'Could not download AnkiConnect from AnkiWeb: ${error}';
+  @override
+  String get anki_connect_addon_invalid =>
+      'AnkiWeb returned something that is not a usable add-on package.';
+  @override
+  String anki_connect_addon_launch_failed({required Object error}) =>
+      'Could not hand the add-on to Anki: ${error}';
 }
 
 /// Flat map(s) containing all translations.
@@ -138535,6 +138867,22 @@ extension on _StringsEn {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -145605,6 +145953,22 @@ extension on _StringsAr {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -152697,6 +153061,22 @@ extension on _StringsDe {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -159788,6 +160168,22 @@ extension on _StringsEs {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -166885,6 +167281,22 @@ extension on _StringsFr {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -173964,6 +174376,22 @@ extension on _StringsId {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -181057,6 +181485,22 @@ extension on _StringsIt {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -188112,6 +188556,22 @@ extension on _StringsJa {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -195171,6 +195631,22 @@ extension on _StringsKo {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -202258,6 +202734,22 @@ extension on _StringsNl {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -209342,6 +209834,22 @@ extension on _StringsPtBr {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -216431,6 +216939,22 @@ extension on _StringsRu {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -223503,6 +224027,22 @@ extension on _StringsTh {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -230584,6 +231124,22 @@ extension on _StringsTr {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -237661,6 +238217,22 @@ extension on _StringsVi {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
@@ -244680,6 +245252,21 @@ extension on _StringsZhCn {
         return '输入书名，一次搜索所有已启用的漫画来源。';
       case 'manga_global_search_no_sources':
         return '没有已启用的漫画来源，请先安装并启用扩展。';
+      case 'anki_connect_addon_install':
+        return '安装 AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return '从 AnkiWeb 下载 AnkiConnect 并交给正在运行的 Anki。Anki 会弹窗请你确认，之后按它的提示重启。';
+      case 'anki_connect_addon_handed':
+        return '已把 AnkiConnect 交给 Anki。请在 Anki 弹出的确认框中同意，然后按 Anki 的提示重启。';
+      case 'anki_connect_addon_anki_not_running':
+        return '没有检测到正在运行的 Anki。请先启动 Anki 桌面版再试。';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            '无法从 AnkiWeb 下载 AnkiConnect：${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb 返回的内容不是可用的插件包。';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) => '无法把插件交给 Anki：${error}';
       default:
         return null;
     }
@@ -251730,6 +252317,22 @@ extension on _StringsZhHk {
         return 'Type a title to search every enabled manga source at once.';
       case 'manga_global_search_no_sources':
         return 'No enabled manga sources. Install and enable an extension first.';
+      case 'anki_connect_addon_install':
+        return 'Install AnkiConnect';
+      case 'anki_connect_addon_install_hint':
+        return 'Downloads AnkiConnect from AnkiWeb and hands it to the running Anki. Anki will ask you to confirm, then advise a restart.';
+      case 'anki_connect_addon_handed':
+        return 'Handed AnkiConnect to Anki. Confirm the prompt in Anki, then restart Anki as it advises.';
+      case 'anki_connect_addon_anki_not_running':
+        return 'No running Anki found. Start Anki desktop first, then try again.';
+      case 'anki_connect_addon_download_failed':
+        return ({required Object error}) =>
+            'Could not download AnkiConnect from AnkiWeb: ${error}';
+      case 'anki_connect_addon_invalid':
+        return 'AnkiWeb returned something that is not a usable add-on package.';
+      case 'anki_connect_addon_launch_failed':
+        return ({required Object error}) =>
+            'Could not hand the add-on to Anki: ${error}';
       default:
         return null;
     }
