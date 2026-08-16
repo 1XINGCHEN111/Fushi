@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58225 (3425 per locale)
+/// Strings: 58276 (3428 per locale)
 ///
-/// Built on 2026-08-15 at 10:46 UTC
+/// Built on 2026-08-15 at 12:09 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4637,6 +4637,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get book_language_action => 'Content language';
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  String get settings_content_language_title => 'Default content language';
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -12549,6 +12553,13 @@ class _StringsAr extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -20528,6 +20539,13 @@ class _StringsDe extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -28523,6 +28541,13 @@ class _StringsEs extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -36530,6 +36555,13 @@ class _StringsFr extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -44465,6 +44497,13 @@ class _StringsId extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -52446,6 +52485,13 @@ class _StringsIt extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -60241,6 +60287,13 @@ class _StringsJa extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -68043,6 +68096,13 @@ class _StringsKo extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -76004,6 +76064,13 @@ class _StringsNl extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -83977,6 +84044,13 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -91936,6 +92010,13 @@ class _StringsRu extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -99843,6 +99924,13 @@ class _StringsTh extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -107781,6 +107869,13 @@ class _StringsTr extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -115704,6 +115799,13 @@ class _StringsVi extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 // Path: <root>
@@ -123049,6 +123151,13 @@ class _StringsZhCn extends _StringsEn {
   String get book_language_action => '内容语言';
   @override
   String get book_language_description => '决定这本书的正文用哪种字体渲染。自动 = 用 EPUB 里声明的语言。';
+  @override
+  String get settings_content_language_title => '默认内容语言';
+  @override
+  String get settings_content_language_description =>
+      '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
+  @override
+  String get settings_content_language_unset => '未设置';
 }
 
 // Path: <root>
@@ -130767,6 +130876,13 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get book_language_description =>
       'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get settings_content_language_unset => 'Not set';
 }
 
 /// Flat map(s) containing all translations.
@@ -137804,6 +137920,12 @@ extension on _StringsEn {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -144839,6 +144961,12 @@ extension on _StringsAr {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -151896,6 +152024,12 @@ extension on _StringsDe {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -158952,6 +159086,12 @@ extension on _StringsEs {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -166014,6 +166154,12 @@ extension on _StringsFr {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -173058,6 +173204,12 @@ extension on _StringsId {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -180116,6 +180268,12 @@ extension on _StringsIt {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -187136,6 +187294,12 @@ extension on _StringsJa {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -194160,6 +194324,12 @@ extension on _StringsKo {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -201212,6 +201382,12 @@ extension on _StringsNl {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -208261,6 +208437,12 @@ extension on _StringsPtBr {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -215315,6 +215497,12 @@ extension on _StringsRu {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -222352,6 +222540,12 @@ extension on _StringsTh {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -229398,6 +229592,12 @@ extension on _StringsTr {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -236440,6 +236640,12 @@ extension on _StringsVi {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
@@ -243424,6 +243630,12 @@ extension on _StringsZhCn {
         return '内容语言';
       case 'book_language_description':
         return '决定这本书的正文用哪种字体渲染。自动 = 用 EPUB 里声明的语言。';
+      case 'settings_content_language_title':
+        return '默认内容语言';
+      case 'settings_content_language_description':
+        return '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
+      case 'settings_content_language_unset':
+        return '未设置';
       default:
         return null;
     }
@@ -250439,6 +250651,12 @@ extension on _StringsZhHk {
         return 'Content language';
       case 'book_language_description':
         return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'settings_content_language_unset':
+        return 'Not set';
       default:
         return null;
     }
