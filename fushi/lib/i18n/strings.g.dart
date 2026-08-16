@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58735 (3455 per locale)
+/// Strings: 58769 (3457 per locale)
 ///
-/// Built on 2026-08-16 at 16:53 UTC
+/// Built on 2026-08-16 at 17:12 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4411,8 +4411,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_external_settings_section =>
       'External resource and subtitle providers';
   String get video_torznab_settings_title => 'Torznab indexers';
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
   String get video_torznab_add => 'Add indexer';
   String get video_torznab_name => 'Name';
   String get video_torznab_endpoint => 'Endpoint';
@@ -4430,8 +4428,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_external_endpoint_invalid =>
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   String get video_opensubtitles_user_agent => 'User-Agent';
   String get video_opensubtitles_languages => 'Preferred languages';
   String get video_opensubtitles_languages_hint =>
@@ -4684,6 +4680,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Can\'t reach the paired device - it may be offline or not running Fushi.';
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -12209,9 +12213,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -12241,9 +12242,6 @@ class _StringsAr extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -12673,6 +12671,18 @@ class _StringsAr extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -20265,9 +20275,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -20297,9 +20304,6 @@ class _StringsDe extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -20729,6 +20733,18 @@ class _StringsDe extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -28337,9 +28353,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -28369,9 +28382,6 @@ class _StringsEs extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -28801,6 +28811,18 @@ class _StringsEs extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -36421,9 +36443,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -36453,9 +36472,6 @@ class _StringsFr extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -36885,6 +36901,18 @@ class _StringsFr extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -44433,9 +44461,6 @@ class _StringsId extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -44465,9 +44490,6 @@ class _StringsId extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -44897,6 +44919,18 @@ class _StringsId extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -52491,9 +52525,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -52523,9 +52554,6 @@ class _StringsIt extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -52955,6 +52983,18 @@ class _StringsIt extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -60363,9 +60403,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -60395,9 +60432,6 @@ class _StringsJa extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -60827,6 +60861,18 @@ class _StringsJa extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -68242,9 +68288,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -68274,9 +68317,6 @@ class _StringsKo extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -68706,6 +68746,18 @@ class _StringsKo extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -76280,9 +76332,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -76312,9 +76361,6 @@ class _StringsNl extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -76744,6 +76790,18 @@ class _StringsNl extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -84330,9 +84388,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -84362,9 +84417,6 @@ class _StringsPtBr extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -84794,6 +84846,18 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -92366,9 +92430,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -92398,9 +92459,6 @@ class _StringsRu extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -92830,6 +92888,18 @@ class _StringsRu extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -100350,9 +100420,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -100382,9 +100449,6 @@ class _StringsTh extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -100814,6 +100878,18 @@ class _StringsTh extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -108365,9 +108441,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -108397,9 +108470,6 @@ class _StringsTr extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -108829,6 +108899,18 @@ class _StringsTr extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -116365,9 +116447,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -116397,9 +116476,6 @@ class _StringsVi extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -116829,6 +116905,18 @@ class _StringsVi extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 // Path: <root>
@@ -123832,9 +123920,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab 索引器';
   @override
-  String get video_torznab_settings_hint =>
-      '配置一个或多个 Jackett、Prowlarr 或兼容的 Torznab 端点。密钥仅保存在本机。';
-  @override
   String get video_torznab_add => '添加索引器';
   @override
   String get video_torznab_name => '名称';
@@ -123860,8 +123945,6 @@ class _StringsZhCn extends _StringsEn {
   String get video_external_endpoint_invalid => '请输入不含凭据、查询参数或片段的有效端点。';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint => 'API 凭据和首选字幕语言仅保存在本机。';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -124247,6 +124330,17 @@ class _StringsZhCn extends _StringsEn {
   String get sync_err_peer_unreachable => '无法连接配对设备——对方可能不在线，或对端未运行 Fushi。';
   @override
   String get remote_book_list_failed => '无法获取配对设备的远端书库。';
+  @override
+  String get video_torznab_settings_hint =>
+      '配置一个或多个 Jackett、Prowlarr 或兼容的 Torznab 端点。密钥绝不随备份导出；可随互联同步到已配对设备（可在互联设置中关闭）。';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API 凭据绝不随备份导出；可随互联同步到已配对设备（可在互联设置中关闭）。';
+  @override
+  String get sync_interconnect_service_config_toggle => '同步主机服务配置';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      '经加密互联通道接收已配对主机的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
 }
 
 // Path: <root>
@@ -131578,9 +131672,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -131610,9 +131701,6 @@ class _StringsZhHk extends _StringsEn {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
@@ -132042,6 +132130,18 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get remote_book_list_failed =>
       'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
 }
 
 /// Flat map(s) containing all translations.
@@ -138751,8 +138851,6 @@ extension on _StringsEn {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -138779,8 +138877,6 @@ extension on _StringsEn {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -139142,6 +139238,14 @@ extension on _StringsEn {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -145847,8 +145951,6 @@ extension on _StringsAr {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -145875,8 +145977,6 @@ extension on _StringsAr {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -146240,6 +146340,14 @@ extension on _StringsAr {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -152967,8 +153075,6 @@ extension on _StringsDe {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -152995,8 +153101,6 @@ extension on _StringsDe {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -153360,6 +153464,14 @@ extension on _StringsDe {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -160086,8 +160198,6 @@ extension on _StringsEs {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -160114,8 +160224,6 @@ extension on _StringsEs {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -160479,6 +160587,14 @@ extension on _StringsEs {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -167211,8 +167327,6 @@ extension on _StringsFr {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -167239,8 +167353,6 @@ extension on _StringsFr {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -167604,6 +167716,14 @@ extension on _StringsFr {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -174318,8 +174438,6 @@ extension on _StringsId {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -174346,8 +174464,6 @@ extension on _StringsId {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -174711,6 +174827,14 @@ extension on _StringsId {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -181439,8 +181563,6 @@ extension on _StringsIt {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -181467,8 +181589,6 @@ extension on _StringsIt {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -181832,6 +181952,14 @@ extension on _StringsIt {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -188522,8 +188650,6 @@ extension on _StringsJa {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -188550,8 +188676,6 @@ extension on _StringsJa {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -188915,6 +189039,14 @@ extension on _StringsJa {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -195609,8 +195741,6 @@ extension on _StringsKo {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -195637,8 +195767,6 @@ extension on _StringsKo {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -196002,6 +196130,14 @@ extension on _StringsKo {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -202724,8 +202860,6 @@ extension on _StringsNl {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -202752,8 +202886,6 @@ extension on _StringsNl {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -203117,6 +203249,14 @@ extension on _StringsNl {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -209836,8 +209976,6 @@ extension on _StringsPtBr {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -209864,8 +210002,6 @@ extension on _StringsPtBr {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -210229,6 +210365,14 @@ extension on _StringsPtBr {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -216953,8 +217097,6 @@ extension on _StringsRu {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -216981,8 +217123,6 @@ extension on _StringsRu {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -217346,6 +217486,14 @@ extension on _StringsRu {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -224053,8 +224201,6 @@ extension on _StringsTh {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -224081,8 +224227,6 @@ extension on _StringsTh {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -224446,6 +224590,14 @@ extension on _StringsTh {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -231162,8 +231314,6 @@ extension on _StringsTr {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -231190,8 +231340,6 @@ extension on _StringsTr {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -231555,6 +231703,14 @@ extension on _StringsTr {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -238267,8 +238423,6 @@ extension on _StringsVi {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -238295,8 +238449,6 @@ extension on _StringsVi {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -238660,6 +238812,14 @@ extension on _StringsVi {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
@@ -245317,8 +245477,6 @@ extension on _StringsZhCn {
         return '外部资源与字幕来源';
       case 'video_torznab_settings_title':
         return 'Torznab 索引器';
-      case 'video_torznab_settings_hint':
-        return '配置一个或多个 Jackett、Prowlarr 或兼容的 Torznab 端点。密钥仅保存在本机。';
       case 'video_torznab_add':
         return '添加索引器';
       case 'video_torznab_name':
@@ -245345,8 +245503,6 @@ extension on _StringsZhCn {
         return '请输入不含凭据、查询参数或片段的有效端点。';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API 凭据和首选字幕语言仅保存在本机。';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -245706,6 +245862,14 @@ extension on _StringsZhCn {
         return '无法连接配对设备——对方可能不在线，或对端未运行 Fushi。';
       case 'remote_book_list_failed':
         return '无法获取配对设备的远端书库。';
+      case 'video_torznab_settings_hint':
+        return '配置一个或多个 Jackett、Prowlarr 或兼容的 Torznab 端点。密钥绝不随备份导出；可随互联同步到已配对设备（可在互联设置中关闭）。';
+      case 'video_opensubtitles_settings_hint':
+        return 'API 凭据绝不随备份导出；可随互联同步到已配对设备（可在互联设置中关闭）。';
+      case 'sync_interconnect_service_config_toggle':
+        return '同步主机服务配置';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return '经加密互联通道接收已配对主机的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
       default:
         return null;
     }
@@ -252391,8 +252555,6 @@ extension on _StringsZhHk {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -252419,8 +252581,6 @@ extension on _StringsZhHk {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
       case 'video_opensubtitles_languages':
@@ -252784,6 +252944,14 @@ extension on _StringsZhHk {
         return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
       case 'remote_book_list_failed':
         return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
       default:
         return null;
     }
