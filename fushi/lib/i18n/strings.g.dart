@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58701 (3453 per locale)
+/// Strings: 58735 (3455 per locale)
 ///
-/// Built on 2026-08-16 at 12:44 UTC
+/// Built on 2026-08-16 at 16:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4680,6 +4680,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   String get manga_ocr_lens_language_label => 'Recognition language';
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -12663,6 +12667,12 @@ class _StringsAr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'لغة التعرّف';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -20713,6 +20723,12 @@ class _StringsDe extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Erkennungssprache';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -28779,6 +28795,12 @@ class _StringsEs extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconocimiento';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -36857,6 +36879,12 @@ class _StringsFr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Langue de reconnaissance';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -44863,6 +44891,12 @@ class _StringsId extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Bahasa pengenalan';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -52915,6 +52949,12 @@ class _StringsIt extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Lingua di riconoscimento';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -60781,6 +60821,12 @@ class _StringsJa extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '認識する言語';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -68654,6 +68700,12 @@ class _StringsKo extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '인식 언어';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -76686,6 +76738,12 @@ class _StringsNl extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Herkenningstaal';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -84730,6 +84788,12 @@ class _StringsPtBr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconhecimento';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -92760,6 +92824,12 @@ class _StringsRu extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Язык распознавания';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -100738,6 +100808,12 @@ class _StringsTh extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'ภาษาที่ใช้จดจำ';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -108747,6 +108823,12 @@ class _StringsTr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Tanıma dili';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -116741,6 +116823,12 @@ class _StringsVi extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Ngôn ngữ nhận dạng';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 // Path: <root>
@@ -124155,6 +124243,10 @@ class _StringsZhCn extends _StringsEn {
       '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
   @override
   String get manga_ocr_lens_language_label => '识别语言';
+  @override
+  String get sync_err_peer_unreachable => '无法连接配对设备——对方可能不在线，或对端未运行 Fushi。';
+  @override
+  String get remote_book_list_failed => '无法获取配对设备的远端书库。';
 }
 
 // Path: <root>
@@ -131944,6 +132036,12 @@ class _StringsZhHk extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '識別語言';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
 }
 
 /// Flat map(s) containing all translations.
@@ -139040,6 +139138,10 @@ extension on _StringsEn {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Recognition language';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -146134,6 +146236,10 @@ extension on _StringsAr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'لغة التعرّف';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -153250,6 +153356,10 @@ extension on _StringsDe {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Erkennungssprache';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -160365,6 +160475,10 @@ extension on _StringsEs {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconocimiento';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -167486,6 +167600,10 @@ extension on _StringsFr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Langue de reconnaissance';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -174589,6 +174707,10 @@ extension on _StringsId {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Bahasa pengenalan';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -181706,6 +181828,10 @@ extension on _StringsIt {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Lingua di riconoscimento';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -188785,6 +188911,10 @@ extension on _StringsJa {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '認識する言語';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -195868,6 +195998,10 @@ extension on _StringsKo {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '인식 언어';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -202979,6 +203113,10 @@ extension on _StringsNl {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Herkenningstaal';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -210087,6 +210225,10 @@ extension on _StringsPtBr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconhecimento';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -217200,6 +217342,10 @@ extension on _StringsRu {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Язык распознавания';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -224296,6 +224442,10 @@ extension on _StringsTh {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'ภาษาที่ใช้จดจำ';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -231401,6 +231551,10 @@ extension on _StringsTr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Tanıma dili';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -238502,6 +238656,10 @@ extension on _StringsVi {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Ngôn ngữ nhận dạng';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
@@ -245544,6 +245702,10 @@ extension on _StringsZhCn {
         return '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
       case 'manga_ocr_lens_language_label':
         return '识别语言';
+      case 'sync_err_peer_unreachable':
+        return '无法连接配对设备——对方可能不在线，或对端未运行 Fushi。';
+      case 'remote_book_list_failed':
+        return '无法获取配对设备的远端书库。';
       default:
         return null;
     }
@@ -252618,6 +252780,10 @@ extension on _StringsZhHk {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '識別語言';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
       default:
         return null;
     }
