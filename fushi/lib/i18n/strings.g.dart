@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58701 (3453 per locale)
+/// Strings: 58786 (3458 per locale)
 ///
-/// Built on 2026-08-16 at 12:44 UTC
+/// Built on 2026-08-16 at 17:20 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4680,6 +4680,16 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   String get manga_ocr_lens_language_label => 'Recognition language';
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -12663,6 +12673,21 @@ class _StringsAr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'لغة التعرّف';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -20713,6 +20738,21 @@ class _StringsDe extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Erkennungssprache';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -28779,6 +28819,21 @@ class _StringsEs extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconocimiento';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -36857,6 +36912,21 @@ class _StringsFr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Langue de reconnaissance';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -44863,6 +44933,21 @@ class _StringsId extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Bahasa pengenalan';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -52915,6 +53000,21 @@ class _StringsIt extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Lingua di riconoscimento';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -60781,6 +60881,21 @@ class _StringsJa extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '認識する言語';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -68654,6 +68769,21 @@ class _StringsKo extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '인식 언어';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -76686,6 +76816,21 @@ class _StringsNl extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Herkenningstaal';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -84730,6 +84875,21 @@ class _StringsPtBr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconhecimento';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -92760,6 +92920,21 @@ class _StringsRu extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Язык распознавания';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -100738,6 +100913,21 @@ class _StringsTh extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'ภาษาที่ใช้จดจำ';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -108747,6 +108937,21 @@ class _StringsTr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Tanıma dili';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -116741,6 +116946,21 @@ class _StringsVi extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Ngôn ngữ nhận dạng';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 // Path: <root>
@@ -124155,6 +124375,17 @@ class _StringsZhCn extends _StringsEn {
       '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
   @override
   String get manga_ocr_lens_language_label => '识别语言';
+  @override
+  String get video_setting_subtitle_backfill => '刮削后自动补字幕';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      '刮削完成后，仍然没有字幕的视频会自动从已配置的在线字幕来源取一条。绝不覆盖已有字幕。';
+  @override
+  String get video_setting_subtitle_sources_section => '在线字幕来源';
+  @override
+  String get video_subtitle_no_source_configured => '没找到字幕 · 去配置在线字幕来源';
+  @override
+  String get anime_download_subs_retrying => '字幕：还没上传，稍后自动重试';
 }
 
 // Path: <root>
@@ -131944,6 +132175,21 @@ class _StringsZhHk extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '識別語言';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
 }
 
 /// Flat map(s) containing all translations.
@@ -139040,6 +139286,16 @@ extension on _StringsEn {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Recognition language';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -146134,6 +146390,16 @@ extension on _StringsAr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'لغة التعرّف';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -153250,6 +153516,16 @@ extension on _StringsDe {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Erkennungssprache';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -160365,6 +160641,16 @@ extension on _StringsEs {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconocimiento';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -167486,6 +167772,16 @@ extension on _StringsFr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Langue de reconnaissance';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -174589,6 +174885,16 @@ extension on _StringsId {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Bahasa pengenalan';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -181706,6 +182012,16 @@ extension on _StringsIt {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Lingua di riconoscimento';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -188785,6 +189101,16 @@ extension on _StringsJa {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '認識する言語';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -195868,6 +196194,16 @@ extension on _StringsKo {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '인식 언어';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -202979,6 +203315,16 @@ extension on _StringsNl {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Herkenningstaal';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -210087,6 +210433,16 @@ extension on _StringsPtBr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconhecimento';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -217200,6 +217556,16 @@ extension on _StringsRu {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Язык распознавания';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -224296,6 +224662,16 @@ extension on _StringsTh {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'ภาษาที่ใช้จดจำ';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -231401,6 +231777,16 @@ extension on _StringsTr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Tanıma dili';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -238502,6 +238888,16 @@ extension on _StringsVi {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Ngôn ngữ nhận dạng';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
@@ -245544,6 +245940,16 @@ extension on _StringsZhCn {
         return '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
       case 'manga_ocr_lens_language_label':
         return '识别语言';
+      case 'video_setting_subtitle_backfill':
+        return '刮削后自动补字幕';
+      case 'video_setting_subtitle_backfill_hint':
+        return '刮削完成后，仍然没有字幕的视频会自动从已配置的在线字幕来源取一条。绝不覆盖已有字幕。';
+      case 'video_setting_subtitle_sources_section':
+        return '在线字幕来源';
+      case 'video_subtitle_no_source_configured':
+        return '没找到字幕 · 去配置在线字幕来源';
+      case 'anime_download_subs_retrying':
+        return '字幕：还没上传，稍后自动重试';
       default:
         return null;
     }
@@ -252618,6 +253024,16 @@ extension on _StringsZhHk {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '識別語言';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
       default:
         return null;
     }
