@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58633 (3449 per locale)
+/// Strings: 58684 (3452 per locale)
 ///
-/// Built on 2026-08-16 at 09:44 UTC
+/// Built on 2026-08-16 at 12:42 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4675,6 +4675,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'AnkiWeb returned something that is not a usable add-on package.';
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  String get settings_content_language_title => 'Default content language';
+  String get settings_content_language_unset => 'Not set';
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -12649,6 +12653,13 @@ class _StringsAr extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -20690,6 +20701,13 @@ class _StringsDe extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -28747,6 +28765,13 @@ class _StringsEs extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -36816,6 +36841,13 @@ class _StringsFr extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -44813,6 +44845,13 @@ class _StringsId extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -52856,6 +52895,13 @@ class _StringsIt extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -60713,6 +60759,13 @@ class _StringsJa extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -68577,6 +68630,13 @@ class _StringsKo extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -76600,6 +76660,13 @@ class _StringsNl extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -84635,6 +84702,13 @@ class _StringsPtBr extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -92656,6 +92730,13 @@ class _StringsRu extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -100625,6 +100706,13 @@ class _StringsTh extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -108625,6 +108713,13 @@ class _StringsTr extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -116610,6 +116705,13 @@ class _StringsVi extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 // Path: <root>
@@ -124015,6 +124117,13 @@ class _StringsZhCn extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       '无法把插件交给 Anki：${error}';
+  @override
+  String get settings_content_language_title => '默认内容语言';
+  @override
+  String get settings_content_language_unset => '未设置';
+  @override
+  String get settings_content_language_description =>
+      '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
 }
 
 // Path: <root>
@@ -131795,6 +131904,13 @@ class _StringsZhHk extends _StringsEn {
   @override
   String anki_connect_addon_launch_failed({required Object error}) =>
       'Could not hand the add-on to Anki: ${error}';
+  @override
+  String get settings_content_language_title => 'Default content language';
+  @override
+  String get settings_content_language_unset => 'Not set';
+  @override
+  String get settings_content_language_description =>
+      'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
 }
 
 /// Flat map(s) containing all translations.
@@ -138883,6 +138999,12 @@ extension on _StringsEn {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -145969,6 +146091,12 @@ extension on _StringsAr {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -153077,6 +153205,12 @@ extension on _StringsDe {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -160184,6 +160318,12 @@ extension on _StringsEs {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -167297,6 +167437,12 @@ extension on _StringsFr {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -174392,6 +174538,12 @@ extension on _StringsId {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -181501,6 +181653,12 @@ extension on _StringsIt {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -188572,6 +188730,12 @@ extension on _StringsJa {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -195647,6 +195811,12 @@ extension on _StringsKo {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -202750,6 +202920,12 @@ extension on _StringsNl {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -209850,6 +210026,12 @@ extension on _StringsPtBr {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -216955,6 +217137,12 @@ extension on _StringsRu {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -224043,6 +224231,12 @@ extension on _StringsTh {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -231140,6 +231334,12 @@ extension on _StringsTr {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -238233,6 +238433,12 @@ extension on _StringsVi {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
@@ -245267,6 +245473,12 @@ extension on _StringsZhCn {
         return 'AnkiWeb 返回的内容不是可用的插件包。';
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) => '无法把插件交给 Anki：${error}';
+      case 'settings_content_language_title':
+        return '默认内容语言';
+      case 'settings_content_language_unset':
+        return '未设置';
+      case 'settings_content_language_description':
+        return '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
       default:
         return null;
     }
@@ -252333,6 +252545,12 @@ extension on _StringsZhHk {
       case 'anki_connect_addon_launch_failed':
         return ({required Object error}) =>
             'Could not hand the add-on to Anki: ${error}';
+      case 'settings_content_language_title':
+        return 'Default content language';
+      case 'settings_content_language_unset':
+        return 'Not set';
+      case 'settings_content_language_description':
+        return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       default:
         return null;
     }
