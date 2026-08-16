@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58361 (3433 per locale)
+/// Strings: 58565 (3445 per locale)
 ///
-/// Built on 2026-08-16 at 04:37 UTC
+/// Built on 2026-08-16 at 10:56 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3034,7 +3034,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_mining_image_mode_current_frame => 'Screenshot at mining';
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
   String get video_next_episode => 'Next episode';
@@ -4061,8 +4061,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get mihon_add_to_bookshelf => 'Add to manga shelf';
   String get mihon_in_bookshelf => 'In manga shelf';
   String get media_source_local_roots => 'Local scan roots';
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   String get collection_related_title => 'Related works';
@@ -4643,6 +4641,27 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get update_testflight_open => 'Open TestFlight';
   String get update_app_store_open => 'Open App Store';
   String get update_release_page_open => 'Release page';
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  String get video_mining_still_format => 'Video card screenshot format';
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  String get mining_still_format_png => 'PNG (lossless)';
+  String get gal_mining_still_format => 'Game card screenshot format';
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  String get manga_global_search_title => 'Search all sources';
+  String get manga_global_search_hint => 'Search every enabled source';
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   String get settings_content_language_title => 'Default content language';
   String get settings_content_language_unset => 'Not set';
   String get settings_content_language_description =>
@@ -9793,7 +9812,7 @@ class _StringsAr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -11577,9 +11596,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -12570,6 +12586,40 @@ class _StringsAr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -17781,7 +17831,7 @@ class _StringsDe extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -19574,9 +19624,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -20567,6 +20614,40 @@ class _StringsDe extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -25792,7 +25873,7 @@ class _StringsEs extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -27587,9 +27668,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -28580,6 +28658,40 @@ class _StringsEs extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -33817,7 +33929,7 @@ class _StringsFr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -35612,9 +35724,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -36605,6 +36714,40 @@ class _StringsFr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -41779,7 +41922,7 @@ class _StringsId extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -43565,9 +43708,6 @@ class _StringsId extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -44558,6 +44698,40 @@ class _StringsId extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -49771,7 +49945,7 @@ class _StringsIt extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -51564,9 +51738,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -52557,6 +52728,40 @@ class _StringsIt extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -57612,7 +57817,7 @@ class _StringsJa extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -59377,9 +59582,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -60370,6 +60572,40 @@ class _StringsJa extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -65429,7 +65665,7 @@ class _StringsKo extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -67197,9 +67433,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -68190,6 +68423,40 @@ class _StringsKo extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -73387,7 +73654,7 @@ class _StringsNl extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -75176,9 +75443,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -76169,6 +76433,40 @@ class _StringsNl extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -81375,7 +81673,7 @@ class _StringsPtBr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -83167,9 +83465,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -84160,6 +84455,40 @@ class _StringsPtBr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -89356,7 +89685,7 @@ class _StringsRu extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -91144,9 +91473,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -92137,6 +92463,40 @@ class _StringsRu extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -97287,7 +97647,7 @@ class _StringsTh extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -99069,9 +99429,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -100062,6 +100419,40 @@ class _StringsTh extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -105239,7 +105630,7 @@ class _StringsTr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -107025,9 +107416,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -108018,6 +108406,40 @@ class _StringsTr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -113184,7 +113606,7 @@ class _StringsVi extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -114966,9 +115388,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -115959,6 +116378,40 @@ class _StringsVi extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -120775,7 +121228,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_mining_image_mode_gif => '动图 GIF（字幕片段）';
   @override
-  String get video_mining_image_mode_hint => '视频制卡封面用动图还是截图';
+  String get video_mining_image_mode_hint =>
+      '视频卡片封面用字幕区间动图，还是某一帧静态截图（取哪一帧也在这里选）';
   @override
   String get video_mining_image_mode_subtitle_start => '字幕开头截图';
   @override
@@ -122428,9 +122882,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get media_source_local_roots => '本地扫描根';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      '捕获组件与本体版本不一致。组件已内置在 Fushi 里，不需要单独安装：先彻底关掉游戏再重开一次（游戏进程里可能还挂着上一次注入的旧组件）。若重开后仍提示不一致，说明这份 Fushi 没带上与之匹配的组件。';
-  @override
   String scrape_all_confirm({required Object n}) =>
       '将按标题匹配库中的 ${n} 个条目。只自动应用高置信度的匹配——视频按标题与年份、类型等信息综合打分，书籍和游戏则要求标题唯一且完全一致。你自己定的封面一律不覆盖（手动设置的本地图、在匹配弹窗里亲手选定的条目、目录里自带的 poster 图），歧义结果留待手动确认。';
   @override
@@ -123322,6 +123773,38 @@ class _StringsZhCn extends _StringsEn {
   String get update_app_store_open => '打开 App Store';
   @override
   String get update_release_page_open => '发布页';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame 捕获组件被占用：PID ${pid} - ${path}（这是你正在玩的游戏或它的捕获宿主进程）。请先关闭游戏再更新。';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      '捕获组件与本体版本不一致。组件已内置在 Fushi 里，不需要单独安装：先彻底关掉游戏再重开一次（游戏进程里可能还挂着上一次注入的旧组件）。若重开后仍提示不一致，说明磁盘上的组件比 Fushi 旧——上次更新 Fushi 时游戏正开着，安装器换不掉被占用的组件文件。请关闭所有游戏，然后重新运行一次 Fushi 安装程序。';
+  @override
+  String get video_mining_still_format => '视频卡片截图格式';
+  @override
+  String get video_mining_still_format_hint =>
+      '选「制卡时截图」或「字幕开头截图」时那张图用什么编码。JPG 体积小得多；PNG 无损但大好几倍。动图封面不受影响，它跟随「动图格式」那一项。';
+  @override
+  String get mining_still_format_jpg => 'JPG（体积更小）';
+  @override
+  String get mining_still_format_png => 'PNG（无损）';
+  @override
+  String get gal_mining_still_format => '游戏卡片截图格式';
+  @override
+  String get gal_mining_still_format_hint =>
+      '与视频卡片同样的格式，但分开保存。游戏窗口抓图本身是 PNG：选 PNG 无损但大好几倍，选 JPG 与这些截图过去的压缩方式一致。';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      '该来源受 Cloudflare 保护，内置阅读器暂时无法访问。';
+  @override
+  String get manga_global_search_title => '搜索全部来源';
+  @override
+  String get manga_global_search_hint => '搜索所有已启用来源';
+  @override
+  String get manga_global_search_prompt => '输入书名，一次搜索所有已启用的漫画来源。';
+  @override
+  String get manga_global_search_no_sources => '没有已启用的漫画来源，请先安装并启用扩展。';
   @override
   String get settings_content_language_title => '默认内容语言';
   @override
@@ -128310,7 +128793,7 @@ class _StringsZhHk extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -130066,9 +130549,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -131058,6 +131538,40 @@ class _StringsZhHk extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+  @override
+  String get manga_source_cloudflare_blocked =>
+      'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+  @override
+  String get manga_global_search_title => 'Search all sources';
+  @override
+  String get manga_global_search_hint => 'Search every enabled source';
+  @override
+  String get manga_global_search_prompt =>
+      'Type a title to search every enabled manga source at once.';
+  @override
+  String get manga_global_search_no_sources =>
+      'No enabled manga sources. Install and enable an extension first.';
   @override
   String get settings_content_language_title => 'Default content language';
   @override
@@ -135699,7 +136213,7 @@ extension on _StringsEn {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -137263,8 +137777,6 @@ extension on _StringsEn {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -138112,6 +138624,33 @@ extension on _StringsEn {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -142749,7 +143288,7 @@ extension on _StringsAr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -144312,8 +144851,6 @@ extension on _StringsAr {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -145163,6 +145700,33 @@ extension on _StringsAr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -149821,7 +150385,7 @@ extension on _StringsDe {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -151385,8 +151949,6 @@ extension on _StringsDe {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -152236,6 +152798,33 @@ extension on _StringsDe {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -156894,7 +157483,7 @@ extension on _StringsEs {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -158457,8 +159046,6 @@ extension on _StringsEs {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -159308,6 +159895,33 @@ extension on _StringsEs {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -163971,7 +164585,7 @@ extension on _StringsFr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -165535,8 +166149,6 @@ extension on _StringsFr {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -166386,6 +166998,33 @@ extension on _StringsFr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -171032,7 +171671,7 @@ extension on _StringsId {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -172595,8 +173234,6 @@ extension on _StringsId {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -173446,6 +174083,33 @@ extension on _StringsId {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -178105,7 +178769,7 @@ extension on _StringsIt {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -179669,8 +180333,6 @@ extension on _StringsIt {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -180520,6 +181182,33 @@ extension on _StringsIt {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -185144,7 +185833,7 @@ extension on _StringsJa {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -186705,8 +187394,6 @@ extension on _StringsJa {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -187556,6 +188243,33 @@ extension on _StringsJa {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -192183,7 +192897,7 @@ extension on _StringsKo {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -193745,8 +194459,6 @@ extension on _StringsKo {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -194596,6 +195308,33 @@ extension on _StringsKo {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -199248,7 +199987,7 @@ extension on _StringsNl {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -200813,8 +201552,6 @@ extension on _StringsNl {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -201664,6 +202401,33 @@ extension on _StringsNl {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -206315,7 +207079,7 @@ extension on _StringsPtBr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -207878,8 +208642,6 @@ extension on _StringsPtBr {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -208729,6 +209491,33 @@ extension on _StringsPtBr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -213385,7 +214174,7 @@ extension on _StringsRu {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -214948,8 +215737,6 @@ extension on _StringsRu {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -215799,6 +216586,33 @@ extension on _StringsRu {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -220438,7 +221252,7 @@ extension on _StringsTh {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -222001,8 +222815,6 @@ extension on _StringsTh {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -222852,6 +223664,33 @@ extension on _StringsTh {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -227499,7 +228338,7 @@ extension on _StringsTr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -229063,8 +229902,6 @@ extension on _StringsTr {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -229914,6 +230751,33 @@ extension on _StringsTr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -234558,7 +235422,7 @@ extension on _StringsVi {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -236121,8 +236985,6 @@ extension on _StringsVi {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -236972,6 +237834,33 @@ extension on _StringsVi {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
@@ -241575,7 +242464,7 @@ extension on _StringsZhCn {
       case 'video_mining_image_mode_gif':
         return '动图 GIF（字幕片段）';
       case 'video_mining_image_mode_hint':
-        return '视频制卡封面用动图还是截图';
+        return '视频卡片封面用字幕区间动图，还是某一帧静态截图（取哪一帧也在这里选）';
       case 'video_mining_image_mode_subtitle_start':
         return '字幕开头截图';
       case 'video_next_episode':
@@ -243127,8 +244016,6 @@ extension on _StringsZhCn {
         return '已加入漫画书架';
       case 'media_source_local_roots':
         return '本地扫描根';
-      case 'game_hook_reason_protocol_mismatch':
-        return '捕获组件与本体版本不一致。组件已内置在 Fushi 里，不需要单独安装：先彻底关掉游戏再重开一次（游戏进程里可能还挂着上一次注入的旧组件）。若重开后仍提示不一致，说明这份 Fushi 没带上与之匹配的组件。';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             '将按标题匹配库中的 ${n} 个条目。只自动应用高置信度的匹配——视频按标题与年份、类型等信息综合打分，书籍和游戏则要求标题唯一且完全一致。你自己定的封面一律不覆盖（手动设置的本地图、在匹配弹窗里亲手选定的条目、目录里自带的 poster 图），歧义结果留待手动确认。';
@@ -243972,6 +244859,33 @@ extension on _StringsZhCn {
         return '打开 App Store';
       case 'update_release_page_open':
         return '发布页';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame 捕获组件被占用：PID ${pid} - ${path}（这是你正在玩的游戏或它的捕获宿主进程）。请先关闭游戏再更新。';
+      case 'game_hook_reason_protocol_mismatch':
+        return '捕获组件与本体版本不一致。组件已内置在 Fushi 里，不需要单独安装：先彻底关掉游戏再重开一次（游戏进程里可能还挂着上一次注入的旧组件）。若重开后仍提示不一致，说明磁盘上的组件比 Fushi 旧——上次更新 Fushi 时游戏正开着，安装器换不掉被占用的组件文件。请关闭所有游戏，然后重新运行一次 Fushi 安装程序。';
+      case 'video_mining_still_format':
+        return '视频卡片截图格式';
+      case 'video_mining_still_format_hint':
+        return '选「制卡时截图」或「字幕开头截图」时那张图用什么编码。JPG 体积小得多；PNG 无损但大好几倍。动图封面不受影响，它跟随「动图格式」那一项。';
+      case 'mining_still_format_jpg':
+        return 'JPG（体积更小）';
+      case 'mining_still_format_png':
+        return 'PNG（无损）';
+      case 'gal_mining_still_format':
+        return '游戏卡片截图格式';
+      case 'gal_mining_still_format_hint':
+        return '与视频卡片同样的格式，但分开保存。游戏窗口抓图本身是 PNG：选 PNG 无损但大好几倍，选 JPG 与这些截图过去的压缩方式一致。';
+      case 'manga_source_cloudflare_blocked':
+        return '该来源受 Cloudflare 保护，内置阅读器暂时无法访问。';
+      case 'manga_global_search_title':
+        return '搜索全部来源';
+      case 'manga_global_search_hint':
+        return '搜索所有已启用来源';
+      case 'manga_global_search_prompt':
+        return '输入书名，一次搜索所有已启用的漫画来源。';
+      case 'manga_global_search_no_sources':
+        return '没有已启用的漫画来源，请先安装并启用扩展。';
       case 'settings_content_language_title':
         return '默认内容语言';
       case 'settings_content_language_unset':
@@ -248592,7 +249506,7 @@ extension on _StringsZhHk {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -250152,8 +251066,6 @@ extension on _StringsZhHk {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -251003,6 +251915,33 @@ extension on _StringsZhHk {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
+      case 'manga_source_cloudflare_blocked':
+        return 'This source is protected by Cloudflare and can\'t be reached by the built-in reader yet.';
+      case 'manga_global_search_title':
+        return 'Search all sources';
+      case 'manga_global_search_hint':
+        return 'Search every enabled source';
+      case 'manga_global_search_prompt':
+        return 'Type a title to search every enabled manga source at once.';
+      case 'manga_global_search_no_sources':
+        return 'No enabled manga sources. Install and enable an extension first.';
       case 'settings_content_language_title':
         return 'Default content language';
       case 'settings_content_language_unset':
