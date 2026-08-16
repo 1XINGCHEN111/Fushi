@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 57732 (3396 per locale)
+/// Strings: 57766 (3398 per locale)
 ///
-/// Built on 2026-08-14 at 15:35 UTC
+/// Built on 2026-08-16 at 12:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4602,6 +4602,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'No subtitle lines found in that file';
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  String get game_session_japanese_locale => 'Japanese locale';
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -12450,6 +12453,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -20365,6 +20373,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -28296,6 +28309,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -36239,6 +36257,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -44110,6 +44133,11 @@ class _StringsId extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -52027,6 +52055,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -59758,6 +59791,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -67496,6 +67534,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -75393,6 +75436,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -83302,6 +83350,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -91197,6 +91250,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -99040,6 +99098,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -106914,6 +106977,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -114773,6 +114841,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -122058,6 +122131,11 @@ class _StringsZhCn extends _StringsEn {
   String get srt_book_reimport_no_cues => '该字幕文件解析不出任何字幕行';
   @override
   String get srt_book_reimport_body_rebuilt => '正文已重建，请重新打开本书';
+  @override
+  String get game_session_japanese_locale => '已转区';
+  @override
+  String get game_session_japanese_locale_hint =>
+      '本局以日文区域 (CP932) 启动。若游戏文字乱码或脚本报错，可把该游戏的日语区域改为「永不转区」。';
 }
 
 // Path: <root>
@@ -129712,6 +129790,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get srt_book_reimport_body_rebuilt =>
       'Book text rebuilt — reopen the book to read it';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 /// Flat map(s) containing all translations.
@@ -136691,6 +136774,10 @@ extension on _StringsEn {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -143668,6 +143755,10 @@ extension on _StringsAr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -150667,6 +150758,10 @@ extension on _StringsDe {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -157665,6 +157760,10 @@ extension on _StringsEs {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -164669,6 +164768,10 @@ extension on _StringsFr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -171655,6 +171758,10 @@ extension on _StringsId {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -178655,6 +178762,10 @@ extension on _StringsIt {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -185617,6 +185728,10 @@ extension on _StringsJa {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -192583,6 +192698,10 @@ extension on _StringsKo {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -199577,6 +199696,10 @@ extension on _StringsNl {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -206568,6 +206691,10 @@ extension on _StringsPtBr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -213564,6 +213691,10 @@ extension on _StringsRu {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -220543,6 +220674,10 @@ extension on _StringsTh {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -227531,6 +227666,10 @@ extension on _StringsTr {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -234515,6 +234654,10 @@ extension on _StringsVi {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -241441,6 +241584,10 @@ extension on _StringsZhCn {
         return '该字幕文件解析不出任何字幕行';
       case 'srt_book_reimport_body_rebuilt':
         return '正文已重建，请重新打开本书';
+      case 'game_session_japanese_locale':
+        return '已转区';
+      case 'game_session_japanese_locale_hint':
+        return '本局以日文区域 (CP932) 启动。若游戏文字乱码或脚本报错，可把该游戏的日语区域改为「永不转区」。';
       default:
         return null;
     }
@@ -248398,6 +248545,10 @@ extension on _StringsZhHk {
         return 'No subtitle lines found in that file';
       case 'srt_book_reimport_body_rebuilt':
         return 'Book text rebuilt — reopen the book to read it';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
