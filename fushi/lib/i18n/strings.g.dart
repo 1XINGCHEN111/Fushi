@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58786 (3458 per locale)
+/// Strings: 58803 (3459 per locale)
 ///
-/// Built on 2026-08-16 at 17:20 UTC
+/// Built on 2026-08-16 at 18:32 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3619,8 +3619,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get shortcut_action_manga_dismiss_dict => 'Close dictionary';
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   String get anime_download_subs_episodes_unverified =>
@@ -4690,6 +4688,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'No subtitle found · set up an online subtitle source';
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -10855,9 +10856,6 @@ class _StringsAr extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -12688,6 +12686,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -18920,9 +18923,6 @@ class _StringsDe extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -20753,6 +20753,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -27001,9 +27006,6 @@ class _StringsEs extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -28834,6 +28836,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -35094,9 +35101,6 @@ class _StringsFr extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -36927,6 +36931,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -43115,9 +43124,6 @@ class _StringsId extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -44948,6 +44954,11 @@ class _StringsId extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -51182,9 +51193,6 @@ class _StringsIt extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -53015,6 +53023,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -59063,9 +59076,6 @@ class _StringsJa extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -60896,6 +60906,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -66951,9 +66966,6 @@ class _StringsKo extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -68784,6 +68796,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -74998,9 +75015,6 @@ class _StringsNl extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -76831,6 +76845,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -83057,9 +83076,6 @@ class _StringsPtBr extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -84890,6 +84906,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -91102,9 +91123,6 @@ class _StringsRu extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -92935,6 +92953,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -99095,9 +99118,6 @@ class _StringsTh extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -100928,6 +100948,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -107119,9 +107144,6 @@ class _StringsTr extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -108952,6 +108974,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -115128,9 +115155,6 @@ class _StringsVi extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -116961,6 +116985,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 // Path: <root>
@@ -122707,8 +122736,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_setting_jimaku_default_language => '默认字幕语言';
   @override
-  String get video_setting_jimaku_default_language_hint => '该系列没有记住的语言时优先使用';
-  @override
   String get video_jimaku_api_key_settings_hint => '也可在 设置 → 视频 → 字幕 中修改';
   @override
   String get anime_download_subs_episodes_unverified => '集号未与该整季包核对，字幕可能来自别的季。';
@@ -124386,6 +124413,11 @@ class _StringsZhCn extends _StringsEn {
   String get video_subtitle_no_source_configured => '没找到字幕 · 去配置在线字幕来源';
   @override
   String get anime_download_subs_retrying => '字幕：还没上传，稍后自动重试';
+  @override
+  String get video_jimaku_language_follow_video => '跟随视频语言';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      '默认跟随视频自身的语言（音轨 / 刮削元数据）。选定某个语言则始终优先它。';
 }
 
 // Path: <root>
@@ -130358,9 +130390,6 @@ class _StringsZhHk extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -132190,6 +132219,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get anime_download_subs_retrying =>
       'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
 }
 
 /// Flat map(s) containing all translations.
@@ -137713,8 +137747,6 @@ extension on _StringsEn {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -139296,6 +139328,10 @@ extension on _StringsEn {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -144817,8 +144853,6 @@ extension on _StringsAr {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -146400,6 +146434,10 @@ extension on _StringsAr {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -151943,8 +151981,6 @@ extension on _StringsDe {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -153526,6 +153562,10 @@ extension on _StringsDe {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -159068,8 +159108,6 @@ extension on _StringsEs {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -160651,6 +160689,10 @@ extension on _StringsEs {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -166199,8 +166241,6 @@ extension on _StringsFr {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -167782,6 +167822,10 @@ extension on _StringsFr {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -173312,8 +173356,6 @@ extension on _StringsId {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -174895,6 +174937,10 @@ extension on _StringsId {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -180439,8 +180485,6 @@ extension on _StringsIt {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -182022,6 +182066,10 @@ extension on _StringsIt {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -187528,8 +187576,6 @@ extension on _StringsJa {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -189111,6 +189157,10 @@ extension on _StringsJa {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -194621,8 +194671,6 @@ extension on _StringsKo {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -196204,6 +196252,10 @@ extension on _StringsKo {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -201742,8 +201794,6 @@ extension on _StringsNl {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -203325,6 +203375,10 @@ extension on _StringsNl {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -208860,8 +208914,6 @@ extension on _StringsPtBr {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -210443,6 +210495,10 @@ extension on _StringsPtBr {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -215983,8 +216039,6 @@ extension on _StringsRu {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -217566,6 +217620,10 @@ extension on _StringsRu {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -223089,8 +223147,6 @@ extension on _StringsTh {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -224672,6 +224728,10 @@ extension on _StringsTh {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -230204,8 +230264,6 @@ extension on _StringsTr {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -231787,6 +231845,10 @@ extension on _StringsTr {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -237315,8 +237377,6 @@ extension on _StringsVi {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -238898,6 +238958,10 @@ extension on _StringsVi {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
@@ -244378,8 +244442,6 @@ extension on _StringsZhCn {
         return '关闭词典';
       case 'video_setting_jimaku_default_language':
         return '默认字幕语言';
-      case 'video_setting_jimaku_default_language_hint':
-        return '该系列没有记住的语言时优先使用';
       case 'video_jimaku_api_key_settings_hint':
         return '也可在 设置 → 视频 → 字幕 中修改';
       case 'anime_download_subs_episodes_unverified':
@@ -245950,6 +246012,10 @@ extension on _StringsZhCn {
         return '没找到字幕 · 去配置在线字幕来源';
       case 'anime_download_subs_retrying':
         return '字幕：还没上传，稍后自动重试';
+      case 'video_jimaku_language_follow_video':
+        return '跟随视频语言';
+      case 'video_setting_jimaku_default_language_hint':
+        return '默认跟随视频自身的语言（音轨 / 刮削元数据）。选定某个语言则始终优先它。';
       default:
         return null;
     }
@@ -251451,8 +251517,6 @@ extension on _StringsZhHk {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -253034,6 +253098,10 @@ extension on _StringsZhHk {
         return 'No subtitle found · set up an online subtitle source';
       case 'anime_download_subs_retrying':
         return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
       default:
         return null;
     }
