@@ -1770,6 +1770,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String manga_ocr_external_detected({required Object version}) =>
       'Detected: ${version}';
   String get manga_ocr_external_not_found => 'mokuro not found';
+  String get manga_ocr_lens_language_label => 'Recognition language';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   String get manga_ocr_model_status_missing => 'OCR models not downloaded';
@@ -7501,6 +7502,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'لغة التعرّف';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -15483,6 +15485,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'Erkennungssprache';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -23506,6 +23509,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'Idioma de reconocimiento';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -31551,6 +31555,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'Langue de reconnaissance';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -39564,6 +39569,7 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'Bahasa pengenalan';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -47563,6 +47569,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'Lingua di riconoscimento';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -55517,6 +55524,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => '認識する言語';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -63356,6 +63364,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => '인식 언어';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -71258,6 +71267,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'Herkenningstaal';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -79271,6 +79281,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'Idioma de reconhecimento';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -87278,6 +87289,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'Язык распознавания';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -95254,6 +95266,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'ภาษาที่ใช้จดจำ';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -103221,6 +103234,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'Tanıma dili';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -111195,6 +111209,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => 'Ngôn ngữ nhận dạng';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -118962,6 +118977,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => '未找到 mokuro';
   @override
+  String get manga_ocr_lens_language_label => '识别语言';
   String get manga_ocr_mobile_note => '移动端下载的模型用于漫画阅读页的框选识别。';
   @override
   String get manga_ocr_model_status_missing => 'OCR 模型未下载';
@@ -126465,6 +126481,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_ocr_external_not_found => 'mokuro not found';
   @override
+  String get manga_ocr_lens_language_label => '識別語言';
   String get manga_ocr_mobile_note =>
       'On mobile, the recognition model powers box scan in the manga reader.';
   @override
@@ -133980,6 +133997,8 @@ extension on _StringsEn {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'Recognition language';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -141052,6 +141071,8 @@ extension on _StringsAr {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'لغة التعرّف';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -148130,6 +148151,8 @@ extension on _StringsDe {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'Erkennungssprache';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -155222,6 +155245,8 @@ extension on _StringsEs {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'Idioma de reconocimiento';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -162317,6 +162342,8 @@ extension on _StringsFr {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'Langue de reconnaissance';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -169407,6 +169434,8 @@ extension on _StringsId {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'Bahasa pengenalan';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -176488,6 +176517,8 @@ extension on _StringsIt {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'Lingua di riconoscimento';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -183566,6 +183597,8 @@ extension on _StringsJa {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return '認識する言語';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -190623,6 +190656,8 @@ extension on _StringsKo {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return '인식 언어';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -197695,6 +197730,8 @@ extension on _StringsNl {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'Herkenningstaal';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -204781,6 +204818,8 @@ extension on _StringsPtBr {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'Idioma de reconhecimento';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -211868,6 +211907,8 @@ extension on _StringsRu {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'Язык распознавания';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -218947,6 +218988,8 @@ extension on _StringsTh {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'ภาษาที่ใช้จดจำ';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -226024,6 +226067,8 @@ extension on _StringsTr {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'Tanıma dili';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -233103,6 +233148,8 @@ extension on _StringsVi {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return 'Ngôn ngữ nhận dạng';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
@@ -240158,6 +240205,8 @@ extension on _StringsZhCn {
         return ({required Object version}) => '已检测到：${version}';
       case 'manga_ocr_external_not_found':
         return '未找到 mokuro';
+      case 'manga_ocr_lens_language_label':
+        return '识别语言';
       case 'manga_ocr_mobile_note':
         return '移动端下载的模型用于漫画阅读页的框选识别。';
       case 'manga_ocr_model_status_missing':
@@ -247188,6 +247237,8 @@ extension on _StringsZhHk {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
+      case 'manga_ocr_lens_language_label':
+        return '識別語言';
       case 'manga_ocr_mobile_note':
         return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
