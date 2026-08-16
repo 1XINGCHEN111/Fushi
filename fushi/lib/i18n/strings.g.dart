@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58208 (3424 per locale)
+/// Strings: 58429 (3437 per locale)
 ///
-/// Built on 2026-08-15 at 14:11 UTC
+/// Built on 2026-08-16 at 04:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3034,7 +3034,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_mining_image_mode_current_frame => 'Screenshot at mining';
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
   String get video_next_episode => 'Next episode';
@@ -4627,6 +4627,16 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Paste an Aidoku repository homepage or index.min.json URL. The community repository is filled in by default.';
   String get aidoku_repository_remove => 'Remove repository';
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
+  String get dict_language_tooltip => 'Content language';
+  String get dict_language_title => 'Dictionary content language';
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  String get dict_language_auto => 'Automatic';
+  String get book_language_action => 'Content language';
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
   String get video_collection_scrape => 'Scrape info & cover';
   String get update_testflight_open => 'Open TestFlight';
   String get update_app_store_open => 'Open App Store';
@@ -4636,6 +4646,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  String get video_mining_still_format => 'Video card screenshot format';
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  String get mining_still_format_png => 'PNG (lossless)';
+  String get gal_mining_still_format => 'Game card screenshot format';
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -9782,7 +9800,7 @@ class _StringsAr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -12532,6 +12550,23 @@ class _StringsAr extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -12546,6 +12581,20 @@ class _StringsAr extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -17750,7 +17799,7 @@ class _StringsDe extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -20509,6 +20558,23 @@ class _StringsDe extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -20523,6 +20589,20 @@ class _StringsDe extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -25741,7 +25821,7 @@ class _StringsEs extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -28502,6 +28582,23 @@ class _StringsEs extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -28516,6 +28613,20 @@ class _StringsEs extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -33746,7 +33857,7 @@ class _StringsFr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -36507,6 +36618,23 @@ class _StringsFr extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -36521,6 +36649,20 @@ class _StringsFr extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -41688,7 +41830,7 @@ class _StringsId extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -44440,6 +44582,23 @@ class _StringsId extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -44454,6 +44613,20 @@ class _StringsId extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -49660,7 +49833,7 @@ class _StringsIt extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -52419,6 +52592,23 @@ class _StringsIt extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -52433,6 +52623,20 @@ class _StringsIt extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -57481,7 +57685,7 @@ class _StringsJa extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -60212,6 +60416,23 @@ class _StringsJa extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -60226,6 +60447,20 @@ class _StringsJa extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -65278,7 +65513,7 @@ class _StringsKo extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -68012,6 +68247,23 @@ class _StringsKo extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -68026,6 +68278,20 @@ class _StringsKo extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -73216,7 +73482,7 @@ class _StringsNl extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -75971,6 +76237,23 @@ class _StringsNl extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -75985,6 +76268,20 @@ class _StringsNl extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -81184,7 +81481,7 @@ class _StringsPtBr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -83942,6 +84239,23 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -83956,6 +84270,20 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -89145,7 +89473,7 @@ class _StringsRu extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -91899,6 +92227,23 @@ class _StringsRu extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -91913,6 +92258,20 @@ class _StringsRu extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -97056,7 +97415,7 @@ class _StringsTh extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -99804,6 +100163,23 @@ class _StringsTh extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -99818,6 +100194,20 @@ class _StringsTh extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -104988,7 +105378,7 @@ class _StringsTr extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -107740,6 +108130,23 @@ class _StringsTr extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -107754,6 +108161,20 @@ class _StringsTr extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -112913,7 +113334,7 @@ class _StringsVi extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -115661,6 +116082,23 @@ class _StringsVi extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -115675,6 +116113,20 @@ class _StringsVi extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 // Path: <root>
@@ -120484,7 +120936,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_mining_image_mode_gif => '动图 GIF（字幕片段）';
   @override
-  String get video_mining_image_mode_hint => '视频制卡封面用动图还是截图';
+  String get video_mining_image_mode_hint =>
+      '视频卡片封面用字幕区间动图，还是某一帧静态截图（取哪一帧也在这里选）';
   @override
   String get video_mining_image_mode_subtitle_start => '字幕开头截图';
   @override
@@ -123006,6 +123459,21 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get aidoku_repository_empty => '尚未添加 Aidoku 仓库。';
   @override
+  String get dict_language_tooltip => '内容语言';
+  @override
+  String get dict_language_title => '词典内容语言';
+  @override
+  String get dict_language_description => '决定这本词典的文字用哪种字体渲染。自动 = 用词典自己声明的语言。';
+  @override
+  String get dict_language_auto => '自动';
+  @override
+  String get book_language_action => '内容语言';
+  @override
+  String get book_language_description => '决定这本书的正文用哪种字体渲染。自动 = 用 EPUB 里声明的语言。';
+  @override
+  String get local_audio_reference_unavailable =>
+      '没有「所有文件访问权限」无法引用原文件，已改为导入副本。';
+  @override
   String get video_collection_scrape => '刮削资料与封面';
   @override
   String get update_testflight_open => '打开 TestFlight';
@@ -123020,6 +123488,20 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       '捕获组件与本体版本不一致。组件已内置在 Fushi 里，不需要单独安装：先彻底关掉游戏再重开一次（游戏进程里可能还挂着上一次注入的旧组件）。若重开后仍提示不一致，说明磁盘上的组件比 Fushi 旧——上次更新 Fushi 时游戏正开着，安装器换不掉被占用的组件文件。请关闭所有游戏，然后重新运行一次 Fushi 安装程序。';
+  @override
+  String get video_mining_still_format => '视频卡片截图格式';
+  @override
+  String get video_mining_still_format_hint =>
+      '选「制卡时截图」或「字幕开头截图」时那张图用什么编码。JPG 体积小得多；PNG 无损但大好几倍。动图封面不受影响，它跟随「动图格式」那一项。';
+  @override
+  String get mining_still_format_jpg => 'JPG（体积更小）';
+  @override
+  String get mining_still_format_png => 'PNG（无损）';
+  @override
+  String get gal_mining_still_format => '游戏卡片截图格式';
+  @override
+  String get gal_mining_still_format_hint =>
+      '与视频卡片同样的格式，但分开保存。游戏窗口抓图本身是 PNG：选 PNG 无损但大好几倍，选 JPG 与这些截图过去的压缩方式一致。';
 }
 
 // Path: <root>
@@ -128001,7 +128483,7 @@ class _StringsZhHk extends _StringsEn {
   String get video_mining_image_mode_gif => 'Animated GIF (subtitle clip)';
   @override
   String get video_mining_image_mode_hint =>
-      'How covers on video cards are captured';
+      'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
   @override
   String get video_mining_image_mode_subtitle_start =>
       'Screenshot at subtitle start';
@@ -130722,6 +131204,23 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get aidoku_repository_empty => 'No Aidoku repositories added.';
   @override
+  String get dict_language_tooltip => 'Content language';
+  @override
+  String get dict_language_title => 'Dictionary content language';
+  @override
+  String get dict_language_description =>
+      'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+  @override
+  String get dict_language_auto => 'Automatic';
+  @override
+  String get book_language_action => 'Content language';
+  @override
+  String get book_language_description =>
+      'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+  @override
+  String get local_audio_reference_unavailable =>
+      'Can\'t reference the original file without all-files access; a copy was imported instead.';
+  @override
   String get video_collection_scrape => 'Scrape info & cover';
   @override
   String get update_testflight_open => 'Open TestFlight';
@@ -130736,6 +131235,20 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_hook_reason_protocol_mismatch =>
       'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+  @override
+  String get video_mining_still_format => 'Video card screenshot format';
+  @override
+  String get video_mining_still_format_hint =>
+      'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+  @override
+  String get mining_still_format_jpg => 'JPG (smaller)';
+  @override
+  String get mining_still_format_png => 'PNG (lossless)';
+  @override
+  String get gal_mining_still_format => 'Game card screenshot format';
+  @override
+  String get gal_mining_still_format_hint =>
+      'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
 }
 
 /// Flat map(s) containing all translations.
@@ -135370,7 +135883,7 @@ extension on _StringsEn {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -137759,6 +138272,20 @@ extension on _StringsEn {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -137772,6 +138299,18 @@ extension on _StringsEn {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -142403,7 +142942,7 @@ extension on _StringsAr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -144793,6 +145332,20 @@ extension on _StringsAr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -144806,6 +145359,18 @@ extension on _StringsAr {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -149458,7 +150023,7 @@ extension on _StringsDe {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -151849,6 +152414,20 @@ extension on _StringsDe {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -151862,6 +152441,18 @@ extension on _StringsDe {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -156514,7 +157105,7 @@ extension on _StringsEs {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -158904,6 +159495,20 @@ extension on _StringsEs {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -158917,6 +159522,18 @@ extension on _StringsEs {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -163574,7 +164191,7 @@ extension on _StringsFr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -165965,6 +166582,20 @@ extension on _StringsFr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -165978,6 +166609,18 @@ extension on _StringsFr {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -170618,7 +171261,7 @@ extension on _StringsId {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -173008,6 +173651,20 @@ extension on _StringsId {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -173021,6 +173678,18 @@ extension on _StringsId {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -177674,7 +178343,7 @@ extension on _StringsIt {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -180065,6 +180734,20 @@ extension on _StringsIt {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -180078,6 +180761,18 @@ extension on _StringsIt {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -184696,7 +185391,7 @@ extension on _StringsJa {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -187084,6 +187779,20 @@ extension on _StringsJa {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -187097,6 +187806,18 @@ extension on _StringsJa {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -191718,7 +192439,7 @@ extension on _StringsKo {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -194107,6 +194828,20 @@ extension on _StringsKo {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -194120,6 +194855,18 @@ extension on _StringsKo {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -198766,7 +199513,7 @@ extension on _StringsNl {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -201158,6 +201905,20 @@ extension on _StringsNl {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -201171,6 +201932,18 @@ extension on _StringsNl {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -205816,7 +206589,7 @@ extension on _StringsPtBr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -208206,6 +208979,20 @@ extension on _StringsPtBr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -208219,6 +209006,18 @@ extension on _StringsPtBr {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -212869,7 +213668,7 @@ extension on _StringsRu {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -215259,6 +216058,20 @@ extension on _StringsRu {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -215272,6 +216085,18 @@ extension on _StringsRu {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -219905,7 +220730,7 @@ extension on _StringsTh {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -222295,6 +223120,20 @@ extension on _StringsTh {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -222308,6 +223147,18 @@ extension on _StringsTh {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -226949,7 +227800,7 @@ extension on _StringsTr {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -229340,6 +230191,20 @@ extension on _StringsTr {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -229353,6 +230218,18 @@ extension on _StringsTr {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -233991,7 +234868,7 @@ extension on _StringsVi {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -236381,6 +237258,20 @@ extension on _StringsVi {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -236394,6 +237285,18 @@ extension on _StringsVi {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
@@ -240991,7 +241894,7 @@ extension on _StringsZhCn {
       case 'video_mining_image_mode_gif':
         return '动图 GIF（字幕片段）';
       case 'video_mining_image_mode_hint':
-        return '视频制卡封面用动图还是截图';
+        return '视频卡片封面用字幕区间动图，还是某一帧静态截图（取哪一帧也在这里选）';
       case 'video_mining_image_mode_subtitle_start':
         return '字幕开头截图';
       case 'video_next_episode':
@@ -243364,6 +244267,20 @@ extension on _StringsZhCn {
         return '移除仓库';
       case 'aidoku_repository_empty':
         return '尚未添加 Aidoku 仓库。';
+      case 'dict_language_tooltip':
+        return '内容语言';
+      case 'dict_language_title':
+        return '词典内容语言';
+      case 'dict_language_description':
+        return '决定这本词典的文字用哪种字体渲染。自动 = 用词典自己声明的语言。';
+      case 'dict_language_auto':
+        return '自动';
+      case 'book_language_action':
+        return '内容语言';
+      case 'book_language_description':
+        return '决定这本书的正文用哪种字体渲染。自动 = 用 EPUB 里声明的语言。';
+      case 'local_audio_reference_unavailable':
+        return '没有「所有文件访问权限」无法引用原文件，已改为导入副本。';
       case 'video_collection_scrape':
         return '刮削资料与封面';
       case 'update_testflight_open':
@@ -243377,6 +244294,18 @@ extension on _StringsZhCn {
             'Galgame 捕获组件被占用：PID ${pid} - ${path}（这是你正在玩的游戏或它的捕获宿主进程）。请先关闭游戏再更新。';
       case 'game_hook_reason_protocol_mismatch':
         return '捕获组件与本体版本不一致。组件已内置在 Fushi 里，不需要单独安装：先彻底关掉游戏再重开一次（游戏进程里可能还挂着上一次注入的旧组件）。若重开后仍提示不一致，说明磁盘上的组件比 Fushi 旧——上次更新 Fushi 时游戏正开着，安装器换不掉被占用的组件文件。请关闭所有游戏，然后重新运行一次 Fushi 安装程序。';
+      case 'video_mining_still_format':
+        return '视频卡片截图格式';
+      case 'video_mining_still_format_hint':
+        return '选「制卡时截图」或「字幕开头截图」时那张图用什么编码。JPG 体积小得多；PNG 无损但大好几倍。动图封面不受影响，它跟随「动图格式」那一项。';
+      case 'mining_still_format_jpg':
+        return 'JPG（体积更小）';
+      case 'mining_still_format_png':
+        return 'PNG（无损）';
+      case 'gal_mining_still_format':
+        return '游戏卡片截图格式';
+      case 'gal_mining_still_format_hint':
+        return '与视频卡片同样的格式，但分开保存。游戏窗口抓图本身是 PNG：选 PNG 无损但大好几倍，选 JPG 与这些截图过去的压缩方式一致。';
       default:
         return null;
     }
@@ -247991,7 +248920,7 @@ extension on _StringsZhHk {
       case 'video_mining_image_mode_gif':
         return 'Animated GIF (subtitle clip)';
       case 'video_mining_image_mode_hint':
-        return 'How covers on video cards are captured';
+        return 'Whether the video card cover is an animation of the subtitle clip or a single still frame — and which frame';
       case 'video_mining_image_mode_subtitle_start':
         return 'Screenshot at subtitle start';
       case 'video_next_episode':
@@ -250378,6 +251307,20 @@ extension on _StringsZhHk {
         return 'Remove repository';
       case 'aidoku_repository_empty':
         return 'No Aidoku repositories added.';
+      case 'dict_language_tooltip':
+        return 'Content language';
+      case 'dict_language_title':
+        return 'Dictionary content language';
+      case 'dict_language_description':
+        return 'Decides which font renders this dictionary\'s text. Automatic uses the language the dictionary declares.';
+      case 'dict_language_auto':
+        return 'Automatic';
+      case 'book_language_action':
+        return 'Content language';
+      case 'book_language_description':
+        return 'Decides which font renders this book\'s text. Automatic uses the language declared in the EPUB.';
+      case 'local_audio_reference_unavailable':
+        return 'Can\'t reference the original file without all-files access; a copy was imported instead.';
       case 'video_collection_scrape':
         return 'Scrape info & cover';
       case 'update_testflight_open':
@@ -250391,6 +251334,18 @@ extension on _StringsZhHk {
             'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
       case 'game_hook_reason_protocol_mismatch':
         return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
+      case 'video_mining_still_format':
+        return 'Video card screenshot format';
+      case 'video_mining_still_format_hint':
+        return 'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
+      case 'mining_still_format_jpg':
+        return 'JPG (smaller)';
+      case 'mining_still_format_png':
+        return 'PNG (lossless)';
+      case 'gal_mining_still_format':
+        return 'Game card screenshot format';
+      case 'gal_mining_still_format_hint':
+        return 'Same formats as video cards, stored separately. Game window grabs come in as PNG: keeping PNG is lossless but several times larger, while JPG matches how these screenshots were compressed before.';
       default:
         return null;
     }
