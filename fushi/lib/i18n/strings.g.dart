@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58412 (3436 per locale)
+/// Strings: 58429 (3437 per locale)
 ///
-/// Built on 2026-08-15 at 14:28 UTC
+/// Built on 2026-08-16 at 04:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4061,8 +4061,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get mihon_add_to_bookshelf => 'Add to manga shelf';
   String get mihon_in_bookshelf => 'In manga shelf';
   String get media_source_local_roots => 'Local scan roots';
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   String get collection_related_title => 'Related works';
@@ -4643,6 +4641,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get update_testflight_open => 'Open TestFlight';
   String get update_app_store_open => 'Open App Store';
   String get update_release_page_open => 'Release page';
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   String get video_mining_still_format => 'Video card screenshot format';
   String get video_mining_still_format_hint =>
       'Encoding used when the card image is a still screenshot. JPG is much smaller; PNG is lossless but several times larger. Animated covers are unaffected — they follow the animation format setting.';
@@ -11581,9 +11584,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -12574,6 +12574,13 @@ class _StringsAr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -19585,9 +19592,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -20578,6 +20582,13 @@ class _StringsDe extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -27605,9 +27616,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -28598,6 +28606,13 @@ class _StringsEs extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -35637,9 +35652,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -36630,6 +36642,13 @@ class _StringsFr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -43597,9 +43616,6 @@ class _StringsId extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -44590,6 +44606,13 @@ class _StringsId extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -51603,9 +51626,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -52596,6 +52616,13 @@ class _StringsIt extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -59423,9 +59450,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -60416,6 +60440,13 @@ class _StringsJa extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -67250,9 +67281,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -68243,6 +68271,13 @@ class _StringsKo extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -75236,9 +75271,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -76229,6 +76261,13 @@ class _StringsNl extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -83234,9 +83273,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -84227,6 +84263,13 @@ class _StringsPtBr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -91218,9 +91261,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -92211,6 +92251,13 @@ class _StringsRu extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -99150,9 +99197,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -100143,6 +100187,13 @@ class _StringsTh extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -107113,9 +107164,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -108106,6 +108154,13 @@ class _StringsTr extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -115061,9 +115116,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -116054,6 +116106,13 @@ class _StringsVi extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -122531,9 +122590,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get media_source_local_roots => '本地扫描根';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      '捕获组件与本体版本不一致。组件已内置在 Fushi 里，不需要单独安装：先彻底关掉游戏再重开一次（游戏进程里可能还挂着上一次注入的旧组件）。若重开后仍提示不一致，说明这份 Fushi 没带上与之匹配的组件。';
-  @override
   String scrape_all_confirm({required Object n}) =>
       '将按标题匹配库中的 ${n} 个条目。只自动应用高置信度的匹配——视频按标题与年份、类型等信息综合打分，书籍和游戏则要求标题唯一且完全一致。你自己定的封面一律不覆盖（手动设置的本地图、在匹配弹窗里亲手选定的条目、目录里自带的 poster 图），歧义结果留待手动确认。';
   @override
@@ -123425,6 +123481,13 @@ class _StringsZhCn extends _StringsEn {
   String get update_app_store_open => '打开 App Store';
   @override
   String get update_release_page_open => '发布页';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame 捕获组件被占用：PID ${pid} - ${path}（这是你正在玩的游戏或它的捕获宿主进程）。请先关闭游戏再更新。';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      '捕获组件与本体版本不一致。组件已内置在 Fushi 里，不需要单独安装：先彻底关掉游戏再重开一次（游戏进程里可能还挂着上一次注入的旧组件）。若重开后仍提示不一致，说明磁盘上的组件比 Fushi 旧——上次更新 Fushi 时游戏正开着，安装器换不掉被占用的组件文件。请关闭所有游戏，然后重新运行一次 Fushi 安装程序。';
   @override
   String get video_mining_still_format => '视频卡片截图格式';
   @override
@@ -130176,9 +130239,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get media_source_local_roots => 'Local scan roots';
   @override
-  String get game_hook_reason_protocol_mismatch =>
-      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -131168,6 +131228,13 @@ class _StringsZhHk extends _StringsEn {
   String get update_app_store_open => 'Open App Store';
   @override
   String get update_release_page_open => 'Release page';
+  @override
+  String update_install_gal_hook_holder(
+          {required Object pid, required Object path}) =>
+      'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+  @override
+  String get game_hook_reason_protocol_mismatch =>
+      'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
   @override
   String get video_mining_still_format => 'Video card screenshot format';
   @override
@@ -137380,8 +137447,6 @@ extension on _StringsEn {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -138229,6 +138294,11 @@ extension on _StringsEn {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -144435,8 +144505,6 @@ extension on _StringsAr {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -145286,6 +145354,11 @@ extension on _StringsAr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -151514,8 +151587,6 @@ extension on _StringsDe {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -152365,6 +152436,11 @@ extension on _StringsDe {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -158592,8 +158668,6 @@ extension on _StringsEs {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -159443,6 +159517,11 @@ extension on _StringsEs {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -165676,8 +165755,6 @@ extension on _StringsFr {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -166527,6 +166604,11 @@ extension on _StringsFr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -172742,8 +172824,6 @@ extension on _StringsId {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -173593,6 +173673,11 @@ extension on _StringsId {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -179822,8 +179907,6 @@ extension on _StringsIt {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -180673,6 +180756,11 @@ extension on _StringsIt {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -186864,8 +186952,6 @@ extension on _StringsJa {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -187715,6 +187801,11 @@ extension on _StringsJa {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -193910,8 +194001,6 @@ extension on _StringsKo {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -194761,6 +194850,11 @@ extension on _StringsKo {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -200984,8 +201078,6 @@ extension on _StringsNl {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -201835,6 +201927,11 @@ extension on _StringsNl {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -208055,8 +208152,6 @@ extension on _StringsPtBr {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -208906,6 +209001,11 @@ extension on _StringsPtBr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -215131,8 +215231,6 @@ extension on _StringsRu {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -215982,6 +216080,11 @@ extension on _StringsRu {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -222190,8 +222293,6 @@ extension on _StringsTh {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -223041,6 +223142,11 @@ extension on _StringsTh {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -229258,8 +229364,6 @@ extension on _StringsTr {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -230109,6 +230213,11 @@ extension on _StringsTr {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -236322,8 +236431,6 @@ extension on _StringsVi {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -237173,6 +237280,11 @@ extension on _StringsVi {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
@@ -243334,8 +243446,6 @@ extension on _StringsZhCn {
         return '已加入漫画书架';
       case 'media_source_local_roots':
         return '本地扫描根';
-      case 'game_hook_reason_protocol_mismatch':
-        return '捕获组件与本体版本不一致。组件已内置在 Fushi 里，不需要单独安装：先彻底关掉游戏再重开一次（游戏进程里可能还挂着上一次注入的旧组件）。若重开后仍提示不一致，说明这份 Fushi 没带上与之匹配的组件。';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             '将按标题匹配库中的 ${n} 个条目。只自动应用高置信度的匹配——视频按标题与年份、类型等信息综合打分，书籍和游戏则要求标题唯一且完全一致。你自己定的封面一律不覆盖（手动设置的本地图、在匹配弹窗里亲手选定的条目、目录里自带的 poster 图），歧义结果留待手动确认。';
@@ -244179,6 +244289,11 @@ extension on _StringsZhCn {
         return '打开 App Store';
       case 'update_release_page_open':
         return '发布页';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame 捕获组件被占用：PID ${pid} - ${path}（这是你正在玩的游戏或它的捕获宿主进程）。请先关闭游戏再更新。';
+      case 'game_hook_reason_protocol_mismatch':
+        return '捕获组件与本体版本不一致。组件已内置在 Fushi 里，不需要单独安装：先彻底关掉游戏再重开一次（游戏进程里可能还挂着上一次注入的旧组件）。若重开后仍提示不一致，说明磁盘上的组件比 Fushi 旧——上次更新 Fushi 时游戏正开着，安装器换不掉被占用的组件文件。请关闭所有游戏，然后重新运行一次 Fushi 安装程序。';
       case 'video_mining_still_format':
         return '视频卡片截图格式';
       case 'video_mining_still_format_hint':
@@ -250365,8 +250480,6 @@ extension on _StringsZhHk {
         return 'In manga shelf';
       case 'media_source_local_roots':
         return 'Local scan roots';
-      case 'game_hook_reason_protocol_mismatch':
-        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately: fully close the game and launch it again, since the game process may still hold the component injected by a previous session. If it still mismatches, this build did not ship a matching component.';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -251216,6 +251329,11 @@ extension on _StringsZhHk {
         return 'Open App Store';
       case 'update_release_page_open':
         return 'Release page';
+      case 'update_install_gal_hook_holder':
+        return ({required Object pid, required Object path}) =>
+            'Galgame capture component in use: PID ${pid} - ${path} (this is the game you are playing, or its capture host). Close the game, then update again.';
+      case 'game_hook_reason_protocol_mismatch':
+        return 'The capture component does not match this Fushi build. It ships inside Fushi, so there is nothing to install separately. First, fully close the game and launch it again: the game process may still hold the component injected by an earlier session. If it still mismatches, the component files on disk are older than Fushi, because the last Fushi update could not replace them while a game was running. Close every game, then run the Fushi installer again.';
       case 'video_mining_still_format':
         return 'Video card screenshot format';
       case 'video_mining_still_format_hint':
