@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58684 (3452 per locale)
+/// Strings: 58701 (3453 per locale)
 ///
-/// Built on 2026-08-16 at 12:42 UTC
+/// Built on 2026-08-16 at 12:44 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4679,6 +4679,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_content_language_unset => 'Not set';
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  String get manga_ocr_lens_language_label => 'Recognition language';
 }
 
 // Path: <root>
@@ -12660,6 +12661,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'لغة التعرّف';
 }
 
 // Path: <root>
@@ -20708,6 +20711,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'Erkennungssprache';
 }
 
 // Path: <root>
@@ -28772,6 +28777,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'Idioma de reconocimiento';
 }
 
 // Path: <root>
@@ -36848,6 +36855,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'Langue de reconnaissance';
 }
 
 // Path: <root>
@@ -44852,6 +44861,8 @@ class _StringsId extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'Bahasa pengenalan';
 }
 
 // Path: <root>
@@ -52902,6 +52913,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'Lingua di riconoscimento';
 }
 
 // Path: <root>
@@ -60766,6 +60779,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => '認識する言語';
 }
 
 // Path: <root>
@@ -68637,6 +68652,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => '인식 언어';
 }
 
 // Path: <root>
@@ -76667,6 +76684,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'Herkenningstaal';
 }
 
 // Path: <root>
@@ -84709,6 +84728,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'Idioma de reconhecimento';
 }
 
 // Path: <root>
@@ -92737,6 +92758,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'Язык распознавания';
 }
 
 // Path: <root>
@@ -100713,6 +100736,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'ภาษาที่ใช้จดจำ';
 }
 
 // Path: <root>
@@ -108720,6 +108745,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'Tanıma dili';
 }
 
 // Path: <root>
@@ -116712,6 +116739,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => 'Ngôn ngữ nhận dạng';
 }
 
 // Path: <root>
@@ -124124,6 +124153,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get settings_content_language_description =>
       '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
+  @override
+  String get manga_ocr_lens_language_label => '识别语言';
 }
 
 // Path: <root>
@@ -131911,6 +131942,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+  @override
+  String get manga_ocr_lens_language_label => '識別語言';
 }
 
 /// Flat map(s) containing all translations.
@@ -139005,6 +139038,8 @@ extension on _StringsEn {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'Recognition language';
       default:
         return null;
     }
@@ -146097,6 +146132,8 @@ extension on _StringsAr {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'لغة التعرّف';
       default:
         return null;
     }
@@ -153211,6 +153248,8 @@ extension on _StringsDe {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'Erkennungssprache';
       default:
         return null;
     }
@@ -160324,6 +160363,8 @@ extension on _StringsEs {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'Idioma de reconocimiento';
       default:
         return null;
     }
@@ -167443,6 +167484,8 @@ extension on _StringsFr {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'Langue de reconnaissance';
       default:
         return null;
     }
@@ -174544,6 +174587,8 @@ extension on _StringsId {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'Bahasa pengenalan';
       default:
         return null;
     }
@@ -181659,6 +181704,8 @@ extension on _StringsIt {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'Lingua di riconoscimento';
       default:
         return null;
     }
@@ -188736,6 +188783,8 @@ extension on _StringsJa {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return '認識する言語';
       default:
         return null;
     }
@@ -195817,6 +195866,8 @@ extension on _StringsKo {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return '인식 언어';
       default:
         return null;
     }
@@ -202926,6 +202977,8 @@ extension on _StringsNl {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'Herkenningstaal';
       default:
         return null;
     }
@@ -210032,6 +210085,8 @@ extension on _StringsPtBr {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'Idioma de reconhecimento';
       default:
         return null;
     }
@@ -217143,6 +217198,8 @@ extension on _StringsRu {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'Язык распознавания';
       default:
         return null;
     }
@@ -224237,6 +224294,8 @@ extension on _StringsTh {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'ภาษาที่ใช้จดจำ';
       default:
         return null;
     }
@@ -231340,6 +231399,8 @@ extension on _StringsTr {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'Tanıma dili';
       default:
         return null;
     }
@@ -238439,6 +238500,8 @@ extension on _StringsVi {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return 'Ngôn ngữ nhận dạng';
       default:
         return null;
     }
@@ -245479,6 +245542,8 @@ extension on _StringsZhCn {
         return '未设置';
       case 'settings_content_language_description':
         return '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
+      case 'manga_ocr_lens_language_label':
+        return '识别语言';
       default:
         return null;
     }
@@ -252551,6 +252616,8 @@ extension on _StringsZhHk {
         return 'Not set';
       case 'settings_content_language_description':
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
+      case 'manga_ocr_lens_language_label':
+        return '識別語言';
       default:
         return null;
     }
