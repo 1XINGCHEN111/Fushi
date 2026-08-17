@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60231 (3543 per locale)
+/// Strings: 60248 (3544 per locale)
 ///
-/// Built on 2026-08-17 at 08:34 UTC
+/// Built on 2026-08-17 at 09:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4805,6 +4805,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_discovery_status_hiatus => 'On hiatus';
   String get manga_discovery_status_cancelled => 'Cancelled';
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -13003,6 +13005,9 @@ class _StringsAr extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -21268,6 +21273,9 @@ class _StringsDe extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -29549,6 +29557,9 @@ class _StringsEs extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -37842,6 +37853,9 @@ class _StringsFr extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -46063,6 +46077,9 @@ class _StringsId extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -54330,6 +54347,9 @@ class _StringsIt extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -62411,6 +62431,9 @@ class _StringsJa extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -70499,6 +70522,9 @@ class _StringsKo extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -78746,6 +78772,9 @@ class _StringsNl extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -87005,6 +87034,9 @@ class _StringsPtBr extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -95250,6 +95282,9 @@ class _StringsRu extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -103443,6 +103478,9 @@ class _StringsTh extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -111667,6 +111705,9 @@ class _StringsTr extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -119876,6 +119917,9 @@ class _StringsVi extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -127481,6 +127525,9 @@ class _StringsZhCn extends _StringsEn {
   String get manga_discovery_status_cancelled => '已腰斩';
   @override
   String get manga_discovery_status_not_yet_released => '未发售';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      '${source} · 热门';
 }
 
 // Path: <root>
@@ -135485,6 +135532,9 @@ class _StringsZhHk extends _StringsEn {
   String get manga_discovery_status_cancelled => 'Cancelled';
   @override
   String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 /// Flat map(s) containing all translations.
@@ -142761,6 +142811,8 @@ extension on _StringsEn {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -150035,6 +150087,8 @@ extension on _StringsAr {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -157331,6 +157385,8 @@ extension on _StringsDe {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -164626,6 +164682,8 @@ extension on _StringsEs {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -171927,6 +171985,8 @@ extension on _StringsFr {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -179210,6 +179270,8 @@ extension on _StringsId {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -186507,6 +186569,8 @@ extension on _StringsIt {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -193766,6 +193830,8 @@ extension on _StringsJa {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -201029,6 +201095,8 @@ extension on _StringsKo {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -208320,6 +208388,8 @@ extension on _StringsNl {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -215608,6 +215678,8 @@ extension on _StringsPtBr {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -222901,6 +222973,8 @@ extension on _StringsRu {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -230177,6 +230251,8 @@ extension on _StringsTh {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -237462,6 +237538,8 @@ extension on _StringsTr {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -244743,6 +244821,8 @@ extension on _StringsVi {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -251965,6 +252045,8 @@ extension on _StringsZhCn {
         return '已腰斩';
       case 'manga_discovery_status_not_yet_released':
         return '未发售';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => '${source} · 热门';
       default:
         return null;
     }
@@ -259219,6 +259301,8 @@ extension on _StringsZhHk {
         return 'Cancelled';
       case 'manga_discovery_status_not_yet_released':
         return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
