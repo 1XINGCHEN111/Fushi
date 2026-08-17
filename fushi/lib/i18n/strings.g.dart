@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58701 (3453 per locale)
+/// Strings: 59619 (3507 per locale)
 ///
-/// Built on 2026-08-16 at 12:44 UTC
+/// Built on 2026-08-16 at 18:51 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4680,6 +4680,82 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   String get manga_ocr_lens_language_label => 'Recognition language';
+  String get onboarding_title => 'Getting started';
+  String get onboarding_welcome_headline => 'Welcome!';
+  String get onboarding_feature_anki => 'Anki flashcards';
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  String get onboarding_feature_backup => 'Backup & sync';
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  String get onboarding_step_anki_title => 'Set up Anki';
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  String get onboarding_step_backup_title => 'Set up backup';
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  String get onboarding_step_backup_action => 'Open backup settings';
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  String get onboarding_finish_title => 'All set';
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  String get onboarding_action_next => 'Next';
+  String get onboarding_action_finish => 'Finish';
+  String get onboarding_action_skip => 'Skip for now';
+  String get onboarding_reopen => 'Getting started guide';
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  String get onboarding_features_title => 'Choose what you use';
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  String get onboarding_features_setup_label => 'What to set up next';
+  String get onboarding_feature_manga => 'Manga library';
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  String get onboarding_feature_video => 'Video library';
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  String get onboarding_feature_games => 'Galgame library';
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  String get onboarding_step_pack_download_action => 'Download and import';
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  String get onboarding_step_extension_title => 'Browser extension';
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  String get onboarding_step_extension_action => 'Open extension guide';
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  String get settings_section_modules => 'Feature modules';
+  String get module_manga_label => 'Manga';
+  String get module_video_label => 'Video';
+  String get module_games_label => 'Galgame';
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -12663,6 +12739,136 @@ class _StringsAr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'لغة التعرّف';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -20713,6 +20919,136 @@ class _StringsDe extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Erkennungssprache';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -28779,6 +29115,136 @@ class _StringsEs extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconocimiento';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -36857,6 +37323,136 @@ class _StringsFr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Langue de reconnaissance';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -44863,6 +45459,136 @@ class _StringsId extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Bahasa pengenalan';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -52915,6 +53641,136 @@ class _StringsIt extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Lingua di riconoscimento';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -60781,6 +61637,136 @@ class _StringsJa extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '認識する言語';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -68654,6 +69640,136 @@ class _StringsKo extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '인식 언어';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -76686,6 +77802,136 @@ class _StringsNl extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Herkenningstaal';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -84730,6 +85976,136 @@ class _StringsPtBr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconhecimento';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -92760,6 +94136,136 @@ class _StringsRu extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Язык распознавания';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -100738,6 +102244,136 @@ class _StringsTh extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'ภาษาที่ใช้จดจำ';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -108747,6 +110383,136 @@ class _StringsTr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Tanıma dili';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -116741,6 +118507,136 @@ class _StringsVi extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Ngôn ngữ nhận dạng';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -124155,6 +126051,120 @@ class _StringsZhCn extends _StringsEn {
       '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
   @override
   String get manga_ocr_lens_language_label => '识别语言';
+  @override
+  String get onboarding_title => '新手引导';
+  @override
+  String get onboarding_welcome_headline => '欢迎使用！';
+  @override
+  String get onboarding_feature_anki => 'Anki 制卡';
+  @override
+  String get onboarding_feature_anki_hint =>
+      '连接 AnkiConnect / AnkiDroid，查词一键制卡';
+  @override
+  String get onboarding_feature_backup => '备份与同步';
+  @override
+  String get onboarding_feature_backup_hint => '把数据备份到 Google Drive、WebDAV 等后端';
+  @override
+  String get onboarding_feature_interconnect => '设备互联';
+  @override
+  String get onboarding_feature_interconnect_hint => '局域网配对多台设备，共享书库与进度';
+  @override
+  String get onboarding_step_dictionary_action => '打开词典管理';
+  @override
+  String get onboarding_step_anki_title => '配置 Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      '打开制卡设置，连接 AnkiConnect（桌面）或 AnkiDroid（安卓），并测试连接。';
+  @override
+  String get onboarding_step_anki_action => '打开制卡设置';
+  @override
+  String get onboarding_step_backup_title => '配置备份';
+  @override
+  String get onboarding_step_backup_body => '选择备份后端并登录，也可以导出本地备份文件。';
+  @override
+  String get onboarding_step_backup_action => '打开备份设置';
+  @override
+  String get onboarding_step_interconnect_title => '配置互联';
+  @override
+  String get onboarding_step_interconnect_body =>
+      '开启互联，与局域网内其他设备配对，共享书库、进度与查词。';
+  @override
+  String get onboarding_step_interconnect_action => '打开互联设置';
+  @override
+  String get onboarding_finish_title => '一切就绪';
+  @override
+  String get onboarding_finish_body => '之后随时可以在「设置 → 系统」里重新打开本引导。';
+  @override
+  String get onboarding_action_next => '下一步';
+  @override
+  String get onboarding_action_finish => '完成';
+  @override
+  String get onboarding_action_skip => '暂时跳过';
+  @override
+  String get onboarding_reopen => '新手引导';
+  @override
+  String get onboarding_welcome_body => '先选好界面语言与明暗主题，接下来会带你逐项完成配置。';
+  @override
+  String get onboarding_features_title => '选择要用的功能';
+  @override
+  String get onboarding_features_modules_label => '库页显示（未勾选的将从底栏隐藏，可随时在设置里改回）';
+  @override
+  String get onboarding_features_setup_label => '接下来要配置';
+  @override
+  String get onboarding_feature_manga => '漫画库';
+  @override
+  String get onboarding_feature_manga_hint => '看漫画，支持 OCR 查词';
+  @override
+  String get onboarding_feature_video => '视频库';
+  @override
+  String get onboarding_feature_video_hint => '看视频，字幕查词与制卡';
+  @override
+  String get onboarding_feature_games => 'Galgame 库';
+  @override
+  String get onboarding_feature_games_hint =>
+      '启动 galgame，文本 Hook 查词（仅 Windows）';
+  @override
+  String get onboarding_feature_pack => '推荐包（词典 + 发音音频）';
+  @override
+  String get onboarding_feature_pack_hint => '一次下载配好日语推荐词典与日/英发音音频库';
+  @override
+  String get onboarding_step_pack_title => '安装推荐包';
+  @override
+  String get onboarding_step_pack_body =>
+      '推荐包内含日语单词/音调/词频词典与日/英发音音频数据库。可在此直接下载并导入；导入会覆盖本地数据，建议在全新安装时进行。学其他语言可用「打开词典管理」自行导入词典。';
+  @override
+  String get onboarding_step_pack_download_action => '下载并导入';
+  @override
+  String get onboarding_step_pack_import_existing_action => '导入已下载的包';
+  @override
+  String get onboarding_step_pack_pick_action => '选择本地包文件';
+  @override
+  String get onboarding_step_pack_browser_action => '浏览器下载（Google Drive）';
+  @override
+  String get onboarding_pack_downloading => '下载中……可随时取消，下次续传';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      '下载失败：${message}';
+  @override
+  String get onboarding_step_extension_title => '浏览器扩展';
+  @override
+  String get onboarding_step_extension_body => '安装配套浏览器扩展，在任意网页上查词。';
+  @override
+  String get onboarding_step_extension_action => '打开扩展安装引导';
+  @override
+  String get onboarding_step_fonts_title => '配置字体';
+  @override
+  String get onboarding_step_fonts_body => '导入自定义字体，并选择界面/正文/词典分别使用哪套字体。';
+  @override
+  String get settings_section_modules => '功能模块';
+  @override
+  String get module_manga_label => '漫画';
+  @override
+  String get module_video_label => '视频';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint => '在底栏/侧栏显示该库页；关闭即隐藏';
 }
 
 // Path: <root>
@@ -131944,6 +133954,136 @@ class _StringsZhHk extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '識別語言';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
 }
 
 /// Flat map(s) containing all translations.
@@ -139040,6 +141180,114 @@ extension on _StringsEn {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Recognition language';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -146134,6 +148382,114 @@ extension on _StringsAr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'لغة التعرّف';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -153250,6 +155606,114 @@ extension on _StringsDe {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Erkennungssprache';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -160365,6 +162829,114 @@ extension on _StringsEs {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconocimiento';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -167486,6 +170058,114 @@ extension on _StringsFr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Langue de reconnaissance';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -174589,6 +177269,114 @@ extension on _StringsId {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Bahasa pengenalan';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -181706,6 +184494,114 @@ extension on _StringsIt {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Lingua di riconoscimento';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -188785,6 +191681,114 @@ extension on _StringsJa {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '認識する言語';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -195868,6 +198872,114 @@ extension on _StringsKo {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '인식 언어';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -202979,6 +206091,114 @@ extension on _StringsNl {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Herkenningstaal';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -210087,6 +213307,114 @@ extension on _StringsPtBr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconhecimento';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -217200,6 +220528,114 @@ extension on _StringsRu {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Язык распознавания';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -224296,6 +227732,114 @@ extension on _StringsTh {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'ภาษาที่ใช้จดจำ';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -231401,6 +234945,114 @@ extension on _StringsTr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Tanıma dili';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -238502,6 +242154,114 @@ extension on _StringsVi {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Ngôn ngữ nhận dạng';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -245544,6 +249304,114 @@ extension on _StringsZhCn {
         return '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
       case 'manga_ocr_lens_language_label':
         return '识别语言';
+      case 'onboarding_title':
+        return '新手引导';
+      case 'onboarding_welcome_headline':
+        return '欢迎使用！';
+      case 'onboarding_feature_anki':
+        return 'Anki 制卡';
+      case 'onboarding_feature_anki_hint':
+        return '连接 AnkiConnect / AnkiDroid，查词一键制卡';
+      case 'onboarding_feature_backup':
+        return '备份与同步';
+      case 'onboarding_feature_backup_hint':
+        return '把数据备份到 Google Drive、WebDAV 等后端';
+      case 'onboarding_feature_interconnect':
+        return '设备互联';
+      case 'onboarding_feature_interconnect_hint':
+        return '局域网配对多台设备，共享书库与进度';
+      case 'onboarding_step_dictionary_action':
+        return '打开词典管理';
+      case 'onboarding_step_anki_title':
+        return '配置 Anki';
+      case 'onboarding_step_anki_body':
+        return '打开制卡设置，连接 AnkiConnect（桌面）或 AnkiDroid（安卓），并测试连接。';
+      case 'onboarding_step_anki_action':
+        return '打开制卡设置';
+      case 'onboarding_step_backup_title':
+        return '配置备份';
+      case 'onboarding_step_backup_body':
+        return '选择备份后端并登录，也可以导出本地备份文件。';
+      case 'onboarding_step_backup_action':
+        return '打开备份设置';
+      case 'onboarding_step_interconnect_title':
+        return '配置互联';
+      case 'onboarding_step_interconnect_body':
+        return '开启互联，与局域网内其他设备配对，共享书库、进度与查词。';
+      case 'onboarding_step_interconnect_action':
+        return '打开互联设置';
+      case 'onboarding_finish_title':
+        return '一切就绪';
+      case 'onboarding_finish_body':
+        return '之后随时可以在「设置 → 系统」里重新打开本引导。';
+      case 'onboarding_action_next':
+        return '下一步';
+      case 'onboarding_action_finish':
+        return '完成';
+      case 'onboarding_action_skip':
+        return '暂时跳过';
+      case 'onboarding_reopen':
+        return '新手引导';
+      case 'onboarding_welcome_body':
+        return '先选好界面语言与明暗主题，接下来会带你逐项完成配置。';
+      case 'onboarding_features_title':
+        return '选择要用的功能';
+      case 'onboarding_features_modules_label':
+        return '库页显示（未勾选的将从底栏隐藏，可随时在设置里改回）';
+      case 'onboarding_features_setup_label':
+        return '接下来要配置';
+      case 'onboarding_feature_manga':
+        return '漫画库';
+      case 'onboarding_feature_manga_hint':
+        return '看漫画，支持 OCR 查词';
+      case 'onboarding_feature_video':
+        return '视频库';
+      case 'onboarding_feature_video_hint':
+        return '看视频，字幕查词与制卡';
+      case 'onboarding_feature_games':
+        return 'Galgame 库';
+      case 'onboarding_feature_games_hint':
+        return '启动 galgame，文本 Hook 查词（仅 Windows）';
+      case 'onboarding_feature_pack':
+        return '推荐包（词典 + 发音音频）';
+      case 'onboarding_feature_pack_hint':
+        return '一次下载配好日语推荐词典与日/英发音音频库';
+      case 'onboarding_step_pack_title':
+        return '安装推荐包';
+      case 'onboarding_step_pack_body':
+        return '推荐包内含日语单词/音调/词频词典与日/英发音音频数据库。可在此直接下载并导入；导入会覆盖本地数据，建议在全新安装时进行。学其他语言可用「打开词典管理」自行导入词典。';
+      case 'onboarding_step_pack_download_action':
+        return '下载并导入';
+      case 'onboarding_step_pack_import_existing_action':
+        return '导入已下载的包';
+      case 'onboarding_step_pack_pick_action':
+        return '选择本地包文件';
+      case 'onboarding_step_pack_browser_action':
+        return '浏览器下载（Google Drive）';
+      case 'onboarding_pack_downloading':
+        return '下载中……可随时取消，下次续传';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => '下载失败：${message}';
+      case 'onboarding_step_extension_title':
+        return '浏览器扩展';
+      case 'onboarding_step_extension_body':
+        return '安装配套浏览器扩展，在任意网页上查词。';
+      case 'onboarding_step_extension_action':
+        return '打开扩展安装引导';
+      case 'onboarding_step_fonts_title':
+        return '配置字体';
+      case 'onboarding_step_fonts_body':
+        return '导入自定义字体，并选择界面/正文/词典分别使用哪套字体。';
+      case 'settings_section_modules':
+        return '功能模块';
+      case 'module_manga_label':
+        return '漫画';
+      case 'module_video_label':
+        return '视频';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return '在底栏/侧栏显示该库页；关闭即隐藏';
       default:
         return null;
     }
@@ -252618,6 +256486,114 @@ extension on _StringsZhHk {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '識別語言';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
