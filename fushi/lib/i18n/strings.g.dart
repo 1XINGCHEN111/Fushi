@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60452 (3556 per locale)
+/// Strings: 60418 (3554 per locale)
 ///
-/// Built on 2026-08-17 at 12:56 UTC
+/// Built on 2026-08-17 at 14:21 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3663,7 +3663,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Magpie is not ready. Set window upscaling to Auto to use the copy bundled with Fushi; if it still does not start, update or reinstall Fushi.';
   String media_source_count_manga({required Object n}) => '${n} volumes';
   String get library_view_shelf => 'Shelf';
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   String get library_view_media => 'Library';
   String get scrape_failure_detail_show => 'Show details';
   String get scrape_failure_detail_hide => 'Hide details';
@@ -4382,7 +4382,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Fushi video scrape diagnostics';
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-  String get video_discovery_tab => 'Discover';
   String get video_discovery_search_hint => 'Search movies, series, anime';
   String get video_discovery_hot => 'Popular now';
   String get video_discovery_seasonal_anime => 'Seasonal anime';
@@ -4818,7 +4817,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get discovery_torrent_failed => 'Failed to add torrent task';
   String get discovery_kind_novel => 'Novels';
   String get discovery_kind_audiobook => 'Audiobooks';
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -11057,7 +11055,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -12291,8 +12289,6 @@ class _StringsAr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -13042,8 +13038,6 @@ class _StringsAr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -19349,7 +19343,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -20583,8 +20577,6 @@ class _StringsDe extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -21334,8 +21326,6 @@ class _StringsDe extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -27657,7 +27647,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -28891,8 +28881,6 @@ class _StringsEs extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -29642,8 +29630,6 @@ class _StringsEs extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -35977,7 +35963,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -37211,8 +37197,6 @@ class _StringsFr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -37962,8 +37946,6 @@ class _StringsFr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -44225,7 +44207,7 @@ class _StringsId extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -45459,8 +45441,6 @@ class _StringsId extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -46210,8 +46190,6 @@ class _StringsId extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -52519,7 +52497,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -53753,8 +53731,6 @@ class _StringsIt extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -54504,8 +54480,6 @@ class _StringsIt extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -60627,7 +60601,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -61861,8 +61835,6 @@ class _StringsJa extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -62612,8 +62584,6 @@ class _StringsJa extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -68742,7 +68712,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -69976,8 +69946,6 @@ class _StringsKo extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -70727,8 +70695,6 @@ class _StringsKo extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -77016,7 +76982,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -78250,8 +78216,6 @@ class _StringsNl extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -79001,8 +78965,6 @@ class _StringsNl extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -85302,7 +85264,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -86536,8 +86498,6 @@ class _StringsPtBr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -87287,8 +87247,6 @@ class _StringsPtBr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -93574,7 +93532,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -94808,8 +94766,6 @@ class _StringsRu extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -95559,8 +95515,6 @@ class _StringsRu extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -101794,7 +101748,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -103028,8 +102982,6 @@ class _StringsTh extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -103779,8 +103731,6 @@ class _StringsTh extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -110045,7 +109995,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -111279,8 +111229,6 @@ class _StringsTr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -112030,8 +111978,6 @@ class _StringsTr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -118281,7 +118227,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -119515,8 +119461,6 @@ class _StringsVi extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -120266,8 +120210,6 @@ class _StringsVi extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -126078,7 +126020,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get library_view_shelf => '书架';
   @override
-  String get library_view_browse => '浏览';
+  String get library_view_browse => '发现';
   @override
   String get library_view_media => '媒体库';
   @override
@@ -127223,8 +127165,6 @@ class _StringsZhCn extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       '诊断包包含相对文件/目录名、刮削摘要和原始 NFO 内容；不会加入视频、字幕、图片、绝对路径、应用配置或应用凭据。原始 NFO 会原样保留，仍可能含有个人信息或密钥，请在公开分享前检查。';
   @override
-  String get video_discovery_tab => '发现';
-  @override
   String get video_discovery_search_hint => '搜索电影、剧集、动漫';
   @override
   String get video_discovery_hot => '热门推荐';
@@ -127898,8 +127838,6 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_kind_novel => '小说';
   @override
   String get discovery_kind_audiobook => '有声书';
-  @override
-  String get game_section_discover => '发现';
 }
 
 // Path: <root>
@@ -133945,7 +133883,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -135178,8 +135116,6 @@ class _StringsZhHk extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -135929,8 +135865,6 @@ class _StringsZhHk extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
-  @override
-  String get game_section_discover => 'Discover';
 }
 
 /// Flat map(s) containing all translations.
@@ -141514,7 +141448,7 @@ extension on _StringsEn {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -142592,8 +142526,6 @@ extension on _StringsEn {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -143231,8 +143163,6 @@ extension on _StringsEn {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -148814,7 +148744,7 @@ extension on _StringsAr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -149890,8 +149820,6 @@ extension on _StringsAr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -150531,8 +150459,6 @@ extension on _StringsAr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -156136,7 +156062,7 @@ extension on _StringsDe {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -157212,8 +157138,6 @@ extension on _StringsDe {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -157853,8 +157777,6 @@ extension on _StringsDe {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -163457,7 +163379,7 @@ extension on _StringsEs {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -164533,8 +164455,6 @@ extension on _StringsEs {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -165174,8 +165094,6 @@ extension on _StringsEs {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -170784,7 +170702,7 @@ extension on _StringsFr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -171860,8 +171778,6 @@ extension on _StringsFr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -172501,8 +172417,6 @@ extension on _StringsFr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -178093,7 +178007,7 @@ extension on _StringsId {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -179169,8 +179083,6 @@ extension on _StringsId {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -179810,8 +179722,6 @@ extension on _StringsId {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -185416,7 +185326,7 @@ extension on _StringsIt {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -186492,8 +186402,6 @@ extension on _StringsIt {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -187133,8 +187041,6 @@ extension on _StringsIt {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -192701,7 +192607,7 @@ extension on _StringsJa {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -193777,8 +193683,6 @@ extension on _StringsJa {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -194418,8 +194322,6 @@ extension on _StringsJa {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -199990,7 +199892,7 @@ extension on _StringsKo {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -201066,8 +200968,6 @@ extension on _StringsKo {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -201707,8 +201607,6 @@ extension on _StringsKo {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -207307,7 +207205,7 @@ extension on _StringsNl {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -208383,8 +208281,6 @@ extension on _StringsNl {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -209024,8 +208920,6 @@ extension on _StringsNl {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -214621,7 +214515,7 @@ extension on _StringsPtBr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -215697,8 +215591,6 @@ extension on _StringsPtBr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -216338,8 +216230,6 @@ extension on _StringsPtBr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -221940,7 +221830,7 @@ extension on _StringsRu {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -223016,8 +222906,6 @@ extension on _StringsRu {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -223657,8 +223545,6 @@ extension on _StringsRu {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -229242,7 +229128,7 @@ extension on _StringsTh {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -230318,8 +230204,6 @@ extension on _StringsTh {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -230959,8 +230843,6 @@ extension on _StringsTh {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -236553,7 +236435,7 @@ extension on _StringsTr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -237629,8 +237511,6 @@ extension on _StringsTr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -238270,8 +238150,6 @@ extension on _StringsTr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -243860,7 +243738,7 @@ extension on _StringsVi {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -244936,8 +244814,6 @@ extension on _StringsVi {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -245577,8 +245453,6 @@ extension on _StringsVi {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
@@ -251119,7 +250993,7 @@ extension on _StringsZhCn {
       case 'library_view_shelf':
         return '书架';
       case 'library_view_browse':
-        return '浏览';
+        return '发现';
       case 'library_view_media':
         return '媒体库';
       case 'scrape_failure_detail_show':
@@ -252188,8 +252062,6 @@ extension on _StringsZhCn {
         return 'Fushi 视频刮削诊断';
       case 'video_scrape_diagnostic_confirm_body':
         return '诊断包包含相对文件/目录名、刮削摘要和原始 NFO 内容；不会加入视频、字幕、图片、绝对路径、应用配置或应用凭据。原始 NFO 会原样保留，仍可能含有个人信息或密钥，请在公开分享前检查。';
-      case 'video_discovery_tab':
-        return '发现';
       case 'video_discovery_search_hint':
         return '搜索电影、剧集、动漫';
       case 'video_discovery_hot':
@@ -252825,8 +252697,6 @@ extension on _StringsZhCn {
         return '小说';
       case 'discovery_kind_audiobook':
         return '有声书';
-      case 'game_section_discover':
-        return '发现';
       default:
         return null;
     }
@@ -258388,7 +258258,7 @@ extension on _StringsZhHk {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -259464,8 +259334,6 @@ extension on _StringsZhHk {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -260105,8 +259973,6 @@ extension on _StringsZhHk {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
-      case 'game_section_discover':
-        return 'Discover';
       default:
         return null;
     }
