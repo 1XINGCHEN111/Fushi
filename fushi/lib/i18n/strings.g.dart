@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 59959 (3527 per locale)
+/// Strings: 59993 (3529 per locale)
 ///
-/// Built on 2026-08-17 at 06:07 UTC
+/// Built on 2026-08-17 at 06:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4787,6 +4787,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get module_games_label => 'Galgame';
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  String get video_setting_youtube_quality => 'YouTube quality';
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -12951,6 +12954,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -21182,6 +21190,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -29429,6 +29442,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -37688,6 +37706,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -45875,6 +45898,11 @@ class _StringsId extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -54108,6 +54136,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -62155,6 +62188,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -70209,6 +70247,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -78422,6 +78465,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -86647,6 +86695,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -94858,6 +94911,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -103017,6 +103075,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -111207,6 +111270,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -119382,6 +119450,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -126954,6 +127027,11 @@ class _StringsZhCn extends _StringsEn {
   String get module_games_label => 'Galgame';
   @override
   String get module_toggle_hint => '在底栏/侧栏显示该库页；关闭即隐藏';
+  @override
+  String get video_setting_youtube_quality => 'YouTube 画质';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      '起播自动选不超过目标的最高档；「自动」优先流畅（硬解友好编码，最高 1080p）';
 }
 
 // Path: <root>
@@ -134924,6 +135002,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 /// Flat map(s) containing all translations.
@@ -142168,6 +142251,10 @@ extension on _StringsEn {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -149410,6 +149497,10 @@ extension on _StringsAr {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -156674,6 +156765,10 @@ extension on _StringsDe {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -163937,6 +164032,10 @@ extension on _StringsEs {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -171206,6 +171305,10 @@ extension on _StringsFr {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -178457,6 +178560,10 @@ extension on _StringsId {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -185722,6 +185829,10 @@ extension on _StringsIt {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -192949,6 +193060,10 @@ extension on _StringsJa {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -200180,6 +200295,10 @@ extension on _StringsKo {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -207439,6 +207558,10 @@ extension on _StringsNl {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -214695,6 +214818,10 @@ extension on _StringsPtBr {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -221956,6 +222083,10 @@ extension on _StringsRu {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -229200,6 +229331,10 @@ extension on _StringsTh {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -236453,6 +236588,10 @@ extension on _StringsTr {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -243702,6 +243841,10 @@ extension on _StringsVi {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -250892,6 +251035,10 @@ extension on _StringsZhCn {
         return 'Galgame';
       case 'module_toggle_hint':
         return '在底栏/侧栏显示该库页；关闭即隐藏';
+      case 'video_setting_youtube_quality':
+        return 'YouTube 画质';
+      case 'video_setting_youtube_quality_hint':
+        return '起播自动选不超过目标的最高档；「自动」优先流畅（硬解友好编码，最高 1080p）';
       default:
         return null;
     }
@@ -258114,6 +258261,10 @@ extension on _StringsZhHk {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
