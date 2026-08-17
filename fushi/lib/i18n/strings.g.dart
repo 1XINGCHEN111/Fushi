@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60248 (3544 per locale)
+/// Strings: 60452 (3556 per locale)
 ///
-/// Built on 2026-08-17 at 09:58 UTC
+/// Built on 2026-08-17 at 12:56 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4807,6 +4807,18 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_discovery_status_not_yet_released => 'Not yet released';
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  String get discovery_all_sources => 'All sources';
+  String get discovery_search_hint => 'Search online resources';
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  String get discovery_empty => 'No results';
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  String get discovery_load_more => 'Load more';
+  String get discovery_download_queued => 'Added to downloads';
+  String get discovery_torrent_pushed => 'Torrent task added';
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  String get discovery_kind_novel => 'Novels';
+  String get discovery_kind_audiobook => 'Audiobooks';
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -13008,6 +13020,30 @@ class _StringsAr extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -21276,6 +21312,30 @@ class _StringsDe extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -29560,6 +29620,30 @@ class _StringsEs extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -37856,6 +37940,30 @@ class _StringsFr extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -46080,6 +46188,30 @@ class _StringsId extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -54350,6 +54482,30 @@ class _StringsIt extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -62434,6 +62590,30 @@ class _StringsJa extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -70525,6 +70705,30 @@ class _StringsKo extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -78775,6 +78979,30 @@ class _StringsNl extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -87037,6 +87265,30 @@ class _StringsPtBr extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -95285,6 +95537,30 @@ class _StringsRu extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -103481,6 +103757,30 @@ class _StringsTh extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -111708,6 +112008,30 @@ class _StringsTr extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -119920,6 +120244,30 @@ class _StringsVi extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 // Path: <root>
@@ -127528,6 +127876,30 @@ class _StringsZhCn extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       '${source} · 热门';
+  @override
+  String get discovery_all_sources => '全部源';
+  @override
+  String get discovery_search_hint => '搜索在线资源';
+  @override
+  String get discovery_enter_query_hint => '输入关键词搜索';
+  @override
+  String get discovery_empty => '无结果';
+  @override
+  String get discovery_partial_failure => '部分源不可用';
+  @override
+  String get discovery_load_more => '加载更多';
+  @override
+  String get discovery_download_queued => '已加入下载';
+  @override
+  String get discovery_torrent_pushed => '种子任务已添加';
+  @override
+  String get discovery_torrent_failed => '种子任务添加失败';
+  @override
+  String get discovery_kind_novel => '小说';
+  @override
+  String get discovery_kind_audiobook => '有声书';
+  @override
+  String get game_section_discover => '发现';
 }
 
 // Path: <root>
@@ -135535,6 +135907,30 @@ class _StringsZhHk extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_section_discover => 'Discover';
 }
 
 /// Flat map(s) containing all translations.
@@ -142813,6 +143209,30 @@ extension on _StringsEn {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -150089,6 +150509,30 @@ extension on _StringsAr {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -157387,6 +157831,30 @@ extension on _StringsDe {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -164684,6 +165152,30 @@ extension on _StringsEs {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -171987,6 +172479,30 @@ extension on _StringsFr {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -179272,6 +179788,30 @@ extension on _StringsId {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -186571,6 +187111,30 @@ extension on _StringsIt {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -193832,6 +194396,30 @@ extension on _StringsJa {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -201097,6 +201685,30 @@ extension on _StringsKo {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -208390,6 +209002,30 @@ extension on _StringsNl {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -215680,6 +216316,30 @@ extension on _StringsPtBr {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -222975,6 +223635,30 @@ extension on _StringsRu {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -230253,6 +230937,30 @@ extension on _StringsTh {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -237540,6 +238248,30 @@ extension on _StringsTr {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -244823,6 +245555,30 @@ extension on _StringsVi {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
@@ -252047,6 +252803,30 @@ extension on _StringsZhCn {
         return '未发售';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => '${source} · 热门';
+      case 'discovery_all_sources':
+        return '全部源';
+      case 'discovery_search_hint':
+        return '搜索在线资源';
+      case 'discovery_enter_query_hint':
+        return '输入关键词搜索';
+      case 'discovery_empty':
+        return '无结果';
+      case 'discovery_partial_failure':
+        return '部分源不可用';
+      case 'discovery_load_more':
+        return '加载更多';
+      case 'discovery_download_queued':
+        return '已加入下载';
+      case 'discovery_torrent_pushed':
+        return '种子任务已添加';
+      case 'discovery_torrent_failed':
+        return '种子任务添加失败';
+      case 'discovery_kind_novel':
+        return '小说';
+      case 'discovery_kind_audiobook':
+        return '有声书';
+      case 'game_section_discover':
+        return '发现';
       default:
         return null;
     }
@@ -259303,6 +260083,30 @@ extension on _StringsZhHk {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'game_section_discover':
+        return 'Discover';
       default:
         return null;
     }
