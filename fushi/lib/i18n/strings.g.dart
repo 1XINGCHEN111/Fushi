@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60248 (3544 per locale)
+/// Strings: 60265 (3545 per locale)
 ///
-/// Built on 2026-08-17 at 09:58 UTC
+/// Built on 2026-08-17 at 12:40 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4807,6 +4807,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_discovery_status_not_yet_released => 'Not yet released';
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -13008,6 +13009,8 @@ class _StringsAr extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -21276,6 +21279,8 @@ class _StringsDe extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -29560,6 +29565,8 @@ class _StringsEs extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -37856,6 +37863,8 @@ class _StringsFr extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -46080,6 +46089,8 @@ class _StringsId extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -54350,6 +54361,8 @@ class _StringsIt extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -62434,6 +62447,8 @@ class _StringsJa extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -70525,6 +70540,8 @@ class _StringsKo extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -78775,6 +78792,8 @@ class _StringsNl extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -87037,6 +87056,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -95285,6 +95306,8 @@ class _StringsRu extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -103481,6 +103504,8 @@ class _StringsTh extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -111708,6 +111733,8 @@ class _StringsTr extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -119920,6 +119947,8 @@ class _StringsVi extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 // Path: <root>
@@ -127528,6 +127557,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       '${source} · 热门';
+  @override
+  String get mihon_extension_error => '扩展错误';
 }
 
 // Path: <root>
@@ -135535,6 +135566,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
 }
 
 /// Flat map(s) containing all translations.
@@ -142813,6 +142846,8 @@ extension on _StringsEn {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -150089,6 +150124,8 @@ extension on _StringsAr {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -157387,6 +157424,8 @@ extension on _StringsDe {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -164684,6 +164723,8 @@ extension on _StringsEs {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -171987,6 +172028,8 @@ extension on _StringsFr {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -179272,6 +179315,8 @@ extension on _StringsId {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -186571,6 +186616,8 @@ extension on _StringsIt {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -193832,6 +193879,8 @@ extension on _StringsJa {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -201097,6 +201146,8 @@ extension on _StringsKo {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -208390,6 +208441,8 @@ extension on _StringsNl {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -215680,6 +215733,8 @@ extension on _StringsPtBr {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -222975,6 +223030,8 @@ extension on _StringsRu {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -230253,6 +230310,8 @@ extension on _StringsTh {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -237540,6 +237599,8 @@ extension on _StringsTr {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -244823,6 +244884,8 @@ extension on _StringsVi {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
@@ -252047,6 +252110,8 @@ extension on _StringsZhCn {
         return '未发售';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => '${source} · 热门';
+      case 'mihon_extension_error':
+        return '扩展错误';
       default:
         return null;
     }
@@ -259303,6 +259368,8 @@ extension on _StringsZhHk {
         return 'Not yet released';
       case 'manga_discovery_source_popular':
         return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
       default:
         return null;
     }
