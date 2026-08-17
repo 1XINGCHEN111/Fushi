@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58701 (3453 per locale)
+/// Strings: 58871 (3463 per locale)
 ///
-/// Built on 2026-08-16 at 12:44 UTC
+/// Built on 2026-08-16 at 16:17 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4680,6 +4680,18 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   String get manga_ocr_lens_language_label => 'Recognition language';
+  String get dict_user_title => 'User dictionary';
+  String get dict_user_entry_add => 'Add entry';
+  String get dict_user_entry_edit => 'Edit entry';
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  String get dict_user_field_expression => 'Headword';
+  String get dict_user_field_reading => 'Reading';
+  String get dict_user_field_meaning => 'Definition';
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -12663,6 +12675,28 @@ class _StringsAr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'لغة التعرّف';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -20713,6 +20747,28 @@ class _StringsDe extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Erkennungssprache';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -28779,6 +28835,28 @@ class _StringsEs extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconocimiento';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -36857,6 +36935,28 @@ class _StringsFr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Langue de reconnaissance';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -44863,6 +44963,28 @@ class _StringsId extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Bahasa pengenalan';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -52915,6 +53037,28 @@ class _StringsIt extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Lingua di riconoscimento';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -60781,6 +60925,28 @@ class _StringsJa extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '認識する言語';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -68654,6 +68820,28 @@ class _StringsKo extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '인식 언어';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -76686,6 +76874,28 @@ class _StringsNl extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Herkenningstaal';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -84730,6 +84940,28 @@ class _StringsPtBr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconhecimento';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -92760,6 +92992,28 @@ class _StringsRu extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Язык распознавания';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -100738,6 +100992,28 @@ class _StringsTh extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'ภาษาที่ใช้จดจำ';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -108747,6 +109023,28 @@ class _StringsTr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Tanıma dili';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -116741,6 +117039,28 @@ class _StringsVi extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Ngôn ngữ nhận dạng';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 // Path: <root>
@@ -124155,6 +124475,26 @@ class _StringsZhCn extends _StringsEn {
       '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
   @override
   String get manga_ocr_lens_language_label => '识别语言';
+  @override
+  String get dict_user_title => '用户词典';
+  @override
+  String get dict_user_entry_add => '添加词条';
+  @override
+  String get dict_user_entry_edit => '编辑词条';
+  @override
+  String get dict_user_entry_delete_confirm => '删除这条词条？';
+  @override
+  String get dict_user_field_expression => '词头';
+  @override
+  String get dict_user_field_reading => '读音';
+  @override
+  String get dict_user_field_meaning => '释义';
+  @override
+  String get dict_user_empty => '还没有词条，添加一条开始建立自己的词典。';
+  @override
+  String get dict_user_expression_required => '词头不能为空';
+  @override
+  String get dict_user_rebuild_failed => '用户词典重建失败';
 }
 
 // Path: <root>
@@ -131944,6 +132284,28 @@ class _StringsZhHk extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '識別語言';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
 }
 
 /// Flat map(s) containing all translations.
@@ -139040,6 +139402,26 @@ extension on _StringsEn {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Recognition language';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -146134,6 +146516,26 @@ extension on _StringsAr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'لغة التعرّف';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -153250,6 +153652,26 @@ extension on _StringsDe {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Erkennungssprache';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -160365,6 +160787,26 @@ extension on _StringsEs {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconocimiento';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -167486,6 +167928,26 @@ extension on _StringsFr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Langue de reconnaissance';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -174589,6 +175051,26 @@ extension on _StringsId {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Bahasa pengenalan';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -181706,6 +182188,26 @@ extension on _StringsIt {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Lingua di riconoscimento';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -188785,6 +189287,26 @@ extension on _StringsJa {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '認識する言語';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -195868,6 +196390,26 @@ extension on _StringsKo {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '인식 언어';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -202979,6 +203521,26 @@ extension on _StringsNl {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Herkenningstaal';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -210087,6 +210649,26 @@ extension on _StringsPtBr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconhecimento';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -217200,6 +217782,26 @@ extension on _StringsRu {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Язык распознавания';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -224296,6 +224898,26 @@ extension on _StringsTh {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'ภาษาที่ใช้จดจำ';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -231401,6 +232023,26 @@ extension on _StringsTr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Tanıma dili';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -238502,6 +239144,26 @@ extension on _StringsVi {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Ngôn ngữ nhận dạng';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
@@ -245544,6 +246206,26 @@ extension on _StringsZhCn {
         return '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
       case 'manga_ocr_lens_language_label':
         return '识别语言';
+      case 'dict_user_title':
+        return '用户词典';
+      case 'dict_user_entry_add':
+        return '添加词条';
+      case 'dict_user_entry_edit':
+        return '编辑词条';
+      case 'dict_user_entry_delete_confirm':
+        return '删除这条词条？';
+      case 'dict_user_field_expression':
+        return '词头';
+      case 'dict_user_field_reading':
+        return '读音';
+      case 'dict_user_field_meaning':
+        return '释义';
+      case 'dict_user_empty':
+        return '还没有词条，添加一条开始建立自己的词典。';
+      case 'dict_user_expression_required':
+        return '词头不能为空';
+      case 'dict_user_rebuild_failed':
+        return '用户词典重建失败';
       default:
         return null;
     }
@@ -252618,6 +253300,26 @@ extension on _StringsZhHk {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '識別語言';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
       default:
         return null;
     }
