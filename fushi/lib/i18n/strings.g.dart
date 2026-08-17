@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 59619 (3507 per locale)
+/// Strings: 59704 (3512 per locale)
 ///
-/// Built on 2026-08-16 at 18:51 UTC
+/// Built on 2026-08-17 at 13:27 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4756,6 +4756,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get module_games_label => 'Galgame';
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  String get module_books_label => 'Novels';
+  String get module_extension_label => 'Browser extension';
+  String get onboarding_feature_books => 'Novel library';
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -12869,6 +12876,18 @@ class _StringsAr extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -21049,6 +21068,18 @@ class _StringsDe extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -29245,6 +29276,18 @@ class _StringsEs extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -37453,6 +37496,18 @@ class _StringsFr extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -45589,6 +45644,18 @@ class _StringsId extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -53771,6 +53838,18 @@ class _StringsIt extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -61767,6 +61846,18 @@ class _StringsJa extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -69770,6 +69861,18 @@ class _StringsKo extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -77932,6 +78035,18 @@ class _StringsNl extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -86106,6 +86221,18 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -94266,6 +94393,18 @@ class _StringsRu extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -102374,6 +102513,18 @@ class _StringsTh extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -110513,6 +110664,18 @@ class _StringsTr extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -118637,6 +118800,18 @@ class _StringsVi extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -126165,6 +126340,16 @@ class _StringsZhCn extends _StringsEn {
   String get module_games_label => 'Galgame';
   @override
   String get module_toggle_hint => '在底栏/侧栏显示该库页；关闭即隐藏';
+  @override
+  String get module_books_label => '小说';
+  @override
+  String get module_extension_label => '浏览器扩展';
+  @override
+  String get onboarding_feature_books => '小说库';
+  @override
+  String get onboarding_feature_books_hint => '看小说（EPUB），查词与有声书同步';
+  @override
+  String get onboarding_feature_extension_hint => '网页查词（仅桌面）';
 }
 
 // Path: <root>
@@ -134084,6 +134269,18 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get module_toggle_hint =>
       'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 /// Flat map(s) containing all translations.
@@ -141288,6 +141485,16 @@ extension on _StringsEn {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -148490,6 +148697,16 @@ extension on _StringsAr {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -155714,6 +155931,16 @@ extension on _StringsDe {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -162937,6 +163164,16 @@ extension on _StringsEs {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -170166,6 +170403,16 @@ extension on _StringsFr {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -177377,6 +177624,16 @@ extension on _StringsId {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -184602,6 +184859,16 @@ extension on _StringsIt {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -191789,6 +192056,16 @@ extension on _StringsJa {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -198980,6 +199257,16 @@ extension on _StringsKo {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -206199,6 +206486,16 @@ extension on _StringsNl {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -213415,6 +213712,16 @@ extension on _StringsPtBr {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -220636,6 +220943,16 @@ extension on _StringsRu {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -227840,6 +228157,16 @@ extension on _StringsTh {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -235053,6 +235380,16 @@ extension on _StringsTr {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -242262,6 +242599,16 @@ extension on _StringsVi {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -249412,6 +249759,16 @@ extension on _StringsZhCn {
         return 'Galgame';
       case 'module_toggle_hint':
         return '在底栏/侧栏显示该库页；关闭即隐藏';
+      case 'module_books_label':
+        return '小说';
+      case 'module_extension_label':
+        return '浏览器扩展';
+      case 'onboarding_feature_books':
+        return '小说库';
+      case 'onboarding_feature_books_hint':
+        return '看小说（EPUB），查词与有声书同步';
+      case 'onboarding_feature_extension_hint':
+        return '网页查词（仅桌面）';
       default:
         return null;
     }
@@ -256594,6 +256951,16 @@ extension on _StringsZhHk {
         return 'Galgame';
       case 'module_toggle_hint':
         return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
