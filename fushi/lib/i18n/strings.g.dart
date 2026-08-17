@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60265 (3545 per locale)
+/// Strings: 60435 (3555 per locale)
 ///
-/// Built on 2026-08-17 at 12:40 UTC
+/// Built on 2026-08-17 at 14:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3663,7 +3663,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Magpie is not ready. Set window upscaling to Auto to use the copy bundled with Fushi; if it still does not start, update or reinstall Fushi.';
   String media_source_count_manga({required Object n}) => '${n} volumes';
   String get library_view_shelf => 'Shelf';
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   String get library_view_media => 'Library';
   String get scrape_failure_detail_show => 'Show details';
   String get scrape_failure_detail_hide => 'Hide details';
@@ -4382,7 +4382,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Fushi video scrape diagnostics';
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-  String get video_discovery_tab => 'Discover';
   String get video_discovery_search_hint => 'Search movies, series, anime';
   String get video_discovery_hot => 'Popular now';
   String get video_discovery_seasonal_anime => 'Seasonal anime';
@@ -4808,6 +4807,17 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String manga_discovery_source_popular({required Object source}) =>
       'Popular on ${source}';
   String get mihon_extension_error => 'Extension error';
+  String get discovery_all_sources => 'All sources';
+  String get discovery_search_hint => 'Search online resources';
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  String get discovery_empty => 'No results';
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  String get discovery_load_more => 'Load more';
+  String get discovery_download_queued => 'Added to downloads';
+  String get discovery_torrent_pushed => 'Torrent task added';
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  String get discovery_kind_novel => 'Novels';
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -11046,7 +11056,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -12280,8 +12290,6 @@ class _StringsAr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -13011,6 +13019,28 @@ class _StringsAr extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -19316,7 +19346,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -20550,8 +20580,6 @@ class _StringsDe extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -21281,6 +21309,28 @@ class _StringsDe extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -27602,7 +27652,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -28836,8 +28886,6 @@ class _StringsEs extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -29567,6 +29615,28 @@ class _StringsEs extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -35900,7 +35970,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -37134,8 +37204,6 @@ class _StringsFr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -37865,6 +37933,28 @@ class _StringsFr extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -44126,7 +44216,7 @@ class _StringsId extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -45360,8 +45450,6 @@ class _StringsId extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -46091,6 +46179,28 @@ class _StringsId extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -52398,7 +52508,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -53632,8 +53742,6 @@ class _StringsIt extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -54363,6 +54471,28 @@ class _StringsIt extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -60484,7 +60614,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -61718,8 +61848,6 @@ class _StringsJa extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -62449,6 +62577,28 @@ class _StringsJa extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -68577,7 +68727,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -69811,8 +69961,6 @@ class _StringsKo extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -70542,6 +70690,28 @@ class _StringsKo extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -76829,7 +76999,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -78063,8 +78233,6 @@ class _StringsNl extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -78794,6 +78962,28 @@ class _StringsNl extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -85093,7 +85283,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -86327,8 +86517,6 @@ class _StringsPtBr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -87058,6 +87246,28 @@ class _StringsPtBr extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -93343,7 +93553,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -94577,8 +94787,6 @@ class _StringsRu extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -95308,6 +95516,28 @@ class _StringsRu extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -101541,7 +101771,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -102775,8 +103005,6 @@ class _StringsTh extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -103506,6 +103734,28 @@ class _StringsTh extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -109770,7 +110020,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -111004,8 +111254,6 @@ class _StringsTr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -111735,6 +111983,28 @@ class _StringsTr extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -117984,7 +118254,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -119218,8 +119488,6 @@ class _StringsVi extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -119949,6 +120217,28 @@ class _StringsVi extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 // Path: <root>
@@ -125759,7 +126049,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get library_view_shelf => '书架';
   @override
-  String get library_view_browse => '浏览';
+  String get library_view_browse => '发现';
   @override
   String get library_view_media => '媒体库';
   @override
@@ -126904,8 +127194,6 @@ class _StringsZhCn extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       '诊断包包含相对文件/目录名、刮削摘要和原始 NFO 内容；不会加入视频、字幕、图片、绝对路径、应用配置或应用凭据。原始 NFO 会原样保留，仍可能含有个人信息或密钥，请在公开分享前检查。';
   @override
-  String get video_discovery_tab => '发现';
-  @override
   String get video_discovery_search_hint => '搜索电影、剧集、动漫';
   @override
   String get video_discovery_hot => '热门推荐';
@@ -127559,6 +127847,28 @@ class _StringsZhCn extends _StringsEn {
       '${source} · 热门';
   @override
   String get mihon_extension_error => '扩展错误';
+  @override
+  String get discovery_all_sources => '全部源';
+  @override
+  String get discovery_search_hint => '搜索在线资源';
+  @override
+  String get discovery_enter_query_hint => '输入关键词搜索';
+  @override
+  String get discovery_empty => '无结果';
+  @override
+  String get discovery_partial_failure => '部分源不可用';
+  @override
+  String get discovery_load_more => '加载更多';
+  @override
+  String get discovery_download_queued => '已加入下载';
+  @override
+  String get discovery_torrent_pushed => '种子任务已添加';
+  @override
+  String get discovery_torrent_failed => '种子任务添加失败';
+  @override
+  String get discovery_kind_novel => '小说';
+  @override
+  String get discovery_kind_audiobook => '有声书';
 }
 
 // Path: <root>
@@ -133604,7 +133914,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -134837,8 +135147,6 @@ class _StringsZhHk extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -135568,6 +135876,28 @@ class _StringsZhHk extends _StringsEn {
       'Popular on ${source}';
   @override
   String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
 }
 
 /// Flat map(s) containing all translations.
@@ -141151,7 +141481,7 @@ extension on _StringsEn {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -142229,8 +142559,6 @@ extension on _StringsEn {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -142848,6 +143176,28 @@ extension on _StringsEn {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -148429,7 +148779,7 @@ extension on _StringsAr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -149505,8 +149855,6 @@ extension on _StringsAr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -150126,6 +150474,28 @@ extension on _StringsAr {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -155729,7 +156099,7 @@ extension on _StringsDe {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -156805,8 +157175,6 @@ extension on _StringsDe {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -157426,6 +157794,28 @@ extension on _StringsDe {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -163028,7 +163418,7 @@ extension on _StringsEs {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -164104,8 +164494,6 @@ extension on _StringsEs {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -164725,6 +165113,28 @@ extension on _StringsEs {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -170333,7 +170743,7 @@ extension on _StringsFr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -171409,8 +171819,6 @@ extension on _StringsFr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -172030,6 +172438,28 @@ extension on _StringsFr {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -177620,7 +178050,7 @@ extension on _StringsId {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -178696,8 +179126,6 @@ extension on _StringsId {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -179317,6 +179745,28 @@ extension on _StringsId {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -184921,7 +185371,7 @@ extension on _StringsIt {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -185997,8 +186447,6 @@ extension on _StringsIt {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -186618,6 +187066,28 @@ extension on _StringsIt {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -192184,7 +192654,7 @@ extension on _StringsJa {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -193260,8 +193730,6 @@ extension on _StringsJa {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -193881,6 +194349,28 @@ extension on _StringsJa {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -199451,7 +199941,7 @@ extension on _StringsKo {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -200527,8 +201017,6 @@ extension on _StringsKo {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -201148,6 +201636,28 @@ extension on _StringsKo {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -206746,7 +207256,7 @@ extension on _StringsNl {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -207822,8 +208332,6 @@ extension on _StringsNl {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -208443,6 +208951,28 @@ extension on _StringsNl {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -214038,7 +214568,7 @@ extension on _StringsPtBr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -215114,8 +215644,6 @@ extension on _StringsPtBr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -215735,6 +216263,28 @@ extension on _StringsPtBr {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -221335,7 +221885,7 @@ extension on _StringsRu {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -222411,8 +222961,6 @@ extension on _StringsRu {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -223032,6 +223580,28 @@ extension on _StringsRu {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -228615,7 +229185,7 @@ extension on _StringsTh {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -229691,8 +230261,6 @@ extension on _StringsTh {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -230312,6 +230880,28 @@ extension on _StringsTh {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -235904,7 +236494,7 @@ extension on _StringsTr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -236980,8 +237570,6 @@ extension on _StringsTr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -237601,6 +238189,28 @@ extension on _StringsTr {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -243189,7 +243799,7 @@ extension on _StringsVi {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -244265,8 +244875,6 @@ extension on _StringsVi {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -244886,6 +245494,28 @@ extension on _StringsVi {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
@@ -250426,7 +251056,7 @@ extension on _StringsZhCn {
       case 'library_view_shelf':
         return '书架';
       case 'library_view_browse':
-        return '浏览';
+        return '发现';
       case 'library_view_media':
         return '媒体库';
       case 'scrape_failure_detail_show':
@@ -251495,8 +252125,6 @@ extension on _StringsZhCn {
         return 'Fushi 视频刮削诊断';
       case 'video_scrape_diagnostic_confirm_body':
         return '诊断包包含相对文件/目录名、刮削摘要和原始 NFO 内容；不会加入视频、字幕、图片、绝对路径、应用配置或应用凭据。原始 NFO 会原样保留，仍可能含有个人信息或密钥，请在公开分享前检查。';
-      case 'video_discovery_tab':
-        return '发现';
       case 'video_discovery_search_hint':
         return '搜索电影、剧集、动漫';
       case 'video_discovery_hot':
@@ -252112,6 +252740,28 @@ extension on _StringsZhCn {
         return ({required Object source}) => '${source} · 热门';
       case 'mihon_extension_error':
         return '扩展错误';
+      case 'discovery_all_sources':
+        return '全部源';
+      case 'discovery_search_hint':
+        return '搜索在线资源';
+      case 'discovery_enter_query_hint':
+        return '输入关键词搜索';
+      case 'discovery_empty':
+        return '无结果';
+      case 'discovery_partial_failure':
+        return '部分源不可用';
+      case 'discovery_load_more':
+        return '加载更多';
+      case 'discovery_download_queued':
+        return '已加入下载';
+      case 'discovery_torrent_pushed':
+        return '种子任务已添加';
+      case 'discovery_torrent_failed':
+        return '种子任务添加失败';
+      case 'discovery_kind_novel':
+        return '小说';
+      case 'discovery_kind_audiobook':
+        return '有声书';
       default:
         return null;
     }
@@ -257673,7 +258323,7 @@ extension on _StringsZhHk {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -258749,8 +259399,6 @@ extension on _StringsZhHk {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -259370,6 +260018,28 @@ extension on _StringsZhHk {
         return ({required Object source}) => 'Popular on ${source}';
       case 'mihon_extension_error':
         return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
       default:
         return null;
     }
