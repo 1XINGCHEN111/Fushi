@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58701 (3453 per locale)
+/// Strings: 58735 (3455 per locale)
 ///
-/// Built on 2026-08-16 at 12:44 UTC
+/// Built on 2026-08-17 at 05:42 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4680,6 +4680,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   String get manga_ocr_lens_language_label => 'Recognition language';
+  String get video_setting_youtube_quality => 'YouTube quality';
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -12663,6 +12666,11 @@ class _StringsAr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'لغة التعرّف';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -20713,6 +20721,11 @@ class _StringsDe extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Erkennungssprache';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -28779,6 +28792,11 @@ class _StringsEs extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconocimiento';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -36857,6 +36875,11 @@ class _StringsFr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Langue de reconnaissance';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -44863,6 +44886,11 @@ class _StringsId extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Bahasa pengenalan';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -52915,6 +52943,11 @@ class _StringsIt extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Lingua di riconoscimento';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -60781,6 +60814,11 @@ class _StringsJa extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '認識する言語';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -68654,6 +68692,11 @@ class _StringsKo extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '인식 언어';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -76686,6 +76729,11 @@ class _StringsNl extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Herkenningstaal';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -84730,6 +84778,11 @@ class _StringsPtBr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconhecimento';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -92760,6 +92813,11 @@ class _StringsRu extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Язык распознавания';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -100738,6 +100796,11 @@ class _StringsTh extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'ภาษาที่ใช้จดจำ';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -108747,6 +108810,11 @@ class _StringsTr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Tanıma dili';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -116741,6 +116809,11 @@ class _StringsVi extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Ngôn ngữ nhận dạng';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 // Path: <root>
@@ -124155,6 +124228,11 @@ class _StringsZhCn extends _StringsEn {
       '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
   @override
   String get manga_ocr_lens_language_label => '识别语言';
+  @override
+  String get video_setting_youtube_quality => 'YouTube 画质';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      '起播自动选不超过目标的最高档；「自动」优先流畅（硬解友好编码，最高 1080p）';
 }
 
 // Path: <root>
@@ -131944,6 +132022,11 @@ class _StringsZhHk extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '識別語言';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
 }
 
 /// Flat map(s) containing all translations.
@@ -139040,6 +139123,10 @@ extension on _StringsEn {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Recognition language';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -146134,6 +146221,10 @@ extension on _StringsAr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'لغة التعرّف';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -153250,6 +153341,10 @@ extension on _StringsDe {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Erkennungssprache';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -160365,6 +160460,10 @@ extension on _StringsEs {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconocimiento';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -167486,6 +167585,10 @@ extension on _StringsFr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Langue de reconnaissance';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -174589,6 +174692,10 @@ extension on _StringsId {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Bahasa pengenalan';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -181706,6 +181813,10 @@ extension on _StringsIt {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Lingua di riconoscimento';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -188785,6 +188896,10 @@ extension on _StringsJa {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '認識する言語';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -195868,6 +195983,10 @@ extension on _StringsKo {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '인식 언어';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -202979,6 +203098,10 @@ extension on _StringsNl {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Herkenningstaal';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -210087,6 +210210,10 @@ extension on _StringsPtBr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconhecimento';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -217200,6 +217327,10 @@ extension on _StringsRu {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Язык распознавания';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -224296,6 +224427,10 @@ extension on _StringsTh {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'ภาษาที่ใช้จดจำ';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -231401,6 +231536,10 @@ extension on _StringsTr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Tanıma dili';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -238502,6 +238641,10 @@ extension on _StringsVi {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Ngôn ngữ nhận dạng';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
@@ -245544,6 +245687,10 @@ extension on _StringsZhCn {
         return '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
       case 'manga_ocr_lens_language_label':
         return '识别语言';
+      case 'video_setting_youtube_quality':
+        return 'YouTube 画质';
+      case 'video_setting_youtube_quality_hint':
+        return '起播自动选不超过目标的最高档；「自动」优先流畅（硬解友好编码，最高 1080p）';
       default:
         return null;
     }
@@ -252618,6 +252765,10 @@ extension on _StringsZhHk {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '識別語言';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
       default:
         return null;
     }
