@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 59993 (3529 per locale)
+/// Strings: 60248 (3544 per locale)
 ///
-/// Built on 2026-08-17 at 06:13 UTC
+/// Built on 2026-08-17 at 09:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4790,6 +4790,23 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_youtube_quality => 'YouTube quality';
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  String get library_view_discover => 'Discover';
+  String get manga_discovery_section_trending => 'Trending';
+  String get manga_discovery_section_popular => 'Popular';
+  String get manga_discovery_section_top_rated => 'Top rated';
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  String get manga_discovery_match_section => 'Read from a source';
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  String get manga_discovery_status_releasing => 'Ongoing';
+  String get manga_discovery_status_finished => 'Completed';
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -12959,6 +12976,38 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -21195,6 +21244,38 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -29447,6 +29528,38 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -37711,6 +37824,38 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -45903,6 +46048,38 @@ class _StringsId extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -54141,6 +54318,38 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -62193,6 +62402,38 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -70252,6 +70493,38 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -78470,6 +78743,38 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -86700,6 +87005,38 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -94916,6 +95253,38 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -103080,6 +103449,38 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -111275,6 +111676,38 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -119455,6 +119888,38 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 // Path: <root>
@@ -127032,6 +127497,37 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       '起播自动选不超过目标的最高档；「自动」优先流畅（硬解友好编码，最高 1080p）';
+  @override
+  String get library_view_discover => '发现';
+  @override
+  String get manga_discovery_section_trending => '趋势';
+  @override
+  String get manga_discovery_section_popular => '热门';
+  @override
+  String get manga_discovery_section_top_rated => '高分';
+  @override
+  String get manga_discovery_section_latest_finished => '最新完结';
+  @override
+  String get manga_discovery_load_failed => '发现内容加载失败。';
+  @override
+  String get manga_discovery_match_section => '来源匹配';
+  @override
+  String get manga_discovery_match_running => '正在已启用来源中匹配…';
+  @override
+  String get manga_discovery_match_none => '已启用来源中未找到匹配。';
+  @override
+  String get manga_discovery_status_releasing => '连载中';
+  @override
+  String get manga_discovery_status_finished => '已完结';
+  @override
+  String get manga_discovery_status_hiatus => '休刊中';
+  @override
+  String get manga_discovery_status_cancelled => '已腰斩';
+  @override
+  String get manga_discovery_status_not_yet_released => '未发售';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      '${source} · 热门';
 }
 
 // Path: <root>
@@ -135007,6 +135503,38 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_setting_youtube_quality_hint =>
       'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
 }
 
 /// Flat map(s) containing all translations.
@@ -142255,6 +142783,36 @@ extension on _StringsEn {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -149501,6 +150059,36 @@ extension on _StringsAr {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -156769,6 +157357,36 @@ extension on _StringsDe {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -164036,6 +164654,36 @@ extension on _StringsEs {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -171309,6 +171957,36 @@ extension on _StringsFr {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -178564,6 +179242,36 @@ extension on _StringsId {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -185833,6 +186541,36 @@ extension on _StringsIt {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -193064,6 +193802,36 @@ extension on _StringsJa {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -200299,6 +201067,36 @@ extension on _StringsKo {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -207562,6 +208360,36 @@ extension on _StringsNl {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -214822,6 +215650,36 @@ extension on _StringsPtBr {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -222087,6 +222945,36 @@ extension on _StringsRu {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -229335,6 +230223,36 @@ extension on _StringsTh {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -236592,6 +237510,36 @@ extension on _StringsTr {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -243845,6 +244793,36 @@ extension on _StringsVi {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
@@ -251039,6 +252017,36 @@ extension on _StringsZhCn {
         return 'YouTube 画质';
       case 'video_setting_youtube_quality_hint':
         return '起播自动选不超过目标的最高档；「自动」优先流畅（硬解友好编码，最高 1080p）';
+      case 'library_view_discover':
+        return '发现';
+      case 'manga_discovery_section_trending':
+        return '趋势';
+      case 'manga_discovery_section_popular':
+        return '热门';
+      case 'manga_discovery_section_top_rated':
+        return '高分';
+      case 'manga_discovery_section_latest_finished':
+        return '最新完结';
+      case 'manga_discovery_load_failed':
+        return '发现内容加载失败。';
+      case 'manga_discovery_match_section':
+        return '来源匹配';
+      case 'manga_discovery_match_running':
+        return '正在已启用来源中匹配…';
+      case 'manga_discovery_match_none':
+        return '已启用来源中未找到匹配。';
+      case 'manga_discovery_status_releasing':
+        return '连载中';
+      case 'manga_discovery_status_finished':
+        return '已完结';
+      case 'manga_discovery_status_hiatus':
+        return '休刊中';
+      case 'manga_discovery_status_cancelled':
+        return '已腰斩';
+      case 'manga_discovery_status_not_yet_released':
+        return '未发售';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => '${source} · 热门';
       default:
         return null;
     }
@@ -258265,6 +259273,36 @@ extension on _StringsZhHk {
         return 'YouTube quality';
       case 'video_setting_youtube_quality_hint':
         return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
       default:
         return null;
     }
