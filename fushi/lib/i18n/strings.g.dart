@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 61506 (3618 per locale)
+/// Strings: 61523 (3619 per locale)
 ///
-/// Built on 2026-08-18 at 17:52 UTC
+/// Built on 2026-08-18 at 19:00 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4910,6 +4910,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get storage_bundled_section => 'Bundled components';
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -13288,6 +13290,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -21733,6 +21738,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -30194,6 +30202,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -38667,6 +38678,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -47068,6 +47082,9 @@ class _StringsId extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -55515,6 +55532,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -63776,6 +63796,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -72044,6 +72067,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -80471,6 +80497,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -88910,6 +88939,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -97335,6 +97367,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -105708,6 +105743,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -114112,6 +114150,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -122501,6 +122542,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -130267,6 +130311,8 @@ class _StringsZhCn extends _StringsEn {
   String get storage_bundled_section => '随包组件';
   @override
   String get storage_bundled_hint => '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
+  @override
+  String get storage_dictionary_delete_incomplete => '词典删除未完成、条目仍在，详见错误日志';
 }
 
 // Path: <root>
@@ -138451,6 +138497,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 /// Flat map(s) containing all translations.
@@ -145878,6 +145927,8 @@ extension on _StringsEn {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -153303,6 +153354,8 @@ extension on _StringsAr {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -160750,6 +160803,8 @@ extension on _StringsDe {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -168196,6 +168251,8 @@ extension on _StringsEs {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -175648,6 +175705,8 @@ extension on _StringsFr {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -183082,6 +183141,8 @@ extension on _StringsId {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -190530,6 +190591,8 @@ extension on _StringsIt {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -197940,6 +198003,8 @@ extension on _StringsJa {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -205354,6 +205419,8 @@ extension on _StringsKo {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -212796,6 +212863,8 @@ extension on _StringsNl {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -220235,6 +220304,8 @@ extension on _StringsPtBr {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -227679,6 +227750,8 @@ extension on _StringsRu {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -235106,6 +235179,8 @@ extension on _StringsTh {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -242542,6 +242617,8 @@ extension on _StringsTr {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -249974,6 +250051,8 @@ extension on _StringsVi {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -257347,6 +257426,8 @@ extension on _StringsZhCn {
         return '随包组件';
       case 'storage_bundled_hint':
         return '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
+      case 'storage_dictionary_delete_incomplete':
+        return '词典删除未完成、条目仍在，详见错误日志';
       default:
         return null;
     }
@@ -264752,6 +264833,8 @@ extension on _StringsZhHk {
         return 'Bundled components';
       case 'storage_bundled_hint':
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
