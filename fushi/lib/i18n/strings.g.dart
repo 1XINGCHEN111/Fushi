@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60452 (3556 per locale)
+/// Strings: 60503 (3559 per locale)
 ///
-/// Built on 2026-08-18 at 06:23 UTC
+/// Built on 2026-08-18 at 13:00 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4058,7 +4058,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get mihon_filter_descending => 'Descending';
   String get mihon_add_to_bookshelf => 'Add to manga shelf';
   String get mihon_in_bookshelf => 'In manga shelf';
-  String get media_source_local_roots => 'Local scan roots';
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   String get collection_related_title => 'Related works';
@@ -4550,11 +4549,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get library_view_import => 'Import';
   String get quick_import_title => 'Quick import';
   String get media_source_section_title => 'Library sources';
-  String get book_import_folder => 'Import folder';
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder => 'Import folder';
+  String get media_import_folder_as_source => 'Add as library source';
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   String get library_empty_go_import => 'Go to import';
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
@@ -4819,6 +4818,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get discovery_kind_novel => 'Novels';
   String get discovery_kind_audiobook => 'Audiobooks';
   String get mihon_store_remove => 'Remove extension store';
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -11744,8 +11750,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -12585,14 +12589,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -13044,6 +13048,17 @@ class _StringsAr extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -20036,8 +20051,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -20877,14 +20890,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -21336,6 +21349,17 @@ class _StringsDe extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -28344,8 +28368,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -29185,14 +29207,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -29644,6 +29666,17 @@ class _StringsEs extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -36664,8 +36697,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -37505,14 +37536,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -37964,6 +37995,17 @@ class _StringsFr extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -44912,8 +44954,6 @@ class _StringsId extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -45753,14 +45793,14 @@ class _StringsId extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -46212,6 +46252,17 @@ class _StringsId extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -53206,8 +53257,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -54047,14 +54096,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -54506,6 +54555,17 @@ class _StringsIt extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -61314,8 +61374,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -62155,14 +62213,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -62614,6 +62672,17 @@ class _StringsJa extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -69429,8 +69498,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -70270,14 +70337,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -70729,6 +70796,17 @@ class _StringsKo extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -77703,8 +77781,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -78544,14 +78620,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -79003,6 +79079,17 @@ class _StringsNl extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -85989,8 +86076,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -86830,14 +86915,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -87289,6 +87374,17 @@ class _StringsPtBr extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -94261,8 +94357,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -95102,14 +95196,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -95561,6 +95655,17 @@ class _StringsRu extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -102481,8 +102586,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -103322,14 +103425,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -103781,6 +103884,17 @@ class _StringsTh extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -110732,8 +110846,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -111573,14 +111685,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -112032,6 +112144,17 @@ class _StringsTr extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -118968,8 +119091,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -119809,14 +119930,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -120268,6 +120389,17 @@ class _StringsVi extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -126727,8 +126859,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get mihon_in_bookshelf => '已加入漫画书架';
   @override
-  String get media_source_local_roots => '本地扫描根';
-  @override
   String scrape_all_confirm({required Object n}) =>
       '将按标题匹配库中的 ${n} 个条目。只自动应用高置信度的匹配——视频按标题与年份、类型等信息综合打分，书籍和游戏则要求标题唯一且完全一致。你自己定的封面一律不覆盖（手动设置的本地图、在匹配弹窗里亲手选定的条目、目录里自带的 poster 图），歧义结果留待手动确认。';
   @override
@@ -127483,13 +127613,13 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get media_source_section_title => '常驻来源';
   @override
-  String get book_import_folder => '导入文件夹';
+  String get media_import_folder => '导入文件夹';
   @override
-  String get book_import_folder_as_source => '设为常驻来源';
+  String get media_import_folder_as_source => '设为常驻来源';
   @override
   String get book_import_folder_as_source_hint => '以后自动扫描此文件夹里的新书';
   @override
-  String get book_import_folder_once => '仅导入这一次';
+  String get media_import_folder_once => '仅导入这一次';
   @override
   String get library_empty_go_import => '去导入';
   @override
@@ -127900,6 +128030,15 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_kind_audiobook => '有声书';
   @override
   String get mihon_store_remove => '移除扩展仓库';
+  @override
+  String get video_import_folder_as_source_hint => '以后自动扫描此文件夹里的新视频';
+  @override
+  String get manga_import_folder_as_source_hint => '以后自动扫描此文件夹里的新漫画';
+  @override
+  String get download_no_managed_video_source =>
+      '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
+  @override
+  String get download_add_video_source => '添加视频来源';
 }
 
 // Path: <root>
@@ -134632,8 +134771,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -135472,14 +135609,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -135931,6 +136068,17 @@ class _StringsZhHk extends _StringsEn {
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
   String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 /// Flat map(s) containing all translations.
@@ -142125,8 +142273,6 @@ extension on _StringsEn {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -142843,13 +142989,13 @@ extension on _StringsEn {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -143233,6 +143379,14 @@ extension on _StringsEn {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -149423,8 +149577,6 @@ extension on _StringsAr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -150143,13 +150295,13 @@ extension on _StringsAr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -150533,6 +150685,14 @@ extension on _StringsAr {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -156745,8 +156905,6 @@ extension on _StringsDe {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -157465,13 +157623,13 @@ extension on _StringsDe {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -157855,6 +158013,14 @@ extension on _StringsDe {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -164066,8 +164232,6 @@ extension on _StringsEs {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -164786,13 +164950,13 @@ extension on _StringsEs {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -165176,6 +165340,14 @@ extension on _StringsEs {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -171393,8 +171565,6 @@ extension on _StringsFr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -172113,13 +172283,13 @@ extension on _StringsFr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -172503,6 +172673,14 @@ extension on _StringsFr {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -178702,8 +178880,6 @@ extension on _StringsId {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -179422,13 +179598,13 @@ extension on _StringsId {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -179812,6 +179988,14 @@ extension on _StringsId {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -186025,8 +186209,6 @@ extension on _StringsIt {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -186745,13 +186927,13 @@ extension on _StringsIt {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -187135,6 +187317,14 @@ extension on _StringsIt {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -193310,8 +193500,6 @@ extension on _StringsJa {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -194030,13 +194218,13 @@ extension on _StringsJa {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -194420,6 +194608,14 @@ extension on _StringsJa {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -200599,8 +200795,6 @@ extension on _StringsKo {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -201319,13 +201513,13 @@ extension on _StringsKo {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -201709,6 +201903,14 @@ extension on _StringsKo {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -207916,8 +208118,6 @@ extension on _StringsNl {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -208636,13 +208836,13 @@ extension on _StringsNl {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -209026,6 +209226,14 @@ extension on _StringsNl {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -215230,8 +215438,6 @@ extension on _StringsPtBr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -215950,13 +216156,13 @@ extension on _StringsPtBr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -216340,6 +216546,14 @@ extension on _StringsPtBr {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -222549,8 +222763,6 @@ extension on _StringsRu {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -223269,13 +223481,13 @@ extension on _StringsRu {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -223659,6 +223871,14 @@ extension on _StringsRu {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -229851,8 +230071,6 @@ extension on _StringsTh {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -230571,13 +230789,13 @@ extension on _StringsTh {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -230961,6 +231179,14 @@ extension on _StringsTh {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -237162,8 +237388,6 @@ extension on _StringsTr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -237882,13 +238106,13 @@ extension on _StringsTr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -238272,6 +238496,14 @@ extension on _StringsTr {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -244469,8 +244701,6 @@ extension on _StringsVi {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -245189,13 +245419,13 @@ extension on _StringsVi {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -245579,6 +245809,14 @@ extension on _StringsVi {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -251724,8 +251962,6 @@ extension on _StringsZhCn {
         return '加入漫画书架';
       case 'mihon_in_bookshelf':
         return '已加入漫画书架';
-      case 'media_source_local_roots':
-        return '本地扫描根';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             '将按标题匹配库中的 ${n} 个条目。只自动应用高置信度的匹配——视频按标题与年份、类型等信息综合打分，书籍和游戏则要求标题唯一且完全一致。你自己定的封面一律不覆盖（手动设置的本地图、在匹配弹窗里亲手选定的条目、目录里自带的 poster 图），歧义结果留待手动确认。';
@@ -252438,13 +252674,13 @@ extension on _StringsZhCn {
         return '快速导入';
       case 'media_source_section_title':
         return '常驻来源';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return '导入文件夹';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return '设为常驻来源';
       case 'book_import_folder_as_source_hint':
         return '以后自动扫描此文件夹里的新书';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return '仅导入这一次';
       case 'library_empty_go_import':
         return '去导入';
@@ -252827,6 +253063,14 @@ extension on _StringsZhCn {
         return '有声书';
       case 'mihon_store_remove':
         return '移除扩展仓库';
+      case 'video_import_folder_as_source_hint':
+        return '以后自动扫描此文件夹里的新视频';
+      case 'manga_import_folder_as_source_hint':
+        return '以后自动扫描此文件夹里的新漫画';
+      case 'download_no_managed_video_source':
+        return '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
+      case 'download_add_video_source':
+        return '添加视频来源';
       default:
         return null;
     }
@@ -258997,8 +259241,6 @@ extension on _StringsZhHk {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -259717,13 +259959,13 @@ extension on _StringsZhHk {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -260107,6 +260349,14 @@ extension on _StringsZhHk {
         return 'Audiobooks';
       case 'mihon_store_remove':
         return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
