@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60486 (3558 per locale)
+/// Strings: 60503 (3559 per locale)
 ///
-/// Built on 2026-08-18 at 12:59 UTC
+/// Built on 2026-08-18 at 13:00 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4817,6 +4817,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get discovery_torrent_failed => 'Failed to add torrent task';
   String get discovery_kind_novel => 'Novels';
   String get discovery_kind_audiobook => 'Audiobooks';
+  String get mihon_store_remove => 'Remove extension store';
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
   String get manga_import_folder_as_source_hint =>
@@ -13045,6 +13046,8 @@ class _StringsAr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
@@ -21344,6 +21347,8 @@ class _StringsDe extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
@@ -29659,6 +29664,8 @@ class _StringsEs extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
@@ -37987,6 +37994,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
   @override
@@ -46241,6 +46250,8 @@ class _StringsId extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
@@ -54543,6 +54554,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
   @override
@@ -62657,6 +62670,8 @@ class _StringsJa extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
@@ -70779,6 +70794,8 @@ class _StringsKo extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
@@ -79060,6 +79077,8 @@ class _StringsNl extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
@@ -87354,6 +87373,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
   @override
@@ -95633,6 +95654,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
   @override
@@ -103859,6 +103882,8 @@ class _StringsTh extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
@@ -112118,6 +112143,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
   @override
@@ -120361,6 +120388,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
   @override
@@ -127999,6 +128028,8 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_kind_novel => '小说';
   @override
   String get discovery_kind_audiobook => '有声书';
+  @override
+  String get mihon_store_remove => '移除扩展仓库';
   @override
   String get video_import_folder_as_source_hint => '以后自动扫描此文件夹里的新视频';
   @override
@@ -136036,6 +136067,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
   @override
@@ -143344,6 +143377,8 @@ extension on _StringsEn {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -150648,6 +150683,8 @@ extension on _StringsAr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -157974,6 +158011,8 @@ extension on _StringsDe {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -165299,6 +165338,8 @@ extension on _StringsEs {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -172630,6 +172671,8 @@ extension on _StringsFr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -179943,6 +179986,8 @@ extension on _StringsId {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -187270,6 +187315,8 @@ extension on _StringsIt {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -194559,6 +194606,8 @@ extension on _StringsJa {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -201852,6 +201901,8 @@ extension on _StringsKo {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -209173,6 +209224,8 @@ extension on _StringsNl {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -216491,6 +216544,8 @@ extension on _StringsPtBr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -223814,6 +223869,8 @@ extension on _StringsRu {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -231120,6 +231177,8 @@ extension on _StringsTh {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -238435,6 +238494,8 @@ extension on _StringsTr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -245746,6 +245807,8 @@ extension on _StringsVi {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
@@ -252998,6 +253061,8 @@ extension on _StringsZhCn {
         return '小说';
       case 'discovery_kind_audiobook':
         return '有声书';
+      case 'mihon_store_remove':
+        return '移除扩展仓库';
       case 'video_import_folder_as_source_hint':
         return '以后自动扫描此文件夹里的新视频';
       case 'manga_import_folder_as_source_hint':
@@ -260282,6 +260347,8 @@ extension on _StringsZhHk {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
