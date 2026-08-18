@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60469 (3557 per locale)
+/// Strings: 60996 (3588 per locale)
 ///
-/// Built on 2026-08-18 at 04:23 UTC
+/// Built on 2026-08-18 at 13:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4058,7 +4058,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get mihon_filter_descending => 'Descending';
   String get mihon_add_to_bookshelf => 'Add to manga shelf';
   String get mihon_in_bookshelf => 'In manga shelf';
-  String get media_source_local_roots => 'Local scan roots';
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   String get collection_related_title => 'Related works';
@@ -4426,7 +4425,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   String get video_opensubtitles_user_agent => 'User-Agent';
-  String get video_opensubtitles_languages => 'Preferred languages';
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   String get video_download_path_mappings_title => 'qBittorrent path mappings';
@@ -4550,11 +4548,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get library_view_import => 'Import';
   String get quick_import_title => 'Quick import';
   String get media_source_section_title => 'Library sources';
-  String get book_import_folder => 'Import folder';
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder => 'Import folder';
+  String get media_import_folder_as_source => 'Add as library source';
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   String get library_empty_go_import => 'Go to import';
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
@@ -4818,6 +4816,58 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get discovery_torrent_failed => 'Failed to add torrent task';
   String get discovery_kind_novel => 'Novels';
   String get discovery_kind_audiobook => 'Audiobooks';
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  String get manga_discovery_sources_browse => 'Browse a source';
+  String get discovery_kind_manga => 'Manga';
+  String get game_capture_workbench_tab => 'Capture workspace';
+  String get video_builtin_sources_title => 'Built-in sources';
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  String get anime_download_require_subs => 'Subtitles required';
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  String get discovery_sources_settings_title => 'Discovery sources';
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  String get video_source_scrape_manual_search_action => 'Search';
+  String get video_source_scrape_manual_search_empty => 'No results';
+  String get profile_media_manga => 'Manga';
+  String get profile_media_game => 'Game';
+  String get profile_media_browser => 'Browser';
+  String get mihon_store_remove => 'Remove extension store';
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
   String get download_add_video_source => 'Add video source';
@@ -11746,8 +11796,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -12373,8 +12421,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -12587,14 +12633,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -13044,6 +13090,91 @@ class _StringsAr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -20041,8 +20172,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -20668,8 +20797,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -20882,14 +21009,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -21339,6 +21466,91 @@ class _StringsDe extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -28352,8 +28564,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -28979,8 +29189,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -29193,14 +29401,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -29650,6 +29858,91 @@ class _StringsEs extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -36675,8 +36968,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -37302,8 +37593,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -37516,14 +37805,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -37973,6 +38262,91 @@ class _StringsFr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -44926,8 +45300,6 @@ class _StringsId extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -45553,8 +45925,6 @@ class _StringsId extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -45767,14 +46137,14 @@ class _StringsId extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -46224,6 +46594,91 @@ class _StringsId extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -53223,8 +53678,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -53850,8 +54303,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -54064,14 +54515,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -54521,6 +54972,91 @@ class _StringsIt extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -61334,8 +61870,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -61961,8 +62495,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -62175,14 +62707,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -62632,6 +63164,91 @@ class _StringsJa extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -69452,8 +70069,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -70079,8 +70694,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -70293,14 +70906,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -70750,6 +71363,91 @@ class _StringsKo extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -77729,8 +78427,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -78356,8 +79052,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -78570,14 +79264,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -79027,6 +79721,91 @@ class _StringsNl extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -86018,8 +86797,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -86645,8 +87422,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -86859,14 +87634,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -87316,6 +88091,91 @@ class _StringsPtBr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -94293,8 +95153,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -94920,8 +95778,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -95134,14 +95990,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -95591,6 +96447,91 @@ class _StringsRu extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -102516,8 +103457,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -103143,8 +104082,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -103357,14 +104294,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -103814,6 +104751,91 @@ class _StringsTh extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -110770,8 +111792,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -111397,8 +112417,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -111611,14 +112629,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -112068,6 +113086,91 @@ class _StringsTr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -119009,8 +120112,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -119636,8 +120737,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -119850,14 +120949,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -120307,6 +121406,91 @@ class _StringsVi extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -126771,8 +127955,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get mihon_in_bookshelf => '已加入漫画书架';
   @override
-  String get media_source_local_roots => '本地扫描根';
-  @override
   String scrape_all_confirm({required Object n}) =>
       '将按标题匹配库中的 ${n} 个条目。只自动应用高置信度的匹配——视频按标题与年份、类型等信息综合打分，书籍和游戏则要求标题唯一且完全一致。你自己定的封面一律不覆盖（手动设置的本地图、在匹配弹窗里亲手选定的条目、目录里自带的 poster 图），歧义结果留待手动确认。';
   @override
@@ -127339,8 +128521,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => '首选语言';
-  @override
   String get video_opensubtitles_languages_hint => '用逗号分隔语言代码，例如 zh-CN,en,ja';
   @override
   String get video_download_path_mappings_title => 'qBittorrent 路径映射';
@@ -127527,13 +128707,13 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get media_source_section_title => '常驻来源';
   @override
-  String get book_import_folder => '导入文件夹';
+  String get media_import_folder => '导入文件夹';
   @override
-  String get book_import_folder_as_source => '设为常驻来源';
+  String get media_import_folder_as_source => '设为常驻来源';
   @override
   String get book_import_folder_as_source_hint => '以后自动扫描此文件夹里的新书';
   @override
-  String get book_import_folder_once => '仅导入这一次';
+  String get media_import_folder_once => '仅导入这一次';
   @override
   String get library_empty_go_import => '去导入';
   @override
@@ -127942,6 +129122,76 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_kind_novel => '小说';
   @override
   String get discovery_kind_audiobook => '有声书';
+  @override
+  String get discovery_source_pick_hint => '选择来源浏览，或输入关键词搜索全部来源';
+  @override
+  String get discovery_source_query_required => '该来源只支持关键词搜索';
+  @override
+  String get manga_discovery_sources_browse => '浏览来源';
+  @override
+  String get discovery_kind_manga => '漫画';
+  @override
+  String get game_capture_workbench_tab => '工作台';
+  @override
+  String get video_builtin_sources_title => '内置来源';
+  @override
+  String get video_resource_no_provider_title => '未配置资源索引器';
+  @override
+  String get video_subtitle_no_provider_title => '未配置字幕来源';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      '请在 设置 → 下载 → 外部资源与字幕来源 中填写 Jimaku API key 或启用 OpenSubtitles。';
+  @override
+  String get anime_download_require_subs => '必须有字幕';
+  @override
+  String get video_jimaku_scope_hint => '为动漫与日语真人影视提供日语字幕。需要免费 API key。';
+  @override
+  String get video_builtin_apibay_hint => '电影与剧集。公共索引，无需账号。';
+  @override
+  String get video_builtin_knaben_hint => '电影与剧集。聚合多家公共索引器。';
+  @override
+  String get video_jimaku_enabled_hint => '关闭后即使已填 API key 也不再搜索 Jimaku。';
+  @override
+  String get discovery_sources_settings_title => '发现来源';
+  @override
+  String get discovery_sources_settings_hint =>
+      '哪些内置来源参与发现页「全部源」聚合搜索。在源下拉里显式单选某个源不受此处影响。';
+  @override
+  String get video_builtin_sources_hint =>
+      '随应用内置：无需账号，无需 API key。关闭后该来源不再参与资源搜索。';
+  @override
+  String get video_builtin_nyaa_hint => '仅动漫。电影与剧集由下面两个公共索引器覆盖。';
+  @override
+  String get video_resource_no_provider_hint =>
+      '本次搜索没有可用的来源。请到 设置 → 下载 → 外部资源与字幕来源 重新启用内置来源，或添加 Torznab 索引器。';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) => '覆盖：${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => '重新刮削此来源';
+  @override
+  String get video_source_scrape_run_detail_title => '刮削结果';
+  @override
+  String get video_source_scrape_run_no_issues => '本次刮削没有记录警告或错误。';
+  @override
+  String get video_source_scrape_manual_search_title => '手动指定作品';
+  @override
+  String get video_source_scrape_manual_search_hint => '按标题搜索资料源，然后选中正确的作品。';
+  @override
+  String get video_source_scrape_manual_search_action => '搜索';
+  @override
+  String get video_source_scrape_manual_search_empty => '没有搜索结果';
+  @override
+  String get profile_media_manga => '漫画';
+  @override
+  String get profile_media_game => '游戏';
+  @override
+  String get profile_media_browser => '浏览器';
+  @override
+  String get mihon_store_remove => '移除扩展仓库';
+  @override
+  String get video_import_folder_as_source_hint => '以后自动扫描此文件夹里的新视频';
+  @override
+  String get manga_import_folder_as_source_hint => '以后自动扫描此文件夹里的新漫画';
   @override
   String get download_no_managed_video_source =>
       '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
@@ -134679,8 +135929,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -135305,8 +136553,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -135519,14 +136765,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -135976,6 +137222,91 @@ class _StringsZhHk extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
   @override
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
@@ -142175,8 +143506,6 @@ extension on _StringsEn {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -142714,8 +144043,6 @@ extension on _StringsEn {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -142893,13 +144220,13 @@ extension on _StringsEn {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -143281,6 +144608,72 @@ extension on _StringsEn {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -149475,8 +150868,6 @@ extension on _StringsAr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -150014,8 +151405,6 @@ extension on _StringsAr {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -150195,13 +151584,13 @@ extension on _StringsAr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -150583,6 +151972,72 @@ extension on _StringsAr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -156799,8 +158254,6 @@ extension on _StringsDe {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -157338,8 +158791,6 @@ extension on _StringsDe {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -157519,13 +158970,13 @@ extension on _StringsDe {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -157907,6 +159358,72 @@ extension on _StringsDe {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -164122,8 +165639,6 @@ extension on _StringsEs {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -164661,8 +166176,6 @@ extension on _StringsEs {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -164842,13 +166355,13 @@ extension on _StringsEs {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -165230,6 +166743,72 @@ extension on _StringsEs {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -171451,8 +173030,6 @@ extension on _StringsFr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -171990,8 +173567,6 @@ extension on _StringsFr {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -172171,13 +173746,13 @@ extension on _StringsFr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -172559,6 +174134,72 @@ extension on _StringsFr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -178762,8 +180403,6 @@ extension on _StringsId {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -179301,8 +180940,6 @@ extension on _StringsId {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -179482,13 +181119,13 @@ extension on _StringsId {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -179870,6 +181507,72 @@ extension on _StringsId {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -186087,8 +187790,6 @@ extension on _StringsIt {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -186626,8 +188327,6 @@ extension on _StringsIt {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -186807,13 +188506,13 @@ extension on _StringsIt {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -187195,6 +188894,72 @@ extension on _StringsIt {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -193374,8 +195139,6 @@ extension on _StringsJa {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -193913,8 +195676,6 @@ extension on _StringsJa {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -194094,13 +195855,13 @@ extension on _StringsJa {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -194482,6 +196243,72 @@ extension on _StringsJa {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -200665,8 +202492,6 @@ extension on _StringsKo {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -201204,8 +203029,6 @@ extension on _StringsKo {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -201385,13 +203208,13 @@ extension on _StringsKo {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -201773,6 +203596,72 @@ extension on _StringsKo {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -207984,8 +209873,6 @@ extension on _StringsNl {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -208523,8 +210410,6 @@ extension on _StringsNl {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -208704,13 +210589,13 @@ extension on _StringsNl {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -209092,6 +210977,72 @@ extension on _StringsNl {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -215300,8 +217251,6 @@ extension on _StringsPtBr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -215839,8 +217788,6 @@ extension on _StringsPtBr {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -216020,13 +217967,13 @@ extension on _StringsPtBr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -216408,6 +218355,72 @@ extension on _StringsPtBr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -222621,8 +224634,6 @@ extension on _StringsRu {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -223160,8 +225171,6 @@ extension on _StringsRu {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -223341,13 +225350,13 @@ extension on _StringsRu {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -223729,6 +225738,72 @@ extension on _StringsRu {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -229925,8 +232000,6 @@ extension on _StringsTh {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -230464,8 +232537,6 @@ extension on _StringsTh {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -230645,13 +232716,13 @@ extension on _StringsTh {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -231033,6 +233104,72 @@ extension on _StringsTh {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -237238,8 +239375,6 @@ extension on _StringsTr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -237777,8 +239912,6 @@ extension on _StringsTr {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -237958,13 +240091,13 @@ extension on _StringsTr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -238346,6 +240479,72 @@ extension on _StringsTr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -244547,8 +246746,6 @@ extension on _StringsVi {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -245086,8 +247283,6 @@ extension on _StringsVi {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -245267,13 +247462,13 @@ extension on _StringsVi {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -245655,6 +247850,72 @@ extension on _StringsVi {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
@@ -251804,8 +254065,6 @@ extension on _StringsZhCn {
         return '加入漫画书架';
       case 'mihon_in_bookshelf':
         return '已加入漫画书架';
-      case 'media_source_local_roots':
-        return '本地扫描根';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             '将按标题匹配库中的 ${n} 个条目。只自动应用高置信度的匹配——视频按标题与年份、类型等信息综合打分，书籍和游戏则要求标题唯一且完全一致。你自己定的封面一律不覆盖（手动设置的本地图、在匹配弹窗里亲手选定的条目、目录里自带的 poster 图），歧义结果留待手动确认。';
@@ -252340,8 +254599,6 @@ extension on _StringsZhCn {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return '首选语言';
       case 'video_opensubtitles_languages_hint':
         return '用逗号分隔语言代码，例如 zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -252518,13 +254775,13 @@ extension on _StringsZhCn {
         return '快速导入';
       case 'media_source_section_title':
         return '常驻来源';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return '导入文件夹';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return '设为常驻来源';
       case 'book_import_folder_as_source_hint':
         return '以后自动扫描此文件夹里的新书';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return '仅导入这一次';
       case 'library_empty_go_import':
         return '去导入';
@@ -252905,6 +255162,72 @@ extension on _StringsZhCn {
         return '小说';
       case 'discovery_kind_audiobook':
         return '有声书';
+      case 'discovery_source_pick_hint':
+        return '选择来源浏览，或输入关键词搜索全部来源';
+      case 'discovery_source_query_required':
+        return '该来源只支持关键词搜索';
+      case 'manga_discovery_sources_browse':
+        return '浏览来源';
+      case 'discovery_kind_manga':
+        return '漫画';
+      case 'game_capture_workbench_tab':
+        return '工作台';
+      case 'video_builtin_sources_title':
+        return '内置来源';
+      case 'video_resource_no_provider_title':
+        return '未配置资源索引器';
+      case 'video_subtitle_no_provider_title':
+        return '未配置字幕来源';
+      case 'video_subtitle_no_provider_hint':
+        return '请在 设置 → 下载 → 外部资源与字幕来源 中填写 Jimaku API key 或启用 OpenSubtitles。';
+      case 'anime_download_require_subs':
+        return '必须有字幕';
+      case 'video_jimaku_scope_hint':
+        return '为动漫与日语真人影视提供日语字幕。需要免费 API key。';
+      case 'video_builtin_apibay_hint':
+        return '电影与剧集。公共索引，无需账号。';
+      case 'video_builtin_knaben_hint':
+        return '电影与剧集。聚合多家公共索引器。';
+      case 'video_jimaku_enabled_hint':
+        return '关闭后即使已填 API key 也不再搜索 Jimaku。';
+      case 'discovery_sources_settings_title':
+        return '发现来源';
+      case 'discovery_sources_settings_hint':
+        return '哪些内置来源参与发现页「全部源」聚合搜索。在源下拉里显式单选某个源不受此处影响。';
+      case 'video_builtin_sources_hint':
+        return '随应用内置：无需账号，无需 API key。关闭后该来源不再参与资源搜索。';
+      case 'video_builtin_nyaa_hint':
+        return '仅动漫。电影与剧集由下面两个公共索引器覆盖。';
+      case 'video_resource_no_provider_hint':
+        return '本次搜索没有可用的来源。请到 设置 → 下载 → 外部资源与字幕来源 重新启用内置来源，或添加 Torznab 索引器。';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => '覆盖：${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return '重新刮削此来源';
+      case 'video_source_scrape_run_detail_title':
+        return '刮削结果';
+      case 'video_source_scrape_run_no_issues':
+        return '本次刮削没有记录警告或错误。';
+      case 'video_source_scrape_manual_search_title':
+        return '手动指定作品';
+      case 'video_source_scrape_manual_search_hint':
+        return '按标题搜索资料源，然后选中正确的作品。';
+      case 'video_source_scrape_manual_search_action':
+        return '搜索';
+      case 'video_source_scrape_manual_search_empty':
+        return '没有搜索结果';
+      case 'profile_media_manga':
+        return '漫画';
+      case 'profile_media_game':
+        return '游戏';
+      case 'profile_media_browser':
+        return '浏览器';
+      case 'mihon_store_remove':
+        return '移除扩展仓库';
+      case 'video_import_folder_as_source_hint':
+        return '以后自动扫描此文件夹里的新视频';
+      case 'manga_import_folder_as_source_hint':
+        return '以后自动扫描此文件夹里的新漫画';
       case 'download_no_managed_video_source':
         return '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
       case 'download_add_video_source':
@@ -259079,8 +261402,6 @@ extension on _StringsZhHk {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -259618,8 +261939,6 @@ extension on _StringsZhHk {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -259799,13 +262118,13 @@ extension on _StringsZhHk {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -260187,6 +262506,72 @@ extension on _StringsZhHk {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
       case 'download_no_managed_video_source':
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
