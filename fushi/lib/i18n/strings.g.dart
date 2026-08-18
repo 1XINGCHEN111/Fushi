@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60435 (3555 per locale)
+/// Strings: 60554 (3562 per locale)
 ///
-/// Built on 2026-08-17 at 14:43 UTC
+/// Built on 2026-08-18 at 06:16 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4818,6 +4818,16 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get discovery_torrent_failed => 'Failed to add torrent task';
   String get discovery_kind_novel => 'Novels';
   String get discovery_kind_audiobook => 'Audiobooks';
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  String get video_source_scrape_manual_search_action => 'Search';
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -13041,6 +13051,23 @@ class _StringsAr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -21331,6 +21358,23 @@ class _StringsDe extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -29637,6 +29681,23 @@ class _StringsEs extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -37955,6 +38016,23 @@ class _StringsFr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -46201,6 +46279,23 @@ class _StringsId extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -54493,6 +54588,23 @@ class _StringsIt extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -62599,6 +62711,23 @@ class _StringsJa extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -70712,6 +70841,23 @@ class _StringsKo extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -78984,6 +79130,23 @@ class _StringsNl extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -87268,6 +87431,23 @@ class _StringsPtBr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -95538,6 +95718,23 @@ class _StringsRu extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -103756,6 +103953,23 @@ class _StringsTh extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -112005,6 +112219,23 @@ class _StringsTr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -120239,6 +120470,23 @@ class _StringsVi extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 // Path: <root>
@@ -127869,6 +128117,20 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_kind_novel => '小说';
   @override
   String get discovery_kind_audiobook => '有声书';
+  @override
+  String get video_source_scrape_rescrape_source => '重新刮削此来源';
+  @override
+  String get video_source_scrape_run_detail_title => '刮削结果';
+  @override
+  String get video_source_scrape_run_no_issues => '本次刮削没有记录警告或错误。';
+  @override
+  String get video_source_scrape_manual_search_title => '手动指定作品';
+  @override
+  String get video_source_scrape_manual_search_hint => '按标题搜索资料源，然后选中正确的作品。';
+  @override
+  String get video_source_scrape_manual_search_action => '搜索';
+  @override
+  String get video_source_scrape_manual_search_empty => '没有搜索结果';
 }
 
 // Path: <root>
@@ -135898,6 +136160,23 @@ class _StringsZhHk extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
 }
 
 /// Flat map(s) containing all translations.
@@ -143198,6 +143477,20 @@ extension on _StringsEn {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -150496,6 +150789,20 @@ extension on _StringsAr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -157816,6 +158123,20 @@ extension on _StringsDe {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -165135,6 +165456,20 @@ extension on _StringsEs {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -172460,6 +172795,20 @@ extension on _StringsFr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -179767,6 +180116,20 @@ extension on _StringsId {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -187088,6 +187451,20 @@ extension on _StringsIt {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -194371,6 +194748,20 @@ extension on _StringsJa {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -201658,6 +202049,20 @@ extension on _StringsKo {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -208973,6 +209378,20 @@ extension on _StringsNl {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -216285,6 +216704,20 @@ extension on _StringsPtBr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -223602,6 +224035,20 @@ extension on _StringsRu {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -230902,6 +231349,20 @@ extension on _StringsTh {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -238211,6 +238672,20 @@ extension on _StringsTr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -245516,6 +245991,20 @@ extension on _StringsVi {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
@@ -252762,6 +253251,20 @@ extension on _StringsZhCn {
         return '小说';
       case 'discovery_kind_audiobook':
         return '有声书';
+      case 'video_source_scrape_rescrape_source':
+        return '重新刮削此来源';
+      case 'video_source_scrape_run_detail_title':
+        return '刮削结果';
+      case 'video_source_scrape_run_no_issues':
+        return '本次刮削没有记录警告或错误。';
+      case 'video_source_scrape_manual_search_title':
+        return '手动指定作品';
+      case 'video_source_scrape_manual_search_hint':
+        return '按标题搜索资料源，然后选中正确的作品。';
+      case 'video_source_scrape_manual_search_action':
+        return '搜索';
+      case 'video_source_scrape_manual_search_empty':
+        return '没有搜索结果';
       default:
         return null;
     }
@@ -260040,6 +260543,20 @@ extension on _StringsZhHk {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
       default:
         return null;
     }
