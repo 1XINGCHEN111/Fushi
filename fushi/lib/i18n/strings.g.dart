@@ -1,7 +1,7 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60503 (3559 per locale)
+/// Strings: 60554 (3562 per locale)
 ///
 /// Built on 2026-08-18 at 13:00 UTC
 
@@ -4817,6 +4817,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get discovery_torrent_failed => 'Failed to add torrent task';
   String get discovery_kind_novel => 'Novels';
   String get discovery_kind_audiobook => 'Audiobooks';
+  String get profile_media_manga => 'Manga';
+  String get profile_media_game => 'Game';
+  String get profile_media_browser => 'Browser';
   String get mihon_store_remove => 'Remove extension store';
   String get video_import_folder_as_source_hint =>
       'Keep scanning this folder for new videos';
@@ -13046,6 +13049,12 @@ class _StringsAr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
   @override
   String get mihon_store_remove => 'Remove extension store';
   @override
@@ -21347,6 +21356,12 @@ class _StringsDe extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
   @override
   String get mihon_store_remove => 'Remove extension store';
   @override
@@ -29664,6 +29679,12 @@ class _StringsEs extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
   @override
   String get mihon_store_remove => 'Remove extension store';
   @override
@@ -37994,6 +38015,12 @@ class _StringsFr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
   String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
@@ -46250,6 +46277,12 @@ class _StringsId extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
   @override
   String get mihon_store_remove => 'Remove extension store';
   @override
@@ -54554,6 +54587,12 @@ class _StringsIt extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
   String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
@@ -62670,6 +62709,12 @@ class _StringsJa extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
   @override
   String get mihon_store_remove => 'Remove extension store';
   @override
@@ -70794,6 +70839,12 @@ class _StringsKo extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
   @override
   String get mihon_store_remove => 'Remove extension store';
   @override
@@ -79077,6 +79128,12 @@ class _StringsNl extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
   @override
   String get mihon_store_remove => 'Remove extension store';
   @override
@@ -87373,6 +87430,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
   String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
@@ -95654,6 +95717,12 @@ class _StringsRu extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
   String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
@@ -103882,6 +103951,12 @@ class _StringsTh extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
   @override
   String get mihon_store_remove => 'Remove extension store';
   @override
@@ -112143,6 +112218,12 @@ class _StringsTr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
   String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
@@ -120388,6 +120469,12 @@ class _StringsVi extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
   String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
@@ -128028,6 +128115,12 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_kind_novel => '小说';
   @override
   String get discovery_kind_audiobook => '有声书';
+  @override
+  String get profile_media_manga => '漫画';
+  @override
+  String get profile_media_game => '游戏';
+  @override
+  String get profile_media_browser => '浏览器';
   @override
   String get mihon_store_remove => '移除扩展仓库';
   @override
@@ -136067,6 +136160,12 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
   String get mihon_store_remove => 'Remove extension store';
   @override
   String get video_import_folder_as_source_hint =>
@@ -143377,6 +143476,12 @@ extension on _StringsEn {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -150683,6 +150788,12 @@ extension on _StringsAr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -158011,6 +158122,12 @@ extension on _StringsDe {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -165338,6 +165455,12 @@ extension on _StringsEs {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -172671,6 +172794,12 @@ extension on _StringsFr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -179986,6 +180115,12 @@ extension on _StringsId {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -187315,6 +187450,12 @@ extension on _StringsIt {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -194606,6 +194747,12 @@ extension on _StringsJa {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -201901,6 +202048,12 @@ extension on _StringsKo {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -209224,6 +209377,12 @@ extension on _StringsNl {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -216544,6 +216703,12 @@ extension on _StringsPtBr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -223869,6 +224034,12 @@ extension on _StringsRu {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -231177,6 +231348,12 @@ extension on _StringsTh {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -238494,6 +238671,12 @@ extension on _StringsTr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -245807,6 +245990,12 @@ extension on _StringsVi {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
@@ -253061,6 +253250,12 @@ extension on _StringsZhCn {
         return '小说';
       case 'discovery_kind_audiobook':
         return '有声书';
+      case 'profile_media_manga':
+        return '漫画';
+      case 'profile_media_game':
+        return '游戏';
+      case 'profile_media_browser':
+        return '浏览器';
       case 'mihon_store_remove':
         return '移除扩展仓库';
       case 'video_import_folder_as_source_hint':
@@ -260347,6 +260542,12 @@ extension on _StringsZhHk {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
       case 'mihon_store_remove':
         return 'Remove extension store';
       case 'video_import_folder_as_source_hint':
