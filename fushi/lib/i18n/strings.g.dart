@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60996 (3588 per locale)
+/// Strings: 60911 (3583 per locale)
 ///
-/// Built on 2026-08-18 at 13:05 UTC
+/// Built on 2026-08-18 at 16:04 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3376,8 +3376,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_subtitle_filter_all => 'All';
   String get video_subtitle_filter_favorites => 'Favorites';
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
-  String get video_subtitle_filter_selected => 'Selected';
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
   String get video_subtitle_graphic_hint =>
       'Graphic subtitle · shown on video · no word lookup';
   String video_subtitle_graphic_shown({required Object label}) =>
@@ -3387,16 +3385,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   String get video_subtitle_list => 'Subtitle list';
   String get video_subtitle_list_auto_scroll => 'Auto-scroll';
-  String get video_subtitle_list_clear_selection => 'Clear card selection';
   String get video_subtitle_list_empty => 'No subtitles loaded';
   String get video_subtitle_list_font_larger => 'Larger text';
   String get video_subtitle_list_font_smaller => 'Smaller text';
   String get video_subtitle_list_jump => 'Jump to this line';
   String get video_subtitle_list_loading => 'Loading subtitles...';
-  String get video_subtitle_list_remove_from_card =>
-      'Remove from card selection';
-  String get video_subtitle_list_select_for_card =>
-      'Select for card (merged into the sentence when mining)';
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
   String get video_subtitle_off => 'Turn off subtitles';
@@ -10628,10 +10621,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'المحددة';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'ترجمة رسومية · تُعرض على الفيديو · لا بحث للكلمات';
   @override
@@ -10648,8 +10637,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'تمرير تلقائي';
   @override
-  String get video_subtitle_list_clear_selection => 'مسح التحديد';
-  @override
   String get video_subtitle_list_empty => 'لم تُحمَّل أي ترجمة';
   @override
   String get video_subtitle_list_font_larger => 'نص أكبر';
@@ -10659,10 +10646,6 @@ class _StringsAr extends _StringsEn {
   String get video_subtitle_list_jump => 'الانتقال إلى هذا السطر';
   @override
   String get video_subtitle_list_loading => 'جارٍ تحميل الترجمات...';
-  @override
-  String get video_subtitle_list_remove_from_card => 'الإزالة من تحديد البطاقة';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'تعذّر تحميل هذه الترجمة (مسار رسومي أو غير مدعوم): ${label}';
@@ -19001,10 +18984,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'Ausgewählt';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'Grafikuntertitel · im Bild angezeigt · kein Nachschlagen';
   @override
@@ -19022,8 +19001,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'Automatisch scrollen';
   @override
-  String get video_subtitle_list_clear_selection => 'Kartenauswahl leeren';
-  @override
   String get video_subtitle_list_empty => 'Keine Untertitel geladen';
   @override
   String get video_subtitle_list_font_larger => 'Größerer Text';
@@ -19033,11 +19010,6 @@ class _StringsDe extends _StringsEn {
   String get video_subtitle_list_jump => 'Zu dieser Zeile springen';
   @override
   String get video_subtitle_list_loading => 'Untertitel werden geladen…';
-  @override
-  String get video_subtitle_list_remove_from_card =>
-      'Aus Kartenauswahl entfernen';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Dieser Untertitel konnte nicht geladen werden (Grafik- oder nicht unterstützte Spur): ${label}';
@@ -27390,10 +27362,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'Seleccionados';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'Subtítulo gráfico · se muestra en el vídeo · sin consulta de palabras';
   @override
@@ -27411,8 +27379,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'Desplazamiento automático';
   @override
-  String get video_subtitle_list_clear_selection => 'Borrar selección';
-  @override
   String get video_subtitle_list_empty => 'No hay subtítulos cargados';
   @override
   String get video_subtitle_list_font_larger => 'Texto más grande';
@@ -27422,11 +27388,6 @@ class _StringsEs extends _StringsEn {
   String get video_subtitle_list_jump => 'Saltar a esta línea';
   @override
   String get video_subtitle_list_loading => 'Cargando subtítulos...';
-  @override
-  String get video_subtitle_list_remove_from_card =>
-      'Quitar de la selección para tarjeta';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'No se pudo cargar este subtítulo (pista gráfica o no compatible): ${label}';
@@ -35794,10 +35755,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'Sélectionnés';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'Sous-titre graphique · affiché sur la vidéo · pas de recherche de mots';
   @override
@@ -35816,8 +35773,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'Défilement automatique';
   @override
-  String get video_subtitle_list_clear_selection => 'Vider la sélection';
-  @override
   String get video_subtitle_list_empty => 'Aucun sous-titre chargé';
   @override
   String get video_subtitle_list_font_larger => 'Texte plus grand';
@@ -35827,11 +35782,6 @@ class _StringsFr extends _StringsEn {
   String get video_subtitle_list_jump => 'Aller à cette ligne';
   @override
   String get video_subtitle_list_loading => 'Chargement des sous-titres...';
-  @override
-  String get video_subtitle_list_remove_from_card =>
-      'Retirer de la sélection pour carte';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Impossible de charger ce sous-titre (piste graphique ou non prise en charge) : ${label}';
@@ -44131,10 +44081,6 @@ class _StringsId extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'Terpilih';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'Subtitle grafis · ditampilkan di video · tanpa pencarian kata';
   @override
@@ -44152,8 +44098,6 @@ class _StringsId extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'Gulir otomatis';
   @override
-  String get video_subtitle_list_clear_selection => 'Kosongkan pilihan kartu';
-  @override
   String get video_subtitle_list_empty => 'Tidak ada subtitle yang dimuat';
   @override
   String get video_subtitle_list_font_larger => 'Teks lebih besar';
@@ -44163,10 +44107,6 @@ class _StringsId extends _StringsEn {
   String get video_subtitle_list_jump => 'Lompat ke baris ini';
   @override
   String get video_subtitle_list_loading => 'Memuat subtitle...';
-  @override
-  String get video_subtitle_list_remove_from_card => 'Hapus dari pilihan kartu';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Tidak bisa memuat subtitle ini (trek grafis atau tidak didukung): ${label}';
@@ -52505,10 +52445,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'Selezionati';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'Sottotitolo grafico · mostrato sul video · senza ricerca parole';
   @override
@@ -52527,8 +52463,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'Scorrimento automatico';
   @override
-  String get video_subtitle_list_clear_selection => 'Svuota la selezione';
-  @override
   String get video_subtitle_list_empty => 'Nessun sottotitolo caricato';
   @override
   String get video_subtitle_list_font_larger => 'Testo più grande';
@@ -52538,11 +52472,6 @@ class _StringsIt extends _StringsEn {
   String get video_subtitle_list_jump => 'Vai a questa riga';
   @override
   String get video_subtitle_list_loading => 'Caricamento sottotitoli...';
-  @override
-  String get video_subtitle_list_remove_from_card =>
-      'Rimuovi dalla selezione per la carta';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Impossibile caricare questo sottotitolo (traccia grafica o non supportata): ${label}';
@@ -60704,10 +60633,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => '選択済み';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint => '画像字幕 ・ 画面に表示 ・ 辞書引き不可';
   @override
   String video_subtitle_graphic_shown({required Object label}) =>
@@ -60723,8 +60648,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => '自動スクロール';
   @override
-  String get video_subtitle_list_clear_selection => '選択をクリア';
-  @override
   String get video_subtitle_list_empty => '字幕が読み込まれていません';
   @override
   String get video_subtitle_list_font_larger => '文字を大きく';
@@ -60734,10 +60657,6 @@ class _StringsJa extends _StringsEn {
   String get video_subtitle_list_jump => 'この文へジャンプ';
   @override
   String get video_subtitle_list_loading => '字幕を読み込み中…';
-  @override
-  String get video_subtitle_list_remove_from_card => 'カード作成の選択から外す';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'この字幕を読み込めませんでした（画像字幕または非対応のトラックの可能性があります）：${label}';
@@ -68903,10 +68822,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => '선택됨';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint => '그래픽 자막 · 화면에 표시 · 단어 찾기 불가';
   @override
   String video_subtitle_graphic_shown({required Object label}) =>
@@ -68922,8 +68837,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => '자동 스크롤';
   @override
-  String get video_subtitle_list_clear_selection => '선택 비우기';
-  @override
   String get video_subtitle_list_empty => '불러온 자막 없음';
   @override
   String get video_subtitle_list_font_larger => '글자 크게';
@@ -68933,10 +68846,6 @@ class _StringsKo extends _StringsEn {
   String get video_subtitle_list_jump => '이 줄로 이동';
   @override
   String get video_subtitle_list_loading => '자막을 불러오는 중…';
-  @override
-  String get video_subtitle_list_remove_from_card => '카드 선택에서 제거';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       '이 자막을 불러올 수 없습니다(그래픽 자막이거나 지원되지 않는 트랙): ${label}';
@@ -77256,10 +77165,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'Geselecteerd';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'Grafische ondertitel · op video getoond · niet op te zoeken';
   @override
@@ -77277,8 +77182,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'Automatisch scrollen';
   @override
-  String get video_subtitle_list_clear_selection => 'Kaartselectie wissen';
-  @override
   String get video_subtitle_list_empty => 'Geen ondertitels geladen';
   @override
   String get video_subtitle_list_font_larger => 'Grotere tekst';
@@ -77288,11 +77191,6 @@ class _StringsNl extends _StringsEn {
   String get video_subtitle_list_jump => 'Naar deze regel springen';
   @override
   String get video_subtitle_list_loading => 'Ondertitels laden...';
-  @override
-  String get video_subtitle_list_remove_from_card =>
-      'Uit kaartselectie verwijderen';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Kan deze ondertitel niet laden (grafisch of niet-ondersteund spoor): ${label}';
@@ -85625,10 +85523,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'Selecionadas';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'Legenda gráfica · exibida no vídeo · sem consulta de palavras';
   @override
@@ -85646,8 +85540,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'Rolagem automática';
   @override
-  String get video_subtitle_list_clear_selection => 'Limpar seleção';
-  @override
   String get video_subtitle_list_empty => 'Nenhuma legenda carregada';
   @override
   String get video_subtitle_list_font_larger => 'Texto maior';
@@ -85657,11 +85549,6 @@ class _StringsPtBr extends _StringsEn {
   String get video_subtitle_list_jump => 'Ir para esta linha';
   @override
   String get video_subtitle_list_loading => 'Carregando legendas...';
-  @override
-  String get video_subtitle_list_remove_from_card =>
-      'Remover da seleção do cartão';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Não foi possível carregar esta legenda (faixa gráfica ou não suportada): ${label}';
@@ -93981,10 +93868,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'Выбранные';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'Графические субтитры · показ на видео · без поиска слов';
   @override
@@ -94003,8 +93886,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'Автопрокрутка';
   @override
-  String get video_subtitle_list_clear_selection => 'Очистить выбор';
-  @override
   String get video_subtitle_list_empty => 'Субтитры не загружены';
   @override
   String get video_subtitle_list_font_larger => 'Крупнее текст';
@@ -94014,11 +93895,6 @@ class _StringsRu extends _StringsEn {
   String get video_subtitle_list_jump => 'Перейти к этой строке';
   @override
   String get video_subtitle_list_loading => 'Загрузка субтитров...';
-  @override
-  String get video_subtitle_list_remove_from_card =>
-      'Убрать из выбора для карточки';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Не удалось загрузить эти субтитры (графическая или неподдерживаемая дорожка): ${label}';
@@ -102288,10 +102164,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'ที่เลือก';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'คำบรรยายแบบกราฟิก · แสดงบนภาพ · ค้นคำไม่ได้';
   @override
@@ -102308,8 +102180,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'เลื่อนอัตโนมัติ';
   @override
-  String get video_subtitle_list_clear_selection => 'ล้างการเลือก';
-  @override
   String get video_subtitle_list_empty => 'ยังไม่ได้โหลดคำบรรยาย';
   @override
   String get video_subtitle_list_font_larger => 'ตัวอักษรใหญ่ขึ้น';
@@ -102319,11 +102189,6 @@ class _StringsTh extends _StringsEn {
   String get video_subtitle_list_jump => 'ข้ามไปประโยคนี้';
   @override
   String get video_subtitle_list_loading => 'กำลังโหลดคำบรรยาย...';
-  @override
-  String get video_subtitle_list_remove_from_card =>
-      'นำออกจากการเลือกสร้างการ์ด';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'โหลดคำบรรยายนี้ไม่ได้ (อาจเป็นแบบกราฟิกหรือแทร็กที่ไม่รองรับ): ${label}';
@@ -110622,10 +110487,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'Seçili';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'Grafik altyazı · videoda gösterilir · sözcük araması yok';
   @override
@@ -110643,8 +110504,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'Otomatik kaydır';
   @override
-  String get video_subtitle_list_clear_selection => 'Kart seçimini temizle';
-  @override
   String get video_subtitle_list_empty => 'Yüklü altyazı yok';
   @override
   String get video_subtitle_list_font_larger => 'Daha büyük yazı';
@@ -110654,10 +110513,6 @@ class _StringsTr extends _StringsEn {
   String get video_subtitle_list_jump => 'Bu satıra atla';
   @override
   String get video_subtitle_list_loading => 'Altyazılar yükleniyor...';
-  @override
-  String get video_subtitle_list_remove_from_card => 'Kart seçiminden çıkar';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Bu altyazı yüklenemedi (grafik veya desteklenmeyen iz): ${label}';
@@ -118943,10 +118798,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => 'Đã chọn';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint =>
       'Phụ đề đồ họa · hiển thị trên hình · không tra từ';
   @override
@@ -118964,8 +118815,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => 'Tự cuộn';
   @override
-  String get video_subtitle_list_clear_selection => 'Xóa lựa chọn';
-  @override
   String get video_subtitle_list_empty => 'Chưa tải phụ đề';
   @override
   String get video_subtitle_list_font_larger => 'Phóng to chữ';
@@ -118975,10 +118824,6 @@ class _StringsVi extends _StringsEn {
   String get video_subtitle_list_jump => 'Nhảy đến câu này';
   @override
   String get video_subtitle_list_loading => 'Đang tải phụ đề…';
-  @override
-  String get video_subtitle_list_remove_from_card => 'Bỏ khỏi lựa chọn tạo thẻ';
-  @override
-  String get video_subtitle_list_select_for_card => 'Select for card';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Không tải được phụ đề này (bản dạng đồ họa hoặc không hỗ trợ): ${label}';
@@ -126868,10 +126713,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => '暂无收藏的句子';
   @override
-  String get video_subtitle_filter_selected => '已选';
-  @override
-  String get video_subtitle_filter_selected_empty => '还未选择句子';
-  @override
   String get video_subtitle_graphic_hint => '图形字幕 · 画面显示 · 不可查词';
   @override
   String video_subtitle_graphic_shown({required Object label}) =>
@@ -126887,8 +126728,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => '自动滚动';
   @override
-  String get video_subtitle_list_clear_selection => '清空选择';
-  @override
   String get video_subtitle_list_empty => '未加载字幕';
   @override
   String get video_subtitle_list_font_larger => '放大字号';
@@ -126898,10 +126737,6 @@ class _StringsZhCn extends _StringsEn {
   String get video_subtitle_list_jump => '跳到此句';
   @override
   String get video_subtitle_list_loading => '正在加载字幕…';
-  @override
-  String get video_subtitle_list_remove_from_card => '从词卡选择中移除';
-  @override
-  String get video_subtitle_list_select_for_card => '选入词卡（制卡时合并为例句）';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       '无法加载该字幕（可能是图形或不支持的字幕轨）：${label}';
@@ -134763,10 +134598,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_subtitle_filter_favorites_empty => 'No favorited lines yet';
   @override
-  String get video_subtitle_filter_selected => '已選';
-  @override
-  String get video_subtitle_filter_selected_empty => 'No lines selected yet';
-  @override
   String get video_subtitle_graphic_hint => '圖形字幕 · 畫面顯示 · 不可查詞';
   @override
   String video_subtitle_graphic_shown({required Object label}) =>
@@ -134782,8 +134613,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_subtitle_list_auto_scroll => '自動捲動';
   @override
-  String get video_subtitle_list_clear_selection => '清空選擇';
-  @override
   String get video_subtitle_list_empty => '未載入字幕';
   @override
   String get video_subtitle_list_font_larger => '放大字型';
@@ -134793,10 +134622,6 @@ class _StringsZhHk extends _StringsEn {
   String get video_subtitle_list_jump => '跳到此句';
   @override
   String get video_subtitle_list_loading => '正在載入字幕…';
-  @override
-  String get video_subtitle_list_remove_from_card => '從詞卡選擇中移除';
-  @override
-  String get video_subtitle_list_select_for_card => '選入詞卡（製卡時合併為例句）';
   @override
   String video_subtitle_load_failed({required Object label}) =>
       '無法載入此字幕（可能是圖形或不支援的字幕軌）：${label}';
@@ -142479,10 +142304,6 @@ extension on _StringsEn {
         return 'Favorites';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'Selected';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'Graphic subtitle · shown on video · no word lookup';
       case 'video_subtitle_graphic_shown':
@@ -142498,8 +142319,6 @@ extension on _StringsEn {
         return 'Subtitle list';
       case 'video_subtitle_list_auto_scroll':
         return 'Auto-scroll';
-      case 'video_subtitle_list_clear_selection':
-        return 'Clear card selection';
       case 'video_subtitle_list_empty':
         return 'No subtitles loaded';
       case 'video_subtitle_list_font_larger':
@@ -142510,10 +142329,6 @@ extension on _StringsEn {
         return 'Jump to this line';
       case 'video_subtitle_list_loading':
         return 'Loading subtitles...';
-      case 'video_subtitle_list_remove_from_card':
-        return 'Remove from card selection';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card (merged into the sentence when mining)';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
@@ -149843,10 +149658,6 @@ extension on _StringsAr {
         return 'المفضلة';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'المحددة';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'ترجمة رسومية · تُعرض على الفيديو · لا بحث للكلمات';
       case 'video_subtitle_graphic_shown':
@@ -149862,8 +149673,6 @@ extension on _StringsAr {
         return 'قائمة الترجمة';
       case 'video_subtitle_list_auto_scroll':
         return 'تمرير تلقائي';
-      case 'video_subtitle_list_clear_selection':
-        return 'مسح التحديد';
       case 'video_subtitle_list_empty':
         return 'لم تُحمَّل أي ترجمة';
       case 'video_subtitle_list_font_larger':
@@ -149874,10 +149683,6 @@ extension on _StringsAr {
         return 'الانتقال إلى هذا السطر';
       case 'video_subtitle_list_loading':
         return 'جارٍ تحميل الترجمات...';
-      case 'video_subtitle_list_remove_from_card':
-        return 'الإزالة من تحديد البطاقة';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'تعذّر تحميل هذه الترجمة (مسار رسومي أو غير مدعوم): ${label}';
@@ -157229,10 +157034,6 @@ extension on _StringsDe {
         return 'Favoriten';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'Ausgewählt';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'Grafikuntertitel · im Bild angezeigt · kein Nachschlagen';
       case 'video_subtitle_graphic_shown':
@@ -157248,8 +157049,6 @@ extension on _StringsDe {
         return 'Untertitelliste';
       case 'video_subtitle_list_auto_scroll':
         return 'Automatisch scrollen';
-      case 'video_subtitle_list_clear_selection':
-        return 'Kartenauswahl leeren';
       case 'video_subtitle_list_empty':
         return 'Keine Untertitel geladen';
       case 'video_subtitle_list_font_larger':
@@ -157260,10 +157059,6 @@ extension on _StringsDe {
         return 'Zu dieser Zeile springen';
       case 'video_subtitle_list_loading':
         return 'Untertitel werden geladen…';
-      case 'video_subtitle_list_remove_from_card':
-        return 'Aus Kartenauswahl entfernen';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Dieser Untertitel konnte nicht geladen werden (Grafik- oder nicht unterstützte Spur): ${label}';
@@ -164614,10 +164409,6 @@ extension on _StringsEs {
         return 'Favoritos';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'Seleccionados';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'Subtítulo gráfico · se muestra en el vídeo · sin consulta de palabras';
       case 'video_subtitle_graphic_shown':
@@ -164633,8 +164424,6 @@ extension on _StringsEs {
         return 'Lista de subtítulos';
       case 'video_subtitle_list_auto_scroll':
         return 'Desplazamiento automático';
-      case 'video_subtitle_list_clear_selection':
-        return 'Borrar selección';
       case 'video_subtitle_list_empty':
         return 'No hay subtítulos cargados';
       case 'video_subtitle_list_font_larger':
@@ -164645,10 +164434,6 @@ extension on _StringsEs {
         return 'Saltar a esta línea';
       case 'video_subtitle_list_loading':
         return 'Cargando subtítulos...';
-      case 'video_subtitle_list_remove_from_card':
-        return 'Quitar de la selección para tarjeta';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'No se pudo cargar este subtítulo (pista gráfica o no compatible): ${label}';
@@ -172005,10 +171790,6 @@ extension on _StringsFr {
         return 'Favoris';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'Sélectionnés';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'Sous-titre graphique · affiché sur la vidéo · pas de recherche de mots';
       case 'video_subtitle_graphic_shown':
@@ -172024,8 +171805,6 @@ extension on _StringsFr {
         return 'Liste des sous-titres';
       case 'video_subtitle_list_auto_scroll':
         return 'Défilement automatique';
-      case 'video_subtitle_list_clear_selection':
-        return 'Vider la sélection';
       case 'video_subtitle_list_empty':
         return 'Aucun sous-titre chargé';
       case 'video_subtitle_list_font_larger':
@@ -172036,10 +171815,6 @@ extension on _StringsFr {
         return 'Aller à cette ligne';
       case 'video_subtitle_list_loading':
         return 'Chargement des sous-titres...';
-      case 'video_subtitle_list_remove_from_card':
-        return 'Retirer de la sélection pour carte';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Impossible de charger ce sous-titre (piste graphique ou non prise en charge) : ${label}';
@@ -179378,10 +179153,6 @@ extension on _StringsId {
         return 'Favorit';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'Terpilih';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'Subtitle grafis · ditampilkan di video · tanpa pencarian kata';
       case 'video_subtitle_graphic_shown':
@@ -179397,8 +179168,6 @@ extension on _StringsId {
         return 'Daftar subtitle';
       case 'video_subtitle_list_auto_scroll':
         return 'Gulir otomatis';
-      case 'video_subtitle_list_clear_selection':
-        return 'Kosongkan pilihan kartu';
       case 'video_subtitle_list_empty':
         return 'Tidak ada subtitle yang dimuat';
       case 'video_subtitle_list_font_larger':
@@ -179409,10 +179178,6 @@ extension on _StringsId {
         return 'Lompat ke baris ini';
       case 'video_subtitle_list_loading':
         return 'Memuat subtitle...';
-      case 'video_subtitle_list_remove_from_card':
-        return 'Hapus dari pilihan kartu';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Tidak bisa memuat subtitle ini (trek grafis atau tidak didukung): ${label}';
@@ -186765,10 +186530,6 @@ extension on _StringsIt {
         return 'Preferiti';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'Selezionati';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'Sottotitolo grafico · mostrato sul video · senza ricerca parole';
       case 'video_subtitle_graphic_shown':
@@ -186784,8 +186545,6 @@ extension on _StringsIt {
         return 'Elenco sottotitoli';
       case 'video_subtitle_list_auto_scroll':
         return 'Scorrimento automatico';
-      case 'video_subtitle_list_clear_selection':
-        return 'Svuota la selezione';
       case 'video_subtitle_list_empty':
         return 'Nessun sottotitolo caricato';
       case 'video_subtitle_list_font_larger':
@@ -186796,10 +186555,6 @@ extension on _StringsIt {
         return 'Vai a questa riga';
       case 'video_subtitle_list_loading':
         return 'Caricamento sottotitoli...';
-      case 'video_subtitle_list_remove_from_card':
-        return 'Rimuovi dalla selezione per la carta';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Impossibile caricare questo sottotitolo (traccia grafica o non supportata): ${label}';
@@ -194115,10 +193870,6 @@ extension on _StringsJa {
         return 'お気に入り';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return '選択済み';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return '画像字幕 ・ 画面に表示 ・ 辞書引き不可';
       case 'video_subtitle_graphic_shown':
@@ -194133,8 +193884,6 @@ extension on _StringsJa {
         return '字幕リスト';
       case 'video_subtitle_list_auto_scroll':
         return '自動スクロール';
-      case 'video_subtitle_list_clear_selection':
-        return '選択をクリア';
       case 'video_subtitle_list_empty':
         return '字幕が読み込まれていません';
       case 'video_subtitle_list_font_larger':
@@ -194145,10 +193894,6 @@ extension on _StringsJa {
         return 'この文へジャンプ';
       case 'video_subtitle_list_loading':
         return '字幕を読み込み中…';
-      case 'video_subtitle_list_remove_from_card':
-        return 'カード作成の選択から外す';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'この字幕を読み込めませんでした（画像字幕または非対応のトラックの可能性があります）：${label}';
@@ -201467,10 +201212,6 @@ extension on _StringsKo {
         return '즐겨찾기';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return '선택됨';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return '그래픽 자막 · 화면에 표시 · 단어 찾기 불가';
       case 'video_subtitle_graphic_shown':
@@ -201486,8 +201227,6 @@ extension on _StringsKo {
         return '자막 목록';
       case 'video_subtitle_list_auto_scroll':
         return '자동 스크롤';
-      case 'video_subtitle_list_clear_selection':
-        return '선택 비우기';
       case 'video_subtitle_list_empty':
         return '불러온 자막 없음';
       case 'video_subtitle_list_font_larger':
@@ -201498,10 +201237,6 @@ extension on _StringsKo {
         return '이 줄로 이동';
       case 'video_subtitle_list_loading':
         return '자막을 불러오는 중…';
-      case 'video_subtitle_list_remove_from_card':
-        return '카드 선택에서 제거';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             '이 자막을 불러올 수 없습니다(그래픽 자막이거나 지원되지 않는 트랙): ${label}';
@@ -208848,10 +208583,6 @@ extension on _StringsNl {
         return 'Favorieten';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'Geselecteerd';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'Grafische ondertitel · op video getoond · niet op te zoeken';
       case 'video_subtitle_graphic_shown':
@@ -208867,8 +208598,6 @@ extension on _StringsNl {
         return 'Ondertitellijst';
       case 'video_subtitle_list_auto_scroll':
         return 'Automatisch scrollen';
-      case 'video_subtitle_list_clear_selection':
-        return 'Kaartselectie wissen';
       case 'video_subtitle_list_empty':
         return 'Geen ondertitels geladen';
       case 'video_subtitle_list_font_larger':
@@ -208879,10 +208608,6 @@ extension on _StringsNl {
         return 'Naar deze regel springen';
       case 'video_subtitle_list_loading':
         return 'Ondertitels laden...';
-      case 'video_subtitle_list_remove_from_card':
-        return 'Uit kaartselectie verwijderen';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Kan deze ondertitel niet laden (grafisch of niet-ondersteund spoor): ${label}';
@@ -216226,10 +215951,6 @@ extension on _StringsPtBr {
         return 'Favoritas';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'Selecionadas';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'Legenda gráfica · exibida no vídeo · sem consulta de palavras';
       case 'video_subtitle_graphic_shown':
@@ -216245,8 +215966,6 @@ extension on _StringsPtBr {
         return 'Lista de legendas';
       case 'video_subtitle_list_auto_scroll':
         return 'Rolagem automática';
-      case 'video_subtitle_list_clear_selection':
-        return 'Limpar seleção';
       case 'video_subtitle_list_empty':
         return 'Nenhuma legenda carregada';
       case 'video_subtitle_list_font_larger':
@@ -216257,10 +215976,6 @@ extension on _StringsPtBr {
         return 'Ir para esta linha';
       case 'video_subtitle_list_loading':
         return 'Carregando legendas...';
-      case 'video_subtitle_list_remove_from_card':
-        return 'Remover da seleção do cartão';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Não foi possível carregar esta legenda (faixa gráfica ou não suportada): ${label}';
@@ -223609,10 +223324,6 @@ extension on _StringsRu {
         return 'Избранные';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'Выбранные';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'Графические субтитры · показ на видео · без поиска слов';
       case 'video_subtitle_graphic_shown':
@@ -223628,8 +223339,6 @@ extension on _StringsRu {
         return 'Список субтитров';
       case 'video_subtitle_list_auto_scroll':
         return 'Автопрокрутка';
-      case 'video_subtitle_list_clear_selection':
-        return 'Очистить выбор';
       case 'video_subtitle_list_empty':
         return 'Субтитры не загружены';
       case 'video_subtitle_list_font_larger':
@@ -223640,10 +223349,6 @@ extension on _StringsRu {
         return 'Перейти к этой строке';
       case 'video_subtitle_list_loading':
         return 'Загрузка субтитров...';
-      case 'video_subtitle_list_remove_from_card':
-        return 'Убрать из выбора для карточки';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Не удалось загрузить эти субтитры (графическая или неподдерживаемая дорожка): ${label}';
@@ -230975,10 +230680,6 @@ extension on _StringsTh {
         return 'รายการโปรด';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'ที่เลือก';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'คำบรรยายแบบกราฟิก · แสดงบนภาพ · ค้นคำไม่ได้';
       case 'video_subtitle_graphic_shown':
@@ -230994,8 +230695,6 @@ extension on _StringsTh {
         return 'รายการคำบรรยาย';
       case 'video_subtitle_list_auto_scroll':
         return 'เลื่อนอัตโนมัติ';
-      case 'video_subtitle_list_clear_selection':
-        return 'ล้างการเลือก';
       case 'video_subtitle_list_empty':
         return 'ยังไม่ได้โหลดคำบรรยาย';
       case 'video_subtitle_list_font_larger':
@@ -231006,10 +230705,6 @@ extension on _StringsTh {
         return 'ข้ามไปประโยคนี้';
       case 'video_subtitle_list_loading':
         return 'กำลังโหลดคำบรรยาย...';
-      case 'video_subtitle_list_remove_from_card':
-        return 'นำออกจากการเลือกสร้างการ์ด';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'โหลดคำบรรยายนี้ไม่ได้ (อาจเป็นแบบกราฟิกหรือแทร็กที่ไม่รองรับ): ${label}';
@@ -238350,10 +238045,6 @@ extension on _StringsTr {
         return 'Sık kullanılanlar';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'Seçili';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'Grafik altyazı · videoda gösterilir · sözcük araması yok';
       case 'video_subtitle_graphic_shown':
@@ -238369,8 +238060,6 @@ extension on _StringsTr {
         return 'Altyazı listesi';
       case 'video_subtitle_list_auto_scroll':
         return 'Otomatik kaydır';
-      case 'video_subtitle_list_clear_selection':
-        return 'Kart seçimini temizle';
       case 'video_subtitle_list_empty':
         return 'Yüklü altyazı yok';
       case 'video_subtitle_list_font_larger':
@@ -238381,10 +238070,6 @@ extension on _StringsTr {
         return 'Bu satıra atla';
       case 'video_subtitle_list_loading':
         return 'Altyazılar yükleniyor...';
-      case 'video_subtitle_list_remove_from_card':
-        return 'Kart seçiminden çıkar';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Bu altyazı yüklenemedi (grafik veya desteklenmeyen iz): ${label}';
@@ -245721,10 +245406,6 @@ extension on _StringsVi {
         return 'Yêu thích';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return 'Đã chọn';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return 'Phụ đề đồ họa · hiển thị trên hình · không tra từ';
       case 'video_subtitle_graphic_shown':
@@ -245740,8 +245421,6 @@ extension on _StringsVi {
         return 'Danh sách phụ đề';
       case 'video_subtitle_list_auto_scroll':
         return 'Tự cuộn';
-      case 'video_subtitle_list_clear_selection':
-        return 'Xóa lựa chọn';
       case 'video_subtitle_list_empty':
         return 'Chưa tải phụ đề';
       case 'video_subtitle_list_font_larger':
@@ -245752,10 +245431,6 @@ extension on _StringsVi {
         return 'Nhảy đến câu này';
       case 'video_subtitle_list_loading':
         return 'Đang tải phụ đề…';
-      case 'video_subtitle_list_remove_from_card':
-        return 'Bỏ khỏi lựa chọn tạo thẻ';
-      case 'video_subtitle_list_select_for_card':
-        return 'Select for card';
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Không tải được phụ đề này (bản dạng đồ họa hoặc không hỗ trợ): ${label}';
@@ -253049,10 +252724,6 @@ extension on _StringsZhCn {
         return '收藏';
       case 'video_subtitle_filter_favorites_empty':
         return '暂无收藏的句子';
-      case 'video_subtitle_filter_selected':
-        return '已选';
-      case 'video_subtitle_filter_selected_empty':
-        return '还未选择句子';
       case 'video_subtitle_graphic_hint':
         return '图形字幕 · 画面显示 · 不可查词';
       case 'video_subtitle_graphic_shown':
@@ -253067,8 +252738,6 @@ extension on _StringsZhCn {
         return '字幕列表';
       case 'video_subtitle_list_auto_scroll':
         return '自动滚动';
-      case 'video_subtitle_list_clear_selection':
-        return '清空选择';
       case 'video_subtitle_list_empty':
         return '未加载字幕';
       case 'video_subtitle_list_font_larger':
@@ -253079,10 +252748,6 @@ extension on _StringsZhCn {
         return '跳到此句';
       case 'video_subtitle_list_loading':
         return '正在加载字幕…';
-      case 'video_subtitle_list_remove_from_card':
-        return '从词卡选择中移除';
-      case 'video_subtitle_list_select_for_card':
-        return '选入词卡（制卡时合并为例句）';
       case 'video_subtitle_load_failed':
         return ({required Object label}) => '无法加载该字幕（可能是图形或不支持的字幕轨）：${label}';
       case 'video_subtitle_off':
@@ -260379,10 +260044,6 @@ extension on _StringsZhHk {
         return '收藏';
       case 'video_subtitle_filter_favorites_empty':
         return 'No favorited lines yet';
-      case 'video_subtitle_filter_selected':
-        return '已選';
-      case 'video_subtitle_filter_selected_empty':
-        return 'No lines selected yet';
       case 'video_subtitle_graphic_hint':
         return '圖形字幕 · 畫面顯示 · 不可查詞';
       case 'video_subtitle_graphic_shown':
@@ -260397,8 +260058,6 @@ extension on _StringsZhHk {
         return '字幕列表';
       case 'video_subtitle_list_auto_scroll':
         return '自動捲動';
-      case 'video_subtitle_list_clear_selection':
-        return '清空選擇';
       case 'video_subtitle_list_empty':
         return '未載入字幕';
       case 'video_subtitle_list_font_larger':
@@ -260409,10 +260068,6 @@ extension on _StringsZhHk {
         return '跳到此句';
       case 'video_subtitle_list_loading':
         return '正在載入字幕…';
-      case 'video_subtitle_list_remove_from_card':
-        return '從詞卡選擇中移除';
-      case 'video_subtitle_list_select_for_card':
-        return '選入詞卡（製卡時合併為例句）';
       case 'video_subtitle_load_failed':
         return ({required Object label}) => '無法載入此字幕（可能是圖形或不支援的字幕軌）：${label}';
       case 'video_subtitle_off':
