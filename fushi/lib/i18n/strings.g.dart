@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60673 (3569 per locale)
+/// Strings: 60911 (3583 per locale)
 ///
-/// Built on 2026-08-18 at 13:01 UTC
+/// Built on 2026-08-18 at 13:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4425,7 +4425,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   String get video_opensubtitles_user_agent => 'User-Agent';
-  String get video_opensubtitles_languages => 'Preferred languages';
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   String get video_download_path_mappings_title => 'qBittorrent path mappings';
@@ -4817,6 +4816,33 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get discovery_torrent_failed => 'Failed to add torrent task';
   String get discovery_kind_novel => 'Novels';
   String get discovery_kind_audiobook => 'Audiobooks';
+  String get video_builtin_sources_title => 'Built-in sources';
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  String get anime_download_require_subs => 'Subtitles required';
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  String get discovery_sources_settings_title => 'Discovery sources';
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   String get video_source_scrape_run_detail_title => 'Scrape result';
   String get video_source_scrape_run_no_issues =>
@@ -12388,8 +12414,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -13059,6 +13083,48 @@ class _StringsAr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -20712,8 +20778,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -21383,6 +21447,48 @@ class _StringsDe extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -29052,8 +29158,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -29723,6 +29827,48 @@ class _StringsEs extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -37404,8 +37550,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -38075,6 +38219,48 @@ class _StringsFr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -45684,8 +45870,6 @@ class _StringsId extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -46355,6 +46539,48 @@ class _StringsId extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -54010,8 +54236,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -54681,6 +54905,48 @@ class _StringsIt extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -62150,8 +62416,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -62821,6 +63085,48 @@ class _StringsJa extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -70297,8 +70603,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -70968,6 +71272,48 @@ class _StringsKo extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -78603,8 +78949,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -79274,6 +79618,48 @@ class _StringsNl extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -86921,8 +87307,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -87592,6 +87976,48 @@ class _StringsPtBr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -95225,8 +95651,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -95896,6 +96320,48 @@ class _StringsRu extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -103477,8 +103943,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -104148,6 +104612,48 @@ class _StringsTh extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -111760,8 +112266,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -112431,6 +112935,48 @@ class _StringsTr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -120028,8 +120574,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -120699,6 +121243,48 @@ class _StringsVi extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -127760,8 +128346,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => '首选语言';
-  @override
   String get video_opensubtitles_languages_hint => '用逗号分隔语言代码，例如 zh-CN,en,ja';
   @override
   String get video_download_path_mappings_title => 'qBittorrent 路径映射';
@@ -128363,6 +128947,40 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_kind_novel => '小说';
   @override
   String get discovery_kind_audiobook => '有声书';
+  @override
+  String get video_builtin_sources_title => '内置来源';
+  @override
+  String get video_resource_no_provider_title => '未配置资源索引器';
+  @override
+  String get video_subtitle_no_provider_title => '未配置字幕来源';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      '请在 设置 → 下载 → 外部资源与字幕来源 中填写 Jimaku API key 或启用 OpenSubtitles。';
+  @override
+  String get anime_download_require_subs => '必须有字幕';
+  @override
+  String get video_jimaku_scope_hint => '为动漫与日语真人影视提供日语字幕。需要免费 API key。';
+  @override
+  String get video_builtin_apibay_hint => '电影与剧集。公共索引，无需账号。';
+  @override
+  String get video_builtin_knaben_hint => '电影与剧集。聚合多家公共索引器。';
+  @override
+  String get video_jimaku_enabled_hint => '关闭后即使已填 API key 也不再搜索 Jimaku。';
+  @override
+  String get discovery_sources_settings_title => '发现来源';
+  @override
+  String get discovery_sources_settings_hint =>
+      '哪些内置来源参与发现页「全部源」聚合搜索。在源下拉里显式单选某个源不受此处影响。';
+  @override
+  String get video_builtin_sources_hint =>
+      '随应用内置：无需账号，无需 API key。关闭后该来源不再参与资源搜索。';
+  @override
+  String get video_builtin_nyaa_hint => '仅动漫。电影与剧集由下面两个公共索引器覆盖。';
+  @override
+  String get video_resource_no_provider_hint =>
+      '本次搜索没有可用的来源。请到 设置 → 下载 → 外部资源与字幕来源 重新启用内置来源，或添加 Torznab 索引器。';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) => '覆盖：${kinds}';
   @override
   String get video_source_scrape_rescrape_source => '重新刮削此来源';
   @override
@@ -135750,8 +136368,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_opensubtitles_user_agent => 'User-Agent';
   @override
-  String get video_opensubtitles_languages => 'Preferred languages';
-  @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   @override
@@ -136421,6 +137037,48 @@ class _StringsZhHk extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
   @override
   String get video_source_scrape_rescrape_source => 'Rescrape this source';
   @override
@@ -143188,8 +143846,6 @@ extension on _StringsEn {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -143755,6 +144411,36 @@ extension on _StringsEn {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -150512,8 +151198,6 @@ extension on _StringsAr {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -151081,6 +151765,36 @@ extension on _StringsAr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -157860,8 +158574,6 @@ extension on _StringsDe {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -158429,6 +159141,36 @@ extension on _StringsDe {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -165207,8 +165949,6 @@ extension on _StringsEs {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -165776,6 +166516,36 @@ extension on _StringsEs {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -172560,8 +173330,6 @@ extension on _StringsFr {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -173129,6 +173897,36 @@ extension on _StringsFr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -179895,8 +180693,6 @@ extension on _StringsId {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -180464,6 +181260,36 @@ extension on _StringsId {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -187244,8 +188070,6 @@ extension on _StringsIt {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -187813,6 +188637,36 @@ extension on _StringsIt {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -194555,8 +195409,6 @@ extension on _StringsJa {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -195124,6 +195976,36 @@ extension on _StringsJa {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -201870,8 +202752,6 @@ extension on _StringsKo {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -202439,6 +203319,36 @@ extension on _StringsKo {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -209213,8 +210123,6 @@ extension on _StringsNl {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -209782,6 +210690,36 @@ extension on _StringsNl {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -216553,8 +217491,6 @@ extension on _StringsPtBr {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -217122,6 +218058,36 @@ extension on _StringsPtBr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -223898,8 +224864,6 @@ extension on _StringsRu {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -224467,6 +225431,36 @@ extension on _StringsRu {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -231226,8 +232220,6 @@ extension on _StringsTh {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -231795,6 +232787,36 @@ extension on _StringsTh {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -238563,8 +239585,6 @@ extension on _StringsTr {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -239132,6 +240152,36 @@ extension on _StringsTr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -245896,8 +246946,6 @@ extension on _StringsVi {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -246465,6 +247513,36 @@ extension on _StringsVi {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
@@ -253174,8 +254252,6 @@ extension on _StringsZhCn {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return '首选语言';
       case 'video_opensubtitles_languages_hint':
         return '用逗号分隔语言代码，例如 zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -253739,6 +254815,36 @@ extension on _StringsZhCn {
         return '小说';
       case 'discovery_kind_audiobook':
         return '有声书';
+      case 'video_builtin_sources_title':
+        return '内置来源';
+      case 'video_resource_no_provider_title':
+        return '未配置资源索引器';
+      case 'video_subtitle_no_provider_title':
+        return '未配置字幕来源';
+      case 'video_subtitle_no_provider_hint':
+        return '请在 设置 → 下载 → 外部资源与字幕来源 中填写 Jimaku API key 或启用 OpenSubtitles。';
+      case 'anime_download_require_subs':
+        return '必须有字幕';
+      case 'video_jimaku_scope_hint':
+        return '为动漫与日语真人影视提供日语字幕。需要免费 API key。';
+      case 'video_builtin_apibay_hint':
+        return '电影与剧集。公共索引，无需账号。';
+      case 'video_builtin_knaben_hint':
+        return '电影与剧集。聚合多家公共索引器。';
+      case 'video_jimaku_enabled_hint':
+        return '关闭后即使已填 API key 也不再搜索 Jimaku。';
+      case 'discovery_sources_settings_title':
+        return '发现来源';
+      case 'discovery_sources_settings_hint':
+        return '哪些内置来源参与发现页「全部源」聚合搜索。在源下拉里显式单选某个源不受此处影响。';
+      case 'video_builtin_sources_hint':
+        return '随应用内置：无需账号，无需 API key。关闭后该来源不再参与资源搜索。';
+      case 'video_builtin_nyaa_hint':
+        return '仅动漫。电影与剧集由下面两个公共索引器覆盖。';
+      case 'video_resource_no_provider_hint':
+        return '本次搜索没有可用的来源。请到 设置 → 下载 → 外部资源与字幕来源 重新启用内置来源，或添加 Torznab 索引器。';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => '覆盖：${kinds}';
       case 'video_source_scrape_rescrape_source':
         return '重新刮削此来源';
       case 'video_source_scrape_run_detail_title':
@@ -260476,8 +261582,6 @@ extension on _StringsZhHk {
         return 'OpenSubtitles';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -261045,6 +262149,36 @@ extension on _StringsZhHk {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
       case 'video_source_scrape_rescrape_source':
         return 'Rescrape this source';
       case 'video_source_scrape_run_detail_title':
