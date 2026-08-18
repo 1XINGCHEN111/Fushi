@@ -1,7 +1,7 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60911 (3583 per locale)
+/// Strings: 60928 (3584 per locale)
 ///
 /// Built on 2026-08-18 at 13:02 UTC
 
@@ -4816,6 +4816,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get discovery_torrent_failed => 'Failed to add torrent task';
   String get discovery_kind_novel => 'Novels';
   String get discovery_kind_audiobook => 'Audiobooks';
+  String get game_capture_workbench_tab => 'Capture workspace';
   String get video_builtin_sources_title => 'Built-in sources';
   String get video_resource_no_provider_title =>
       'No resource indexer configured';
@@ -13083,6 +13084,8 @@ class _StringsAr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
@@ -21447,6 +21450,8 @@ class _StringsDe extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
@@ -29827,6 +29832,8 @@ class _StringsEs extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
@@ -38220,6 +38227,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
   String get video_resource_no_provider_title =>
@@ -46539,6 +46548,8 @@ class _StringsId extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
@@ -54906,6 +54917,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
   String get video_resource_no_provider_title =>
@@ -63085,6 +63098,8 @@ class _StringsJa extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
@@ -71272,6 +71287,8 @@ class _StringsKo extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
@@ -79618,6 +79635,8 @@ class _StringsNl extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
@@ -87977,6 +87996,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
   String get video_resource_no_provider_title =>
@@ -96321,6 +96342,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
   String get video_resource_no_provider_title =>
@@ -104612,6 +104635,8 @@ class _StringsTh extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
@@ -112936,6 +112961,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
   String get video_resource_no_provider_title =>
@@ -121244,6 +121271,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
   String get video_resource_no_provider_title =>
@@ -128947,6 +128976,8 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_kind_novel => '小说';
   @override
   String get discovery_kind_audiobook => '有声书';
+  @override
+  String get game_capture_workbench_tab => '工作台';
   @override
   String get video_builtin_sources_title => '内置来源';
   @override
@@ -137038,6 +137069,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
   String get video_builtin_sources_title => 'Built-in sources';
   @override
   String get video_resource_no_provider_title =>
@@ -144411,6 +144444,8 @@ extension on _StringsEn {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -151765,6 +151800,8 @@ extension on _StringsAr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -159141,6 +159178,8 @@ extension on _StringsDe {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -166516,6 +166555,8 @@ extension on _StringsEs {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -173897,6 +173938,8 @@ extension on _StringsFr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -181260,6 +181303,8 @@ extension on _StringsId {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -188637,6 +188682,8 @@ extension on _StringsIt {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -195976,6 +196023,8 @@ extension on _StringsJa {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -203319,6 +203368,8 @@ extension on _StringsKo {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -210690,6 +210741,8 @@ extension on _StringsNl {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -218058,6 +218111,8 @@ extension on _StringsPtBr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -225431,6 +225486,8 @@ extension on _StringsRu {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -232787,6 +232844,8 @@ extension on _StringsTh {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -240152,6 +240211,8 @@ extension on _StringsTr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -247513,6 +247574,8 @@ extension on _StringsVi {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
@@ -254815,6 +254878,8 @@ extension on _StringsZhCn {
         return '小说';
       case 'discovery_kind_audiobook':
         return '有声书';
+      case 'game_capture_workbench_tab':
+        return '工作台';
       case 'video_builtin_sources_title':
         return '内置来源';
       case 'video_resource_no_provider_title':
@@ -262149,6 +262214,8 @@ extension on _StringsZhHk {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       case 'video_builtin_sources_title':
         return 'Built-in sources';
       case 'video_resource_no_provider_title':
