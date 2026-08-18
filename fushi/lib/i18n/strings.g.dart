@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60435 (3555 per locale)
+/// Strings: 60452 (3556 per locale)
 ///
-/// Built on 2026-08-17 at 14:43 UTC
+/// Built on 2026-08-18 at 08:56 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4818,6 +4818,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get discovery_torrent_failed => 'Failed to add torrent task';
   String get discovery_kind_novel => 'Novels';
   String get discovery_kind_audiobook => 'Audiobooks';
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -13041,6 +13042,8 @@ class _StringsAr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -21331,6 +21334,8 @@ class _StringsDe extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -29637,6 +29642,8 @@ class _StringsEs extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -37955,6 +37962,8 @@ class _StringsFr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -46201,6 +46210,8 @@ class _StringsId extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -54493,6 +54504,8 @@ class _StringsIt extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -62599,6 +62612,8 @@ class _StringsJa extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -70712,6 +70727,8 @@ class _StringsKo extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -78984,6 +79001,8 @@ class _StringsNl extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -87268,6 +87287,8 @@ class _StringsPtBr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -95538,6 +95559,8 @@ class _StringsRu extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -103756,6 +103779,8 @@ class _StringsTh extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -112005,6 +112030,8 @@ class _StringsTr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -120239,6 +120266,8 @@ class _StringsVi extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 // Path: <root>
@@ -127869,6 +127898,8 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_kind_novel => '小说';
   @override
   String get discovery_kind_audiobook => '有声书';
+  @override
+  String get game_capture_workbench_tab => '工作台';
 }
 
 // Path: <root>
@@ -135898,6 +135929,8 @@ class _StringsZhHk extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
 }
 
 /// Flat map(s) containing all translations.
@@ -143198,6 +143231,8 @@ extension on _StringsEn {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -150496,6 +150531,8 @@ extension on _StringsAr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -157816,6 +157853,8 @@ extension on _StringsDe {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -165135,6 +165174,8 @@ extension on _StringsEs {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -172460,6 +172501,8 @@ extension on _StringsFr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -179767,6 +179810,8 @@ extension on _StringsId {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -187088,6 +187133,8 @@ extension on _StringsIt {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -194371,6 +194418,8 @@ extension on _StringsJa {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -201658,6 +201707,8 @@ extension on _StringsKo {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -208973,6 +209024,8 @@ extension on _StringsNl {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -216285,6 +216338,8 @@ extension on _StringsPtBr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -223602,6 +223657,8 @@ extension on _StringsRu {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -230902,6 +230959,8 @@ extension on _StringsTh {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -238211,6 +238270,8 @@ extension on _StringsTr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -245516,6 +245577,8 @@ extension on _StringsVi {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
@@ -252762,6 +252825,8 @@ extension on _StringsZhCn {
         return '小说';
       case 'discovery_kind_audiobook':
         return '有声书';
+      case 'game_capture_workbench_tab':
+        return '工作台';
       default:
         return null;
     }
@@ -260040,6 +260105,8 @@ extension on _StringsZhHk {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
       default:
         return null;
     }
