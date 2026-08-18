@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60452 (3556 per locale)
+/// Strings: 60486 (3558 per locale)
 ///
-/// Built on 2026-08-18 at 06:21 UTC
+/// Built on 2026-08-18 at 12:59 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4821,6 +4821,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Keep scanning this folder for new videos';
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -13048,6 +13051,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -21342,6 +21350,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -29652,6 +29665,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -37974,6 +37992,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -46224,6 +46247,11 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -54520,6 +54548,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -62630,6 +62663,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -70747,6 +70785,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -79023,6 +79066,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -87311,6 +87359,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -95585,6 +95638,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -103807,6 +103865,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -112060,6 +112123,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -120298,6 +120366,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -127930,6 +128003,11 @@ class _StringsZhCn extends _StringsEn {
   String get video_import_folder_as_source_hint => '以后自动扫描此文件夹里的新视频';
   @override
   String get manga_import_folder_as_source_hint => '以后自动扫描此文件夹里的新漫画';
+  @override
+  String get download_no_managed_video_source =>
+      '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
+  @override
+  String get download_add_video_source => '添加视频来源';
 }
 
 // Path: <root>
@@ -135963,6 +136041,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_import_folder_as_source_hint =>
       'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 /// Flat map(s) containing all translations.
@@ -143265,6 +143348,10 @@ extension on _StringsEn {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -150565,6 +150652,10 @@ extension on _StringsAr {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -157887,6 +157978,10 @@ extension on _StringsDe {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -165208,6 +165303,10 @@ extension on _StringsEs {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -172535,6 +172634,10 @@ extension on _StringsFr {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -179844,6 +179947,10 @@ extension on _StringsId {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -187167,6 +187274,10 @@ extension on _StringsIt {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -194452,6 +194563,10 @@ extension on _StringsJa {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -201741,6 +201856,10 @@ extension on _StringsKo {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -209058,6 +209177,10 @@ extension on _StringsNl {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -216372,6 +216495,10 @@ extension on _StringsPtBr {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -223691,6 +223818,10 @@ extension on _StringsRu {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -230993,6 +231124,10 @@ extension on _StringsTh {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -238304,6 +238439,10 @@ extension on _StringsTr {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -245611,6 +245750,10 @@ extension on _StringsVi {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -252859,6 +253002,10 @@ extension on _StringsZhCn {
         return '以后自动扫描此文件夹里的新视频';
       case 'manga_import_folder_as_source_hint':
         return '以后自动扫描此文件夹里的新漫画';
+      case 'download_no_managed_video_source':
+        return '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
+      case 'download_add_video_source':
+        return '添加视频来源';
       default:
         return null;
     }
@@ -260139,6 +260286,10 @@ extension on _StringsZhHk {
         return 'Keep scanning this folder for new videos';
       case 'manga_import_folder_as_source_hint':
         return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
