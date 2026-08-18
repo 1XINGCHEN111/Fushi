@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 58701 (3453 per locale)
+/// Strings: 60996 (3588 per locale)
 ///
-/// Built on 2026-08-16 at 12:44 UTC
+/// Built on 2026-08-18 at 13:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3619,8 +3619,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get shortcut_action_manga_dismiss_dict => 'Close dictionary';
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   String get anime_download_subs_episodes_unverified =>
@@ -3665,7 +3663,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Magpie is not ready. Set window upscaling to Auto to use the copy bundled with Fushi; if it still does not start, update or reinstall Fushi.';
   String media_source_count_manga({required Object n}) => '${n} volumes';
   String get library_view_shelf => 'Shelf';
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   String get library_view_media => 'Library';
   String get scrape_failure_detail_show => 'Show details';
   String get scrape_failure_detail_hide => 'Hide details';
@@ -4060,7 +4058,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get mihon_filter_descending => 'Descending';
   String get mihon_add_to_bookshelf => 'Add to manga shelf';
   String get mihon_in_bookshelf => 'In manga shelf';
-  String get media_source_local_roots => 'Local scan roots';
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   String get collection_related_title => 'Related works';
@@ -4384,7 +4381,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Fushi video scrape diagnostics';
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-  String get video_discovery_tab => 'Discover';
   String get video_discovery_search_hint => 'Search movies, series, anime';
   String get video_discovery_hot => 'Popular now';
   String get video_discovery_seasonal_anime => 'Seasonal anime';
@@ -4411,8 +4407,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_external_settings_section =>
       'External resource and subtitle providers';
   String get video_torznab_settings_title => 'Torznab indexers';
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
   String get video_torznab_add => 'Add indexer';
   String get video_torznab_name => 'Name';
   String get video_torznab_endpoint => 'Endpoint';
@@ -4430,10 +4424,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_external_endpoint_invalid =>
       'Enter a valid endpoint without credentials, query parameters, or fragments.';
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
   String get video_opensubtitles_user_agent => 'User-Agent';
-  String get video_opensubtitles_languages => 'Preferred languages';
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
   String get video_download_path_mappings_title => 'qBittorrent path mappings';
@@ -4557,11 +4548,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get library_view_import => 'Import';
   String get quick_import_title => 'Quick import';
   String get media_source_section_title => 'Library sources';
-  String get book_import_folder => 'Import folder';
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder => 'Import folder';
+  String get media_import_folder_as_source => 'Add as library source';
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   String get library_empty_go_import => 'Go to import';
   String get game_import_drop_hint =>
       'You can also drag .exe files into the game library';
@@ -4680,6 +4671,206 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_content_language_description =>
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   String get manga_ocr_lens_language_label => 'Recognition language';
+  String get dict_user_title => 'User dictionary';
+  String get dict_user_entry_add => 'Add entry';
+  String get dict_user_entry_edit => 'Edit entry';
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  String get dict_user_field_expression => 'Headword';
+  String get dict_user_field_reading => 'Reading';
+  String get dict_user_field_meaning => 'Definition';
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  String get onboarding_title => 'Getting started';
+  String get onboarding_welcome_headline => 'Welcome!';
+  String get onboarding_feature_anki => 'Anki flashcards';
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  String get onboarding_feature_backup => 'Backup & sync';
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  String get onboarding_step_anki_title => 'Set up Anki';
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  String get onboarding_step_backup_title => 'Set up backup';
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  String get onboarding_step_backup_action => 'Open backup settings';
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  String get onboarding_finish_title => 'All set';
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  String get onboarding_action_next => 'Next';
+  String get onboarding_action_finish => 'Finish';
+  String get onboarding_action_skip => 'Skip for now';
+  String get onboarding_reopen => 'Getting started guide';
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  String get onboarding_features_title => 'Choose what you use';
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  String get onboarding_features_setup_label => 'What to set up next';
+  String get onboarding_feature_manga => 'Manga library';
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  String get onboarding_feature_video => 'Video library';
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  String get onboarding_feature_games => 'Galgame library';
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  String get onboarding_step_pack_download_action => 'Download and import';
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  String get onboarding_step_extension_title => 'Browser extension';
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  String get onboarding_step_extension_action => 'Open extension guide';
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  String get settings_section_modules => 'Feature modules';
+  String get module_manga_label => 'Manga';
+  String get module_video_label => 'Video';
+  String get module_games_label => 'Galgame';
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  String get video_setting_youtube_quality => 'YouTube quality';
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  String get library_view_discover => 'Discover';
+  String get manga_discovery_section_trending => 'Trending';
+  String get manga_discovery_section_popular => 'Popular';
+  String get manga_discovery_section_top_rated => 'Top rated';
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  String get manga_discovery_match_section => 'Read from a source';
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  String get manga_discovery_status_releasing => 'Ongoing';
+  String get manga_discovery_status_finished => 'Completed';
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  String get mihon_extension_error => 'Extension error';
+  String get discovery_all_sources => 'All sources';
+  String get discovery_search_hint => 'Search online resources';
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  String get discovery_empty => 'No results';
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  String get discovery_load_more => 'Load more';
+  String get discovery_download_queued => 'Added to downloads';
+  String get discovery_torrent_pushed => 'Torrent task added';
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  String get discovery_kind_novel => 'Novels';
+  String get discovery_kind_audiobook => 'Audiobooks';
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  String get manga_discovery_sources_browse => 'Browse a source';
+  String get discovery_kind_manga => 'Manga';
+  String get game_capture_workbench_tab => 'Capture workspace';
+  String get video_builtin_sources_title => 'Built-in sources';
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  String get anime_download_require_subs => 'Subtitles required';
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  String get discovery_sources_settings_title => 'Discovery sources';
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  String get video_source_scrape_manual_search_action => 'Search';
+  String get video_source_scrape_manual_search_empty => 'No results';
+  String get profile_media_manga => 'Manga';
+  String get profile_media_game => 'Game';
+  String get profile_media_browser => 'Browser';
+  String get mihon_store_remove => 'Remove extension store';
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -10845,9 +11036,6 @@ class _StringsAr extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -10921,7 +11109,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -11608,8 +11796,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -12155,8 +12341,6 @@ class _StringsAr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -12205,9 +12389,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -12238,12 +12419,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -12457,14 +12633,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -12663,6 +12839,347 @@ class _StringsAr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'لغة التعرّف';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -18895,9 +19412,6 @@ class _StringsDe extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -18971,7 +19485,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -19658,8 +20172,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -20205,8 +20717,6 @@ class _StringsDe extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -20255,9 +20765,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -20288,12 +20795,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -20507,14 +21009,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -20713,6 +21215,347 @@ class _StringsDe extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Erkennungssprache';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -26961,9 +27804,6 @@ class _StringsEs extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -27037,7 +27877,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -27724,8 +28564,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -28271,8 +29109,6 @@ class _StringsEs extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -28321,9 +29157,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -28354,12 +29187,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -28573,14 +29401,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -28779,6 +29607,347 @@ class _StringsEs extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconocimiento';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -35039,9 +36208,6 @@ class _StringsFr extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -35115,7 +36281,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -35802,8 +36968,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -36349,8 +37513,6 @@ class _StringsFr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -36399,9 +37561,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -36432,12 +37591,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -36651,14 +37805,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -36857,6 +38011,347 @@ class _StringsFr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Langue de reconnaissance';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -43045,9 +44540,6 @@ class _StringsId extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -43121,7 +44613,7 @@ class _StringsId extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -43808,8 +45300,6 @@ class _StringsId extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -44355,8 +45845,6 @@ class _StringsId extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -44405,9 +45893,6 @@ class _StringsId extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -44438,12 +45923,7 @@ class _StringsId extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -44657,14 +46137,14 @@ class _StringsId extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -44863,6 +46343,347 @@ class _StringsId extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Bahasa pengenalan';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -51097,9 +52918,6 @@ class _StringsIt extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -51173,7 +52991,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -51860,8 +53678,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -52407,8 +54223,6 @@ class _StringsIt extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -52457,9 +54271,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -52490,12 +54301,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -52709,14 +54515,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -52915,6 +54721,347 @@ class _StringsIt extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Lingua di riconoscimento';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -58963,9 +61110,6 @@ class _StringsJa extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -59039,7 +61183,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -59726,8 +61870,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -60273,8 +62415,6 @@ class _StringsJa extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -60323,9 +62463,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -60356,12 +62493,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -60575,14 +62707,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -60781,6 +62913,347 @@ class _StringsJa extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '認識する言語';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -66836,9 +69309,6 @@ class _StringsKo extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -66912,7 +69382,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -67599,8 +70069,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -68146,8 +70614,6 @@ class _StringsKo extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -68196,9 +70662,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -68229,12 +70692,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -68448,14 +70906,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -68654,6 +71112,347 @@ class _StringsKo extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '인식 언어';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -74868,9 +77667,6 @@ class _StringsNl extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -74944,7 +77740,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -75631,8 +78427,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -76178,8 +78972,6 @@ class _StringsNl extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -76228,9 +79020,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -76261,12 +79050,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -76480,14 +79264,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -76686,6 +79470,347 @@ class _StringsNl extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Herkenningstaal';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -82912,9 +86037,6 @@ class _StringsPtBr extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -82988,7 +86110,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -83675,8 +86797,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -84222,8 +87342,6 @@ class _StringsPtBr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -84272,9 +87390,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -84305,12 +87420,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -84524,14 +87634,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -84730,6 +87840,347 @@ class _StringsPtBr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Idioma de reconhecimento';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -90942,9 +94393,6 @@ class _StringsRu extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -91018,7 +94466,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -91705,8 +95153,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -92252,8 +95698,6 @@ class _StringsRu extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -92302,9 +95746,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -92335,12 +95776,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -92554,14 +95990,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -92760,6 +96196,347 @@ class _StringsRu extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Язык распознавания';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -98920,9 +102697,6 @@ class _StringsTh extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -98996,7 +102770,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -99683,8 +103457,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -100230,8 +104002,6 @@ class _StringsTh extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -100280,9 +104050,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -100313,12 +104080,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -100532,14 +104294,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -100738,6 +104500,347 @@ class _StringsTh extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'ภาษาที่ใช้จดจำ';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -106929,9 +111032,6 @@ class _StringsTr extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -107005,7 +111105,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -107692,8 +111792,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -108239,8 +112337,6 @@ class _StringsTr extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -108289,9 +112385,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -108322,12 +112415,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -108541,14 +112629,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -108747,6 +112835,347 @@ class _StringsTr extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Tanıma dili';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -114923,9 +119352,6 @@ class _StringsVi extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -114999,7 +119425,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -115686,8 +120112,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -116233,8 +120657,6 @@ class _StringsVi extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -116283,9 +120705,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -116316,12 +120735,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -116535,14 +120949,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -116741,6 +121155,347 @@ class _StringsVi extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => 'Ngôn ngữ nhận dạng';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 // Path: <root>
@@ -122487,8 +127242,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_setting_jimaku_default_language => '默认字幕语言';
   @override
-  String get video_setting_jimaku_default_language_hint => '该系列没有记住的语言时优先使用';
-  @override
   String get video_jimaku_api_key_settings_hint => '也可在 设置 → 视频 → 字幕 中修改';
   @override
   String get anime_download_subs_episodes_unverified => '集号未与该整季包核对，字幕可能来自别的季。';
@@ -122553,7 +127306,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get library_view_shelf => '书架';
   @override
-  String get library_view_browse => '浏览';
+  String get library_view_browse => '发现';
   @override
   String get library_view_media => '媒体库';
   @override
@@ -123202,8 +127955,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get mihon_in_bookshelf => '已加入漫画书架';
   @override
-  String get media_source_local_roots => '本地扫描根';
-  @override
   String scrape_all_confirm({required Object n}) =>
       '将按标题匹配库中的 ${n} 个条目。只自动应用高置信度的匹配——视频按标题与年份、类型等信息综合打分，书籍和游戏则要求标题唯一且完全一致。你自己定的封面一律不覆盖（手动设置的本地图、在匹配弹窗里亲手选定的条目、目录里自带的 poster 图），歧义结果留待手动确认。';
   @override
@@ -123698,8 +128449,6 @@ class _StringsZhCn extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       '诊断包包含相对文件/目录名、刮削摘要和原始 NFO 内容；不会加入视频、字幕、图片、绝对路径、应用配置或应用凭据。原始 NFO 会原样保留，仍可能含有个人信息或密钥，请在公开分享前检查。';
   @override
-  String get video_discovery_tab => '发现';
-  @override
   String get video_discovery_search_hint => '搜索电影、剧集、动漫';
   @override
   String get video_discovery_hot => '热门推荐';
@@ -123744,9 +128493,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab 索引器';
   @override
-  String get video_torznab_settings_hint =>
-      '配置一个或多个 Jackett、Prowlarr 或兼容的 Torznab 端点。密钥仅保存在本机。';
-  @override
   String get video_torznab_add => '添加索引器';
   @override
   String get video_torznab_name => '名称';
@@ -123773,11 +128519,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint => 'API 凭据和首选字幕语言仅保存在本机。';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => '首选语言';
   @override
   String get video_opensubtitles_languages_hint => '用逗号分隔语言代码，例如 zh-CN,en,ja';
   @override
@@ -123965,13 +128707,13 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get media_source_section_title => '常驻来源';
   @override
-  String get book_import_folder => '导入文件夹';
+  String get media_import_folder => '导入文件夹';
   @override
-  String get book_import_folder_as_source => '设为常驻来源';
+  String get media_import_folder_as_source => '设为常驻来源';
   @override
   String get book_import_folder_as_source_hint => '以后自动扫描此文件夹里的新书';
   @override
-  String get book_import_folder_once => '仅导入这一次';
+  String get media_import_folder_once => '仅导入这一次';
   @override
   String get library_empty_go_import => '去导入';
   @override
@@ -124155,6 +128897,306 @@ class _StringsZhCn extends _StringsEn {
       '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
   @override
   String get manga_ocr_lens_language_label => '识别语言';
+  @override
+  String get dict_user_title => '用户词典';
+  @override
+  String get dict_user_entry_add => '添加词条';
+  @override
+  String get dict_user_entry_edit => '编辑词条';
+  @override
+  String get dict_user_entry_delete_confirm => '删除这条词条？';
+  @override
+  String get dict_user_field_expression => '词头';
+  @override
+  String get dict_user_field_reading => '读音';
+  @override
+  String get dict_user_field_meaning => '释义';
+  @override
+  String get dict_user_empty => '还没有词条，添加一条开始建立自己的词典。';
+  @override
+  String get dict_user_expression_required => '词头不能为空';
+  @override
+  String get dict_user_rebuild_failed => '用户词典重建失败';
+  @override
+  String get sync_err_peer_unreachable => '无法连接配对设备——对方可能不在线，或对端未运行 Fushi。';
+  @override
+  String get remote_book_list_failed => '无法获取配对设备的远端书库。';
+  @override
+  String get video_torznab_settings_hint =>
+      '配置一个或多个 Jackett、Prowlarr 或兼容的 Torznab 端点。密钥绝不随备份导出；可随互联同步到已配对设备（可在互联设置中关闭）。';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API 凭据绝不随备份导出；可随互联同步到已配对设备（可在互联设置中关闭）。';
+  @override
+  String get sync_interconnect_service_config_toggle => '同步主机服务配置';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      '经加密互联通道接收已配对主机的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
+  @override
+  String get video_setting_subtitle_backfill => '刮削后自动补字幕';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      '刮削完成后，仍然没有字幕的视频会自动从已配置的在线字幕来源取一条。绝不覆盖已有字幕。';
+  @override
+  String get video_setting_subtitle_sources_section => '在线字幕来源';
+  @override
+  String get video_subtitle_no_source_configured => '没找到字幕 · 去配置在线字幕来源';
+  @override
+  String get anime_download_subs_retrying => '字幕：还没上传，稍后自动重试';
+  @override
+  String get video_jimaku_language_follow_video => '跟随视频语言';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      '默认跟随视频自身的语言（音轨 / 刮削元数据）。选定某个语言则始终优先它。';
+  @override
+  String get onboarding_title => '新手引导';
+  @override
+  String get onboarding_welcome_headline => '欢迎使用！';
+  @override
+  String get onboarding_feature_anki => 'Anki 制卡';
+  @override
+  String get onboarding_feature_anki_hint =>
+      '连接 AnkiConnect / AnkiDroid，查词一键制卡';
+  @override
+  String get onboarding_feature_backup => '备份与同步';
+  @override
+  String get onboarding_feature_backup_hint => '把数据备份到 Google Drive、WebDAV 等后端';
+  @override
+  String get onboarding_feature_interconnect => '设备互联';
+  @override
+  String get onboarding_feature_interconnect_hint => '局域网配对多台设备，共享书库与进度';
+  @override
+  String get onboarding_step_dictionary_action => '打开词典管理';
+  @override
+  String get onboarding_step_anki_title => '配置 Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      '打开制卡设置，连接 AnkiConnect（桌面）或 AnkiDroid（安卓），并测试连接。';
+  @override
+  String get onboarding_step_anki_action => '打开制卡设置';
+  @override
+  String get onboarding_step_backup_title => '配置备份';
+  @override
+  String get onboarding_step_backup_body => '选择备份后端并登录，也可以导出本地备份文件。';
+  @override
+  String get onboarding_step_backup_action => '打开备份设置';
+  @override
+  String get onboarding_step_interconnect_title => '配置互联';
+  @override
+  String get onboarding_step_interconnect_body =>
+      '开启互联，与局域网内其他设备配对，共享书库、进度与查词。';
+  @override
+  String get onboarding_step_interconnect_action => '打开互联设置';
+  @override
+  String get onboarding_finish_title => '一切就绪';
+  @override
+  String get onboarding_finish_body => '之后随时可以在「设置 → 系统」里重新打开本引导。';
+  @override
+  String get onboarding_action_next => '下一步';
+  @override
+  String get onboarding_action_finish => '完成';
+  @override
+  String get onboarding_action_skip => '暂时跳过';
+  @override
+  String get onboarding_reopen => '新手引导';
+  @override
+  String get onboarding_welcome_body => '先选好界面语言与明暗主题，接下来会带你逐项完成配置。';
+  @override
+  String get onboarding_features_title => '选择要用的功能';
+  @override
+  String get onboarding_features_modules_label => '库页显示（未勾选的将从底栏隐藏，可随时在设置里改回）';
+  @override
+  String get onboarding_features_setup_label => '接下来要配置';
+  @override
+  String get onboarding_feature_manga => '漫画库';
+  @override
+  String get onboarding_feature_manga_hint => '看漫画，支持 OCR 查词';
+  @override
+  String get onboarding_feature_video => '视频库';
+  @override
+  String get onboarding_feature_video_hint => '看视频，字幕查词与制卡';
+  @override
+  String get onboarding_feature_games => 'Galgame 库';
+  @override
+  String get onboarding_feature_games_hint =>
+      '启动 galgame，文本 Hook 查词（仅 Windows）';
+  @override
+  String get onboarding_feature_pack => '推荐包（词典 + 发音音频）';
+  @override
+  String get onboarding_feature_pack_hint => '一次下载配好日语推荐词典与日/英发音音频库';
+  @override
+  String get onboarding_step_pack_title => '安装推荐包';
+  @override
+  String get onboarding_step_pack_body =>
+      '推荐包内含日语单词/音调/词频词典与日/英发音音频数据库。可在此直接下载并导入；导入会覆盖本地数据，建议在全新安装时进行。学其他语言可用「打开词典管理」自行导入词典。';
+  @override
+  String get onboarding_step_pack_download_action => '下载并导入';
+  @override
+  String get onboarding_step_pack_import_existing_action => '导入已下载的包';
+  @override
+  String get onboarding_step_pack_pick_action => '选择本地包文件';
+  @override
+  String get onboarding_step_pack_browser_action => '浏览器下载（Google Drive）';
+  @override
+  String get onboarding_pack_downloading => '下载中……可随时取消，下次续传';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      '下载失败：${message}';
+  @override
+  String get onboarding_step_extension_title => '浏览器扩展';
+  @override
+  String get onboarding_step_extension_body => '安装配套浏览器扩展，在任意网页上查词。';
+  @override
+  String get onboarding_step_extension_action => '打开扩展安装引导';
+  @override
+  String get onboarding_step_fonts_title => '配置字体';
+  @override
+  String get onboarding_step_fonts_body => '导入自定义字体，并选择界面/正文/词典分别使用哪套字体。';
+  @override
+  String get settings_section_modules => '功能模块';
+  @override
+  String get module_manga_label => '漫画';
+  @override
+  String get module_video_label => '视频';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint => '在底栏/侧栏显示该库页；关闭即隐藏';
+  @override
+  String get video_setting_youtube_quality => 'YouTube 画质';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      '起播自动选不超过目标的最高档；「自动」优先流畅（硬解友好编码，最高 1080p）';
+  @override
+  String get library_view_discover => '发现';
+  @override
+  String get manga_discovery_section_trending => '趋势';
+  @override
+  String get manga_discovery_section_popular => '热门';
+  @override
+  String get manga_discovery_section_top_rated => '高分';
+  @override
+  String get manga_discovery_section_latest_finished => '最新完结';
+  @override
+  String get manga_discovery_load_failed => '发现内容加载失败。';
+  @override
+  String get manga_discovery_match_section => '来源匹配';
+  @override
+  String get manga_discovery_match_running => '正在已启用来源中匹配…';
+  @override
+  String get manga_discovery_match_none => '已启用来源中未找到匹配。';
+  @override
+  String get manga_discovery_status_releasing => '连载中';
+  @override
+  String get manga_discovery_status_finished => '已完结';
+  @override
+  String get manga_discovery_status_hiatus => '休刊中';
+  @override
+  String get manga_discovery_status_cancelled => '已腰斩';
+  @override
+  String get manga_discovery_status_not_yet_released => '未发售';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      '${source} · 热门';
+  @override
+  String get mihon_extension_error => '扩展错误';
+  @override
+  String get discovery_all_sources => '全部源';
+  @override
+  String get discovery_search_hint => '搜索在线资源';
+  @override
+  String get discovery_enter_query_hint => '输入关键词搜索';
+  @override
+  String get discovery_empty => '无结果';
+  @override
+  String get discovery_partial_failure => '部分源不可用';
+  @override
+  String get discovery_load_more => '加载更多';
+  @override
+  String get discovery_download_queued => '已加入下载';
+  @override
+  String get discovery_torrent_pushed => '种子任务已添加';
+  @override
+  String get discovery_torrent_failed => '种子任务添加失败';
+  @override
+  String get discovery_kind_novel => '小说';
+  @override
+  String get discovery_kind_audiobook => '有声书';
+  @override
+  String get discovery_source_pick_hint => '选择来源浏览，或输入关键词搜索全部来源';
+  @override
+  String get discovery_source_query_required => '该来源只支持关键词搜索';
+  @override
+  String get manga_discovery_sources_browse => '浏览来源';
+  @override
+  String get discovery_kind_manga => '漫画';
+  @override
+  String get game_capture_workbench_tab => '工作台';
+  @override
+  String get video_builtin_sources_title => '内置来源';
+  @override
+  String get video_resource_no_provider_title => '未配置资源索引器';
+  @override
+  String get video_subtitle_no_provider_title => '未配置字幕来源';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      '请在 设置 → 下载 → 外部资源与字幕来源 中填写 Jimaku API key 或启用 OpenSubtitles。';
+  @override
+  String get anime_download_require_subs => '必须有字幕';
+  @override
+  String get video_jimaku_scope_hint => '为动漫与日语真人影视提供日语字幕。需要免费 API key。';
+  @override
+  String get video_builtin_apibay_hint => '电影与剧集。公共索引，无需账号。';
+  @override
+  String get video_builtin_knaben_hint => '电影与剧集。聚合多家公共索引器。';
+  @override
+  String get video_jimaku_enabled_hint => '关闭后即使已填 API key 也不再搜索 Jimaku。';
+  @override
+  String get discovery_sources_settings_title => '发现来源';
+  @override
+  String get discovery_sources_settings_hint =>
+      '哪些内置来源参与发现页「全部源」聚合搜索。在源下拉里显式单选某个源不受此处影响。';
+  @override
+  String get video_builtin_sources_hint =>
+      '随应用内置：无需账号，无需 API key。关闭后该来源不再参与资源搜索。';
+  @override
+  String get video_builtin_nyaa_hint => '仅动漫。电影与剧集由下面两个公共索引器覆盖。';
+  @override
+  String get video_resource_no_provider_hint =>
+      '本次搜索没有可用的来源。请到 设置 → 下载 → 外部资源与字幕来源 重新启用内置来源，或添加 Torznab 索引器。';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) => '覆盖：${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => '重新刮削此来源';
+  @override
+  String get video_source_scrape_run_detail_title => '刮削结果';
+  @override
+  String get video_source_scrape_run_no_issues => '本次刮削没有记录警告或错误。';
+  @override
+  String get video_source_scrape_manual_search_title => '手动指定作品';
+  @override
+  String get video_source_scrape_manual_search_hint => '按标题搜索资料源，然后选中正确的作品。';
+  @override
+  String get video_source_scrape_manual_search_action => '搜索';
+  @override
+  String get video_source_scrape_manual_search_empty => '没有搜索结果';
+  @override
+  String get profile_media_manga => '漫画';
+  @override
+  String get profile_media_game => '游戏';
+  @override
+  String get profile_media_browser => '浏览器';
+  @override
+  String get mihon_store_remove => '移除扩展仓库';
+  @override
+  String get video_import_folder_as_source_hint => '以后自动扫描此文件夹里的新视频';
+  @override
+  String get manga_import_folder_as_source_hint => '以后自动扫描此文件夹里的新漫画';
+  @override
+  String get download_no_managed_video_source =>
+      '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
+  @override
+  String get download_add_video_source => '添加视频来源';
 }
 
 // Path: <root>
@@ -130127,9 +135169,6 @@ class _StringsZhHk extends _StringsEn {
   String get video_setting_jimaku_default_language =>
       'Default subtitle language';
   @override
-  String get video_setting_jimaku_default_language_hint =>
-      'Preferred language when the series has no remembered choice';
-  @override
   String get video_jimaku_api_key_settings_hint =>
       'Also editable in Settings → Video → Subtitles';
   @override
@@ -130203,7 +135242,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get library_view_shelf => 'Shelf';
   @override
-  String get library_view_browse => 'Browse';
+  String get library_view_browse => 'Discover';
   @override
   String get library_view_media => 'Library';
   @override
@@ -130890,8 +135929,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get mihon_in_bookshelf => 'In manga shelf';
   @override
-  String get media_source_local_roots => 'Local scan roots';
-  @override
   String scrape_all_confirm({required Object n}) =>
       'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
   @override
@@ -131436,8 +136473,6 @@ class _StringsZhHk extends _StringsEn {
   String get video_scrape_diagnostic_confirm_body =>
       'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
   @override
-  String get video_discovery_tab => 'Discover';
-  @override
   String get video_discovery_search_hint => 'Search movies, series, anime';
   @override
   String get video_discovery_hot => 'Popular now';
@@ -131486,9 +136521,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_torznab_settings_title => 'Torznab indexers';
   @override
-  String get video_torznab_settings_hint =>
-      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
-  @override
   String get video_torznab_add => 'Add indexer';
   @override
   String get video_torznab_name => 'Name';
@@ -131519,12 +136551,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_opensubtitles_settings_title => 'OpenSubtitles';
   @override
-  String get video_opensubtitles_settings_hint =>
-      'API credentials and preferred subtitle languages stay on this device.';
-  @override
   String get video_opensubtitles_user_agent => 'User-Agent';
-  @override
-  String get video_opensubtitles_languages => 'Preferred languages';
   @override
   String get video_opensubtitles_languages_hint =>
       'Comma-separated language codes, for example zh-CN,en,ja';
@@ -131738,14 +136765,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get media_source_section_title => 'Library sources';
   @override
-  String get book_import_folder => 'Import folder';
+  String get media_import_folder => 'Import folder';
   @override
-  String get book_import_folder_as_source => 'Add as library source';
+  String get media_import_folder_as_source => 'Add as library source';
   @override
   String get book_import_folder_as_source_hint =>
       'Keep scanning this folder for new books';
   @override
-  String get book_import_folder_once => 'Import once only';
+  String get media_import_folder_once => 'Import once only';
   @override
   String get library_empty_go_import => 'Go to import';
   @override
@@ -131944,6 +136971,347 @@ class _StringsZhHk extends _StringsEn {
       'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
   @override
   String get manga_ocr_lens_language_label => '識別語言';
+  @override
+  String get dict_user_title => 'User dictionary';
+  @override
+  String get dict_user_entry_add => 'Add entry';
+  @override
+  String get dict_user_entry_edit => 'Edit entry';
+  @override
+  String get dict_user_entry_delete_confirm => 'Delete this entry?';
+  @override
+  String get dict_user_field_expression => 'Headword';
+  @override
+  String get dict_user_field_reading => 'Reading';
+  @override
+  String get dict_user_field_meaning => 'Definition';
+  @override
+  String get dict_user_empty =>
+      'No entries yet. Add one to build your own dictionary.';
+  @override
+  String get dict_user_expression_required => 'Headword cannot be empty';
+  @override
+  String get dict_user_rebuild_failed =>
+      'Failed to rebuild the user dictionary';
+  @override
+  String get sync_err_peer_unreachable =>
+      'Can\'t reach the paired device - it may be offline or not running Fushi.';
+  @override
+  String get remote_book_list_failed =>
+      'Couldn\'t fetch the remote library from the paired device.';
+  @override
+  String get video_torznab_settings_hint =>
+      'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get video_opensubtitles_settings_hint =>
+      'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+  @override
+  String get sync_interconnect_service_config_toggle =>
+      'Sync service configuration from host';
+  @override
+  String get sync_interconnect_service_config_toggle_desc =>
+      'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+  @override
+  String get video_setting_subtitle_backfill =>
+      'Auto-fetch subtitles after scraping';
+  @override
+  String get video_setting_subtitle_backfill_hint =>
+      'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+  @override
+  String get video_setting_subtitle_sources_section =>
+      'Online subtitle sources';
+  @override
+  String get video_subtitle_no_source_configured =>
+      'No subtitle found · set up an online subtitle source';
+  @override
+  String get anime_download_subs_retrying =>
+      'Subtitles: not up yet — will retry automatically';
+  @override
+  String get video_jimaku_language_follow_video => 'Follow video language';
+  @override
+  String get video_setting_jimaku_default_language_hint =>
+      'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+  @override
+  String get onboarding_title => 'Getting started';
+  @override
+  String get onboarding_welcome_headline => 'Welcome!';
+  @override
+  String get onboarding_feature_anki => 'Anki flashcards';
+  @override
+  String get onboarding_feature_anki_hint =>
+      'Connect AnkiConnect or AnkiDroid to create flashcards';
+  @override
+  String get onboarding_feature_backup => 'Backup & sync';
+  @override
+  String get onboarding_feature_backup_hint =>
+      'Back up your data to Google Drive, WebDAV and other backends';
+  @override
+  String get onboarding_feature_interconnect => 'Device interconnect';
+  @override
+  String get onboarding_feature_interconnect_hint =>
+      'Pair devices on your LAN to share libraries and progress';
+  @override
+  String get onboarding_step_dictionary_action => 'Open dictionary manager';
+  @override
+  String get onboarding_step_anki_title => 'Set up Anki';
+  @override
+  String get onboarding_step_anki_body =>
+      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+  @override
+  String get onboarding_step_anki_action => 'Open card creation settings';
+  @override
+  String get onboarding_step_backup_title => 'Set up backup';
+  @override
+  String get onboarding_step_backup_body =>
+      'Choose a backup backend and sign in, or export a local backup file.';
+  @override
+  String get onboarding_step_backup_action => 'Open backup settings';
+  @override
+  String get onboarding_step_interconnect_title => 'Set up interconnect';
+  @override
+  String get onboarding_step_interconnect_body =>
+      'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+  @override
+  String get onboarding_step_interconnect_action =>
+      'Open interconnect settings';
+  @override
+  String get onboarding_finish_title => 'All set';
+  @override
+  String get onboarding_finish_body =>
+      'You can revisit this guide anytime from Settings → System.';
+  @override
+  String get onboarding_action_next => 'Next';
+  @override
+  String get onboarding_action_finish => 'Finish';
+  @override
+  String get onboarding_action_skip => 'Skip for now';
+  @override
+  String get onboarding_reopen => 'Getting started guide';
+  @override
+  String get onboarding_welcome_body =>
+      'Set your interface language and theme first — the next steps will walk you through the rest.';
+  @override
+  String get onboarding_features_title => 'Choose what you use';
+  @override
+  String get onboarding_features_modules_label =>
+      'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+  @override
+  String get onboarding_features_setup_label => 'What to set up next';
+  @override
+  String get onboarding_feature_manga => 'Manga library';
+  @override
+  String get onboarding_feature_manga_hint => 'Read manga with OCR lookup';
+  @override
+  String get onboarding_feature_video => 'Video library';
+  @override
+  String get onboarding_feature_video_hint =>
+      'Watch videos with subtitle lookup and mining';
+  @override
+  String get onboarding_feature_games => 'Galgame library';
+  @override
+  String get onboarding_feature_games_hint =>
+      'Launch galgames with text-hook lookup (Windows only)';
+  @override
+  String get onboarding_feature_pack =>
+      'Recommended pack (dictionaries + audio)';
+  @override
+  String get onboarding_feature_pack_hint =>
+      'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+  @override
+  String get onboarding_step_pack_title => 'Install the recommended pack';
+  @override
+  String get onboarding_step_pack_body =>
+      'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+  @override
+  String get onboarding_step_pack_download_action => 'Download and import';
+  @override
+  String get onboarding_step_pack_import_existing_action =>
+      'Import downloaded pack';
+  @override
+  String get onboarding_step_pack_pick_action => 'Choose a local pack file';
+  @override
+  String get onboarding_step_pack_browser_action =>
+      'Open in browser (Google Drive)';
+  @override
+  String get onboarding_pack_downloading =>
+      'Downloading… cancel anytime, resumes next time';
+  @override
+  String onboarding_pack_download_failed({required Object message}) =>
+      'Download failed: ${message}';
+  @override
+  String get onboarding_step_extension_title => 'Browser extension';
+  @override
+  String get onboarding_step_extension_body =>
+      'Install the companion browser extension to look up words on any web page.';
+  @override
+  String get onboarding_step_extension_action => 'Open extension guide';
+  @override
+  String get onboarding_step_fonts_title => 'Reading fonts';
+  @override
+  String get onboarding_step_fonts_body =>
+      'Import custom fonts and choose which of UI, book text and dictionary use them.';
+  @override
+  String get settings_section_modules => 'Feature modules';
+  @override
+  String get module_manga_label => 'Manga';
+  @override
+  String get module_video_label => 'Video';
+  @override
+  String get module_games_label => 'Galgame';
+  @override
+  String get module_toggle_hint =>
+      'Show this library tab in the navigation bar; turn off to hide it';
+  @override
+  String get video_setting_youtube_quality => 'YouTube quality';
+  @override
+  String get video_setting_youtube_quality_hint =>
+      'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+  @override
+  String get library_view_discover => 'Discover';
+  @override
+  String get manga_discovery_section_trending => 'Trending';
+  @override
+  String get manga_discovery_section_popular => 'Popular';
+  @override
+  String get manga_discovery_section_top_rated => 'Top rated';
+  @override
+  String get manga_discovery_section_latest_finished => 'Recently completed';
+  @override
+  String get manga_discovery_load_failed => 'Couldn\'t load the discover feed.';
+  @override
+  String get manga_discovery_match_section => 'Read from a source';
+  @override
+  String get manga_discovery_match_running =>
+      'Matching in your enabled sources...';
+  @override
+  String get manga_discovery_match_none => 'No match found in enabled sources.';
+  @override
+  String get manga_discovery_status_releasing => 'Ongoing';
+  @override
+  String get manga_discovery_status_finished => 'Completed';
+  @override
+  String get manga_discovery_status_hiatus => 'On hiatus';
+  @override
+  String get manga_discovery_status_cancelled => 'Cancelled';
+  @override
+  String get manga_discovery_status_not_yet_released => 'Not yet released';
+  @override
+  String manga_discovery_source_popular({required Object source}) =>
+      'Popular on ${source}';
+  @override
+  String get mihon_extension_error => 'Extension error';
+  @override
+  String get discovery_all_sources => 'All sources';
+  @override
+  String get discovery_search_hint => 'Search online resources';
+  @override
+  String get discovery_enter_query_hint => 'Enter a keyword to search';
+  @override
+  String get discovery_empty => 'No results';
+  @override
+  String get discovery_partial_failure => 'Some sources are unavailable';
+  @override
+  String get discovery_load_more => 'Load more';
+  @override
+  String get discovery_download_queued => 'Added to downloads';
+  @override
+  String get discovery_torrent_pushed => 'Torrent task added';
+  @override
+  String get discovery_torrent_failed => 'Failed to add torrent task';
+  @override
+  String get discovery_kind_novel => 'Novels';
+  @override
+  String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
+  String get game_capture_workbench_tab => 'Capture workspace';
+  @override
+  String get video_builtin_sources_title => 'Built-in sources';
+  @override
+  String get video_resource_no_provider_title =>
+      'No resource indexer configured';
+  @override
+  String get video_subtitle_no_provider_title =>
+      'No subtitle provider configured';
+  @override
+  String get video_subtitle_no_provider_hint =>
+      'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String get anime_download_require_subs => 'Subtitles required';
+  @override
+  String get video_jimaku_scope_hint =>
+      'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+  @override
+  String get video_builtin_apibay_hint =>
+      'Movies and TV shows. Public index, no account needed.';
+  @override
+  String get video_builtin_knaben_hint =>
+      'Movies and TV shows. Aggregates several public indexers.';
+  @override
+  String get video_jimaku_enabled_hint =>
+      'Off means Jimaku is skipped even when an API key is saved.';
+  @override
+  String get discovery_sources_settings_title => 'Discovery sources';
+  @override
+  String get discovery_sources_settings_hint =>
+      'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+  @override
+  String get video_builtin_sources_hint =>
+      'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+  @override
+  String get video_builtin_nyaa_hint =>
+      'Anime only. Movies and TV shows are covered by the two public indexers below.';
+  @override
+  String get video_resource_no_provider_hint =>
+      'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+  @override
+  String discovery_source_kinds_label({required Object kinds}) =>
+      'Covers: ${kinds}';
+  @override
+  String get video_source_scrape_rescrape_source => 'Rescrape this source';
+  @override
+  String get video_source_scrape_run_detail_title => 'Scrape result';
+  @override
+  String get video_source_scrape_run_no_issues =>
+      'No warnings or errors were recorded.';
+  @override
+  String get video_source_scrape_manual_search_title =>
+      'Specify the work manually';
+  @override
+  String get video_source_scrape_manual_search_hint =>
+      'Search the metadata provider by title, then pick the correct work.';
+  @override
+  String get video_source_scrape_manual_search_action => 'Search';
+  @override
+  String get video_source_scrape_manual_search_empty => 'No results';
+  @override
+  String get profile_media_manga => 'Manga';
+  @override
+  String get profile_media_game => 'Game';
+  @override
+  String get profile_media_browser => 'Browser';
+  @override
+  String get mihon_store_remove => 'Remove extension store';
+  @override
+  String get video_import_folder_as_source_hint =>
+      'Keep scanning this folder for new videos';
+  @override
+  String get manga_import_folder_as_source_hint =>
+      'Keep scanning this folder for new manga';
+  @override
+  String get download_no_managed_video_source =>
+      'No managed video source yet. Downloads need a local video folder to land in.';
+  @override
+  String get download_add_video_source => 'Add video source';
 }
 
 /// Flat map(s) containing all translations.
@@ -137467,8 +142835,6 @@ extension on _StringsEn {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -137529,7 +142895,7 @@ extension on _StringsEn {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -138140,8 +143506,6 @@ extension on _StringsEn {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -138607,8 +143971,6 @@ extension on _StringsEn {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -138653,8 +144015,6 @@ extension on _StringsEn {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -138681,12 +144041,8 @@ extension on _StringsEn {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -138864,13 +144220,13 @@ extension on _StringsEn {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -139040,6 +144396,288 @@ extension on _StringsEn {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Recognition language';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -144561,8 +150199,6 @@ extension on _StringsAr {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -144623,7 +150259,7 @@ extension on _StringsAr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -145232,8 +150868,6 @@ extension on _StringsAr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -145699,8 +151333,6 @@ extension on _StringsAr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -145745,8 +151377,6 @@ extension on _StringsAr {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -145773,12 +151403,8 @@ extension on _StringsAr {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -145958,13 +151584,13 @@ extension on _StringsAr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -146134,6 +151760,288 @@ extension on _StringsAr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'لغة التعرّف';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -151677,8 +157585,6 @@ extension on _StringsDe {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -151739,7 +157645,7 @@ extension on _StringsDe {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -152348,8 +158254,6 @@ extension on _StringsDe {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -152815,8 +158719,6 @@ extension on _StringsDe {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -152861,8 +158763,6 @@ extension on _StringsDe {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -152889,12 +158789,8 @@ extension on _StringsDe {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -153074,13 +158970,13 @@ extension on _StringsDe {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -153250,6 +159146,288 @@ extension on _StringsDe {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Erkennungssprache';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -158792,8 +164970,6 @@ extension on _StringsEs {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -158854,7 +165030,7 @@ extension on _StringsEs {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -159463,8 +165639,6 @@ extension on _StringsEs {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -159930,8 +166104,6 @@ extension on _StringsEs {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -159976,8 +166148,6 @@ extension on _StringsEs {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -160004,12 +166174,8 @@ extension on _StringsEs {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -160189,13 +166355,13 @@ extension on _StringsEs {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -160365,6 +166531,288 @@ extension on _StringsEs {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconocimiento';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -165913,8 +172361,6 @@ extension on _StringsFr {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -165975,7 +172421,7 @@ extension on _StringsFr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -166584,8 +173030,6 @@ extension on _StringsFr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -167051,8 +173495,6 @@ extension on _StringsFr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -167097,8 +173539,6 @@ extension on _StringsFr {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -167125,12 +173565,8 @@ extension on _StringsFr {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -167310,13 +173746,13 @@ extension on _StringsFr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -167486,6 +173922,288 @@ extension on _StringsFr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Langue de reconnaissance';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -173016,8 +179734,6 @@ extension on _StringsId {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -173078,7 +179794,7 @@ extension on _StringsId {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -173687,8 +180403,6 @@ extension on _StringsId {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -174154,8 +180868,6 @@ extension on _StringsId {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -174200,8 +180912,6 @@ extension on _StringsId {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -174228,12 +180938,8 @@ extension on _StringsId {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -174413,13 +181119,13 @@ extension on _StringsId {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -174589,6 +181295,288 @@ extension on _StringsId {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Bahasa pengenalan';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -180133,8 +187121,6 @@ extension on _StringsIt {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -180195,7 +187181,7 @@ extension on _StringsIt {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -180804,8 +187790,6 @@ extension on _StringsIt {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -181271,8 +188255,6 @@ extension on _StringsIt {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -181317,8 +188299,6 @@ extension on _StringsIt {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -181345,12 +188325,8 @@ extension on _StringsIt {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -181530,13 +188506,13 @@ extension on _StringsIt {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -181706,6 +188682,288 @@ extension on _StringsIt {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Lingua di riconoscimento';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -187212,8 +194470,6 @@ extension on _StringsJa {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -187274,7 +194530,7 @@ extension on _StringsJa {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -187883,8 +195139,6 @@ extension on _StringsJa {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -188350,8 +195604,6 @@ extension on _StringsJa {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -188396,8 +195648,6 @@ extension on _StringsJa {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -188424,12 +195674,8 @@ extension on _StringsJa {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -188609,13 +195855,13 @@ extension on _StringsJa {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -188785,6 +196031,288 @@ extension on _StringsJa {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '認識する言語';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -194295,8 +201823,6 @@ extension on _StringsKo {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -194357,7 +201883,7 @@ extension on _StringsKo {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -194966,8 +202492,6 @@ extension on _StringsKo {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -195433,8 +202957,6 @@ extension on _StringsKo {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -195479,8 +203001,6 @@ extension on _StringsKo {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -195507,12 +203027,8 @@ extension on _StringsKo {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -195692,13 +203208,13 @@ extension on _StringsKo {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -195868,6 +203384,288 @@ extension on _StringsKo {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '인식 언어';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -201406,8 +209204,6 @@ extension on _StringsNl {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -201468,7 +209264,7 @@ extension on _StringsNl {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -202077,8 +209873,6 @@ extension on _StringsNl {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -202544,8 +210338,6 @@ extension on _StringsNl {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -202590,8 +210382,6 @@ extension on _StringsNl {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -202618,12 +210408,8 @@ extension on _StringsNl {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -202803,13 +210589,13 @@ extension on _StringsNl {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -202979,6 +210765,288 @@ extension on _StringsNl {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Herkenningstaal';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -208514,8 +216582,6 @@ extension on _StringsPtBr {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -208576,7 +216642,7 @@ extension on _StringsPtBr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -209185,8 +217251,6 @@ extension on _StringsPtBr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -209652,8 +217716,6 @@ extension on _StringsPtBr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -209698,8 +217760,6 @@ extension on _StringsPtBr {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -209726,12 +217786,8 @@ extension on _StringsPtBr {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -209911,13 +217967,13 @@ extension on _StringsPtBr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -210087,6 +218143,288 @@ extension on _StringsPtBr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Idioma de reconhecimento';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -215627,8 +223965,6 @@ extension on _StringsRu {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -215689,7 +224025,7 @@ extension on _StringsRu {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -216298,8 +224634,6 @@ extension on _StringsRu {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -216765,8 +225099,6 @@ extension on _StringsRu {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -216811,8 +225143,6 @@ extension on _StringsRu {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -216839,12 +225169,8 @@ extension on _StringsRu {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -217024,13 +225350,13 @@ extension on _StringsRu {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -217200,6 +225526,288 @@ extension on _StringsRu {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Язык распознавания';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -222723,8 +231331,6 @@ extension on _StringsTh {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -222785,7 +231391,7 @@ extension on _StringsTh {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -223394,8 +232000,6 @@ extension on _StringsTh {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -223861,8 +232465,6 @@ extension on _StringsTh {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -223907,8 +232509,6 @@ extension on _StringsTh {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -223935,12 +232535,8 @@ extension on _StringsTh {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -224120,13 +232716,13 @@ extension on _StringsTh {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -224296,6 +232892,288 @@ extension on _StringsTh {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'ภาษาที่ใช้จดจำ';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -229828,8 +238706,6 @@ extension on _StringsTr {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -229890,7 +238766,7 @@ extension on _StringsTr {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -230499,8 +239375,6 @@ extension on _StringsTr {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -230966,8 +239840,6 @@ extension on _StringsTr {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -231012,8 +239884,6 @@ extension on _StringsTr {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -231040,12 +239910,8 @@ extension on _StringsTr {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -231225,13 +240091,13 @@ extension on _StringsTr {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -231401,6 +240267,288 @@ extension on _StringsTr {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Tanıma dili';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -236929,8 +246077,6 @@ extension on _StringsVi {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -236991,7 +246137,7 @@ extension on _StringsVi {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -237600,8 +246746,6 @@ extension on _StringsVi {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -238067,8 +247211,6 @@ extension on _StringsVi {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -238113,8 +247255,6 @@ extension on _StringsVi {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -238141,12 +247281,8 @@ extension on _StringsVi {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -238326,13 +247462,13 @@ extension on _StringsVi {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -238502,6 +247638,288 @@ extension on _StringsVi {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return 'Ngôn ngữ nhận dạng';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
@@ -243982,8 +253400,6 @@ extension on _StringsZhCn {
         return '关闭词典';
       case 'video_setting_jimaku_default_language':
         return '默认字幕语言';
-      case 'video_setting_jimaku_default_language_hint':
-        return '该系列没有记住的语言时优先使用';
       case 'video_jimaku_api_key_settings_hint':
         return '也可在 设置 → 视频 → 字幕 中修改';
       case 'anime_download_subs_episodes_unverified':
@@ -244044,7 +253460,7 @@ extension on _StringsZhCn {
       case 'library_view_shelf':
         return '书架';
       case 'library_view_browse':
-        return '浏览';
+        return '发现';
       case 'library_view_media':
         return '媒体库';
       case 'scrape_failure_detail_show':
@@ -244649,8 +254065,6 @@ extension on _StringsZhCn {
         return '加入漫画书架';
       case 'mihon_in_bookshelf':
         return '已加入漫画书架';
-      case 'media_source_local_roots':
-        return '本地扫描根';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             '将按标题匹配库中的 ${n} 个条目。只自动应用高置信度的匹配——视频按标题与年份、类型等信息综合打分，书籍和游戏则要求标题唯一且完全一致。你自己定的封面一律不覆盖（手动设置的本地图、在匹配弹窗里亲手选定的条目、目录里自带的 poster 图），歧义结果留待手动确认。';
@@ -245113,8 +254527,6 @@ extension on _StringsZhCn {
         return 'Fushi 视频刮削诊断';
       case 'video_scrape_diagnostic_confirm_body':
         return '诊断包包含相对文件/目录名、刮削摘要和原始 NFO 内容；不会加入视频、字幕、图片、绝对路径、应用配置或应用凭据。原始 NFO 会原样保留，仍可能含有个人信息或密钥，请在公开分享前检查。';
-      case 'video_discovery_tab':
-        return '发现';
       case 'video_discovery_search_hint':
         return '搜索电影、剧集、动漫';
       case 'video_discovery_hot':
@@ -245159,8 +254571,6 @@ extension on _StringsZhCn {
         return '外部资源与字幕来源';
       case 'video_torznab_settings_title':
         return 'Torznab 索引器';
-      case 'video_torznab_settings_hint':
-        return '配置一个或多个 Jackett、Prowlarr 或兼容的 Torznab 端点。密钥仅保存在本机。';
       case 'video_torznab_add':
         return '添加索引器';
       case 'video_torznab_name':
@@ -245187,12 +254597,8 @@ extension on _StringsZhCn {
         return '请输入不含凭据、查询参数或片段的有效端点。';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API 凭据和首选字幕语言仅保存在本机。';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return '首选语言';
       case 'video_opensubtitles_languages_hint':
         return '用逗号分隔语言代码，例如 zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -245369,13 +254775,13 @@ extension on _StringsZhCn {
         return '快速导入';
       case 'media_source_section_title':
         return '常驻来源';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return '导入文件夹';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return '设为常驻来源';
       case 'book_import_folder_as_source_hint':
         return '以后自动扫描此文件夹里的新书';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return '仅导入这一次';
       case 'library_empty_go_import':
         return '去导入';
@@ -245544,6 +254950,288 @@ extension on _StringsZhCn {
         return '内容没有声明语言时用的默认值。书/视频/游戏/词典各自的设置会覆盖它。';
       case 'manga_ocr_lens_language_label':
         return '识别语言';
+      case 'dict_user_title':
+        return '用户词典';
+      case 'dict_user_entry_add':
+        return '添加词条';
+      case 'dict_user_entry_edit':
+        return '编辑词条';
+      case 'dict_user_entry_delete_confirm':
+        return '删除这条词条？';
+      case 'dict_user_field_expression':
+        return '词头';
+      case 'dict_user_field_reading':
+        return '读音';
+      case 'dict_user_field_meaning':
+        return '释义';
+      case 'dict_user_empty':
+        return '还没有词条，添加一条开始建立自己的词典。';
+      case 'dict_user_expression_required':
+        return '词头不能为空';
+      case 'dict_user_rebuild_failed':
+        return '用户词典重建失败';
+      case 'sync_err_peer_unreachable':
+        return '无法连接配对设备——对方可能不在线，或对端未运行 Fushi。';
+      case 'remote_book_list_failed':
+        return '无法获取配对设备的远端书库。';
+      case 'video_torznab_settings_hint':
+        return '配置一个或多个 Jackett、Prowlarr 或兼容的 Torznab 端点。密钥绝不随备份导出；可随互联同步到已配对设备（可在互联设置中关闭）。';
+      case 'video_opensubtitles_settings_hint':
+        return 'API 凭据绝不随备份导出；可随互联同步到已配对设备（可在互联设置中关闭）。';
+      case 'sync_interconnect_service_config_toggle':
+        return '同步主机服务配置';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return '经加密互联通道接收已配对主机的外部服务设定与 API key（Jimaku、TMDB、Torznab、OpenSubtitles、追番）。需启用 TLS。';
+      case 'video_setting_subtitle_backfill':
+        return '刮削后自动补字幕';
+      case 'video_setting_subtitle_backfill_hint':
+        return '刮削完成后，仍然没有字幕的视频会自动从已配置的在线字幕来源取一条。绝不覆盖已有字幕。';
+      case 'video_setting_subtitle_sources_section':
+        return '在线字幕来源';
+      case 'video_subtitle_no_source_configured':
+        return '没找到字幕 · 去配置在线字幕来源';
+      case 'anime_download_subs_retrying':
+        return '字幕：还没上传，稍后自动重试';
+      case 'video_jimaku_language_follow_video':
+        return '跟随视频语言';
+      case 'video_setting_jimaku_default_language_hint':
+        return '默认跟随视频自身的语言（音轨 / 刮削元数据）。选定某个语言则始终优先它。';
+      case 'onboarding_title':
+        return '新手引导';
+      case 'onboarding_welcome_headline':
+        return '欢迎使用！';
+      case 'onboarding_feature_anki':
+        return 'Anki 制卡';
+      case 'onboarding_feature_anki_hint':
+        return '连接 AnkiConnect / AnkiDroid，查词一键制卡';
+      case 'onboarding_feature_backup':
+        return '备份与同步';
+      case 'onboarding_feature_backup_hint':
+        return '把数据备份到 Google Drive、WebDAV 等后端';
+      case 'onboarding_feature_interconnect':
+        return '设备互联';
+      case 'onboarding_feature_interconnect_hint':
+        return '局域网配对多台设备，共享书库与进度';
+      case 'onboarding_step_dictionary_action':
+        return '打开词典管理';
+      case 'onboarding_step_anki_title':
+        return '配置 Anki';
+      case 'onboarding_step_anki_body':
+        return '打开制卡设置，连接 AnkiConnect（桌面）或 AnkiDroid（安卓），并测试连接。';
+      case 'onboarding_step_anki_action':
+        return '打开制卡设置';
+      case 'onboarding_step_backup_title':
+        return '配置备份';
+      case 'onboarding_step_backup_body':
+        return '选择备份后端并登录，也可以导出本地备份文件。';
+      case 'onboarding_step_backup_action':
+        return '打开备份设置';
+      case 'onboarding_step_interconnect_title':
+        return '配置互联';
+      case 'onboarding_step_interconnect_body':
+        return '开启互联，与局域网内其他设备配对，共享书库、进度与查词。';
+      case 'onboarding_step_interconnect_action':
+        return '打开互联设置';
+      case 'onboarding_finish_title':
+        return '一切就绪';
+      case 'onboarding_finish_body':
+        return '之后随时可以在「设置 → 系统」里重新打开本引导。';
+      case 'onboarding_action_next':
+        return '下一步';
+      case 'onboarding_action_finish':
+        return '完成';
+      case 'onboarding_action_skip':
+        return '暂时跳过';
+      case 'onboarding_reopen':
+        return '新手引导';
+      case 'onboarding_welcome_body':
+        return '先选好界面语言与明暗主题，接下来会带你逐项完成配置。';
+      case 'onboarding_features_title':
+        return '选择要用的功能';
+      case 'onboarding_features_modules_label':
+        return '库页显示（未勾选的将从底栏隐藏，可随时在设置里改回）';
+      case 'onboarding_features_setup_label':
+        return '接下来要配置';
+      case 'onboarding_feature_manga':
+        return '漫画库';
+      case 'onboarding_feature_manga_hint':
+        return '看漫画，支持 OCR 查词';
+      case 'onboarding_feature_video':
+        return '视频库';
+      case 'onboarding_feature_video_hint':
+        return '看视频，字幕查词与制卡';
+      case 'onboarding_feature_games':
+        return 'Galgame 库';
+      case 'onboarding_feature_games_hint':
+        return '启动 galgame，文本 Hook 查词（仅 Windows）';
+      case 'onboarding_feature_pack':
+        return '推荐包（词典 + 发音音频）';
+      case 'onboarding_feature_pack_hint':
+        return '一次下载配好日语推荐词典与日/英发音音频库';
+      case 'onboarding_step_pack_title':
+        return '安装推荐包';
+      case 'onboarding_step_pack_body':
+        return '推荐包内含日语单词/音调/词频词典与日/英发音音频数据库。可在此直接下载并导入；导入会覆盖本地数据，建议在全新安装时进行。学其他语言可用「打开词典管理」自行导入词典。';
+      case 'onboarding_step_pack_download_action':
+        return '下载并导入';
+      case 'onboarding_step_pack_import_existing_action':
+        return '导入已下载的包';
+      case 'onboarding_step_pack_pick_action':
+        return '选择本地包文件';
+      case 'onboarding_step_pack_browser_action':
+        return '浏览器下载（Google Drive）';
+      case 'onboarding_pack_downloading':
+        return '下载中……可随时取消，下次续传';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => '下载失败：${message}';
+      case 'onboarding_step_extension_title':
+        return '浏览器扩展';
+      case 'onboarding_step_extension_body':
+        return '安装配套浏览器扩展，在任意网页上查词。';
+      case 'onboarding_step_extension_action':
+        return '打开扩展安装引导';
+      case 'onboarding_step_fonts_title':
+        return '配置字体';
+      case 'onboarding_step_fonts_body':
+        return '导入自定义字体，并选择界面/正文/词典分别使用哪套字体。';
+      case 'settings_section_modules':
+        return '功能模块';
+      case 'module_manga_label':
+        return '漫画';
+      case 'module_video_label':
+        return '视频';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return '在底栏/侧栏显示该库页；关闭即隐藏';
+      case 'video_setting_youtube_quality':
+        return 'YouTube 画质';
+      case 'video_setting_youtube_quality_hint':
+        return '起播自动选不超过目标的最高档；「自动」优先流畅（硬解友好编码，最高 1080p）';
+      case 'library_view_discover':
+        return '发现';
+      case 'manga_discovery_section_trending':
+        return '趋势';
+      case 'manga_discovery_section_popular':
+        return '热门';
+      case 'manga_discovery_section_top_rated':
+        return '高分';
+      case 'manga_discovery_section_latest_finished':
+        return '最新完结';
+      case 'manga_discovery_load_failed':
+        return '发现内容加载失败。';
+      case 'manga_discovery_match_section':
+        return '来源匹配';
+      case 'manga_discovery_match_running':
+        return '正在已启用来源中匹配…';
+      case 'manga_discovery_match_none':
+        return '已启用来源中未找到匹配。';
+      case 'manga_discovery_status_releasing':
+        return '连载中';
+      case 'manga_discovery_status_finished':
+        return '已完结';
+      case 'manga_discovery_status_hiatus':
+        return '休刊中';
+      case 'manga_discovery_status_cancelled':
+        return '已腰斩';
+      case 'manga_discovery_status_not_yet_released':
+        return '未发售';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => '${source} · 热门';
+      case 'mihon_extension_error':
+        return '扩展错误';
+      case 'discovery_all_sources':
+        return '全部源';
+      case 'discovery_search_hint':
+        return '搜索在线资源';
+      case 'discovery_enter_query_hint':
+        return '输入关键词搜索';
+      case 'discovery_empty':
+        return '无结果';
+      case 'discovery_partial_failure':
+        return '部分源不可用';
+      case 'discovery_load_more':
+        return '加载更多';
+      case 'discovery_download_queued':
+        return '已加入下载';
+      case 'discovery_torrent_pushed':
+        return '种子任务已添加';
+      case 'discovery_torrent_failed':
+        return '种子任务添加失败';
+      case 'discovery_kind_novel':
+        return '小说';
+      case 'discovery_kind_audiobook':
+        return '有声书';
+      case 'discovery_source_pick_hint':
+        return '选择来源浏览，或输入关键词搜索全部来源';
+      case 'discovery_source_query_required':
+        return '该来源只支持关键词搜索';
+      case 'manga_discovery_sources_browse':
+        return '浏览来源';
+      case 'discovery_kind_manga':
+        return '漫画';
+      case 'game_capture_workbench_tab':
+        return '工作台';
+      case 'video_builtin_sources_title':
+        return '内置来源';
+      case 'video_resource_no_provider_title':
+        return '未配置资源索引器';
+      case 'video_subtitle_no_provider_title':
+        return '未配置字幕来源';
+      case 'video_subtitle_no_provider_hint':
+        return '请在 设置 → 下载 → 外部资源与字幕来源 中填写 Jimaku API key 或启用 OpenSubtitles。';
+      case 'anime_download_require_subs':
+        return '必须有字幕';
+      case 'video_jimaku_scope_hint':
+        return '为动漫与日语真人影视提供日语字幕。需要免费 API key。';
+      case 'video_builtin_apibay_hint':
+        return '电影与剧集。公共索引，无需账号。';
+      case 'video_builtin_knaben_hint':
+        return '电影与剧集。聚合多家公共索引器。';
+      case 'video_jimaku_enabled_hint':
+        return '关闭后即使已填 API key 也不再搜索 Jimaku。';
+      case 'discovery_sources_settings_title':
+        return '发现来源';
+      case 'discovery_sources_settings_hint':
+        return '哪些内置来源参与发现页「全部源」聚合搜索。在源下拉里显式单选某个源不受此处影响。';
+      case 'video_builtin_sources_hint':
+        return '随应用内置：无需账号，无需 API key。关闭后该来源不再参与资源搜索。';
+      case 'video_builtin_nyaa_hint':
+        return '仅动漫。电影与剧集由下面两个公共索引器覆盖。';
+      case 'video_resource_no_provider_hint':
+        return '本次搜索没有可用的来源。请到 设置 → 下载 → 外部资源与字幕来源 重新启用内置来源，或添加 Torznab 索引器。';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => '覆盖：${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return '重新刮削此来源';
+      case 'video_source_scrape_run_detail_title':
+        return '刮削结果';
+      case 'video_source_scrape_run_no_issues':
+        return '本次刮削没有记录警告或错误。';
+      case 'video_source_scrape_manual_search_title':
+        return '手动指定作品';
+      case 'video_source_scrape_manual_search_hint':
+        return '按标题搜索资料源，然后选中正确的作品。';
+      case 'video_source_scrape_manual_search_action':
+        return '搜索';
+      case 'video_source_scrape_manual_search_empty':
+        return '没有搜索结果';
+      case 'profile_media_manga':
+        return '漫画';
+      case 'profile_media_game':
+        return '游戏';
+      case 'profile_media_browser':
+        return '浏览器';
+      case 'mihon_store_remove':
+        return '移除扩展仓库';
+      case 'video_import_folder_as_source_hint':
+        return '以后自动扫描此文件夹里的新视频';
+      case 'manga_import_folder_as_source_hint':
+        return '以后自动扫描此文件夹里的新漫画';
+      case 'download_no_managed_video_source':
+        return '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
+      case 'download_add_video_source':
+        return '添加视频来源';
       default:
         return null;
     }
@@ -251045,8 +260733,6 @@ extension on _StringsZhHk {
         return 'Close dictionary';
       case 'video_setting_jimaku_default_language':
         return 'Default subtitle language';
-      case 'video_setting_jimaku_default_language_hint':
-        return 'Preferred language when the series has no remembered choice';
       case 'video_jimaku_api_key_settings_hint':
         return 'Also editable in Settings → Video → Subtitles';
       case 'anime_download_subs_episodes_unverified':
@@ -251107,7 +260793,7 @@ extension on _StringsZhHk {
       case 'library_view_shelf':
         return 'Shelf';
       case 'library_view_browse':
-        return 'Browse';
+        return 'Discover';
       case 'library_view_media':
         return 'Library';
       case 'scrape_failure_detail_show':
@@ -251716,8 +261402,6 @@ extension on _StringsZhHk {
         return 'Add to manga shelf';
       case 'mihon_in_bookshelf':
         return 'In manga shelf';
-      case 'media_source_local_roots':
-        return 'Local scan roots';
       case 'scrape_all_confirm':
         return ({required Object n}) =>
             'Match all ${n} library items by title. Only high-confidence matches are applied automatically — videos are scored on the title together with year, type and other signals, while books and games require a unique exact title. Covers you chose yourself are never overwritten (local images you set, entries you picked in the match dialog, and poster files placed in the folder), and ambiguous results stay pending for manual review.';
@@ -252183,8 +261867,6 @@ extension on _StringsZhHk {
         return 'Fushi video scrape diagnostics';
       case 'video_scrape_diagnostic_confirm_body':
         return 'The package includes relative file and folder names, scrape summaries, and original NFO contents. It does not add videos, subtitles, images, absolute paths, app configuration, or app credentials. Original NFO files are preserved unchanged and may contain personal information or secrets; review the package before sharing publicly.';
-      case 'video_discovery_tab':
-        return 'Discover';
       case 'video_discovery_search_hint':
         return 'Search movies, series, anime';
       case 'video_discovery_hot':
@@ -252229,8 +261911,6 @@ extension on _StringsZhHk {
         return 'External resource and subtitle providers';
       case 'video_torznab_settings_title':
         return 'Torznab indexers';
-      case 'video_torznab_settings_hint':
-        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets stay on this device.';
       case 'video_torznab_add':
         return 'Add indexer';
       case 'video_torznab_name':
@@ -252257,12 +261937,8 @@ extension on _StringsZhHk {
         return 'Enter a valid endpoint without credentials, query parameters, or fragments.';
       case 'video_opensubtitles_settings_title':
         return 'OpenSubtitles';
-      case 'video_opensubtitles_settings_hint':
-        return 'API credentials and preferred subtitle languages stay on this device.';
       case 'video_opensubtitles_user_agent':
         return 'User-Agent';
-      case 'video_opensubtitles_languages':
-        return 'Preferred languages';
       case 'video_opensubtitles_languages_hint':
         return 'Comma-separated language codes, for example zh-CN,en,ja';
       case 'video_download_path_mappings_title':
@@ -252442,13 +262118,13 @@ extension on _StringsZhHk {
         return 'Quick import';
       case 'media_source_section_title':
         return 'Library sources';
-      case 'book_import_folder':
+      case 'media_import_folder':
         return 'Import folder';
-      case 'book_import_folder_as_source':
+      case 'media_import_folder_as_source':
         return 'Add as library source';
       case 'book_import_folder_as_source_hint':
         return 'Keep scanning this folder for new books';
-      case 'book_import_folder_once':
+      case 'media_import_folder_once':
         return 'Import once only';
       case 'library_empty_go_import':
         return 'Go to import';
@@ -252618,6 +262294,288 @@ extension on _StringsZhHk {
         return 'Fallback language for content that does not declare one. Per-book, per-video, per-game and per-dictionary settings override this.';
       case 'manga_ocr_lens_language_label':
         return '識別語言';
+      case 'dict_user_title':
+        return 'User dictionary';
+      case 'dict_user_entry_add':
+        return 'Add entry';
+      case 'dict_user_entry_edit':
+        return 'Edit entry';
+      case 'dict_user_entry_delete_confirm':
+        return 'Delete this entry?';
+      case 'dict_user_field_expression':
+        return 'Headword';
+      case 'dict_user_field_reading':
+        return 'Reading';
+      case 'dict_user_field_meaning':
+        return 'Definition';
+      case 'dict_user_empty':
+        return 'No entries yet. Add one to build your own dictionary.';
+      case 'dict_user_expression_required':
+        return 'Headword cannot be empty';
+      case 'dict_user_rebuild_failed':
+        return 'Failed to rebuild the user dictionary';
+      case 'sync_err_peer_unreachable':
+        return 'Can\'t reach the paired device - it may be offline or not running Fushi.';
+      case 'remote_book_list_failed':
+        return 'Couldn\'t fetch the remote library from the paired device.';
+      case 'video_torznab_settings_hint':
+        return 'Configure one or more Jackett, Prowlarr, or compatible Torznab endpoints. Secrets are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'video_opensubtitles_settings_hint':
+        return 'API credentials are never exported in backups; they may sync to paired devices over Interconnect (can be turned off in Interconnect settings).';
+      case 'sync_interconnect_service_config_toggle':
+        return 'Sync service configuration from host';
+      case 'sync_interconnect_service_config_toggle_desc':
+        return 'Receive external service settings and API keys (Jimaku, TMDB, Torznab, OpenSubtitles, tracking) from the paired host over the encrypted Interconnect channel. Requires TLS.';
+      case 'video_setting_subtitle_backfill':
+        return 'Auto-fetch subtitles after scraping';
+      case 'video_setting_subtitle_backfill_hint':
+        return 'When a scrape finishes, videos that still have no subtitle get one from your configured online sources. Never replaces an existing subtitle.';
+      case 'video_setting_subtitle_sources_section':
+        return 'Online subtitle sources';
+      case 'video_subtitle_no_source_configured':
+        return 'No subtitle found · set up an online subtitle source';
+      case 'anime_download_subs_retrying':
+        return 'Subtitles: not up yet — will retry automatically';
+      case 'video_jimaku_language_follow_video':
+        return 'Follow video language';
+      case 'video_setting_jimaku_default_language_hint':
+        return 'Defaults to the video\'s own language (audio track / scraped metadata). Pick one to always prefer that language instead.';
+      case 'onboarding_title':
+        return 'Getting started';
+      case 'onboarding_welcome_headline':
+        return 'Welcome!';
+      case 'onboarding_feature_anki':
+        return 'Anki flashcards';
+      case 'onboarding_feature_anki_hint':
+        return 'Connect AnkiConnect or AnkiDroid to create flashcards';
+      case 'onboarding_feature_backup':
+        return 'Backup & sync';
+      case 'onboarding_feature_backup_hint':
+        return 'Back up your data to Google Drive, WebDAV and other backends';
+      case 'onboarding_feature_interconnect':
+        return 'Device interconnect';
+      case 'onboarding_feature_interconnect_hint':
+        return 'Pair devices on your LAN to share libraries and progress';
+      case 'onboarding_step_dictionary_action':
+        return 'Open dictionary manager';
+      case 'onboarding_step_anki_title':
+        return 'Set up Anki';
+      case 'onboarding_step_anki_body':
+        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
+      case 'onboarding_step_anki_action':
+        return 'Open card creation settings';
+      case 'onboarding_step_backup_title':
+        return 'Set up backup';
+      case 'onboarding_step_backup_body':
+        return 'Choose a backup backend and sign in, or export a local backup file.';
+      case 'onboarding_step_backup_action':
+        return 'Open backup settings';
+      case 'onboarding_step_interconnect_title':
+        return 'Set up interconnect';
+      case 'onboarding_step_interconnect_body':
+        return 'Enable interconnect and pair with other devices on your LAN to share libraries, progress and lookups.';
+      case 'onboarding_step_interconnect_action':
+        return 'Open interconnect settings';
+      case 'onboarding_finish_title':
+        return 'All set';
+      case 'onboarding_finish_body':
+        return 'You can revisit this guide anytime from Settings → System.';
+      case 'onboarding_action_next':
+        return 'Next';
+      case 'onboarding_action_finish':
+        return 'Finish';
+      case 'onboarding_action_skip':
+        return 'Skip for now';
+      case 'onboarding_reopen':
+        return 'Getting started guide';
+      case 'onboarding_welcome_body':
+        return 'Set your interface language and theme first — the next steps will walk you through the rest.';
+      case 'onboarding_features_title':
+        return 'Choose what you use';
+      case 'onboarding_features_modules_label':
+        return 'Library tabs (unchecked ones are hidden from the navigation bar; change anytime in Settings)';
+      case 'onboarding_features_setup_label':
+        return 'What to set up next';
+      case 'onboarding_feature_manga':
+        return 'Manga library';
+      case 'onboarding_feature_manga_hint':
+        return 'Read manga with OCR lookup';
+      case 'onboarding_feature_video':
+        return 'Video library';
+      case 'onboarding_feature_video_hint':
+        return 'Watch videos with subtitle lookup and mining';
+      case 'onboarding_feature_games':
+        return 'Galgame library';
+      case 'onboarding_feature_games_hint':
+        return 'Launch galgames with text-hook lookup (Windows only)';
+      case 'onboarding_feature_pack':
+        return 'Recommended pack (dictionaries + audio)';
+      case 'onboarding_feature_pack_hint':
+        return 'One download sets up Japanese dictionaries plus JA/EN pronunciation audio';
+      case 'onboarding_step_pack_title':
+        return 'Install the recommended pack';
+      case 'onboarding_step_pack_body':
+        return 'The recommended pack bundles Japanese word, pitch-accent and frequency dictionaries plus Japanese/English pronunciation audio databases. Download and import it here; importing replaces local data, so run it on a fresh install. Learning another language? Use the dictionary manager to import your own dictionaries instead.';
+      case 'onboarding_step_pack_download_action':
+        return 'Download and import';
+      case 'onboarding_step_pack_import_existing_action':
+        return 'Import downloaded pack';
+      case 'onboarding_step_pack_pick_action':
+        return 'Choose a local pack file';
+      case 'onboarding_step_pack_browser_action':
+        return 'Open in browser (Google Drive)';
+      case 'onboarding_pack_downloading':
+        return 'Downloading… cancel anytime, resumes next time';
+      case 'onboarding_pack_download_failed':
+        return ({required Object message}) => 'Download failed: ${message}';
+      case 'onboarding_step_extension_title':
+        return 'Browser extension';
+      case 'onboarding_step_extension_body':
+        return 'Install the companion browser extension to look up words on any web page.';
+      case 'onboarding_step_extension_action':
+        return 'Open extension guide';
+      case 'onboarding_step_fonts_title':
+        return 'Reading fonts';
+      case 'onboarding_step_fonts_body':
+        return 'Import custom fonts and choose which of UI, book text and dictionary use them.';
+      case 'settings_section_modules':
+        return 'Feature modules';
+      case 'module_manga_label':
+        return 'Manga';
+      case 'module_video_label':
+        return 'Video';
+      case 'module_games_label':
+        return 'Galgame';
+      case 'module_toggle_hint':
+        return 'Show this library tab in the navigation bar; turn off to hide it';
+      case 'video_setting_youtube_quality':
+        return 'YouTube quality';
+      case 'video_setting_youtube_quality_hint':
+        return 'Start streams at the highest tier up to this target; Auto prefers smooth playback (hardware-friendly codec, up to 1080p)';
+      case 'library_view_discover':
+        return 'Discover';
+      case 'manga_discovery_section_trending':
+        return 'Trending';
+      case 'manga_discovery_section_popular':
+        return 'Popular';
+      case 'manga_discovery_section_top_rated':
+        return 'Top rated';
+      case 'manga_discovery_section_latest_finished':
+        return 'Recently completed';
+      case 'manga_discovery_load_failed':
+        return 'Couldn\'t load the discover feed.';
+      case 'manga_discovery_match_section':
+        return 'Read from a source';
+      case 'manga_discovery_match_running':
+        return 'Matching in your enabled sources...';
+      case 'manga_discovery_match_none':
+        return 'No match found in enabled sources.';
+      case 'manga_discovery_status_releasing':
+        return 'Ongoing';
+      case 'manga_discovery_status_finished':
+        return 'Completed';
+      case 'manga_discovery_status_hiatus':
+        return 'On hiatus';
+      case 'manga_discovery_status_cancelled':
+        return 'Cancelled';
+      case 'manga_discovery_status_not_yet_released':
+        return 'Not yet released';
+      case 'manga_discovery_source_popular':
+        return ({required Object source}) => 'Popular on ${source}';
+      case 'mihon_extension_error':
+        return 'Extension error';
+      case 'discovery_all_sources':
+        return 'All sources';
+      case 'discovery_search_hint':
+        return 'Search online resources';
+      case 'discovery_enter_query_hint':
+        return 'Enter a keyword to search';
+      case 'discovery_empty':
+        return 'No results';
+      case 'discovery_partial_failure':
+        return 'Some sources are unavailable';
+      case 'discovery_load_more':
+        return 'Load more';
+      case 'discovery_download_queued':
+        return 'Added to downloads';
+      case 'discovery_torrent_pushed':
+        return 'Torrent task added';
+      case 'discovery_torrent_failed':
+        return 'Failed to add torrent task';
+      case 'discovery_kind_novel':
+        return 'Novels';
+      case 'discovery_kind_audiobook':
+        return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
+      case 'game_capture_workbench_tab':
+        return 'Capture workspace';
+      case 'video_builtin_sources_title':
+        return 'Built-in sources';
+      case 'video_resource_no_provider_title':
+        return 'No resource indexer configured';
+      case 'video_subtitle_no_provider_title':
+        return 'No subtitle provider configured';
+      case 'video_subtitle_no_provider_hint':
+        return 'Enter a Jimaku API key or enable OpenSubtitles under Settings, Downloads, External resource and subtitle providers.';
+      case 'anime_download_require_subs':
+        return 'Subtitles required';
+      case 'video_jimaku_scope_hint':
+        return 'Japanese subtitles for anime and Japanese live-action titles. A free API key is required.';
+      case 'video_builtin_apibay_hint':
+        return 'Movies and TV shows. Public index, no account needed.';
+      case 'video_builtin_knaben_hint':
+        return 'Movies and TV shows. Aggregates several public indexers.';
+      case 'video_jimaku_enabled_hint':
+        return 'Off means Jimaku is skipped even when an API key is saved.';
+      case 'discovery_sources_settings_title':
+        return 'Discovery sources';
+      case 'discovery_sources_settings_hint':
+        return 'Which built-in sources take part in the Discover page\'s All sources search. Picking a single source in the source dropdown always works, even when it is off here.';
+      case 'video_builtin_sources_hint':
+        return 'Ship with the app: no account, no API key. Turn one off to keep it out of resource searches.';
+      case 'video_builtin_nyaa_hint':
+        return 'Anime only. Movies and TV shows are covered by the two public indexers below.';
+      case 'video_resource_no_provider_hint':
+        return 'This search had no provider to query. Re-enable a built-in source, or add a Torznab indexer, under Settings, Downloads, External resource and subtitle providers.';
+      case 'discovery_source_kinds_label':
+        return ({required Object kinds}) => 'Covers: ${kinds}';
+      case 'video_source_scrape_rescrape_source':
+        return 'Rescrape this source';
+      case 'video_source_scrape_run_detail_title':
+        return 'Scrape result';
+      case 'video_source_scrape_run_no_issues':
+        return 'No warnings or errors were recorded.';
+      case 'video_source_scrape_manual_search_title':
+        return 'Specify the work manually';
+      case 'video_source_scrape_manual_search_hint':
+        return 'Search the metadata provider by title, then pick the correct work.';
+      case 'video_source_scrape_manual_search_action':
+        return 'Search';
+      case 'video_source_scrape_manual_search_empty':
+        return 'No results';
+      case 'profile_media_manga':
+        return 'Manga';
+      case 'profile_media_game':
+        return 'Game';
+      case 'profile_media_browser':
+        return 'Browser';
+      case 'mihon_store_remove':
+        return 'Remove extension store';
+      case 'video_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new videos';
+      case 'manga_import_folder_as_source_hint':
+        return 'Keep scanning this folder for new manga';
+      case 'download_no_managed_video_source':
+        return 'No managed video source yet. Downloads need a local video folder to land in.';
+      case 'download_add_video_source':
+        return 'Add video source';
       default:
         return null;
     }
