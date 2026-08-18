@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60928 (3584 per locale)
+/// Strings: 60996 (3588 per locale)
 ///
-/// Built on 2026-08-18 at 13:02 UTC
+/// Built on 2026-08-18 at 13:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4816,6 +4816,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get discovery_torrent_failed => 'Failed to add torrent task';
   String get discovery_kind_novel => 'Novels';
   String get discovery_kind_audiobook => 'Audiobooks';
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  String get manga_discovery_sources_browse => 'Browse a source';
+  String get discovery_kind_manga => 'Manga';
   String get game_capture_workbench_tab => 'Capture workspace';
   String get video_builtin_sources_title => 'Built-in sources';
   String get video_resource_no_provider_title =>
@@ -13084,6 +13090,16 @@ class _StringsAr extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
   @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
@@ -21450,6 +21466,16 @@ class _StringsDe extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
   @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
@@ -29832,6 +29858,16 @@ class _StringsEs extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
   @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
@@ -38227,6 +38263,16 @@ class _StringsFr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
@@ -46548,6 +46594,16 @@ class _StringsId extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
   @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
@@ -54917,6 +54973,16 @@ class _StringsIt extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
@@ -63098,6 +63164,16 @@ class _StringsJa extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
   @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
@@ -71287,6 +71363,16 @@ class _StringsKo extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
   @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
@@ -79635,6 +79721,16 @@ class _StringsNl extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
   @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
@@ -87996,6 +88092,16 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
@@ -96342,6 +96448,16 @@ class _StringsRu extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
@@ -104635,6 +104751,16 @@ class _StringsTh extends _StringsEn {
   String get discovery_kind_novel => 'Novels';
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
+  @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
   @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
@@ -112961,6 +113087,16 @@ class _StringsTr extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
@@ -121271,6 +121407,16 @@ class _StringsVi extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
@@ -128976,6 +129122,14 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_kind_novel => '小说';
   @override
   String get discovery_kind_audiobook => '有声书';
+  @override
+  String get discovery_source_pick_hint => '选择来源浏览，或输入关键词搜索全部来源';
+  @override
+  String get discovery_source_query_required => '该来源只支持关键词搜索';
+  @override
+  String get manga_discovery_sources_browse => '浏览来源';
+  @override
+  String get discovery_kind_manga => '漫画';
   @override
   String get game_capture_workbench_tab => '工作台';
   @override
@@ -137069,6 +137223,16 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get discovery_kind_audiobook => 'Audiobooks';
   @override
+  String get discovery_source_pick_hint =>
+      'Pick a source to browse, or type a keyword to search every source';
+  @override
+  String get discovery_source_query_required =>
+      'This source only supports keyword search';
+  @override
+  String get manga_discovery_sources_browse => 'Browse a source';
+  @override
+  String get discovery_kind_manga => 'Manga';
+  @override
   String get game_capture_workbench_tab => 'Capture workspace';
   @override
   String get video_builtin_sources_title => 'Built-in sources';
@@ -144444,6 +144608,14 @@ extension on _StringsEn {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -151800,6 +151972,14 @@ extension on _StringsAr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -159178,6 +159358,14 @@ extension on _StringsDe {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -166555,6 +166743,14 @@ extension on _StringsEs {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -173938,6 +174134,14 @@ extension on _StringsFr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -181303,6 +181507,14 @@ extension on _StringsId {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -188682,6 +188894,14 @@ extension on _StringsIt {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -196023,6 +196243,14 @@ extension on _StringsJa {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -203368,6 +203596,14 @@ extension on _StringsKo {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -210741,6 +210977,14 @@ extension on _StringsNl {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -218111,6 +218355,14 @@ extension on _StringsPtBr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -225486,6 +225738,14 @@ extension on _StringsRu {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -232844,6 +233104,14 @@ extension on _StringsTh {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -240211,6 +240479,14 @@ extension on _StringsTr {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -247574,6 +247850,14 @@ extension on _StringsVi {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
@@ -254878,6 +255162,14 @@ extension on _StringsZhCn {
         return '小说';
       case 'discovery_kind_audiobook':
         return '有声书';
+      case 'discovery_source_pick_hint':
+        return '选择来源浏览，或输入关键词搜索全部来源';
+      case 'discovery_source_query_required':
+        return '该来源只支持关键词搜索';
+      case 'manga_discovery_sources_browse':
+        return '浏览来源';
+      case 'discovery_kind_manga':
+        return '漫画';
       case 'game_capture_workbench_tab':
         return '工作台';
       case 'video_builtin_sources_title':
@@ -262214,6 +262506,14 @@ extension on _StringsZhHk {
         return 'Novels';
       case 'discovery_kind_audiobook':
         return 'Audiobooks';
+      case 'discovery_source_pick_hint':
+        return 'Pick a source to browse, or type a keyword to search every source';
+      case 'discovery_source_query_required':
+        return 'This source only supports keyword search';
+      case 'manga_discovery_sources_browse':
+        return 'Browse a source';
+      case 'discovery_kind_manga':
+        return 'Manga';
       case 'game_capture_workbench_tab':
         return 'Capture workspace';
       case 'video_builtin_sources_title':
