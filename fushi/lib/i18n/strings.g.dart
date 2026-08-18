@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60996 (3588 per locale)
+/// Strings: 61064 (3592 per locale)
 ///
-/// Built on 2026-08-18 at 13:05 UTC
+/// Built on 2026-08-18 at 15:26 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4871,6 +4871,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
   String get download_add_video_source => 'Add video source';
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -13180,6 +13185,15 @@ class _StringsAr extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -21556,6 +21570,15 @@ class _StringsDe extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -29948,6 +29971,15 @@ class _StringsEs extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -38352,6 +38384,15 @@ class _StringsFr extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -46684,6 +46725,15 @@ class _StringsId extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -55062,6 +55112,15 @@ class _StringsIt extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -63254,6 +63313,15 @@ class _StringsJa extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -71453,6 +71521,15 @@ class _StringsKo extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -79811,6 +79888,15 @@ class _StringsNl extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -88181,6 +88267,15 @@ class _StringsPtBr extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -96537,6 +96632,15 @@ class _StringsRu extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -104841,6 +104945,15 @@ class _StringsTh extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -113176,6 +113289,15 @@ class _StringsTr extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -121496,6 +121618,15 @@ class _StringsVi extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 // Path: <root>
@@ -129197,6 +129328,14 @@ class _StringsZhCn extends _StringsEn {
       '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
   @override
   String get download_add_video_source => '添加视频来源';
+  @override
+  String get video_subtitle_prev_cue_align => '上一句对齐到当前';
+  @override
+  String get video_subtitle_next_cue_align => '下一句对齐到当前';
+  @override
+  String video_control_custom_action({required Object index}) => '快捷键 ${index}';
+  @override
+  String get video_control_custom_action_none => '不绑定';
 }
 
 // Path: <root>
@@ -137312,6 +137451,15 @@ class _StringsZhHk extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get video_subtitle_prev_cue_align => 'Align previous line to now';
+  @override
+  String get video_subtitle_next_cue_align => 'Align next line to now';
+  @override
+  String video_control_custom_action({required Object index}) =>
+      'Shortcut ${index}';
+  @override
+  String get video_control_custom_action_none => 'Not assigned';
 }
 
 /// Flat map(s) containing all translations.
@@ -144678,6 +144826,14 @@ extension on _StringsEn {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -152042,6 +152198,14 @@ extension on _StringsAr {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -159428,6 +159592,14 @@ extension on _StringsDe {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -166813,6 +166985,14 @@ extension on _StringsEs {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -174204,6 +174384,14 @@ extension on _StringsFr {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -181577,6 +181765,14 @@ extension on _StringsId {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -188964,6 +189160,14 @@ extension on _StringsIt {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -196313,6 +196517,14 @@ extension on _StringsJa {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -203666,6 +203878,14 @@ extension on _StringsKo {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -211047,6 +211267,14 @@ extension on _StringsNl {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -218425,6 +218653,14 @@ extension on _StringsPtBr {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -225808,6 +226044,14 @@ extension on _StringsRu {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -233174,6 +233418,14 @@ extension on _StringsTh {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -240549,6 +240801,14 @@ extension on _StringsTr {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -247920,6 +248180,14 @@ extension on _StringsVi {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
@@ -255232,6 +255500,14 @@ extension on _StringsZhCn {
         return '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
       case 'download_add_video_source':
         return '添加视频来源';
+      case 'video_subtitle_prev_cue_align':
+        return '上一句对齐到当前';
+      case 'video_subtitle_next_cue_align':
+        return '下一句对齐到当前';
+      case 'video_control_custom_action':
+        return ({required Object index}) => '快捷键 ${index}';
+      case 'video_control_custom_action_none':
+        return '不绑定';
       default:
         return null;
     }
@@ -262576,6 +262852,14 @@ extension on _StringsZhHk {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'video_subtitle_prev_cue_align':
+        return 'Align previous line to now';
+      case 'video_subtitle_next_cue_align':
+        return 'Align next line to now';
+      case 'video_control_custom_action':
+        return ({required Object index}) => 'Shortcut ${index}';
+      case 'video_control_custom_action_none':
+        return 'Not assigned';
       default:
         return null;
     }
