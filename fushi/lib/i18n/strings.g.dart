@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 61506 (3618 per locale)
+/// Strings: 61608 (3624 per locale)
 ///
-/// Built on 2026-08-19 at 04:25 UTC
+/// Built on 2026-08-19 at 06:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4910,6 +4910,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  String get jellyfin_server_url => 'Server URL';
+  String get jellyfin_sign_in => 'Sign in';
+  String get jellyfin_sign_out => 'Sign out';
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -13290,6 +13297,19 @@ class _StringsAr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -21736,6 +21756,19 @@ class _StringsDe extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -30198,6 +30231,19 @@ class _StringsEs extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -38672,6 +38718,19 @@ class _StringsFr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -47075,6 +47134,19 @@ class _StringsId extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -55523,6 +55595,19 @@ class _StringsIt extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -63786,6 +63871,19 @@ class _StringsJa extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -72056,6 +72154,19 @@ class _StringsKo extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -80484,6 +80595,19 @@ class _StringsNl extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -88924,6 +89048,19 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -97350,6 +97487,19 @@ class _StringsRu extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -105724,6 +105874,19 @@ class _StringsTh extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -114130,6 +114293,19 @@ class _StringsTr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -122521,6 +122697,19 @@ class _StringsVi extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 // Path: <root>
@@ -130287,6 +130476,18 @@ class _StringsZhCn extends _StringsEn {
   String get storage_bundled_hint => '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
   @override
   String get storage_dictionary_delete_incomplete => '词典删除未完成、条目仍在，详见错误日志';
+  @override
+  String get jellyfin_settings_title => '媒体服务器（Jellyfin / Emby）';
+  @override
+  String get jellyfin_server_url => '服务器地址';
+  @override
+  String get jellyfin_sign_in => '登录';
+  @override
+  String get jellyfin_sign_out => '退出登录';
+  @override
+  String get jellyfin_sign_in_failed => '登录失败';
+  @override
+  String get jellyfin_settings_hint => '服务器上的视频会出现在媒体库中，点击直接串流播放。';
 }
 
 // Path: <root>
@@ -138473,6 +138674,19 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
 }
 
 /// Flat map(s) containing all translations.
@@ -145900,6 +146114,18 @@ extension on _StringsEn {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -153325,6 +153551,18 @@ extension on _StringsAr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -160772,6 +161010,18 @@ extension on _StringsDe {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -168218,6 +168468,18 @@ extension on _StringsEs {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -175670,6 +175932,18 @@ extension on _StringsFr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -183104,6 +183378,18 @@ extension on _StringsId {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -190552,6 +190838,18 @@ extension on _StringsIt {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -197962,6 +198260,18 @@ extension on _StringsJa {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -205376,6 +205686,18 @@ extension on _StringsKo {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -212818,6 +213140,18 @@ extension on _StringsNl {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -220257,6 +220591,18 @@ extension on _StringsPtBr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -227701,6 +228047,18 @@ extension on _StringsRu {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -235128,6 +235486,18 @@ extension on _StringsTh {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -242564,6 +242934,18 @@ extension on _StringsTr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -249996,6 +250378,18 @@ extension on _StringsVi {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
@@ -257369,6 +257763,18 @@ extension on _StringsZhCn {
         return '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
       case 'storage_dictionary_delete_incomplete':
         return '词典删除未完成、条目仍在，详见错误日志';
+      case 'jellyfin_settings_title':
+        return '媒体服务器（Jellyfin / Emby）';
+      case 'jellyfin_server_url':
+        return '服务器地址';
+      case 'jellyfin_sign_in':
+        return '登录';
+      case 'jellyfin_sign_out':
+        return '退出登录';
+      case 'jellyfin_sign_in_failed':
+        return '登录失败';
+      case 'jellyfin_settings_hint':
+        return '服务器上的视频会出现在媒体库中，点击直接串流播放。';
       default:
         return null;
     }
@@ -264774,6 +265180,18 @@ extension on _StringsZhHk {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
       default:
         return null;
     }
