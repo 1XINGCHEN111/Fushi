@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 61506 (3618 per locale)
+/// Strings: 61591 (3623 per locale)
 ///
-/// Built on 2026-08-19 at 04:25 UTC
+/// Built on 2026-08-19 at 06:16 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4910,6 +4910,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  String get module_books_label => 'Novels';
+  String get module_extension_label => 'Browser extension';
+  String get onboarding_feature_books => 'Novel library';
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -13290,6 +13297,18 @@ class _StringsAr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -21736,6 +21755,18 @@ class _StringsDe extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -30198,6 +30229,18 @@ class _StringsEs extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -38672,6 +38715,18 @@ class _StringsFr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -47075,6 +47130,18 @@ class _StringsId extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -55523,6 +55590,18 @@ class _StringsIt extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -63786,6 +63865,18 @@ class _StringsJa extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -72056,6 +72147,18 @@ class _StringsKo extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -80484,6 +80587,18 @@ class _StringsNl extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -88924,6 +89039,18 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -97350,6 +97477,18 @@ class _StringsRu extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -105724,6 +105863,18 @@ class _StringsTh extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -114130,6 +114281,18 @@ class _StringsTr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -122521,6 +122684,18 @@ class _StringsVi extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 // Path: <root>
@@ -130287,6 +130462,16 @@ class _StringsZhCn extends _StringsEn {
   String get storage_bundled_hint => '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
   @override
   String get storage_dictionary_delete_incomplete => '词典删除未完成、条目仍在，详见错误日志';
+  @override
+  String get module_books_label => '小说';
+  @override
+  String get module_extension_label => '浏览器扩展';
+  @override
+  String get onboarding_feature_books => '小说库';
+  @override
+  String get onboarding_feature_books_hint => '看小说（EPUB），查词与有声书同步';
+  @override
+  String get onboarding_feature_extension_hint => '网页查词（仅桌面）';
 }
 
 // Path: <root>
@@ -138473,6 +138658,18 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get module_books_label => 'Novels';
+  @override
+  String get module_extension_label => 'Browser extension';
+  @override
+  String get onboarding_feature_books => 'Novel library';
+  @override
+  String get onboarding_feature_books_hint =>
+      'Read EPUB novels with dictionary lookup and audiobook sync';
+  @override
+  String get onboarding_feature_extension_hint =>
+      'Look up words on any web page (desktop only)';
 }
 
 /// Flat map(s) containing all translations.
@@ -145900,6 +146097,16 @@ extension on _StringsEn {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -153325,6 +153532,16 @@ extension on _StringsAr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -160772,6 +160989,16 @@ extension on _StringsDe {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -168218,6 +168445,16 @@ extension on _StringsEs {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -175670,6 +175907,16 @@ extension on _StringsFr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -183104,6 +183351,16 @@ extension on _StringsId {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -190552,6 +190809,16 @@ extension on _StringsIt {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -197962,6 +198229,16 @@ extension on _StringsJa {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -205376,6 +205653,16 @@ extension on _StringsKo {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -212818,6 +213105,16 @@ extension on _StringsNl {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -220257,6 +220554,16 @@ extension on _StringsPtBr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -227701,6 +228008,16 @@ extension on _StringsRu {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -235128,6 +235445,16 @@ extension on _StringsTh {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -242564,6 +242891,16 @@ extension on _StringsTr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -249996,6 +250333,16 @@ extension on _StringsVi {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
@@ -257369,6 +257716,16 @@ extension on _StringsZhCn {
         return '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
       case 'storage_dictionary_delete_incomplete':
         return '词典删除未完成、条目仍在，详见错误日志';
+      case 'module_books_label':
+        return '小说';
+      case 'module_extension_label':
+        return '浏览器扩展';
+      case 'onboarding_feature_books':
+        return '小说库';
+      case 'onboarding_feature_books_hint':
+        return '看小说（EPUB），查词与有声书同步';
+      case 'onboarding_feature_extension_hint':
+        return '网页查词（仅桌面）';
       default:
         return null;
     }
@@ -264774,6 +265131,16 @@ extension on _StringsZhHk {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'module_books_label':
+        return 'Novels';
+      case 'module_extension_label':
+        return 'Browser extension';
+      case 'onboarding_feature_books':
+        return 'Novel library';
+      case 'onboarding_feature_books_hint':
+        return 'Read EPUB novels with dictionary lookup and audiobook sync';
+      case 'onboarding_feature_extension_hint':
+        return 'Look up words on any web page (desktop only)';
       default:
         return null;
     }
