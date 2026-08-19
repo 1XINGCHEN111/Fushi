@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 61591 (3623 per locale)
+/// Strings: 61642 (3626 per locale)
 ///
-/// Built on 2026-08-19 at 06:16 UTC
+/// Built on 2026-08-19 at 14:34 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4917,6 +4917,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Read EPUB novels with dictionary lookup and audiobook sync';
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  String get sync_pair_invalid_url => 'Invalid address format';
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -13309,6 +13314,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -21767,6 +21780,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -30241,6 +30262,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -38727,6 +38756,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -47142,6 +47179,14 @@ class _StringsId extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -55602,6 +55647,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -63877,6 +63930,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -72159,6 +72220,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -80599,6 +80668,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -89051,6 +89128,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -97489,6 +97574,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -105875,6 +105968,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -114293,6 +114394,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -122696,6 +122805,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -130472,6 +130589,13 @@ class _StringsZhCn extends _StringsEn {
   String get onboarding_feature_books_hint => '看小说（EPUB），查词与有声书同步';
   @override
   String get onboarding_feature_extension_hint => '网页查词（仅桌面）';
+  @override
+  String get sync_pair_invalid_url => '地址格式无效';
+  @override
+  String get sync_pair_peer_requires_https =>
+      '该设备只接受 HTTPS，请改用 https:// 开头的地址。';
+  @override
+  String get sync_pair_peer_not_https => '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
 }
 
 // Path: <root>
@@ -138670,6 +138794,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 /// Flat map(s) containing all translations.
@@ -146107,6 +146239,12 @@ extension on _StringsEn {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -153542,6 +153680,12 @@ extension on _StringsAr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -160999,6 +161143,12 @@ extension on _StringsDe {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -168455,6 +168605,12 @@ extension on _StringsEs {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -175917,6 +176073,12 @@ extension on _StringsFr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -183361,6 +183523,12 @@ extension on _StringsId {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -190819,6 +190987,12 @@ extension on _StringsIt {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -198239,6 +198413,12 @@ extension on _StringsJa {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -205663,6 +205843,12 @@ extension on _StringsKo {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -213115,6 +213301,12 @@ extension on _StringsNl {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -220564,6 +220756,12 @@ extension on _StringsPtBr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -228018,6 +228216,12 @@ extension on _StringsRu {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -235455,6 +235659,12 @@ extension on _StringsTh {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -242901,6 +243111,12 @@ extension on _StringsTr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -250343,6 +250559,12 @@ extension on _StringsVi {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -257726,6 +257948,12 @@ extension on _StringsZhCn {
         return '看小说（EPUB），查词与有声书同步';
       case 'onboarding_feature_extension_hint':
         return '网页查词（仅桌面）';
+      case 'sync_pair_invalid_url':
+        return '地址格式无效';
+      case 'sync_pair_peer_requires_https':
+        return '该设备只接受 HTTPS，请改用 https:// 开头的地址。';
+      case 'sync_pair_peer_not_https':
+        return '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
       default:
         return null;
     }
@@ -265141,6 +265369,12 @@ extension on _StringsZhHk {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
