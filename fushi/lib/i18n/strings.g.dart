@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 61591 (3623 per locale)
+/// Strings: 61693 (3629 per locale)
 ///
-/// Built on 2026-08-19 at 06:16 UTC
+/// Built on 2026-08-19 at 09:03 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4917,6 +4917,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Read EPUB novels with dictionary lookup and audiobook sync';
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  String get interconnect_share_statistics => 'Share statistics';
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  String get interconnect_share_favorites => 'Share favorites';
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  String get interconnect_share_section => 'Share with paired devices';
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -13309,6 +13318,21 @@ class _StringsAr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -21767,6 +21791,21 @@ class _StringsDe extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -30241,6 +30280,21 @@ class _StringsEs extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -38727,6 +38781,21 @@ class _StringsFr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -47142,6 +47211,21 @@ class _StringsId extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -55602,6 +55686,21 @@ class _StringsIt extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -63877,6 +63976,21 @@ class _StringsJa extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -72159,6 +72273,21 @@ class _StringsKo extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -80599,6 +80728,21 @@ class _StringsNl extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -89051,6 +89195,21 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -97489,6 +97648,21 @@ class _StringsRu extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -105875,6 +106049,21 @@ class _StringsTh extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -114293,6 +114482,21 @@ class _StringsTr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -122696,6 +122900,21 @@ class _StringsVi extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 // Path: <root>
@@ -130472,6 +130691,19 @@ class _StringsZhCn extends _StringsEn {
   String get onboarding_feature_books_hint => '看小说（EPUB），查词与有声书同步';
   @override
   String get onboarding_feature_extension_hint => '网页查词（仅桌面）';
+  @override
+  String get interconnect_share_statistics => '共享统计';
+  @override
+  String get interconnect_share_statistics_hint => '阅读与观看时长、字数、查词与制卡计数';
+  @override
+  String get interconnect_share_favorites => '共享收藏夹';
+  @override
+  String get interconnect_share_favorites_hint => '收藏的词与句子，取消收藏也会同步';
+  @override
+  String get interconnect_share_section => '与已配对设备共享';
+  @override
+  String get interconnect_share_section_footer =>
+      '这些内容与已配对设备双向合并，默认开启。关掉后本设备既不再发送，也不再接收。';
 }
 
 // Path: <root>
@@ -138670,6 +138902,21 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
 }
 
 /// Flat map(s) containing all translations.
@@ -146107,6 +146354,18 @@ extension on _StringsEn {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -153542,6 +153801,18 @@ extension on _StringsAr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -160999,6 +161270,18 @@ extension on _StringsDe {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -168455,6 +168738,18 @@ extension on _StringsEs {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -175917,6 +176212,18 @@ extension on _StringsFr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -183361,6 +183668,18 @@ extension on _StringsId {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -190819,6 +191138,18 @@ extension on _StringsIt {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -198239,6 +198570,18 @@ extension on _StringsJa {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -205663,6 +206006,18 @@ extension on _StringsKo {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -213115,6 +213470,18 @@ extension on _StringsNl {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -220564,6 +220931,18 @@ extension on _StringsPtBr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -228018,6 +228397,18 @@ extension on _StringsRu {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -235455,6 +235846,18 @@ extension on _StringsTh {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -242901,6 +243304,18 @@ extension on _StringsTr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -250343,6 +250758,18 @@ extension on _StringsVi {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
@@ -257726,6 +258153,18 @@ extension on _StringsZhCn {
         return '看小说（EPUB），查词与有声书同步';
       case 'onboarding_feature_extension_hint':
         return '网页查词（仅桌面）';
+      case 'interconnect_share_statistics':
+        return '共享统计';
+      case 'interconnect_share_statistics_hint':
+        return '阅读与观看时长、字数、查词与制卡计数';
+      case 'interconnect_share_favorites':
+        return '共享收藏夹';
+      case 'interconnect_share_favorites_hint':
+        return '收藏的词与句子，取消收藏也会同步';
+      case 'interconnect_share_section':
+        return '与已配对设备共享';
+      case 'interconnect_share_section_footer':
+        return '这些内容与已配对设备双向合并，默认开启。关掉后本设备既不再发送，也不再接收。';
       default:
         return null;
     }
@@ -265141,6 +265580,18 @@ extension on _StringsZhHk {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
       default:
         return null;
     }
