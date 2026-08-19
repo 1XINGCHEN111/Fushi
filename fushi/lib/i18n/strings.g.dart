@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 61506 (3618 per locale)
+/// Strings: 61608 (3624 per locale)
 ///
-/// Built on 2026-08-19 at 04:25 UTC
+/// Built on 2026-08-19 at 06:29 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4910,6 +4910,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -13290,6 +13298,20 @@ class _StringsAr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -21736,6 +21758,20 @@ class _StringsDe extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -30198,6 +30234,20 @@ class _StringsEs extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -38672,6 +38722,20 @@ class _StringsFr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -47075,6 +47139,20 @@ class _StringsId extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -55523,6 +55601,20 @@ class _StringsIt extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -63786,6 +63878,20 @@ class _StringsJa extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -72056,6 +72162,20 @@ class _StringsKo extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -80484,6 +80604,20 @@ class _StringsNl extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -88924,6 +89058,20 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -97350,6 +97498,20 @@ class _StringsRu extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -105724,6 +105886,20 @@ class _StringsTh extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -114130,6 +114306,20 @@ class _StringsTr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -122521,6 +122711,20 @@ class _StringsVi extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 // Path: <root>
@@ -130287,6 +130491,19 @@ class _StringsZhCn extends _StringsEn {
   String get storage_bundled_hint => '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
   @override
   String get storage_dictionary_delete_incomplete => '词典删除未完成、条目仍在，详见错误日志';
+  @override
+  String get video_setting_mpv_lua_scripts => '加载 Lua 脚本';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      '装载 mpv_scripts 目录里的全部 .lua 脚本。关闭在下次打开视频时生效。';
+  @override
+  String get video_setting_mpv_lua_scripts_import => '导入 Lua 脚本';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => '脚本已导入';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy => '复制脚本目录路径';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => '已复制目录路径';
 }
 
 // Path: <root>
@@ -138473,6 +138690,20 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
 }
 
 /// Flat map(s) containing all translations.
@@ -145900,6 +146131,18 @@ extension on _StringsEn {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -153325,6 +153568,18 @@ extension on _StringsAr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -160772,6 +161027,18 @@ extension on _StringsDe {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -168218,6 +168485,18 @@ extension on _StringsEs {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -175670,6 +175949,18 @@ extension on _StringsFr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -183104,6 +183395,18 @@ extension on _StringsId {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -190552,6 +190855,18 @@ extension on _StringsIt {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -197962,6 +198277,18 @@ extension on _StringsJa {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -205376,6 +205703,18 @@ extension on _StringsKo {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -212818,6 +213157,18 @@ extension on _StringsNl {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -220257,6 +220608,18 @@ extension on _StringsPtBr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -227701,6 +228064,18 @@ extension on _StringsRu {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -235128,6 +235503,18 @@ extension on _StringsTh {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -242564,6 +242951,18 @@ extension on _StringsTr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -249996,6 +250395,18 @@ extension on _StringsVi {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
@@ -257369,6 +257780,18 @@ extension on _StringsZhCn {
         return '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
       case 'storage_dictionary_delete_incomplete':
         return '词典删除未完成、条目仍在，详见错误日志';
+      case 'video_setting_mpv_lua_scripts':
+        return '加载 Lua 脚本';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return '装载 mpv_scripts 目录里的全部 .lua 脚本。关闭在下次打开视频时生效。';
+      case 'video_setting_mpv_lua_scripts_import':
+        return '导入 Lua 脚本';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return '脚本已导入';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return '复制脚本目录路径';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return '已复制目录路径';
       default:
         return null;
     }
@@ -264774,6 +265197,18 @@ extension on _StringsZhHk {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
       default:
         return null;
     }
