@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 61591 (3623 per locale)
+/// Strings: 61523 (3619 per locale)
 ///
-/// Built on 2026-08-19 at 06:16 UTC
+/// Built on 2026-08-19 at 10:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2962,11 +2962,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_immersive_unlocked => 'Immersive mode off';
   String get video_import_action => 'Import video';
   String get video_import_confirm => 'Import';
-  String video_import_folder_done({required Object count}) =>
-      'Imported ${count} series';
-  String get video_import_folder_empty => 'No video files found in this folder';
-  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
-  String get video_import_pick_playlist => 'Pick m3u8 playlist';
   String get video_import_pick_subtitle => 'Pick subtitle';
   String get video_import_pick_video => 'Pick video file';
   String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
@@ -9930,16 +9925,6 @@ class _StringsAr extends _StringsEn {
   String get video_import_action => 'استيراد فيديو';
   @override
   String get video_import_confirm => 'استيراد';
-  @override
-  String video_import_folder_done({required Object count}) =>
-      'تم استيراد ${count} سلسلة';
-  @override
-  String get video_import_folder_empty => 'لا توجد ملفات فيديو في هذا المجلد';
-  @override
-  String get video_import_pick_folder =>
-      'استيراد مجلد (تجميع الحلقات تلقائيًا)';
-  @override
-  String get video_import_pick_playlist => 'اختيار قائمة تشغيل m3u8';
   @override
   String get video_import_pick_subtitle => 'اختيار ترجمة';
   @override
@@ -18377,17 +18362,6 @@ class _StringsDe extends _StringsEn {
   String get video_import_action => 'Video importieren';
   @override
   String get video_import_confirm => 'Importieren';
-  @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} Serien importiert';
-  @override
-  String get video_import_folder_empty =>
-      'Keine Videodateien in diesem Ordner gefunden';
-  @override
-  String get video_import_pick_folder =>
-      'Ordner importieren (Folgen automatisch gruppieren)';
-  @override
-  String get video_import_pick_playlist => 'm3u8-Playlist auswählen';
   @override
   String get video_import_pick_subtitle => 'Untertitel auswählen';
   @override
@@ -26851,17 +26825,6 @@ class _StringsEs extends _StringsEn {
   String get video_import_action => 'Importar vídeo';
   @override
   String get video_import_confirm => 'Importar';
-  @override
-  String video_import_folder_done({required Object count}) =>
-      'Se importaron ${count} series';
-  @override
-  String get video_import_folder_empty =>
-      'No se encontraron archivos de vídeo en esta carpeta';
-  @override
-  String get video_import_pick_folder =>
-      'Importar carpeta (agrupar episodios automáticamente)';
-  @override
-  String get video_import_pick_playlist => 'Elegir lista m3u8';
   @override
   String get video_import_pick_subtitle => 'Elegir subtítulo';
   @override
@@ -35338,17 +35301,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_import_confirm => 'Importer';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} séries importées';
-  @override
-  String get video_import_folder_empty =>
-      'Aucun fichier vidéo trouvé dans ce dossier';
-  @override
-  String get video_import_pick_folder =>
-      'Importer un dossier (groupement auto des épisodes)';
-  @override
-  String get video_import_pick_playlist => 'Choisir une playlist m3u8';
-  @override
   String get video_import_pick_subtitle => 'Choisir un sous-titre';
   @override
   String get video_import_pick_video => 'Choisir le fichier vidéo';
@@ -43761,16 +43713,6 @@ class _StringsId extends _StringsEn {
   String get video_import_action => 'Impor video';
   @override
   String get video_import_confirm => 'Impor';
-  @override
-  String video_import_folder_done({required Object count}) =>
-      'Mengimpor ${count} seri';
-  @override
-  String get video_import_folder_empty => 'Tidak ada file video di folder ini';
-  @override
-  String get video_import_pick_folder =>
-      'Impor folder (kelompokkan episode otomatis)';
-  @override
-  String get video_import_pick_playlist => 'Pilih playlist m3u8';
   @override
   String get video_import_pick_subtitle => 'Pilih subtitle';
   @override
@@ -52215,17 +52157,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_import_confirm => 'Importa';
   @override
-  String video_import_folder_done({required Object count}) =>
-      'Importate ${count} serie';
-  @override
-  String get video_import_folder_empty =>
-      'Nessun file video trovato in questa cartella';
-  @override
-  String get video_import_pick_folder =>
-      'Importa cartella (raggruppa episodi automaticamente)';
-  @override
-  String get video_import_pick_playlist => 'Scegli playlist m3u8';
-  @override
   String get video_import_pick_subtitle => 'Scegli sottotitoli';
   @override
   String get video_import_pick_video => 'Scegli file video';
@@ -60519,15 +60450,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_import_confirm => 'インポート';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} 件のシリーズをインポートしました';
-  @override
-  String get video_import_folder_empty => 'このフォルダに動画ファイルがありません';
-  @override
-  String get video_import_pick_folder => 'フォルダをインポート（エピソードを自動分類）';
-  @override
-  String get video_import_pick_playlist => 'm3u8 プレイリストを選択';
-  @override
   String get video_import_pick_subtitle => '字幕を選択';
   @override
   String get video_import_pick_video => '動画ファイルを選択';
@@ -68797,15 +68719,6 @@ class _StringsKo extends _StringsEn {
   String get video_import_action => '비디오 가져오기';
   @override
   String get video_import_confirm => '가져오기';
-  @override
-  String video_import_folder_done({required Object count}) =>
-      '${count}개 시리즈를 가져왔습니다';
-  @override
-  String get video_import_folder_empty => '이 폴더에 비디오 파일이 없습니다';
-  @override
-  String get video_import_pick_folder => '폴더 가져오기(에피소드 자동 그룹화)';
-  @override
-  String get video_import_pick_playlist => 'm3u8 재생목록 선택';
   @override
   String get video_import_pick_subtitle => '자막 선택';
   @override
@@ -77215,17 +77128,6 @@ class _StringsNl extends _StringsEn {
   String get video_import_action => 'Video importeren';
   @override
   String get video_import_confirm => 'Importeren';
-  @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} series geïmporteerd';
-  @override
-  String get video_import_folder_empty =>
-      'Geen videobestanden in deze map gevonden';
-  @override
-  String get video_import_pick_folder =>
-      'Map importeren (afleveringen automatisch groeperen)';
-  @override
-  String get video_import_pick_playlist => 'm3u8-afspeellijst kiezen';
   @override
   String get video_import_pick_subtitle => 'Ondertitel kiezen';
   @override
@@ -85665,17 +85567,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_import_confirm => 'Importar';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} séries importadas';
-  @override
-  String get video_import_folder_empty =>
-      'Nenhum arquivo de vídeo encontrado nesta pasta';
-  @override
-  String get video_import_pick_folder =>
-      'Importar pasta (agrupar episódios automaticamente)';
-  @override
-  String get video_import_pick_playlist => 'Escolher playlist m3u8';
-  @override
   String get video_import_pick_subtitle => 'Escolher legenda';
   @override
   String get video_import_pick_video => 'Escolher arquivo de vídeo';
@@ -94108,16 +93999,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_import_confirm => 'Импортировать';
   @override
-  String video_import_folder_done({required Object count}) =>
-      'Импортировано сериалов: ${count}';
-  @override
-  String get video_import_folder_empty => 'В этой папке нет видеофайлов';
-  @override
-  String get video_import_pick_folder =>
-      'Импорт папки (авто-группировка серий)';
-  @override
-  String get video_import_pick_playlist => 'Выбрать плейлист m3u8';
-  @override
   String get video_import_pick_subtitle => 'Выбрать субтитры';
   @override
   String get video_import_pick_video => 'Выбрать видеофайл';
@@ -102500,16 +102381,6 @@ class _StringsTh extends _StringsEn {
   String get video_import_action => 'นำเข้าวิดีโอ';
   @override
   String get video_import_confirm => 'นำเข้า';
-  @override
-  String video_import_folder_done({required Object count}) =>
-      'นำเข้า ${count} ชุดแล้ว';
-  @override
-  String get video_import_folder_empty => 'ไม่พบไฟล์วิดีโอในโฟลเดอร์นี้';
-  @override
-  String get video_import_pick_folder =>
-      'นำเข้าโฟลเดอร์ (จัดกลุ่มตอนอัตโนมัติ)';
-  @override
-  String get video_import_pick_playlist => 'เลือกเพลย์ลิสต์ m3u8';
   @override
   String get video_import_pick_subtitle => 'เลือกคำบรรยาย';
   @override
@@ -110912,17 +110783,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_import_confirm => 'İçe aktar';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} dizi içe aktarıldı';
-  @override
-  String get video_import_folder_empty =>
-      'Bu klasörde video dosyası bulunamadı';
-  @override
-  String get video_import_pick_folder =>
-      'Klasör içe aktar (bölümleri otomatik grupla)';
-  @override
-  String get video_import_pick_playlist => 'm3u8 oynatma listesi seç';
-  @override
   String get video_import_pick_subtitle => 'Altyazı seç';
   @override
   String get video_import_pick_video => 'Video dosyası seç';
@@ -119320,16 +119180,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_import_confirm => 'Nhập';
   @override
-  String video_import_folder_done({required Object count}) =>
-      'Đã nhập ${count} series';
-  @override
-  String get video_import_folder_empty =>
-      'Không tìm thấy tệp video trong thư mục này';
-  @override
-  String get video_import_pick_folder => 'Nhập thư mục (tự nhóm tập)';
-  @override
-  String get video_import_pick_playlist => 'Chọn danh sách phát m3u8';
-  @override
   String get video_import_pick_subtitle => 'Chọn phụ đề';
   @override
   String get video_import_pick_video => 'Chọn tệp video';
@@ -127382,15 +127232,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_import_confirm => '导入';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '已导入 ${count} 个系列';
-  @override
-  String get video_import_folder_empty => '此文件夹里没有视频文件';
-  @override
-  String get video_import_pick_folder => '导入文件夹（自动分组剧集）';
-  @override
-  String get video_import_pick_playlist => '选择 m3u8 播放列表';
-  @override
   String get video_import_pick_subtitle => '选择字幕';
   @override
   String get video_import_pick_video => '选择视频文件';
@@ -135324,15 +135165,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_import_confirm => '匯入';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '已匯入 ${count} 個系列';
-  @override
-  String get video_import_folder_empty => '此資料夾內沒有影片檔案';
-  @override
-  String get video_import_pick_folder => '匯入資料夾（自動分組劇集）';
-  @override
-  String get video_import_pick_playlist => '選擇 m3u8 播放清單';
-  @override
   String get video_import_pick_subtitle => '選擇字幕';
   @override
   String get video_import_pick_video => '選擇影片檔案';
@@ -143184,14 +143016,6 @@ extension on _StringsEn {
         return 'Import video';
       case 'video_import_confirm':
         return 'Import';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Imported ${count} series';
-      case 'video_import_folder_empty':
-        return 'No video files found in this folder';
-      case 'video_import_pick_folder':
-        return 'Import folder (auto-group episodes)';
-      case 'video_import_pick_playlist':
-        return 'Pick m3u8 playlist';
       case 'video_import_pick_subtitle':
         return 'Pick subtitle';
       case 'video_import_pick_video':
@@ -150618,14 +150442,6 @@ extension on _StringsAr {
         return 'استيراد فيديو';
       case 'video_import_confirm':
         return 'استيراد';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'تم استيراد ${count} سلسلة';
-      case 'video_import_folder_empty':
-        return 'لا توجد ملفات فيديو في هذا المجلد';
-      case 'video_import_pick_folder':
-        return 'استيراد مجلد (تجميع الحلقات تلقائيًا)';
-      case 'video_import_pick_playlist':
-        return 'اختيار قائمة تشغيل m3u8';
       case 'video_import_pick_subtitle':
         return 'اختيار ترجمة';
       case 'video_import_pick_video':
@@ -158074,14 +157890,6 @@ extension on _StringsDe {
         return 'Video importieren';
       case 'video_import_confirm':
         return 'Importieren';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} Serien importiert';
-      case 'video_import_folder_empty':
-        return 'Keine Videodateien in diesem Ordner gefunden';
-      case 'video_import_pick_folder':
-        return 'Ordner importieren (Folgen automatisch gruppieren)';
-      case 'video_import_pick_playlist':
-        return 'm3u8-Playlist auswählen';
       case 'video_import_pick_subtitle':
         return 'Untertitel auswählen';
       case 'video_import_pick_video':
@@ -165531,14 +165339,6 @@ extension on _StringsEs {
         return 'Importar vídeo';
       case 'video_import_confirm':
         return 'Importar';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Se importaron ${count} series';
-      case 'video_import_folder_empty':
-        return 'No se encontraron archivos de vídeo en esta carpeta';
-      case 'video_import_pick_folder':
-        return 'Importar carpeta (agrupar episodios automáticamente)';
-      case 'video_import_pick_playlist':
-        return 'Elegir lista m3u8';
       case 'video_import_pick_subtitle':
         return 'Elegir subtítulo';
       case 'video_import_pick_video':
@@ -172992,14 +172792,6 @@ extension on _StringsFr {
         return 'Importer une vidéo';
       case 'video_import_confirm':
         return 'Importer';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} séries importées';
-      case 'video_import_folder_empty':
-        return 'Aucun fichier vidéo trouvé dans ce dossier';
-      case 'video_import_pick_folder':
-        return 'Importer un dossier (groupement auto des épisodes)';
-      case 'video_import_pick_playlist':
-        return 'Choisir une playlist m3u8';
       case 'video_import_pick_subtitle':
         return 'Choisir un sous-titre';
       case 'video_import_pick_video':
@@ -180437,14 +180229,6 @@ extension on _StringsId {
         return 'Impor video';
       case 'video_import_confirm':
         return 'Impor';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Mengimpor ${count} seri';
-      case 'video_import_folder_empty':
-        return 'Tidak ada file video di folder ini';
-      case 'video_import_pick_folder':
-        return 'Impor folder (kelompokkan episode otomatis)';
-      case 'video_import_pick_playlist':
-        return 'Pilih playlist m3u8';
       case 'video_import_pick_subtitle':
         return 'Pilih subtitle';
       case 'video_import_pick_video':
@@ -187894,14 +187678,6 @@ extension on _StringsIt {
         return 'Importa video';
       case 'video_import_confirm':
         return 'Importa';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Importate ${count} serie';
-      case 'video_import_folder_empty':
-        return 'Nessun file video trovato in questa cartella';
-      case 'video_import_pick_folder':
-        return 'Importa cartella (raggruppa episodi automaticamente)';
-      case 'video_import_pick_playlist':
-        return 'Scegli playlist m3u8';
       case 'video_import_pick_subtitle':
         return 'Scegli sottotitoli';
       case 'video_import_pick_video':
@@ -195317,14 +195093,6 @@ extension on _StringsJa {
         return '動画をインポート';
       case 'video_import_confirm':
         return 'インポート';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} 件のシリーズをインポートしました';
-      case 'video_import_folder_empty':
-        return 'このフォルダに動画ファイルがありません';
-      case 'video_import_pick_folder':
-        return 'フォルダをインポート（エピソードを自動分類）';
-      case 'video_import_pick_playlist':
-        return 'm3u8 プレイリストを選択';
       case 'video_import_pick_subtitle':
         return '字幕を選択';
       case 'video_import_pick_video':
@@ -202740,14 +202508,6 @@ extension on _StringsKo {
         return '비디오 가져오기';
       case 'video_import_confirm':
         return '가져오기';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count}개 시리즈를 가져왔습니다';
-      case 'video_import_folder_empty':
-        return '이 폴더에 비디오 파일이 없습니다';
-      case 'video_import_pick_folder':
-        return '폴더 가져오기(에피소드 자동 그룹화)';
-      case 'video_import_pick_playlist':
-        return 'm3u8 재생목록 선택';
       case 'video_import_pick_subtitle':
         return '자막 선택';
       case 'video_import_pick_video':
@@ -210189,14 +209949,6 @@ extension on _StringsNl {
         return 'Video importeren';
       case 'video_import_confirm':
         return 'Importeren';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} series geïmporteerd';
-      case 'video_import_folder_empty':
-        return 'Geen videobestanden in deze map gevonden';
-      case 'video_import_pick_folder':
-        return 'Map importeren (afleveringen automatisch groeperen)';
-      case 'video_import_pick_playlist':
-        return 'm3u8-afspeellijst kiezen';
       case 'video_import_pick_subtitle':
         return 'Ondertitel kiezen';
       case 'video_import_pick_video':
@@ -217640,14 +217392,6 @@ extension on _StringsPtBr {
         return 'Importar vídeo';
       case 'video_import_confirm':
         return 'Importar';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} séries importadas';
-      case 'video_import_folder_empty':
-        return 'Nenhum arquivo de vídeo encontrado nesta pasta';
-      case 'video_import_pick_folder':
-        return 'Importar pasta (agrupar episódios automaticamente)';
-      case 'video_import_pick_playlist':
-        return 'Escolher playlist m3u8';
       case 'video_import_pick_subtitle':
         return 'Escolher legenda';
       case 'video_import_pick_video':
@@ -225094,14 +224838,6 @@ extension on _StringsRu {
         return 'Импортировать видео';
       case 'video_import_confirm':
         return 'Импортировать';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Импортировано сериалов: ${count}';
-      case 'video_import_folder_empty':
-        return 'В этой папке нет видеофайлов';
-      case 'video_import_pick_folder':
-        return 'Импорт папки (авто-группировка серий)';
-      case 'video_import_pick_playlist':
-        return 'Выбрать плейлист m3u8';
       case 'video_import_pick_subtitle':
         return 'Выбрать субтитры';
       case 'video_import_pick_video':
@@ -232531,14 +232267,6 @@ extension on _StringsTh {
         return 'นำเข้าวิดีโอ';
       case 'video_import_confirm':
         return 'นำเข้า';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'นำเข้า ${count} ชุดแล้ว';
-      case 'video_import_folder_empty':
-        return 'ไม่พบไฟล์วิดีโอในโฟลเดอร์นี้';
-      case 'video_import_pick_folder':
-        return 'นำเข้าโฟลเดอร์ (จัดกลุ่มตอนอัตโนมัติ)';
-      case 'video_import_pick_playlist':
-        return 'เลือกเพลย์ลิสต์ m3u8';
       case 'video_import_pick_subtitle':
         return 'เลือกคำบรรยาย';
       case 'video_import_pick_video':
@@ -239976,14 +239704,6 @@ extension on _StringsTr {
         return 'Video içe aktar';
       case 'video_import_confirm':
         return 'İçe aktar';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} dizi içe aktarıldı';
-      case 'video_import_folder_empty':
-        return 'Bu klasörde video dosyası bulunamadı';
-      case 'video_import_pick_folder':
-        return 'Klasör içe aktar (bölümleri otomatik grupla)';
-      case 'video_import_pick_playlist':
-        return 'm3u8 oynatma listesi seç';
       case 'video_import_pick_subtitle':
         return 'Altyazı seç';
       case 'video_import_pick_video':
@@ -247419,14 +247139,6 @@ extension on _StringsVi {
         return 'Nhập video';
       case 'video_import_confirm':
         return 'Nhập';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Đã nhập ${count} series';
-      case 'video_import_folder_empty':
-        return 'Không tìm thấy tệp video trong thư mục này';
-      case 'video_import_pick_folder':
-        return 'Nhập thư mục (tự nhóm tập)';
-      case 'video_import_pick_playlist':
-        return 'Chọn danh sách phát m3u8';
       case 'video_import_pick_subtitle':
         return 'Chọn phụ đề';
       case 'video_import_pick_video':
@@ -254820,14 +254532,6 @@ extension on _StringsZhCn {
         return '导入视频';
       case 'video_import_confirm':
         return '导入';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '已导入 ${count} 个系列';
-      case 'video_import_folder_empty':
-        return '此文件夹里没有视频文件';
-      case 'video_import_pick_folder':
-        return '导入文件夹（自动分组剧集）';
-      case 'video_import_pick_playlist':
-        return '选择 m3u8 播放列表';
       case 'video_import_pick_subtitle':
         return '选择字幕';
       case 'video_import_pick_video':
@@ -262220,14 +261924,6 @@ extension on _StringsZhHk {
         return '匯入影片';
       case 'video_import_confirm':
         return '匯入';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '已匯入 ${count} 個系列';
-      case 'video_import_folder_empty':
-        return '此資料夾內沒有影片檔案';
-      case 'video_import_pick_folder':
-        return '匯入資料夾（自動分組劇集）';
-      case 'video_import_pick_playlist':
-        return '選擇 m3u8 播放清單';
       case 'video_import_pick_subtitle':
         return '選擇字幕';
       case 'video_import_pick_video':
