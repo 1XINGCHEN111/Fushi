@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 61506 (3618 per locale)
+/// Strings: 61523 (3619 per locale)
 ///
-/// Built on 2026-08-19 at 04:25 UTC
+/// Built on 2026-08-19 at 07:50 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4910,6 +4910,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -13290,6 +13292,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -21736,6 +21741,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -30198,6 +30206,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -38672,6 +38683,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -47075,6 +47089,9 @@ class _StringsId extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -55523,6 +55540,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -63786,6 +63806,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -72056,6 +72079,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -80484,6 +80510,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -88924,6 +88953,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -97350,6 +97382,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -105724,6 +105759,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -114130,6 +114168,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -122521,6 +122562,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 // Path: <root>
@@ -130287,6 +130331,9 @@ class _StringsZhCn extends _StringsEn {
   String get storage_bundled_hint => '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
   @override
   String get storage_dictionary_delete_incomplete => '词典删除未完成、条目仍在，详见错误日志';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      '本局还没有捕获到任何台词，卡片无处挂靠。请在工作台换一条文本线程。';
 }
 
 // Path: <root>
@@ -138473,6 +138520,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get storage_dictionary_delete_incomplete =>
       'Dictionary still present after deletion, see error log';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
 }
 
 /// Flat map(s) containing all translations.
@@ -145900,6 +145950,8 @@ extension on _StringsEn {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -153325,6 +153377,8 @@ extension on _StringsAr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -160772,6 +160826,8 @@ extension on _StringsDe {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -168218,6 +168274,8 @@ extension on _StringsEs {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -175670,6 +175728,8 @@ extension on _StringsFr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -183104,6 +183164,8 @@ extension on _StringsId {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -190552,6 +190614,8 @@ extension on _StringsIt {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -197962,6 +198026,8 @@ extension on _StringsJa {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -205376,6 +205442,8 @@ extension on _StringsKo {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -212818,6 +212886,8 @@ extension on _StringsNl {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -220257,6 +220327,8 @@ extension on _StringsPtBr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -227701,6 +227773,8 @@ extension on _StringsRu {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -235128,6 +235202,8 @@ extension on _StringsTh {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -242564,6 +242640,8 @@ extension on _StringsTr {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -249996,6 +250074,8 @@ extension on _StringsVi {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
@@ -257369,6 +257449,8 @@ extension on _StringsZhCn {
         return '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
       case 'storage_dictionary_delete_incomplete':
         return '词典删除未完成、条目仍在，详见错误日志';
+      case 'game_hook_mining_no_session_lines':
+        return '本局还没有捕获到任何台词，卡片无处挂靠。请在工作台换一条文本线程。';
       default:
         return null;
     }
@@ -264774,6 +264856,8 @@ extension on _StringsZhHk {
         return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
       case 'storage_dictionary_delete_incomplete':
         return 'Dictionary still present after deletion, see error log';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
       default:
         return null;
     }
