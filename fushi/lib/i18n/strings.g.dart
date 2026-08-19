@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60996 (3588 per locale)
+/// Strings: 61166 (3598 per locale)
 ///
-/// Built on 2026-08-18 at 13:05 UTC
+/// Built on 2026-08-19 at 04:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4871,6 +4871,27 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_no_managed_video_source =>
       'No managed video source yet. Downloads need a local video folder to land in.';
   String get download_add_video_source => 'Add video source';
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -13180,6 +13201,37 @@ class _StringsAr extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -21556,6 +21608,37 @@ class _StringsDe extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -29948,6 +30031,37 @@ class _StringsEs extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -38352,6 +38466,37 @@ class _StringsFr extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -46684,6 +46829,37 @@ class _StringsId extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -55062,6 +55238,37 @@ class _StringsIt extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -63254,6 +63461,37 @@ class _StringsJa extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -71453,6 +71691,37 @@ class _StringsKo extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -79811,6 +80080,37 @@ class _StringsNl extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -88181,6 +88481,37 @@ class _StringsPtBr extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -96537,6 +96868,37 @@ class _StringsRu extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -104841,6 +105203,37 @@ class _StringsTh extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -113176,6 +113569,37 @@ class _StringsTr extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -121496,6 +121920,37 @@ class _StringsVi extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 // Path: <root>
@@ -129197,6 +129652,30 @@ class _StringsZhCn extends _StringsEn {
       '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
   @override
   String get download_add_video_source => '添加视频来源';
+  @override
+  String get manga_ocr_engine_auto_desc => '优先用你已配好的离线引擎，不会自作主张上传到 Lens。';
+  @override
+  String get manga_ocr_engine_local_onnx_desc => '完全离线，质量最好。需要一次性下载模型，老设备上较慢。';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      '需要联网，会把页面图片上传给 Google。速度快、不用下模型，但质量不如本地模型。';
+  @override
+  String get manga_ocr_engine_external_desc => '调用你自己安装的 mokuro 命令行，仅桌面可用。';
+  @override
+  String get manga_ocr_engine_paired_host_desc => '交给局域网里已配对的设备来跑，本机不下任何模型。';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) => '已占用 ${size}';
+  @override
+  String manga_ocr_model_download_size({required Object size}) => '需下载 ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      '模型已删除，释放 ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine => '当前引擎用不到这些本地模型文件。';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} / ${total}';
 }
 
 // Path: <root>
@@ -137312,6 +137791,37 @@ class _StringsZhHk extends _StringsEn {
       'No managed video source yet. Downloads need a local video folder to land in.';
   @override
   String get download_add_video_source => 'Add video source';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
 }
 
 /// Flat map(s) containing all translations.
@@ -144678,6 +145188,27 @@ extension on _StringsEn {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -152042,6 +152573,27 @@ extension on _StringsAr {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -159428,6 +159980,27 @@ extension on _StringsDe {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -166813,6 +167386,27 @@ extension on _StringsEs {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -174204,6 +174798,27 @@ extension on _StringsFr {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -181577,6 +182192,27 @@ extension on _StringsId {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -188964,6 +189600,27 @@ extension on _StringsIt {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -196313,6 +196970,27 @@ extension on _StringsJa {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -203666,6 +204344,27 @@ extension on _StringsKo {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -211047,6 +211746,27 @@ extension on _StringsNl {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -218425,6 +219145,27 @@ extension on _StringsPtBr {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -225808,6 +226549,27 @@ extension on _StringsRu {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -233174,6 +233936,27 @@ extension on _StringsTh {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -240549,6 +241332,27 @@ extension on _StringsTr {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -247920,6 +248724,27 @@ extension on _StringsVi {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
@@ -255232,6 +256057,27 @@ extension on _StringsZhCn {
         return '还没有受管视频来源。下载完成的视频需要一个本地视频文件夹才能入库。';
       case 'download_add_video_source':
         return '添加视频来源';
+      case 'manga_ocr_engine_auto_desc':
+        return '优先用你已配好的离线引擎，不会自作主张上传到 Lens。';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return '完全离线，质量最好。需要一次性下载模型，老设备上较慢。';
+      case 'manga_ocr_engine_google_lens_desc':
+        return '需要联网，会把页面图片上传给 Google。速度快、不用下模型，但质量不如本地模型。';
+      case 'manga_ocr_engine_external_desc':
+        return '调用你自己安装的 mokuro 命令行，仅桌面可用。';
+      case 'manga_ocr_engine_paired_host_desc':
+        return '交给局域网里已配对的设备来跑，本机不下任何模型。';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => '已占用 ${size}';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => '需下载 ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => '模型已删除，释放 ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return '当前引擎用不到这些本地模型文件。';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} / ${total}';
       default:
         return null;
     }
@@ -262576,6 +263422,27 @@ extension on _StringsZhHk {
         return 'No managed video source yet. Downloads need a local video folder to land in.';
       case 'download_add_video_source':
         return 'Add video source';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
       default:
         return null;
     }
