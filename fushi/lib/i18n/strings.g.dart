@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 60979 (3587 per locale)
+/// Strings: 61506 (3618 per locale)
 ///
-/// Built on 2026-08-19 at 04:23 UTC
+/// Built on 2026-08-19 at 04:25 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4869,6 +4869,47 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String video_control_custom_action({required Object index}) =>
       'Shortcut ${index}';
   String get video_control_custom_action_none => 'Not assigned';
+  String get settings_destination_storage => 'Storage';
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  String get storage_overview_section => 'Disk usage';
+  String get storage_overview_total => 'Total';
+  String get storage_overview_refresh => 'Rescan';
+  String get storage_overview_scanning => 'Scanning…';
+  String get storage_category_books => 'Books & audiobooks';
+  String get storage_category_dictionaries => 'Dictionaries';
+  String get storage_category_video_downloads => 'Video downloads';
+  String get storage_category_covers => 'Covers & thumbnails';
+  String get storage_category_subtitles => 'Subtitles';
+  String get storage_category_shaders => 'Video shaders';
+  String get storage_category_custom_fonts => 'Custom fonts';
+  String get storage_category_web => 'Web archive & browser data';
+  String get storage_category_exports => 'Exports';
+  String get storage_category_database => 'Database & internal data';
+  String get storage_category_ocr_models => 'Manga OCR models';
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  String get storage_entry_delete_done => 'Deleted';
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  String get storage_modules_section => 'Optional modules';
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  String get storage_modules_not_installed => 'Not installed';
+  String get storage_bundled_section => 'Bundled components';
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -13177,6 +13218,78 @@ class _StringsAr extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -21551,6 +21664,78 @@ class _StringsDe extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -29941,6 +30126,78 @@ class _StringsEs extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -38343,6 +38600,78 @@ class _StringsFr extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -46674,6 +47003,78 @@ class _StringsId extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -55050,6 +55451,78 @@ class _StringsIt extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -63241,6 +63714,78 @@ class _StringsJa extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -71439,6 +71984,78 @@ class _StringsKo extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -79795,6 +80412,78 @@ class _StringsNl extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -88163,6 +88852,78 @@ class _StringsPtBr extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -96517,6 +97278,78 @@ class _StringsRu extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -104819,6 +105652,78 @@ class _StringsTh extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -113153,6 +114058,78 @@ class _StringsTr extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -121472,6 +122449,78 @@ class _StringsVi extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 // Path: <root>
@@ -129171,6 +130220,73 @@ class _StringsZhCn extends _StringsEn {
   String video_control_custom_action({required Object index}) => '快捷键 ${index}';
   @override
   String get video_control_custom_action_none => '不绑定';
+  @override
+  String get settings_destination_storage => '存储';
+  @override
+  String get settings_destination_storage_summary => '磁盘占用与可清理模块';
+  @override
+  String get storage_overview_section => '磁盘占用';
+  @override
+  String get storage_overview_total => '总计';
+  @override
+  String get storage_overview_refresh => '重新扫描';
+  @override
+  String get storage_overview_scanning => '扫描中…';
+  @override
+  String get storage_category_books => '书籍与有声书';
+  @override
+  String get storage_category_dictionaries => '词典';
+  @override
+  String get storage_category_video_downloads => '视频下载';
+  @override
+  String get storage_category_covers => '封面与缩略图';
+  @override
+  String get storage_category_subtitles => '字幕';
+  @override
+  String get storage_category_shaders => '视频着色器';
+  @override
+  String get storage_category_custom_fonts => '自定义字体';
+  @override
+  String get storage_category_web => '网页存档与浏览器数据';
+  @override
+  String get storage_category_exports => '导出文件';
+  @override
+  String get storage_category_database => '数据库与内部数据';
+  @override
+  String get storage_category_ocr_models => '漫画 OCR 模型';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '其余 ${n} 项，共 ${size}';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      '删除「${name}」？';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      '将从本设备删除这本书的正文、阅读进度与配对音频副本。';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body => '将删除该词典及其已导入数据。';
+  @override
+  String get storage_entry_delete_done => '已删除';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      '删除失败：${reason}';
+  @override
+  String get storage_modules_section => '可选模块';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K 着色器';
+  @override
+  String get storage_modules_anime4k_hint => '可随时在视频设置的画质增强里重新下载';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      '已删除 ${n} 个着色器文件';
+  @override
+  String get storage_modules_not_installed => '未安装';
+  @override
+  String get storage_bundled_section => '随包组件';
+  @override
+  String get storage_bundled_hint => '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
+  @override
+  String get storage_dictionary_delete_incomplete => '词典删除未完成、条目仍在，详见错误日志';
 }
 
 // Path: <root>
@@ -137285,6 +138401,78 @@ class _StringsZhHk extends _StringsEn {
       'Shortcut ${index}';
   @override
   String get video_control_custom_action_none => 'Not assigned';
+  @override
+  String get settings_destination_storage => 'Storage';
+  @override
+  String get settings_destination_storage_summary =>
+      'Disk usage and reclaimable modules';
+  @override
+  String get storage_overview_section => 'Disk usage';
+  @override
+  String get storage_overview_total => 'Total';
+  @override
+  String get storage_overview_refresh => 'Rescan';
+  @override
+  String get storage_overview_scanning => 'Scanning…';
+  @override
+  String get storage_category_books => 'Books & audiobooks';
+  @override
+  String get storage_category_dictionaries => 'Dictionaries';
+  @override
+  String get storage_category_video_downloads => 'Video downloads';
+  @override
+  String get storage_category_covers => 'Covers & thumbnails';
+  @override
+  String get storage_category_subtitles => 'Subtitles';
+  @override
+  String get storage_category_shaders => 'Video shaders';
+  @override
+  String get storage_category_custom_fonts => 'Custom fonts';
+  @override
+  String get storage_category_web => 'Web archive & browser data';
+  @override
+  String get storage_category_exports => 'Exports';
+  @override
+  String get storage_category_database => 'Database & internal data';
+  @override
+  String get storage_category_ocr_models => 'Manga OCR models';
+  @override
+  String storage_entry_more_rest({required Object n, required Object size}) =>
+      '${n} more items, ${size} in total';
+  @override
+  String storage_entry_delete_confirm_title({required Object name}) =>
+      'Delete ${name}?';
+  @override
+  String get storage_entry_delete_book_confirm_body =>
+      'This removes the book, its reading progress and paired audio copies from this device.';
+  @override
+  String get storage_entry_delete_dictionary_confirm_body =>
+      'This removes the dictionary and its imported data.';
+  @override
+  String get storage_entry_delete_done => 'Deleted';
+  @override
+  String storage_entry_delete_failed({required Object reason}) =>
+      'Delete failed: ${reason}';
+  @override
+  String get storage_modules_section => 'Optional modules';
+  @override
+  String get storage_modules_anime4k_title => 'Anime4K shaders';
+  @override
+  String get storage_modules_anime4k_hint =>
+      'Can be downloaded again anytime in video settings';
+  @override
+  String storage_modules_anime4k_delete_done({required Object n}) =>
+      'Deleted ${n} shader files';
+  @override
+  String get storage_modules_not_installed => 'Not installed';
+  @override
+  String get storage_bundled_section => 'Bundled components';
+  @override
+  String get storage_bundled_hint =>
+      'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+  @override
+  String get storage_dictionary_delete_incomplete =>
+      'Dictionary still present after deletion, see error log';
 }
 
 /// Flat map(s) containing all translations.
@@ -144649,6 +145837,69 @@ extension on _StringsEn {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -152011,6 +153262,69 @@ extension on _StringsAr {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -159395,6 +160709,69 @@ extension on _StringsDe {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -166778,6 +168155,69 @@ extension on _StringsEs {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -174167,6 +175607,69 @@ extension on _StringsFr {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -181538,6 +183041,69 @@ extension on _StringsId {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -188923,6 +190489,69 @@ extension on _StringsIt {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -196270,6 +197899,69 @@ extension on _StringsJa {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -203621,6 +205313,69 @@ extension on _StringsKo {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -211000,6 +212755,69 @@ extension on _StringsNl {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -218376,6 +220194,69 @@ extension on _StringsPtBr {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -225757,6 +227638,69 @@ extension on _StringsRu {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -233121,6 +235065,69 @@ extension on _StringsTh {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -240494,6 +242501,69 @@ extension on _StringsTr {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -247863,6 +249933,69 @@ extension on _StringsVi {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
@@ -255173,6 +257306,69 @@ extension on _StringsZhCn {
         return ({required Object index}) => '快捷键 ${index}';
       case 'video_control_custom_action_none':
         return '不绑定';
+      case 'settings_destination_storage':
+        return '存储';
+      case 'settings_destination_storage_summary':
+        return '磁盘占用与可清理模块';
+      case 'storage_overview_section':
+        return '磁盘占用';
+      case 'storage_overview_total':
+        return '总计';
+      case 'storage_overview_refresh':
+        return '重新扫描';
+      case 'storage_overview_scanning':
+        return '扫描中…';
+      case 'storage_category_books':
+        return '书籍与有声书';
+      case 'storage_category_dictionaries':
+        return '词典';
+      case 'storage_category_video_downloads':
+        return '视频下载';
+      case 'storage_category_covers':
+        return '封面与缩略图';
+      case 'storage_category_subtitles':
+        return '字幕';
+      case 'storage_category_shaders':
+        return '视频着色器';
+      case 'storage_category_custom_fonts':
+        return '自定义字体';
+      case 'storage_category_web':
+        return '网页存档与浏览器数据';
+      case 'storage_category_exports':
+        return '导出文件';
+      case 'storage_category_database':
+        return '数据库与内部数据';
+      case 'storage_category_ocr_models':
+        return '漫画 OCR 模型';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '其余 ${n} 项，共 ${size}';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => '删除「${name}」？';
+      case 'storage_entry_delete_book_confirm_body':
+        return '将从本设备删除这本书的正文、阅读进度与配对音频副本。';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return '将删除该词典及其已导入数据。';
+      case 'storage_entry_delete_done':
+        return '已删除';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => '删除失败：${reason}';
+      case 'storage_modules_section':
+        return '可选模块';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K 着色器';
+      case 'storage_modules_anime4k_hint':
+        return '可随时在视频设置的画质增强里重新下载';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => '已删除 ${n} 个着色器文件';
+      case 'storage_modules_not_installed':
+        return '未安装';
+      case 'storage_bundled_section':
+        return '随包组件';
+      case 'storage_bundled_hint':
+        return '随安装包携带，删除后下次更新会自动恢复，此处仅展示。';
+      case 'storage_dictionary_delete_incomplete':
+        return '词典删除未完成、条目仍在，详见错误日志';
       default:
         return null;
     }
@@ -262515,6 +264711,69 @@ extension on _StringsZhHk {
         return ({required Object index}) => 'Shortcut ${index}';
       case 'video_control_custom_action_none':
         return 'Not assigned';
+      case 'settings_destination_storage':
+        return 'Storage';
+      case 'settings_destination_storage_summary':
+        return 'Disk usage and reclaimable modules';
+      case 'storage_overview_section':
+        return 'Disk usage';
+      case 'storage_overview_total':
+        return 'Total';
+      case 'storage_overview_refresh':
+        return 'Rescan';
+      case 'storage_overview_scanning':
+        return 'Scanning…';
+      case 'storage_category_books':
+        return 'Books & audiobooks';
+      case 'storage_category_dictionaries':
+        return 'Dictionaries';
+      case 'storage_category_video_downloads':
+        return 'Video downloads';
+      case 'storage_category_covers':
+        return 'Covers & thumbnails';
+      case 'storage_category_subtitles':
+        return 'Subtitles';
+      case 'storage_category_shaders':
+        return 'Video shaders';
+      case 'storage_category_custom_fonts':
+        return 'Custom fonts';
+      case 'storage_category_web':
+        return 'Web archive & browser data';
+      case 'storage_category_exports':
+        return 'Exports';
+      case 'storage_category_database':
+        return 'Database & internal data';
+      case 'storage_category_ocr_models':
+        return 'Manga OCR models';
+      case 'storage_entry_more_rest':
+        return ({required Object n, required Object size}) =>
+            '${n} more items, ${size} in total';
+      case 'storage_entry_delete_confirm_title':
+        return ({required Object name}) => 'Delete ${name}?';
+      case 'storage_entry_delete_book_confirm_body':
+        return 'This removes the book, its reading progress and paired audio copies from this device.';
+      case 'storage_entry_delete_dictionary_confirm_body':
+        return 'This removes the dictionary and its imported data.';
+      case 'storage_entry_delete_done':
+        return 'Deleted';
+      case 'storage_entry_delete_failed':
+        return ({required Object reason}) => 'Delete failed: ${reason}';
+      case 'storage_modules_section':
+        return 'Optional modules';
+      case 'storage_modules_anime4k_title':
+        return 'Anime4K shaders';
+      case 'storage_modules_anime4k_hint':
+        return 'Can be downloaded again anytime in video settings';
+      case 'storage_modules_anime4k_delete_done':
+        return ({required Object n}) => 'Deleted ${n} shader files';
+      case 'storage_modules_not_installed':
+        return 'Not installed';
+      case 'storage_bundled_section':
+        return 'Bundled components';
+      case 'storage_bundled_hint':
+        return 'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
+      case 'storage_dictionary_delete_incomplete':
+        return 'Dictionary still present after deletion, see error log';
       default:
         return null;
     }
