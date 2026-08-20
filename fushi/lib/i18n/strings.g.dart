@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 61591 (3623 per locale)
+/// Strings: 61693 (3629 per locale)
 ///
-/// Built on 2026-08-19 at 06:16 UTC
+/// Built on 2026-08-20 at 03:11 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4917,6 +4917,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Read EPUB novels with dictionary lookup and audiobook sync';
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -13309,6 +13317,20 @@ class _StringsAr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -21767,6 +21789,20 @@ class _StringsDe extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -30241,6 +30277,20 @@ class _StringsEs extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -38727,6 +38777,20 @@ class _StringsFr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -47142,6 +47206,20 @@ class _StringsId extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -55602,6 +55680,20 @@ class _StringsIt extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -63877,6 +63969,20 @@ class _StringsJa extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -72159,6 +72265,20 @@ class _StringsKo extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -80599,6 +80719,20 @@ class _StringsNl extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -89051,6 +89185,20 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -97489,6 +97637,20 @@ class _StringsRu extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -105875,6 +106037,20 @@ class _StringsTh extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -114293,6 +114469,20 @@ class _StringsTr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -122696,6 +122886,20 @@ class _StringsVi extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -130472,6 +130676,18 @@ class _StringsZhCn extends _StringsEn {
   String get onboarding_feature_books_hint => '看小说（EPUB），查词与有声书同步';
   @override
   String get onboarding_feature_extension_hint => '网页查词（仅桌面）';
+  @override
+  String get shortcut_action_manga_pan_up => '向上平移';
+  @override
+  String get shortcut_action_manga_pan_down => '向下平移';
+  @override
+  String get shortcut_action_manga_pan_left => '向左平移';
+  @override
+  String get shortcut_action_manga_pan_right => '向右平移';
+  @override
+  String get drag_drop_folder_source_added => '已把文件夹添加为来源并开始扫描';
+  @override
+  String get drag_drop_folder_source_exists => '该文件夹已经是来源了';
 }
 
 // Path: <root>
@@ -138670,6 +138886,20 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 /// Flat map(s) containing all translations.
@@ -146107,6 +146337,18 @@ extension on _StringsEn {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -153542,6 +153784,18 @@ extension on _StringsAr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -160999,6 +161253,18 @@ extension on _StringsDe {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -168455,6 +168721,18 @@ extension on _StringsEs {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -175917,6 +176195,18 @@ extension on _StringsFr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -183361,6 +183651,18 @@ extension on _StringsId {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -190819,6 +191121,18 @@ extension on _StringsIt {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -198239,6 +198553,18 @@ extension on _StringsJa {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -205663,6 +205989,18 @@ extension on _StringsKo {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -213115,6 +213453,18 @@ extension on _StringsNl {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -220564,6 +220914,18 @@ extension on _StringsPtBr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -228018,6 +228380,18 @@ extension on _StringsRu {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -235455,6 +235829,18 @@ extension on _StringsTh {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -242901,6 +243287,18 @@ extension on _StringsTr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -250343,6 +250741,18 @@ extension on _StringsVi {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -257726,6 +258136,18 @@ extension on _StringsZhCn {
         return '看小说（EPUB），查词与有声书同步';
       case 'onboarding_feature_extension_hint':
         return '网页查词（仅桌面）';
+      case 'shortcut_action_manga_pan_up':
+        return '向上平移';
+      case 'shortcut_action_manga_pan_down':
+        return '向下平移';
+      case 'shortcut_action_manga_pan_left':
+        return '向左平移';
+      case 'shortcut_action_manga_pan_right':
+        return '向右平移';
+      case 'drag_drop_folder_source_added':
+        return '已把文件夹添加为来源并开始扫描';
+      case 'drag_drop_folder_source_exists':
+        return '该文件夹已经是来源了';
       default:
         return null;
     }
@@ -265141,6 +265563,18 @@ extension on _StringsZhHk {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
