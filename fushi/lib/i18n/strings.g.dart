@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62220 (3660 per locale)
+/// Strings: 62237 (3661 per locale)
 ///
-/// Built on 2026-08-20 at 09:10 UTC
+/// Built on 2026-08-20 at 09:30 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4977,6 +4977,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'This device only accepts HTTPS. Use an https:// address.';
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -13465,6 +13467,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -22018,6 +22023,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -30587,6 +30595,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -39168,6 +39179,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -47679,6 +47693,9 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -56234,6 +56251,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -64606,6 +64626,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -72985,6 +73008,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -81520,6 +81546,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -90067,6 +90096,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -98601,6 +98633,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -107083,6 +107118,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -115596,6 +115634,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -124095,6 +124136,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 // Path: <root>
@@ -131953,6 +131997,8 @@ class _StringsZhCn extends _StringsEn {
       '该设备只接受 HTTPS，请改用 https:// 开头的地址。';
   @override
   String get sync_pair_peer_not_https => '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
+  @override
+  String get sync_pair_not_fushi_discovered => '此地址未找到 Fushi 设备。';
 }
 
 // Path: <root>
@@ -140248,6 +140294,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_pair_peer_not_https =>
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
 }
 
 /// Flat map(s) containing all translations.
@@ -147760,6 +147809,8 @@ extension on _StringsEn {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -155270,6 +155321,8 @@ extension on _StringsAr {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -162802,6 +162855,8 @@ extension on _StringsDe {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -170333,6 +170388,8 @@ extension on _StringsEs {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -177870,6 +177927,8 @@ extension on _StringsFr {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -185389,6 +185448,8 @@ extension on _StringsId {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -192922,6 +192983,8 @@ extension on _StringsIt {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -200417,6 +200480,8 @@ extension on _StringsJa {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -207916,6 +207981,8 @@ extension on _StringsKo {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -215443,6 +215510,8 @@ extension on _StringsNl {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -222967,6 +223036,8 @@ extension on _StringsPtBr {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -230496,6 +230567,8 @@ extension on _StringsRu {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -238008,6 +238081,8 @@ extension on _StringsTh {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -245529,6 +245604,8 @@ extension on _StringsTr {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -253046,6 +253123,8 @@ extension on _StringsVi {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
@@ -260504,6 +260583,8 @@ extension on _StringsZhCn {
         return '该设备只接受 HTTPS，请改用 https:// 开头的地址。';
       case 'sync_pair_peer_not_https':
         return '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
+      case 'sync_pair_not_fushi_discovered':
+        return '此地址未找到 Fushi 设备。';
       default:
         return null;
     }
@@ -267994,6 +268075,8 @@ extension on _StringsZhHk {
         return 'This device only accepts HTTPS. Use an https:// address.';
       case 'sync_pair_peer_not_https':
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
       default:
         return null;
     }
