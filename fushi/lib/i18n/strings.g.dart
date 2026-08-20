@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 62254 (3662 per locale)
 ///
-/// Built on 2026-08-20 at 14:50 UTC
+/// Built on 2026-08-20 at 17:12 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4974,10 +4974,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Download local audio databases';
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
   String get sync_asset_upload_action => 'Upload';
   String get sync_asset_download_action => 'Download';
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -13463,12 +13463,12 @@ class _StringsAr extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -22019,12 +22019,12 @@ class _StringsDe extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -30591,12 +30591,12 @@ class _StringsEs extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -39175,12 +39175,12 @@ class _StringsFr extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -47689,12 +47689,12 @@ class _StringsId extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -56247,12 +56247,12 @@ class _StringsIt extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -64622,12 +64622,12 @@ class _StringsJa extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -73005,12 +73005,12 @@ class _StringsKo extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -81543,12 +81543,12 @@ class _StringsNl extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -90093,12 +90093,12 @@ class _StringsPtBr extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -98630,12 +98630,12 @@ class _StringsRu extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -107115,12 +107115,12 @@ class _StringsTh extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -115631,12 +115631,12 @@ class _StringsTr extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -124133,12 +124133,12 @@ class _StringsVi extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 // Path: <root>
@@ -131995,11 +131995,11 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get sync_asset_upload_hint => '把本机有、远端没有的推送过去。包可能很大。';
   @override
-  String get sync_asset_download_hint => '把远端有、本机没有的取回来。';
-  @override
   String get sync_asset_upload_action => '上传';
   @override
   String get sync_asset_download_action => '下载';
+  @override
+  String get sync_asset_download_hint => '把远端有、本机没有的取回来（含你在本机删掉过的）。';
 }
 
 // Path: <root>
@@ -140294,12 +140294,12 @@ class _StringsZhHk extends _StringsEn {
   String get sync_asset_upload_hint =>
       'Sends what this device has and the remote does not. Packages can be large.';
   @override
-  String get sync_asset_download_hint =>
-      'Fetches what the remote has and this device does not.';
-  @override
   String get sync_asset_upload_action => 'Upload';
   @override
   String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
 }
 
 /// Flat map(s) containing all translations.
@@ -147810,12 +147810,12 @@ extension on _StringsEn {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -155324,12 +155324,12 @@ extension on _StringsAr {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -162860,12 +162860,12 @@ extension on _StringsDe {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -170395,12 +170395,12 @@ extension on _StringsEs {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -177936,12 +177936,12 @@ extension on _StringsFr {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -185459,12 +185459,12 @@ extension on _StringsId {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -192996,12 +192996,12 @@ extension on _StringsIt {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -200495,12 +200495,12 @@ extension on _StringsJa {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -207998,12 +207998,12 @@ extension on _StringsKo {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -215529,12 +215529,12 @@ extension on _StringsNl {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -223057,12 +223057,12 @@ extension on _StringsPtBr {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -230590,12 +230590,12 @@ extension on _StringsRu {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -238106,12 +238106,12 @@ extension on _StringsTh {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -245631,12 +245631,12 @@ extension on _StringsTr {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -253152,12 +253152,12 @@ extension on _StringsVi {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
@@ -260614,12 +260614,12 @@ extension on _StringsZhCn {
         return '下载本地音频数据库';
       case 'sync_asset_upload_hint':
         return '把本机有、远端没有的推送过去。包可能很大。';
-      case 'sync_asset_download_hint':
-        return '把远端有、本机没有的取回来。';
       case 'sync_asset_upload_action':
         return '上传';
       case 'sync_asset_download_action':
         return '下载';
+      case 'sync_asset_download_hint':
+        return '把远端有、本机没有的取回来（含你在本机删掉过的）。';
       default:
         return null;
     }
@@ -268108,12 +268108,12 @@ extension on _StringsZhHk {
         return 'Download local audio databases';
       case 'sync_asset_upload_hint':
         return 'Sends what this device has and the remote does not. Packages can be large.';
-      case 'sync_asset_download_hint':
-        return 'Fetches what the remote has and this device does not.';
       case 'sync_asset_upload_action':
         return 'Upload';
       case 'sync_asset_download_action':
         return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
       default:
         return null;
     }
