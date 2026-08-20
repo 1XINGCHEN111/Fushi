@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 61625 (3625 per locale)
+/// Strings: 62169 (3657 per locale)
 ///
-/// Built on 2026-08-20 at 03:49 UTC
+/// Built on 2026-08-20 at 05:33 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2962,11 +2962,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_immersive_unlocked => 'Immersive mode off';
   String get video_import_action => 'Import video';
   String get video_import_confirm => 'Import';
-  String video_import_folder_done({required Object count}) =>
-      'Imported ${count} series';
-  String get video_import_folder_empty => 'No video files found in this folder';
-  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
-  String get video_import_pick_playlist => 'Pick m3u8 playlist';
   String get video_import_pick_subtitle => 'Pick subtitle';
   String get video_import_pick_video => 'Pick video file';
   String get video_import_stream_advanced => 'Advanced (anti-leech headers)';
@@ -4920,6 +4915,63 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_tap_toggles_playback => 'Tap video to play/pause';
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  String get jellyfin_server_url => 'Server URL';
+  String get jellyfin_sign_in => 'Sign in';
+  String get jellyfin_sign_out => 'Sign out';
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  String get interconnect_share_statistics => 'Share statistics';
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  String get interconnect_share_favorites => 'Share favorites';
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  String get interconnect_share_section => 'Share with paired devices';
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -9934,16 +9986,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_import_confirm => 'استيراد';
   @override
-  String video_import_folder_done({required Object count}) =>
-      'تم استيراد ${count} سلسلة';
-  @override
-  String get video_import_folder_empty => 'لا توجد ملفات فيديو في هذا المجلد';
-  @override
-  String get video_import_pick_folder =>
-      'استيراد مجلد (تجميع الحلقات تلقائيًا)';
-  @override
-  String get video_import_pick_playlist => 'اختيار قائمة تشغيل m3u8';
-  @override
   String get video_import_pick_subtitle => 'اختيار ترجمة';
   @override
   String get video_import_pick_video => 'اختيار ملف فيديو';
@@ -13317,6 +13359,99 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -18386,17 +18521,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_import_confirm => 'Importieren';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} Serien importiert';
-  @override
-  String get video_import_folder_empty =>
-      'Keine Videodateien in diesem Ordner gefunden';
-  @override
-  String get video_import_pick_folder =>
-      'Ordner importieren (Folgen automatisch gruppieren)';
-  @override
-  String get video_import_pick_playlist => 'm3u8-Playlist auswählen';
-  @override
   String get video_import_pick_subtitle => 'Untertitel auswählen';
   @override
   String get video_import_pick_video => 'Videodatei auswählen';
@@ -21780,6 +21904,99 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -26865,17 +27082,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_import_confirm => 'Importar';
   @override
-  String video_import_folder_done({required Object count}) =>
-      'Se importaron ${count} series';
-  @override
-  String get video_import_folder_empty =>
-      'No se encontraron archivos de vídeo en esta carpeta';
-  @override
-  String get video_import_pick_folder =>
-      'Importar carpeta (agrupar episodios automáticamente)';
-  @override
-  String get video_import_pick_playlist => 'Elegir lista m3u8';
-  @override
   String get video_import_pick_subtitle => 'Elegir subtítulo';
   @override
   String get video_import_pick_video => 'Elegir archivo de vídeo';
@@ -30259,6 +30465,99 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -35356,17 +35655,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_import_confirm => 'Importer';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} séries importées';
-  @override
-  String get video_import_folder_empty =>
-      'Aucun fichier vidéo trouvé dans ce dossier';
-  @override
-  String get video_import_pick_folder =>
-      'Importer un dossier (groupement auto des épisodes)';
-  @override
-  String get video_import_pick_playlist => 'Choisir une playlist m3u8';
-  @override
   String get video_import_pick_subtitle => 'Choisir un sous-titre';
   @override
   String get video_import_pick_video => 'Choisir le fichier vidéo';
@@ -38750,6 +39038,99 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -43785,16 +44166,6 @@ class _StringsId extends _StringsEn {
   @override
   String get video_import_confirm => 'Impor';
   @override
-  String video_import_folder_done({required Object count}) =>
-      'Mengimpor ${count} seri';
-  @override
-  String get video_import_folder_empty => 'Tidak ada file video di folder ini';
-  @override
-  String get video_import_pick_folder =>
-      'Impor folder (kelompokkan episode otomatis)';
-  @override
-  String get video_import_pick_playlist => 'Pilih playlist m3u8';
-  @override
   String get video_import_pick_subtitle => 'Pilih subtitle';
   @override
   String get video_import_pick_video => 'Pilih file video';
@@ -47170,6 +47541,99 @@ class _StringsId extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -52243,17 +52707,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_import_confirm => 'Importa';
   @override
-  String video_import_folder_done({required Object count}) =>
-      'Importate ${count} serie';
-  @override
-  String get video_import_folder_empty =>
-      'Nessun file video trovato in questa cartella';
-  @override
-  String get video_import_pick_folder =>
-      'Importa cartella (raggruppa episodi automaticamente)';
-  @override
-  String get video_import_pick_playlist => 'Scegli playlist m3u8';
-  @override
   String get video_import_pick_subtitle => 'Scegli sottotitoli';
   @override
   String get video_import_pick_video => 'Scegli file video';
@@ -55635,6 +56088,99 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -60552,15 +61098,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_import_confirm => 'インポート';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} 件のシリーズをインポートしました';
-  @override
-  String get video_import_folder_empty => 'このフォルダに動画ファイルがありません';
-  @override
-  String get video_import_pick_folder => 'フォルダをインポート（エピソードを自動分類）';
-  @override
-  String get video_import_pick_playlist => 'm3u8 プレイリストを選択';
-  @override
   String get video_import_pick_subtitle => '字幕を選択';
   @override
   String get video_import_pick_video => '動画ファイルを選択';
@@ -63915,6 +64452,99 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -68836,15 +69466,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_import_confirm => '가져오기';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '${count}개 시리즈를 가져왔습니다';
-  @override
-  String get video_import_folder_empty => '이 폴더에 비디오 파일이 없습니다';
-  @override
-  String get video_import_pick_folder => '폴더 가져오기(에피소드 자동 그룹화)';
-  @override
-  String get video_import_pick_playlist => 'm3u8 재생목록 선택';
-  @override
   String get video_import_pick_subtitle => '자막 선택';
   @override
   String get video_import_pick_video => '비디오 파일 선택';
@@ -72202,6 +72823,99 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -77259,17 +77973,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_import_confirm => 'Importeren';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} series geïmporteerd';
-  @override
-  String get video_import_folder_empty =>
-      'Geen videobestanden in deze map gevonden';
-  @override
-  String get video_import_pick_folder =>
-      'Map importeren (afleveringen automatisch groeperen)';
-  @override
-  String get video_import_pick_playlist => 'm3u8-afspeellijst kiezen';
-  @override
   String get video_import_pick_subtitle => 'Ondertitel kiezen';
   @override
   String get video_import_pick_video => 'Videobestand kiezen';
@@ -80647,6 +81350,99 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -85713,17 +86509,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_import_confirm => 'Importar';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} séries importadas';
-  @override
-  String get video_import_folder_empty =>
-      'Nenhum arquivo de vídeo encontrado nesta pasta';
-  @override
-  String get video_import_pick_folder =>
-      'Importar pasta (agrupar episódios automaticamente)';
-  @override
-  String get video_import_pick_playlist => 'Escolher playlist m3u8';
-  @override
   String get video_import_pick_subtitle => 'Escolher legenda';
   @override
   String get video_import_pick_video => 'Escolher arquivo de vídeo';
@@ -89104,6 +89889,99 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -94161,16 +95039,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_import_confirm => 'Импортировать';
   @override
-  String video_import_folder_done({required Object count}) =>
-      'Импортировано сериалов: ${count}';
-  @override
-  String get video_import_folder_empty => 'В этой папке нет видеофайлов';
-  @override
-  String get video_import_pick_folder =>
-      'Импорт папки (авто-группировка серий)';
-  @override
-  String get video_import_pick_playlist => 'Выбрать плейлист m3u8';
-  @override
   String get video_import_pick_subtitle => 'Выбрать субтитры';
   @override
   String get video_import_pick_video => 'Выбрать видеофайл';
@@ -97547,6 +98415,99 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -102559,16 +103520,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_import_confirm => 'นำเข้า';
   @override
-  String video_import_folder_done({required Object count}) =>
-      'นำเข้า ${count} ชุดแล้ว';
-  @override
-  String get video_import_folder_empty => 'ไม่พบไฟล์วิดีโอในโฟลเดอร์นี้';
-  @override
-  String get video_import_pick_folder =>
-      'นำเข้าโฟลเดอร์ (จัดกลุ่มตอนอัตโนมัติ)';
-  @override
-  String get video_import_pick_playlist => 'เลือกเพลย์ลิสต์ m3u8';
-  @override
   String get video_import_pick_subtitle => 'เลือกคำบรรยาย';
   @override
   String get video_import_pick_video => 'เลือกไฟล์วิดีโอ';
@@ -105938,6 +106889,99 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -110975,17 +112019,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_import_confirm => 'İçe aktar';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '${count} dizi içe aktarıldı';
-  @override
-  String get video_import_folder_empty =>
-      'Bu klasörde video dosyası bulunamadı';
-  @override
-  String get video_import_pick_folder =>
-      'Klasör içe aktar (bölümleri otomatik grupla)';
-  @override
-  String get video_import_pick_playlist => 'm3u8 oynatma listesi seç';
-  @override
   String get video_import_pick_subtitle => 'Altyazı seç';
   @override
   String get video_import_pick_video => 'Video dosyası seç';
@@ -114361,6 +115394,99 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -119388,16 +120514,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_import_confirm => 'Nhập';
   @override
-  String video_import_folder_done({required Object count}) =>
-      'Đã nhập ${count} series';
-  @override
-  String get video_import_folder_empty =>
-      'Không tìm thấy tệp video trong thư mục này';
-  @override
-  String get video_import_pick_folder => 'Nhập thư mục (tự nhóm tập)';
-  @override
-  String get video_import_pick_playlist => 'Chọn danh sách phát m3u8';
-  @override
   String get video_import_pick_subtitle => 'Chọn phụ đề';
   @override
   String get video_import_pick_video => 'Chọn tệp video';
@@ -122769,6 +123885,99 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 // Path: <root>
@@ -127455,15 +128664,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_import_confirm => '导入';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '已导入 ${count} 个系列';
-  @override
-  String get video_import_folder_empty => '此文件夹里没有视频文件';
-  @override
-  String get video_import_pick_folder => '导入文件夹（自动分组剧集）';
-  @override
-  String get video_import_pick_playlist => '选择 m3u8 播放列表';
-  @override
   String get video_import_pick_subtitle => '选择字幕';
   @override
   String get video_import_pick_video => '选择视频文件';
@@ -130550,6 +131750,85 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       '关闭后点击画面只唤醒控制条，不再切换播放/暂停';
+  @override
+  String get manga_ocr_engine_auto_desc => '优先用你已配好的离线引擎，不会自作主张上传到 Lens。';
+  @override
+  String get manga_ocr_engine_local_onnx_desc => '完全离线，质量最好。需要一次性下载模型，老设备上较慢。';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      '需要联网，会把页面图片上传给 Google。速度快、不用下模型，但质量不如本地模型。';
+  @override
+  String get manga_ocr_engine_external_desc => '调用你自己安装的 mokuro 命令行，仅桌面可用。';
+  @override
+  String get manga_ocr_engine_paired_host_desc => '交给局域网里已配对的设备来跑，本机不下任何模型。';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) => '已占用 ${size}';
+  @override
+  String manga_ocr_model_download_size({required Object size}) => '需下载 ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      '模型已删除，释放 ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine => '当前引擎用不到这些本地模型文件。';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} / ${total}';
+  @override
+  String get media_source_network_subtitle_video => 'WebDAV 远程库（原地串流）';
+  @override
+  String get jellyfin_settings_title => '媒体服务器（Jellyfin / Emby）';
+  @override
+  String get jellyfin_server_url => '服务器地址';
+  @override
+  String get jellyfin_sign_in => '登录';
+  @override
+  String get jellyfin_sign_out => '退出登录';
+  @override
+  String get jellyfin_sign_in_failed => '登录失败';
+  @override
+  String get jellyfin_settings_hint => '服务器上的视频会出现在媒体库中，点击直接串流播放。';
+  @override
+  String get video_setting_mpv_lua_scripts => '加载 Lua 脚本';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      '装载 mpv_scripts 目录里的全部 .lua 脚本。关闭在下次打开视频时生效。';
+  @override
+  String get video_setting_mpv_lua_scripts_import => '导入 Lua 脚本';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => '脚本已导入';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy => '复制脚本目录路径';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => '已复制目录路径';
+  @override
+  String get interconnect_share_statistics => '共享统计';
+  @override
+  String get interconnect_share_statistics_hint => '阅读与观看时长、字数、查词与制卡计数';
+  @override
+  String get interconnect_share_favorites => '共享收藏夹';
+  @override
+  String get interconnect_share_favorites_hint => '收藏的词与句子，取消收藏也会同步';
+  @override
+  String get interconnect_share_section => '与已配对设备共享';
+  @override
+  String get interconnect_share_section_footer =>
+      '这些内容与已配对设备双向合并，默认开启。关掉后本设备既不再发送，也不再接收。';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      '本局还没有捕获到任何台词，卡片无处挂靠。请在工作台换一条文本线程。';
+  @override
+  String get shortcut_action_manga_pan_up => '向上平移';
+  @override
+  String get shortcut_action_manga_pan_down => '向下平移';
+  @override
+  String get shortcut_action_manga_pan_left => '向左平移';
+  @override
+  String get shortcut_action_manga_pan_right => '向右平移';
+  @override
+  String get drag_drop_folder_source_added => '已把文件夹添加为来源并开始扫描';
+  @override
+  String get drag_drop_folder_source_exists => '该文件夹已经是来源了';
 }
 
 // Path: <root>
@@ -135402,15 +136681,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_import_confirm => '匯入';
   @override
-  String video_import_folder_done({required Object count}) =>
-      '已匯入 ${count} 個系列';
-  @override
-  String get video_import_folder_empty => '此資料夾內沒有影片檔案';
-  @override
-  String get video_import_pick_folder => '匯入資料夾（自動分組劇集）';
-  @override
-  String get video_import_pick_playlist => '選擇 m3u8 播放清單';
-  @override
   String get video_import_pick_subtitle => '選擇字幕';
   @override
   String get video_import_pick_video => '選擇影片檔案';
@@ -138753,6 +140023,99 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_setting_tap_toggles_playback_hint =>
       'Turn off so tapping the video only reveals the controls';
+  @override
+  String get manga_ocr_engine_auto_desc =>
+      'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+  @override
+  String get manga_ocr_engine_local_onnx_desc =>
+      'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+  @override
+  String get manga_ocr_engine_google_lens_desc =>
+      'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+  @override
+  String get manga_ocr_engine_external_desc =>
+      'Calls a mokuro command line you installed yourself. Desktop only.';
+  @override
+  String get manga_ocr_engine_paired_host_desc =>
+      'Hands the work to a paired device on your network. Nothing is downloaded here.';
+  @override
+  String manga_ocr_model_disk_usage({required Object size}) =>
+      'Using ${size} on disk';
+  @override
+  String manga_ocr_model_download_size({required Object size}) =>
+      'Needs ${size}';
+  @override
+  String manga_ocr_delete_done_freed({required Object size}) =>
+      'Models deleted, freed ${size}';
+  @override
+  String get manga_ocr_model_unused_by_engine =>
+      'The current engine doesn\'t use these local model files.';
+  @override
+  String manga_ocr_download_total_progress(
+          {required Object done, required Object total}) =>
+      '${done} of ${total}';
+  @override
+  String get media_source_network_subtitle_video =>
+      'WebDAV remote library (streams in place)';
+  @override
+  String get jellyfin_settings_title => 'Media server (Jellyfin / Emby)';
+  @override
+  String get jellyfin_server_url => 'Server URL';
+  @override
+  String get jellyfin_sign_in => 'Sign in';
+  @override
+  String get jellyfin_sign_out => 'Sign out';
+  @override
+  String get jellyfin_sign_in_failed => 'Sign-in failed';
+  @override
+  String get jellyfin_settings_hint =>
+      'Videos on the server show up in the video library and stream directly.';
+  @override
+  String get video_setting_mpv_lua_scripts => 'Load Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_hint =>
+      'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+  @override
+  String get video_setting_mpv_lua_scripts_import => 'Import Lua scripts';
+  @override
+  String get video_setting_mpv_lua_scripts_imported => 'Scripts imported';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copy =>
+      'Copy scripts folder path';
+  @override
+  String get video_setting_mpv_lua_scripts_dir_copied => 'Folder path copied';
+  @override
+  String get interconnect_share_statistics => 'Share statistics';
+  @override
+  String get interconnect_share_statistics_hint =>
+      'Reading and watching time, character counts, lookup and mining counters';
+  @override
+  String get interconnect_share_favorites => 'Share favorites';
+  @override
+  String get interconnect_share_favorites_hint =>
+      'Favorite words and sentences, including un-favoriting';
+  @override
+  String get interconnect_share_section => 'Share with paired devices';
+  @override
+  String get interconnect_share_section_footer =>
+      'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+  @override
+  String get game_hook_mining_no_session_lines =>
+      'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+  @override
+  String get shortcut_action_manga_pan_up => 'Pan up';
+  @override
+  String get shortcut_action_manga_pan_down => 'Pan down';
+  @override
+  String get shortcut_action_manga_pan_left => 'Pan left';
+  @override
+  String get shortcut_action_manga_pan_right => 'Pan right';
+  @override
+  String get drag_drop_folder_source_added =>
+      'Folder added as a library source and scanned.';
+  @override
+  String get drag_drop_folder_source_exists =>
+      'That folder is already a library source.';
 }
 
 /// Flat map(s) containing all translations.
@@ -143267,14 +144630,6 @@ extension on _StringsEn {
         return 'Import video';
       case 'video_import_confirm':
         return 'Import';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Imported ${count} series';
-      case 'video_import_folder_empty':
-        return 'No video files found in this folder';
-      case 'video_import_pick_folder':
-        return 'Import folder (auto-group episodes)';
-      case 'video_import_pick_playlist':
-        return 'Pick m3u8 playlist';
       case 'video_import_pick_subtitle':
         return 'Pick subtitle';
       case 'video_import_pick_video':
@@ -146194,6 +147549,79 @@ extension on _StringsEn {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -150705,14 +152133,6 @@ extension on _StringsAr {
         return 'استيراد فيديو';
       case 'video_import_confirm':
         return 'استيراد';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'تم استيراد ${count} سلسلة';
-      case 'video_import_folder_empty':
-        return 'لا توجد ملفات فيديو في هذا المجلد';
-      case 'video_import_pick_folder':
-        return 'استيراد مجلد (تجميع الحلقات تلقائيًا)';
-      case 'video_import_pick_playlist':
-        return 'اختيار قائمة تشغيل m3u8';
       case 'video_import_pick_subtitle':
         return 'اختيار ترجمة';
       case 'video_import_pick_video':
@@ -153633,6 +155053,79 @@ extension on _StringsAr {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -158165,14 +159658,6 @@ extension on _StringsDe {
         return 'Video importieren';
       case 'video_import_confirm':
         return 'Importieren';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} Serien importiert';
-      case 'video_import_folder_empty':
-        return 'Keine Videodateien in diesem Ordner gefunden';
-      case 'video_import_pick_folder':
-        return 'Ordner importieren (Folgen automatisch gruppieren)';
-      case 'video_import_pick_playlist':
-        return 'm3u8-Playlist auswählen';
       case 'video_import_pick_subtitle':
         return 'Untertitel auswählen';
       case 'video_import_pick_video':
@@ -161094,6 +162579,79 @@ extension on _StringsDe {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -165626,14 +167184,6 @@ extension on _StringsEs {
         return 'Importar vídeo';
       case 'video_import_confirm':
         return 'Importar';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Se importaron ${count} series';
-      case 'video_import_folder_empty':
-        return 'No se encontraron archivos de vídeo en esta carpeta';
-      case 'video_import_pick_folder':
-        return 'Importar carpeta (agrupar episodios automáticamente)';
-      case 'video_import_pick_playlist':
-        return 'Elegir lista m3u8';
       case 'video_import_pick_subtitle':
         return 'Elegir subtítulo';
       case 'video_import_pick_video':
@@ -168554,6 +170104,79 @@ extension on _StringsEs {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -173091,14 +174714,6 @@ extension on _StringsFr {
         return 'Importer une vidéo';
       case 'video_import_confirm':
         return 'Importer';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} séries importées';
-      case 'video_import_folder_empty':
-        return 'Aucun fichier vidéo trouvé dans ce dossier';
-      case 'video_import_pick_folder':
-        return 'Importer un dossier (groupement auto des épisodes)';
-      case 'video_import_pick_playlist':
-        return 'Choisir une playlist m3u8';
       case 'video_import_pick_subtitle':
         return 'Choisir un sous-titre';
       case 'video_import_pick_video':
@@ -176020,6 +177635,79 @@ extension on _StringsFr {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -180540,14 +182228,6 @@ extension on _StringsId {
         return 'Impor video';
       case 'video_import_confirm':
         return 'Impor';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Mengimpor ${count} seri';
-      case 'video_import_folder_empty':
-        return 'Tidak ada file video di folder ini';
-      case 'video_import_pick_folder':
-        return 'Impor folder (kelompokkan episode otomatis)';
-      case 'video_import_pick_playlist':
-        return 'Pilih playlist m3u8';
       case 'video_import_pick_subtitle':
         return 'Pilih subtitle';
       case 'video_import_pick_video':
@@ -183468,6 +185148,79 @@ extension on _StringsId {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -188001,14 +189754,6 @@ extension on _StringsIt {
         return 'Importa video';
       case 'video_import_confirm':
         return 'Importa';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Importate ${count} serie';
-      case 'video_import_folder_empty':
-        return 'Nessun file video trovato in questa cartella';
-      case 'video_import_pick_folder':
-        return 'Importa cartella (raggruppa episodi automaticamente)';
-      case 'video_import_pick_playlist':
-        return 'Scegli playlist m3u8';
       case 'video_import_pick_subtitle':
         return 'Scegli sottotitoli';
       case 'video_import_pick_video':
@@ -190930,6 +192675,79 @@ extension on _StringsIt {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -195428,14 +197246,6 @@ extension on _StringsJa {
         return '動画をインポート';
       case 'video_import_confirm':
         return 'インポート';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} 件のシリーズをインポートしました';
-      case 'video_import_folder_empty':
-        return 'このフォルダに動画ファイルがありません';
-      case 'video_import_pick_folder':
-        return 'フォルダをインポート（エピソードを自動分類）';
-      case 'video_import_pick_playlist':
-        return 'm3u8 プレイリストを選択';
       case 'video_import_pick_subtitle':
         return '字幕を選択';
       case 'video_import_pick_video':
@@ -198354,6 +200164,79 @@ extension on _StringsJa {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -202855,14 +204738,6 @@ extension on _StringsKo {
         return '비디오 가져오기';
       case 'video_import_confirm':
         return '가져오기';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count}개 시리즈를 가져왔습니다';
-      case 'video_import_folder_empty':
-        return '이 폴더에 비디오 파일이 없습니다';
-      case 'video_import_pick_folder':
-        return '폴더 가져오기(에피소드 자동 그룹화)';
-      case 'video_import_pick_playlist':
-        return 'm3u8 재생목록 선택';
       case 'video_import_pick_subtitle':
         return '자막 선택';
       case 'video_import_pick_video':
@@ -205782,6 +207657,79 @@ extension on _StringsKo {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -210308,14 +212256,6 @@ extension on _StringsNl {
         return 'Video importeren';
       case 'video_import_confirm':
         return 'Importeren';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} series geïmporteerd';
-      case 'video_import_folder_empty':
-        return 'Geen videobestanden in deze map gevonden';
-      case 'video_import_pick_folder':
-        return 'Map importeren (afleveringen automatisch groeperen)';
-      case 'video_import_pick_playlist':
-        return 'm3u8-afspeellijst kiezen';
       case 'video_import_pick_subtitle':
         return 'Ondertitel kiezen';
       case 'video_import_pick_video':
@@ -213238,6 +215178,79 @@ extension on _StringsNl {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -217763,14 +219776,6 @@ extension on _StringsPtBr {
         return 'Importar vídeo';
       case 'video_import_confirm':
         return 'Importar';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} séries importadas';
-      case 'video_import_folder_empty':
-        return 'Nenhum arquivo de vídeo encontrado nesta pasta';
-      case 'video_import_pick_folder':
-        return 'Importar pasta (agrupar episódios automaticamente)';
-      case 'video_import_pick_playlist':
-        return 'Escolher playlist m3u8';
       case 'video_import_pick_subtitle':
         return 'Escolher legenda';
       case 'video_import_pick_video':
@@ -220691,6 +222696,79 @@ extension on _StringsPtBr {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -225221,14 +227299,6 @@ extension on _StringsRu {
         return 'Импортировать видео';
       case 'video_import_confirm':
         return 'Импортировать';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Импортировано сериалов: ${count}';
-      case 'video_import_folder_empty':
-        return 'В этой папке нет видеофайлов';
-      case 'video_import_pick_folder':
-        return 'Импорт папки (авто-группировка серий)';
-      case 'video_import_pick_playlist':
-        return 'Выбрать плейлист m3u8';
       case 'video_import_pick_subtitle':
         return 'Выбрать субтитры';
       case 'video_import_pick_video':
@@ -228149,6 +230219,79 @@ extension on _StringsRu {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -232662,14 +234805,6 @@ extension on _StringsTh {
         return 'นำเข้าวิดีโอ';
       case 'video_import_confirm':
         return 'นำเข้า';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'นำเข้า ${count} ชุดแล้ว';
-      case 'video_import_folder_empty':
-        return 'ไม่พบไฟล์วิดีโอในโฟลเดอร์นี้';
-      case 'video_import_pick_folder':
-        return 'นำเข้าโฟลเดอร์ (จัดกลุ่มตอนอัตโนมัติ)';
-      case 'video_import_pick_playlist':
-        return 'เลือกเพลย์ลิสต์ m3u8';
       case 'video_import_pick_subtitle':
         return 'เลือกคำบรรยาย';
       case 'video_import_pick_video':
@@ -235590,6 +237725,79 @@ extension on _StringsTh {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -240111,14 +242319,6 @@ extension on _StringsTr {
         return 'Video içe aktar';
       case 'video_import_confirm':
         return 'İçe aktar';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '${count} dizi içe aktarıldı';
-      case 'video_import_folder_empty':
-        return 'Bu klasörde video dosyası bulunamadı';
-      case 'video_import_pick_folder':
-        return 'Klasör içe aktar (bölümleri otomatik grupla)';
-      case 'video_import_pick_playlist':
-        return 'm3u8 oynatma listesi seç';
       case 'video_import_pick_subtitle':
         return 'Altyazı seç';
       case 'video_import_pick_video':
@@ -243040,6 +245240,79 @@ extension on _StringsTr {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -247558,14 +249831,6 @@ extension on _StringsVi {
         return 'Nhập video';
       case 'video_import_confirm':
         return 'Nhập';
-      case 'video_import_folder_done':
-        return ({required Object count}) => 'Đã nhập ${count} series';
-      case 'video_import_folder_empty':
-        return 'Không tìm thấy tệp video trong thư mục này';
-      case 'video_import_pick_folder':
-        return 'Nhập thư mục (tự nhóm tập)';
-      case 'video_import_pick_playlist':
-        return 'Chọn danh sách phát m3u8';
       case 'video_import_pick_subtitle':
         return 'Chọn phụ đề';
       case 'video_import_pick_video':
@@ -250486,6 +252751,79 @@ extension on _StringsVi {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
@@ -254963,14 +257301,6 @@ extension on _StringsZhCn {
         return '导入视频';
       case 'video_import_confirm':
         return '导入';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '已导入 ${count} 个系列';
-      case 'video_import_folder_empty':
-        return '此文件夹里没有视频文件';
-      case 'video_import_pick_folder':
-        return '导入文件夹（自动分组剧集）';
-      case 'video_import_pick_playlist':
-        return '选择 m3u8 播放列表';
       case 'video_import_pick_subtitle':
         return '选择字幕';
       case 'video_import_pick_video':
@@ -257873,6 +260203,79 @@ extension on _StringsZhCn {
         return '点击画面播放/暂停';
       case 'video_setting_tap_toggles_playback_hint':
         return '关闭后点击画面只唤醒控制条，不再切换播放/暂停';
+      case 'manga_ocr_engine_auto_desc':
+        return '优先用你已配好的离线引擎，不会自作主张上传到 Lens。';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return '完全离线，质量最好。需要一次性下载模型，老设备上较慢。';
+      case 'manga_ocr_engine_google_lens_desc':
+        return '需要联网，会把页面图片上传给 Google。速度快、不用下模型，但质量不如本地模型。';
+      case 'manga_ocr_engine_external_desc':
+        return '调用你自己安装的 mokuro 命令行，仅桌面可用。';
+      case 'manga_ocr_engine_paired_host_desc':
+        return '交给局域网里已配对的设备来跑，本机不下任何模型。';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => '已占用 ${size}';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => '需下载 ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => '模型已删除，释放 ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return '当前引擎用不到这些本地模型文件。';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} / ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV 远程库（原地串流）';
+      case 'jellyfin_settings_title':
+        return '媒体服务器（Jellyfin / Emby）';
+      case 'jellyfin_server_url':
+        return '服务器地址';
+      case 'jellyfin_sign_in':
+        return '登录';
+      case 'jellyfin_sign_out':
+        return '退出登录';
+      case 'jellyfin_sign_in_failed':
+        return '登录失败';
+      case 'jellyfin_settings_hint':
+        return '服务器上的视频会出现在媒体库中，点击直接串流播放。';
+      case 'video_setting_mpv_lua_scripts':
+        return '加载 Lua 脚本';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return '装载 mpv_scripts 目录里的全部 .lua 脚本。关闭在下次打开视频时生效。';
+      case 'video_setting_mpv_lua_scripts_import':
+        return '导入 Lua 脚本';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return '脚本已导入';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return '复制脚本目录路径';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return '已复制目录路径';
+      case 'interconnect_share_statistics':
+        return '共享统计';
+      case 'interconnect_share_statistics_hint':
+        return '阅读与观看时长、字数、查词与制卡计数';
+      case 'interconnect_share_favorites':
+        return '共享收藏夹';
+      case 'interconnect_share_favorites_hint':
+        return '收藏的词与句子，取消收藏也会同步';
+      case 'interconnect_share_section':
+        return '与已配对设备共享';
+      case 'interconnect_share_section_footer':
+        return '这些内容与已配对设备双向合并，默认开启。关掉后本设备既不再发送，也不再接收。';
+      case 'game_hook_mining_no_session_lines':
+        return '本局还没有捕获到任何台词，卡片无处挂靠。请在工作台换一条文本线程。';
+      case 'shortcut_action_manga_pan_up':
+        return '向上平移';
+      case 'shortcut_action_manga_pan_down':
+        return '向下平移';
+      case 'shortcut_action_manga_pan_left':
+        return '向左平移';
+      case 'shortcut_action_manga_pan_right':
+        return '向右平移';
+      case 'drag_drop_folder_source_added':
+        return '已把文件夹添加为来源并开始扫描';
+      case 'drag_drop_folder_source_exists':
+        return '该文件夹已经是来源了';
       default:
         return null;
     }
@@ -262367,14 +264770,6 @@ extension on _StringsZhHk {
         return '匯入影片';
       case 'video_import_confirm':
         return '匯入';
-      case 'video_import_folder_done':
-        return ({required Object count}) => '已匯入 ${count} 個系列';
-      case 'video_import_folder_empty':
-        return '此資料夾內沒有影片檔案';
-      case 'video_import_pick_folder':
-        return '匯入資料夾（自動分組劇集）';
-      case 'video_import_pick_playlist':
-        return '選擇 m3u8 播放清單';
       case 'video_import_pick_subtitle':
         return '選擇字幕';
       case 'video_import_pick_video':
@@ -265292,6 +267687,79 @@ extension on _StringsZhHk {
         return 'Tap video to play/pause';
       case 'video_setting_tap_toggles_playback_hint':
         return 'Turn off so tapping the video only reveals the controls';
+      case 'manga_ocr_engine_auto_desc':
+        return 'Prefers an offline engine you already set up; never uploads to Lens on its own.';
+      case 'manga_ocr_engine_local_onnx_desc':
+        return 'Fully offline, best quality. Needs a one-time model download and is slow on old hardware.';
+      case 'manga_ocr_engine_google_lens_desc':
+        return 'Needs internet and uploads page images to Google. Fast with no download, but quality is below the local model.';
+      case 'manga_ocr_engine_external_desc':
+        return 'Calls a mokuro command line you installed yourself. Desktop only.';
+      case 'manga_ocr_engine_paired_host_desc':
+        return 'Hands the work to a paired device on your network. Nothing is downloaded here.';
+      case 'manga_ocr_model_disk_usage':
+        return ({required Object size}) => 'Using ${size} on disk';
+      case 'manga_ocr_model_download_size':
+        return ({required Object size}) => 'Needs ${size}';
+      case 'manga_ocr_delete_done_freed':
+        return ({required Object size}) => 'Models deleted, freed ${size}';
+      case 'manga_ocr_model_unused_by_engine':
+        return 'The current engine doesn\'t use these local model files.';
+      case 'manga_ocr_download_total_progress':
+        return ({required Object done, required Object total}) =>
+            '${done} of ${total}';
+      case 'media_source_network_subtitle_video':
+        return 'WebDAV remote library (streams in place)';
+      case 'jellyfin_settings_title':
+        return 'Media server (Jellyfin / Emby)';
+      case 'jellyfin_server_url':
+        return 'Server URL';
+      case 'jellyfin_sign_in':
+        return 'Sign in';
+      case 'jellyfin_sign_out':
+        return 'Sign out';
+      case 'jellyfin_sign_in_failed':
+        return 'Sign-in failed';
+      case 'jellyfin_settings_hint':
+        return 'Videos on the server show up in the video library and stream directly.';
+      case 'video_setting_mpv_lua_scripts':
+        return 'Load Lua scripts';
+      case 'video_setting_mpv_lua_scripts_hint':
+        return 'Load all .lua files in the mpv_scripts folder into the player. Turning off takes effect the next time a video is opened.';
+      case 'video_setting_mpv_lua_scripts_import':
+        return 'Import Lua scripts';
+      case 'video_setting_mpv_lua_scripts_imported':
+        return 'Scripts imported';
+      case 'video_setting_mpv_lua_scripts_dir_copy':
+        return 'Copy scripts folder path';
+      case 'video_setting_mpv_lua_scripts_dir_copied':
+        return 'Folder path copied';
+      case 'interconnect_share_statistics':
+        return 'Share statistics';
+      case 'interconnect_share_statistics_hint':
+        return 'Reading and watching time, character counts, lookup and mining counters';
+      case 'interconnect_share_favorites':
+        return 'Share favorites';
+      case 'interconnect_share_favorites_hint':
+        return 'Favorite words and sentences, including un-favoriting';
+      case 'interconnect_share_section':
+        return 'Share with paired devices';
+      case 'interconnect_share_section_footer':
+        return 'These are merged both ways with the paired device and are on by default. Turning one off stops both sending and receiving it.';
+      case 'game_hook_mining_no_session_lines':
+        return 'No captured lines yet, so there is nothing to attach this card to. Pick a different text thread in the workbench.';
+      case 'shortcut_action_manga_pan_up':
+        return 'Pan up';
+      case 'shortcut_action_manga_pan_down':
+        return 'Pan down';
+      case 'shortcut_action_manga_pan_left':
+        return 'Pan left';
+      case 'shortcut_action_manga_pan_right':
+        return 'Pan right';
+      case 'drag_drop_folder_source_added':
+        return 'Folder added as a library source and scanned.';
+      case 'drag_drop_folder_source_exists':
+        return 'That folder is already a library source.';
       default:
         return null;
     }
