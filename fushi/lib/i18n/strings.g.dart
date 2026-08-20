@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62169 (3657 per locale)
+/// Strings: 62186 (3658 per locale)
 ///
-/// Built on 2026-08-20 at 05:33 UTC
+/// Built on 2026-08-20 at 17:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4972,6 +4972,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Folder added as a library source and scanned.';
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -13452,6 +13453,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -21997,6 +22000,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -30558,6 +30563,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -39131,6 +39138,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -47634,6 +47643,8 @@ class _StringsId extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -56181,6 +56192,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -64545,6 +64558,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -72916,6 +72931,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -81443,6 +81460,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -89982,6 +90001,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -98508,6 +98529,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -106982,6 +107005,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -115487,6 +115512,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -123978,6 +124005,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 // Path: <root>
@@ -131829,6 +131858,8 @@ class _StringsZhCn extends _StringsEn {
   String get drag_drop_folder_source_added => '已把文件夹添加为来源并开始扫描';
   @override
   String get drag_drop_folder_source_exists => '该文件夹已经是来源了';
+  @override
+  String get shortcut_action_popup_play_audio => '播放单词发音';
 }
 
 // Path: <root>
@@ -140116,6 +140147,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
 }
 
 /// Flat map(s) containing all translations.
@@ -147622,6 +147655,8 @@ extension on _StringsEn {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -155126,6 +155161,8 @@ extension on _StringsAr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -162652,6 +162689,8 @@ extension on _StringsDe {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -170177,6 +170216,8 @@ extension on _StringsEs {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -177708,6 +177749,8 @@ extension on _StringsFr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -185221,6 +185264,8 @@ extension on _StringsId {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -192748,6 +192793,8 @@ extension on _StringsIt {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -200237,6 +200284,8 @@ extension on _StringsJa {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -207730,6 +207779,8 @@ extension on _StringsKo {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -215251,6 +215302,8 @@ extension on _StringsNl {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -222769,6 +222822,8 @@ extension on _StringsPtBr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -230292,6 +230347,8 @@ extension on _StringsRu {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -237798,6 +237855,8 @@ extension on _StringsTh {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -245313,6 +245372,8 @@ extension on _StringsTr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -252824,6 +252885,8 @@ extension on _StringsVi {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
@@ -260276,6 +260339,8 @@ extension on _StringsZhCn {
         return '已把文件夹添加为来源并开始扫描';
       case 'drag_drop_folder_source_exists':
         return '该文件夹已经是来源了';
+      case 'shortcut_action_popup_play_audio':
+        return '播放单词发音';
       default:
         return null;
     }
@@ -267760,6 +267825,8 @@ extension on _StringsZhHk {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
       default:
         return null;
     }
