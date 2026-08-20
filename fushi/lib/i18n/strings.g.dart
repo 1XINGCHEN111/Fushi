@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62169 (3657 per locale)
+/// Strings: 62220 (3660 per locale)
 ///
-/// Built on 2026-08-20 at 05:33 UTC
+/// Built on 2026-08-20 at 09:10 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4972,6 +4972,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Folder added as a library source and scanned.';
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  String get sync_pair_invalid_url => 'Invalid address format';
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -13452,6 +13457,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -21997,6 +22010,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -30558,6 +30579,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -39131,6 +39160,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -47634,6 +47671,14 @@ class _StringsId extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -56181,6 +56226,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -64545,6 +64598,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -72916,6 +72977,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -81443,6 +81512,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -89982,6 +90059,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -98508,6 +98593,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -106982,6 +107075,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -115487,6 +115588,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -123978,6 +124087,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 // Path: <root>
@@ -131829,6 +131946,13 @@ class _StringsZhCn extends _StringsEn {
   String get drag_drop_folder_source_added => '已把文件夹添加为来源并开始扫描';
   @override
   String get drag_drop_folder_source_exists => '该文件夹已经是来源了';
+  @override
+  String get sync_pair_invalid_url => '地址格式无效';
+  @override
+  String get sync_pair_peer_requires_https =>
+      '该设备只接受 HTTPS，请改用 https:// 开头的地址。';
+  @override
+  String get sync_pair_peer_not_https => '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
 }
 
 // Path: <root>
@@ -140116,6 +140240,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
 }
 
 /// Flat map(s) containing all translations.
@@ -147622,6 +147754,12 @@ extension on _StringsEn {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -155126,6 +155264,12 @@ extension on _StringsAr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -162652,6 +162796,12 @@ extension on _StringsDe {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -170177,6 +170327,12 @@ extension on _StringsEs {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -177708,6 +177864,12 @@ extension on _StringsFr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -185221,6 +185383,12 @@ extension on _StringsId {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -192748,6 +192916,12 @@ extension on _StringsIt {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -200237,6 +200411,12 @@ extension on _StringsJa {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -207730,6 +207910,12 @@ extension on _StringsKo {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -215251,6 +215437,12 @@ extension on _StringsNl {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -222769,6 +222961,12 @@ extension on _StringsPtBr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -230292,6 +230490,12 @@ extension on _StringsRu {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -237798,6 +238002,12 @@ extension on _StringsTh {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -245313,6 +245523,12 @@ extension on _StringsTr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -252824,6 +253040,12 @@ extension on _StringsVi {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
@@ -260276,6 +260498,12 @@ extension on _StringsZhCn {
         return '已把文件夹添加为来源并开始扫描';
       case 'drag_drop_folder_source_exists':
         return '该文件夹已经是来源了';
+      case 'sync_pair_invalid_url':
+        return '地址格式无效';
+      case 'sync_pair_peer_requires_https':
+        return '该设备只接受 HTTPS，请改用 https:// 开头的地址。';
+      case 'sync_pair_peer_not_https':
+        return '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
       default:
         return null;
     }
@@ -267760,6 +267988,12 @@ extension on _StringsZhHk {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       default:
         return null;
     }
