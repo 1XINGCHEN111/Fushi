@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63155 (3715 per locale)
+/// Strings: 63172 (3716 per locale)
 ///
-/// Built on 2026-08-21 at 17:44 UTC
+/// Built on 2026-08-21 at 21:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5044,6 +5044,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get resource_version_show_files => 'Show files';
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   String get manga_online_error_view_detail => 'View details';
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -13654,6 +13655,8 @@ class _StringsAr extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -22329,6 +22332,8 @@ class _StringsDe extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -31020,6 +31025,8 @@ class _StringsEs extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -39723,6 +39730,8 @@ class _StringsFr extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -48356,6 +48365,8 @@ class _StringsId extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -57033,6 +57044,8 @@ class _StringsIt extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -65527,6 +65540,8 @@ class _StringsJa extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -74029,6 +74044,8 @@ class _StringsKo extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -82686,6 +82703,8 @@ class _StringsNl extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -91355,6 +91374,8 @@ class _StringsPtBr extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -100011,6 +100032,8 @@ class _StringsRu extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -108615,6 +108638,8 @@ class _StringsTh extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -117250,6 +117275,8 @@ class _StringsTr extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -125871,6 +125898,8 @@ class _StringsVi extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 // Path: <root>
@@ -133842,6 +133871,8 @@ class _StringsZhCn extends _StringsEn {
   String get manga_online_detail_load_failed => '无法载入这部漫画。';
   @override
   String get manga_online_error_view_detail => '查看详情';
+  @override
+  String get discovery_sources_unavailable => '全部来源都不可用';
 }
 
 // Path: <root>
@@ -142261,6 +142292,8 @@ class _StringsZhHk extends _StringsEn {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   @override
   String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
 }
 
 /// Flat map(s) containing all translations.
@@ -149883,6 +149916,8 @@ extension on _StringsEn {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -157503,6 +157538,8 @@ extension on _StringsAr {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -165145,6 +165182,8 @@ extension on _StringsDe {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -172786,6 +172825,8 @@ extension on _StringsEs {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -180433,6 +180474,8 @@ extension on _StringsFr {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -188062,6 +188105,8 @@ extension on _StringsId {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -195705,6 +195750,8 @@ extension on _StringsIt {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -203310,6 +203357,8 @@ extension on _StringsJa {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -210919,6 +210968,8 @@ extension on _StringsKo {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -218556,6 +218607,8 @@ extension on _StringsNl {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -226190,6 +226243,8 @@ extension on _StringsPtBr {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -233829,6 +233884,8 @@ extension on _StringsRu {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -241451,6 +241508,8 @@ extension on _StringsTh {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -249082,6 +249141,8 @@ extension on _StringsTr {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -256709,6 +256770,8 @@ extension on _StringsVi {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
@@ -264277,6 +264340,8 @@ extension on _StringsZhCn {
         return '无法载入这部漫画。';
       case 'manga_online_error_view_detail':
         return '查看详情';
+      case 'discovery_sources_unavailable':
+        return '全部来源都不可用';
       default:
         return null;
     }
@@ -271877,6 +271942,8 @@ extension on _StringsZhHk {
         return 'Could not load this manga.';
       case 'manga_online_error_view_detail':
         return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       default:
         return null;
     }
