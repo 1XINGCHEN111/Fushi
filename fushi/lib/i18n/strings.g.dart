@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63053 (3709 per locale)
+/// Strings: 63121 (3713 per locale)
 ///
-/// Built on 2026-08-21 at 16:07 UTC
+/// Built on 2026-08-21 at 16:51 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5036,6 +5036,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get subscription_show_items => 'Episode history';
   String get subscription_sort_created => 'Date added';
   String get subscription_no_match => 'No matching subscriptions';
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -13632,6 +13638,16 @@ class _StringsAr extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -22293,6 +22309,16 @@ class _StringsDe extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -30970,6 +30996,16 @@ class _StringsEs extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -39659,6 +39695,16 @@ class _StringsFr extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -48278,6 +48324,16 @@ class _StringsId extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -56941,6 +56997,16 @@ class _StringsIt extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -65421,6 +65487,16 @@ class _StringsJa extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -73909,6 +73985,16 @@ class _StringsKo extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -82552,6 +82638,16 @@ class _StringsNl extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -91207,6 +91303,16 @@ class _StringsPtBr extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -99849,6 +99955,16 @@ class _StringsRu extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -108439,6 +108555,16 @@ class _StringsTh extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -117060,6 +117186,16 @@ class _StringsTr extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -125667,6 +125803,16 @@ class _StringsVi extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 // Path: <root>
@@ -133625,6 +133771,15 @@ class _StringsZhCn extends _StringsEn {
   String get subscription_sort_created => '添加时间';
   @override
   String get subscription_no_match => '没有匹配的订阅';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      '请填 0 或更大的整数，留空表示不限';
+  @override
+  String get download_subscription_source_unavailable => '当前目标库（当前不可用）';
+  @override
+  String resource_version_episode_count({required Object n}) => '共 ${n} 集';
+  @override
+  String get resource_version_show_files => '显示文件';
 }
 
 // Path: <root>
@@ -142030,6 +142185,16 @@ class _StringsZhHk extends _StringsEn {
   String get subscription_sort_created => 'Date added';
   @override
   String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
 }
 
 /// Flat map(s) containing all translations.
@@ -149640,6 +149805,14 @@ extension on _StringsEn {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -157248,6 +157421,14 @@ extension on _StringsAr {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -164878,6 +165059,14 @@ extension on _StringsDe {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -172507,6 +172696,14 @@ extension on _StringsEs {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -180142,6 +180339,14 @@ extension on _StringsFr {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -187759,6 +187964,14 @@ extension on _StringsId {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -195390,6 +195603,14 @@ extension on _StringsIt {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -202983,6 +203204,14 @@ extension on _StringsJa {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -210580,6 +210809,14 @@ extension on _StringsKo {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -218205,6 +218442,14 @@ extension on _StringsNl {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -225827,6 +226072,14 @@ extension on _StringsPtBr {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -233454,6 +233707,14 @@ extension on _StringsRu {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -241064,6 +241325,14 @@ extension on _StringsTh {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -248683,6 +248952,14 @@ extension on _StringsTr {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -256298,6 +256575,14 @@ extension on _StringsVi {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
@@ -263854,6 +264139,14 @@ extension on _StringsZhCn {
         return '添加时间';
       case 'subscription_no_match':
         return '没有匹配的订阅';
+      case 'download_subscription_start_episode_invalid':
+        return '请填 0 或更大的整数，留空表示不限';
+      case 'download_subscription_source_unavailable':
+        return '当前目标库（当前不可用）';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '共 ${n} 集';
+      case 'resource_version_show_files':
+        return '显示文件';
       default:
         return null;
     }
@@ -271442,6 +271735,14 @@ extension on _StringsZhHk {
         return 'Date added';
       case 'subscription_no_match':
         return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
       default:
         return null;
     }
