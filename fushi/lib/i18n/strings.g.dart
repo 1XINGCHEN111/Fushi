@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62577 (3681 per locale)
+/// Strings: 62611 (3683 per locale)
 ///
-/// Built on 2026-08-21 at 13:05 UTC
+/// Built on 2026-08-21 at 16:20 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5003,6 +5003,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_task_sort_progress => 'Progress';
   String get download_task_sort_status => 'Status';
   String get download_task_no_match => 'No matching tasks';
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -13538,6 +13540,10 @@ class _StringsAr extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -22138,6 +22144,10 @@ class _StringsDe extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -30754,6 +30764,10 @@ class _StringsEs extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -39382,6 +39396,10 @@ class _StringsFr extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -47940,6 +47958,10 @@ class _StringsId extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -56542,6 +56564,10 @@ class _StringsIt extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -64961,6 +64987,10 @@ class _StringsJa extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -73388,6 +73418,10 @@ class _StringsKo extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -81970,6 +82004,10 @@ class _StringsNl extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -90564,6 +90602,10 @@ class _StringsPtBr extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -99145,6 +99187,10 @@ class _StringsRu extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -107674,6 +107720,10 @@ class _StringsTh extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -116234,6 +116284,10 @@ class _StringsTr extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -124780,6 +124834,10 @@ class _StringsVi extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -132682,6 +132740,10 @@ class _StringsZhCn extends _StringsEn {
   String get download_task_sort_status => '状态';
   @override
   String get download_task_no_match => '没有匹配的任务';
+  @override
+  String get manga_online_detail_load_failed => '无法载入这部漫画。';
+  @override
+  String get manga_online_error_view_detail => '查看详情';
 }
 
 // Path: <root>
@@ -141026,6 +141088,10 @@ class _StringsZhHk extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 /// Flat map(s) containing all translations.
@@ -148580,6 +148646,10 @@ extension on _StringsEn {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -156132,6 +156202,10 @@ extension on _StringsAr {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -163706,6 +163780,10 @@ extension on _StringsDe {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -171279,6 +171357,10 @@ extension on _StringsEs {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -178858,6 +178940,10 @@ extension on _StringsFr {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -186419,6 +186505,10 @@ extension on _StringsId {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -193994,6 +194084,10 @@ extension on _StringsIt {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -201531,6 +201625,10 @@ extension on _StringsJa {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -209072,6 +209170,10 @@ extension on _StringsKo {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -216641,6 +216743,10 @@ extension on _StringsNl {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -224207,6 +224313,10 @@ extension on _StringsPtBr {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -231778,6 +231888,10 @@ extension on _StringsRu {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -239332,6 +239446,10 @@ extension on _StringsTh {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -246895,6 +247013,10 @@ extension on _StringsTr {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -254454,6 +254576,10 @@ extension on _StringsVi {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -261954,6 +262080,10 @@ extension on _StringsZhCn {
         return '状态';
       case 'download_task_no_match':
         return '没有匹配的任务';
+      case 'manga_online_detail_load_failed':
+        return '无法载入这部漫画。';
+      case 'manga_online_error_view_detail':
+        return '查看详情';
       default:
         return null;
     }
@@ -269486,6 +269616,10 @@ extension on _StringsZhHk {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
