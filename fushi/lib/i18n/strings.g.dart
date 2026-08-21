@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 59704 (3512 per locale)
+/// Strings: 59925 (3525 per locale)
 ///
-/// Built on 2026-08-17 at 13:27 UTC
+/// Built on 2026-08-21 at 07:07 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4693,8 +4693,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Pair devices on your LAN to share libraries and progress';
   String get onboarding_step_dictionary_action => 'Open dictionary manager';
   String get onboarding_step_anki_title => 'Set up Anki';
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
   String get onboarding_step_anki_action => 'Open card creation settings';
   String get onboarding_step_backup_title => 'Set up backup';
   String get onboarding_step_backup_body =>
@@ -4737,8 +4735,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get onboarding_step_pack_import_existing_action =>
       'Import downloaded pack';
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   String onboarding_pack_download_failed({required Object message}) =>
@@ -4763,6 +4759,30 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Read EPUB novels with dictionary lookup and audiobook sync';
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  String get onboarding_anki_backend_label => 'Connection';
+  String get onboarding_anki_test_action => 'Test connection';
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -12770,9 +12790,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -12845,9 +12862,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -12888,6 +12902,45 @@ class _StringsAr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -20962,9 +21015,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -21037,9 +21087,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -21080,6 +21127,45 @@ class _StringsDe extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -29170,9 +29256,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -29245,9 +29328,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -29288,6 +29368,45 @@ class _StringsEs extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -37390,9 +37509,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -37465,9 +37581,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -37508,6 +37621,45 @@ class _StringsFr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -45538,9 +45690,6 @@ class _StringsId extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -45613,9 +45762,6 @@ class _StringsId extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -45656,6 +45802,45 @@ class _StringsId extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -53732,9 +53917,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -53807,9 +53989,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -53850,6 +54029,45 @@ class _StringsIt extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -61740,9 +61958,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -61815,9 +62030,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -61858,6 +62070,45 @@ class _StringsJa extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -69755,9 +70006,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -69830,9 +70078,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -69873,6 +70118,45 @@ class _StringsKo extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -77929,9 +78213,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -78004,9 +78285,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -78047,6 +78325,45 @@ class _StringsNl extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -86115,9 +86432,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -86190,9 +86504,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -86233,6 +86544,45 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -94287,9 +94637,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -94362,9 +94709,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -94405,6 +94749,45 @@ class _StringsRu extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -102407,9 +102790,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -102482,9 +102862,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -102525,6 +102902,45 @@ class _StringsTh extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -110558,9 +110974,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -110633,9 +111046,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -110676,6 +111086,45 @@ class _StringsTr extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -118694,9 +119143,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -118769,9 +119215,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -118812,6 +119255,45 @@ class _StringsVi extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 // Path: <root>
@@ -126248,9 +126730,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get onboarding_step_anki_title => '配置 Anki';
   @override
-  String get onboarding_step_anki_body =>
-      '打开制卡设置，连接 AnkiConnect（桌面）或 AnkiDroid（安卓），并测试连接。';
-  @override
   String get onboarding_step_anki_action => '打开制卡设置';
   @override
   String get onboarding_step_backup_title => '配置备份';
@@ -126314,8 +126793,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => '选择本地包文件';
   @override
-  String get onboarding_step_pack_browser_action => '浏览器下载（Google Drive）';
-  @override
   String get onboarding_pack_downloading => '下载中……可随时取消，下次续传';
   @override
   String onboarding_pack_download_failed({required Object message}) =>
@@ -126350,6 +126827,44 @@ class _StringsZhCn extends _StringsEn {
   String get onboarding_feature_books_hint => '看小说（EPUB），查词与有声书同步';
   @override
   String get onboarding_feature_extension_hint => '网页查词（仅桌面）';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki 是免费的间隔重复记忆软件：把生词做成卡片，按遗忘曲线安排每天复习。Fushi 查词后可一键制卡，把单词、释义、例句、发音和截图写进 Anki。';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      '先安装桌面版 Anki，再装 AnkiConnect 插件：在 Anki 里打开 工具 → 插件 → 获取插件，填入代码 2055492159。制卡时保持 Anki 在后台运行。';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      '安装 AnkiDroid 并开启 API：AnkiDroid 设置 → 高级 → 开启「AnkiDroid API」，首次制卡时在授权弹窗里允许。';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      '装有 AnkiMobile 即可直接加卡；要用完整功能，可经 AnkiConnect 连接同一局域网里电脑上的 Anki。';
+  @override
+  String get onboarding_anki_backend_label => '连接方式';
+  @override
+  String get onboarding_anki_test_action => '测试连接';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      '连接成功：读到 ${count} 个牌组';
+  @override
+  String get onboarding_anki_get_anki_action => '下载 Anki（桌面版）';
+  @override
+  String get onboarding_anki_get_ankiconnect_action => 'AnkiConnect 插件页';
+  @override
+  String get onboarding_anki_get_ankidroid_action => '下载 AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      '高级：本机改用 AnkiConnect 连电脑';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      '本机也能把卡制进同一局域网里电脑上的 Anki：在制卡设置里开启「改用 AnkiConnect」并填电脑地址。';
+  @override
+  String get onboarding_anki_fsrs_title => '把 Anki 算法换成 FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki 内置的 FSRS 算法远好于默认的 30 年前的 SM-2：记得更牢、复习量更少。请在 Anki 的 牌组选项 里打开 FSRS 开关（开一次全局生效）。这一步只能在 Anki 内手动完成。';
+  @override
+  String get onboarding_step_pack_browser_action => '浏览器下载';
 }
 
 // Path: <root>
@@ -134163,9 +134678,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get onboarding_step_anki_title => 'Set up Anki';
   @override
-  String get onboarding_step_anki_body =>
-      'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
-  @override
   String get onboarding_step_anki_action => 'Open card creation settings';
   @override
   String get onboarding_step_backup_title => 'Set up backup';
@@ -134238,9 +134750,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get onboarding_step_pack_pick_action => 'Choose a local pack file';
   @override
-  String get onboarding_step_pack_browser_action =>
-      'Open in browser (Google Drive)';
-  @override
   String get onboarding_pack_downloading =>
       'Downloading… cancel anytime, resumes next time';
   @override
@@ -134281,6 +134790,45 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get onboarding_feature_extension_hint =>
       'Look up words on any web page (desktop only)';
+  @override
+  String get onboarding_anki_intro_body =>
+      'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+  @override
+  String get onboarding_anki_setup_desktop_hint =>
+      'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+  @override
+  String get onboarding_anki_setup_android_hint =>
+      'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+  @override
+  String get onboarding_anki_setup_ios_hint =>
+      'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+  @override
+  String get onboarding_anki_backend_label => 'Connection';
+  @override
+  String get onboarding_anki_test_action => 'Test connection';
+  @override
+  String onboarding_anki_test_success({required Object count}) =>
+      'Connected: found ${count} decks';
+  @override
+  String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
+  @override
+  String get onboarding_anki_get_ankiconnect_action =>
+      'AnkiConnect add-on page';
+  @override
+  String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_title =>
+      'Advanced: use AnkiConnect on this device';
+  @override
+  String get onboarding_anki_mobile_ankiconnect_hint =>
+      'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+  @override
+  String get onboarding_anki_fsrs_title => 'Switch Anki to FSRS';
+  @override
+  String get onboarding_anki_fsrs_body =>
+      'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+  @override
+  String get onboarding_step_pack_browser_action => 'Download in browser';
 }
 
 /// Flat map(s) containing all translations.
@@ -141397,8 +141945,6 @@ extension on _StringsEn {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -141459,8 +142005,6 @@ extension on _StringsEn {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -141495,6 +142039,36 @@ extension on _StringsEn {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -148609,8 +149183,6 @@ extension on _StringsAr {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -148671,8 +149243,6 @@ extension on _StringsAr {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -148707,6 +149277,36 @@ extension on _StringsAr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -155843,8 +156443,6 @@ extension on _StringsDe {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -155905,8 +156503,6 @@ extension on _StringsDe {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -155941,6 +156537,36 @@ extension on _StringsDe {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -163076,8 +163702,6 @@ extension on _StringsEs {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -163138,8 +163762,6 @@ extension on _StringsEs {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -163174,6 +163796,36 @@ extension on _StringsEs {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -170315,8 +170967,6 @@ extension on _StringsFr {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -170377,8 +171027,6 @@ extension on _StringsFr {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -170413,6 +171061,36 @@ extension on _StringsFr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -177536,8 +178214,6 @@ extension on _StringsId {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -177598,8 +178274,6 @@ extension on _StringsId {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -177634,6 +178308,36 @@ extension on _StringsId {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -184771,8 +185475,6 @@ extension on _StringsIt {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -184833,8 +185535,6 @@ extension on _StringsIt {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -184869,6 +185569,36 @@ extension on _StringsIt {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -191968,8 +192698,6 @@ extension on _StringsJa {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -192030,8 +192758,6 @@ extension on _StringsJa {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -192066,6 +192792,36 @@ extension on _StringsJa {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -199169,8 +199925,6 @@ extension on _StringsKo {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -199231,8 +199985,6 @@ extension on _StringsKo {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -199267,6 +200019,36 @@ extension on _StringsKo {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -206398,8 +207180,6 @@ extension on _StringsNl {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -206460,8 +207240,6 @@ extension on _StringsNl {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -206496,6 +207274,36 @@ extension on _StringsNl {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -213624,8 +214432,6 @@ extension on _StringsPtBr {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -213686,8 +214492,6 @@ extension on _StringsPtBr {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -213722,6 +214526,36 @@ extension on _StringsPtBr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -220855,8 +221689,6 @@ extension on _StringsRu {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -220917,8 +221749,6 @@ extension on _StringsRu {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -220953,6 +221783,36 @@ extension on _StringsRu {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -228069,8 +228929,6 @@ extension on _StringsTh {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -228131,8 +228989,6 @@ extension on _StringsTh {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -228167,6 +229023,36 @@ extension on _StringsTh {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -235292,8 +236178,6 @@ extension on _StringsTr {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -235354,8 +236238,6 @@ extension on _StringsTr {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -235390,6 +236272,36 @@ extension on _StringsTr {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -242511,8 +243423,6 @@ extension on _StringsVi {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -242573,8 +243483,6 @@ extension on _StringsVi {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -242609,6 +243517,36 @@ extension on _StringsVi {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
@@ -249671,8 +250609,6 @@ extension on _StringsZhCn {
         return '打开词典管理';
       case 'onboarding_step_anki_title':
         return '配置 Anki';
-      case 'onboarding_step_anki_body':
-        return '打开制卡设置，连接 AnkiConnect（桌面）或 AnkiDroid（安卓），并测试连接。';
       case 'onboarding_step_anki_action':
         return '打开制卡设置';
       case 'onboarding_step_backup_title':
@@ -249733,8 +250669,6 @@ extension on _StringsZhCn {
         return '导入已下载的包';
       case 'onboarding_step_pack_pick_action':
         return '选择本地包文件';
-      case 'onboarding_step_pack_browser_action':
-        return '浏览器下载（Google Drive）';
       case 'onboarding_pack_downloading':
         return '下载中……可随时取消，下次续传';
       case 'onboarding_pack_download_failed':
@@ -249769,6 +250703,36 @@ extension on _StringsZhCn {
         return '看小说（EPUB），查词与有声书同步';
       case 'onboarding_feature_extension_hint':
         return '网页查词（仅桌面）';
+      case 'onboarding_anki_intro_body':
+        return 'Anki 是免费的间隔重复记忆软件：把生词做成卡片，按遗忘曲线安排每天复习。Fushi 查词后可一键制卡，把单词、释义、例句、发音和截图写进 Anki。';
+      case 'onboarding_anki_setup_desktop_hint':
+        return '先安装桌面版 Anki，再装 AnkiConnect 插件：在 Anki 里打开 工具 → 插件 → 获取插件，填入代码 2055492159。制卡时保持 Anki 在后台运行。';
+      case 'onboarding_anki_setup_android_hint':
+        return '安装 AnkiDroid 并开启 API：AnkiDroid 设置 → 高级 → 开启「AnkiDroid API」，首次制卡时在授权弹窗里允许。';
+      case 'onboarding_anki_setup_ios_hint':
+        return '装有 AnkiMobile 即可直接加卡；要用完整功能，可经 AnkiConnect 连接同一局域网里电脑上的 Anki。';
+      case 'onboarding_anki_backend_label':
+        return '连接方式';
+      case 'onboarding_anki_test_action':
+        return '测试连接';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => '连接成功：读到 ${count} 个牌组';
+      case 'onboarding_anki_get_anki_action':
+        return '下载 Anki（桌面版）';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect 插件页';
+      case 'onboarding_anki_get_ankidroid_action':
+        return '下载 AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return '高级：本机改用 AnkiConnect 连电脑';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return '本机也能把卡制进同一局域网里电脑上的 Anki：在制卡设置里开启「改用 AnkiConnect」并填电脑地址。';
+      case 'onboarding_anki_fsrs_title':
+        return '把 Anki 算法换成 FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki 内置的 FSRS 算法远好于默认的 30 年前的 SM-2：记得更牢、复习量更少。请在 Anki 的 牌组选项 里打开 FSRS 开关（开一次全局生效）。这一步只能在 Anki 内手动完成。';
+      case 'onboarding_step_pack_browser_action':
+        return '浏览器下载';
       default:
         return null;
     }
@@ -256863,8 +257827,6 @@ extension on _StringsZhHk {
         return 'Open dictionary manager';
       case 'onboarding_step_anki_title':
         return 'Set up Anki';
-      case 'onboarding_step_anki_body':
-        return 'Open card creation settings to connect AnkiConnect (desktop) or AnkiDroid (Android) and test the connection.';
       case 'onboarding_step_anki_action':
         return 'Open card creation settings';
       case 'onboarding_step_backup_title':
@@ -256925,8 +257887,6 @@ extension on _StringsZhHk {
         return 'Import downloaded pack';
       case 'onboarding_step_pack_pick_action':
         return 'Choose a local pack file';
-      case 'onboarding_step_pack_browser_action':
-        return 'Open in browser (Google Drive)';
       case 'onboarding_pack_downloading':
         return 'Downloading… cancel anytime, resumes next time';
       case 'onboarding_pack_download_failed':
@@ -256961,6 +257921,36 @@ extension on _StringsZhHk {
         return 'Read EPUB novels with dictionary lookup and audiobook sync';
       case 'onboarding_feature_extension_hint':
         return 'Look up words on any web page (desktop only)';
+      case 'onboarding_anki_intro_body':
+        return 'Anki is a free spaced repetition flashcard app: new words become cards, and reviews are scheduled along the forgetting curve. After a lookup, Fushi can turn the word into an Anki card in one tap, with meaning, sentence, audio and screenshot.';
+      case 'onboarding_anki_setup_desktop_hint':
+        return 'Install the Anki desktop app, then add the AnkiConnect add-on: in Anki, open Tools - Add-ons - Get Add-ons and enter code 2055492159. Keep Anki running while creating cards.';
+      case 'onboarding_anki_setup_android_hint':
+        return 'Install AnkiDroid and enable its API: AnkiDroid Settings - Advanced - Enable AnkiDroid API, then allow the permission dialog on your first card.';
+      case 'onboarding_anki_setup_ios_hint':
+        return 'With AnkiMobile installed, adding cards works out of the box. For the full feature set, connect to Anki running on a computer in the same network via AnkiConnect.';
+      case 'onboarding_anki_backend_label':
+        return 'Connection';
+      case 'onboarding_anki_test_action':
+        return 'Test connection';
+      case 'onboarding_anki_test_success':
+        return ({required Object count}) => 'Connected: found ${count} decks';
+      case 'onboarding_anki_get_anki_action':
+        return 'Get Anki (desktop)';
+      case 'onboarding_anki_get_ankiconnect_action':
+        return 'AnkiConnect add-on page';
+      case 'onboarding_anki_get_ankidroid_action':
+        return 'Get AnkiDroid';
+      case 'onboarding_anki_mobile_ankiconnect_title':
+        return 'Advanced: use AnkiConnect on this device';
+      case 'onboarding_anki_mobile_ankiconnect_hint':
+        return 'This device can also create cards into Anki running on a computer in the same network: enable AnkiConnect in card creation settings and enter the computer address.';
+      case 'onboarding_anki_fsrs_title':
+        return 'Switch Anki to FSRS';
+      case 'onboarding_anki_fsrs_body':
+        return 'Anki ships with FSRS, a far better scheduler than the 30-year-old SM-2 default: better retention with fewer reviews. In Anki, open deck options and turn on FSRS (one switch covers the whole collection). This must be done inside Anki itself.';
+      case 'onboarding_step_pack_browser_action':
+        return 'Download in browser';
       default:
         return null;
     }
