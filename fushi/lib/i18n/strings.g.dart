@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62577 (3681 per locale)
+/// Strings: 62679 (3687 per locale)
 ///
-/// Built on 2026-08-21 at 13:05 UTC
+/// Built on 2026-08-21 at 15:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5003,6 +5003,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get download_task_sort_progress => 'Progress';
   String get download_task_sort_status => 'Status';
   String get download_task_no_match => 'No matching tasks';
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  String get subtitle_version_ai_translated => 'AI translated';
+  String get subtitle_version_content_language => 'Content';
+  String get subtitle_version_show_files => 'Show files';
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -13538,6 +13545,19 @@ class _StringsAr extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -22138,6 +22158,19 @@ class _StringsDe extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -30754,6 +30787,19 @@ class _StringsEs extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -39382,6 +39428,19 @@ class _StringsFr extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -47940,6 +47999,19 @@ class _StringsId extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -56542,6 +56614,19 @@ class _StringsIt extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -64961,6 +65046,19 @@ class _StringsJa extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -73388,6 +73486,19 @@ class _StringsKo extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -81970,6 +82081,19 @@ class _StringsNl extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -90564,6 +90688,19 @@ class _StringsPtBr extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -99145,6 +99282,19 @@ class _StringsRu extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -107674,6 +107824,19 @@ class _StringsTh extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -116234,6 +116397,19 @@ class _StringsTr extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -124780,6 +124956,19 @@ class _StringsVi extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -132682,6 +132871,18 @@ class _StringsZhCn extends _StringsEn {
   String get download_task_sort_status => '状态';
   @override
   String get download_task_no_match => '没有匹配的任务';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '共 ${n} 集';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) => '${n} 个未编号';
+  @override
+  String get subtitle_version_ai_translated => '机翻';
+  @override
+  String get subtitle_version_content_language => '正文';
+  @override
+  String get subtitle_version_show_files => '展开文件';
+  @override
+  String get subtitle_version_view_files => '文件视图';
 }
 
 // Path: <root>
@@ -141026,6 +141227,19 @@ class _StringsZhHk extends _StringsEn {
   String get download_task_sort_status => 'Status';
   @override
   String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 /// Flat map(s) containing all translations.
@@ -148580,6 +148794,18 @@ extension on _StringsEn {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -156132,6 +156358,18 @@ extension on _StringsAr {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -163706,6 +163944,18 @@ extension on _StringsDe {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -171279,6 +171529,18 @@ extension on _StringsEs {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -178858,6 +179120,18 @@ extension on _StringsFr {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -186419,6 +186693,18 @@ extension on _StringsId {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -193994,6 +194280,18 @@ extension on _StringsIt {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -201531,6 +201829,18 @@ extension on _StringsJa {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -209072,6 +209382,18 @@ extension on _StringsKo {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -216641,6 +216963,18 @@ extension on _StringsNl {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -224207,6 +224541,18 @@ extension on _StringsPtBr {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -231778,6 +232124,18 @@ extension on _StringsRu {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -239332,6 +239690,18 @@ extension on _StringsTh {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -246895,6 +247265,18 @@ extension on _StringsTr {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -254454,6 +254836,18 @@ extension on _StringsVi {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -261954,6 +262348,18 @@ extension on _StringsZhCn {
         return '状态';
       case 'download_task_no_match':
         return '没有匹配的任务';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '共 ${n} 集';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} 个未编号';
+      case 'subtitle_version_ai_translated':
+        return '机翻';
+      case 'subtitle_version_content_language':
+        return '正文';
+      case 'subtitle_version_show_files':
+        return '展开文件';
+      case 'subtitle_version_view_files':
+        return '文件视图';
       default:
         return null;
     }
@@ -269486,6 +269892,18 @@ extension on _StringsZhHk {
         return 'Status';
       case 'download_task_no_match':
         return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
