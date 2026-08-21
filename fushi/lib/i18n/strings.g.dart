@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62679 (3687 per locale)
+/// Strings: 62713 (3689 per locale)
 ///
-/// Built on 2026-08-21 at 15:05 UTC
+/// Built on 2026-08-21 at 16:07 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5010,6 +5010,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get subtitle_version_content_language => 'Content';
   String get subtitle_version_show_files => 'Show files';
   String get subtitle_version_view_files => 'File list';
+  String get resource_version_batch => 'Batch';
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -13558,6 +13560,10 @@ class _StringsAr extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -22171,6 +22177,10 @@ class _StringsDe extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -30800,6 +30810,10 @@ class _StringsEs extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -39441,6 +39455,10 @@ class _StringsFr extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -48012,6 +48030,10 @@ class _StringsId extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -56627,6 +56649,10 @@ class _StringsIt extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -65059,6 +65085,10 @@ class _StringsJa extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -73499,6 +73529,10 @@ class _StringsKo extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -82094,6 +82128,10 @@ class _StringsNl extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -90701,6 +90739,10 @@ class _StringsPtBr extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -99295,6 +99337,10 @@ class _StringsRu extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -107837,6 +107883,10 @@ class _StringsTh extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -116410,6 +116460,10 @@ class _StringsTr extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -124969,6 +125023,10 @@ class _StringsVi extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 // Path: <root>
@@ -132883,6 +132941,10 @@ class _StringsZhCn extends _StringsEn {
   String get subtitle_version_show_files => '展开文件';
   @override
   String get subtitle_version_view_files => '文件视图';
+  @override
+  String get resource_version_batch => '合集';
+  @override
+  String get resource_version_view_flat => '全部条目';
 }
 
 // Path: <root>
@@ -141240,6 +141302,10 @@ class _StringsZhHk extends _StringsEn {
   String get subtitle_version_show_files => 'Show files';
   @override
   String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
 }
 
 /// Flat map(s) containing all translations.
@@ -148806,6 +148872,10 @@ extension on _StringsEn {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -156370,6 +156440,10 @@ extension on _StringsAr {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -163956,6 +164030,10 @@ extension on _StringsDe {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -171541,6 +171619,10 @@ extension on _StringsEs {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -179132,6 +179214,10 @@ extension on _StringsFr {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -186705,6 +186791,10 @@ extension on _StringsId {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -194292,6 +194382,10 @@ extension on _StringsIt {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -201841,6 +201935,10 @@ extension on _StringsJa {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -209394,6 +209492,10 @@ extension on _StringsKo {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -216975,6 +217077,10 @@ extension on _StringsNl {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -224553,6 +224659,10 @@ extension on _StringsPtBr {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -232136,6 +232246,10 @@ extension on _StringsRu {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -239702,6 +239816,10 @@ extension on _StringsTh {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -247277,6 +247395,10 @@ extension on _StringsTr {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -254848,6 +254970,10 @@ extension on _StringsVi {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
@@ -262360,6 +262486,10 @@ extension on _StringsZhCn {
         return '展开文件';
       case 'subtitle_version_view_files':
         return '文件视图';
+      case 'resource_version_batch':
+        return '合集';
+      case 'resource_version_view_flat':
+        return '全部条目';
       default:
         return null;
     }
@@ -269904,6 +270034,10 @@ extension on _StringsZhHk {
         return 'Show files';
       case 'subtitle_version_view_files':
         return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
       default:
         return null;
     }
