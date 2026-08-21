@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62339 (3667 per locale)
+/// Strings: 62390 (3670 per locale)
 ///
-/// Built on 2026-08-21 at 05:30 UTC
+/// Built on 2026-08-21 at 06:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4986,6 +4986,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_asset_download_action => 'Download';
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -13490,6 +13495,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -22059,6 +22072,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -30644,6 +30665,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -39241,6 +39270,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -47768,6 +47805,14 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -56339,6 +56384,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -64727,6 +64780,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -73123,6 +73184,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -81674,6 +81743,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -90237,6 +90314,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -98787,6 +98872,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -107285,6 +107378,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -115814,6 +115915,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -124329,6 +124438,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 // Path: <root>
@@ -132201,6 +132318,13 @@ class _StringsZhCn extends _StringsEn {
   String get sync_asset_download_action => '下载';
   @override
   String get sync_asset_download_hint => '把远端有、本机没有的取回来（含你在本机删掉过的）。';
+  @override
+  String get sync_asset_legacy_notice_title => '词典与本地音频改为手动传输';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      '这台设备原先开着词典与本地音频数据库的自动同步。该开关已移除——需要传输时请用下面的上传 / 下载。已有数据不受影响，但新导入的词典不会再自动备份。';
+  @override
+  String get sync_asset_legacy_notice_dismiss => '知道了';
 }
 
 // Path: <root>
@@ -140514,6 +140638,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_asset_download_hint =>
       'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
 }
 
 /// Flat map(s) containing all translations.
@@ -148040,6 +148172,12 @@ extension on _StringsEn {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -155564,6 +155702,12 @@ extension on _StringsAr {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -163110,6 +163254,12 @@ extension on _StringsDe {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -170655,6 +170805,12 @@ extension on _StringsEs {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -178206,6 +178362,12 @@ extension on _StringsFr {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -185739,6 +185901,12 @@ extension on _StringsId {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -193286,6 +193454,12 @@ extension on _StringsIt {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -200795,6 +200969,12 @@ extension on _StringsJa {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -208308,6 +208488,12 @@ extension on _StringsKo {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -215849,6 +216035,12 @@ extension on _StringsNl {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -223387,6 +223579,12 @@ extension on _StringsPtBr {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -230930,6 +231128,12 @@ extension on _StringsRu {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -238456,6 +238660,12 @@ extension on _StringsTh {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -245991,6 +246201,12 @@ extension on _StringsTr {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -253522,6 +253738,12 @@ extension on _StringsVi {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
@@ -260994,6 +261216,12 @@ extension on _StringsZhCn {
         return '下载';
       case 'sync_asset_download_hint':
         return '把远端有、本机没有的取回来（含你在本机删掉过的）。';
+      case 'sync_asset_legacy_notice_title':
+        return '词典与本地音频改为手动传输';
+      case 'sync_asset_legacy_notice_body':
+        return '这台设备原先开着词典与本地音频数据库的自动同步。该开关已移除——需要传输时请用下面的上传 / 下载。已有数据不受影响，但新导入的词典不会再自动备份。';
+      case 'sync_asset_legacy_notice_dismiss':
+        return '知道了';
       default:
         return null;
     }
@@ -268498,6 +268726,12 @@ extension on _StringsZhHk {
         return 'Download';
       case 'sync_asset_download_hint':
         return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
       default:
         return null;
     }
