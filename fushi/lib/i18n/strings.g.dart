@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 59925 (3525 per locale)
+/// Strings: 59976 (3528 per locale)
 ///
-/// Built on 2026-08-21 at 12:28 UTC
+/// Built on 2026-08-21 at 12:40 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4770,8 +4770,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String onboarding_anki_test_success({required Object count}) =>
       'Connected: found ${count} decks';
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   String get onboarding_anki_mobile_ankiconnect_title =>
       'Advanced: use AnkiConnect on this device';
@@ -4783,6 +4781,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get onboarding_step_pack_browser_action => 'Download in browser';
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -12921,9 +12927,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -12941,6 +12944,18 @@ class _StringsAr extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -21146,9 +21161,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -21166,6 +21178,18 @@ class _StringsDe extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -29387,9 +29411,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -29407,6 +29428,18 @@ class _StringsEs extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -37640,9 +37673,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -37660,6 +37690,18 @@ class _StringsFr extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -45821,9 +45863,6 @@ class _StringsId extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -45841,6 +45880,18 @@ class _StringsId extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -54048,9 +54099,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -54068,6 +54116,18 @@ class _StringsIt extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -62089,9 +62149,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -62109,6 +62166,18 @@ class _StringsJa extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -70137,9 +70206,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -70157,6 +70223,18 @@ class _StringsKo extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -78344,9 +78422,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -78364,6 +78439,18 @@ class _StringsNl extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -86563,9 +86650,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -86583,6 +86667,18 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -94768,9 +94864,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -94788,6 +94881,18 @@ class _StringsRu extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -102921,9 +103026,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -102941,6 +103043,18 @@ class _StringsTh extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -111105,9 +111219,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -111125,6 +111236,18 @@ class _StringsTr extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -119274,9 +119397,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -119294,6 +119414,18 @@ class _StringsVi extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 // Path: <root>
@@ -126846,8 +126978,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => '下载 Anki（桌面版）';
   @override
-  String get onboarding_anki_get_ankiconnect_action => 'AnkiConnect 插件页';
-  @override
   String get onboarding_anki_get_ankidroid_action => '下载 AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -126865,6 +126995,17 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       '安装 AnkiDroid 并打开一次完成初始化。回到 Fushi 首次制卡时，在弹出的授权框里点「允许」即可——不需要去 AnkiDroid 设置里改任何开关。';
+  @override
+  String get onboarding_anki_install_addon_action => '一键安装 AnkiConnect 插件';
+  @override
+  String get onboarding_anki_addon_installed =>
+      '已装好 AnkiConnect：启动或重启 Anki，然后点「测试连接」。';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      '没找到 Anki 数据目录：请先安装 Anki 并打开一次，再回来重试。';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      '安装失败：${message}';
 }
 
 // Path: <root>
@@ -134809,9 +134950,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get onboarding_anki_get_anki_action => 'Get Anki (desktop)';
   @override
-  String get onboarding_anki_get_ankiconnect_action =>
-      'AnkiConnect add-on page';
-  @override
   String get onboarding_anki_get_ankidroid_action => 'Get AnkiDroid';
   @override
   String get onboarding_anki_mobile_ankiconnect_title =>
@@ -134829,6 +134967,18 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get onboarding_anki_setup_android_hint =>
       'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+  @override
+  String get onboarding_anki_install_addon_action =>
+      'Install AnkiConnect add-on';
+  @override
+  String get onboarding_anki_addon_installed =>
+      'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+  @override
+  String get onboarding_anki_addon_no_anki =>
+      'Anki data folder not found. Install Anki and open it once, then try again.';
+  @override
+  String onboarding_anki_addon_failed({required Object message}) =>
+      'Install failed: ${message}';
 }
 
 /// Flat map(s) containing all translations.
@@ -142053,8 +142203,6 @@ extension on _StringsEn {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -142069,6 +142217,14 @@ extension on _StringsEn {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -149291,8 +149447,6 @@ extension on _StringsAr {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -149307,6 +149461,14 @@ extension on _StringsAr {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -156551,8 +156713,6 @@ extension on _StringsDe {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -156567,6 +156727,14 @@ extension on _StringsDe {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -163810,8 +163978,6 @@ extension on _StringsEs {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -163826,6 +163992,14 @@ extension on _StringsEs {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -171075,8 +171249,6 @@ extension on _StringsFr {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -171091,6 +171263,14 @@ extension on _StringsFr {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -178322,8 +178502,6 @@ extension on _StringsId {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -178338,6 +178516,14 @@ extension on _StringsId {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -185583,8 +185769,6 @@ extension on _StringsIt {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -185599,6 +185783,14 @@ extension on _StringsIt {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -192806,8 +192998,6 @@ extension on _StringsJa {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -192822,6 +193012,14 @@ extension on _StringsJa {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -200033,8 +200231,6 @@ extension on _StringsKo {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -200049,6 +200245,14 @@ extension on _StringsKo {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -207288,8 +207492,6 @@ extension on _StringsNl {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -207304,6 +207506,14 @@ extension on _StringsNl {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -214540,8 +214750,6 @@ extension on _StringsPtBr {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -214556,6 +214764,14 @@ extension on _StringsPtBr {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -221797,8 +222013,6 @@ extension on _StringsRu {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -221813,6 +222027,14 @@ extension on _StringsRu {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -229037,8 +229259,6 @@ extension on _StringsTh {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -229053,6 +229273,14 @@ extension on _StringsTh {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -236286,8 +236514,6 @@ extension on _StringsTr {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -236302,6 +236528,14 @@ extension on _StringsTr {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -243531,8 +243765,6 @@ extension on _StringsVi {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -243547,6 +243779,14 @@ extension on _StringsVi {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
@@ -250717,8 +250957,6 @@ extension on _StringsZhCn {
         return ({required Object count}) => '连接成功：读到 ${count} 个牌组';
       case 'onboarding_anki_get_anki_action':
         return '下载 Anki（桌面版）';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect 插件页';
       case 'onboarding_anki_get_ankidroid_action':
         return '下载 AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -250733,6 +250971,14 @@ extension on _StringsZhCn {
         return '浏览器下载';
       case 'onboarding_anki_setup_android_hint':
         return '安装 AnkiDroid 并打开一次完成初始化。回到 Fushi 首次制卡时，在弹出的授权框里点「允许」即可——不需要去 AnkiDroid 设置里改任何开关。';
+      case 'onboarding_anki_install_addon_action':
+        return '一键安装 AnkiConnect 插件';
+      case 'onboarding_anki_addon_installed':
+        return '已装好 AnkiConnect：启动或重启 Anki，然后点「测试连接」。';
+      case 'onboarding_anki_addon_no_anki':
+        return '没找到 Anki 数据目录：请先安装 Anki 并打开一次，再回来重试。';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => '安装失败：${message}';
       default:
         return null;
     }
@@ -257935,8 +258181,6 @@ extension on _StringsZhHk {
         return ({required Object count}) => 'Connected: found ${count} decks';
       case 'onboarding_anki_get_anki_action':
         return 'Get Anki (desktop)';
-      case 'onboarding_anki_get_ankiconnect_action':
-        return 'AnkiConnect add-on page';
       case 'onboarding_anki_get_ankidroid_action':
         return 'Get AnkiDroid';
       case 'onboarding_anki_mobile_ankiconnect_title':
@@ -257951,6 +258195,14 @@ extension on _StringsZhHk {
         return 'Download in browser';
       case 'onboarding_anki_setup_android_hint':
         return 'Install AnkiDroid and open it once to finish its first-run setup. Back in Fushi, tap Allow on the permission dialog that pops up with your first card - no AnkiDroid settings to change.';
+      case 'onboarding_anki_install_addon_action':
+        return 'Install AnkiConnect add-on';
+      case 'onboarding_anki_addon_installed':
+        return 'AnkiConnect is installed. Start (or restart) Anki, then tap Test connection.';
+      case 'onboarding_anki_addon_no_anki':
+        return 'Anki data folder not found. Install Anki and open it once, then try again.';
+      case 'onboarding_anki_addon_failed':
+        return ({required Object message}) => 'Install failed: ${message}';
       default:
         return null;
     }
