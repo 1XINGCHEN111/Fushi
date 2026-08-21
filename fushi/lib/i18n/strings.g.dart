@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62237 (3661 per locale)
+/// Strings: 62339 (3667 per locale)
 ///
-/// Built on 2026-08-20 at 09:30 UTC
+/// Built on 2026-08-21 at 14:16 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4979,6 +4979,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  String get subtitle_version_ai_translated => 'AI translated';
+  String get subtitle_version_content_language => 'Content';
+  String get subtitle_version_show_files => 'Show files';
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -13470,6 +13477,19 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -22026,6 +22046,19 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -30598,6 +30631,19 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -39182,6 +39228,19 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -47696,6 +47755,19 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -56254,6 +56326,19 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -64629,6 +64714,19 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -73011,6 +73109,19 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -81549,6 +81660,19 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -90099,6 +90223,19 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -98636,6 +98773,19 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -107121,6 +107271,19 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -115637,6 +115800,19 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -124139,6 +124315,19 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 // Path: <root>
@@ -131999,6 +132188,18 @@ class _StringsZhCn extends _StringsEn {
   String get sync_pair_peer_not_https => '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
   @override
   String get sync_pair_not_fushi_discovered => '此地址未找到 Fushi 设备。';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '共 ${n} 集';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) => '${n} 个未编号';
+  @override
+  String get subtitle_version_ai_translated => '机翻';
+  @override
+  String get subtitle_version_content_language => '正文';
+  @override
+  String get subtitle_version_show_files => '展开文件';
+  @override
+  String get subtitle_version_view_files => '文件视图';
 }
 
 // Path: <root>
@@ -140297,6 +140498,19 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
 }
 
 /// Flat map(s) containing all translations.
@@ -147811,6 +148025,18 @@ extension on _StringsEn {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -155323,6 +155549,18 @@ extension on _StringsAr {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -162857,6 +163095,18 @@ extension on _StringsDe {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -170390,6 +170640,18 @@ extension on _StringsEs {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -177929,6 +178191,18 @@ extension on _StringsFr {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -185450,6 +185724,18 @@ extension on _StringsId {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -192985,6 +193271,18 @@ extension on _StringsIt {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -200482,6 +200780,18 @@ extension on _StringsJa {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -207983,6 +208293,18 @@ extension on _StringsKo {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -215512,6 +215834,18 @@ extension on _StringsNl {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -223038,6 +223372,18 @@ extension on _StringsPtBr {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -230569,6 +230915,18 @@ extension on _StringsRu {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -238083,6 +238441,18 @@ extension on _StringsTh {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -245606,6 +245976,18 @@ extension on _StringsTr {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -253125,6 +253507,18 @@ extension on _StringsVi {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
@@ -260585,6 +260979,18 @@ extension on _StringsZhCn {
         return '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
       case 'sync_pair_not_fushi_discovered':
         return '此地址未找到 Fushi 设备。';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '共 ${n} 集';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} 个未编号';
+      case 'subtitle_version_ai_translated':
+        return '机翻';
+      case 'subtitle_version_content_language':
+        return '正文';
+      case 'subtitle_version_show_files':
+        return '展开文件';
+      case 'subtitle_version_view_files':
+        return '文件视图';
       default:
         return null;
     }
@@ -268077,6 +268483,18 @@ extension on _StringsZhHk {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
       default:
         return null;
     }
