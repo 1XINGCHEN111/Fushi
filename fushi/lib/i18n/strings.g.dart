@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62390 (3670 per locale)
+/// Strings: 62577 (3681 per locale)
 ///
-/// Built on 2026-08-21 at 06:05 UTC
+/// Built on 2026-08-21 at 13:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -258,7 +258,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Search failed or timed out. Tap retry.';
   String get anime_download_search_hint => 'Anime title';
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   String get anime_download_sort_date => 'Published';
   String get anime_download_sort_seeders => 'Seeders';
   String get anime_download_sort_size => 'Size';
@@ -4991,6 +4991,18 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_asset_legacy_notice_body =>
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  String get download_task_add => 'Add task';
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  String get download_task_add_title_label => 'Title';
+  String get download_task_add_content_kind => 'Content type';
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  String get download_task_add_submitted => 'Task added';
+  String get download_task_search_hint => 'Search tasks';
+  String get download_task_sort_created => 'Date added';
+  String get download_task_sort_progress => 'Progress';
+  String get download_task_sort_status => 'Status';
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -5139,7 +5151,7 @@ class _StringsAr extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -13503,6 +13515,29 @@ class _StringsAr extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -13651,7 +13686,7 @@ class _StringsDe extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -22080,6 +22115,29 @@ class _StringsDe extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -22228,7 +22286,7 @@ class _StringsEs extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -30673,6 +30731,29 @@ class _StringsEs extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -30821,7 +30902,7 @@ class _StringsFr extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -39278,6 +39359,29 @@ class _StringsFr extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -39426,7 +39530,7 @@ class _StringsId extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -47813,6 +47917,29 @@ class _StringsId extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -47961,7 +48088,7 @@ class _StringsIt extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -56392,6 +56519,29 @@ class _StringsIt extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -56540,7 +56690,7 @@ class _StringsJa extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -64788,6 +64938,29 @@ class _StringsJa extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -64936,7 +65109,7 @@ class _StringsKo extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -73192,6 +73365,29 @@ class _StringsKo extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -73340,7 +73536,7 @@ class _StringsNl extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -81751,6 +81947,29 @@ class _StringsNl extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -81899,7 +82118,7 @@ class _StringsPtBr extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -90322,6 +90541,29 @@ class _StringsPtBr extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -90470,7 +90712,7 @@ class _StringsRu extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -98880,6 +99122,29 @@ class _StringsRu extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -99028,7 +99293,7 @@ class _StringsTh extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -107386,6 +107651,29 @@ class _StringsTh extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -107534,7 +107822,7 @@ class _StringsTr extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -115923,6 +116211,29 @@ class _StringsTr extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -116071,7 +116382,7 @@ class _StringsVi extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -124446,6 +124757,29 @@ class _StringsVi extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 // Path: <root>
@@ -124586,7 +124920,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get anime_download_search_hint => '番剧名';
   @override
-  String get anime_download_search_start_hint => '在上方搜索番剧名，自动匹配种子与字幕。';
+  String get anime_download_search_start_hint =>
+      '在上方搜索作品名，自动匹配种子与字幕。下载不限视频：书籍、漫画、有声书、游戏也会自动入库。';
   @override
   String get anime_download_sort_date => '发布时间';
   @override
@@ -132325,6 +132660,28 @@ class _StringsZhCn extends _StringsEn {
       '这台设备原先开着词典与本地音频数据库的自动同步。该开关已移除——需要传输时请用下面的上传 / 下载。已有数据不受影响，但新导入的词典不会再自动备份。';
   @override
   String get sync_asset_legacy_notice_dismiss => '知道了';
+  @override
+  String get download_task_add => '添加任务';
+  @override
+  String get download_task_add_pick_torrent => '选择种子文件';
+  @override
+  String get download_task_add_title_label => '标题';
+  @override
+  String get download_task_add_content_kind => '内容类型';
+  @override
+  String get download_task_add_invalid => '无法识别的磁力链接或种子文件';
+  @override
+  String get download_task_add_submitted => '已添加任务';
+  @override
+  String get download_task_search_hint => '搜索任务';
+  @override
+  String get download_task_sort_created => '添加时间';
+  @override
+  String get download_task_sort_progress => '进度';
+  @override
+  String get download_task_sort_status => '状态';
+  @override
+  String get download_task_no_match => '没有匹配的任务';
 }
 
 // Path: <root>
@@ -132473,7 +132830,7 @@ class _StringsZhHk extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -140646,6 +141003,29 @@ class _StringsZhHk extends _StringsEn {
       'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
   @override
   String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
 }
 
 /// Flat map(s) containing all translations.
@@ -140754,7 +141134,7 @@ extension on _StringsEn {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -148178,6 +148558,28 @@ extension on _StringsEn {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -148287,7 +148689,7 @@ extension on _StringsAr {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -155708,6 +156110,28 @@ extension on _StringsAr {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -155817,7 +156241,7 @@ extension on _StringsDe {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -163260,6 +163684,28 @@ extension on _StringsDe {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -163369,7 +163815,7 @@ extension on _StringsEs {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -170811,6 +171257,28 @@ extension on _StringsEs {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -170920,7 +171388,7 @@ extension on _StringsFr {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -178368,6 +178836,28 @@ extension on _StringsFr {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -178477,7 +178967,7 @@ extension on _StringsId {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -185907,6 +186397,28 @@ extension on _StringsId {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -186016,7 +186528,7 @@ extension on _StringsIt {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -193460,6 +193972,28 @@ extension on _StringsIt {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -193569,7 +194103,7 @@ extension on _StringsJa {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -200975,6 +201509,28 @@ extension on _StringsJa {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -201084,7 +201640,7 @@ extension on _StringsKo {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -208494,6 +209050,28 @@ extension on _StringsKo {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -208603,7 +209181,7 @@ extension on _StringsNl {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -216041,6 +216619,28 @@ extension on _StringsNl {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -216150,7 +216750,7 @@ extension on _StringsPtBr {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -223585,6 +224185,28 @@ extension on _StringsPtBr {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -223694,7 +224316,7 @@ extension on _StringsRu {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -231134,6 +231756,28 @@ extension on _StringsRu {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -231243,7 +231887,7 @@ extension on _StringsTh {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -238666,6 +239310,28 @@ extension on _StringsTh {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -238775,7 +239441,7 @@ extension on _StringsTr {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -246207,6 +246873,28 @@ extension on _StringsTr {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -246316,7 +247004,7 @@ extension on _StringsVi {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -253744,6 +254432,28 @@ extension on _StringsVi {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
@@ -253850,7 +254560,7 @@ extension on _StringsZhCn {
       case 'anime_download_search_hint':
         return '番剧名';
       case 'anime_download_search_start_hint':
-        return '在上方搜索番剧名，自动匹配种子与字幕。';
+        return '在上方搜索作品名，自动匹配种子与字幕。下载不限视频：书籍、漫画、有声书、游戏也会自动入库。';
       case 'anime_download_sort_date':
         return '发布时间';
       case 'anime_download_sort_seeders':
@@ -261222,6 +261932,28 @@ extension on _StringsZhCn {
         return '这台设备原先开着词典与本地音频数据库的自动同步。该开关已移除——需要传输时请用下面的上传 / 下载。已有数据不受影响，但新导入的词典不会再自动备份。';
       case 'sync_asset_legacy_notice_dismiss':
         return '知道了';
+      case 'download_task_add':
+        return '添加任务';
+      case 'download_task_add_pick_torrent':
+        return '选择种子文件';
+      case 'download_task_add_title_label':
+        return '标题';
+      case 'download_task_add_content_kind':
+        return '内容类型';
+      case 'download_task_add_invalid':
+        return '无法识别的磁力链接或种子文件';
+      case 'download_task_add_submitted':
+        return '已添加任务';
+      case 'download_task_search_hint':
+        return '搜索任务';
+      case 'download_task_sort_created':
+        return '添加时间';
+      case 'download_task_sort_progress':
+        return '进度';
+      case 'download_task_sort_status':
+        return '状态';
+      case 'download_task_no_match':
+        return '没有匹配的任务';
       default:
         return null;
     }
@@ -261331,7 +262063,7 @@ extension on _StringsZhHk {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -268732,6 +269464,28 @@ extension on _StringsZhHk {
         return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
       case 'sync_asset_legacy_notice_dismiss':
         return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
       default:
         return null;
     }
