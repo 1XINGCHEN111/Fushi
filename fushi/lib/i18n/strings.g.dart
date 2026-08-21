@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62237 (3661 per locale)
+/// Strings: 62424 (3672 per locale)
 ///
-/// Built on 2026-08-20 at 09:30 UTC
+/// Built on 2026-08-21 at 12:29 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -257,8 +257,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get anime_download_search_failed =>
       'Search failed or timed out. Tap retry.';
   String get anime_download_search_hint => 'Anime title';
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   String get anime_download_sort_date => 'Published';
   String get anime_download_sort_seeders => 'Seeders';
   String get anime_download_sort_size => 'Size';
@@ -4979,6 +4977,20 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'The peer isn\'t using HTTPS on this port. Use an http:// address.';
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  String get download_task_add => 'Add task';
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  String get download_task_add_title_label => 'Title';
+  String get download_task_add_content_kind => 'Content type';
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  String get download_task_add_submitted => 'Task added';
+  String get download_task_search_hint => 'Search tasks';
+  String get download_task_sort_created => 'Date added';
+  String get download_task_sort_progress => 'Progress';
+  String get download_task_sort_status => 'Status';
+  String get download_task_no_match => 'No matching tasks';
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -5125,9 +5137,6 @@ class _StringsAr extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -13470,6 +13479,32 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -13616,9 +13651,6 @@ class _StringsDe extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -22026,6 +22058,32 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -22172,9 +22230,6 @@ class _StringsEs extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -30598,6 +30653,32 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -30744,9 +30825,6 @@ class _StringsFr extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -39182,6 +39260,32 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -39328,9 +39432,6 @@ class _StringsId extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -47696,6 +47797,32 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -47842,9 +47969,6 @@ class _StringsIt extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -56254,6 +56378,32 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -56400,9 +56550,6 @@ class _StringsJa extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -64629,6 +64776,32 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -64775,9 +64948,6 @@ class _StringsKo extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -73011,6 +73181,32 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -73157,9 +73353,6 @@ class _StringsNl extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -81549,6 +81742,32 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -81695,9 +81914,6 @@ class _StringsPtBr extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -90099,6 +90315,32 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -90245,9 +90487,6 @@ class _StringsRu extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -98636,6 +98875,32 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -98782,9 +99047,6 @@ class _StringsTh extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -107121,6 +107383,32 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -107267,9 +107555,6 @@ class _StringsTr extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -115637,6 +115922,32 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -115783,9 +116094,6 @@ class _StringsVi extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -124139,6 +124447,32 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 // Path: <root>
@@ -124278,8 +124612,6 @@ class _StringsZhCn extends _StringsEn {
   String get anime_download_search_failed => '搜索失败或超时，请点重试';
   @override
   String get anime_download_search_hint => '番剧名';
-  @override
-  String get anime_download_search_start_hint => '在上方搜索番剧名，自动匹配种子与字幕。';
   @override
   String get anime_download_sort_date => '发布时间';
   @override
@@ -131999,6 +132331,31 @@ class _StringsZhCn extends _StringsEn {
   String get sync_pair_peer_not_https => '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
   @override
   String get sync_pair_not_fushi_discovered => '此地址未找到 Fushi 设备。';
+  @override
+  String get download_task_add => '添加任务';
+  @override
+  String get download_task_add_pick_torrent => '选择种子文件';
+  @override
+  String get download_task_add_title_label => '标题';
+  @override
+  String get download_task_add_content_kind => '内容类型';
+  @override
+  String get download_task_add_invalid => '无法识别的磁力链接或种子文件';
+  @override
+  String get download_task_add_submitted => '已添加任务';
+  @override
+  String get download_task_search_hint => '搜索任务';
+  @override
+  String get download_task_sort_created => '添加时间';
+  @override
+  String get download_task_sort_progress => '进度';
+  @override
+  String get download_task_sort_status => '状态';
+  @override
+  String get download_task_no_match => '没有匹配的任务';
+  @override
+  String get anime_download_search_start_hint =>
+      '在上方搜索作品名，自动匹配种子与字幕。下载不限视频：书籍、漫画、有声书、游戏也会自动入库。';
 }
 
 // Path: <root>
@@ -132145,9 +132502,6 @@ class _StringsZhHk extends _StringsEn {
       'Search failed or timed out. Tap retry.';
   @override
   String get anime_download_search_hint => 'Anime title';
-  @override
-  String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -140297,6 +140651,32 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_pair_not_fushi_discovered =>
       'No Fushi device found at this address.';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String get anime_download_search_start_hint =>
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
 }
 
 /// Flat map(s) containing all translations.
@@ -140404,8 +140784,6 @@ extension on _StringsEn {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -147811,6 +148189,30 @@ extension on _StringsEn {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -147919,8 +148321,6 @@ extension on _StringsAr {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -155323,6 +155723,30 @@ extension on _StringsAr {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -155431,8 +155855,6 @@ extension on _StringsDe {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -162857,6 +163279,30 @@ extension on _StringsDe {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -162965,8 +163411,6 @@ extension on _StringsEs {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -170390,6 +170834,30 @@ extension on _StringsEs {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -170498,8 +170966,6 @@ extension on _StringsFr {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -177929,6 +178395,30 @@ extension on _StringsFr {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -178037,8 +178527,6 @@ extension on _StringsId {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -185450,6 +185938,30 @@ extension on _StringsId {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -185558,8 +186070,6 @@ extension on _StringsIt {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -192985,6 +193495,30 @@ extension on _StringsIt {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -193093,8 +193627,6 @@ extension on _StringsJa {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -200482,6 +201014,30 @@ extension on _StringsJa {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -200590,8 +201146,6 @@ extension on _StringsKo {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -207983,6 +208537,30 @@ extension on _StringsKo {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -208091,8 +208669,6 @@ extension on _StringsNl {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -215512,6 +216088,30 @@ extension on _StringsNl {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -215620,8 +216220,6 @@ extension on _StringsPtBr {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -223038,6 +223636,30 @@ extension on _StringsPtBr {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -223146,8 +223768,6 @@ extension on _StringsRu {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -230569,6 +231189,30 @@ extension on _StringsRu {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -230677,8 +231321,6 @@ extension on _StringsTh {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -238083,6 +238725,30 @@ extension on _StringsTh {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -238191,8 +238857,6 @@ extension on _StringsTr {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -245606,6 +246270,30 @@ extension on _StringsTr {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -245714,8 +246402,6 @@ extension on _StringsVi {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -253125,6 +253811,30 @@ extension on _StringsVi {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
@@ -253230,8 +253940,6 @@ extension on _StringsZhCn {
         return '搜索失败或超时，请点重试';
       case 'anime_download_search_hint':
         return '番剧名';
-      case 'anime_download_search_start_hint':
-        return '在上方搜索番剧名，自动匹配种子与字幕。';
       case 'anime_download_sort_date':
         return '发布时间';
       case 'anime_download_sort_seeders':
@@ -260585,6 +261293,30 @@ extension on _StringsZhCn {
         return '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
       case 'sync_pair_not_fushi_discovered':
         return '此地址未找到 Fushi 设备。';
+      case 'download_task_add':
+        return '添加任务';
+      case 'download_task_add_pick_torrent':
+        return '选择种子文件';
+      case 'download_task_add_title_label':
+        return '标题';
+      case 'download_task_add_content_kind':
+        return '内容类型';
+      case 'download_task_add_invalid':
+        return '无法识别的磁力链接或种子文件';
+      case 'download_task_add_submitted':
+        return '已添加任务';
+      case 'download_task_search_hint':
+        return '搜索任务';
+      case 'download_task_sort_created':
+        return '添加时间';
+      case 'download_task_sort_progress':
+        return '进度';
+      case 'download_task_sort_status':
+        return '状态';
+      case 'download_task_no_match':
+        return '没有匹配的任务';
+      case 'anime_download_search_start_hint':
+        return '在上方搜索作品名，自动匹配种子与字幕。下载不限视频：书籍、漫画、有声书、游戏也会自动入库。';
       default:
         return null;
     }
@@ -260693,8 +261425,6 @@ extension on _StringsZhHk {
         return 'Search failed or timed out. Tap retry.';
       case 'anime_download_search_hint':
         return 'Anime title';
-      case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -268077,6 +268807,30 @@ extension on _StringsZhHk {
         return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
       case 'sync_pair_not_fushi_discovered':
         return 'No Fushi device found at this address.';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'anime_download_search_start_hint':
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       default:
         return null;
     }
