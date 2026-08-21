@@ -1,7 +1,7 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62713 (3689 per locale)
+/// Strings: 63053 (3709 per locale)
 ///
 /// Built on 2026-08-21 at 16:07 UTC
 
@@ -5012,6 +5012,30 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get subtitle_version_view_files => 'File list';
   String get resource_version_batch => 'Batch';
   String get resource_version_view_flat => 'All releases';
+  String get subscription_mode_one_shot => 'One-shot';
+  String get subscription_mode_ongoing => 'Ongoing';
+  String get subscription_legacy_badge => 'Legacy';
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  String get subscription_item_status_discovered => 'Pending';
+  String get subscription_item_status_queued => 'Queued';
+  String get subscription_item_status_processed => 'Imported';
+  String get subscription_item_status_skipped => 'Skipped';
+  String get subscription_item_status_failed => 'Failed';
+  String get subscription_items_empty => 'No releases tracked yet';
+  String get subscription_edit_title => 'Edit subscription';
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  String get subscription_search_hint => 'Search subscriptions';
+  String get subscription_sort_last_checked => 'Last checked';
+  String get subscription_sort_last_matched => 'Last match';
+  String get subscription_show_items => 'Episode history';
+  String get subscription_sort_created => 'Date added';
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -13564,6 +13588,50 @@ class _StringsAr extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -22181,6 +22249,50 @@ class _StringsDe extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -30814,6 +30926,50 @@ class _StringsEs extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -39459,6 +39615,50 @@ class _StringsFr extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -48034,6 +48234,50 @@ class _StringsId extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -56653,6 +56897,50 @@ class _StringsIt extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -65089,6 +65377,50 @@ class _StringsJa extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -73533,6 +73865,50 @@ class _StringsKo extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -82132,6 +82508,50 @@ class _StringsNl extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -90743,6 +91163,50 @@ class _StringsPtBr extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -99341,6 +99805,50 @@ class _StringsRu extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -107887,6 +108395,50 @@ class _StringsTh extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -116464,6 +117016,50 @@ class _StringsTr extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -125027,6 +125623,50 @@ class _StringsVi extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 // Path: <root>
@@ -132945,6 +133585,46 @@ class _StringsZhCn extends _StringsEn {
   String get resource_version_batch => '合集';
   @override
   String get resource_version_view_flat => '全部条目';
+  @override
+  String get subscription_mode_one_shot => '单次';
+  @override
+  String get subscription_mode_ongoing => '追更';
+  @override
+  String get subscription_legacy_badge => '旧版订阅';
+  @override
+  String get subscription_legacy_hint => '由旧版本导入，不参与自动检查。';
+  @override
+  String subscription_next_check({required Object time}) => '下次检查：${time}';
+  @override
+  String subscription_last_matched({required Object time}) => '最近命中：${time}';
+  @override
+  String get subscription_item_status_discovered => '待处理';
+  @override
+  String get subscription_item_status_queued => '排队中';
+  @override
+  String get subscription_item_status_processed => '已入库';
+  @override
+  String get subscription_item_status_skipped => '已跳过';
+  @override
+  String get subscription_item_status_failed => '失败';
+  @override
+  String get subscription_items_empty => '还没有跟踪到任何发布';
+  @override
+  String get subscription_edit_title => '编辑订阅';
+  @override
+  String get subscription_edit_rule_hint => '来源身份与版本规则不可在此修改；要换版本请重新订阅（历史保留）。';
+  @override
+  String get subscription_search_hint => '搜索订阅';
+  @override
+  String get subscription_sort_last_checked => '最近检查';
+  @override
+  String get subscription_sort_last_matched => '最近命中';
+  @override
+  String get subscription_show_items => '逐集状态';
+  @override
+  String get subscription_sort_created => '添加时间';
+  @override
+  String get subscription_no_match => '没有匹配的订阅';
 }
 
 // Path: <root>
@@ -141306,6 +141986,50 @@ class _StringsZhHk extends _StringsEn {
   String get resource_version_batch => 'Batch';
   @override
   String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
 }
 
 /// Flat map(s) containing all translations.
@@ -148876,6 +149600,46 @@ extension on _StringsEn {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -156444,6 +157208,46 @@ extension on _StringsAr {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -164034,6 +164838,46 @@ extension on _StringsDe {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -171623,6 +172467,46 @@ extension on _StringsEs {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -179218,6 +180102,46 @@ extension on _StringsFr {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -186795,6 +187719,46 @@ extension on _StringsId {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -194386,6 +195350,46 @@ extension on _StringsIt {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -201939,6 +202943,46 @@ extension on _StringsJa {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -209496,6 +210540,46 @@ extension on _StringsKo {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -217081,6 +218165,46 @@ extension on _StringsNl {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -224663,6 +225787,46 @@ extension on _StringsPtBr {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -232250,6 +233414,46 @@ extension on _StringsRu {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -239820,6 +241024,46 @@ extension on _StringsTh {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -247399,6 +248643,46 @@ extension on _StringsTr {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -254974,6 +256258,46 @@ extension on _StringsVi {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
@@ -262490,6 +263814,46 @@ extension on _StringsZhCn {
         return '合集';
       case 'resource_version_view_flat':
         return '全部条目';
+      case 'subscription_mode_one_shot':
+        return '单次';
+      case 'subscription_mode_ongoing':
+        return '追更';
+      case 'subscription_legacy_badge':
+        return '旧版订阅';
+      case 'subscription_legacy_hint':
+        return '由旧版本导入，不参与自动检查。';
+      case 'subscription_next_check':
+        return ({required Object time}) => '下次检查：${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => '最近命中：${time}';
+      case 'subscription_item_status_discovered':
+        return '待处理';
+      case 'subscription_item_status_queued':
+        return '排队中';
+      case 'subscription_item_status_processed':
+        return '已入库';
+      case 'subscription_item_status_skipped':
+        return '已跳过';
+      case 'subscription_item_status_failed':
+        return '失败';
+      case 'subscription_items_empty':
+        return '还没有跟踪到任何发布';
+      case 'subscription_edit_title':
+        return '编辑订阅';
+      case 'subscription_edit_rule_hint':
+        return '来源身份与版本规则不可在此修改；要换版本请重新订阅（历史保留）。';
+      case 'subscription_search_hint':
+        return '搜索订阅';
+      case 'subscription_sort_last_checked':
+        return '最近检查';
+      case 'subscription_sort_last_matched':
+        return '最近命中';
+      case 'subscription_show_items':
+        return '逐集状态';
+      case 'subscription_sort_created':
+        return '添加时间';
+      case 'subscription_no_match':
+        return '没有匹配的订阅';
       default:
         return null;
     }
@@ -270038,6 +271402,46 @@ extension on _StringsZhHk {
         return 'Batch';
       case 'resource_version_view_flat':
         return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
       default:
         return null;
     }
