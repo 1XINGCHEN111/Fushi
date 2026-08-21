@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63121 (3713 per locale)
+/// Strings: 63155 (3715 per locale)
 ///
-/// Built on 2026-08-21 at 16:51 UTC
+/// Built on 2026-08-21 at 17:44 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5042,6 +5042,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Current target (unavailable)';
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   String get resource_version_show_files => 'Show files';
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -13648,6 +13650,10 @@ class _StringsAr extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -22319,6 +22325,10 @@ class _StringsDe extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -31006,6 +31016,10 @@ class _StringsEs extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -39705,6 +39719,10 @@ class _StringsFr extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -48334,6 +48352,10 @@ class _StringsId extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -57007,6 +57029,10 @@ class _StringsIt extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -65497,6 +65523,10 @@ class _StringsJa extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -73995,6 +74025,10 @@ class _StringsKo extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -82648,6 +82682,10 @@ class _StringsNl extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -91313,6 +91351,10 @@ class _StringsPtBr extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -99965,6 +100007,10 @@ class _StringsRu extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -108565,6 +108611,10 @@ class _StringsTh extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -117196,6 +117246,10 @@ class _StringsTr extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -125813,6 +125867,10 @@ class _StringsVi extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 // Path: <root>
@@ -133780,6 +133838,10 @@ class _StringsZhCn extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '共 ${n} 集';
   @override
   String get resource_version_show_files => '显示文件';
+  @override
+  String get manga_online_detail_load_failed => '无法载入这部漫画。';
+  @override
+  String get manga_online_error_view_detail => '查看详情';
 }
 
 // Path: <root>
@@ -142195,6 +142257,10 @@ class _StringsZhHk extends _StringsEn {
   String resource_version_episode_count({required Object n}) => '${n} episodes';
   @override
   String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
 }
 
 /// Flat map(s) containing all translations.
@@ -149813,6 +149879,10 @@ extension on _StringsEn {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -157429,6 +157499,10 @@ extension on _StringsAr {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -165067,6 +165141,10 @@ extension on _StringsDe {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -172704,6 +172782,10 @@ extension on _StringsEs {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -180347,6 +180429,10 @@ extension on _StringsFr {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -187972,6 +188058,10 @@ extension on _StringsId {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -195611,6 +195701,10 @@ extension on _StringsIt {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -203212,6 +203306,10 @@ extension on _StringsJa {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -210817,6 +210915,10 @@ extension on _StringsKo {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -218450,6 +218552,10 @@ extension on _StringsNl {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -226080,6 +226186,10 @@ extension on _StringsPtBr {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -233715,6 +233825,10 @@ extension on _StringsRu {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -241333,6 +241447,10 @@ extension on _StringsTh {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -248960,6 +249078,10 @@ extension on _StringsTr {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -256583,6 +256705,10 @@ extension on _StringsVi {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
@@ -264147,6 +264273,10 @@ extension on _StringsZhCn {
         return ({required Object n}) => '共 ${n} 集';
       case 'resource_version_show_files':
         return '显示文件';
+      case 'manga_online_detail_load_failed':
+        return '无法载入这部漫画。';
+      case 'manga_online_error_view_detail':
+        return '查看详情';
       default:
         return null;
     }
@@ -271743,6 +271873,10 @@ extension on _StringsZhHk {
         return ({required Object n}) => '${n} episodes';
       case 'resource_version_show_files':
         return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
       default:
         return null;
     }
