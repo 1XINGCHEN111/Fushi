@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63172 (3716 per locale)
+/// Strings: 63155 (3715 per locale)
 ///
-/// Built on 2026-08-21 at 21:02 UTC
+/// Built on 2026-08-22 at 05:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2760,7 +2760,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Debug channel builds may be unstable. Use at your own risk.';
   String get update_download => 'Download';
   String get update_download_failed => 'Download failed';
-  String get update_download_not_resumed => 'not resumed';
   String get update_download_restarted_from_zero => 'restarted from zero';
   String update_download_resume_status({required Object status}) =>
       'Resume: ${status}';
@@ -9712,8 +9711,6 @@ class _StringsAr extends _StringsEn {
   String get update_download => 'تنزيل';
   @override
   String get update_download_failed => 'فشل التنزيل';
-  @override
-  String get update_download_not_resumed => 'لم يُستأنف';
   @override
   String get update_download_restarted_from_zero => 'أُعيد التنزيل من الصفر';
   @override
@@ -18373,8 +18370,6 @@ class _StringsDe extends _StringsEn {
   String get update_download => 'Herunterladen';
   @override
   String get update_download_failed => 'Download fehlgeschlagen';
-  @override
-  String get update_download_not_resumed => 'nicht fortgesetzt';
   @override
   String get update_download_restarted_from_zero => 'von vorn begonnen';
   @override
@@ -27063,8 +27058,6 @@ class _StringsEs extends _StringsEn {
   String get update_download => 'Descargar';
   @override
   String get update_download_failed => 'Error al descargar';
-  @override
-  String get update_download_not_resumed => 'no reanudada';
   @override
   String get update_download_restarted_from_zero => 'reiniciada desde cero';
   @override
@@ -35771,8 +35764,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get update_download_failed => 'échec du téléchargement';
   @override
-  String get update_download_not_resumed => 'non repris';
-  @override
   String get update_download_restarted_from_zero => 'redémarré de zéro';
   @override
   String update_download_resume_status({required Object status}) =>
@@ -44414,8 +44405,6 @@ class _StringsId extends _StringsEn {
   String get update_download => 'Unduh';
   @override
   String get update_download_failed => 'Unduhan gagal';
-  @override
-  String get update_download_not_resumed => 'tidak dilanjutkan';
   @override
   String get update_download_restarted_from_zero => 'diulang dari nol';
   @override
@@ -53086,8 +53075,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get update_download_failed => 'Download fallito';
   @override
-  String get update_download_not_resumed => 'non ripreso';
-  @override
   String get update_download_restarted_from_zero => 'riavviato da zero';
   @override
   String update_download_resume_status({required Object status}) =>
@@ -61628,8 +61615,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get update_download_failed => 'ダウンロードに失敗しました';
   @override
-  String get update_download_not_resumed => 'レジュームせず';
-  @override
   String get update_download_restarted_from_zero => '最初からやり直し';
   @override
   String update_download_resume_status({required Object status}) =>
@@ -70128,8 +70113,6 @@ class _StringsKo extends _StringsEn {
   String get update_download => '다운로드';
   @override
   String get update_download_failed => '다운로드 실패';
-  @override
-  String get update_download_not_resumed => '이어받지 않음';
   @override
   String get update_download_restarted_from_zero => '처음부터 다시 받음';
   @override
@@ -78751,8 +78734,6 @@ class _StringsNl extends _StringsEn {
   String get update_download => 'Downloaden';
   @override
   String get update_download_failed => 'Download mislukt';
-  @override
-  String get update_download_not_resumed => 'niet hervat';
   @override
   String get update_download_restarted_from_zero =>
       'opnieuw begonnen vanaf nul';
@@ -87417,8 +87398,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get update_download_failed => 'Falha no download';
   @override
-  String get update_download_not_resumed => 'não retomado';
-  @override
   String get update_download_restarted_from_zero => 'reiniciado do zero';
   @override
   String update_download_resume_status({required Object status}) =>
@@ -96081,8 +96060,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get update_download_failed => 'Ошибка загрузки';
   @override
-  String get update_download_not_resumed => 'не продолжена';
-  @override
   String get update_download_restarted_from_zero => 'начата заново';
   @override
   String update_download_resume_status({required Object status}) =>
@@ -104697,8 +104674,6 @@ class _StringsTh extends _StringsEn {
   String get update_download => 'ดาวน์โหลด';
   @override
   String get update_download_failed => 'ดาวน์โหลดล้มเหลว';
-  @override
-  String get update_download_not_resumed => 'ไม่ได้ดาวน์โหลดต่อ';
   @override
   String get update_download_restarted_from_zero =>
       'เริ่มดาวน์โหลดใหม่ตั้งแต่ต้น';
@@ -113328,8 +113303,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get update_download_failed => 'İndirme başarısız';
   @override
-  String get update_download_not_resumed => 'sürdürülmedi';
-  @override
   String get update_download_restarted_from_zero =>
       'sıfırdan yeniden başlatıldı';
   @override
@@ -121955,8 +121928,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get update_download_failed => 'Tải xuống thất bại';
   @override
-  String get update_download_not_resumed => 'không tiếp tục';
-  @override
   String get update_download_restarted_from_zero => 'đã tải lại từ đầu';
   @override
   String update_download_resume_status({required Object status}) =>
@@ -130269,8 +130240,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get update_download_failed => '下载失败';
   @override
-  String get update_download_not_resumed => '未续传';
-  @override
   String get update_download_restarted_from_zero => '已从零重下';
   @override
   String update_download_resume_status({required Object status}) =>
@@ -138401,8 +138370,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get update_download_failed => '下載失敗';
   @override
-  String get update_download_not_resumed => '未續傳';
-  @override
   String get update_download_restarted_from_zero => '已從頭重下';
   @override
   String update_download_resume_status({required Object status}) =>
@@ -146508,8 +146475,6 @@ extension on _StringsEn {
         return 'Download';
       case 'update_download_failed':
         return 'Download failed';
-      case 'update_download_not_resumed':
-        return 'not resumed';
       case 'update_download_restarted_from_zero':
         return 'restarted from zero';
       case 'update_download_resume_status':
@@ -154130,8 +154095,6 @@ extension on _StringsAr {
         return 'تنزيل';
       case 'update_download_failed':
         return 'فشل التنزيل';
-      case 'update_download_not_resumed':
-        return 'لم يُستأنف';
       case 'update_download_restarted_from_zero':
         return 'أُعيد التنزيل من الصفر';
       case 'update_download_resume_status':
@@ -161771,8 +161734,6 @@ extension on _StringsDe {
         return 'Herunterladen';
       case 'update_download_failed':
         return 'Download fehlgeschlagen';
-      case 'update_download_not_resumed':
-        return 'nicht fortgesetzt';
       case 'update_download_restarted_from_zero':
         return 'von vorn begonnen';
       case 'update_download_resume_status':
@@ -169413,8 +169374,6 @@ extension on _StringsEs {
         return 'Descargar';
       case 'update_download_failed':
         return 'Error al descargar';
-      case 'update_download_not_resumed':
-        return 'no reanudada';
       case 'update_download_restarted_from_zero':
         return 'reiniciada desde cero';
       case 'update_download_resume_status':
@@ -177060,8 +177019,6 @@ extension on _StringsFr {
         return 'Télécharger';
       case 'update_download_failed':
         return 'échec du téléchargement';
-      case 'update_download_not_resumed':
-        return 'non repris';
       case 'update_download_restarted_from_zero':
         return 'redémarré de zéro';
       case 'update_download_resume_status':
@@ -184696,8 +184653,6 @@ extension on _StringsId {
         return 'Unduh';
       case 'update_download_failed':
         return 'Unduhan gagal';
-      case 'update_download_not_resumed':
-        return 'tidak dilanjutkan';
       case 'update_download_restarted_from_zero':
         return 'diulang dari nol';
       case 'update_download_resume_status':
@@ -192335,8 +192290,6 @@ extension on _StringsIt {
         return 'Scarica';
       case 'update_download_failed':
         return 'Download fallito';
-      case 'update_download_not_resumed':
-        return 'non ripreso';
       case 'update_download_restarted_from_zero':
         return 'riavviato da zero';
       case 'update_download_resume_status':
@@ -199953,8 +199906,6 @@ extension on _StringsJa {
         return 'ダウンロード';
       case 'update_download_failed':
         return 'ダウンロードに失敗しました';
-      case 'update_download_not_resumed':
-        return 'レジュームせず';
       case 'update_download_restarted_from_zero':
         return '最初からやり直し';
       case 'update_download_resume_status':
@@ -207563,8 +207514,6 @@ extension on _StringsKo {
         return '다운로드';
       case 'update_download_failed':
         return '다운로드 실패';
-      case 'update_download_not_resumed':
-        return '이어받지 않음';
       case 'update_download_restarted_from_zero':
         return '처음부터 다시 받음';
       case 'update_download_resume_status':
@@ -215194,8 +215143,6 @@ extension on _StringsNl {
         return 'Downloaden';
       case 'update_download_failed':
         return 'Download mislukt';
-      case 'update_download_not_resumed':
-        return 'niet hervat';
       case 'update_download_restarted_from_zero':
         return 'opnieuw begonnen vanaf nul';
       case 'update_download_resume_status':
@@ -222832,8 +222779,6 @@ extension on _StringsPtBr {
         return 'Baixar';
       case 'update_download_failed':
         return 'Falha no download';
-      case 'update_download_not_resumed':
-        return 'não retomado';
       case 'update_download_restarted_from_zero':
         return 'reiniciado do zero';
       case 'update_download_resume_status':
@@ -230472,8 +230417,6 @@ extension on _StringsRu {
         return 'Скачать';
       case 'update_download_failed':
         return 'Ошибка загрузки';
-      case 'update_download_not_resumed':
-        return 'не продолжена';
       case 'update_download_restarted_from_zero':
         return 'начата заново';
       case 'update_download_resume_status':
@@ -238099,8 +238042,6 @@ extension on _StringsTh {
         return 'ดาวน์โหลด';
       case 'update_download_failed':
         return 'ดาวน์โหลดล้มเหลว';
-      case 'update_download_not_resumed':
-        return 'ไม่ได้ดาวน์โหลดต่อ';
       case 'update_download_restarted_from_zero':
         return 'เริ่มดาวน์โหลดใหม่ตั้งแต่ต้น';
       case 'update_download_resume_status':
@@ -245729,8 +245670,6 @@ extension on _StringsTr {
         return 'İndir';
       case 'update_download_failed':
         return 'İndirme başarısız';
-      case 'update_download_not_resumed':
-        return 'sürdürülmedi';
       case 'update_download_restarted_from_zero':
         return 'sıfırdan yeniden başlatıldı';
       case 'update_download_resume_status':
@@ -253360,8 +253299,6 @@ extension on _StringsVi {
         return 'Tải xuống';
       case 'update_download_failed':
         return 'Tải xuống thất bại';
-      case 'update_download_not_resumed':
-        return 'không tiếp tục';
       case 'update_download_restarted_from_zero':
         return 'đã tải lại từ đầu';
       case 'update_download_resume_status':
@@ -260954,8 +260891,6 @@ extension on _StringsZhCn {
         return '下载';
       case 'update_download_failed':
         return '下载失败';
-      case 'update_download_not_resumed':
-        return '未续传';
       case 'update_download_restarted_from_zero':
         return '已从零重下';
       case 'update_download_resume_status':
@@ -268540,8 +268475,6 @@ extension on _StringsZhHk {
         return '下載';
       case 'update_download_failed':
         return '下載失敗';
-      case 'update_download_not_resumed':
-        return '未續傳';
       case 'update_download_restarted_from_zero':
         return '已從頭重下';
       case 'update_download_resume_status':
