@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63155 (3715 per locale)
+/// Strings: 63138 (3714 per locale)
 ///
-/// Built on 2026-08-22 at 05:47 UTC
+/// Built on 2026-08-22 at 08:55 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4886,13 +4886,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get storage_entry_delete_done => 'Deleted';
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
-  String get storage_modules_section => 'Optional modules';
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   String get storage_modules_anime4k_hint =>
       'Can be downloaded again anytime in video settings';
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  String get storage_modules_not_installed => 'Not installed';
   String get storage_bundled_section => 'Bundled components';
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
@@ -5044,6 +5042,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   String get manga_online_error_view_detail => 'View details';
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -13383,8 +13382,6 @@ class _StringsAr extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -13392,8 +13389,6 @@ class _StringsAr extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -13654,6 +13649,8 @@ class _StringsAr extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -22058,8 +22055,6 @@ class _StringsDe extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -22067,8 +22062,6 @@ class _StringsDe extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -22329,6 +22322,8 @@ class _StringsDe extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -30749,8 +30744,6 @@ class _StringsEs extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -30758,8 +30751,6 @@ class _StringsEs extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -31020,6 +31011,8 @@ class _StringsEs extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -39452,8 +39445,6 @@ class _StringsFr extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -39461,8 +39452,6 @@ class _StringsFr extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -39723,6 +39712,8 @@ class _StringsFr extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -48085,8 +48076,6 @@ class _StringsId extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -48094,8 +48083,6 @@ class _StringsId extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -48356,6 +48343,8 @@ class _StringsId extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -56762,8 +56751,6 @@ class _StringsIt extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -56771,8 +56758,6 @@ class _StringsIt extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -57033,6 +57018,8 @@ class _StringsIt extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -65256,8 +65243,6 @@ class _StringsJa extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -65265,8 +65250,6 @@ class _StringsJa extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -65527,6 +65510,8 @@ class _StringsJa extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -73758,8 +73743,6 @@ class _StringsKo extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -73767,8 +73750,6 @@ class _StringsKo extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -74029,6 +74010,8 @@ class _StringsKo extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -82415,8 +82398,6 @@ class _StringsNl extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -82424,8 +82405,6 @@ class _StringsNl extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -82686,6 +82665,8 @@ class _StringsNl extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -91084,8 +91065,6 @@ class _StringsPtBr extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -91093,8 +91072,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -91355,6 +91332,8 @@ class _StringsPtBr extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -99740,8 +99719,6 @@ class _StringsRu extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -99749,8 +99726,6 @@ class _StringsRu extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -100011,6 +99986,8 @@ class _StringsRu extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -108344,8 +108321,6 @@ class _StringsTh extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -108353,8 +108328,6 @@ class _StringsTh extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -108615,6 +108588,8 @@ class _StringsTh extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -116979,8 +116954,6 @@ class _StringsTr extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -116988,8 +116961,6 @@ class _StringsTr extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -117250,6 +117221,8 @@ class _StringsTr extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -125600,8 +125573,6 @@ class _StringsVi extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -125609,8 +125580,6 @@ class _StringsVi extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -125871,6 +125840,8 @@ class _StringsVi extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -133603,16 +133574,12 @@ class _StringsZhCn extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       '删除失败：${reason}';
   @override
-  String get storage_modules_section => '可选模块';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K 着色器';
   @override
   String get storage_modules_anime4k_hint => '可随时在视频设置的画质增强里重新下载';
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       '已删除 ${n} 个着色器文件';
-  @override
-  String get storage_modules_not_installed => '未安装';
   @override
   String get storage_bundled_section => '随包组件';
   @override
@@ -133842,6 +133809,8 @@ class _StringsZhCn extends _StringsEn {
   String get manga_online_error_view_detail => '查看详情';
   @override
   String get discovery_sources_unavailable => '全部来源都不可用';
+  @override
+  String get storage_shaders_delete_anime4k => '删除 Anime4K 着色器';
 }
 
 // Path: <root>
@@ -141990,8 +141959,6 @@ class _StringsZhHk extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -141999,8 +141966,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -142261,6 +142226,8 @@ class _StringsZhHk extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 /// Flat map(s) containing all translations.
@@ -149654,16 +149621,12 @@ extension on _StringsEn {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -149883,6 +149846,8 @@ extension on _StringsEn {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -157274,16 +157239,12 @@ extension on _StringsAr {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -157503,6 +157464,8 @@ extension on _StringsAr {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -164916,16 +164879,12 @@ extension on _StringsDe {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -165145,6 +165104,8 @@ extension on _StringsDe {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -172557,16 +172518,12 @@ extension on _StringsEs {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -172786,6 +172743,8 @@ extension on _StringsEs {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -180204,16 +180163,12 @@ extension on _StringsFr {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -180433,6 +180388,8 @@ extension on _StringsFr {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -187833,16 +187790,12 @@ extension on _StringsId {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -188062,6 +188015,8 @@ extension on _StringsId {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -195476,16 +195431,12 @@ extension on _StringsIt {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -195705,6 +195656,8 @@ extension on _StringsIt {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -203081,16 +203034,12 @@ extension on _StringsJa {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -203310,6 +203259,8 @@ extension on _StringsJa {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -210690,16 +210641,12 @@ extension on _StringsKo {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -210919,6 +210866,8 @@ extension on _StringsKo {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -218327,16 +218276,12 @@ extension on _StringsNl {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -218556,6 +218501,8 @@ extension on _StringsNl {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -225961,16 +225908,12 @@ extension on _StringsPtBr {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -226190,6 +226133,8 @@ extension on _StringsPtBr {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -233600,16 +233545,12 @@ extension on _StringsRu {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -233829,6 +233770,8 @@ extension on _StringsRu {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -241222,16 +241165,12 @@ extension on _StringsTh {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -241451,6 +241390,8 @@ extension on _StringsTh {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -248853,16 +248794,12 @@ extension on _StringsTr {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -249082,6 +249019,8 @@ extension on _StringsTr {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -256480,16 +256419,12 @@ extension on _StringsVi {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -256709,6 +256644,8 @@ extension on _StringsVi {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -264048,16 +263985,12 @@ extension on _StringsZhCn {
         return '已删除';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => '删除失败：${reason}';
-      case 'storage_modules_section':
-        return '可选模块';
       case 'storage_modules_anime4k_title':
         return 'Anime4K 着色器';
       case 'storage_modules_anime4k_hint':
         return '可随时在视频设置的画质增强里重新下载';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => '已删除 ${n} 个着色器文件';
-      case 'storage_modules_not_installed':
-        return '未安装';
       case 'storage_bundled_section':
         return '随包组件';
       case 'storage_bundled_hint':
@@ -264277,6 +264210,8 @@ extension on _StringsZhCn {
         return '查看详情';
       case 'discovery_sources_unavailable':
         return '全部来源都不可用';
+      case 'storage_shaders_delete_anime4k':
+        return '删除 Anime4K 着色器';
       default:
         return null;
     }
@@ -271648,16 +271583,12 @@ extension on _StringsZhHk {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -271877,6 +271808,8 @@ extension on _StringsZhHk {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
