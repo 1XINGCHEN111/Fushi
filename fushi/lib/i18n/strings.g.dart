@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63580 (3740 per locale)
+/// Strings: 63597 (3741 per locale)
 ///
-/// Built on 2026-08-22 at 04:11 UTC
+/// Built on 2026-08-22 at 06:17 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5077,6 +5077,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get gal_hook_text_corner_radius => 'Window corner radius';
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -13745,6 +13747,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -22478,6 +22483,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -31227,6 +31235,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -39988,6 +39999,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -48679,6 +48693,9 @@ class _StringsId extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -57414,6 +57431,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -65966,6 +65986,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -74526,6 +74549,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -83241,6 +83267,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -91968,6 +91997,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -100682,6 +100714,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -109344,6 +109379,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -118037,6 +118075,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -126716,6 +126757,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -134737,6 +134781,9 @@ class _StringsZhCn extends _StringsEn {
   String get gal_hook_text_corner_radius => '窗口圆角';
   @override
   String get gal_hook_text_corner_radius_hint => '调整窗口背景的圆角半径。';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
 }
 
 // Path: <root>
@@ -143214,6 +143261,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 /// Flat map(s) containing all translations.
@@ -150886,6 +150936,8 @@ extension on _StringsEn {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -158556,6 +158608,8 @@ extension on _StringsAr {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -166248,6 +166302,8 @@ extension on _StringsDe {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -173939,6 +173995,8 @@ extension on _StringsEs {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -181636,6 +181694,8 @@ extension on _StringsFr {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -189315,6 +189375,8 @@ extension on _StringsId {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -197008,6 +197070,8 @@ extension on _StringsIt {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -204663,6 +204727,8 @@ extension on _StringsJa {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -212322,6 +212388,8 @@ extension on _StringsKo {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -220009,6 +220077,8 @@ extension on _StringsNl {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -227693,6 +227763,8 @@ extension on _StringsPtBr {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -235382,6 +235454,8 @@ extension on _StringsRu {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -243054,6 +243128,8 @@ extension on _StringsTh {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -250735,6 +250811,8 @@ extension on _StringsTr {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -258412,6 +258490,8 @@ extension on _StringsVi {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -266030,6 +266110,8 @@ extension on _StringsZhCn {
         return '窗口圆角';
       case 'gal_hook_text_corner_radius_hint':
         return '调整窗口背景的圆角半径。';
+      case 'game_hook_reason_capability_probe_failed':
+        return '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
       default:
         return null;
     }
@@ -273680,6 +273762,8 @@ extension on _StringsZhHk {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
