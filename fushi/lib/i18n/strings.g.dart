@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 63138 (3714 per locale)
 ///
-/// Built on 2026-08-22 at 08:55 UTC
+/// Built on 2026-08-22 at 09:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4858,8 +4858,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Shortcut ${index}';
   String get video_control_custom_action_none => 'Not assigned';
   String get settings_destination_storage => 'Storage';
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
   String get storage_overview_section => 'Disk usage';
   String get storage_overview_total => 'Total';
   String get storage_overview_refresh => 'Rescan';
@@ -5043,6 +5041,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_online_error_view_detail => 'View details';
   String get discovery_sources_unavailable => 'All sources are unavailable';
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -13332,9 +13332,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -13651,6 +13648,9 @@ class _StringsAr extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -22005,9 +22005,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -22324,6 +22321,9 @@ class _StringsDe extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -30694,9 +30694,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -31013,6 +31010,9 @@ class _StringsEs extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -39395,9 +39395,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -39714,6 +39711,9 @@ class _StringsFr extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -48026,9 +48026,6 @@ class _StringsId extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -48345,6 +48342,9 @@ class _StringsId extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -56701,9 +56701,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -57020,6 +57017,9 @@ class _StringsIt extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -65193,9 +65193,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -65512,6 +65509,9 @@ class _StringsJa extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -73693,9 +73693,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -74012,6 +74009,9 @@ class _StringsKo extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -82348,9 +82348,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -82667,6 +82664,9 @@ class _StringsNl extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -91015,9 +91015,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -91334,6 +91331,9 @@ class _StringsPtBr extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -99669,9 +99669,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -99988,6 +99985,9 @@ class _StringsRu extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -108271,9 +108271,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -108590,6 +108587,9 @@ class _StringsTh extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -116904,9 +116904,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -117223,6 +117220,9 @@ class _StringsTr extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -125523,9 +125523,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -125842,6 +125839,9 @@ class _StringsVi extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 // Path: <root>
@@ -133526,8 +133526,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get settings_destination_storage => '存储';
   @override
-  String get settings_destination_storage_summary => '磁盘占用与可清理模块';
-  @override
   String get storage_overview_section => '磁盘占用';
   @override
   String get storage_overview_total => '总计';
@@ -133811,6 +133809,8 @@ class _StringsZhCn extends _StringsEn {
   String get discovery_sources_unavailable => '全部来源都不可用';
   @override
   String get storage_shaders_delete_anime4k => '删除 Anime4K 着色器';
+  @override
+  String get settings_destination_storage_summary => '数据位置与磁盘占用';
 }
 
 // Path: <root>
@@ -141909,9 +141909,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get settings_destination_storage => 'Storage';
   @override
-  String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
-  @override
   String get storage_overview_section => 'Disk usage';
   @override
   String get storage_overview_total => 'Total';
@@ -142228,6 +142225,9 @@ class _StringsZhHk extends _StringsEn {
   String get discovery_sources_unavailable => 'All sources are unavailable';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get settings_destination_storage_summary =>
+      'Data location and disk usage';
 }
 
 /// Flat map(s) containing all translations.
@@ -149576,8 +149576,6 @@ extension on _StringsEn {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -149848,6 +149846,8 @@ extension on _StringsEn {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -157194,8 +157194,6 @@ extension on _StringsAr {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -157466,6 +157464,8 @@ extension on _StringsAr {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -164834,8 +164834,6 @@ extension on _StringsDe {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -165106,6 +165104,8 @@ extension on _StringsDe {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -172473,8 +172473,6 @@ extension on _StringsEs {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -172745,6 +172743,8 @@ extension on _StringsEs {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -180118,8 +180118,6 @@ extension on _StringsFr {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -180390,6 +180388,8 @@ extension on _StringsFr {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -187745,8 +187745,6 @@ extension on _StringsId {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -188017,6 +188015,8 @@ extension on _StringsId {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -195386,8 +195386,6 @@ extension on _StringsIt {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -195658,6 +195656,8 @@ extension on _StringsIt {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -202989,8 +202989,6 @@ extension on _StringsJa {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -203261,6 +203259,8 @@ extension on _StringsJa {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -210596,8 +210596,6 @@ extension on _StringsKo {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -210868,6 +210866,8 @@ extension on _StringsKo {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -218231,8 +218231,6 @@ extension on _StringsNl {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -218503,6 +218501,8 @@ extension on _StringsNl {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -225863,8 +225863,6 @@ extension on _StringsPtBr {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -226135,6 +226133,8 @@ extension on _StringsPtBr {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -233500,8 +233500,6 @@ extension on _StringsRu {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -233772,6 +233770,8 @@ extension on _StringsRu {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -241120,8 +241120,6 @@ extension on _StringsTh {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -241392,6 +241390,8 @@ extension on _StringsTh {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -248749,8 +248749,6 @@ extension on _StringsTr {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -249021,6 +249019,8 @@ extension on _StringsTr {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -256374,8 +256374,6 @@ extension on _StringsVi {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -256646,6 +256644,8 @@ extension on _StringsVi {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
@@ -263940,8 +263940,6 @@ extension on _StringsZhCn {
         return '不绑定';
       case 'settings_destination_storage':
         return '存储';
-      case 'settings_destination_storage_summary':
-        return '磁盘占用与可清理模块';
       case 'storage_overview_section':
         return '磁盘占用';
       case 'storage_overview_total':
@@ -264212,6 +264210,8 @@ extension on _StringsZhCn {
         return '全部来源都不可用';
       case 'storage_shaders_delete_anime4k':
         return '删除 Anime4K 着色器';
+      case 'settings_destination_storage_summary':
+        return '数据位置与磁盘占用';
       default:
         return null;
     }
@@ -271538,8 +271538,6 @@ extension on _StringsZhHk {
         return 'Not assigned';
       case 'settings_destination_storage':
         return 'Storage';
-      case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -271810,6 +271808,8 @@ extension on _StringsZhHk {
         return 'All sources are unavailable';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'settings_destination_storage_summary':
+        return 'Data location and disk usage';
       default:
         return null;
     }
