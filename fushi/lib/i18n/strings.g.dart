@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 62577 (3681 per locale)
+/// Strings: 63580 (3740 per locale)
 ///
-/// Built on 2026-08-21 at 08:42 UTC
+/// Built on 2026-08-22 at 04:11 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -258,7 +258,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Search failed or timed out. Tap retry.';
   String get anime_download_search_hint => 'Anime title';
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   String get anime_download_sort_date => 'Published';
   String get anime_download_sort_seeders => 'Seeders';
   String get anime_download_sort_size => 'Size';
@@ -2514,9 +2514,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_content => 'Upload book files';
   String get sync_content_warning =>
       'Large files will use storage space and data';
-  String get sync_dictionary => 'Sync dictionaries';
-  String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
   String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
   String get sync_err_invalid_client =>
       'Client credentials are invalid for this build — please update the app.';
@@ -2538,9 +2535,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_lan_no_devices => 'No devices found';
   String get sync_lan_scan_failed =>
       'Scan failed — check network permissions or firewall.';
-  String get sync_local_audio => 'Sync local audio';
-  String get sync_local_audio_warning =>
-      'Syncs local audio source databases (may be large)';
   String get sync_not_signed_in => 'Not signed in';
   String get sync_now => 'Sync now';
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
@@ -4972,6 +4966,85 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Folder added as a library source and scanned.';
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
+  String get sync_pair_invalid_url => 'Invalid address format';
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  String get sync_asset_upload_action => 'Upload';
+  String get sync_asset_download_action => 'Download';
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  String get download_task_add => 'Add task';
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  String get download_task_add_title_label => 'Title';
+  String get download_task_add_content_kind => 'Content type';
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  String get download_task_add_submitted => 'Task added';
+  String get download_task_search_hint => 'Search tasks';
+  String get download_task_sort_created => 'Date added';
+  String get download_task_sort_progress => 'Progress';
+  String get download_task_sort_status => 'Status';
+  String get download_task_no_match => 'No matching tasks';
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  String get subtitle_version_ai_translated => 'AI translated';
+  String get subtitle_version_content_language => 'Content';
+  String get subtitle_version_show_files => 'Show files';
+  String get subtitle_version_view_files => 'File list';
+  String get resource_version_batch => 'Batch';
+  String get resource_version_view_flat => 'All releases';
+  String get subscription_mode_one_shot => 'One-shot';
+  String get subscription_mode_ongoing => 'Ongoing';
+  String get subscription_legacy_badge => 'Legacy';
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  String get subscription_item_status_discovered => 'Pending';
+  String get subscription_item_status_queued => 'Queued';
+  String get subscription_item_status_processed => 'Imported';
+  String get subscription_item_status_skipped => 'Skipped';
+  String get subscription_item_status_failed => 'Failed';
+  String get subscription_items_empty => 'No releases tracked yet';
+  String get subscription_edit_title => 'Edit subscription';
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  String get subscription_search_hint => 'Search subscriptions';
+  String get subscription_sort_last_checked => 'Last checked';
+  String get subscription_sort_last_matched => 'Last match';
+  String get subscription_show_items => 'Episode history';
+  String get subscription_sort_created => 'Date added';
+  String get subscription_no_match => 'No matching subscriptions';
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  String get resource_version_show_files => 'Show files';
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  String get manga_online_error_view_detail => 'View details';
+  String get discovery_sources_unavailable => 'All sources are unavailable';
   String get font_target_game_lookup => 'Game lookup window font';
   String get gal_hook_text_font => 'Game lookup window font';
   String get gal_hook_text_font_hint =>
@@ -5152,7 +5225,7 @@ class _StringsAr extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -9221,11 +9294,6 @@ class _StringsAr extends _StringsEn {
   String get sync_content_warning =>
       'الملفات الكبيرة ستستهلك مساحة التخزين وحزمة البيانات';
   @override
-  String get sync_dictionary => 'مزامنة القواميس';
-  @override
-  String get sync_dictionary_warning =>
-      'قد تكون حِزَم القواميس كبيرة وتتضمّن موارد قواميس مستوردة.';
-  @override
   String get sync_err_auth_expired =>
       'انتهت صلاحية تسجيل الدخول — يرجى تسجيل الدخول مجددًا.';
   @override
@@ -9261,11 +9329,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'فشل الفحص — تحقّق من أذونات الشبكة أو الجدار الناري.';
-  @override
-  String get sync_local_audio => 'مزامنة الصوت المحلي';
-  @override
-  String get sync_local_audio_warning =>
-      'تزامن قواعد بيانات مصادر الصوت المحلية (قد تكون كبيرة)';
   @override
   String get sync_not_signed_in => 'لم يتم تسجيل الدخول';
   @override
@@ -13485,6 +13548,148 @@ class _StringsAr extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -13688,7 +13893,7 @@ class _StringsDe extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -17800,11 +18005,6 @@ class _StringsDe extends _StringsEn {
   String get sync_content_warning =>
       'Große Dateien verbrauchen Speicherplatz und Datenvolumen';
   @override
-  String get sync_dictionary => 'Wörterbücher synchronisieren';
-  @override
-  String get sync_dictionary_warning =>
-      'Wörterbuchpakete können groß sein und importierte Wörterbuchressourcen enthalten.';
-  @override
   String get sync_err_auth_expired =>
       'Anmeldung abgelaufen – bitte erneut anmelden.';
   @override
@@ -17841,11 +18041,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'Suche fehlgeschlagen – prüfe Netzwerkberechtigungen oder Firewall.';
-  @override
-  String get sync_local_audio => 'Lokales Audio synchronisieren';
-  @override
-  String get sync_local_audio_warning =>
-      'Synchronisiert lokale Audioquellen-Datenbanken (kann groß sein)';
   @override
   String get sync_not_signed_in => 'Nicht angemeldet';
   @override
@@ -22086,6 +22281,148 @@ class _StringsDe extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -22289,7 +22626,7 @@ class _StringsEs extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -26411,11 +26748,6 @@ class _StringsEs extends _StringsEn {
   String get sync_content_warning =>
       'Los archivos grandes consumirán almacenamiento y datos';
   @override
-  String get sync_dictionary => 'Sincronizar diccionarios';
-  @override
-  String get sync_dictionary_warning =>
-      'Los paquetes de diccionario pueden ser grandes e incluir recursos de diccionario importados.';
-  @override
   String get sync_err_auth_expired =>
       'La sesión ha caducado: inicia sesión de nuevo.';
   @override
@@ -26453,11 +26785,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'Error al buscar: revisa los permisos de red o el firewall.';
-  @override
-  String get sync_local_audio => 'Sincronizar audio local';
-  @override
-  String get sync_local_audio_warning =>
-      'Sincroniza las bases de datos de fuentes de audio local (pueden ser grandes)';
   @override
   String get sync_not_signed_in => 'No conectado';
   @override
@@ -30703,6 +31030,148 @@ class _StringsEs extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -30906,7 +31375,7 @@ class _StringsFr extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -35041,11 +35510,6 @@ class _StringsFr extends _StringsEn {
   String get sync_content_warning =>
       'Les fichiers volumineux utiliseront de l\'espace de stockage et des données';
   @override
-  String get sync_dictionary => 'Synchroniser les dictionnaires';
-  @override
-  String get sync_dictionary_warning =>
-      'Les paquets de dictionnaires peuvent être volumineux et inclure des ressources de dictionnaire importées.';
-  @override
   String get sync_err_auth_expired =>
       'Connexion expirée — veuillez vous reconnecter.';
   @override
@@ -35082,11 +35546,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'Échec de l\'analyse — vérifiez les autorisations réseau ou le pare-feu.';
-  @override
-  String get sync_local_audio => 'Synchroniser l\'audio local';
-  @override
-  String get sync_local_audio_warning =>
-      'Synchronise les bases de données des sources audio locales (peut être volumineux)';
   @override
   String get sync_not_signed_in => 'Non connecté';
   @override
@@ -39332,6 +39791,148 @@ class _StringsFr extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -39535,7 +40136,7 @@ class _StringsId extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -43616,11 +44217,6 @@ class _StringsId extends _StringsEn {
   String get sync_content_warning =>
       'Berkas besar akan memakai ruang penyimpanan dan kuota data';
   @override
-  String get sync_dictionary => 'Sinkronkan kamus';
-  @override
-  String get sync_dictionary_warning =>
-      'Paket kamus bisa berukuran besar dan menyertakan sumber daya kamus yang diimpor.';
-  @override
   String get sync_err_auth_expired =>
       'Sesi masuk kedaluwarsa — mohon masuk kembali.';
   @override
@@ -43657,11 +44253,6 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'Pemindaian gagal — periksa izin jaringan atau firewall.';
-  @override
-  String get sync_local_audio => 'Sinkronkan audio lokal';
-  @override
-  String get sync_local_audio_warning =>
-      'Menyinkronkan basis data sumber audio lokal (mungkin besar)';
   @override
   String get sync_not_signed_in => 'Belum masuk';
   @override
@@ -47891,6 +48482,148 @@ class _StringsId extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -48094,7 +48827,7 @@ class _StringsIt extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -52207,11 +52940,6 @@ class _StringsIt extends _StringsEn {
   String get sync_content_warning =>
       'I file di grandi dimensioni occuperanno spazio e consumeranno dati';
   @override
-  String get sync_dictionary => 'Sincronizza dizionari';
-  @override
-  String get sync_dictionary_warning =>
-      'I pacchetti di dizionari possono essere grandi e includere risorse di dizionari importate.';
-  @override
   String get sync_err_auth_expired => 'Accesso scaduto — accedi di nuovo.';
   @override
   String get sync_err_invalid_client =>
@@ -52248,11 +52976,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'Scansione non riuscita — controlla i permessi di rete o il firewall.';
-  @override
-  String get sync_local_audio => 'Sincronizza audio locale';
-  @override
-  String get sync_local_audio_warning =>
-      'Sincronizza i database delle sorgenti audio locali (possono essere grandi)';
   @override
   String get sync_not_signed_in => 'Non connesso';
   @override
@@ -56494,6 +57217,148 @@ class _StringsIt extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -56697,7 +57562,7 @@ class _StringsJa extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -60692,11 +61557,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_content_warning => '大きなファイルはストレージと通信量を消費します';
   @override
-  String get sync_dictionary => '辞書を同期';
-  @override
-  String get sync_dictionary_warning =>
-      '辞書パッケージは大きくなることがあり、インポートした辞書リソースを含みます。';
-  @override
   String get sync_err_auth_expired => 'サインインの有効期限が切れました — もう一度サインインしてください。';
   @override
   String get sync_err_invalid_client => 'このビルドではクライアント認証情報が無効です。アプリを更新してください。';
@@ -60726,11 +61586,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'スキャンに失敗しました — ネットワーク権限やファイアウォールを確認してください。';
-  @override
-  String get sync_local_audio => 'ローカル音声を同期';
-  @override
-  String get sync_local_audio_warning =>
-      'ローカル音声ソースのデータベースを同期します（容量が大きい場合があります）';
   @override
   String get sync_not_signed_in => '未ログイン';
   @override
@@ -64914,6 +65769,148 @@ class _StringsJa extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -65117,7 +66114,7 @@ class _StringsKo extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -69113,11 +70110,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_content_warning => '큰 파일은 저장 공간과 데이터를 사용합니다';
   @override
-  String get sync_dictionary => '사전 동기화';
-  @override
-  String get sync_dictionary_warning =>
-      '사전 패키지는 용량이 클 수 있으며 가져온 사전 리소스를 포함합니다.';
-  @override
   String get sync_err_auth_expired => '로그인이 만료되었습니다 — 다시 로그인해 주세요.';
   @override
   String get sync_err_invalid_client =>
@@ -69148,10 +70140,6 @@ class _StringsKo extends _StringsEn {
   String get sync_lan_no_devices => '기기를 찾을 수 없음';
   @override
   String get sync_lan_scan_failed => '검색 실패 — 네트워크 권한 또는 방화벽을 확인하세요.';
-  @override
-  String get sync_local_audio => '로컬 오디오 동기화';
-  @override
-  String get sync_local_audio_warning => '로컬 오디오 소스 데이터베이스를 동기화합니다(용량이 클 수 있음)';
   @override
   String get sync_not_signed_in => '로그인되지 않음';
   @override
@@ -73341,6 +74329,148 @@ class _StringsKo extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -73544,7 +74674,7 @@ class _StringsNl extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -77642,11 +78772,6 @@ class _StringsNl extends _StringsEn {
   String get sync_content_warning =>
       'Grote bestanden gebruiken opslagruimte en data';
   @override
-  String get sync_dictionary => 'Woordenboeken synchroniseren';
-  @override
-  String get sync_dictionary_warning =>
-      'Woordenboekpakketten kunnen groot zijn en geïmporteerde woordenboekbronnen bevatten.';
-  @override
   String get sync_err_auth_expired =>
       'Aanmelding verlopen — meld je opnieuw aan.';
   @override
@@ -77683,11 +78808,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'Scannen mislukt — controleer netwerkrechten of firewall.';
-  @override
-  String get sync_local_audio => 'Lokale audio synchroniseren';
-  @override
-  String get sync_local_audio_warning =>
-      'Synchroniseert databases van lokale audiobronnen (kan groot zijn)';
   @override
   String get sync_not_signed_in => 'Niet aangemeld';
   @override
@@ -81924,6 +83044,148 @@ class _StringsNl extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -82127,7 +83389,7 @@ class _StringsPtBr extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -86235,11 +87497,6 @@ class _StringsPtBr extends _StringsEn {
   String get sync_content_warning =>
       'Arquivos grandes usam espaço de armazenamento e dados';
   @override
-  String get sync_dictionary => 'Sincronizar dicionários';
-  @override
-  String get sync_dictionary_warning =>
-      'Os pacotes de dicionário podem ser grandes e incluir recursos de dicionários importados.';
-  @override
   String get sync_err_auth_expired => 'Sessão expirada — faça login novamente.';
   @override
   String get sync_err_invalid_client =>
@@ -86276,11 +87533,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'Falha na busca — verifique as permissões de rede ou o firewall.';
-  @override
-  String get sync_local_audio => 'Sincronizar áudio local';
-  @override
-  String get sync_local_audio_warning =>
-      'Sincroniza os bancos de dados de áudio local (podem ser grandes)';
   @override
   String get sync_not_signed_in => 'Não conectado';
   @override
@@ -90519,6 +91771,148 @@ class _StringsPtBr extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -90722,7 +92116,7 @@ class _StringsRu extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -94823,11 +96217,6 @@ class _StringsRu extends _StringsEn {
   String get sync_content_warning =>
       'Большие файлы займут место в хранилище и трафик';
   @override
-  String get sync_dictionary => 'Синхронизировать словари';
-  @override
-  String get sync_dictionary_warning =>
-      'Пакеты словарей могут быть большими и включать импортированные ресурсы словарей.';
-  @override
   String get sync_err_auth_expired => 'Сессия истекла — войдите снова.';
   @override
   String get sync_err_invalid_client =>
@@ -94864,11 +96253,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'Сканирование не удалось — проверьте разрешения сети или брандмауэр.';
-  @override
-  String get sync_local_audio => 'Синхронизировать локальное аудио';
-  @override
-  String get sync_local_audio_warning =>
-      'Синхронизирует базы локальных аудиоисточников (могут быть большими)';
   @override
   String get sync_not_signed_in => 'Не авторизован';
   @override
@@ -99101,6 +100485,148 @@ class _StringsRu extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -99304,7 +100830,7 @@ class _StringsTh extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -103364,11 +104890,6 @@ class _StringsTh extends _StringsEn {
   String get sync_content_warning =>
       'ไฟล์ขนาดใหญ่จะใช้พื้นที่จัดเก็บและปริมาณข้อมูล';
   @override
-  String get sync_dictionary => 'ซิงค์พจนานุกรม';
-  @override
-  String get sync_dictionary_warning =>
-      'แพ็กเกจพจนานุกรมอาจมีขนาดใหญ่และรวมทรัพยากรพจนานุกรมที่นำเข้ามา';
-  @override
   String get sync_err_auth_expired =>
       'การลงชื่อเข้าใช้หมดอายุ — โปรดลงชื่อเข้าใช้อีกครั้ง';
   @override
@@ -103405,11 +104926,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'สแกนไม่สำเร็จ — ตรวจสอบสิทธิ์เครือข่ายหรือไฟร์วอลล์';
-  @override
-  String get sync_local_audio => 'ซิงค์เสียงในเครื่อง';
-  @override
-  String get sync_local_audio_warning =>
-      'ซิงค์ฐานข้อมูลแหล่งเสียงในเครื่อง (อาจมีขนาดใหญ่)';
   @override
   String get sync_not_signed_in => 'ยังไม่ได้เข้าสู่ระบบ';
   @override
@@ -107631,6 +109147,148 @@ class _StringsTh extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -107834,7 +109492,7 @@ class _StringsTr extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -111921,11 +113579,6 @@ class _StringsTr extends _StringsEn {
   String get sync_content_warning =>
       'Büyük dosyalar depolama alanı ve veri kullanır';
   @override
-  String get sync_dictionary => 'Sözlükleri eşitle';
-  @override
-  String get sync_dictionary_warning =>
-      'Sözlük paketleri büyük olabilir ve içe aktarılan sözlük kaynaklarını içerebilir.';
-  @override
   String get sync_err_auth_expired =>
       'Oturum süresi doldu — lütfen tekrar oturum açın.';
   @override
@@ -111962,11 +113615,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'Tarama başarısız — ağ izinlerini veya güvenlik duvarını kontrol edin.';
-  @override
-  String get sync_local_audio => 'Yerel sesi eşitle';
-  @override
-  String get sync_local_audio_warning =>
-      'Yerel ses kaynağı veritabanlarını eşitler (büyük olabilir)';
   @override
   String get sync_not_signed_in => 'Oturum açılmadı';
   @override
@@ -116192,6 +117840,148 @@ class _StringsTr extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -116395,7 +118185,7 @@ class _StringsVi extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -120473,11 +122263,6 @@ class _StringsVi extends _StringsEn {
   String get sync_content_warning =>
       'Tệp lớn sẽ tốn dung lượng lưu trữ và dữ liệu mạng';
   @override
-  String get sync_dictionary => 'Đồng bộ từ điển';
-  @override
-  String get sync_dictionary_warning =>
-      'Gói từ điển có thể lớn và bao gồm các tài nguyên từ điển đã nhập.';
-  @override
   String get sync_err_auth_expired =>
       'Phiên đăng nhập đã hết hạn — vui lòng đăng nhập lại.';
   @override
@@ -120513,11 +122298,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_lan_scan_failed =>
       'Quét thất bại — kiểm tra quyền mạng hoặc tường lửa.';
-  @override
-  String get sync_local_audio => 'Đồng bộ âm thanh cục bộ';
-  @override
-  String get sync_local_audio_warning =>
-      'Đồng bộ cơ sở dữ liệu nguồn âm thanh cục bộ (có thể lớn)';
   @override
   String get sync_not_signed_in => 'Chưa đăng nhập';
   @override
@@ -124739,6 +126519,148 @@ class _StringsVi extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -124934,7 +126856,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get anime_download_search_hint => '番剧名';
   @override
-  String get anime_download_search_start_hint => '在上方搜索番剧名，自动匹配种子与字幕。';
+  String get anime_download_search_start_hint =>
+      '在上方搜索作品名，自动匹配种子与字幕。下载不限视频：书籍、漫画、有声书、游戏也会自动入库。';
   @override
   String get anime_download_sort_date => '发布时间';
   @override
@@ -128741,10 +130664,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get sync_content_warning => '大文件会消耗存储空间和流量';
   @override
-  String get sync_dictionary => '同步词典';
-  @override
-  String get sync_dictionary_warning => '词典包可能很大，并包含已导入的词典资源。';
-  @override
   String get sync_err_auth_expired => '登录已过期，请重新登录。';
   @override
   String get sync_err_invalid_client => '客户端凭据无效，请更新 App。';
@@ -128772,10 +130691,6 @@ class _StringsZhCn extends _StringsEn {
   String get sync_lan_no_devices => '未发现设备';
   @override
   String get sync_lan_scan_failed => '扫描失败——请检查网络权限或防火墙。';
-  @override
-  String get sync_local_audio => '同步本地音频';
-  @override
-  String get sync_local_audio_warning => '同步本地音频来源数据库（可能较大）';
   @override
   String get sync_not_signed_in => '未登录';
   @override
@@ -132646,6 +134561,135 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get drag_drop_folder_source_exists => '该文件夹已经是来源了';
   @override
+  String get sync_pair_invalid_url => '地址格式无效';
+  @override
+  String get sync_pair_peer_requires_https =>
+      '该设备只接受 HTTPS，请改用 https:// 开头的地址。';
+  @override
+  String get sync_pair_peer_not_https => '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
+  @override
+  String get sync_pair_not_fushi_discovered => '此地址未找到 Fushi 设备。';
+  @override
+  String get shortcut_action_popup_play_audio => '播放单词发音';
+  @override
+  String get sync_progress_asset_transfer => '准备传输';
+  @override
+  String get sync_asset_dictionary_upload => '上传词典';
+  @override
+  String get sync_asset_dictionary_download => '下载词典';
+  @override
+  String get sync_asset_local_audio_upload => '上传本地音频数据库';
+  @override
+  String get sync_asset_local_audio_download => '下载本地音频数据库';
+  @override
+  String get sync_asset_upload_hint => '把本机有、远端没有的推送过去。包可能很大。';
+  @override
+  String get sync_asset_upload_action => '上传';
+  @override
+  String get sync_asset_download_action => '下载';
+  @override
+  String get sync_asset_download_hint => '把远端有、本机没有的取回来（含你在本机删掉过的）。';
+  @override
+  String get sync_asset_legacy_notice_title => '词典与本地音频改为手动传输';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      '这台设备原先开着词典与本地音频数据库的自动同步。该开关已移除——需要传输时请用下面的上传 / 下载。已有数据不受影响，但新导入的词典不会再自动备份。';
+  @override
+  String get sync_asset_legacy_notice_dismiss => '知道了';
+  @override
+  String get download_task_add => '添加任务';
+  @override
+  String get download_task_add_pick_torrent => '选择种子文件';
+  @override
+  String get download_task_add_title_label => '标题';
+  @override
+  String get download_task_add_content_kind => '内容类型';
+  @override
+  String get download_task_add_invalid => '无法识别的磁力链接或种子文件';
+  @override
+  String get download_task_add_submitted => '已添加任务';
+  @override
+  String get download_task_search_hint => '搜索任务';
+  @override
+  String get download_task_sort_created => '添加时间';
+  @override
+  String get download_task_sort_progress => '进度';
+  @override
+  String get download_task_sort_status => '状态';
+  @override
+  String get download_task_no_match => '没有匹配的任务';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '共 ${n} 集';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) => '${n} 个未编号';
+  @override
+  String get subtitle_version_ai_translated => '机翻';
+  @override
+  String get subtitle_version_content_language => '正文';
+  @override
+  String get subtitle_version_show_files => '展开文件';
+  @override
+  String get subtitle_version_view_files => '文件视图';
+  @override
+  String get resource_version_batch => '合集';
+  @override
+  String get resource_version_view_flat => '全部条目';
+  @override
+  String get subscription_mode_one_shot => '单次';
+  @override
+  String get subscription_mode_ongoing => '追更';
+  @override
+  String get subscription_legacy_badge => '旧版订阅';
+  @override
+  String get subscription_legacy_hint => '由旧版本导入，不参与自动检查。';
+  @override
+  String subscription_next_check({required Object time}) => '下次检查：${time}';
+  @override
+  String subscription_last_matched({required Object time}) => '最近命中：${time}';
+  @override
+  String get subscription_item_status_discovered => '待处理';
+  @override
+  String get subscription_item_status_queued => '排队中';
+  @override
+  String get subscription_item_status_processed => '已入库';
+  @override
+  String get subscription_item_status_skipped => '已跳过';
+  @override
+  String get subscription_item_status_failed => '失败';
+  @override
+  String get subscription_items_empty => '还没有跟踪到任何发布';
+  @override
+  String get subscription_edit_title => '编辑订阅';
+  @override
+  String get subscription_edit_rule_hint => '来源身份与版本规则不可在此修改；要换版本请重新订阅（历史保留）。';
+  @override
+  String get subscription_search_hint => '搜索订阅';
+  @override
+  String get subscription_sort_last_checked => '最近检查';
+  @override
+  String get subscription_sort_last_matched => '最近命中';
+  @override
+  String get subscription_show_items => '逐集状态';
+  @override
+  String get subscription_sort_created => '添加时间';
+  @override
+  String get subscription_no_match => '没有匹配的订阅';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      '请填 0 或更大的整数，留空表示不限';
+  @override
+  String get download_subscription_source_unavailable => '当前目标库（当前不可用）';
+  @override
+  String resource_version_episode_count({required Object n}) => '共 ${n} 集';
+  @override
+  String get resource_version_show_files => '显示文件';
+  @override
+  String get manga_online_detail_load_failed => '无法载入这部漫画。';
+  @override
+  String get manga_online_error_view_detail => '查看详情';
+  @override
+  String get discovery_sources_unavailable => '全部来源都不可用';
+  @override
   String get font_target_game_lookup => '游戏查词窗口字体';
   @override
   String get gal_hook_text_font => '游戏查词窗口字体';
@@ -132841,7 +134885,7 @@ class _StringsZhHk extends _StringsEn {
   String get anime_download_search_hint => 'Anime title';
   @override
   String get anime_download_search_start_hint =>
-      'Search an anime title above — torrents and subtitles are matched automatically.';
+      'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
   @override
   String get anime_download_sort_date => 'Published';
   @override
@@ -136793,10 +138837,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_content_warning => '大檔案會佔用儲存空間及數據';
   @override
-  String get sync_dictionary => '同步詞典';
-  @override
-  String get sync_dictionary_warning => '詞典包可能很大，並包含已匯入的詞典資源。';
-  @override
   String get sync_err_auth_expired => '登入已過期，請重新登入。';
   @override
   String get sync_err_invalid_client => '此版本的客戶端憑證無效，請更新 App。';
@@ -136825,10 +138865,6 @@ class _StringsZhHk extends _StringsEn {
   String get sync_lan_no_devices => '找不到裝置';
   @override
   String get sync_lan_scan_failed => '掃描失敗——請檢查網絡權限或防火牆。';
-  @override
-  String get sync_local_audio => '同步本機音訊';
-  @override
-  String get sync_local_audio_warning => '同步本機音訊來源資料庫（可能較大）';
   @override
   String get sync_not_signed_in => '未登入';
   @override
@@ -140981,6 +143017,148 @@ class _StringsZhHk extends _StringsEn {
   String get drag_drop_folder_source_exists =>
       'That folder is already a library source.';
   @override
+  String get sync_pair_invalid_url => 'Invalid address format';
+  @override
+  String get sync_pair_peer_requires_https =>
+      'This device only accepts HTTPS. Use an https:// address.';
+  @override
+  String get sync_pair_peer_not_https =>
+      'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+  @override
+  String get sync_pair_not_fushi_discovered =>
+      'No Fushi device found at this address.';
+  @override
+  String get shortcut_action_popup_play_audio => 'Play word audio';
+  @override
+  String get sync_progress_asset_transfer => 'Preparing transfer';
+  @override
+  String get sync_asset_dictionary_upload => 'Upload dictionaries';
+  @override
+  String get sync_asset_dictionary_download => 'Download dictionaries';
+  @override
+  String get sync_asset_local_audio_upload => 'Upload local audio databases';
+  @override
+  String get sync_asset_local_audio_download =>
+      'Download local audio databases';
+  @override
+  String get sync_asset_upload_hint =>
+      'Sends what this device has and the remote does not. Packages can be large.';
+  @override
+  String get sync_asset_upload_action => 'Upload';
+  @override
+  String get sync_asset_download_action => 'Download';
+  @override
+  String get sync_asset_download_hint =>
+      'Fetches what the remote has and this device does not - including entries you deleted locally.';
+  @override
+  String get sync_asset_legacy_notice_title =>
+      'Dictionary and audio sync is now manual';
+  @override
+  String get sync_asset_legacy_notice_body =>
+      'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+  @override
+  String get sync_asset_legacy_notice_dismiss => 'Got it';
+  @override
+  String get download_task_add => 'Add task';
+  @override
+  String get download_task_add_pick_torrent => 'Choose torrent file';
+  @override
+  String get download_task_add_title_label => 'Title';
+  @override
+  String get download_task_add_content_kind => 'Content type';
+  @override
+  String get download_task_add_invalid =>
+      'Unrecognized magnet link or torrent file';
+  @override
+  String get download_task_add_submitted => 'Task added';
+  @override
+  String get download_task_search_hint => 'Search tasks';
+  @override
+  String get download_task_sort_created => 'Date added';
+  @override
+  String get download_task_sort_progress => 'Progress';
+  @override
+  String get download_task_sort_status => 'Status';
+  @override
+  String get download_task_no_match => 'No matching tasks';
+  @override
+  String subtitle_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String subtitle_version_unnumbered_count({required Object n}) =>
+      '${n} unnumbered';
+  @override
+  String get subtitle_version_ai_translated => 'AI translated';
+  @override
+  String get subtitle_version_content_language => 'Content';
+  @override
+  String get subtitle_version_show_files => 'Show files';
+  @override
+  String get subtitle_version_view_files => 'File list';
+  @override
+  String get resource_version_batch => 'Batch';
+  @override
+  String get resource_version_view_flat => 'All releases';
+  @override
+  String get subscription_mode_one_shot => 'One-shot';
+  @override
+  String get subscription_mode_ongoing => 'Ongoing';
+  @override
+  String get subscription_legacy_badge => 'Legacy';
+  @override
+  String get subscription_legacy_hint =>
+      'Imported from the legacy system; automatic checks do not apply.';
+  @override
+  String subscription_next_check({required Object time}) =>
+      'Next check: ${time}';
+  @override
+  String subscription_last_matched({required Object time}) =>
+      'Last match: ${time}';
+  @override
+  String get subscription_item_status_discovered => 'Pending';
+  @override
+  String get subscription_item_status_queued => 'Queued';
+  @override
+  String get subscription_item_status_processed => 'Imported';
+  @override
+  String get subscription_item_status_skipped => 'Skipped';
+  @override
+  String get subscription_item_status_failed => 'Failed';
+  @override
+  String get subscription_items_empty => 'No releases tracked yet';
+  @override
+  String get subscription_edit_title => 'Edit subscription';
+  @override
+  String get subscription_edit_rule_hint =>
+      'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+  @override
+  String get subscription_search_hint => 'Search subscriptions';
+  @override
+  String get subscription_sort_last_checked => 'Last checked';
+  @override
+  String get subscription_sort_last_matched => 'Last match';
+  @override
+  String get subscription_show_items => 'Episode history';
+  @override
+  String get subscription_sort_created => 'Date added';
+  @override
+  String get subscription_no_match => 'No matching subscriptions';
+  @override
+  String get download_subscription_start_episode_invalid =>
+      'Enter a whole number (0 or greater), or leave blank';
+  @override
+  String get download_subscription_source_unavailable =>
+      'Current target (unavailable)';
+  @override
+  String resource_version_episode_count({required Object n}) => '${n} episodes';
+  @override
+  String get resource_version_show_files => 'Show files';
+  @override
+  String get manga_online_detail_load_failed => 'Could not load this manga.';
+  @override
+  String get manga_online_error_view_detail => 'View details';
+  @override
+  String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
   String get font_target_game_lookup => 'Game lookup window font';
   @override
   String get gal_hook_text_font => 'Game lookup window font';
@@ -141144,7 +143322,7 @@ extension on _StringsEn {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -144836,10 +147014,6 @@ extension on _StringsEn {
         return 'Upload book files';
       case 'sync_content_warning':
         return 'Large files will use storage space and data';
-      case 'sync_dictionary':
-        return 'Sync dictionaries';
-      case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
       case 'sync_err_auth_expired':
         return 'Sign-in expired — please sign in again.';
       case 'sync_err_invalid_client':
@@ -144868,10 +147042,6 @@ extension on _StringsEn {
         return 'No devices found';
       case 'sync_lan_scan_failed':
         return 'Scan failed — check network permissions or firewall.';
-      case 'sync_local_audio':
-        return 'Sync local audio';
-      case 'sync_local_audio_warning':
-        return 'Syncs local audio source databases (may be large)';
       case 'sync_not_signed_in':
         return 'Not signed in';
       case 'sync_now':
@@ -148542,6 +150712,132 @@ extension on _StringsEn {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -148699,7 +150995,7 @@ extension on _StringsAr {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -152387,10 +154683,6 @@ extension on _StringsAr {
         return 'مزامنة ملفات الكتب';
       case 'sync_content_warning':
         return 'الملفات الكبيرة ستستهلك مساحة التخزين وحزمة البيانات';
-      case 'sync_dictionary':
-        return 'مزامنة القواميس';
-      case 'sync_dictionary_warning':
-        return 'قد تكون حِزَم القواميس كبيرة وتتضمّن موارد قواميس مستوردة.';
       case 'sync_err_auth_expired':
         return 'انتهت صلاحية تسجيل الدخول — يرجى تسجيل الدخول مجددًا.';
       case 'sync_err_invalid_client':
@@ -152419,10 +154711,6 @@ extension on _StringsAr {
         return 'لم يُعثر على أجهزة';
       case 'sync_lan_scan_failed':
         return 'فشل الفحص — تحقّق من أذونات الشبكة أو الجدار الناري.';
-      case 'sync_local_audio':
-        return 'مزامنة الصوت المحلي';
-      case 'sync_local_audio_warning':
-        return 'تزامن قواعد بيانات مصادر الصوت المحلية (قد تكون كبيرة)';
       case 'sync_not_signed_in':
         return 'لم يتم تسجيل الدخول';
       case 'sync_now':
@@ -156094,6 +158382,132 @@ extension on _StringsAr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -156251,7 +158665,7 @@ extension on _StringsDe {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -159955,10 +162369,6 @@ extension on _StringsDe {
         return 'Buchdateien synchronisieren';
       case 'sync_content_warning':
         return 'Große Dateien verbrauchen Speicherplatz und Datenvolumen';
-      case 'sync_dictionary':
-        return 'Wörterbücher synchronisieren';
-      case 'sync_dictionary_warning':
-        return 'Wörterbuchpakete können groß sein und importierte Wörterbuchressourcen enthalten.';
       case 'sync_err_auth_expired':
         return 'Anmeldung abgelaufen – bitte erneut anmelden.';
       case 'sync_err_invalid_client':
@@ -159988,10 +162398,6 @@ extension on _StringsDe {
         return 'Keine Geräte gefunden';
       case 'sync_lan_scan_failed':
         return 'Suche fehlgeschlagen – prüfe Netzwerkberechtigungen oder Firewall.';
-      case 'sync_local_audio':
-        return 'Lokales Audio synchronisieren';
-      case 'sync_local_audio_warning':
-        return 'Synchronisiert lokale Audioquellen-Datenbanken (kann groß sein)';
       case 'sync_not_signed_in':
         return 'Nicht angemeldet';
       case 'sync_now':
@@ -163668,6 +166074,132 @@ extension on _StringsDe {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -163825,7 +166357,7 @@ extension on _StringsEs {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -167529,10 +170061,6 @@ extension on _StringsEs {
         return 'Sincronizar archivos de libros';
       case 'sync_content_warning':
         return 'Los archivos grandes consumirán almacenamiento y datos';
-      case 'sync_dictionary':
-        return 'Sincronizar diccionarios';
-      case 'sync_dictionary_warning':
-        return 'Los paquetes de diccionario pueden ser grandes e incluir recursos de diccionario importados.';
       case 'sync_err_auth_expired':
         return 'La sesión ha caducado: inicia sesión de nuevo.';
       case 'sync_err_invalid_client':
@@ -167562,10 +170090,6 @@ extension on _StringsEs {
         return 'No se encontraron dispositivos';
       case 'sync_lan_scan_failed':
         return 'Error al buscar: revisa los permisos de red o el firewall.';
-      case 'sync_local_audio':
-        return 'Sincronizar audio local';
-      case 'sync_local_audio_warning':
-        return 'Sincroniza las bases de datos de fuentes de audio local (pueden ser grandes)';
       case 'sync_not_signed_in':
         return 'No conectado';
       case 'sync_now':
@@ -171241,6 +173765,132 @@ extension on _StringsEs {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -171398,7 +174048,7 @@ extension on _StringsFr {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -175105,10 +177755,6 @@ extension on _StringsFr {
         return 'Synchroniser les fichiers de livres';
       case 'sync_content_warning':
         return 'Les fichiers volumineux utiliseront de l\'espace de stockage et des données';
-      case 'sync_dictionary':
-        return 'Synchroniser les dictionnaires';
-      case 'sync_dictionary_warning':
-        return 'Les paquets de dictionnaires peuvent être volumineux et inclure des ressources de dictionnaire importées.';
       case 'sync_err_auth_expired':
         return 'Connexion expirée — veuillez vous reconnecter.';
       case 'sync_err_invalid_client':
@@ -175138,10 +177784,6 @@ extension on _StringsFr {
         return 'Aucun appareil trouvé';
       case 'sync_lan_scan_failed':
         return 'Échec de l\'analyse — vérifiez les autorisations réseau ou le pare-feu.';
-      case 'sync_local_audio':
-        return 'Synchroniser l\'audio local';
-      case 'sync_local_audio_warning':
-        return 'Synchronise les bases de données des sources audio locales (peut être volumineux)';
       case 'sync_not_signed_in':
         return 'Non connecté';
       case 'sync_now':
@@ -178820,6 +181462,132 @@ extension on _StringsFr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -178977,7 +181745,7 @@ extension on _StringsId {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -182673,10 +185441,6 @@ extension on _StringsId {
         return 'Sinkronkan berkas buku';
       case 'sync_content_warning':
         return 'Berkas besar akan memakai ruang penyimpanan dan kuota data';
-      case 'sync_dictionary':
-        return 'Sinkronkan kamus';
-      case 'sync_dictionary_warning':
-        return 'Paket kamus bisa berukuran besar dan menyertakan sumber daya kamus yang diimpor.';
       case 'sync_err_auth_expired':
         return 'Sesi masuk kedaluwarsa — mohon masuk kembali.';
       case 'sync_err_invalid_client':
@@ -182706,10 +185470,6 @@ extension on _StringsId {
         return 'Tidak ada perangkat ditemukan';
       case 'sync_lan_scan_failed':
         return 'Pemindaian gagal — periksa izin jaringan atau firewall.';
-      case 'sync_local_audio':
-        return 'Sinkronkan audio lokal';
-      case 'sync_local_audio_warning':
-        return 'Menyinkronkan basis data sumber audio lokal (mungkin besar)';
       case 'sync_not_signed_in':
         return 'Belum masuk';
       case 'sync_now':
@@ -186381,6 +189141,132 @@ extension on _StringsId {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -186538,7 +189424,7 @@ extension on _StringsIt {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -190239,10 +193125,6 @@ extension on _StringsIt {
         return 'Sincronizza file dei libri';
       case 'sync_content_warning':
         return 'I file di grandi dimensioni occuperanno spazio e consumeranno dati';
-      case 'sync_dictionary':
-        return 'Sincronizza dizionari';
-      case 'sync_dictionary_warning':
-        return 'I pacchetti di dizionari possono essere grandi e includere risorse di dizionari importate.';
       case 'sync_err_auth_expired':
         return 'Accesso scaduto — accedi di nuovo.';
       case 'sync_err_invalid_client':
@@ -190272,10 +193154,6 @@ extension on _StringsIt {
         return 'Nessun dispositivo trovato';
       case 'sync_lan_scan_failed':
         return 'Scansione non riuscita — controlla i permessi di rete o il firewall.';
-      case 'sync_local_audio':
-        return 'Sincronizza audio locale';
-      case 'sync_local_audio_warning':
-        return 'Sincronizza i database delle sorgenti audio locali (possono essere grandi)';
       case 'sync_not_signed_in':
         return 'Non connesso';
       case 'sync_now':
@@ -193956,6 +196834,132 @@ extension on _StringsIt {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -194113,7 +197117,7 @@ extension on _StringsJa {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -197792,10 +200796,6 @@ extension on _StringsJa {
         return '書籍ファイルを同期';
       case 'sync_content_warning':
         return '大きなファイルはストレージと通信量を消費します';
-      case 'sync_dictionary':
-        return '辞書を同期';
-      case 'sync_dictionary_warning':
-        return '辞書パッケージは大きくなることがあり、インポートした辞書リソースを含みます。';
       case 'sync_err_auth_expired':
         return 'サインインの有効期限が切れました — もう一度サインインしてください。';
       case 'sync_err_invalid_client':
@@ -197824,10 +200824,6 @@ extension on _StringsJa {
         return 'デバイスが見つかりません';
       case 'sync_lan_scan_failed':
         return 'スキャンに失敗しました — ネットワーク権限やファイアウォールを確認してください。';
-      case 'sync_local_audio':
-        return 'ローカル音声を同期';
-      case 'sync_local_audio_warning':
-        return 'ローカル音声ソースのデータベースを同期します（容量が大きい場合があります）';
       case 'sync_not_signed_in':
         return '未ログイン';
       case 'sync_now':
@@ -201493,6 +204489,132 @@ extension on _StringsJa {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -201650,7 +204772,7 @@ extension on _StringsKo {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -205332,10 +208454,6 @@ extension on _StringsKo {
         return '책 파일 동기화';
       case 'sync_content_warning':
         return '큰 파일은 저장 공간과 데이터를 사용합니다';
-      case 'sync_dictionary':
-        return '사전 동기화';
-      case 'sync_dictionary_warning':
-        return '사전 패키지는 용량이 클 수 있으며 가져온 사전 리소스를 포함합니다.';
       case 'sync_err_auth_expired':
         return '로그인이 만료되었습니다 — 다시 로그인해 주세요.';
       case 'sync_err_invalid_client':
@@ -205364,10 +208482,6 @@ extension on _StringsKo {
         return '기기를 찾을 수 없음';
       case 'sync_lan_scan_failed':
         return '검색 실패 — 네트워크 권한 또는 방화벽을 확인하세요.';
-      case 'sync_local_audio':
-        return '로컬 오디오 동기화';
-      case 'sync_local_audio_warning':
-        return '로컬 오디오 소스 데이터베이스를 동기화합니다(용량이 클 수 있음)';
       case 'sync_not_signed_in':
         return '로그인되지 않음';
       case 'sync_now':
@@ -209034,6 +212148,132 @@ extension on _StringsKo {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -209191,7 +212431,7 @@ extension on _StringsNl {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -212892,10 +216132,6 @@ extension on _StringsNl {
         return 'Boekbestanden synchroniseren';
       case 'sync_content_warning':
         return 'Grote bestanden gebruiken opslagruimte en data';
-      case 'sync_dictionary':
-        return 'Woordenboeken synchroniseren';
-      case 'sync_dictionary_warning':
-        return 'Woordenboekpakketten kunnen groot zijn en geïmporteerde woordenboekbronnen bevatten.';
       case 'sync_err_auth_expired':
         return 'Aanmelding verlopen — meld je opnieuw aan.';
       case 'sync_err_invalid_client':
@@ -212924,10 +216160,6 @@ extension on _StringsNl {
         return 'Geen apparaten gevonden';
       case 'sync_lan_scan_failed':
         return 'Scannen mislukt — controleer netwerkrechten of firewall.';
-      case 'sync_local_audio':
-        return 'Lokale audio synchroniseren';
-      case 'sync_local_audio_warning':
-        return 'Synchroniseert databases van lokale audiobronnen (kan groot zijn)';
       case 'sync_not_signed_in':
         return 'Niet aangemeld';
       case 'sync_now':
@@ -216603,6 +219835,132 @@ extension on _StringsNl {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -216760,7 +220118,7 @@ extension on _StringsPtBr {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -220459,10 +223817,6 @@ extension on _StringsPtBr {
         return 'Sincronizar arquivos de livros';
       case 'sync_content_warning':
         return 'Arquivos grandes usam espaço de armazenamento e dados';
-      case 'sync_dictionary':
-        return 'Sincronizar dicionários';
-      case 'sync_dictionary_warning':
-        return 'Os pacotes de dicionário podem ser grandes e incluir recursos de dicionários importados.';
       case 'sync_err_auth_expired':
         return 'Sessão expirada — faça login novamente.';
       case 'sync_err_invalid_client':
@@ -220492,10 +223846,6 @@ extension on _StringsPtBr {
         return 'Nenhum dispositivo encontrado';
       case 'sync_lan_scan_failed':
         return 'Falha na busca — verifique as permissões de rede ou o firewall.';
-      case 'sync_local_audio':
-        return 'Sincronizar áudio local';
-      case 'sync_local_audio_warning':
-        return 'Sincroniza os bancos de dados de áudio local (podem ser grandes)';
       case 'sync_not_signed_in':
         return 'Não conectado';
       case 'sync_now':
@@ -224169,6 +227519,132 @@ extension on _StringsPtBr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -224326,7 +227802,7 @@ extension on _StringsRu {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -228029,10 +231505,6 @@ extension on _StringsRu {
         return 'Синхронизировать файлы книг';
       case 'sync_content_warning':
         return 'Большие файлы займут место в хранилище и трафик';
-      case 'sync_dictionary':
-        return 'Синхронизировать словари';
-      case 'sync_dictionary_warning':
-        return 'Пакеты словарей могут быть большими и включать импортированные ресурсы словарей.';
       case 'sync_err_auth_expired':
         return 'Сессия истекла — войдите снова.';
       case 'sync_err_invalid_client':
@@ -228062,10 +231534,6 @@ extension on _StringsRu {
         return 'Устройства не найдены';
       case 'sync_lan_scan_failed':
         return 'Сканирование не удалось — проверьте разрешения сети или брандмауэр.';
-      case 'sync_local_audio':
-        return 'Синхронизировать локальное аудио';
-      case 'sync_local_audio_warning':
-        return 'Синхронизирует базы локальных аудиоисточников (могут быть большими)';
       case 'sync_not_signed_in':
         return 'Не авторизован';
       case 'sync_now':
@@ -231740,6 +235208,132 @@ extension on _StringsRu {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -231897,7 +235491,7 @@ extension on _StringsTh {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -235587,10 +239181,6 @@ extension on _StringsTh {
         return 'ซิงค์ไฟล์หนังสือ';
       case 'sync_content_warning':
         return 'ไฟล์ขนาดใหญ่จะใช้พื้นที่จัดเก็บและปริมาณข้อมูล';
-      case 'sync_dictionary':
-        return 'ซิงค์พจนานุกรม';
-      case 'sync_dictionary_warning':
-        return 'แพ็กเกจพจนานุกรมอาจมีขนาดใหญ่และรวมทรัพยากรพจนานุกรมที่นำเข้ามา';
       case 'sync_err_auth_expired':
         return 'การลงชื่อเข้าใช้หมดอายุ — โปรดลงชื่อเข้าใช้อีกครั้ง';
       case 'sync_err_invalid_client':
@@ -235619,10 +239209,6 @@ extension on _StringsTh {
         return 'ไม่พบอุปกรณ์';
       case 'sync_lan_scan_failed':
         return 'สแกนไม่สำเร็จ — ตรวจสอบสิทธิ์เครือข่ายหรือไฟร์วอลล์';
-      case 'sync_local_audio':
-        return 'ซิงค์เสียงในเครื่อง';
-      case 'sync_local_audio_warning':
-        return 'ซิงค์ฐานข้อมูลแหล่งเสียงในเครื่อง (อาจมีขนาดใหญ่)';
       case 'sync_not_signed_in':
         return 'ยังไม่ได้เข้าสู่ระบบ';
       case 'sync_now':
@@ -239294,6 +242880,132 @@ extension on _StringsTh {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -239451,7 +243163,7 @@ extension on _StringsTr {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -243146,10 +246858,6 @@ extension on _StringsTr {
         return 'Kitap dosyalarını eşitle';
       case 'sync_content_warning':
         return 'Büyük dosyalar depolama alanı ve veri kullanır';
-      case 'sync_dictionary':
-        return 'Sözlükleri eşitle';
-      case 'sync_dictionary_warning':
-        return 'Sözlük paketleri büyük olabilir ve içe aktarılan sözlük kaynaklarını içerebilir.';
       case 'sync_err_auth_expired':
         return 'Oturum süresi doldu — lütfen tekrar oturum açın.';
       case 'sync_err_invalid_client':
@@ -243179,10 +246887,6 @@ extension on _StringsTr {
         return 'Cihaz bulunamadı';
       case 'sync_lan_scan_failed':
         return 'Tarama başarısız — ağ izinlerini veya güvenlik duvarını kontrol edin.';
-      case 'sync_local_audio':
-        return 'Yerel sesi eşitle';
-      case 'sync_local_audio_warning':
-        return 'Yerel ses kaynağı veritabanlarını eşitler (büyük olabilir)';
       case 'sync_not_signed_in':
         return 'Oturum açılmadı';
       case 'sync_now':
@@ -246857,6 +250561,132 @@ extension on _StringsTr {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -247014,7 +250844,7 @@ extension on _StringsVi {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -250708,10 +254538,6 @@ extension on _StringsVi {
         return 'Đồng bộ tệp sách';
       case 'sync_content_warning':
         return 'Tệp lớn sẽ tốn dung lượng lưu trữ và dữ liệu mạng';
-      case 'sync_dictionary':
-        return 'Đồng bộ từ điển';
-      case 'sync_dictionary_warning':
-        return 'Gói từ điển có thể lớn và bao gồm các tài nguyên từ điển đã nhập.';
       case 'sync_err_auth_expired':
         return 'Phiên đăng nhập đã hết hạn — vui lòng đăng nhập lại.';
       case 'sync_err_invalid_client':
@@ -250740,10 +254566,6 @@ extension on _StringsVi {
         return 'Không tìm thấy thiết bị';
       case 'sync_lan_scan_failed':
         return 'Quét thất bại — kiểm tra quyền mạng hoặc tường lửa.';
-      case 'sync_local_audio':
-        return 'Đồng bộ âm thanh cục bộ';
-      case 'sync_local_audio_warning':
-        return 'Đồng bộ cơ sở dữ liệu nguồn âm thanh cục bộ (có thể lớn)';
       case 'sync_not_signed_in':
         return 'Chưa đăng nhập';
       case 'sync_now':
@@ -254416,6 +258238,132 @@ extension on _StringsVi {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
@@ -254570,7 +258518,7 @@ extension on _StringsZhCn {
       case 'anime_download_search_hint':
         return '番剧名';
       case 'anime_download_search_start_hint':
-        return '在上方搜索番剧名，自动匹配种子与字幕。';
+        return '在上方搜索作品名，自动匹配种子与字幕。下载不限视频：书籍、漫画、有声书、游戏也会自动入库。';
       case 'anime_download_sort_date':
         return '发布时间';
       case 'anime_download_sort_seeders':
@@ -258237,10 +262185,6 @@ extension on _StringsZhCn {
         return '上传书籍文件';
       case 'sync_content_warning':
         return '大文件会消耗存储空间和流量';
-      case 'sync_dictionary':
-        return '同步词典';
-      case 'sync_dictionary_warning':
-        return '词典包可能很大，并包含已导入的词典资源。';
       case 'sync_err_auth_expired':
         return '登录已过期，请重新登录。';
       case 'sync_err_invalid_client':
@@ -258269,10 +262213,6 @@ extension on _StringsZhCn {
         return '未发现设备';
       case 'sync_lan_scan_failed':
         return '扫描失败——请检查网络权限或防火墙。';
-      case 'sync_local_audio':
-        return '同步本地音频';
-      case 'sync_local_audio_warning':
-        return '同步本地音频来源数据库（可能较大）';
       case 'sync_not_signed_in':
         return '未登录';
       case 'sync_now':
@@ -261916,6 +265856,132 @@ extension on _StringsZhCn {
         return '已把文件夹添加为来源并开始扫描';
       case 'drag_drop_folder_source_exists':
         return '该文件夹已经是来源了';
+      case 'sync_pair_invalid_url':
+        return '地址格式无效';
+      case 'sync_pair_peer_requires_https':
+        return '该设备只接受 HTTPS，请改用 https:// 开头的地址。';
+      case 'sync_pair_peer_not_https':
+        return '对端在该端口未启用 HTTPS，请改用 http:// 开头的地址。';
+      case 'sync_pair_not_fushi_discovered':
+        return '此地址未找到 Fushi 设备。';
+      case 'shortcut_action_popup_play_audio':
+        return '播放单词发音';
+      case 'sync_progress_asset_transfer':
+        return '准备传输';
+      case 'sync_asset_dictionary_upload':
+        return '上传词典';
+      case 'sync_asset_dictionary_download':
+        return '下载词典';
+      case 'sync_asset_local_audio_upload':
+        return '上传本地音频数据库';
+      case 'sync_asset_local_audio_download':
+        return '下载本地音频数据库';
+      case 'sync_asset_upload_hint':
+        return '把本机有、远端没有的推送过去。包可能很大。';
+      case 'sync_asset_upload_action':
+        return '上传';
+      case 'sync_asset_download_action':
+        return '下载';
+      case 'sync_asset_download_hint':
+        return '把远端有、本机没有的取回来（含你在本机删掉过的）。';
+      case 'sync_asset_legacy_notice_title':
+        return '词典与本地音频改为手动传输';
+      case 'sync_asset_legacy_notice_body':
+        return '这台设备原先开着词典与本地音频数据库的自动同步。该开关已移除——需要传输时请用下面的上传 / 下载。已有数据不受影响，但新导入的词典不会再自动备份。';
+      case 'sync_asset_legacy_notice_dismiss':
+        return '知道了';
+      case 'download_task_add':
+        return '添加任务';
+      case 'download_task_add_pick_torrent':
+        return '选择种子文件';
+      case 'download_task_add_title_label':
+        return '标题';
+      case 'download_task_add_content_kind':
+        return '内容类型';
+      case 'download_task_add_invalid':
+        return '无法识别的磁力链接或种子文件';
+      case 'download_task_add_submitted':
+        return '已添加任务';
+      case 'download_task_search_hint':
+        return '搜索任务';
+      case 'download_task_sort_created':
+        return '添加时间';
+      case 'download_task_sort_progress':
+        return '进度';
+      case 'download_task_sort_status':
+        return '状态';
+      case 'download_task_no_match':
+        return '没有匹配的任务';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '共 ${n} 集';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} 个未编号';
+      case 'subtitle_version_ai_translated':
+        return '机翻';
+      case 'subtitle_version_content_language':
+        return '正文';
+      case 'subtitle_version_show_files':
+        return '展开文件';
+      case 'subtitle_version_view_files':
+        return '文件视图';
+      case 'resource_version_batch':
+        return '合集';
+      case 'resource_version_view_flat':
+        return '全部条目';
+      case 'subscription_mode_one_shot':
+        return '单次';
+      case 'subscription_mode_ongoing':
+        return '追更';
+      case 'subscription_legacy_badge':
+        return '旧版订阅';
+      case 'subscription_legacy_hint':
+        return '由旧版本导入，不参与自动检查。';
+      case 'subscription_next_check':
+        return ({required Object time}) => '下次检查：${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => '最近命中：${time}';
+      case 'subscription_item_status_discovered':
+        return '待处理';
+      case 'subscription_item_status_queued':
+        return '排队中';
+      case 'subscription_item_status_processed':
+        return '已入库';
+      case 'subscription_item_status_skipped':
+        return '已跳过';
+      case 'subscription_item_status_failed':
+        return '失败';
+      case 'subscription_items_empty':
+        return '还没有跟踪到任何发布';
+      case 'subscription_edit_title':
+        return '编辑订阅';
+      case 'subscription_edit_rule_hint':
+        return '来源身份与版本规则不可在此修改；要换版本请重新订阅（历史保留）。';
+      case 'subscription_search_hint':
+        return '搜索订阅';
+      case 'subscription_sort_last_checked':
+        return '最近检查';
+      case 'subscription_sort_last_matched':
+        return '最近命中';
+      case 'subscription_show_items':
+        return '逐集状态';
+      case 'subscription_sort_created':
+        return '添加时间';
+      case 'subscription_no_match':
+        return '没有匹配的订阅';
+      case 'download_subscription_start_episode_invalid':
+        return '请填 0 或更大的整数，留空表示不限';
+      case 'download_subscription_source_unavailable':
+        return '当前目标库（当前不可用）';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '共 ${n} 集';
+      case 'resource_version_show_files':
+        return '显示文件';
+      case 'manga_online_detail_load_failed':
+        return '无法载入这部漫画。';
+      case 'manga_online_error_view_detail':
+        return '查看详情';
+      case 'discovery_sources_unavailable':
+        return '全部来源都不可用';
       case 'font_target_game_lookup':
         return '游戏查词窗口字体';
       case 'gal_hook_text_font':
@@ -262073,7 +266139,7 @@ extension on _StringsZhHk {
       case 'anime_download_search_hint':
         return 'Anime title';
       case 'anime_download_search_start_hint':
-        return 'Search an anime title above — torrents and subtitles are matched automatically.';
+        return 'Search a title above - torrents and subtitles are matched automatically. Downloads are not limited to video: books, manga, audiobooks and games are imported too.';
       case 'anime_download_sort_date':
         return 'Published';
       case 'anime_download_sort_seeders':
@@ -265750,10 +269816,6 @@ extension on _StringsZhHk {
         return '上傳書籍文件';
       case 'sync_content_warning':
         return '大檔案會佔用儲存空間及數據';
-      case 'sync_dictionary':
-        return '同步詞典';
-      case 'sync_dictionary_warning':
-        return '詞典包可能很大，並包含已匯入的詞典資源。';
       case 'sync_err_auth_expired':
         return '登入已過期，請重新登入。';
       case 'sync_err_invalid_client':
@@ -265782,10 +269844,6 @@ extension on _StringsZhHk {
         return '找不到裝置';
       case 'sync_lan_scan_failed':
         return '掃描失敗——請檢查網絡權限或防火牆。';
-      case 'sync_local_audio':
-        return '同步本機音訊';
-      case 'sync_local_audio_warning':
-        return '同步本機音訊來源資料庫（可能較大）';
       case 'sync_not_signed_in':
         return '未登入';
       case 'sync_now':
@@ -269448,6 +273506,132 @@ extension on _StringsZhHk {
         return 'Folder added as a library source and scanned.';
       case 'drag_drop_folder_source_exists':
         return 'That folder is already a library source.';
+      case 'sync_pair_invalid_url':
+        return 'Invalid address format';
+      case 'sync_pair_peer_requires_https':
+        return 'This device only accepts HTTPS. Use an https:// address.';
+      case 'sync_pair_peer_not_https':
+        return 'The peer isn\'t using HTTPS on this port. Use an http:// address.';
+      case 'sync_pair_not_fushi_discovered':
+        return 'No Fushi device found at this address.';
+      case 'shortcut_action_popup_play_audio':
+        return 'Play word audio';
+      case 'sync_progress_asset_transfer':
+        return 'Preparing transfer';
+      case 'sync_asset_dictionary_upload':
+        return 'Upload dictionaries';
+      case 'sync_asset_dictionary_download':
+        return 'Download dictionaries';
+      case 'sync_asset_local_audio_upload':
+        return 'Upload local audio databases';
+      case 'sync_asset_local_audio_download':
+        return 'Download local audio databases';
+      case 'sync_asset_upload_hint':
+        return 'Sends what this device has and the remote does not. Packages can be large.';
+      case 'sync_asset_upload_action':
+        return 'Upload';
+      case 'sync_asset_download_action':
+        return 'Download';
+      case 'sync_asset_download_hint':
+        return 'Fetches what the remote has and this device does not - including entries you deleted locally.';
+      case 'sync_asset_legacy_notice_title':
+        return 'Dictionary and audio sync is now manual';
+      case 'sync_asset_legacy_notice_body':
+        return 'This device had automatic syncing on for dictionaries and local audio databases. That switch is gone - use the Upload / Download actions below when you want to transfer them. Nothing was deleted, but new dictionaries are no longer backed up automatically.';
+      case 'sync_asset_legacy_notice_dismiss':
+        return 'Got it';
+      case 'download_task_add':
+        return 'Add task';
+      case 'download_task_add_pick_torrent':
+        return 'Choose torrent file';
+      case 'download_task_add_title_label':
+        return 'Title';
+      case 'download_task_add_content_kind':
+        return 'Content type';
+      case 'download_task_add_invalid':
+        return 'Unrecognized magnet link or torrent file';
+      case 'download_task_add_submitted':
+        return 'Task added';
+      case 'download_task_search_hint':
+        return 'Search tasks';
+      case 'download_task_sort_created':
+        return 'Date added';
+      case 'download_task_sort_progress':
+        return 'Progress';
+      case 'download_task_sort_status':
+        return 'Status';
+      case 'download_task_no_match':
+        return 'No matching tasks';
+      case 'subtitle_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'subtitle_version_unnumbered_count':
+        return ({required Object n}) => '${n} unnumbered';
+      case 'subtitle_version_ai_translated':
+        return 'AI translated';
+      case 'subtitle_version_content_language':
+        return 'Content';
+      case 'subtitle_version_show_files':
+        return 'Show files';
+      case 'subtitle_version_view_files':
+        return 'File list';
+      case 'resource_version_batch':
+        return 'Batch';
+      case 'resource_version_view_flat':
+        return 'All releases';
+      case 'subscription_mode_one_shot':
+        return 'One-shot';
+      case 'subscription_mode_ongoing':
+        return 'Ongoing';
+      case 'subscription_legacy_badge':
+        return 'Legacy';
+      case 'subscription_legacy_hint':
+        return 'Imported from the legacy system; automatic checks do not apply.';
+      case 'subscription_next_check':
+        return ({required Object time}) => 'Next check: ${time}';
+      case 'subscription_last_matched':
+        return ({required Object time}) => 'Last match: ${time}';
+      case 'subscription_item_status_discovered':
+        return 'Pending';
+      case 'subscription_item_status_queued':
+        return 'Queued';
+      case 'subscription_item_status_processed':
+        return 'Imported';
+      case 'subscription_item_status_skipped':
+        return 'Skipped';
+      case 'subscription_item_status_failed':
+        return 'Failed';
+      case 'subscription_items_empty':
+        return 'No releases tracked yet';
+      case 'subscription_edit_title':
+        return 'Edit subscription';
+      case 'subscription_edit_rule_hint':
+        return 'Identity and version rules cannot be changed here. Re-subscribe to switch versions - history is kept.';
+      case 'subscription_search_hint':
+        return 'Search subscriptions';
+      case 'subscription_sort_last_checked':
+        return 'Last checked';
+      case 'subscription_sort_last_matched':
+        return 'Last match';
+      case 'subscription_show_items':
+        return 'Episode history';
+      case 'subscription_sort_created':
+        return 'Date added';
+      case 'subscription_no_match':
+        return 'No matching subscriptions';
+      case 'download_subscription_start_episode_invalid':
+        return 'Enter a whole number (0 or greater), or leave blank';
+      case 'download_subscription_source_unavailable':
+        return 'Current target (unavailable)';
+      case 'resource_version_episode_count':
+        return ({required Object n}) => '${n} episodes';
+      case 'resource_version_show_files':
+        return 'Show files';
+      case 'manga_online_detail_load_failed':
+        return 'Could not load this manga.';
+      case 'manga_online_error_view_detail':
+        return 'View details';
+      case 'discovery_sources_unavailable':
+        return 'All sources are unavailable';
       case 'font_target_game_lookup':
         return 'Game lookup window font';
       case 'gal_hook_text_font':
