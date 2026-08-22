@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63563 (3739 per locale)
+/// Strings: 63546 (3738 per locale)
 ///
-/// Built on 2026-08-22 at 09:02 UTC
+/// Built on 2026-08-22 at 09:26 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4859,7 +4859,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_control_custom_action_none => 'Not assigned';
   String get settings_destination_storage => 'Storage';
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   String get storage_overview_section => 'Disk usage';
   String get storage_overview_total => 'Total';
   String get storage_overview_refresh => 'Rescan';
@@ -4886,13 +4886,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get storage_entry_delete_done => 'Deleted';
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
-  String get storage_modules_section => 'Optional modules';
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   String get storage_modules_anime4k_hint =>
       'Can be downloaded again anytime in video settings';
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  String get storage_modules_not_installed => 'Not installed';
   String get storage_bundled_section => 'Bundled components';
   String get storage_bundled_hint =>
       'Shipped with the installer; deleted files come back on the next update, listed for reference only.';
@@ -5076,6 +5074,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get gal_hook_text_corner_radius => 'Window corner radius';
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -13366,7 +13365,7 @@ class _StringsAr extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -13415,8 +13414,6 @@ class _StringsAr extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -13424,8 +13421,6 @@ class _StringsAr extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -13742,6 +13737,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -22097,7 +22094,7 @@ class _StringsDe extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -22146,8 +22143,6 @@ class _StringsDe extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -22155,8 +22150,6 @@ class _StringsDe extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -22473,6 +22466,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -30844,7 +30839,7 @@ class _StringsEs extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -30893,8 +30888,6 @@ class _StringsEs extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -30902,8 +30895,6 @@ class _StringsEs extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -31220,6 +31211,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -39603,7 +39596,7 @@ class _StringsFr extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -39652,8 +39645,6 @@ class _StringsFr extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -39661,8 +39652,6 @@ class _StringsFr extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -39979,6 +39968,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -48292,7 +48283,7 @@ class _StringsId extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -48341,8 +48332,6 @@ class _StringsId extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -48350,8 +48339,6 @@ class _StringsId extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -48668,6 +48655,8 @@ class _StringsId extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -57025,7 +57014,7 @@ class _StringsIt extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -57074,8 +57063,6 @@ class _StringsIt extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -57083,8 +57070,6 @@ class _StringsIt extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -57401,6 +57386,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -65575,7 +65562,7 @@ class _StringsJa extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -65624,8 +65611,6 @@ class _StringsJa extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -65633,8 +65618,6 @@ class _StringsJa extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -65951,6 +65934,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -74133,7 +74118,7 @@ class _StringsKo extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -74182,8 +74167,6 @@ class _StringsKo extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -74191,8 +74174,6 @@ class _StringsKo extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -74509,6 +74490,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -82846,7 +82829,7 @@ class _StringsNl extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -82895,8 +82878,6 @@ class _StringsNl extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -82904,8 +82885,6 @@ class _StringsNl extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -83222,6 +83201,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -91571,7 +91552,7 @@ class _StringsPtBr extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -91620,8 +91601,6 @@ class _StringsPtBr extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -91629,8 +91608,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -91947,6 +91924,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -100283,7 +100262,7 @@ class _StringsRu extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -100332,8 +100311,6 @@ class _StringsRu extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -100341,8 +100318,6 @@ class _StringsRu extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -100659,6 +100634,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -108943,7 +108920,7 @@ class _StringsTh extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -108992,8 +108969,6 @@ class _StringsTh extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -109001,8 +108976,6 @@ class _StringsTh extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -109319,6 +109292,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -117634,7 +117609,7 @@ class _StringsTr extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -117683,8 +117658,6 @@ class _StringsTr extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -117692,8 +117665,6 @@ class _StringsTr extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -118010,6 +117981,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -126311,7 +126284,7 @@ class _StringsVi extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -126360,8 +126333,6 @@ class _StringsVi extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -126369,8 +126340,6 @@ class _StringsVi extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -126687,6 +126656,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 // Path: <root>
@@ -134371,7 +134342,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get settings_destination_storage => '存储';
   @override
-  String get settings_destination_storage_summary => '磁盘占用与可清理模块';
+  String get settings_destination_storage_summary => '数据位置与磁盘占用';
   @override
   String get storage_overview_section => '磁盘占用';
   @override
@@ -134419,16 +134390,12 @@ class _StringsZhCn extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       '删除失败：${reason}';
   @override
-  String get storage_modules_section => '可选模块';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K 着色器';
   @override
   String get storage_modules_anime4k_hint => '可随时在视频设置的画质增强里重新下载';
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       '已删除 ${n} 个着色器文件';
-  @override
-  String get storage_modules_not_installed => '未安装';
   @override
   String get storage_bundled_section => '随包组件';
   @override
@@ -134706,6 +134673,8 @@ class _StringsZhCn extends _StringsEn {
   String get gal_hook_text_corner_radius => '窗口圆角';
   @override
   String get gal_hook_text_corner_radius_hint => '调整窗口背景的圆角半径。';
+  @override
+  String get storage_shaders_delete_anime4k => '删除 Anime4K 着色器';
 }
 
 // Path: <root>
@@ -142805,7 +142774,7 @@ class _StringsZhHk extends _StringsEn {
   String get settings_destination_storage => 'Storage';
   @override
   String get settings_destination_storage_summary =>
-      'Disk usage and reclaimable modules';
+      'Data location and disk usage';
   @override
   String get storage_overview_section => 'Disk usage';
   @override
@@ -142854,8 +142823,6 @@ class _StringsZhHk extends _StringsEn {
   String storage_entry_delete_failed({required Object reason}) =>
       'Delete failed: ${reason}';
   @override
-  String get storage_modules_section => 'Optional modules';
-  @override
   String get storage_modules_anime4k_title => 'Anime4K shaders';
   @override
   String get storage_modules_anime4k_hint =>
@@ -142863,8 +142830,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String storage_modules_anime4k_delete_done({required Object n}) =>
       'Deleted ${n} shader files';
-  @override
-  String get storage_modules_not_installed => 'Not installed';
   @override
   String get storage_bundled_section => 'Bundled components';
   @override
@@ -143181,6 +143146,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
+  @override
+  String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
 }
 
 /// Flat map(s) containing all translations.
@@ -150530,7 +150497,7 @@ extension on _StringsEn {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -150574,16 +150541,12 @@ extension on _StringsEn {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -150851,6 +150814,8 @@ extension on _StringsEn {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -158198,7 +158163,7 @@ extension on _StringsAr {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -158242,16 +158207,12 @@ extension on _StringsAr {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -158519,6 +158480,8 @@ extension on _StringsAr {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -165888,7 +165851,7 @@ extension on _StringsDe {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -165932,16 +165895,12 @@ extension on _StringsDe {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -166209,6 +166168,8 @@ extension on _StringsDe {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -173577,7 +173538,7 @@ extension on _StringsEs {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -173621,16 +173582,12 @@ extension on _StringsEs {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -173898,6 +173855,8 @@ extension on _StringsEs {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -181272,7 +181231,7 @@ extension on _StringsFr {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -181316,16 +181275,12 @@ extension on _StringsFr {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -181593,6 +181548,8 @@ extension on _StringsFr {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -188949,7 +188906,7 @@ extension on _StringsId {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -188993,16 +188950,12 @@ extension on _StringsId {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -189270,6 +189223,8 @@ extension on _StringsId {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -196640,7 +196595,7 @@ extension on _StringsIt {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -196684,16 +196639,12 @@ extension on _StringsIt {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -196961,6 +196912,8 @@ extension on _StringsIt {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -204293,7 +204246,7 @@ extension on _StringsJa {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -204337,16 +204290,12 @@ extension on _StringsJa {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -204614,6 +204563,8 @@ extension on _StringsJa {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -211950,7 +211901,7 @@ extension on _StringsKo {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -211994,16 +211945,12 @@ extension on _StringsKo {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -212271,6 +212218,8 @@ extension on _StringsKo {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -219635,7 +219584,7 @@ extension on _StringsNl {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -219679,16 +219628,12 @@ extension on _StringsNl {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -219956,6 +219901,8 @@ extension on _StringsNl {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -227317,7 +227264,7 @@ extension on _StringsPtBr {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -227361,16 +227308,12 @@ extension on _StringsPtBr {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -227638,6 +227581,8 @@ extension on _StringsPtBr {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -235004,7 +234949,7 @@ extension on _StringsRu {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -235048,16 +234993,12 @@ extension on _StringsRu {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -235325,6 +235266,8 @@ extension on _StringsRu {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -242674,7 +242617,7 @@ extension on _StringsTh {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -242718,16 +242661,12 @@ extension on _StringsTh {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -242995,6 +242934,8 @@ extension on _StringsTh {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -250353,7 +250294,7 @@ extension on _StringsTr {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -250397,16 +250338,12 @@ extension on _StringsTr {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -250674,6 +250611,8 @@ extension on _StringsTr {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -258028,7 +257967,7 @@ extension on _StringsVi {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -258072,16 +258011,12 @@ extension on _StringsVi {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -258349,6 +258284,8 @@ extension on _StringsVi {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
@@ -265644,7 +265581,7 @@ extension on _StringsZhCn {
       case 'settings_destination_storage':
         return '存储';
       case 'settings_destination_storage_summary':
-        return '磁盘占用与可清理模块';
+        return '数据位置与磁盘占用';
       case 'storage_overview_section':
         return '磁盘占用';
       case 'storage_overview_total':
@@ -265688,16 +265625,12 @@ extension on _StringsZhCn {
         return '已删除';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => '删除失败：${reason}';
-      case 'storage_modules_section':
-        return '可选模块';
       case 'storage_modules_anime4k_title':
         return 'Anime4K 着色器';
       case 'storage_modules_anime4k_hint':
         return '可随时在视频设置的画质增强里重新下载';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => '已删除 ${n} 个着色器文件';
-      case 'storage_modules_not_installed':
-        return '未安装';
       case 'storage_bundled_section':
         return '随包组件';
       case 'storage_bundled_hint':
@@ -265965,6 +265898,8 @@ extension on _StringsZhCn {
         return '窗口圆角';
       case 'gal_hook_text_corner_radius_hint':
         return '调整窗口背景的圆角半径。';
+      case 'storage_shaders_delete_anime4k':
+        return '删除 Anime4K 着色器';
       default:
         return null;
     }
@@ -273292,7 +273227,7 @@ extension on _StringsZhHk {
       case 'settings_destination_storage':
         return 'Storage';
       case 'settings_destination_storage_summary':
-        return 'Disk usage and reclaimable modules';
+        return 'Data location and disk usage';
       case 'storage_overview_section':
         return 'Disk usage';
       case 'storage_overview_total':
@@ -273336,16 +273271,12 @@ extension on _StringsZhHk {
         return 'Deleted';
       case 'storage_entry_delete_failed':
         return ({required Object reason}) => 'Delete failed: ${reason}';
-      case 'storage_modules_section':
-        return 'Optional modules';
       case 'storage_modules_anime4k_title':
         return 'Anime4K shaders';
       case 'storage_modules_anime4k_hint':
         return 'Can be downloaded again anytime in video settings';
       case 'storage_modules_anime4k_delete_done':
         return ({required Object n}) => 'Deleted ${n} shader files';
-      case 'storage_modules_not_installed':
-        return 'Not installed';
       case 'storage_bundled_section':
         return 'Bundled components';
       case 'storage_bundled_hint':
@@ -273613,6 +273544,8 @@ extension on _StringsZhHk {
         return 'Window corner radius';
       case 'gal_hook_text_corner_radius_hint':
         return 'Adjust the background corner radius.';
+      case 'storage_shaders_delete_anime4k':
+        return 'Delete Anime4K shaders';
       default:
         return null;
     }
