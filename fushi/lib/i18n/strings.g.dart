@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63155 (3715 per locale)
+/// Strings: 63563 (3739 per locale)
 ///
-/// Built on 2026-08-22 at 05:47 UTC
+/// Built on 2026-08-22 at 09:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5044,6 +5044,38 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_online_detail_load_failed => 'Could not load this manga.';
   String get manga_online_error_view_detail => 'View details';
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  String get font_target_game_lookup => 'Game lookup window font';
+  String get gal_hook_text_font => 'Game lookup window font';
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  String get gal_hook_text_line_height => 'Line height';
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  String get gal_hook_text_bold => 'Bold text';
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  String get gal_hook_text_alignment => 'Text alignment';
+  String get gal_hook_text_alignment_center => 'Center';
+  String get gal_hook_text_alignment_left => 'Left';
+  String get gal_hook_text_color => 'Text color';
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  String get gal_hook_text_background_color => 'Window background color';
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  String get gal_hook_text_outline_color => 'Outline color';
+  String get gal_hook_text_outline_width => 'Outline width';
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -13654,6 +13686,62 @@ class _StringsAr extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -22329,6 +22417,62 @@ class _StringsDe extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -31020,6 +31164,62 @@ class _StringsEs extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -39723,6 +39923,62 @@ class _StringsFr extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -48356,6 +48612,62 @@ class _StringsId extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -57033,6 +57345,62 @@ class _StringsIt extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -65527,6 +65895,62 @@ class _StringsJa extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -74029,6 +74453,62 @@ class _StringsKo extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -82686,6 +83166,62 @@ class _StringsNl extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -91355,6 +91891,62 @@ class _StringsPtBr extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -100011,6 +100603,62 @@ class _StringsRu extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -108615,6 +109263,62 @@ class _StringsTh extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -117250,6 +117954,62 @@ class _StringsTr extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -125871,6 +126631,62 @@ class _StringsVi extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 // Path: <root>
@@ -133842,6 +134658,54 @@ class _StringsZhCn extends _StringsEn {
   String get manga_online_error_view_detail => '查看详情';
   @override
   String get discovery_sources_unavailable => '全部来源都不可用';
+  @override
+  String get font_target_game_lookup => '游戏查词窗口字体';
+  @override
+  String get gal_hook_text_font => '游戏查词窗口字体';
+  @override
+  String get gal_hook_text_font_hint => '从管理字体库中选择，按顺序使用第一个启用的字体。';
+  @override
+  String get gal_hook_text_letter_spacing => '字间距';
+  @override
+  String get gal_hook_text_letter_spacing_hint => '调整字符之间的距离，不影响点字查词命中。';
+  @override
+  String get gal_hook_text_line_height => '行高';
+  @override
+  String get gal_hook_text_line_height_hint => '调整换行文本的垂直间距。';
+  @override
+  String get gal_hook_text_bold => '粗体文字';
+  @override
+  String get gal_hook_text_bold_hint => '使用半粗体，提高文字在游戏画面上的可读性。';
+  @override
+  String get gal_hook_text_alignment => '文字对齐';
+  @override
+  String get gal_hook_text_alignment_center => '居中';
+  @override
+  String get gal_hook_text_alignment_left => '左对齐';
+  @override
+  String get gal_hook_text_color => '文字颜色';
+  @override
+  String get gal_hook_overlay_legibility_section => '窗口与可读性';
+  @override
+  String get gal_hook_text_background_color => '窗口背景颜色';
+  @override
+  String get gal_hook_text_background_opacity => '窗口背景透明度';
+  @override
+  String get gal_hook_text_background_opacity_hint => '设为 0% 可得到桌面歌词式透明窗口。';
+  @override
+  String get gal_hook_text_outline_color => '描边颜色';
+  @override
+  String get gal_hook_text_outline_width => '描边宽度';
+  @override
+  String get gal_hook_text_outline_width_hint => '设为 0 可关闭描边，轻微投影仍会保留。';
+  @override
+  String get gal_hook_text_padding => '文字左右边距';
+  @override
+  String get gal_hook_text_padding_hint => '让文字与窗口边缘和缩放手柄保持距离。';
+  @override
+  String get gal_hook_text_corner_radius => '窗口圆角';
+  @override
+  String get gal_hook_text_corner_radius_hint => '调整窗口背景的圆角半径。';
 }
 
 // Path: <root>
@@ -142261,6 +143125,62 @@ class _StringsZhHk extends _StringsEn {
   String get manga_online_error_view_detail => 'View details';
   @override
   String get discovery_sources_unavailable => 'All sources are unavailable';
+  @override
+  String get font_target_game_lookup => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font => 'Game lookup window font';
+  @override
+  String get gal_hook_text_font_hint =>
+      'Choose fonts from the managed font library. The first enabled font is used.';
+  @override
+  String get gal_hook_text_letter_spacing => 'Letter spacing';
+  @override
+  String get gal_hook_text_letter_spacing_hint =>
+      'Adjust spacing between characters without changing lookup hit testing.';
+  @override
+  String get gal_hook_text_line_height => 'Line height';
+  @override
+  String get gal_hook_text_line_height_hint =>
+      'Adjust the vertical spacing of wrapped lines.';
+  @override
+  String get gal_hook_text_bold => 'Bold text';
+  @override
+  String get gal_hook_text_bold_hint =>
+      'Use semibold text for better readability over game graphics.';
+  @override
+  String get gal_hook_text_alignment => 'Text alignment';
+  @override
+  String get gal_hook_text_alignment_center => 'Center';
+  @override
+  String get gal_hook_text_alignment_left => 'Left';
+  @override
+  String get gal_hook_text_color => 'Text color';
+  @override
+  String get gal_hook_overlay_legibility_section => 'Window and readability';
+  @override
+  String get gal_hook_text_background_color => 'Window background color';
+  @override
+  String get gal_hook_text_background_opacity => 'Window background opacity';
+  @override
+  String get gal_hook_text_background_opacity_hint =>
+      'Set to 0% for a desktop-lyrics style transparent window.';
+  @override
+  String get gal_hook_text_outline_color => 'Outline color';
+  @override
+  String get gal_hook_text_outline_width => 'Outline width';
+  @override
+  String get gal_hook_text_outline_width_hint =>
+      'Set to 0 to disable the outline; the subtle shadow remains.';
+  @override
+  String get gal_hook_text_padding => 'Horizontal text padding';
+  @override
+  String get gal_hook_text_padding_hint =>
+      'Keep text away from the window edges and resize grip.';
+  @override
+  String get gal_hook_text_corner_radius => 'Window corner radius';
+  @override
+  String get gal_hook_text_corner_radius_hint =>
+      'Adjust the background corner radius.';
 }
 
 /// Flat map(s) containing all translations.
@@ -149883,6 +150803,54 @@ extension on _StringsEn {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -157503,6 +158471,54 @@ extension on _StringsAr {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -165145,6 +166161,54 @@ extension on _StringsDe {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -172786,6 +173850,54 @@ extension on _StringsEs {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -180433,6 +181545,54 @@ extension on _StringsFr {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -188062,6 +189222,54 @@ extension on _StringsId {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -195705,6 +196913,54 @@ extension on _StringsIt {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -203310,6 +204566,54 @@ extension on _StringsJa {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -210919,6 +212223,54 @@ extension on _StringsKo {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -218556,6 +219908,54 @@ extension on _StringsNl {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -226190,6 +227590,54 @@ extension on _StringsPtBr {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -233829,6 +235277,54 @@ extension on _StringsRu {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -241451,6 +242947,54 @@ extension on _StringsTh {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -249082,6 +250626,54 @@ extension on _StringsTr {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -256709,6 +258301,54 @@ extension on _StringsVi {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
@@ -264277,6 +265917,54 @@ extension on _StringsZhCn {
         return '查看详情';
       case 'discovery_sources_unavailable':
         return '全部来源都不可用';
+      case 'font_target_game_lookup':
+        return '游戏查词窗口字体';
+      case 'gal_hook_text_font':
+        return '游戏查词窗口字体';
+      case 'gal_hook_text_font_hint':
+        return '从管理字体库中选择，按顺序使用第一个启用的字体。';
+      case 'gal_hook_text_letter_spacing':
+        return '字间距';
+      case 'gal_hook_text_letter_spacing_hint':
+        return '调整字符之间的距离，不影响点字查词命中。';
+      case 'gal_hook_text_line_height':
+        return '行高';
+      case 'gal_hook_text_line_height_hint':
+        return '调整换行文本的垂直间距。';
+      case 'gal_hook_text_bold':
+        return '粗体文字';
+      case 'gal_hook_text_bold_hint':
+        return '使用半粗体，提高文字在游戏画面上的可读性。';
+      case 'gal_hook_text_alignment':
+        return '文字对齐';
+      case 'gal_hook_text_alignment_center':
+        return '居中';
+      case 'gal_hook_text_alignment_left':
+        return '左对齐';
+      case 'gal_hook_text_color':
+        return '文字颜色';
+      case 'gal_hook_overlay_legibility_section':
+        return '窗口与可读性';
+      case 'gal_hook_text_background_color':
+        return '窗口背景颜色';
+      case 'gal_hook_text_background_opacity':
+        return '窗口背景透明度';
+      case 'gal_hook_text_background_opacity_hint':
+        return '设为 0% 可得到桌面歌词式透明窗口。';
+      case 'gal_hook_text_outline_color':
+        return '描边颜色';
+      case 'gal_hook_text_outline_width':
+        return '描边宽度';
+      case 'gal_hook_text_outline_width_hint':
+        return '设为 0 可关闭描边，轻微投影仍会保留。';
+      case 'gal_hook_text_padding':
+        return '文字左右边距';
+      case 'gal_hook_text_padding_hint':
+        return '让文字与窗口边缘和缩放手柄保持距离。';
+      case 'gal_hook_text_corner_radius':
+        return '窗口圆角';
+      case 'gal_hook_text_corner_radius_hint':
+        return '调整窗口背景的圆角半径。';
       default:
         return null;
     }
@@ -271877,6 +273565,54 @@ extension on _StringsZhHk {
         return 'View details';
       case 'discovery_sources_unavailable':
         return 'All sources are unavailable';
+      case 'font_target_game_lookup':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font':
+        return 'Game lookup window font';
+      case 'gal_hook_text_font_hint':
+        return 'Choose fonts from the managed font library. The first enabled font is used.';
+      case 'gal_hook_text_letter_spacing':
+        return 'Letter spacing';
+      case 'gal_hook_text_letter_spacing_hint':
+        return 'Adjust spacing between characters without changing lookup hit testing.';
+      case 'gal_hook_text_line_height':
+        return 'Line height';
+      case 'gal_hook_text_line_height_hint':
+        return 'Adjust the vertical spacing of wrapped lines.';
+      case 'gal_hook_text_bold':
+        return 'Bold text';
+      case 'gal_hook_text_bold_hint':
+        return 'Use semibold text for better readability over game graphics.';
+      case 'gal_hook_text_alignment':
+        return 'Text alignment';
+      case 'gal_hook_text_alignment_center':
+        return 'Center';
+      case 'gal_hook_text_alignment_left':
+        return 'Left';
+      case 'gal_hook_text_color':
+        return 'Text color';
+      case 'gal_hook_overlay_legibility_section':
+        return 'Window and readability';
+      case 'gal_hook_text_background_color':
+        return 'Window background color';
+      case 'gal_hook_text_background_opacity':
+        return 'Window background opacity';
+      case 'gal_hook_text_background_opacity_hint':
+        return 'Set to 0% for a desktop-lyrics style transparent window.';
+      case 'gal_hook_text_outline_color':
+        return 'Outline color';
+      case 'gal_hook_text_outline_width':
+        return 'Outline width';
+      case 'gal_hook_text_outline_width_hint':
+        return 'Set to 0 to disable the outline; the subtle shadow remains.';
+      case 'gal_hook_text_padding':
+        return 'Horizontal text padding';
+      case 'gal_hook_text_padding_hint':
+        return 'Keep text away from the window edges and resize grip.';
+      case 'gal_hook_text_corner_radius':
+        return 'Window corner radius';
+      case 'gal_hook_text_corner_radius_hint':
+        return 'Adjust the background corner radius.';
       default:
         return null;
     }
