@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63376 (3728 per locale)
+/// Strings: 63818 (3754 per locale)
 ///
-/// Built on 2026-08-23 at 07:13 UTC
+/// Built on 2026-08-23 at 08:29 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5063,6 +5063,32 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get dict_style_tab_visual => 'Visual';
+  String get dict_style_tab_code => 'CSS';
+  String get dict_style_scope_all => 'All dictionaries';
+  String get dict_style_part_entry_card => 'Entry card';
+  String get dict_style_part_expression => 'Headword';
+  String get dict_style_part_ruby => 'Furigana';
+  String get dict_style_part_expression_tag => 'Word tags';
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  String get dict_style_part_frequency => 'Frequency';
+  String get dict_style_part_pitch => 'Pitch accent';
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  String get dict_style_part_glossary_content => 'Definition';
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  String get dict_style_prop_text_color => 'Text color';
+  String get dict_style_prop_background => 'Highlight';
+  String get dict_style_prop_bold => 'Bold';
+  String get dict_style_prop_italic => 'Italic';
+  String get dict_style_prop_underline => 'Underline';
+  String get dict_style_prop_font_scale => 'Font size';
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  String get dict_style_part_reset => 'Reset part';
+  String get dict_style_reset_all => 'Reset all';
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  String get dict_style_preview_title => 'Preview';
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -13705,6 +13731,58 @@ class _StringsAr extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -22412,6 +22490,58 @@ class _StringsDe extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -31135,6 +31265,58 @@ class _StringsEs extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -39870,6 +40052,58 @@ class _StringsFr extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -48535,6 +48769,58 @@ class _StringsId extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -57244,6 +57530,58 @@ class _StringsIt extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -65770,6 +66108,58 @@ class _StringsJa extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -74304,6 +74694,58 @@ class _StringsKo extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -82993,6 +83435,58 @@ class _StringsNl extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -91694,6 +92188,58 @@ class _StringsPtBr extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -100382,6 +100928,58 @@ class _StringsRu extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -109018,6 +109616,58 @@ class _StringsTh extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -117685,6 +118335,58 @@ class _StringsTr extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -126338,6 +127040,58 @@ class _StringsVi extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 // Path: <root>
@@ -134335,6 +135089,58 @@ class _StringsZhCn extends _StringsEn {
   String get gal_hook_text_corner_radius_hint => '调整窗口背景的圆角半径。';
   @override
   String get storage_shaders_delete_anime4k => '删除 Anime4K 着色器';
+  @override
+  String get dict_style_tab_visual => '可视化';
+  @override
+  String get dict_style_tab_code => '手写 CSS';
+  @override
+  String get dict_style_scope_all => '全部词典';
+  @override
+  String get dict_style_part_entry_card => '词条卡';
+  @override
+  String get dict_style_part_expression => '词头';
+  @override
+  String get dict_style_part_ruby => '振假名';
+  @override
+  String get dict_style_part_expression_tag => '词性标签';
+  @override
+  String get dict_style_part_deinflection_tag => '去屈折链';
+  @override
+  String get dict_style_part_frequency => '频率';
+  @override
+  String get dict_style_part_pitch => '音调';
+  @override
+  String get dict_style_part_dictionary_label => '词典名';
+  @override
+  String get dict_style_part_glossary_content => '释义正文';
+  @override
+  String get dict_style_part_glossary_tag => '释义标签';
+  @override
+  String get dict_style_prop_text_color => '文字颜色';
+  @override
+  String get dict_style_prop_background => '高亮底色';
+  @override
+  String get dict_style_prop_bold => '粗体';
+  @override
+  String get dict_style_prop_italic => '斜体';
+  @override
+  String get dict_style_prop_underline => '下划线';
+  @override
+  String get dict_style_prop_font_scale => '字号';
+  @override
+  String get dict_style_prop_corner_radius => '圆角';
+  @override
+  String get dict_style_part_reset => '重置此部位';
+  @override
+  String get dict_style_reset_all => '全部重置';
+  @override
+  String get dict_style_global_only => '此部位只能对全部词典设置';
+  @override
+  String get dict_style_preview_title => '预览';
+  @override
+  String get dict_style_pick_hint => '点预览里的部位可直接跳过去';
+  @override
+  String get dict_style_prop_default => '默认';
 }
 
 // Path: <root>
@@ -142786,6 +143592,58 @@ class _StringsZhHk extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  @override
+  String get dict_style_tab_visual => 'Visual';
+  @override
+  String get dict_style_tab_code => 'CSS';
+  @override
+  String get dict_style_scope_all => 'All dictionaries';
+  @override
+  String get dict_style_part_entry_card => 'Entry card';
+  @override
+  String get dict_style_part_expression => 'Headword';
+  @override
+  String get dict_style_part_ruby => 'Furigana';
+  @override
+  String get dict_style_part_expression_tag => 'Word tags';
+  @override
+  String get dict_style_part_deinflection_tag => 'Deinflection chain';
+  @override
+  String get dict_style_part_frequency => 'Frequency';
+  @override
+  String get dict_style_part_pitch => 'Pitch accent';
+  @override
+  String get dict_style_part_dictionary_label => 'Dictionary name';
+  @override
+  String get dict_style_part_glossary_content => 'Definition';
+  @override
+  String get dict_style_part_glossary_tag => 'Definition tags';
+  @override
+  String get dict_style_prop_text_color => 'Text color';
+  @override
+  String get dict_style_prop_background => 'Highlight';
+  @override
+  String get dict_style_prop_bold => 'Bold';
+  @override
+  String get dict_style_prop_italic => 'Italic';
+  @override
+  String get dict_style_prop_underline => 'Underline';
+  @override
+  String get dict_style_prop_font_scale => 'Font size';
+  @override
+  String get dict_style_prop_corner_radius => 'Corner radius';
+  @override
+  String get dict_style_part_reset => 'Reset part';
+  @override
+  String get dict_style_reset_all => 'Reset all';
+  @override
+  String get dict_style_global_only => 'Only adjustable for all dictionaries';
+  @override
+  String get dict_style_preview_title => 'Preview';
+  @override
+  String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
+  @override
+  String get dict_style_prop_default => 'Default';
 }
 
 /// Flat map(s) containing all translations.
@@ -150434,6 +151292,58 @@ extension on _StringsEn {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -158080,6 +158990,58 @@ extension on _StringsAr {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -165748,6 +166710,58 @@ extension on _StringsDe {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -173415,6 +174429,58 @@ extension on _StringsEs {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -181088,6 +182154,58 @@ extension on _StringsFr {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -188743,6 +189861,58 @@ extension on _StringsId {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -196412,6 +197582,58 @@ extension on _StringsIt {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -204043,6 +205265,58 @@ extension on _StringsJa {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -211678,6 +212952,58 @@ extension on _StringsKo {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -219341,6 +220667,58 @@ extension on _StringsNl {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -227001,6 +228379,58 @@ extension on _StringsPtBr {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -234666,6 +236096,58 @@ extension on _StringsRu {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -242314,6 +243796,58 @@ extension on _StringsTh {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -249971,6 +251505,58 @@ extension on _StringsTr {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -257624,6 +259210,58 @@ extension on _StringsVi {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
@@ -265218,6 +266856,58 @@ extension on _StringsZhCn {
         return '调整窗口背景的圆角半径。';
       case 'storage_shaders_delete_anime4k':
         return '删除 Anime4K 着色器';
+      case 'dict_style_tab_visual':
+        return '可视化';
+      case 'dict_style_tab_code':
+        return '手写 CSS';
+      case 'dict_style_scope_all':
+        return '全部词典';
+      case 'dict_style_part_entry_card':
+        return '词条卡';
+      case 'dict_style_part_expression':
+        return '词头';
+      case 'dict_style_part_ruby':
+        return '振假名';
+      case 'dict_style_part_expression_tag':
+        return '词性标签';
+      case 'dict_style_part_deinflection_tag':
+        return '去屈折链';
+      case 'dict_style_part_frequency':
+        return '频率';
+      case 'dict_style_part_pitch':
+        return '音调';
+      case 'dict_style_part_dictionary_label':
+        return '词典名';
+      case 'dict_style_part_glossary_content':
+        return '释义正文';
+      case 'dict_style_part_glossary_tag':
+        return '释义标签';
+      case 'dict_style_prop_text_color':
+        return '文字颜色';
+      case 'dict_style_prop_background':
+        return '高亮底色';
+      case 'dict_style_prop_bold':
+        return '粗体';
+      case 'dict_style_prop_italic':
+        return '斜体';
+      case 'dict_style_prop_underline':
+        return '下划线';
+      case 'dict_style_prop_font_scale':
+        return '字号';
+      case 'dict_style_prop_corner_radius':
+        return '圆角';
+      case 'dict_style_part_reset':
+        return '重置此部位';
+      case 'dict_style_reset_all':
+        return '全部重置';
+      case 'dict_style_global_only':
+        return '此部位只能对全部词典设置';
+      case 'dict_style_preview_title':
+        return '预览';
+      case 'dict_style_pick_hint':
+        return '点预览里的部位可直接跳过去';
+      case 'dict_style_prop_default':
+        return '默认';
       default:
         return null;
     }
@@ -272844,6 +274534,58 @@ extension on _StringsZhHk {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'dict_style_tab_visual':
+        return 'Visual';
+      case 'dict_style_tab_code':
+        return 'CSS';
+      case 'dict_style_scope_all':
+        return 'All dictionaries';
+      case 'dict_style_part_entry_card':
+        return 'Entry card';
+      case 'dict_style_part_expression':
+        return 'Headword';
+      case 'dict_style_part_ruby':
+        return 'Furigana';
+      case 'dict_style_part_expression_tag':
+        return 'Word tags';
+      case 'dict_style_part_deinflection_tag':
+        return 'Deinflection chain';
+      case 'dict_style_part_frequency':
+        return 'Frequency';
+      case 'dict_style_part_pitch':
+        return 'Pitch accent';
+      case 'dict_style_part_dictionary_label':
+        return 'Dictionary name';
+      case 'dict_style_part_glossary_content':
+        return 'Definition';
+      case 'dict_style_part_glossary_tag':
+        return 'Definition tags';
+      case 'dict_style_prop_text_color':
+        return 'Text color';
+      case 'dict_style_prop_background':
+        return 'Highlight';
+      case 'dict_style_prop_bold':
+        return 'Bold';
+      case 'dict_style_prop_italic':
+        return 'Italic';
+      case 'dict_style_prop_underline':
+        return 'Underline';
+      case 'dict_style_prop_font_scale':
+        return 'Font size';
+      case 'dict_style_prop_corner_radius':
+        return 'Corner radius';
+      case 'dict_style_part_reset':
+        return 'Reset part';
+      case 'dict_style_reset_all':
+        return 'Reset all';
+      case 'dict_style_global_only':
+        return 'Only adjustable for all dictionaries';
+      case 'dict_style_preview_title':
+        return 'Preview';
+      case 'dict_style_pick_hint':
+        return 'Tap a part in the preview to jump to it';
+      case 'dict_style_prop_default':
+        return 'Default';
       default:
         return null;
     }
