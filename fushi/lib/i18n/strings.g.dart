@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63461 (3733 per locale)
+/// Strings: 63495 (3735 per locale)
 ///
-/// Built on 2026-08-23 at 14:46 UTC
+/// Built on 2026-08-23 at 16:04 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5064,6 +5064,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Could not clear all scrape records. No unverified user files were deleted.';
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  String get game_session_japanese_locale => 'Japanese locale';
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -13712,6 +13715,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -22425,6 +22433,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -31154,6 +31167,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -39895,6 +39913,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -48566,6 +48589,11 @@ class _StringsId extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -57281,6 +57309,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -65813,6 +65846,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -74353,6 +74391,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -83048,6 +83091,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -91755,6 +91803,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -100449,6 +100502,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -109091,6 +109149,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -117764,6 +117827,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -126423,6 +126491,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 // Path: <root>
@@ -134428,6 +134501,11 @@ class _StringsZhCn extends _StringsEn {
       '未能清理全部刮削记录；未删除任何无法验证的用户文件。';
   @override
   String get video_source_scrape_clear_all_in_progress => '正在清理刮削记录，请稍候。';
+  @override
+  String get game_session_japanese_locale => '已转区';
+  @override
+  String get game_session_japanese_locale_hint =>
+      '本局以日文区域 (CP932) 启动。若游戏文字乱码或脚本报错，可把该游戏的日语区域改为「永不转区」。';
 }
 
 // Path: <root>
@@ -142885,6 +142963,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_source_scrape_clear_all_in_progress =>
       'A scrape-record cleanup is already in progress.';
+  @override
+  String get game_session_japanese_locale => 'Japanese locale';
+  @override
+  String get game_session_japanese_locale_hint =>
+      'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
 }
 
 /// Flat map(s) containing all translations.
@@ -150541,6 +150624,10 @@ extension on _StringsEn {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -158195,6 +158282,10 @@ extension on _StringsAr {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -165871,6 +165962,10 @@ extension on _StringsDe {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -173546,6 +173641,10 @@ extension on _StringsEs {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -181227,6 +181326,10 @@ extension on _StringsFr {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -188890,6 +188993,10 @@ extension on _StringsId {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -196567,6 +196674,10 @@ extension on _StringsIt {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -204206,6 +204317,10 @@ extension on _StringsJa {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -211849,6 +211964,10 @@ extension on _StringsKo {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -219520,6 +219639,10 @@ extension on _StringsNl {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -227188,6 +227311,10 @@ extension on _StringsPtBr {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -234861,6 +234988,10 @@ extension on _StringsRu {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -242517,6 +242648,10 @@ extension on _StringsTh {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -250182,6 +250317,10 @@ extension on _StringsTr {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -257843,6 +257982,10 @@ extension on _StringsVi {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
@@ -265447,6 +265590,10 @@ extension on _StringsZhCn {
         return '未能清理全部刮削记录；未删除任何无法验证的用户文件。';
       case 'video_source_scrape_clear_all_in_progress':
         return '正在清理刮削记录，请稍候。';
+      case 'game_session_japanese_locale':
+        return '已转区';
+      case 'game_session_japanese_locale_hint':
+        return '本局以日文区域 (CP932) 启动。若游戏文字乱码或脚本报错，可把该游戏的日语区域改为「永不转区」。';
       default:
         return null;
     }
@@ -273081,6 +273228,10 @@ extension on _StringsZhHk {
         return 'Could not clear all scrape records. No unverified user files were deleted.';
       case 'video_source_scrape_clear_all_in_progress':
         return 'A scrape-record cleanup is already in progress.';
+      case 'game_session_japanese_locale':
+        return 'Japanese locale';
+      case 'game_session_japanese_locale_hint':
+        return 'The game was started under a Japanese (CP932) locale. If its text looks garbled or a script error appears, set this game\'s Japanese locale to Never.';
       default:
         return null;
     }
