@@ -3751,7 +3751,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String media_tracking_more_manual_required({required Object n}) =>
       '${n} more items need manual links';
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   String get manga_import_pick_file => 'Pick manga file';
   String get manga_import_pick_folder => 'Pick manga folder';
   String get manga_import_missing_input => 'Pick a manga file or folder first.';
@@ -11519,7 +11519,7 @@ class _StringsAr extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -20377,7 +20377,7 @@ class _StringsDe extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -29251,7 +29251,7 @@ class _StringsEs extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -38137,7 +38137,7 @@ class _StringsFr extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -46953,7 +46953,7 @@ class _StringsId extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -55813,7 +55813,7 @@ class _StringsIt extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -64490,7 +64490,7 @@ class _StringsJa extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -73175,7 +73175,7 @@ class _StringsKo extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -82015,7 +82015,7 @@ class _StringsNl extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -90867,7 +90867,7 @@ class _StringsPtBr extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -99706,7 +99706,7 @@ class _StringsRu extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -108493,7 +108493,7 @@ class _StringsTh extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -117311,7 +117311,7 @@ class _StringsTr extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -126115,7 +126115,7 @@ class _StringsVi extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -134477,7 +134477,7 @@ class _StringsZhCn extends _StringsEn {
   String media_tracking_more_manual_required({required Object n}) =>
       '另有 ${n} 项需要手动关联';
   @override
-  String get manga_import_hint => '选择漫画文件夹、.cbz/.zip 页图压缩包，或 .mokuro 文件。';
+  String get manga_import_hint => '选择漫画文件夹、.cbz/.zip 页图压缩包、.pdf，或 .mokuro 文件。';
   @override
   String get manga_import_pick_file => '选择漫画文件';
   @override
@@ -142866,7 +142866,7 @@ class _StringsZhHk extends _StringsEn {
       '${n} more items need manual links';
   @override
   String get manga_import_hint =>
-      'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+      'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
   @override
   String get manga_import_pick_file => 'Pick manga file';
   @override
@@ -150939,7 +150939,7 @@ extension on _StringsEn {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -158659,7 +158659,7 @@ extension on _StringsAr {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -166401,7 +166401,7 @@ extension on _StringsDe {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -174142,7 +174142,7 @@ extension on _StringsEs {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -181889,7 +181889,7 @@ extension on _StringsFr {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -189618,7 +189618,7 @@ extension on _StringsId {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -197361,7 +197361,7 @@ extension on _StringsIt {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -205066,7 +205066,7 @@ extension on _StringsJa {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -212775,7 +212775,7 @@ extension on _StringsKo {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -220512,7 +220512,7 @@ extension on _StringsNl {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -228246,7 +228246,7 @@ extension on _StringsPtBr {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -235985,7 +235985,7 @@ extension on _StringsRu {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -243707,7 +243707,7 @@ extension on _StringsTh {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -251438,7 +251438,7 @@ extension on _StringsTr {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -259165,7 +259165,7 @@ extension on _StringsVi {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
@@ -266843,7 +266843,7 @@ extension on _StringsZhCn {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '另有 ${n} 项需要手动关联';
       case 'manga_import_hint':
-        return '选择漫画文件夹、.cbz/.zip 页图压缩包，或 .mokuro 文件。';
+        return '选择漫画文件夹、.cbz/.zip 页图压缩包、.pdf，或 .mokuro 文件。';
       case 'manga_import_pick_file':
         return '选择漫画文件';
       case 'manga_import_pick_folder':
@@ -274533,7 +274533,7 @@ extension on _StringsZhHk {
       case 'media_tracking_more_manual_required':
         return ({required Object n}) => '${n} more items need manual links';
       case 'manga_import_hint':
-        return 'Pick a manga folder, a .cbz/.zip page archive, or a .mokuro file.';
+        return 'Pick a manga folder, a .cbz/.zip page archive, a .pdf, or a .mokuro file.';
       case 'manga_import_pick_file':
         return 'Pick manga file';
       case 'manga_import_pick_folder':
