@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63767 (3751 per locale)
+/// Strings: 63784 (3752 per locale)
 ///
-/// Built on 2026-08-23 at 16:12 UTC
+/// Built on 2026-08-23 at 16:17 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5093,6 +5093,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Anki data folder not found. Install Anki and open it once, then try again.';
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -13788,6 +13790,9 @@ class _StringsAr extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -22548,6 +22553,9 @@ class _StringsDe extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -31324,6 +31332,9 @@ class _StringsEs extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -40112,6 +40123,9 @@ class _StringsFr extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -48830,6 +48844,9 @@ class _StringsId extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -57592,6 +57609,9 @@ class _StringsIt extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -66171,6 +66191,9 @@ class _StringsJa extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -74758,6 +74781,9 @@ class _StringsKo extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -83500,6 +83526,9 @@ class _StringsNl extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -92254,6 +92283,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -100995,6 +101027,9 @@ class _StringsRu extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -109684,6 +109719,9 @@ class _StringsTh extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -118404,6 +118442,9 @@ class _StringsTr extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -127110,6 +127151,9 @@ class _StringsVi extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 // Path: <root>
@@ -135162,6 +135206,9 @@ class _StringsZhCn extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       '安装失败：${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
 }
 
 // Path: <root>
@@ -143666,6 +143713,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String onboarding_anki_addon_failed({required Object message}) =>
       'Install failed: ${message}';
+  @override
+  String get game_hook_reason_capability_probe_failed =>
+      'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
 }
 
 /// Flat map(s) containing all translations.
@@ -151358,6 +151408,8 @@ extension on _StringsEn {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -159048,6 +159100,8 @@ extension on _StringsAr {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -166760,6 +166814,8 @@ extension on _StringsDe {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -174471,6 +174527,8 @@ extension on _StringsEs {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -182188,6 +182246,8 @@ extension on _StringsFr {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -189887,6 +189947,8 @@ extension on _StringsId {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -197600,6 +197662,8 @@ extension on _StringsIt {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -205275,6 +205339,8 @@ extension on _StringsJa {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -212954,6 +213020,8 @@ extension on _StringsKo {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -220661,6 +220729,8 @@ extension on _StringsNl {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -228365,6 +228435,8 @@ extension on _StringsPtBr {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -236074,6 +236146,8 @@ extension on _StringsRu {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -243766,6 +243840,8 @@ extension on _StringsTh {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -251467,6 +251543,8 @@ extension on _StringsTr {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -259164,6 +259242,8 @@ extension on _StringsVi {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
@@ -266804,6 +266884,8 @@ extension on _StringsZhCn {
         return '没找到 Anki 数据目录：请先安装 Anki 并打开一次，再回来重试。';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => '安装失败：${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
       default:
         return null;
     }
@@ -274474,6 +274556,8 @@ extension on _StringsZhHk {
         return 'Anki data folder not found. Install Anki and open it once, then try again.';
       case 'onboarding_anki_addon_failed':
         return ({required Object message}) => 'Install failed: ${message}';
+      case 'game_hook_reason_capability_probe_failed':
+        return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
       default:
         return null;
     }
