@@ -57,6 +57,8 @@ enum AppLocale with BaseAppLocale<AppLocale, _StringsEn> {
 
   /// Gets current instance managed by [LocaleSettings].
   _StringsEn get translations => LocaleSettings.instance.translationMap[this]!;
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 /// Method A: Simple
@@ -90,6 +92,8 @@ class Translations {
 
   static _StringsEn of(BuildContext context) =>
       InheritedLocaleData.of<AppLocale, _StringsEn>(context).translations;
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 /// The provider for method B
@@ -100,6 +104,8 @@ class TranslationProvider
 
   static InheritedLocaleData<AppLocale, _StringsEn> of(BuildContext context) =>
       InheritedLocaleData.of<AppLocale, _StringsEn>(context);
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 /// Method B shorthand via [BuildContext] extension method.
@@ -109,6 +115,8 @@ class TranslationProvider
 /// context.t.someKey.anotherKey
 extension BuildContextTranslationsExtension on BuildContext {
   _StringsEn get t => TranslationProvider.of(this).translations;
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 /// Manages all translation instances and the current locale
@@ -143,6 +151,8 @@ class LocaleSettings extends BaseFlutterLocaleSettings<AppLocale, _StringsEn> {
         cardinalResolver: cardinalResolver,
         ordinalResolver: ordinalResolver,
       );
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 /// Provides utility functions without any side effects.
@@ -165,6 +175,8 @@ class AppLocaleUtils extends BaseAppLocaleUtils<AppLocale, _StringsEn> {
   static AppLocale findDeviceLocale() => instance.findDeviceLocale();
   static List<Locale> get supportedLocales => instance.supportedLocales;
   static List<String> get supportedLocalesRaw => instance.supportedLocalesRaw;
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 // translations
@@ -5075,6 +5087,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get gal_hook_text_corner_radius_hint =>
       'Adjust the background corner radius.';
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 // Path: <root>
@@ -13739,6 +13753,8 @@ class _StringsAr extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 // Path: <root>
@@ -22468,6 +22484,8 @@ class _StringsDe extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 // Path: <root>
@@ -31213,6 +31231,8 @@ class _StringsEs extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 // Path: <root>
@@ -39970,6 +39990,8 @@ class _StringsFr extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 // Path: <root>
@@ -48657,6 +48679,8 @@ class _StringsId extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 // Path: <root>
@@ -57388,6 +57412,8 @@ class _StringsIt extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 // Path: <root>
@@ -65936,6 +65962,8 @@ class _StringsJa extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 // Path: <root>
@@ -74492,6 +74520,8 @@ class _StringsKo extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 // Path: <root>
@@ -83203,6 +83233,8 @@ class _StringsNl extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get video_jimaku_series_lookup_degraded =>
+      '这次没能在 AniList 上确认系列，下面是按标题直接搜出来的结果，可能混入同系列其他季。';
 }
 
 // Path: <root>
@@ -91926,6 +91958,8 @@ class _StringsPtBr extends _StringsEn {
       'Adjust the background corner radius.';
   @override
   String get storage_shaders_delete_anime4k => 'Delete Anime4K shaders';
+  String get video_jimaku_series_lookup_degraded =>
+      'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
 }
 
 // Path: <root>
@@ -150816,6 +150850,8 @@ extension on _StringsEn {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -158482,6 +158518,8 @@ extension on _StringsAr {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -166170,6 +166208,8 @@ extension on _StringsDe {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -173857,6 +173897,8 @@ extension on _StringsEs {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -181550,6 +181592,8 @@ extension on _StringsFr {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -189225,6 +189269,8 @@ extension on _StringsId {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -196914,6 +196960,8 @@ extension on _StringsIt {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -204565,6 +204613,8 @@ extension on _StringsJa {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -212220,6 +212270,8 @@ extension on _StringsKo {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -219903,6 +219955,8 @@ extension on _StringsNl {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -227583,6 +227637,8 @@ extension on _StringsPtBr {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -235268,6 +235324,8 @@ extension on _StringsRu {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -242936,6 +242994,8 @@ extension on _StringsTh {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -250613,6 +250673,8 @@ extension on _StringsTr {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -258286,6 +258348,8 @@ extension on _StringsVi {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
@@ -265900,6 +265964,8 @@ extension on _StringsZhCn {
         return '调整窗口背景的圆角半径。';
       case 'storage_shaders_delete_anime4k':
         return '删除 Anime4K 着色器';
+      case 'video_jimaku_series_lookup_degraded':
+        return '这次没能在 AniList 上确认系列，下面是按标题直接搜出来的结果，可能混入同系列其他季。';
       default:
         return null;
     }
@@ -273546,6 +273612,8 @@ extension on _StringsZhHk {
         return 'Adjust the background corner radius.';
       case 'storage_shaders_delete_anime4k':
         return 'Delete Anime4K shaders';
+      case 'video_jimaku_series_lookup_degraded':
+        return 'Couldn\'t confirm the series on AniList this time, so these results come from a plain title search and may mix in other seasons of the same series.';
       default:
         return null;
     }
