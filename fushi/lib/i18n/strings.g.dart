@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63886 (3758 per locale)
+/// Strings: 63461 (3733 per locale)
 ///
-/// Built on 2026-08-23 at 13:38 UTC
+/// Built on 2026-08-23 at 14:46 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -3053,31 +3053,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_resource_missing_reimport => 'Re-import';
   String get video_resource_missing_title => 'Video unavailable';
   String get video_resource_relink_success => 'Video relinked';
-  String get video_scrape_air_date => 'Aired';
-  String get video_scrape_applied => 'Cover applied';
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  String get video_scrape_batch_close => 'Close';
-  String get video_scrape_confidence_high => 'High match';
-  String get video_scrape_confidence_low => 'Low match';
-  String get video_scrape_confidence_medium => 'Medium match';
   String get video_scrape_episodes => 'Episodes';
   String get video_scrape_info => 'Series info';
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  String get video_scrape_no_results => 'No matches found';
-  String get video_scrape_online_match => 'Match cover online';
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  String get video_scrape_rescrape => 'Re-scrape';
-  String get video_scrape_search => 'Search';
-  String get video_scrape_search_hint => 'Search by title';
-  String get video_scrape_source_offline => 'Offline';
-  String get video_scrape_summary => 'Synopsis';
-  String get video_scrape_tags => 'Tags';
-  String get video_scrape_use => 'Use';
-  String get video_scrape_view_subject => 'View on Bangumi';
   String get video_screenshot => 'Screenshot';
   String video_screenshot_failed_reason({required Object reason}) =>
       'Screenshot failed: ${reason}';
@@ -3090,8 +3069,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_secondary_subtitle_sources => 'Secondary subtitle';
   String get video_setting_auto_play_next => 'Auto-play next episode';
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   String get video_setting_av_delay => 'Subtitle sync';
   String get video_setting_av_delay_hint =>
       'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
@@ -3540,8 +3517,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get media_tracking_game => 'Game';
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   String get scrape_reason_server =>
@@ -3588,8 +3563,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Also applies within your local network.';
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   String get gal_mining_image_mode => 'Galgame card image';
   String get gal_mining_image_mode_screenshot => 'Screenshot';
   String get gal_mining_image_mode_hint =>
@@ -3705,12 +3678,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
   String get selection_web_search => 'Search the web';
@@ -3882,7 +3849,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String video_scrape_collection_rename_to({required Object name}) =>
       'New name: ${name}';
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  String get video_scrape_collection_rename_confirm => 'Rename';
   String get download_task_toggle_failed => 'Pause/resume failed';
   String download_subscription_start_episode({required Object episode}) =>
       'Start from episode ${episode}';
@@ -4059,7 +4025,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get collection_split_by_season => 'Split by season';
   String get collection_split_keep_original => 'Keep the original collection';
   String get collection_split_confirm => 'Split';
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   String collection_episode_rename_apply({required Object n}) =>
@@ -4068,13 +4033,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Split into ${n} collections';
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
   String get manga_rescan_run => 'Box OCR';
@@ -4164,14 +4125,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Add a video folder from Sources to build your library';
   String get video_source_scrape_action => 'Scrape this source';
   String get video_source_scrape_settings => 'Source scrape settings';
-  String get video_source_scrape_provider => 'Primary metadata source';
-  String get video_source_scrape_provider_inherit => 'Use global default';
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   String get video_source_scrape_auto_after_scan_hint =>
       'Run metadata scraping automatically after this source is scanned';
   String get video_source_scrape_write_nfo => 'Write NFO files';
   String get video_source_scrape_write_images => 'Write image files';
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   String video_source_scrape_progress(
           {required Object phase,
           required Object current,
@@ -4189,22 +4147,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_source_scrape_phase_applying => 'Saving metadata';
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   String get video_source_scrape_locale => 'Metadata language';
   String get video_source_scrape_locale_hint =>
       'Preferred language for titles, summaries and images';
@@ -5094,6 +5036,34 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get dict_style_prop_on => 'On';
   String get dict_style_prop_off => 'Off';
   String get dict_style_title => 'Dictionary styling';
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  String get video_scrape_view_source => 'View source details';
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  String get video_resource_identity_provider => 'Resource identity source';
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -10272,52 +10242,12 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'لقطة شاشة';
   @override
@@ -10338,9 +10268,6 @@ class _StringsAr extends _StringsEn {
   String get video_setting_auto_play_next => 'التشغيل التلقائي للحلقة التالية';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'مزامنة الترجمة';
   @override
@@ -11129,9 +11056,6 @@ class _StringsAr extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -11205,9 +11129,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -11396,15 +11317,6 @@ class _StringsAr extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -11693,8 +11605,6 @@ class _StringsAr extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -12026,8 +11936,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -12040,15 +11948,9 @@ class _StringsAr extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -12202,10 +12104,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -12214,8 +12112,6 @@ class _StringsAr extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -12241,32 +12137,6 @@ class _StringsAr extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -13797,6 +13667,51 @@ class _StringsAr extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -19032,52 +18947,12 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'Screenshot';
   @override
@@ -19099,9 +18974,6 @@ class _StringsDe extends _StringsEn {
       'Nächste Folge automatisch abspielen';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'Untertitel-Synchronisierung';
   @override
@@ -19897,9 +19769,6 @@ class _StringsDe extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -19973,9 +19842,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -20164,15 +20030,6 @@ class _StringsDe extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -20461,8 +20318,6 @@ class _StringsDe extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -20794,8 +20649,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -20808,15 +20661,9 @@ class _StringsDe extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -20970,10 +20817,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -20982,8 +20825,6 @@ class _StringsDe extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -21009,32 +20850,6 @@ class _StringsDe extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -22565,6 +22380,51 @@ class _StringsDe extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -27814,52 +27674,12 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'Captura de pantalla';
   @override
@@ -27881,9 +27701,6 @@ class _StringsEs extends _StringsEn {
       'Reproducir automáticamente el siguiente episodio';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'Sincronía de subtítulos';
   @override
@@ -28681,9 +28498,6 @@ class _StringsEs extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -28757,9 +28571,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -28948,15 +28759,6 @@ class _StringsEs extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -29245,8 +29047,6 @@ class _StringsEs extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -29578,8 +29378,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -29592,15 +29390,9 @@ class _StringsEs extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -29754,10 +29546,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -29766,8 +29554,6 @@ class _StringsEs extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -29793,32 +29579,6 @@ class _StringsEs extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -31349,6 +31109,51 @@ class _StringsEs extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -36610,52 +36415,12 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'Capture d\'écran';
   @override
@@ -36677,9 +36442,6 @@ class _StringsFr extends _StringsEn {
       'Lecture auto de l\'épisode suivant';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'Synchronisation des sous-titres';
   @override
@@ -37477,9 +37239,6 @@ class _StringsFr extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -37553,9 +37312,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -37744,15 +37500,6 @@ class _StringsFr extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -38041,8 +37788,6 @@ class _StringsFr extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -38374,8 +38119,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -38388,15 +38131,9 @@ class _StringsFr extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -38550,10 +38287,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -38562,8 +38295,6 @@ class _StringsFr extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -38589,32 +38320,6 @@ class _StringsFr extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -40145,6 +39850,51 @@ class _StringsFr extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -45344,52 +45094,12 @@ class _StringsId extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'Tangkapan layar';
   @override
@@ -45411,9 +45121,6 @@ class _StringsId extends _StringsEn {
       'Putar otomatis episode berikutnya';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'Sinkron subtitle';
   @override
@@ -46203,9 +45910,6 @@ class _StringsId extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -46279,9 +45983,6 @@ class _StringsId extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -46470,15 +46171,6 @@ class _StringsId extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -46767,8 +46459,6 @@ class _StringsId extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -47100,8 +46790,6 @@ class _StringsId extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -47114,15 +46802,9 @@ class _StringsId extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -47276,10 +46958,6 @@ class _StringsId extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -47288,8 +46966,6 @@ class _StringsId extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -47315,32 +46991,6 @@ class _StringsId extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -48871,6 +48521,51 @@ class _StringsId extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -54108,52 +53803,12 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'Screenshot';
   @override
@@ -54175,9 +53830,6 @@ class _StringsIt extends _StringsEn {
       'Riproduci automaticamente l\'episodio successivo';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'Sincronizzazione sottotitoli';
   @override
@@ -54973,9 +54625,6 @@ class _StringsIt extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -55049,9 +54698,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -55240,15 +54886,6 @@ class _StringsIt extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -55537,8 +55174,6 @@ class _StringsIt extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -55870,8 +55505,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -55884,15 +55517,9 @@ class _StringsIt extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -56046,10 +55673,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -56058,8 +55681,6 @@ class _StringsIt extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -56085,32 +55706,6 @@ class _StringsIt extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -57641,6 +57236,51 @@ class _StringsIt extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -62722,52 +62362,12 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'スクリーンショット';
   @override
@@ -62788,9 +62388,6 @@ class _StringsJa extends _StringsEn {
   String get video_setting_auto_play_next => '次のエピソードを自動再生';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => '字幕タイミング調整';
   @override
@@ -63560,9 +63157,6 @@ class _StringsJa extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -63636,9 +63230,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -63827,15 +63418,6 @@ class _StringsJa extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -64124,8 +63706,6 @@ class _StringsJa extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -64457,8 +64037,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -64471,15 +64049,9 @@ class _StringsJa extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -64633,10 +64205,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -64645,8 +64213,6 @@ class _StringsJa extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -64672,32 +64238,6 @@ class _StringsJa extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -66228,6 +65768,51 @@ class _StringsJa extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -71314,52 +70899,12 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => '스크린샷';
   @override
@@ -71379,9 +70924,6 @@ class _StringsKo extends _StringsEn {
   String get video_setting_auto_play_next => '다음 에피소드 자동 재생';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => '자막 동기화';
   @override
@@ -72155,9 +71697,6 @@ class _StringsKo extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -72231,9 +71770,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -72422,15 +71958,6 @@ class _StringsKo extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -72719,8 +72246,6 @@ class _StringsKo extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -73052,8 +72577,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -73066,15 +72589,9 @@ class _StringsKo extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -73228,10 +72745,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -73240,8 +72753,6 @@ class _StringsKo extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -73267,32 +72778,6 @@ class _StringsKo extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -74823,6 +74308,51 @@ class _StringsKo extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -80044,52 +79574,12 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'Schermafbeelding';
   @override
@@ -80111,9 +79601,6 @@ class _StringsNl extends _StringsEn {
       'Volgende aflevering automatisch afspelen';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'Ondertitelsynchronisatie';
   @override
@@ -80905,9 +80392,6 @@ class _StringsNl extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -80981,9 +80465,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -81172,15 +80653,6 @@ class _StringsNl extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -81469,8 +80941,6 @@ class _StringsNl extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -81802,8 +81272,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -81816,15 +81284,9 @@ class _StringsNl extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -81978,10 +81440,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -81990,8 +81448,6 @@ class _StringsNl extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -82017,32 +81473,6 @@ class _StringsNl extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -83573,6 +83003,51 @@ class _StringsNl extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -88803,52 +88278,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'Captura de tela';
   @override
@@ -88870,9 +88305,6 @@ class _StringsPtBr extends _StringsEn {
       'Reproduzir o próximo episódio automaticamente';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'Ajuste de legenda';
   @override
@@ -89667,9 +89099,6 @@ class _StringsPtBr extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -89743,9 +89172,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -89934,15 +89360,6 @@ class _StringsPtBr extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -90231,8 +89648,6 @@ class _StringsPtBr extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -90564,8 +89979,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -90578,15 +89991,9 @@ class _StringsPtBr extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -90740,10 +90147,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -90752,8 +90155,6 @@ class _StringsPtBr extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -90779,32 +90180,6 @@ class _StringsPtBr extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -92335,6 +91710,51 @@ class _StringsPtBr extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -97556,52 +96976,12 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'Скриншот';
   @override
@@ -97623,9 +97003,6 @@ class _StringsRu extends _StringsEn {
       'Автовоспроизведение следующей серии';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'Синхронизация субтитров';
   @override
@@ -98416,9 +97793,6 @@ class _StringsRu extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -98492,9 +97866,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -98683,15 +98054,6 @@ class _StringsRu extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -98980,8 +98342,6 @@ class _StringsRu extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -99313,8 +98673,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -99327,15 +98685,9 @@ class _StringsRu extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -99489,10 +98841,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -99501,8 +98849,6 @@ class _StringsRu extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -99528,32 +98874,6 @@ class _StringsRu extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -101084,6 +100404,51 @@ class _StringsRu extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -106259,52 +105624,12 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'ภาพหน้าจอ';
   @override
@@ -106325,9 +105650,6 @@ class _StringsTh extends _StringsEn {
   String get video_setting_auto_play_next => 'เล่นตอนถัดไปอัตโนมัติ';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'ปรับจังหวะคำบรรยาย';
   @override
@@ -107113,9 +106435,6 @@ class _StringsTh extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -107189,9 +106508,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -107380,15 +106696,6 @@ class _StringsTh extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -107677,8 +106984,6 @@ class _StringsTh extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -108010,8 +107315,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -108024,15 +107327,9 @@ class _StringsTh extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -108186,10 +107483,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -108198,8 +107491,6 @@ class _StringsTh extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -108225,32 +107516,6 @@ class _StringsTh extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -109781,6 +109046,51 @@ class _StringsTh extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -114982,52 +114292,12 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'Ekran görüntüsü';
   @override
@@ -115048,9 +114318,6 @@ class _StringsTr extends _StringsEn {
   String get video_setting_auto_play_next => 'Sonraki bölümü otomatik oynat';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'Altyazı senkronu';
   @override
@@ -115841,9 +115108,6 @@ class _StringsTr extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -115917,9 +115181,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -116108,15 +115369,6 @@ class _StringsTr extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -116405,8 +115657,6 @@ class _StringsTr extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -116738,8 +115988,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -116752,15 +116000,9 @@ class _StringsTr extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -116914,10 +116156,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -116926,8 +116164,6 @@ class _StringsTr extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -116953,32 +116189,6 @@ class _StringsTr extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -118509,6 +117719,51 @@ class _StringsTr extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -123700,52 +122955,12 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => 'Chụp màn hình';
   @override
@@ -123766,9 +122981,6 @@ class _StringsVi extends _StringsEn {
   String get video_setting_auto_play_next => 'Tự phát tập tiếp theo';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => 'Đồng bộ phụ đề';
   @override
@@ -124555,9 +123767,6 @@ class _StringsVi extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -124631,9 +123840,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -124822,15 +124028,6 @@ class _StringsVi extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -125119,8 +124316,6 @@ class _StringsVi extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -125452,8 +124647,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -125466,15 +124659,9 @@ class _StringsVi extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -125628,10 +124815,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -125640,8 +124823,6 @@ class _StringsVi extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -125667,32 +124848,6 @@ class _StringsVi extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -127223,6 +126378,51 @@ class _StringsVi extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 // Path: <root>
@@ -132063,50 +131263,11 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_resource_relink_success => '已重新链接视频文件';
   @override
-  String get video_scrape_air_date => '放送开始';
-  @override
-  String get video_scrape_applied => '封面已应用';
-  @override
-  String get video_scrape_apply_failed => '封面应用失败';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      '同时应用到本合集全部 ${n} 集';
-  @override
-  String get video_scrape_batch_close => '关闭';
-  @override
-  String get video_scrape_confidence_high => '高匹配';
-  @override
-  String get video_scrape_confidence_low => '低匹配';
-  @override
-  String get video_scrape_confidence_medium => '中匹配';
-  @override
   String get video_scrape_episodes => '话数';
   @override
   String get video_scrape_info => '条目信息';
   @override
-  String get video_scrape_info_empty => '还没有条目资料。后台会自动刮削，也可以手动匹配。';
-  @override
-  String get video_scrape_no_results => '没有找到匹配结果';
-  @override
-  String get video_scrape_online_match => '在线匹配封面';
-  @override
   String video_scrape_rating_votes({required Object count}) => '${count} 人评分';
-  @override
-  String get video_scrape_rescrape => '重新刮削';
-  @override
-  String get video_scrape_search => '搜索';
-  @override
-  String get video_scrape_search_hint => '按片名搜索';
-  @override
-  String get video_scrape_source_offline => '离线库';
-  @override
-  String get video_scrape_summary => '简介';
-  @override
-  String get video_scrape_tags => '标签';
-  @override
-  String get video_scrape_use => '使用';
-  @override
-  String get video_scrape_view_subject => '在 Bangumi 查看';
   @override
   String get video_screenshot => '截图';
   @override
@@ -132124,9 +131285,6 @@ class _StringsZhCn extends _StringsEn {
   String get video_setting_auto_play_next => '自动连播下一集';
   @override
   String get video_setting_auto_scrape => '自动刮削条目资料';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      '库里的视频后台自动从 Bangumi 获取封面、简介、评分与标签';
   @override
   String get video_setting_av_delay => '字幕调轴';
   @override
@@ -132853,8 +132011,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get download_rate_limit_lan_exempt => '不作用于局域网；局域网内的传输始终全速进行。';
   @override
-  String get video_scrape_search_failed => '搜索失败，点「搜索」可重试。';
-  @override
   String get scrape_reason_network => '没能从封面源取到有效响应，请检查网络后重试。';
   @override
   String get scrape_reason_server => '封面源返回了错误，请稍后重试或换一个候选。';
@@ -132920,9 +132076,6 @@ class _StringsZhCn extends _StringsEn {
   String get download_rate_limit_lan_included => '同时作用于局域网内的传输。';
   @override
   String get video_collection_no_local_member => '本合集没有本地视频';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      '为「${name}」匹配封面';
   @override
   String get gal_mining_image_mode => 'Galgame 制卡配图';
   @override
@@ -133093,15 +132246,6 @@ class _StringsZhCn extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '有 ${count} 个字幕 · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      '手动匹配会替换本集封面，并保存来源映射和条目资料。会同时搜索全部可用来源，结果按匹配度排序。';
-  @override
-  String get video_scrape_collection_match_hint =>
-      '这里只替换合集封面，不会修改各集封面或条目资料。会同时搜索全部可用来源，结果按匹配度排序。';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      '这会把同一张封面写到每一集；只有确实需要统一单集封面时才开启。';
   @override
   String get manga_online_source_disabled => '此互联网来源已关闭，请在「来源」中开启后浏览目录。';
   @override
@@ -133367,8 +132511,6 @@ class _StringsZhCn extends _StringsEn {
       '新名称：${name}';
   @override
   String get video_scrape_collection_rename_keep => '保留当前名称';
-  @override
-  String get video_scrape_collection_rename_confirm => '重命名';
   @override
   String get download_task_toggle_failed => '暂停/恢复操作失败';
   @override
@@ -133693,8 +132835,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get collection_split_confirm => '拆分';
   @override
-  String get collection_episode_open_bangumi => '在 Bangumi 打开本集';
-  @override
   String collection_relation_bound({required Object name}) => '已绑定到 ${name}';
   @override
   String collection_episode_rename_apply({required Object n}) => '重命名 ${n} 集';
@@ -133704,14 +132844,9 @@ class _StringsZhCn extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       '看到 ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      '解析 Bangumi 章节失败：${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       '已重命名 ${n} 集 · ${m} 集失败';
-  @override
-  String get collection_episode_bangumi_not_found => '未找到对应集，已打开条目页';
   @override
   String get sync_err_browser_timeout =>
       '浏览器授权没有返回到应用。请重试，并确认代理放行了本机回环地址 127.0.0.1。';
@@ -133850,10 +132985,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_source_scrape_settings => '来源刮削设置';
   @override
-  String get video_source_scrape_provider => '主刮削来源';
-  @override
-  String get video_source_scrape_provider_inherit => '继承全局默认';
-  @override
   String get video_source_scrape_auto_after_scan => '扫描后自动刮削';
   @override
   String get video_source_scrape_auto_after_scan_hint => '扫描此来源完成后自动刮削作品资料';
@@ -133861,8 +132992,6 @@ class _StringsZhCn extends _StringsEn {
   String get video_source_scrape_write_nfo => '写入 NFO 文件';
   @override
   String get video_source_scrape_write_images => '写入图片文件';
-  @override
-  String get video_source_scrape_use_fanart => '使用 Fanart 图片';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -133888,28 +133017,6 @@ class _StringsZhCn extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => '写入 NFO 与图片';
   @override
   String get video_source_scrape_status_interrupted => '已中断';
-  @override
-  String get video_source_scrape_global_provider => '视频默认刮削来源';
-  @override
-  String get video_source_scrape_global_provider_hint => '供选择“继承全局默认”的视频来源使用';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API Key';
-  @override
-  String get video_source_scrape_fanart_key_hint => '可选，用于从 Fanart 补充缺少的图片';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi 访问令牌';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      '可选，用于访问 Bangumi 官方 v0 API';
-  @override
-  String get video_source_scrape_douban_endpoint => '已授权的豆瓣 API 端点';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      '仅当已授权端点和令牌都已配置时豆瓣来源才可用';
-  @override
-  String get video_source_scrape_douban_token => '已授权的豆瓣 API 令牌';
-  @override
-  String get video_source_scrape_douban_token_hint => '仅当已授权端点和令牌都已配置时豆瓣来源才可用';
   @override
   String get video_source_scrape_locale => '资料语言';
   @override
@@ -135281,6 +134388,46 @@ class _StringsZhCn extends _StringsEn {
   String get dict_style_prop_off => '关';
   @override
   String get dict_style_title => '词典样式';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB 客户端名称';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      '已登记的 AniDB HTTP API 客户端名称；留空时仅使用缓存标题目录';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB 客户端版本';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      '在 AniDB 登记的正整数版本；两项均有效前不会启用 HTTP API';
+  @override
+  String get video_scrape_view_source => '查看来源详情';
+  @override
+  String get video_setting_auto_scrape_hint => '媒体库扫描后自动识别并获取视频元数据';
+  @override
+  String get video_resource_identity_provider => '资源身份来源';
+  @override
+  String get video_source_scrape_clear_all => '清理全部刮削记录';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      '清除全部视频刮削资料，以及 Fushi 生成的封面和 NFO。';
+  @override
+  String get video_source_scrape_clear_all_confirm_title => '清理全部视频刮削记录？';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      '这会清除全部视频刮削资料和来源绑定、清空“系列”结果，并删除 Fushi 生成且未被修改的封面与 NFO。视频文件、媒体库条目、底层分组、观看进度、字幕、标签、手动选择的封面及用户修改过的旁车文件都会保留。此操作无法撤销。';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => '清理';
+  @override
+  String get video_source_scrape_clear_all_completed => '已清理全部视频刮削记录。';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      '刮削记录已清理；被修改或无法验证的旁车文件已保留。';
+  @override
+  String get video_source_scrape_clear_all_busy => '视频扫描或刮削仍在运行，请等待任务结束后重试。';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      '未能清理全部刮削记录；未删除任何无法验证的用户文件。';
+  @override
+  String get video_source_scrape_clear_all_in_progress => '正在清理刮削记录，请稍候。';
 }
 
 // Path: <root>
@@ -140297,52 +139444,12 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_resource_relink_success => 'Video relinked';
   @override
-  String get video_scrape_air_date => 'Aired';
-  @override
-  String get video_scrape_applied => 'Cover applied';
-  @override
-  String get video_scrape_apply_failed => 'Failed to apply cover';
-  @override
-  String video_scrape_apply_to_collection({required Object n}) =>
-      'Also apply to all ${n} episodes in this collection';
-  @override
-  String get video_scrape_batch_close => 'Close';
-  @override
-  String get video_scrape_confidence_high => 'High match';
-  @override
-  String get video_scrape_confidence_low => 'Low match';
-  @override
-  String get video_scrape_confidence_medium => 'Medium match';
-  @override
   String get video_scrape_episodes => 'Episodes';
   @override
   String get video_scrape_info => 'Series info';
   @override
-  String get video_scrape_info_empty =>
-      'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-  @override
-  String get video_scrape_no_results => 'No matches found';
-  @override
-  String get video_scrape_online_match => 'Match cover online';
-  @override
   String video_scrape_rating_votes({required Object count}) =>
       '${count} ratings';
-  @override
-  String get video_scrape_rescrape => 'Re-scrape';
-  @override
-  String get video_scrape_search => 'Search';
-  @override
-  String get video_scrape_search_hint => 'Search by title';
-  @override
-  String get video_scrape_source_offline => 'Offline';
-  @override
-  String get video_scrape_summary => 'Synopsis';
-  @override
-  String get video_scrape_tags => 'Tags';
-  @override
-  String get video_scrape_use => 'Use';
-  @override
-  String get video_scrape_view_subject => 'View on Bangumi';
   @override
   String get video_screenshot => '截圖';
   @override
@@ -140361,9 +139468,6 @@ class _StringsZhHk extends _StringsEn {
   String get video_setting_auto_play_next => '自動連播下一集';
   @override
   String get video_setting_auto_scrape => 'Auto-fetch series info';
-  @override
-  String get video_setting_auto_scrape_hint =>
-      'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
   @override
   String get video_setting_av_delay => '字幕調軸';
   @override
@@ -141126,9 +140230,6 @@ class _StringsZhHk extends _StringsEn {
   String get download_rate_limit_lan_exempt =>
       'Does not apply within your local network; LAN transfers always run at full speed.';
   @override
-  String get video_scrape_search_failed =>
-      'Search failed. Tap Search to retry.';
-  @override
   String get scrape_reason_network =>
       'Could not get a valid response from the cover source. Check your network and retry.';
   @override
@@ -141202,9 +140303,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_collection_no_local_member =>
       'No local video in this collection';
-  @override
-  String video_scrape_online_match_collection({required Object name}) =>
-      'Match cover for ${name}';
   @override
   String get gal_mining_image_mode => 'Galgame card image';
   @override
@@ -141393,15 +140491,6 @@ class _StringsZhHk extends _StringsEn {
   String video_jimaku_episode_available(
           {required Object count, required Object languages}) =>
       '${count} subtitles available · ${languages}';
-  @override
-  String get video_scrape_manual_match_hint =>
-      'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_collection_match_hint =>
-      'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-  @override
-  String get video_scrape_apply_to_collection_hint =>
-      'This writes the same cover to every episode. Leave it off unless that is intentional.';
   @override
   String get manga_online_source_disabled =>
       'This internet source is disabled. Enable it in Sources to browse the catalog.';
@@ -141690,8 +140779,6 @@ class _StringsZhHk extends _StringsEn {
       'New name: ${name}';
   @override
   String get video_scrape_collection_rename_keep => 'Keep current name';
-  @override
-  String get video_scrape_collection_rename_confirm => 'Rename';
   @override
   String get download_task_toggle_failed => 'Pause/resume failed';
   @override
@@ -142023,8 +141110,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get collection_split_confirm => 'Split';
   @override
-  String get collection_episode_open_bangumi => 'Open this episode on Bangumi';
-  @override
   String collection_relation_bound({required Object name}) =>
       'Bound to ${name}';
   @override
@@ -142037,15 +141122,9 @@ class _StringsZhHk extends _StringsEn {
   String collection_episode_watched_at({required Object position}) =>
       'Watched to ${position}';
   @override
-  String collection_episode_bangumi_open_failed({required Object error}) =>
-      'Could not resolve the episode on Bangumi: ${error}';
-  @override
   String collection_episode_rename_partial(
           {required Object n, required Object m}) =>
       'Renamed ${n} episodes, ${m} failed';
-  @override
-  String get collection_episode_bangumi_not_found =>
-      'Episode not found on Bangumi; opened the subject page instead';
   @override
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
@@ -142198,10 +141277,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_source_scrape_settings => 'Source scrape settings';
   @override
-  String get video_source_scrape_provider => 'Primary metadata source';
-  @override
-  String get video_source_scrape_provider_inherit => 'Use global default';
-  @override
   String get video_source_scrape_auto_after_scan => 'Scrape after scanning';
   @override
   String get video_source_scrape_auto_after_scan_hint =>
@@ -142210,8 +141285,6 @@ class _StringsZhHk extends _StringsEn {
   String get video_source_scrape_write_nfo => 'Write NFO files';
   @override
   String get video_source_scrape_write_images => 'Write image files';
-  @override
-  String get video_source_scrape_use_fanart => 'Use Fanart images';
   @override
   String video_source_scrape_progress(
           {required Object phase,
@@ -142237,32 +141310,6 @@ class _StringsZhHk extends _StringsEn {
   String get video_source_scrape_phase_writing_sidecars => 'Writing sidecars';
   @override
   String get video_source_scrape_status_interrupted => 'Interrupted';
-  @override
-  String get video_source_scrape_global_provider => 'Default metadata source';
-  @override
-  String get video_source_scrape_global_provider_hint =>
-      'Used by video sources that inherit the global setting';
-  @override
-  String get video_source_scrape_fanart_key => 'Fanart API key';
-  @override
-  String get video_source_scrape_fanart_key_hint =>
-      'Optional key used to fill missing artwork from Fanart';
-  @override
-  String get video_source_scrape_bangumi_token => 'Bangumi access token';
-  @override
-  String get video_source_scrape_bangumi_token_hint =>
-      'Optional access token for the official Bangumi API v0';
-  @override
-  String get video_source_scrape_douban_endpoint =>
-      'Authorized Douban API endpoint';
-  @override
-  String get video_source_scrape_douban_endpoint_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
-  @override
-  String get video_source_scrape_douban_token => 'Authorized Douban API token';
-  @override
-  String get video_source_scrape_douban_token_hint =>
-      'Douban is unavailable unless both an authorized endpoint and token are configured';
   @override
   String get video_source_scrape_locale => 'Metadata language';
   @override
@@ -143793,6 +142840,51 @@ class _StringsZhHk extends _StringsEn {
   String get dict_style_prop_off => 'Off';
   @override
   String get dict_style_title => 'Dictionary styling';
+  @override
+  String get video_source_scrape_anidb_client => 'AniDB client name';
+  @override
+  String get video_source_scrape_anidb_client_hint =>
+      'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+  @override
+  String get video_source_scrape_anidb_client_version => 'AniDB client version';
+  @override
+  String get video_source_scrape_anidb_client_version_hint =>
+      'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+  @override
+  String get video_scrape_view_source => 'View source details';
+  @override
+  String get video_setting_auto_scrape_hint =>
+      'Automatically identify and fetch video metadata after library scans';
+  @override
+  String get video_resource_identity_provider => 'Resource identity source';
+  @override
+  String get video_source_scrape_clear_all => 'Clear all scrape records';
+  @override
+  String get video_source_scrape_clear_all_hint =>
+      'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+  @override
+  String get video_source_scrape_clear_all_confirm_title =>
+      'Clear all video scrape records?';
+  @override
+  String get video_source_scrape_clear_all_confirm_body =>
+      'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+  @override
+  String get video_source_scrape_clear_all_confirm_action => 'Clear';
+  @override
+  String get video_source_scrape_clear_all_completed =>
+      'All video scrape records have been cleared.';
+  @override
+  String get video_source_scrape_clear_all_completed_protected =>
+      'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+  @override
+  String get video_source_scrape_clear_all_busy =>
+      'A video scan or scrape is still running. Try again after it finishes.';
+  @override
+  String get video_source_scrape_clear_all_failed =>
+      'Could not clear all scrape records. No unverified user files were deleted.';
+  @override
+  String get video_source_scrape_clear_all_in_progress =>
+      'A scrape-record cleanup is already in progress.';
 }
 
 /// Flat map(s) containing all translations.
@@ -148455,51 +147547,12 @@ extension on _StringsEn {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'Screenshot';
       case 'video_screenshot_failed_reason':
@@ -148516,8 +147569,6 @@ extension on _StringsEn {
         return 'Auto-play next episode';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'Subtitle sync';
       case 'video_setting_av_delay_hint':
@@ -149209,8 +148260,6 @@ extension on _StringsEn {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -149270,8 +148319,6 @@ extension on _StringsEn {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -149429,12 +148476,6 @@ extension on _StringsEn {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -149681,8 +148722,6 @@ extension on _StringsEn {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_subscription_start_episode':
@@ -149998,8 +149037,6 @@ extension on _StringsEn {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -150008,14 +149045,9 @@ extension on _StringsEn {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -150143,10 +149175,6 @@ extension on _StringsEn {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -150155,8 +149183,6 @@ extension on _StringsEn {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -150182,26 +149208,6 @@ extension on _StringsEn {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -151501,6 +150507,40 @@ extension on _StringsEn {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -156160,51 +155200,12 @@ extension on _StringsAr {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'لقطة شاشة';
       case 'video_screenshot_failed_reason':
@@ -156221,8 +155222,6 @@ extension on _StringsAr {
         return 'التشغيل التلقائي للحلقة التالية';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'مزامنة الترجمة';
       case 'video_setting_av_delay_hint':
@@ -156915,8 +155914,6 @@ extension on _StringsAr {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -156976,8 +155973,6 @@ extension on _StringsAr {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -157135,12 +156130,6 @@ extension on _StringsAr {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -157387,8 +156376,6 @@ extension on _StringsAr {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -157702,8 +156689,6 @@ extension on _StringsAr {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -157712,14 +156697,9 @@ extension on _StringsAr {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -157847,10 +156827,6 @@ extension on _StringsAr {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -157859,8 +156835,6 @@ extension on _StringsAr {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -157886,26 +156860,6 @@ extension on _StringsAr {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -159207,6 +158161,40 @@ extension on _StringsAr {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -163887,51 +162875,12 @@ extension on _StringsDe {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'Screenshot';
       case 'video_screenshot_failed_reason':
@@ -163949,8 +162898,6 @@ extension on _StringsDe {
         return 'Nächste Folge automatisch abspielen';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'Untertitel-Synchronisierung';
       case 'video_setting_av_delay_hint':
@@ -164643,8 +163590,6 @@ extension on _StringsDe {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -164704,8 +163649,6 @@ extension on _StringsDe {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -164863,12 +163806,6 @@ extension on _StringsDe {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -165115,8 +164052,6 @@ extension on _StringsDe {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -165430,8 +164365,6 @@ extension on _StringsDe {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -165440,14 +164373,9 @@ extension on _StringsDe {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -165575,10 +164503,6 @@ extension on _StringsDe {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -165587,8 +164511,6 @@ extension on _StringsDe {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -165614,26 +164536,6 @@ extension on _StringsDe {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -166935,6 +165837,40 @@ extension on _StringsDe {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -171615,51 +170551,12 @@ extension on _StringsEs {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'Captura de pantalla';
       case 'video_screenshot_failed_reason':
@@ -171677,8 +170574,6 @@ extension on _StringsEs {
         return 'Reproducir automáticamente el siguiente episodio';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'Sincronía de subtítulos';
       case 'video_setting_av_delay_hint':
@@ -172370,8 +171265,6 @@ extension on _StringsEs {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -172431,8 +171324,6 @@ extension on _StringsEs {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -172590,12 +171481,6 @@ extension on _StringsEs {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -172842,8 +171727,6 @@ extension on _StringsEs {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -173157,8 +172040,6 @@ extension on _StringsEs {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -173167,14 +172048,9 @@ extension on _StringsEs {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -173302,10 +172178,6 @@ extension on _StringsEs {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -173314,8 +172186,6 @@ extension on _StringsEs {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -173341,26 +172211,6 @@ extension on _StringsEs {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -174662,6 +173512,40 @@ extension on _StringsEs {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -179347,51 +178231,12 @@ extension on _StringsFr {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'Capture d\'écran';
       case 'video_screenshot_failed_reason':
@@ -179410,8 +178255,6 @@ extension on _StringsFr {
         return 'Lecture auto de l\'épisode suivant';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'Synchronisation des sous-titres';
       case 'video_setting_av_delay_hint':
@@ -180103,8 +178946,6 @@ extension on _StringsFr {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -180164,8 +179005,6 @@ extension on _StringsFr {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -180323,12 +179162,6 @@ extension on _StringsFr {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -180575,8 +179408,6 @@ extension on _StringsFr {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -180890,8 +179721,6 @@ extension on _StringsFr {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -180900,14 +179729,9 @@ extension on _StringsFr {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -181035,10 +179859,6 @@ extension on _StringsFr {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -181047,8 +179867,6 @@ extension on _StringsFr {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -181074,26 +179892,6 @@ extension on _StringsFr {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -182395,6 +181193,40 @@ extension on _StringsFr {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -187063,51 +185895,12 @@ extension on _StringsId {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'Tangkapan layar';
       case 'video_screenshot_failed_reason':
@@ -187124,8 +185917,6 @@ extension on _StringsId {
         return 'Putar otomatis episode berikutnya';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'Sinkron subtitle';
       case 'video_setting_av_delay_hint':
@@ -187818,8 +186609,6 @@ extension on _StringsId {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -187879,8 +186668,6 @@ extension on _StringsId {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -188038,12 +186825,6 @@ extension on _StringsId {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -188290,8 +187071,6 @@ extension on _StringsId {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -188605,8 +187384,6 @@ extension on _StringsId {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -188615,14 +187392,9 @@ extension on _StringsId {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -188750,10 +187522,6 @@ extension on _StringsId {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -188762,8 +187530,6 @@ extension on _StringsId {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -188789,26 +187555,6 @@ extension on _StringsId {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -190110,6 +188856,40 @@ extension on _StringsId {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -194791,51 +193571,12 @@ extension on _StringsIt {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'Screenshot';
       case 'video_screenshot_failed_reason':
@@ -194853,8 +193594,6 @@ extension on _StringsIt {
         return 'Riproduci automaticamente l\'episodio successivo';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'Sincronizzazione sottotitoli';
       case 'video_setting_av_delay_hint':
@@ -195547,8 +194286,6 @@ extension on _StringsIt {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -195608,8 +194345,6 @@ extension on _StringsIt {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -195767,12 +194502,6 @@ extension on _StringsIt {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -196019,8 +194748,6 @@ extension on _StringsIt {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -196334,8 +195061,6 @@ extension on _StringsIt {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -196344,14 +195069,9 @@ extension on _StringsIt {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -196479,10 +195199,6 @@ extension on _StringsIt {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -196491,8 +195207,6 @@ extension on _StringsIt {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -196518,26 +195232,6 @@ extension on _StringsIt {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -197839,6 +196533,40 @@ extension on _StringsIt {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -202485,51 +201213,12 @@ extension on _StringsJa {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'スクリーンショット';
       case 'video_screenshot_failed_reason':
@@ -202546,8 +201235,6 @@ extension on _StringsJa {
         return '次のエピソードを自動再生';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return '字幕タイミング調整';
       case 'video_setting_av_delay_hint':
@@ -203238,8 +201925,6 @@ extension on _StringsJa {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -203299,8 +201984,6 @@ extension on _StringsJa {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -203458,12 +202141,6 @@ extension on _StringsJa {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -203710,8 +202387,6 @@ extension on _StringsJa {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -204025,8 +202700,6 @@ extension on _StringsJa {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -204035,14 +202708,9 @@ extension on _StringsJa {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -204170,10 +202838,6 @@ extension on _StringsJa {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -204182,8 +202846,6 @@ extension on _StringsJa {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -204209,26 +202871,6 @@ extension on _StringsJa {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -205530,6 +204172,40 @@ extension on _StringsJa {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -210179,51 +208855,12 @@ extension on _StringsKo {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return '스크린샷';
       case 'video_screenshot_failed_reason':
@@ -210240,8 +208877,6 @@ extension on _StringsKo {
         return '다음 에피소드 자동 재생';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return '자막 동기화';
       case 'video_setting_av_delay_hint':
@@ -210933,8 +209568,6 @@ extension on _StringsKo {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -210994,8 +209627,6 @@ extension on _StringsKo {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -211153,12 +209784,6 @@ extension on _StringsKo {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -211405,8 +210030,6 @@ extension on _StringsKo {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -211720,8 +210343,6 @@ extension on _StringsKo {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -211730,14 +210351,9 @@ extension on _StringsKo {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -211865,10 +210481,6 @@ extension on _StringsKo {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -211877,8 +210489,6 @@ extension on _StringsKo {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -211904,26 +210514,6 @@ extension on _StringsKo {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -213225,6 +211815,40 @@ extension on _StringsKo {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -217899,51 +216523,12 @@ extension on _StringsNl {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'Schermafbeelding';
       case 'video_screenshot_failed_reason':
@@ -217962,8 +216547,6 @@ extension on _StringsNl {
         return 'Volgende aflevering automatisch afspelen';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'Ondertitelsynchronisatie';
       case 'video_setting_av_delay_hint':
@@ -218656,8 +217239,6 @@ extension on _StringsNl {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -218717,8 +217298,6 @@ extension on _StringsNl {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -218876,12 +217455,6 @@ extension on _StringsNl {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -219128,8 +217701,6 @@ extension on _StringsNl {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -219443,8 +218014,6 @@ extension on _StringsNl {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -219453,14 +218022,9 @@ extension on _StringsNl {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -219588,10 +218152,6 @@ extension on _StringsNl {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -219600,8 +218160,6 @@ extension on _StringsNl {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -219627,26 +218185,6 @@ extension on _StringsNl {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -220948,6 +219486,40 @@ extension on _StringsNl {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -225621,51 +224193,12 @@ extension on _StringsPtBr {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'Captura de tela';
       case 'video_screenshot_failed_reason':
@@ -225683,8 +224216,6 @@ extension on _StringsPtBr {
         return 'Reproduzir o próximo episódio automaticamente';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'Ajuste de legenda';
       case 'video_setting_av_delay_hint':
@@ -226376,8 +224907,6 @@ extension on _StringsPtBr {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -226437,8 +224966,6 @@ extension on _StringsPtBr {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -226596,12 +225123,6 @@ extension on _StringsPtBr {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -226848,8 +225369,6 @@ extension on _StringsPtBr {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -227163,8 +225682,6 @@ extension on _StringsPtBr {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -227173,14 +225690,9 @@ extension on _StringsPtBr {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -227308,10 +225820,6 @@ extension on _StringsPtBr {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -227320,8 +225828,6 @@ extension on _StringsPtBr {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -227347,26 +225853,6 @@ extension on _StringsPtBr {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -228668,6 +227154,40 @@ extension on _StringsPtBr {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -233346,51 +231866,12 @@ extension on _StringsRu {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'Скриншот';
       case 'video_screenshot_failed_reason':
@@ -233408,8 +231889,6 @@ extension on _StringsRu {
         return 'Автовоспроизведение следующей серии';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'Синхронизация субтитров';
       case 'video_setting_av_delay_hint':
@@ -234101,8 +232580,6 @@ extension on _StringsRu {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -234162,8 +232639,6 @@ extension on _StringsRu {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -234321,12 +232796,6 @@ extension on _StringsRu {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -234573,8 +233042,6 @@ extension on _StringsRu {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -234888,8 +233355,6 @@ extension on _StringsRu {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -234898,14 +233363,9 @@ extension on _StringsRu {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -235033,10 +233493,6 @@ extension on _StringsRu {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -235045,8 +233501,6 @@ extension on _StringsRu {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -235072,26 +233526,6 @@ extension on _StringsRu {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -236393,6 +234827,40 @@ extension on _StringsRu {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -241054,51 +239522,12 @@ extension on _StringsTh {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'ภาพหน้าจอ';
       case 'video_screenshot_failed_reason':
@@ -241115,8 +239544,6 @@ extension on _StringsTh {
         return 'เล่นตอนถัดไปอัตโนมัติ';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'ปรับจังหวะคำบรรยาย';
       case 'video_setting_av_delay_hint':
@@ -241809,8 +240236,6 @@ extension on _StringsTh {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -241870,8 +240295,6 @@ extension on _StringsTh {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -242029,12 +240452,6 @@ extension on _StringsTh {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -242281,8 +240698,6 @@ extension on _StringsTh {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -242596,8 +241011,6 @@ extension on _StringsTh {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -242606,14 +241019,9 @@ extension on _StringsTh {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -242741,10 +241149,6 @@ extension on _StringsTh {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -242753,8 +241157,6 @@ extension on _StringsTh {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -242780,26 +241182,6 @@ extension on _StringsTh {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -244101,6 +242483,40 @@ extension on _StringsTh {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -248770,51 +247186,12 @@ extension on _StringsTr {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'Ekran görüntüsü';
       case 'video_screenshot_failed_reason':
@@ -248833,8 +247210,6 @@ extension on _StringsTr {
         return 'Sonraki bölümü otomatik oynat';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'Altyazı senkronu';
       case 'video_setting_av_delay_hint':
@@ -249526,8 +247901,6 @@ extension on _StringsTr {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -249587,8 +247960,6 @@ extension on _StringsTr {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -249746,12 +248117,6 @@ extension on _StringsTr {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -249998,8 +248363,6 @@ extension on _StringsTr {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -250313,8 +248676,6 @@ extension on _StringsTr {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -250323,14 +248684,9 @@ extension on _StringsTr {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -250458,10 +248814,6 @@ extension on _StringsTr {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -250470,8 +248822,6 @@ extension on _StringsTr {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -250497,26 +248847,6 @@ extension on _StringsTr {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -251818,6 +250148,40 @@ extension on _StringsTr {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -256484,51 +254848,12 @@ extension on _StringsVi {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return 'Chụp màn hình';
       case 'video_screenshot_failed_reason':
@@ -256546,8 +254871,6 @@ extension on _StringsVi {
         return 'Tự phát tập tiếp theo';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return 'Đồng bộ phụ đề';
       case 'video_setting_av_delay_hint':
@@ -257239,8 +255562,6 @@ extension on _StringsVi {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -257300,8 +255621,6 @@ extension on _StringsVi {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -257459,12 +255778,6 @@ extension on _StringsVi {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -257711,8 +256024,6 @@ extension on _StringsVi {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -258026,8 +256337,6 @@ extension on _StringsVi {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -258036,14 +256345,9 @@ extension on _StringsVi {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -258171,10 +256475,6 @@ extension on _StringsVi {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -258183,8 +256483,6 @@ extension on _StringsVi {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -258210,26 +256508,6 @@ extension on _StringsVi {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -259531,6 +257809,40 @@ extension on _StringsVi {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
@@ -264156,50 +262468,12 @@ extension on _StringsZhCn {
         return '视频无法访问';
       case 'video_resource_relink_success':
         return '已重新链接视频文件';
-      case 'video_scrape_air_date':
-        return '放送开始';
-      case 'video_scrape_applied':
-        return '封面已应用';
-      case 'video_scrape_apply_failed':
-        return '封面应用失败';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) => '同时应用到本合集全部 ${n} 集';
-      case 'video_scrape_batch_close':
-        return '关闭';
-      case 'video_scrape_confidence_high':
-        return '高匹配';
-      case 'video_scrape_confidence_low':
-        return '低匹配';
-      case 'video_scrape_confidence_medium':
-        return '中匹配';
       case 'video_scrape_episodes':
         return '话数';
       case 'video_scrape_info':
         return '条目信息';
-      case 'video_scrape_info_empty':
-        return '还没有条目资料。后台会自动刮削，也可以手动匹配。';
-      case 'video_scrape_no_results':
-        return '没有找到匹配结果';
-      case 'video_scrape_online_match':
-        return '在线匹配封面';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} 人评分';
-      case 'video_scrape_rescrape':
-        return '重新刮削';
-      case 'video_scrape_search':
-        return '搜索';
-      case 'video_scrape_search_hint':
-        return '按片名搜索';
-      case 'video_scrape_source_offline':
-        return '离线库';
-      case 'video_scrape_summary':
-        return '简介';
-      case 'video_scrape_tags':
-        return '标签';
-      case 'video_scrape_use':
-        return '使用';
-      case 'video_scrape_view_subject':
-        return '在 Bangumi 查看';
       case 'video_screenshot':
         return '截图';
       case 'video_screenshot_failed_reason':
@@ -264216,8 +262490,6 @@ extension on _StringsZhCn {
         return '自动连播下一集';
       case 'video_setting_auto_scrape':
         return '自动刮削条目资料';
-      case 'video_setting_auto_scrape_hint':
-        return '库里的视频后台自动从 Bangumi 获取封面、简介、评分与标签';
       case 'video_setting_av_delay':
         return '字幕调轴';
       case 'video_setting_av_delay_hint':
@@ -264904,8 +263176,6 @@ extension on _StringsZhCn {
         return '游戏';
       case 'download_rate_limit_lan_exempt':
         return '不作用于局域网；局域网内的传输始终全速进行。';
-      case 'video_scrape_search_failed':
-        return '搜索失败，点「搜索」可重试。';
       case 'scrape_reason_network':
         return '没能从封面源取到有效响应，请检查网络后重试。';
       case 'scrape_reason_server':
@@ -264965,8 +263235,6 @@ extension on _StringsZhCn {
         return '同时作用于局域网内的传输。';
       case 'video_collection_no_local_member':
         return '本合集没有本地视频';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => '为「${name}」匹配封面';
       case 'gal_mining_image_mode':
         return 'Galgame 制卡配图';
       case 'gal_mining_image_mode_screenshot':
@@ -265121,12 +263389,6 @@ extension on _StringsZhCn {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '有 ${count} 个字幕 · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return '手动匹配会替换本集封面，并保存来源映射和条目资料。会同时搜索全部可用来源，结果按匹配度排序。';
-      case 'video_scrape_collection_match_hint':
-        return '这里只替换合集封面，不会修改各集封面或条目资料。会同时搜索全部可用来源，结果按匹配度排序。';
-      case 'video_scrape_apply_to_collection_hint':
-        return '这会把同一张封面写到每一集；只有确实需要统一单集封面时才开启。';
       case 'manga_online_source_disabled':
         return '此互联网来源已关闭，请在「来源」中开启后浏览目录。';
       case 'selection_web_search':
@@ -265370,8 +263632,6 @@ extension on _StringsZhCn {
         return ({required Object name}) => '新名称：${name}';
       case 'video_scrape_collection_rename_keep':
         return '保留当前名称';
-      case 'video_scrape_collection_rename_confirm':
-        return '重命名';
       case 'download_task_toggle_failed':
         return '暂停/恢复操作失败';
       case 'download_subscription_start_episode':
@@ -265687,8 +263947,6 @@ extension on _StringsZhCn {
         return '保留原合集';
       case 'collection_split_confirm':
         return '拆分';
-      case 'collection_episode_open_bangumi':
-        return '在 Bangumi 打开本集';
       case 'collection_relation_bound':
         return ({required Object name}) => '已绑定到 ${name}';
       case 'collection_episode_rename_apply':
@@ -265697,13 +263955,9 @@ extension on _StringsZhCn {
         return ({required Object n}) => '已拆分为 ${n} 个合集';
       case 'collection_episode_watched_at':
         return ({required Object position}) => '看到 ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) => '解析 Bangumi 章节失败：${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             '已重命名 ${n} 集 · ${m} 集失败';
-      case 'collection_episode_bangumi_not_found':
-        return '未找到对应集，已打开条目页';
       case 'sync_err_browser_timeout':
         return '浏览器授权没有返回到应用。请重试，并确认代理放行了本机回环地址 127.0.0.1。';
       case 'manga_rescan_run':
@@ -265831,10 +264085,6 @@ extension on _StringsZhCn {
         return '刮削此来源';
       case 'video_source_scrape_settings':
         return '来源刮削设置';
-      case 'video_source_scrape_provider':
-        return '主刮削来源';
-      case 'video_source_scrape_provider_inherit':
-        return '继承全局默认';
       case 'video_source_scrape_auto_after_scan':
         return '扫描后自动刮削';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -265843,8 +264093,6 @@ extension on _StringsZhCn {
         return '写入 NFO 文件';
       case 'video_source_scrape_write_images':
         return '写入图片文件';
-      case 'video_source_scrape_use_fanart':
-        return '使用 Fanart 图片';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -265870,26 +264118,6 @@ extension on _StringsZhCn {
         return '写入 NFO 与图片';
       case 'video_source_scrape_status_interrupted':
         return '已中断';
-      case 'video_source_scrape_global_provider':
-        return '视频默认刮削来源';
-      case 'video_source_scrape_global_provider_hint':
-        return '供选择“继承全局默认”的视频来源使用';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API Key';
-      case 'video_source_scrape_fanart_key_hint':
-        return '可选，用于从 Fanart 补充缺少的图片';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi 访问令牌';
-      case 'video_source_scrape_bangumi_token_hint':
-        return '可选，用于访问 Bangumi 官方 v0 API';
-      case 'video_source_scrape_douban_endpoint':
-        return '已授权的豆瓣 API 端点';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return '仅当已授权端点和令牌都已配置时豆瓣来源才可用';
-      case 'video_source_scrape_douban_token':
-        return '已授权的豆瓣 API 令牌';
-      case 'video_source_scrape_douban_token_hint':
-        return '仅当已授权端点和令牌都已配置时豆瓣来源才可用';
       case 'video_source_scrape_locale':
         return '资料语言';
       case 'video_source_scrape_locale_hint':
@@ -267185,6 +265413,40 @@ extension on _StringsZhCn {
         return '关';
       case 'dict_style_title':
         return '词典样式';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB 客户端名称';
+      case 'video_source_scrape_anidb_client_hint':
+        return '已登记的 AniDB HTTP API 客户端名称；留空时仅使用缓存标题目录';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB 客户端版本';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return '在 AniDB 登记的正整数版本；两项均有效前不会启用 HTTP API';
+      case 'video_scrape_view_source':
+        return '查看来源详情';
+      case 'video_setting_auto_scrape_hint':
+        return '媒体库扫描后自动识别并获取视频元数据';
+      case 'video_resource_identity_provider':
+        return '资源身份来源';
+      case 'video_source_scrape_clear_all':
+        return '清理全部刮削记录';
+      case 'video_source_scrape_clear_all_hint':
+        return '清除全部视频刮削资料，以及 Fushi 生成的封面和 NFO。';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return '清理全部视频刮削记录？';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return '这会清除全部视频刮削资料和来源绑定、清空“系列”结果，并删除 Fushi 生成且未被修改的封面与 NFO。视频文件、媒体库条目、底层分组、观看进度、字幕、标签、手动选择的封面及用户修改过的旁车文件都会保留。此操作无法撤销。';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return '清理';
+      case 'video_source_scrape_clear_all_completed':
+        return '已清理全部视频刮削记录。';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return '刮削记录已清理；被修改或无法验证的旁车文件已保留。';
+      case 'video_source_scrape_clear_all_busy':
+        return '视频扫描或刮削仍在运行，请等待任务结束后重试。';
+      case 'video_source_scrape_clear_all_failed':
+        return '未能清理全部刮削记录；未删除任何无法验证的用户文件。';
+      case 'video_source_scrape_clear_all_in_progress':
+        return '正在清理刮削记录，请稍候。';
       default:
         return null;
     }
@@ -271827,51 +270089,12 @@ extension on _StringsZhHk {
         return 'Video unavailable';
       case 'video_resource_relink_success':
         return 'Video relinked';
-      case 'video_scrape_air_date':
-        return 'Aired';
-      case 'video_scrape_applied':
-        return 'Cover applied';
-      case 'video_scrape_apply_failed':
-        return 'Failed to apply cover';
-      case 'video_scrape_apply_to_collection':
-        return ({required Object n}) =>
-            'Also apply to all ${n} episodes in this collection';
-      case 'video_scrape_batch_close':
-        return 'Close';
-      case 'video_scrape_confidence_high':
-        return 'High match';
-      case 'video_scrape_confidence_low':
-        return 'Low match';
-      case 'video_scrape_confidence_medium':
-        return 'Medium match';
       case 'video_scrape_episodes':
         return 'Episodes';
       case 'video_scrape_info':
         return 'Series info';
-      case 'video_scrape_info_empty':
-        return 'No series info yet. It is fetched automatically in the background; you can also match it manually.';
-      case 'video_scrape_no_results':
-        return 'No matches found';
-      case 'video_scrape_online_match':
-        return 'Match cover online';
       case 'video_scrape_rating_votes':
         return ({required Object count}) => '${count} ratings';
-      case 'video_scrape_rescrape':
-        return 'Re-scrape';
-      case 'video_scrape_search':
-        return 'Search';
-      case 'video_scrape_search_hint':
-        return 'Search by title';
-      case 'video_scrape_source_offline':
-        return 'Offline';
-      case 'video_scrape_summary':
-        return 'Synopsis';
-      case 'video_scrape_tags':
-        return 'Tags';
-      case 'video_scrape_use':
-        return 'Use';
-      case 'video_scrape_view_subject':
-        return 'View on Bangumi';
       case 'video_screenshot':
         return '截圖';
       case 'video_screenshot_failed_reason':
@@ -271888,8 +270111,6 @@ extension on _StringsZhHk {
         return '自動連播下一集';
       case 'video_setting_auto_scrape':
         return 'Auto-fetch series info';
-      case 'video_setting_auto_scrape_hint':
-        return 'Silently fetch cover, synopsis, rating and tags from Bangumi for videos in your library';
       case 'video_setting_av_delay':
         return '字幕調軸';
       case 'video_setting_av_delay_hint':
@@ -272579,8 +270800,6 @@ extension on _StringsZhHk {
         return 'Game';
       case 'download_rate_limit_lan_exempt':
         return 'Does not apply within your local network; LAN transfers always run at full speed.';
-      case 'video_scrape_search_failed':
-        return 'Search failed. Tap Search to retry.';
       case 'scrape_reason_network':
         return 'Could not get a valid response from the cover source. Check your network and retry.';
       case 'scrape_reason_server':
@@ -272640,8 +270859,6 @@ extension on _StringsZhHk {
         return 'Also applies within your local network.';
       case 'video_collection_no_local_member':
         return 'No local video in this collection';
-      case 'video_scrape_online_match_collection':
-        return ({required Object name}) => 'Match cover for ${name}';
       case 'gal_mining_image_mode':
         return 'Galgame card image';
       case 'gal_mining_image_mode_screenshot':
@@ -272799,12 +271016,6 @@ extension on _StringsZhHk {
       case 'video_jimaku_episode_available':
         return ({required Object count, required Object languages}) =>
             '${count} subtitles available · ${languages}';
-      case 'video_scrape_manual_match_hint':
-        return 'Manual matching replaces this episode cover and saves its source mapping and title metadata. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_collection_match_hint':
-        return 'This only replaces the collection cover. Episode covers and title metadata are not changed. All available sources are searched together and results are ranked by match confidence.';
-      case 'video_scrape_apply_to_collection_hint':
-        return 'This writes the same cover to every episode. Leave it off unless that is intentional.';
       case 'manga_online_source_disabled':
         return 'This internet source is disabled. Enable it in Sources to browse the catalog.';
       case 'selection_web_search':
@@ -273051,8 +271262,6 @@ extension on _StringsZhHk {
         return ({required Object name}) => 'New name: ${name}';
       case 'video_scrape_collection_rename_keep':
         return 'Keep current name';
-      case 'video_scrape_collection_rename_confirm':
-        return 'Rename';
       case 'download_task_toggle_failed':
         return 'Pause/resume failed';
       case 'download_task_eta':
@@ -273366,8 +271575,6 @@ extension on _StringsZhHk {
         return 'Keep the original collection';
       case 'collection_split_confirm':
         return 'Split';
-      case 'collection_episode_open_bangumi':
-        return 'Open this episode on Bangumi';
       case 'collection_relation_bound':
         return ({required Object name}) => 'Bound to ${name}';
       case 'collection_episode_rename_apply':
@@ -273376,14 +271583,9 @@ extension on _StringsZhHk {
         return ({required Object n}) => 'Split into ${n} collections';
       case 'collection_episode_watched_at':
         return ({required Object position}) => 'Watched to ${position}';
-      case 'collection_episode_bangumi_open_failed':
-        return ({required Object error}) =>
-            'Could not resolve the episode on Bangumi: ${error}';
       case 'collection_episode_rename_partial':
         return ({required Object n, required Object m}) =>
             'Renamed ${n} episodes, ${m} failed';
-      case 'collection_episode_bangumi_not_found':
-        return 'Episode not found on Bangumi; opened the subject page instead';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
       case 'manga_rescan_run':
@@ -273511,10 +271713,6 @@ extension on _StringsZhHk {
         return 'Scrape this source';
       case 'video_source_scrape_settings':
         return 'Source scrape settings';
-      case 'video_source_scrape_provider':
-        return 'Primary metadata source';
-      case 'video_source_scrape_provider_inherit':
-        return 'Use global default';
       case 'video_source_scrape_auto_after_scan':
         return 'Scrape after scanning';
       case 'video_source_scrape_auto_after_scan_hint':
@@ -273523,8 +271721,6 @@ extension on _StringsZhHk {
         return 'Write NFO files';
       case 'video_source_scrape_write_images':
         return 'Write image files';
-      case 'video_source_scrape_use_fanart':
-        return 'Use Fanart images';
       case 'video_source_scrape_progress':
         return (
                 {required Object phase,
@@ -273550,26 +271746,6 @@ extension on _StringsZhHk {
         return 'Writing sidecars';
       case 'video_source_scrape_status_interrupted':
         return 'Interrupted';
-      case 'video_source_scrape_global_provider':
-        return 'Default metadata source';
-      case 'video_source_scrape_global_provider_hint':
-        return 'Used by video sources that inherit the global setting';
-      case 'video_source_scrape_fanart_key':
-        return 'Fanart API key';
-      case 'video_source_scrape_fanart_key_hint':
-        return 'Optional key used to fill missing artwork from Fanart';
-      case 'video_source_scrape_bangumi_token':
-        return 'Bangumi access token';
-      case 'video_source_scrape_bangumi_token_hint':
-        return 'Optional access token for the official Bangumi API v0';
-      case 'video_source_scrape_douban_endpoint':
-        return 'Authorized Douban API endpoint';
-      case 'video_source_scrape_douban_endpoint_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
-      case 'video_source_scrape_douban_token':
-        return 'Authorized Douban API token';
-      case 'video_source_scrape_douban_token_hint':
-        return 'Douban is unavailable unless both an authorized endpoint and token are configured';
       case 'video_source_scrape_locale':
         return 'Metadata language';
       case 'video_source_scrape_locale_hint':
@@ -274871,6 +273047,40 @@ extension on _StringsZhHk {
         return 'Off';
       case 'dict_style_title':
         return 'Dictionary styling';
+      case 'video_source_scrape_anidb_client':
+        return 'AniDB client name';
+      case 'video_source_scrape_anidb_client_hint':
+        return 'Registered AniDB HTTP API client name; leave blank to use the cached title catalog only';
+      case 'video_source_scrape_anidb_client_version':
+        return 'AniDB client version';
+      case 'video_source_scrape_anidb_client_version_hint':
+        return 'Positive version registered with AniDB; HTTP API stays disabled until both fields are valid';
+      case 'video_scrape_view_source':
+        return 'View source details';
+      case 'video_setting_auto_scrape_hint':
+        return 'Automatically identify and fetch video metadata after library scans';
+      case 'video_resource_identity_provider':
+        return 'Resource identity source';
+      case 'video_source_scrape_clear_all':
+        return 'Clear all scrape records';
+      case 'video_source_scrape_clear_all_hint':
+        return 'Remove all video scrape metadata and Fushi-generated covers and NFO files.';
+      case 'video_source_scrape_clear_all_confirm_title':
+        return 'Clear all video scrape records?';
+      case 'video_source_scrape_clear_all_confirm_body':
+        return 'This removes all scraped metadata and source bindings, clears the Series results, and deletes unmodified covers and NFO files generated by Fushi. Video files, library entries, groups, watch progress, subtitles, tags, manually selected covers, and user-modified sidecars are kept. This cannot be undone.';
+      case 'video_source_scrape_clear_all_confirm_action':
+        return 'Clear';
+      case 'video_source_scrape_clear_all_completed':
+        return 'All video scrape records have been cleared.';
+      case 'video_source_scrape_clear_all_completed_protected':
+        return 'Scrape records were cleared. Modified or unverifiable sidecar files were kept.';
+      case 'video_source_scrape_clear_all_busy':
+        return 'A video scan or scrape is still running. Try again after it finishes.';
+      case 'video_source_scrape_clear_all_failed':
+        return 'Could not clear all scrape records. No unverified user files were deleted.';
+      case 'video_source_scrape_clear_all_in_progress':
+        return 'A scrape-record cleanup is already in progress.';
       default:
         return null;
     }
