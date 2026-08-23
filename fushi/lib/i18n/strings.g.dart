@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63818 (3754 per locale)
+/// Strings: 63869 (3757 per locale)
 ///
-/// Built on 2026-08-23 at 08:29 UTC
+/// Built on 2026-08-23 at 08:41 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5069,7 +5069,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get dict_style_part_entry_card => 'Entry card';
   String get dict_style_part_expression => 'Headword';
   String get dict_style_part_ruby => 'Furigana';
-  String get dict_style_part_expression_tag => 'Word tags';
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   String get dict_style_part_frequency => 'Frequency';
   String get dict_style_part_pitch => 'Pitch accent';
@@ -5089,6 +5088,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get dict_style_preview_title => 'Preview';
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   String get dict_style_prop_default => 'Default';
+  String get dict_style_part_expression_tag => 'Expression tags';
+  String get dict_style_prop_on => 'On';
+  String get dict_style_prop_off => 'Off';
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -13744,8 +13747,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -13783,6 +13784,14 @@ class _StringsAr extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -22503,8 +22512,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -22542,6 +22549,14 @@ class _StringsDe extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -31278,8 +31293,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -31317,6 +31330,14 @@ class _StringsEs extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -40065,8 +40086,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -40104,6 +40123,14 @@ class _StringsFr extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -48782,8 +48809,6 @@ class _StringsId extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -48821,6 +48846,14 @@ class _StringsId extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -57543,8 +57576,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -57582,6 +57613,14 @@ class _StringsIt extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -66121,8 +66160,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -66160,6 +66197,14 @@ class _StringsJa extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -74707,8 +74752,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -74746,6 +74789,14 @@ class _StringsKo extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -83448,8 +83499,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -83487,6 +83536,14 @@ class _StringsNl extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -92201,8 +92258,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -92240,6 +92295,14 @@ class _StringsPtBr extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -100941,8 +101004,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -100980,6 +101041,14 @@ class _StringsRu extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -109629,8 +109698,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -109668,6 +109735,14 @@ class _StringsTh extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -118348,8 +118423,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -118387,6 +118460,14 @@ class _StringsTr extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -127053,8 +127134,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -127092,6 +127171,14 @@ class _StringsVi extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 // Path: <root>
@@ -135102,8 +135189,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get dict_style_part_ruby => '振假名';
   @override
-  String get dict_style_part_expression_tag => '词性标签';
-  @override
   String get dict_style_part_deinflection_tag => '去屈折链';
   @override
   String get dict_style_part_frequency => '频率';
@@ -135141,6 +135226,14 @@ class _StringsZhCn extends _StringsEn {
   String get dict_style_pick_hint => '点预览里的部位可直接跳过去';
   @override
   String get dict_style_prop_default => '默认';
+  @override
+  String get dict_style_part_expression_tag => '表达标签';
+  @override
+  String get dict_style_prop_on => '开';
+  @override
+  String get dict_style_prop_off => '关';
+  @override
+  String get dict_style_title => '词典样式';
 }
 
 // Path: <root>
@@ -143605,8 +143698,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get dict_style_part_ruby => 'Furigana';
   @override
-  String get dict_style_part_expression_tag => 'Word tags';
-  @override
   String get dict_style_part_deinflection_tag => 'Deinflection chain';
   @override
   String get dict_style_part_frequency => 'Frequency';
@@ -143644,6 +143735,14 @@ class _StringsZhHk extends _StringsEn {
   String get dict_style_pick_hint => 'Tap a part in the preview to jump to it';
   @override
   String get dict_style_prop_default => 'Default';
+  @override
+  String get dict_style_part_expression_tag => 'Expression tags';
+  @override
+  String get dict_style_prop_on => 'On';
+  @override
+  String get dict_style_prop_off => 'Off';
+  @override
+  String get dict_style_title => 'Dictionary styling';
 }
 
 /// Flat map(s) containing all translations.
@@ -151304,8 +151403,6 @@ extension on _StringsEn {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -151344,6 +151441,14 @@ extension on _StringsEn {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -159002,8 +159107,6 @@ extension on _StringsAr {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -159042,6 +159145,14 @@ extension on _StringsAr {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -166722,8 +166833,6 @@ extension on _StringsDe {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -166762,6 +166871,14 @@ extension on _StringsDe {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -174441,8 +174558,6 @@ extension on _StringsEs {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -174481,6 +174596,14 @@ extension on _StringsEs {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -182166,8 +182289,6 @@ extension on _StringsFr {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -182206,6 +182327,14 @@ extension on _StringsFr {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -189873,8 +190002,6 @@ extension on _StringsId {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -189913,6 +190040,14 @@ extension on _StringsId {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -197594,8 +197729,6 @@ extension on _StringsIt {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -197634,6 +197767,14 @@ extension on _StringsIt {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -205277,8 +205418,6 @@ extension on _StringsJa {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -205317,6 +205456,14 @@ extension on _StringsJa {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -212964,8 +213111,6 @@ extension on _StringsKo {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -213004,6 +213149,14 @@ extension on _StringsKo {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -220679,8 +220832,6 @@ extension on _StringsNl {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -220719,6 +220870,14 @@ extension on _StringsNl {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -228391,8 +228550,6 @@ extension on _StringsPtBr {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -228431,6 +228588,14 @@ extension on _StringsPtBr {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -236108,8 +236273,6 @@ extension on _StringsRu {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -236148,6 +236311,14 @@ extension on _StringsRu {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -243808,8 +243979,6 @@ extension on _StringsTh {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -243848,6 +244017,14 @@ extension on _StringsTh {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -251517,8 +251694,6 @@ extension on _StringsTr {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -251557,6 +251732,14 @@ extension on _StringsTr {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -259222,8 +259405,6 @@ extension on _StringsVi {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -259262,6 +259443,14 @@ extension on _StringsVi {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
@@ -266868,8 +267057,6 @@ extension on _StringsZhCn {
         return '词头';
       case 'dict_style_part_ruby':
         return '振假名';
-      case 'dict_style_part_expression_tag':
-        return '词性标签';
       case 'dict_style_part_deinflection_tag':
         return '去屈折链';
       case 'dict_style_part_frequency':
@@ -266908,6 +267095,14 @@ extension on _StringsZhCn {
         return '点预览里的部位可直接跳过去';
       case 'dict_style_prop_default':
         return '默认';
+      case 'dict_style_part_expression_tag':
+        return '表达标签';
+      case 'dict_style_prop_on':
+        return '开';
+      case 'dict_style_prop_off':
+        return '关';
+      case 'dict_style_title':
+        return '词典样式';
       default:
         return null;
     }
@@ -274546,8 +274741,6 @@ extension on _StringsZhHk {
         return 'Headword';
       case 'dict_style_part_ruby':
         return 'Furigana';
-      case 'dict_style_part_expression_tag':
-        return 'Word tags';
       case 'dict_style_part_deinflection_tag':
         return 'Deinflection chain';
       case 'dict_style_part_frequency':
@@ -274586,6 +274779,14 @@ extension on _StringsZhHk {
         return 'Tap a part in the preview to jump to it';
       case 'dict_style_prop_default':
         return 'Default';
+      case 'dict_style_part_expression_tag':
+        return 'Expression tags';
+      case 'dict_style_prop_on':
+        return 'On';
+      case 'dict_style_prop_off':
+        return 'Off';
+      case 'dict_style_title':
+        return 'Dictionary styling';
       default:
         return null;
     }
