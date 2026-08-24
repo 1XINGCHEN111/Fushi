@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64600 (3800 per locale)
+/// Strings: 64651 (3803 per locale)
 ///
-/// Built on 2026-08-24 at 19:42 UTC
+/// Built on 2026-08-24 at 20:03 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5164,6 +5164,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get game_hook_btn_workbench => 'Open the capture workbench';
   String get game_hook_btn_topmost => 'Keep on top';
   String get game_hook_btn_close => 'Close the overlay';
+  String get module_downloads_label => 'Downloads';
+  String get module_lookup_label => 'Lookup';
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -13961,6 +13965,13 @@ class _StringsAr extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -22963,6 +22974,13 @@ class _StringsDe extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -32008,6 +32026,13 @@ class _StringsEs extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -41082,6 +41107,13 @@ class _StringsFr extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -49989,6 +50021,13 @@ class _StringsId extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -58969,6 +59008,13 @@ class _StringsIt extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -67402,6 +67448,13 @@ class _StringsJa extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -75851,6 +75904,13 @@ class _StringsKo extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -84790,6 +84850,13 @@ class _StringsNl extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -93785,6 +93852,13 @@ class _StringsPtBr extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -102754,6 +102828,13 @@ class _StringsRu extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -111544,6 +111625,13 @@ class _StringsTh extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -120438,6 +120526,13 @@ class _StringsTr extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -129313,6 +129408,13 @@ class _StringsVi extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 // Path: <root>
@@ -137476,6 +137578,12 @@ class _StringsZhCn extends _StringsEn {
   String get game_hook_btn_topmost => '保持置顶';
   @override
   String get game_hook_btn_close => '关闭浮窗';
+  @override
+  String get module_downloads_label => '下载';
+  @override
+  String get module_lookup_label => '查词';
+  @override
+  String get module_tool_toggle_hint => '在底栏/侧栏显示该页；关闭即隐藏';
 }
 
 // Path: <root>
@@ -145655,6 +145763,13 @@ class _StringsZhHk extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get module_downloads_label => 'Downloads';
+  @override
+  String get module_lookup_label => 'Lookup';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
 }
 
 /// Flat map(s) containing all translations.
@@ -153449,6 +153564,12 @@ extension on _StringsEn {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -161240,6 +161361,12 @@ extension on _StringsAr {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -169071,6 +169198,12 @@ extension on _StringsDe {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -176894,6 +177027,12 @@ extension on _StringsEs {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -184725,6 +184864,12 @@ extension on _StringsFr {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -192530,6 +192675,12 @@ extension on _StringsId {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -200355,6 +200506,12 @@ extension on _StringsIt {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -208116,6 +208273,12 @@ extension on _StringsJa {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -215879,6 +216042,12 @@ extension on _StringsKo {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -223697,6 +223866,12 @@ extension on _StringsNl {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -231511,6 +231686,12 @@ extension on _StringsPtBr {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -239332,6 +239513,12 @@ extension on _StringsRu {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -247127,6 +247314,12 @@ extension on _StringsTh {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -254937,6 +255130,12 @@ extension on _StringsTr {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -262741,6 +262940,12 @@ extension on _StringsVi {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
@@ -270483,6 +270688,12 @@ extension on _StringsZhCn {
         return '保持置顶';
       case 'game_hook_btn_close':
         return '关闭浮窗';
+      case 'module_downloads_label':
+        return '下载';
+      case 'module_lookup_label':
+        return '查词';
+      case 'module_tool_toggle_hint':
+        return '在底栏/侧栏显示该页；关闭即隐藏';
       default:
         return null;
     }
@@ -278226,6 +278437,12 @@ extension on _StringsZhHk {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'module_downloads_label':
+        return 'Downloads';
+      case 'module_lookup_label':
+        return 'Lookup';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
       default:
         return null;
     }
