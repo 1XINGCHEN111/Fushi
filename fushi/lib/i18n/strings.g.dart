@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63784 (3752 per locale)
+/// Strings: 63886 (3758 per locale)
 ///
-/// Built on 2026-08-23 at 16:17 UTC
+/// Built on 2026-08-24 at 03:12 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5095,6 +5095,16 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Install failed: ${message}';
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -13793,6 +13803,22 @@ class _StringsAr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -22556,6 +22582,22 @@ class _StringsDe extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -31335,6 +31377,22 @@ class _StringsEs extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -40126,6 +40184,22 @@ class _StringsFr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -48847,6 +48921,22 @@ class _StringsId extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -57612,6 +57702,22 @@ class _StringsIt extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -66194,6 +66300,22 @@ class _StringsJa extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -74784,6 +74906,22 @@ class _StringsKo extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -83529,6 +83667,22 @@ class _StringsNl extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -92286,6 +92440,22 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -101030,6 +101200,22 @@ class _StringsRu extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -109722,6 +109908,22 @@ class _StringsTh extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -118445,6 +118647,22 @@ class _StringsTr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -127154,6 +127372,22 @@ class _StringsVi extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 // Path: <root>
@@ -135209,6 +135443,19 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
+  @override
+  String get download_backend_setup_title => '配置下载后端';
+  @override
+  String get download_backend_setup_intro => '选择由哪个引擎执行下载任务，之后可随时在下载设置里更改。';
+  @override
+  String get download_backend_embedded_hint => '推荐。下载在 Fushi 内部完成，无需另外安装软件。';
+  @override
+  String get download_backend_qb_hint => '连接到你已经在运行的 qBittorrent WebUI。';
+  @override
+  String get download_backend_setup_start => '开始配置';
+  @override
+  String get download_backend_embedded_unavailable =>
+      '本次安装缺少内置引擎运行库。请重装完整安装包，或改用外接 qBittorrent。';
 }
 
 // Path: <root>
@@ -143716,6 +143963,22 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
 }
 
 /// Flat map(s) containing all translations.
@@ -151410,6 +151673,18 @@ extension on _StringsEn {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -159102,6 +159377,18 @@ extension on _StringsAr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -166816,6 +167103,18 @@ extension on _StringsDe {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -174529,6 +174828,18 @@ extension on _StringsEs {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -182248,6 +182559,18 @@ extension on _StringsFr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -189949,6 +190272,18 @@ extension on _StringsId {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -197664,6 +197999,18 @@ extension on _StringsIt {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -205341,6 +205688,18 @@ extension on _StringsJa {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -213022,6 +213381,18 @@ extension on _StringsKo {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -220731,6 +221102,18 @@ extension on _StringsNl {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -228437,6 +228820,18 @@ extension on _StringsPtBr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -236148,6 +236543,18 @@ extension on _StringsRu {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -243842,6 +244249,18 @@ extension on _StringsTh {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -251545,6 +251964,18 @@ extension on _StringsTr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -259244,6 +259675,18 @@ extension on _StringsVi {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
@@ -266886,6 +267329,18 @@ extension on _StringsZhCn {
         return ({required Object message}) => '安装失败：${message}';
       case 'game_hook_reason_capability_probe_failed':
         return '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
+      case 'download_backend_setup_title':
+        return '配置下载后端';
+      case 'download_backend_setup_intro':
+        return '选择由哪个引擎执行下载任务，之后可随时在下载设置里更改。';
+      case 'download_backend_embedded_hint':
+        return '推荐。下载在 Fushi 内部完成，无需另外安装软件。';
+      case 'download_backend_qb_hint':
+        return '连接到你已经在运行的 qBittorrent WebUI。';
+      case 'download_backend_setup_start':
+        return '开始配置';
+      case 'download_backend_embedded_unavailable':
+        return '本次安装缺少内置引擎运行库。请重装完整安装包，或改用外接 qBittorrent。';
       default:
         return null;
     }
@@ -274558,6 +275013,18 @@ extension on _StringsZhHk {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       default:
         return null;
     }
