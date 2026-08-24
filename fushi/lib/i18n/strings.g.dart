@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64345 (3785 per locale)
+/// Strings: 64447 (3791 per locale)
 ///
-/// Built on 2026-08-24 at 09:09 UTC
+/// Built on 2026-08-24 at 15:54 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5147,6 +5147,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'This device has no built-in text recognition available';
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  String get settings_destination_services => 'Online services';
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  String get section_services_subtitles => 'Subtitle sources';
+  String get section_services_resources => 'Resource indexers';
+  String get section_services_metadata => 'Metadata scraping';
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -13912,6 +13920,20 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -22882,6 +22904,20 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -31895,6 +31931,20 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -40937,6 +40987,20 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -49812,6 +49876,20 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -58760,6 +58838,20 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -67161,6 +67253,20 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -75578,6 +75684,20 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -84485,6 +84605,20 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -93448,6 +93582,20 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -102385,6 +102533,20 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -111143,6 +111305,20 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -120005,6 +120181,20 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -128848,6 +129038,20 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 // Path: <root>
@@ -136980,6 +137184,19 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       '在线章节的页面不在本地，只能用 Google Lens 识别——页面图片会上传给 Google。';
+  @override
+  String get settings_destination_services => '在线服务';
+  @override
+  String get settings_destination_services_summary => '第三方 API、索引器与媒体服务器';
+  @override
+  String get section_services_subtitles => '字幕来源';
+  @override
+  String get section_services_resources => '资源索引器';
+  @override
+  String get section_services_metadata => '元数据刮削';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku、OpenSubtitles、Torznab、Jellyfin、AniDB、TMDB 统一在此配置';
 }
 
 // Path: <root>
@@ -145127,6 +145344,20 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get settings_destination_services => 'Online services';
+  @override
+  String get settings_destination_services_summary =>
+      'Third-party APIs, indexers and media servers';
+  @override
+  String get section_services_subtitles => 'Subtitle sources';
+  @override
+  String get section_services_resources => 'Resource indexers';
+  @override
+  String get section_services_metadata => 'Metadata scraping';
+  @override
+  String get settings_services_link_subtitle =>
+      'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
 }
 
 /// Flat map(s) containing all translations.
@@ -152891,6 +153122,18 @@ extension on _StringsEn {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -160652,6 +160895,18 @@ extension on _StringsAr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -168453,6 +168708,18 @@ extension on _StringsDe {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -176246,6 +176513,18 @@ extension on _StringsEs {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -184047,6 +184326,18 @@ extension on _StringsFr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -191822,6 +192113,18 @@ extension on _StringsId {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -199617,6 +199920,18 @@ extension on _StringsIt {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -207348,6 +207663,18 @@ extension on _StringsJa {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -215081,6 +215408,18 @@ extension on _StringsKo {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -222869,6 +223208,18 @@ extension on _StringsNl {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -230653,6 +231004,18 @@ extension on _StringsPtBr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -238444,6 +238807,18 @@ extension on _StringsRu {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -246209,6 +246584,18 @@ extension on _StringsTh {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -253989,6 +254376,18 @@ extension on _StringsTr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -261763,6 +262162,18 @@ extension on _StringsVi {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
@@ -269475,6 +269886,18 @@ extension on _StringsZhCn {
         return '此设备没有可用的系统文字识别';
       case 'manga_tap_ocr_online_lens_only':
         return '在线章节的页面不在本地，只能用 Google Lens 识别——页面图片会上传给 Google。';
+      case 'settings_destination_services':
+        return '在线服务';
+      case 'settings_destination_services_summary':
+        return '第三方 API、索引器与媒体服务器';
+      case 'section_services_subtitles':
+        return '字幕来源';
+      case 'section_services_resources':
+        return '资源索引器';
+      case 'section_services_metadata':
+        return '元数据刮削';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku、OpenSubtitles、Torznab、Jellyfin、AniDB、TMDB 统一在此配置';
       default:
         return null;
     }
@@ -277188,6 +277611,18 @@ extension on _StringsZhHk {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'settings_destination_services':
+        return 'Online services';
+      case 'settings_destination_services_summary':
+        return 'Third-party APIs, indexers and media servers';
+      case 'section_services_subtitles':
+        return 'Subtitle sources';
+      case 'section_services_resources':
+        return 'Resource indexers';
+      case 'section_services_metadata':
+        return 'Metadata scraping';
+      case 'settings_services_link_subtitle':
+        return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
       default:
         return null;
     }
