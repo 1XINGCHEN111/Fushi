@@ -5125,6 +5125,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get manga_tap_to_ocr => 'Tap to recognise';
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -13873,6 +13878,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -22686,6 +22699,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -31515,6 +31536,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -40356,6 +40385,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -49127,6 +49164,14 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -57942,6 +57987,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -66574,6 +66627,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -75214,6 +75275,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -84009,6 +84078,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -92816,6 +92893,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -101610,6 +101695,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -110352,6 +110445,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -119125,6 +119226,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -127884,6 +127993,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 // Path: <root>
@@ -135986,6 +136103,13 @@ class _StringsZhCn extends _StringsEn {
   String get manga_tap_to_ocr => '点击即识别';
   @override
   String get manga_tap_to_ocr_desc => '点一下还没识别的对话框，就地识别本页并直接查词。';
+  @override
+  String get manga_ocr_engine_system => '设备自带';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      '用设备自带的文字识别。不用下载、完全离线、不上传任何内容；但对竖排气泡和手写体明显不如本地模型。';
+  @override
+  String get manga_ocr_engine_system_unavailable => '此设备没有可用的系统文字识别';
 }
 
 // Path: <root>
@@ -144543,6 +144667,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_tap_to_ocr_desc =>
       'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
 }
 
 /// Flat map(s) containing all translations.
@@ -152281,6 +152413,12 @@ extension on _StringsEn {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -160017,6 +160155,12 @@ extension on _StringsAr {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -167775,6 +167919,12 @@ extension on _StringsDe {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -175532,6 +175682,12 @@ extension on _StringsEs {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -183295,6 +183451,12 @@ extension on _StringsFr {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -191040,6 +191202,12 @@ extension on _StringsId {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -198799,6 +198967,12 @@ extension on _StringsIt {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -206520,6 +206694,12 @@ extension on _StringsJa {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -214245,6 +214425,12 @@ extension on _StringsKo {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -221998,6 +222184,12 @@ extension on _StringsNl {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -229748,6 +229940,12 @@ extension on _StringsPtBr {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -237503,6 +237701,12 @@ extension on _StringsRu {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -245241,6 +245445,12 @@ extension on _StringsTh {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -252988,6 +253198,12 @@ extension on _StringsTr {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -260731,6 +260947,12 @@ extension on _StringsVi {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -268417,6 +268639,12 @@ extension on _StringsZhCn {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
@@ -276133,6 +276361,12 @@ extension on _StringsZhHk {
         return 'Tap to recognise';
       case 'manga_tap_to_ocr_desc':
         return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
       default:
         return null;
     }
