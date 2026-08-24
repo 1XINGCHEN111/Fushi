@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64515 (3795 per locale)
+/// Strings: 64549 (3797 per locale)
 ///
-/// Built on 2026-08-24 at 20:00 UTC
+/// Built on 2026-08-24 at 20:21 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -4036,8 +4036,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Renamed ${n} episodes, ${m} failed';
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
-  String get manga_rescan_hint =>
-      'Drag a box around the text you want to recognize.';
   String get manga_rescan_running => 'Recognizing the selected box...';
   String get manga_rescan_empty => 'No text was recognized in this box.';
   String get stat_hourly_band_epub => 'Text books';
@@ -5159,6 +5157,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Selected area re-recognized and saved to the page';
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -12041,8 +12045,6 @@ class _StringsAr extends _StringsEn {
   String get sync_err_browser_timeout =>
       'لم يُعِد المتصفح التفويض. حاول مجددًا، وتأكد من أن الوكيل يسمح بالمرور عبر 127.0.0.1.';
   @override
-  String get manga_rescan_hint => 'ارسم مربعًا حول النص الذي تريد التعرف عليه.';
-  @override
   String get manga_rescan_running => 'جارٍ التعرف على المربع المحدد...';
   @override
   String get manga_rescan_empty => 'لم يتم التعرف على أي نص في هذا المربع.';
@@ -13946,6 +13948,15 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -20980,9 +20991,6 @@ class _StringsDe extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Der Browser hat die Autorisierung nicht zurückgegeben. Versuchen Sie es erneut und stellen Sie sicher, dass Ihr Proxy 127.0.0.1 durchlässt.';
   @override
-  String get manga_rescan_hint =>
-      'Ziehen Sie einen Rahmen um den Text, den Sie erkennen möchten.';
-  @override
   String get manga_rescan_running => 'Ausgewählter Bereich wird erkannt...';
   @override
   String get manga_rescan_empty => 'In diesem Bereich wurde kein Text erkannt.';
@@ -22937,6 +22945,15 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -30003,9 +30020,6 @@ class _StringsEs extends _StringsEn {
   String get sync_err_browser_timeout =>
       'El navegador nunca devolvió la autorización. Reintente y asegúrese de que su proxy deje pasar 127.0.0.1.';
   @override
-  String get manga_rescan_hint =>
-      'Arrastre un recuadro alrededor del texto que desea reconocer.';
-  @override
   String get manga_rescan_running => 'Reconociendo el recuadro seleccionado...';
   @override
   String get manga_rescan_empty => 'No se reconoció texto en este recuadro.';
@@ -31971,6 +31985,15 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -39054,9 +39077,6 @@ class _StringsFr extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Le navigateur n\'a jamais renvoyé l\'autorisation. Réessayez et assurez-vous que votre proxy laisse passer 127.0.0.1.';
   @override
-  String get manga_rescan_hint =>
-      'Tracez un rectangle autour du texte à reconnaître.';
-  @override
   String get manga_rescan_running => 'Reconnaissance de la zone sélectionnée…';
   @override
   String get manga_rescan_empty =>
@@ -41034,6 +41054,15 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -47999,9 +48028,6 @@ class _StringsId extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Browser tidak pernah mengembalikan otorisasi. Coba lagi, dan pastikan proxy Anda mengizinkan 127.0.0.1.';
   @override
-  String get manga_rescan_hint =>
-      'Seret kotak di sekitar teks yang ingin dikenali.';
-  @override
   String get manga_rescan_running => 'Mengenali kotak yang dipilih...';
   @override
   String get manga_rescan_empty => 'Tidak ada teks yang dikenali di kotak ini.';
@@ -49931,6 +49957,15 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -56953,9 +56988,6 @@ class _StringsIt extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Il browser non ha restituito l\'autorizzazione. Riprova e assicurati che il proxy lasci passare 127.0.0.1.';
   @override
-  String get manga_rescan_hint =>
-      'Disegna un riquadro intorno al testo che vuoi riconoscere.';
-  @override
   String get manga_rescan_running =>
       'Riconoscimento del riquadro selezionato...';
   @override
@@ -58900,6 +58932,15 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -65508,8 +65549,6 @@ class _StringsJa extends _StringsEn {
   String get sync_err_browser_timeout =>
       'ブラウザが認可を返しませんでした。再試行し、プロキシが127.0.0.1を通すことを確認してください。';
   @override
-  String get manga_rescan_hint => '認識したいテキストの周りにボックスをドラッグしてください。';
-  @override
   String get manga_rescan_running => '選択したボックスを認識中...';
   @override
   String get manga_rescan_empty => 'このボックス内にテキストが認識されませんでした。';
@@ -67325,6 +67364,15 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -73949,8 +73997,6 @@ class _StringsKo extends _StringsEn {
   String get sync_err_browser_timeout =>
       '브라우저에서 인증을 반환하지 않았습니다. 다시 시도하고 프록시가 127.0.0.1을 통과시키는지 확인하세요.';
   @override
-  String get manga_rescan_hint => '인식할 텍스트 주위에 박스를 드래그하세요.';
-  @override
   String get manga_rescan_running => '선택한 박스를 인식하는 중...';
   @override
   String get manga_rescan_empty => '이 박스에서 텍스트를 인식하지 못했습니다.';
@@ -75766,6 +75812,15 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -82755,9 +82810,6 @@ class _StringsNl extends _StringsEn {
   String get sync_err_browser_timeout =>
       'De browser heeft de autorisatie nooit geretourneerd. Probeer opnieuw en zorg dat je proxy 127.0.0.1 doorlaat.';
   @override
-  String get manga_rescan_hint =>
-      'Sleep een kader rond de tekst die je wilt herkennen.';
-  @override
   String get manga_rescan_running => 'Geselecteerd kader herkennen...';
   @override
   String get manga_rescan_empty => 'Geen tekst herkend in dit kader.';
@@ -84695,6 +84747,15 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -91719,9 +91780,6 @@ class _StringsPtBr extends _StringsEn {
   String get sync_err_browser_timeout =>
       'O navegador nunca retornou a autorização. Tente novamente e certifique-se de que seu proxy permite 127.0.0.1.';
   @override
-  String get manga_rescan_hint =>
-      'Arraste uma caixa ao redor do texto que deseja reconhecer.';
-  @override
   String get manga_rescan_running => 'Reconhecendo a caixa selecionada...';
   @override
   String get manga_rescan_empty => 'Nenhum texto foi reconhecido nesta caixa.';
@@ -93680,6 +93738,15 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -100687,9 +100754,6 @@ class _StringsRu extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Браузер не вернул авторизацию. Попробуйте снова и убедитесь, что ваш прокси пропускает 127.0.0.1.';
   @override
-  String get manga_rescan_hint =>
-      'Выделите рамкой текст, который хотите распознать.';
-  @override
   String get manga_rescan_running => 'Распознавание выбранной области...';
   @override
   String get manga_rescan_empty => 'Текст в этой области не распознан.';
@@ -102638,6 +102702,15 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -109509,8 +109582,6 @@ class _StringsTh extends _StringsEn {
   String get sync_err_browser_timeout =>
       'เบราว์เซอร์ไม่ส่งคืนการอนุญาต ลองใหม่ และตรวจสอบว่าพร็อกซีของคุณอนุญาต 127.0.0.1 ผ่าน';
   @override
-  String get manga_rescan_hint => 'ลากกล่องรอบข้อความที่คุณต้องการให้รู้จำ';
-  @override
   String get manga_rescan_running => 'กำลังรู้จำกล่องที่เลือก...';
   @override
   String get manga_rescan_empty => 'ไม่พบข้อความในกล่องนี้';
@@ -111418,6 +111489,15 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -118369,9 +118449,6 @@ class _StringsTr extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Tarayıcı yetkilendirmeyi döndürmedi. Tekrar deneyin ve proxy\'nizin 127.0.0.1 adresine izin verdiğinden emin olun.';
   @override
-  String get manga_rescan_hint =>
-      'Tanımak istediğiniz metnin etrafına bir kutu çizin.';
-  @override
   String get manga_rescan_running => 'Seçili kutu tanınıyor...';
   @override
   String get manga_rescan_empty => 'Bu kutuda metin tanınamadı.';
@@ -120301,6 +120378,15 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -127238,9 +127324,6 @@ class _StringsVi extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Trình duyệt không trả về ủy quyền. Thử lại, và đảm bảo proxy của bạn cho phép 127.0.0.1 đi qua.';
   @override
-  String get manga_rescan_hint =>
-      'Kéo một khung quanh văn bản bạn muốn nhận dạng.';
-  @override
   String get manga_rescan_running => 'Đang nhận dạng vùng đã chọn...';
   @override
   String get manga_rescan_empty =>
@@ -129166,6 +129249,15 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_ocr_mobile_note =>
       'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  @override
+  String get manga_rescan_hint =>
+      'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+  @override
+  String get manga_rescan_undone =>
+      'Restored the text layer from before the re-scan';
+  @override
+  String get manga_rescan_undo_failed =>
+      'Could not restore the previous text layer';
 }
 
 // Path: <root>
@@ -135592,8 +135684,6 @@ class _StringsZhCn extends _StringsEn {
   String get sync_err_browser_timeout =>
       '浏览器授权没有返回到应用。请重试，并确认代理放行了本机回环地址 127.0.0.1。';
   @override
-  String get manga_rescan_hint => '拖动框选想要识别的文字。';
-  @override
   String get manga_rescan_running => '正在识别所选区域…';
   @override
   String get manga_rescan_empty => '该区域未识别出文字。';
@@ -137319,6 +137409,12 @@ class _StringsZhCn extends _StringsEn {
   String get manga_rescan_region_updated => '已重新识别该区域并回写本页';
   @override
   String get manga_ocr_mobile_note => '移动端下载的模型供漫画阅读页的本地引擎使用：整卷、点击、框选区域识别都走它。';
+  @override
+  String get manga_rescan_hint => '拖动框选要重新识别的文字。识别结果会替换框内已有的文字层。';
+  @override
+  String get manga_rescan_undone => '已还原重新识别前的文字层';
+  @override
+  String get manga_rescan_undo_failed => '还原上一版文字层失败';
 }
 
 // Path: <root>
@@ -143748,8 +143844,6 @@ class _StringsZhHk extends _StringsEn {
   String get sync_err_browser_timeout =>
       '瀏覽器授權沒有返回到應用。請重試，並確認代理放行了本機回環地址 127.0.0.1。';
   @override
-  String get manga_rescan_hint => '拖動框選想要識別的文字。';
-  @override
   String get manga_rescan_running => '正在識別所選區域…';
   @override
   String get manga_rescan_empty => '該區域未識別出文字。';
@@ -145481,15 +145575,19 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_hook_btn_close => 'Close the overlay';
   @override
-  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_run => '重新識別框選區域';
   @override
-  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_failed => '重新識別框選區域失敗';
   @override
-  String get manga_rescan_region_updated =>
-      'Selected area re-recognized and saved to the page';
+  String get manga_rescan_region_updated => '已重新識別該區域並回寫本頁';
   @override
-  String get manga_ocr_mobile_note =>
-      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+  String get manga_ocr_mobile_note => '移動端下載的模型供漫畫閱讀頁的本地引擎使用：整卷、點擊、框選區域識別都走它。';
+  @override
+  String get manga_rescan_hint => '拖動框選要重新識別的文字。識別結果會替換框內已有的文字層。';
+  @override
+  String get manga_rescan_undone => '已還原重新識別前的文字層';
+  @override
+  String get manga_rescan_undo_failed => '還原上一版文字層失敗';
 }
 
 /// Flat map(s) containing all translations.
@@ -151653,8 +151751,6 @@ extension on _StringsEn {
             'Renamed ${n} episodes, ${m} failed';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
-      case 'manga_rescan_hint':
-        return 'Drag a box around the text you want to recognize.';
       case 'manga_rescan_running':
         return 'Recognizing the selected box...';
       case 'manga_rescan_empty':
@@ -153274,6 +153370,12 @@ extension on _StringsEn {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -159430,8 +159532,6 @@ extension on _StringsAr {
             'تمت إعادة تسمية ${n} حلقة، فشل ${m}';
       case 'sync_err_browser_timeout':
         return 'لم يُعِد المتصفح التفويض. حاول مجددًا، وتأكد من أن الوكيل يسمح بالمرور عبر 127.0.0.1.';
-      case 'manga_rescan_hint':
-        return 'ارسم مربعًا حول النص الذي تريد التعرف عليه.';
       case 'manga_rescan_running':
         return 'جارٍ التعرف على المربع المحدد...';
       case 'manga_rescan_empty':
@@ -161055,6 +161155,12 @@ extension on _StringsAr {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -167246,8 +167352,6 @@ extension on _StringsDe {
             '${n} Episoden umbenannt, ${m} fehlgeschlagen';
       case 'sync_err_browser_timeout':
         return 'Der Browser hat die Autorisierung nicht zurückgegeben. Versuchen Sie es erneut und stellen Sie sicher, dass Ihr Proxy 127.0.0.1 durchlässt.';
-      case 'manga_rescan_hint':
-        return 'Ziehen Sie einen Rahmen um den Text, den Sie erkennen möchten.';
       case 'manga_rescan_running':
         return 'Ausgewählter Bereich wird erkannt...';
       case 'manga_rescan_empty':
@@ -168876,6 +168980,12 @@ extension on _StringsDe {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -175062,8 +175172,6 @@ extension on _StringsEs {
             'Se renombraron ${n} episodios, ${m} fallaron';
       case 'sync_err_browser_timeout':
         return 'El navegador nunca devolvió la autorización. Reintente y asegúrese de que su proxy deje pasar 127.0.0.1.';
-      case 'manga_rescan_hint':
-        return 'Arrastre un recuadro alrededor del texto que desea reconocer.';
       case 'manga_rescan_running':
         return 'Reconociendo el recuadro seleccionado...';
       case 'manga_rescan_empty':
@@ -176689,6 +176797,12 @@ extension on _StringsEs {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -182883,8 +182997,6 @@ extension on _StringsFr {
             '${n} épisodes renommés, ${m} échoués';
       case 'sync_err_browser_timeout':
         return 'Le navigateur n\'a jamais renvoyé l\'autorisation. Réessayez et assurez-vous que votre proxy laisse passer 127.0.0.1.';
-      case 'manga_rescan_hint':
-        return 'Tracez un rectangle autour du texte à reconnaître.';
       case 'manga_rescan_running':
         return 'Reconnaissance de la zone sélectionnée…';
       case 'manga_rescan_empty':
@@ -184510,6 +184622,12 @@ extension on _StringsFr {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -190681,8 +190799,6 @@ extension on _StringsId {
             '${n} episode diganti nama, ${m} gagal';
       case 'sync_err_browser_timeout':
         return 'Browser tidak pernah mengembalikan otorisasi. Coba lagi, dan pastikan proxy Anda mengizinkan 127.0.0.1.';
-      case 'manga_rescan_hint':
-        return 'Seret kotak di sekitar teks yang ingin dikenali.';
       case 'manga_rescan_running':
         return 'Mengenali kotak yang dipilih...';
       case 'manga_rescan_empty':
@@ -192305,6 +192421,12 @@ extension on _StringsId {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -198494,8 +198616,6 @@ extension on _StringsIt {
             'Rinominati ${n} episodi, ${m} falliti';
       case 'sync_err_browser_timeout':
         return 'Il browser non ha restituito l\'autorizzazione. Riprova e assicurati che il proxy lasci passare 127.0.0.1.';
-      case 'manga_rescan_hint':
-        return 'Disegna un riquadro intorno al testo che vuoi riconoscere.';
       case 'manga_rescan_running':
         return 'Riconoscimento del riquadro selezionato...';
       case 'manga_rescan_empty':
@@ -200120,6 +200240,12 @@ extension on _StringsIt {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -206250,8 +206376,6 @@ extension on _StringsJa {
             '${n}話の名前を変更、${m}件失敗';
       case 'sync_err_browser_timeout':
         return 'ブラウザが認可を返しませんでした。再試行し、プロキシが127.0.0.1を通すことを確認してください。';
-      case 'manga_rescan_hint':
-        return '認識したいテキストの周りにボックスをドラッグしてください。';
       case 'manga_rescan_running':
         return '選択したボックスを認識中...';
       case 'manga_rescan_empty':
@@ -207871,6 +207995,12 @@ extension on _StringsJa {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -214004,8 +214134,6 @@ extension on _StringsKo {
             '${n}개 에피소드 이름 변경됨, ${m}개 실패';
       case 'sync_err_browser_timeout':
         return '브라우저에서 인증을 반환하지 않았습니다. 다시 시도하고 프록시가 127.0.0.1을 통과시키는지 확인하세요.';
-      case 'manga_rescan_hint':
-        return '인식할 텍스트 주위에 박스를 드래그하세요.';
       case 'manga_rescan_running':
         return '선택한 박스를 인식하는 중...';
       case 'manga_rescan_empty':
@@ -215624,6 +215752,12 @@ extension on _StringsKo {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -221806,8 +221940,6 @@ extension on _StringsNl {
             '${n} afleveringen hernoemd, ${m} mislukt';
       case 'sync_err_browser_timeout':
         return 'De browser heeft de autorisatie nooit geretourneerd. Probeer opnieuw en zorg dat je proxy 127.0.0.1 doorlaat.';
-      case 'manga_rescan_hint':
-        return 'Sleep een kader rond de tekst die je wilt herkennen.';
       case 'manga_rescan_running':
         return 'Geselecteerd kader herkennen...';
       case 'manga_rescan_empty':
@@ -223432,6 +223564,12 @@ extension on _StringsNl {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -229609,8 +229747,6 @@ extension on _StringsPtBr {
             'Renomeados ${n} episódios, ${m} falharam';
       case 'sync_err_browser_timeout':
         return 'O navegador nunca retornou a autorização. Tente novamente e certifique-se de que seu proxy permite 127.0.0.1.';
-      case 'manga_rescan_hint':
-        return 'Arraste uma caixa ao redor do texto que deseja reconhecer.';
       case 'manga_rescan_running':
         return 'Reconhecendo a caixa selecionada...';
       case 'manga_rescan_empty':
@@ -231236,6 +231372,12 @@ extension on _StringsPtBr {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -237421,8 +237563,6 @@ extension on _StringsRu {
             'Переименовано ${n} эпизодов, ${m} с ошибкой';
       case 'sync_err_browser_timeout':
         return 'Браузер не вернул авторизацию. Попробуйте снова и убедитесь, что ваш прокси пропускает 127.0.0.1.';
-      case 'manga_rescan_hint':
-        return 'Выделите рамкой текст, который хотите распознать.';
       case 'manga_rescan_running':
         return 'Распознавание выбранной области...';
       case 'manga_rescan_empty':
@@ -239047,6 +239187,12 @@ extension on _StringsRu {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -245209,8 +245355,6 @@ extension on _StringsTh {
             'เปลี่ยนชื่อแล้ว ${n} ตอน, ล้มเหลว ${m}';
       case 'sync_err_browser_timeout':
         return 'เบราว์เซอร์ไม่ส่งคืนการอนุญาต ลองใหม่ และตรวจสอบว่าพร็อกซีของคุณอนุญาต 127.0.0.1 ผ่าน';
-      case 'manga_rescan_hint':
-        return 'ลากกล่องรอบข้อความที่คุณต้องการให้รู้จำ';
       case 'manga_rescan_running':
         return 'กำลังรู้จำกล่องที่เลือก...';
       case 'manga_rescan_empty':
@@ -246832,6 +246976,12 @@ extension on _StringsTh {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -253007,8 +253157,6 @@ extension on _StringsTr {
             '${n} bölüm yeniden adlandırıldı, ${m} başarısız';
       case 'sync_err_browser_timeout':
         return 'Tarayıcı yetkilendirmeyi döndürmedi. Tekrar deneyin ve proxy\'nizin 127.0.0.1 adresine izin verdiğinden emin olun.';
-      case 'manga_rescan_hint':
-        return 'Tanımak istediğiniz metnin etrafına bir kutu çizin.';
       case 'manga_rescan_running':
         return 'Seçili kutu tanınıyor...';
       case 'manga_rescan_empty':
@@ -254632,6 +254780,12 @@ extension on _StringsTr {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -260802,8 +260956,6 @@ extension on _StringsVi {
             'Đã đổi tên ${n} tập, ${m} thất bại';
       case 'sync_err_browser_timeout':
         return 'Trình duyệt không trả về ủy quyền. Thử lại, và đảm bảo proxy của bạn cho phép 127.0.0.1 đi qua.';
-      case 'manga_rescan_hint':
-        return 'Kéo một khung quanh văn bản bạn muốn nhận dạng.';
       case 'manga_rescan_running':
         return 'Đang nhận dạng vùng đã chọn...';
       case 'manga_rescan_empty':
@@ -262426,6 +262578,12 @@ extension on _StringsVi {
         return 'Selected area re-recognized and saved to the page';
       case 'manga_ocr_mobile_note':
         return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+      case 'manga_rescan_hint':
+        return 'Drag a box over the text you want to re-run OCR on. The result replaces the existing text layer inside that box.';
+      case 'manga_rescan_undone':
+        return 'Restored the text layer from before the re-scan';
+      case 'manga_rescan_undo_failed':
+        return 'Could not restore the previous text layer';
       default:
         return null;
     }
@@ -268541,8 +268699,6 @@ extension on _StringsZhCn {
             '已重命名 ${n} 集 · ${m} 集失败';
       case 'sync_err_browser_timeout':
         return '浏览器授权没有返回到应用。请重试，并确认代理放行了本机回环地址 127.0.0.1。';
-      case 'manga_rescan_hint':
-        return '拖动框选想要识别的文字。';
       case 'manga_rescan_running':
         return '正在识别所选区域…';
       case 'manga_rescan_empty':
@@ -270158,6 +270314,12 @@ extension on _StringsZhCn {
         return '已重新识别该区域并回写本页';
       case 'manga_ocr_mobile_note':
         return '移动端下载的模型供漫画阅读页的本地引擎使用：整卷、点击、框选区域识别都走它。';
+      case 'manga_rescan_hint':
+        return '拖动框选要重新识别的文字。识别结果会替换框内已有的文字层。';
+      case 'manga_rescan_undone':
+        return '已还原重新识别前的文字层';
+      case 'manga_rescan_undo_failed':
+        return '还原上一版文字层失败';
       default:
         return null;
     }
@@ -276272,8 +276434,6 @@ extension on _StringsZhHk {
             '已重命名 ${n} 集 · ${m} 集失敗';
       case 'sync_err_browser_timeout':
         return '瀏覽器授權沒有返回到應用。請重試，並確認代理放行了本機回環地址 127.0.0.1。';
-      case 'manga_rescan_hint':
-        return '拖動框選想要識別的文字。';
       case 'manga_rescan_running':
         return '正在識別所選區域…';
       case 'manga_rescan_empty':
@@ -277884,13 +278044,19 @@ extension on _StringsZhHk {
       case 'game_hook_btn_close':
         return 'Close the overlay';
       case 'manga_rescan_run':
-        return 'Re-OCR selected area';
+        return '重新識別框選區域';
       case 'manga_rescan_failed':
-        return 'Re-OCR of the selected area failed';
+        return '重新識別框選區域失敗';
       case 'manga_rescan_region_updated':
-        return 'Selected area re-recognized and saved to the page';
+        return '已重新識別該區域並回寫本頁';
       case 'manga_ocr_mobile_note':
-        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
+        return '移動端下載的模型供漫畫閱讀頁的本地引擎使用：整卷、點擊、框選區域識別都走它。';
+      case 'manga_rescan_hint':
+        return '拖動框選要重新識別的文字。識別結果會替換框內已有的文字層。';
+      case 'manga_rescan_undone':
+        return '已還原重新識別前的文字層';
+      case 'manga_rescan_undo_failed':
+        return '還原上一版文字層失敗';
       default:
         return null;
     }
