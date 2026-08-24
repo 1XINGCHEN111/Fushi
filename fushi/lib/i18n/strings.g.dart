@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64345 (3785 per locale)
+/// Strings: 64379 (3787 per locale)
 ///
-/// Built on 2026-08-24 at 09:09 UTC
+/// Built on 2026-08-24 at 19:25 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5147,6 +5147,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'This device has no built-in text recognition available';
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -13912,6 +13916,12 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -22882,6 +22892,12 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -31895,6 +31911,12 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -40937,6 +40959,12 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -49812,6 +49840,12 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -58760,6 +58794,12 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -67161,6 +67201,12 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -75578,6 +75624,12 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -84485,6 +84537,12 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -93448,6 +93506,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -102385,6 +102449,12 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -111143,6 +111213,12 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -120005,6 +120081,12 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -128848,6 +128930,12 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -136980,6 +137068,12 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       '在线章节的页面不在本地，只能用 Google Lens 识别——页面图片会上传给 Google。';
+  @override
+  String get video_jimaku_search_failed => '字幕搜索失败';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg}（HTTP ${code}）';
 }
 
 // Path: <root>
@@ -145127,6 +145221,12 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 /// Flat map(s) containing all translations.
@@ -152891,6 +152991,11 @@ extension on _StringsEn {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -160652,6 +160757,11 @@ extension on _StringsAr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -168453,6 +168563,11 @@ extension on _StringsDe {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -176246,6 +176361,11 @@ extension on _StringsEs {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -184047,6 +184167,11 @@ extension on _StringsFr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -191822,6 +191947,11 @@ extension on _StringsId {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -199617,6 +199747,11 @@ extension on _StringsIt {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -207348,6 +207483,11 @@ extension on _StringsJa {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -215081,6 +215221,11 @@ extension on _StringsKo {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -222869,6 +223014,11 @@ extension on _StringsNl {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -230653,6 +230803,11 @@ extension on _StringsPtBr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -238444,6 +238599,11 @@ extension on _StringsRu {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -246209,6 +246369,11 @@ extension on _StringsTh {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -253989,6 +254154,11 @@ extension on _StringsTr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -261763,6 +261933,11 @@ extension on _StringsVi {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -269475,6 +269650,11 @@ extension on _StringsZhCn {
         return '此设备没有可用的系统文字识别';
       case 'manga_tap_ocr_online_lens_only':
         return '在线章节的页面不在本地，只能用 Google Lens 识别——页面图片会上传给 Google。';
+      case 'video_jimaku_search_failed':
+        return '字幕搜索失败';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg}（HTTP ${code}）';
       default:
         return null;
     }
@@ -277188,6 +277368,11 @@ extension on _StringsZhHk {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
