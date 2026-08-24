@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63903 (3759 per locale)
+/// Strings: 63937 (3761 per locale)
 ///
-/// Built on 2026-08-24 at 06:41 UTC
+/// Built on 2026-08-24 at 06:59 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5107,6 +5107,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -13806,6 +13809,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -22710,6 +22718,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -31657,6 +31670,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -40633,6 +40651,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -49442,6 +49465,11 @@ class _StringsId extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -58324,6 +58352,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -66659,6 +66692,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -75010,6 +75048,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -83851,6 +83894,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -92748,6 +92796,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -101619,6 +101672,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -110311,6 +110369,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -119107,6 +119170,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -127884,6 +127952,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -135955,6 +136028,10 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       '请填完整地址，例如 http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions => '该仓库返回 0 个扩展，地址可能指向了旧版索引。';
+  @override
+  String get mihon_store_edit => '编辑仓库地址';
 }
 
 // Path: <root>
@@ -144036,6 +144113,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get download_backend_qb_url_invalid =>
       'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 /// Flat map(s) containing all translations.
@@ -151744,6 +151826,10 @@ extension on _StringsEn {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -159449,6 +159535,10 @@ extension on _StringsAr {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -167194,6 +167284,10 @@ extension on _StringsDe {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -174931,6 +175025,10 @@ extension on _StringsEs {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -182676,6 +182774,10 @@ extension on _StringsFr {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -190395,6 +190497,10 @@ extension on _StringsId {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -198134,6 +198240,10 @@ extension on _StringsIt {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -205809,6 +205919,10 @@ extension on _StringsJa {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -213486,6 +213600,10 @@ extension on _StringsKo {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -221218,6 +221336,10 @@ extension on _StringsNl {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -228946,6 +229068,10 @@ extension on _StringsPtBr {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -236681,6 +236807,10 @@ extension on _StringsRu {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -244390,6 +244520,10 @@ extension on _StringsTh {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -252114,6 +252248,10 @@ extension on _StringsTr {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -259832,6 +259970,10 @@ extension on _StringsVi {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -267488,6 +267630,10 @@ extension on _StringsZhCn {
         return '本次安装缺少内置引擎运行库。请重装完整安装包，或改用外接 qBittorrent。';
       case 'download_backend_qb_url_invalid':
         return '请填完整地址，例如 http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return '该仓库返回 0 个扩展，地址可能指向了旧版索引。';
+      case 'mihon_store_edit':
+        return '编辑仓库地址';
       default:
         return null;
     }
@@ -275145,6 +275291,10 @@ extension on _StringsZhHk {
         return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
       case 'download_backend_qb_url_invalid':
         return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
