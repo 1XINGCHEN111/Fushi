@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64583 (3799 per locale)
+/// Strings: 64617 (3801 per locale)
 ///
-/// Built on 2026-08-24 at 21:06 UTC
+/// Built on 2026-08-24 at 21:26 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5167,6 +5167,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Restored the text layer from before the re-scan';
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -13967,6 +13971,12 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -22970,6 +22980,12 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -32016,6 +32032,12 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -41091,6 +41113,12 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -50000,6 +50028,12 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -58981,6 +59015,12 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -67419,6 +67459,12 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -75873,6 +75919,12 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -84814,6 +84866,12 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -93811,6 +93869,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -102781,6 +102845,12 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -111574,6 +111644,12 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -120469,6 +120545,12 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -129346,6 +129428,12 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_rescan_undo_failed =>
       'Could not restore the previous text layer';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 // Path: <root>
@@ -137509,6 +137597,11 @@ class _StringsZhCn extends _StringsEn {
   String get manga_rescan_undone => '已还原重新识别前的文字层';
   @override
   String get manga_rescan_undo_failed => '还原上一版文字层失败';
+  @override
+  String get module_tool_toggle_hint => '在底栏/侧栏显示该页；关闭即隐藏';
+  @override
+  String get module_downloads_hidden_hint =>
+      '「下载」页已在 设置 → 系统 → 功能模块 中隐藏；重新打开它才能管理订阅。';
 }
 
 // Path: <root>
@@ -145688,6 +145781,12 @@ class _StringsZhHk extends _StringsEn {
   String get manga_rescan_undone => '已還原重新識別前的文字層';
   @override
   String get manga_rescan_undo_failed => '還原上一版文字層失敗';
+  @override
+  String get module_tool_toggle_hint =>
+      'Show this tab in the navigation bar; turn off to hide it';
+  @override
+  String get module_downloads_hidden_hint =>
+      'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
 }
 
 /// Flat map(s) containing all translations.
@@ -153481,6 +153580,10 @@ extension on _StringsEn {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -161271,6 +161374,10 @@ extension on _StringsAr {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -169101,6 +169208,10 @@ extension on _StringsDe {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -176923,6 +177034,10 @@ extension on _StringsEs {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -184753,6 +184868,10 @@ extension on _StringsFr {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -192557,6 +192676,10 @@ extension on _StringsId {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -200381,6 +200504,10 @@ extension on _StringsIt {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -208141,6 +208268,10 @@ extension on _StringsJa {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -215903,6 +216034,10 @@ extension on _StringsKo {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -223720,6 +223855,10 @@ extension on _StringsNl {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -231533,6 +231672,10 @@ extension on _StringsPtBr {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -239353,6 +239496,10 @@ extension on _StringsRu {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -247147,6 +247294,10 @@ extension on _StringsTh {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -254956,6 +255107,10 @@ extension on _StringsTr {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -262759,6 +262914,10 @@ extension on _StringsVi {
         return 'Restored the text layer from before the re-scan';
       case 'manga_rescan_undo_failed':
         return 'Could not restore the previous text layer';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
@@ -270500,6 +270659,10 @@ extension on _StringsZhCn {
         return '已还原重新识别前的文字层';
       case 'manga_rescan_undo_failed':
         return '还原上一版文字层失败';
+      case 'module_tool_toggle_hint':
+        return '在底栏/侧栏显示该页；关闭即隐藏';
+      case 'module_downloads_hidden_hint':
+        return '「下载」页已在 设置 → 系统 → 功能模块 中隐藏；重新打开它才能管理订阅。';
       default:
         return null;
     }
@@ -278242,6 +278405,10 @@ extension on _StringsZhHk {
         return '已還原重新識別前的文字層';
       case 'manga_rescan_undo_failed':
         return '還原上一版文字層失敗';
+      case 'module_tool_toggle_hint':
+        return 'Show this tab in the navigation bar; turn off to hide it';
+      case 'module_downloads_hidden_hint':
+        return 'The Downloads tab is hidden in Settings → System → Feature modules; turn it back on to manage subscriptions.';
       default:
         return null;
     }
