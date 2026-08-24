@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64345 (3785 per locale)
+/// Strings: 64260 (3780 per locale)
 ///
-/// Built on 2026-08-24 at 09:09 UTC
+/// Built on 2026-08-24 at 18:36 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1770,8 +1770,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String manga_ocr_external_detected({required Object version}) =>
       'Detected: ${version}';
   String get manga_ocr_external_not_found => 'mokuro not found';
-  String get manga_ocr_mobile_note =>
-      'On mobile, the recognition model powers box scan in the manga reader.';
   String get manga_ocr_model_status_missing => 'OCR models not downloaded';
   String get manga_ocr_model_status_ready => 'OCR models ready';
   String get manga_ocr_section => 'Manga OCR';
@@ -4038,19 +4036,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Renamed ${n} episodes, ${m} failed';
   String get sync_err_browser_timeout =>
       'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
-  String get manga_rescan_run => 'Box OCR';
   String get manga_rescan_hint =>
       'Drag a box around the text you want to recognize.';
-  String get manga_rescan_model_missing =>
-      'Download the manga OCR models in Settings first.';
   String get manga_rescan_running => 'Recognizing the selected box...';
-  String get manga_rescan_failed => 'Box OCR failed';
   String get manga_rescan_empty => 'No text was recognized in this box.';
-  String get manga_rescan_local_source => 'Local OCR';
-  String get manga_rescan_lookup => 'Look up';
-  String get manga_rescan_writeback => 'Save to page';
-  String get manga_rescan_writeback_done => 'Saved to manga.json';
-  String get manga_rescan_writeback_failed => 'Failed to save to manga.json';
   String get stat_hourly_band_epub => 'Text books';
   String get stat_hourly_band_pdf => 'PDF';
   String get stat_hourly_band_manga => 'Manga';
@@ -5147,6 +5136,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'This device has no built-in text recognition available';
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  String get manga_rescan_run => 'Re-OCR selected area';
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -7984,9 +7979,6 @@ class _StringsAr extends _StringsEn {
       'تم الكشف: ${version}';
   @override
   String get manga_ocr_external_not_found => 'لم يُعثر على Mokuro';
-  @override
-  String get manga_ocr_mobile_note =>
-      'على الهاتف، يُشغّل نموذج التعرف مسح المربعات في قارئ المانغا.';
   @override
   String get manga_ocr_model_status_missing => 'لم يتم تحميل نماذج OCR';
   @override
@@ -12032,28 +12024,11 @@ class _StringsAr extends _StringsEn {
   String get sync_err_browser_timeout =>
       'لم يُعِد المتصفح التفويض. حاول مجددًا، وتأكد من أن الوكيل يسمح بالمرور عبر 127.0.0.1.';
   @override
-  String get manga_rescan_run => 'التعرف الضوئي للمربع';
-  @override
   String get manga_rescan_hint => 'ارسم مربعًا حول النص الذي تريد التعرف عليه.';
-  @override
-  String get manga_rescan_model_missing =>
-      'حمّل نماذج التعرف الضوئي للمانغا في الإعدادات أولًا.';
   @override
   String get manga_rescan_running => 'جارٍ التعرف على المربع المحدد...';
   @override
-  String get manga_rescan_failed => 'فشل التعرف الضوئي للمربع';
-  @override
   String get manga_rescan_empty => 'لم يتم التعرف على أي نص في هذا المربع.';
-  @override
-  String get manga_rescan_local_source => 'تعرف ضوئي محلي';
-  @override
-  String get manga_rescan_lookup => 'بحث';
-  @override
-  String get manga_rescan_writeback => 'حفظ في الصفحة';
-  @override
-  String get manga_rescan_writeback_done => 'تم الحفظ في manga.json';
-  @override
-  String get manga_rescan_writeback_failed => 'فشل الحفظ في manga.json';
   @override
   String get stat_hourly_band_epub => 'كتب نصية';
   @override
@@ -13912,6 +13887,16 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -16814,9 +16799,6 @@ class _StringsDe extends _StringsEn {
       'Erkannt: ${version}';
   @override
   String get manga_ocr_external_not_found => 'Mokuro nicht gefunden';
-  @override
-  String get manga_ocr_mobile_note =>
-      'Auf Mobilgeräten unterstützt das Erkennungsmodell den Box-Scan im Manga-Reader.';
   @override
   String get manga_ocr_model_status_missing =>
       'OCR-Modelle nicht heruntergeladen';
@@ -20949,30 +20931,12 @@ class _StringsDe extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Der Browser hat die Autorisierung nicht zurückgegeben. Versuchen Sie es erneut und stellen Sie sicher, dass Ihr Proxy 127.0.0.1 durchlässt.';
   @override
-  String get manga_rescan_run => 'Box-OCR';
-  @override
   String get manga_rescan_hint =>
       'Ziehen Sie einen Rahmen um den Text, den Sie erkennen möchten.';
   @override
-  String get manga_rescan_model_missing =>
-      'Laden Sie zuerst die Manga-OCR-Modelle in den Einstellungen herunter.';
-  @override
   String get manga_rescan_running => 'Ausgewählter Bereich wird erkannt...';
   @override
-  String get manga_rescan_failed => 'Box-OCR fehlgeschlagen';
-  @override
   String get manga_rescan_empty => 'In diesem Bereich wurde kein Text erkannt.';
-  @override
-  String get manga_rescan_local_source => 'Lokale OCR';
-  @override
-  String get manga_rescan_lookup => 'Nachschlagen';
-  @override
-  String get manga_rescan_writeback => 'Auf Seite speichern';
-  @override
-  String get manga_rescan_writeback_done => 'In manga.json gespeichert';
-  @override
-  String get manga_rescan_writeback_failed =>
-      'Speichern in manga.json fehlgeschlagen';
   @override
   String get stat_hourly_band_epub => 'Textbücher';
   @override
@@ -22882,6 +22846,16 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -25791,9 +25765,6 @@ class _StringsEs extends _StringsEn {
       'Detectado: ${version}';
   @override
   String get manga_ocr_external_not_found => 'mokuro no encontrado';
-  @override
-  String get manga_ocr_mobile_note =>
-      'En móvil, el modelo de reconocimiento activa el escaneo de recuadros en el lector de manga.';
   @override
   String get manga_ocr_model_status_missing => 'Modelos de OCR no descargados';
   @override
@@ -29951,30 +29922,12 @@ class _StringsEs extends _StringsEn {
   String get sync_err_browser_timeout =>
       'El navegador nunca devolvió la autorización. Reintente y asegúrese de que su proxy deje pasar 127.0.0.1.';
   @override
-  String get manga_rescan_run => 'OCR de recuadro';
-  @override
   String get manga_rescan_hint =>
       'Arrastre un recuadro alrededor del texto que desea reconocer.';
   @override
-  String get manga_rescan_model_missing =>
-      'Descargue los modelos de OCR de manga en Ajustes primero.';
-  @override
   String get manga_rescan_running => 'Reconociendo el recuadro seleccionado...';
   @override
-  String get manga_rescan_failed => 'El OCR de recuadro falló';
-  @override
   String get manga_rescan_empty => 'No se reconoció texto en este recuadro.';
-  @override
-  String get manga_rescan_local_source => 'OCR local';
-  @override
-  String get manga_rescan_lookup => 'Buscar';
-  @override
-  String get manga_rescan_writeback => 'Guardar en página';
-  @override
-  String get manga_rescan_writeback_done => 'Guardado en manga.json';
-  @override
-  String get manga_rescan_writeback_failed =>
-      'No se pudo guardar en manga.json';
   @override
   String get stat_hourly_band_epub => 'Libros de texto';
   @override
@@ -31895,6 +31848,16 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -34813,9 +34776,6 @@ class _StringsFr extends _StringsEn {
       'Détecté : ${version}';
   @override
   String get manga_ocr_external_not_found => 'mokuro introuvable';
-  @override
-  String get manga_ocr_mobile_note =>
-      'Sur mobile, le modèle de reconnaissance permet le scan de zones dans le lecteur de manga.';
   @override
   String get manga_ocr_model_status_missing => 'Modèles OCR non téléchargés';
   @override
@@ -38981,31 +38941,13 @@ class _StringsFr extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Le navigateur n\'a jamais renvoyé l\'autorisation. Réessayez et assurez-vous que votre proxy laisse passer 127.0.0.1.';
   @override
-  String get manga_rescan_run => 'OCR par zone';
-  @override
   String get manga_rescan_hint =>
       'Tracez un rectangle autour du texte à reconnaître.';
   @override
-  String get manga_rescan_model_missing =>
-      'Téléchargez d\'abord les modèles OCR manga dans les Paramètres.';
-  @override
   String get manga_rescan_running => 'Reconnaissance de la zone sélectionnée…';
-  @override
-  String get manga_rescan_failed => 'Échec de l\'OCR par zone';
   @override
   String get manga_rescan_empty =>
       'Aucun texte n\'a été reconnu dans cette zone.';
-  @override
-  String get manga_rescan_local_source => 'OCR local';
-  @override
-  String get manga_rescan_lookup => 'Rechercher';
-  @override
-  String get manga_rescan_writeback => 'Enregistrer dans la page';
-  @override
-  String get manga_rescan_writeback_done => 'Enregistré dans manga.json';
-  @override
-  String get manga_rescan_writeback_failed =>
-      'Échec de l\'enregistrement dans manga.json';
   @override
   String get stat_hourly_band_epub => 'Romans';
   @override
@@ -40937,6 +40879,16 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -43800,9 +43752,6 @@ class _StringsId extends _StringsEn {
       'Terdeteksi: ${version}';
   @override
   String get manga_ocr_external_not_found => 'mokuro tidak ditemukan';
-  @override
-  String get manga_ocr_mobile_note =>
-      'Di perangkat seluler, model pengenalan memberdayakan pemindaian kotak di pembaca manga.';
   @override
   String get manga_ocr_model_status_missing => 'Model OCR belum diunduh';
   @override
@@ -47905,29 +47854,12 @@ class _StringsId extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Browser tidak pernah mengembalikan otorisasi. Coba lagi, dan pastikan proxy Anda mengizinkan 127.0.0.1.';
   @override
-  String get manga_rescan_run => 'OCR kotak';
-  @override
   String get manga_rescan_hint =>
       'Seret kotak di sekitar teks yang ingin dikenali.';
   @override
-  String get manga_rescan_model_missing =>
-      'Unduh model OCR manga di Pengaturan terlebih dahulu.';
-  @override
   String get manga_rescan_running => 'Mengenali kotak yang dipilih...';
   @override
-  String get manga_rescan_failed => 'OCR kotak gagal';
-  @override
   String get manga_rescan_empty => 'Tidak ada teks yang dikenali di kotak ini.';
-  @override
-  String get manga_rescan_local_source => 'OCR lokal';
-  @override
-  String get manga_rescan_lookup => 'Cari di kamus';
-  @override
-  String get manga_rescan_writeback => 'Simpan ke halaman';
-  @override
-  String get manga_rescan_writeback_done => 'Disimpan ke manga.json';
-  @override
-  String get manga_rescan_writeback_failed => 'Gagal menyimpan ke manga.json';
   @override
   String get stat_hourly_band_epub => 'Buku teks';
   @override
@@ -49812,6 +49744,16 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -52701,9 +52643,6 @@ class _StringsIt extends _StringsEn {
       'Rilevato: ${version}';
   @override
   String get manga_ocr_external_not_found => 'mokuro non trovato';
-  @override
-  String get manga_ocr_mobile_note =>
-      'Su mobile, il modello di riconoscimento alimenta la scansione riquadro nel lettore manga.';
   @override
   String get manga_ocr_model_status_missing => 'Modelli OCR non scaricati';
   @override
@@ -56837,32 +56776,14 @@ class _StringsIt extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Il browser non ha restituito l\'autorizzazione. Riprova e assicurati che il proxy lasci passare 127.0.0.1.';
   @override
-  String get manga_rescan_run => 'OCR riquadro';
-  @override
   String get manga_rescan_hint =>
       'Disegna un riquadro intorno al testo che vuoi riconoscere.';
-  @override
-  String get manga_rescan_model_missing =>
-      'Scarica prima i modelli OCR manga nelle Impostazioni.';
   @override
   String get manga_rescan_running =>
       'Riconoscimento del riquadro selezionato...';
   @override
-  String get manga_rescan_failed => 'OCR riquadro fallito';
-  @override
   String get manga_rescan_empty =>
       'Nessun testo riconosciuto in questo riquadro.';
-  @override
-  String get manga_rescan_local_source => 'OCR locale';
-  @override
-  String get manga_rescan_lookup => 'Cerca';
-  @override
-  String get manga_rescan_writeback => 'Salva nella pagina';
-  @override
-  String get manga_rescan_writeback_done => 'Salvato in manga.json';
-  @override
-  String get manga_rescan_writeback_failed =>
-      'Impossibile salvare in manga.json';
   @override
   String get stat_hourly_band_epub => 'Libri di testo';
   @override
@@ -58760,6 +58681,16 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -61489,8 +61420,6 @@ class _StringsJa extends _StringsEn {
       '検出済み：${version}';
   @override
   String get manga_ocr_external_not_found => 'mokuroが見つかりません';
-  @override
-  String get manga_ocr_mobile_note => 'モバイルでは、認識モデルがマンガリーダーのボックススキャンに使用されます。';
   @override
   String get manga_ocr_model_status_missing => 'OCRモデル未ダウンロード';
   @override
@@ -65370,27 +65299,11 @@ class _StringsJa extends _StringsEn {
   String get sync_err_browser_timeout =>
       'ブラウザが認可を返しませんでした。再試行し、プロキシが127.0.0.1を通すことを確認してください。';
   @override
-  String get manga_rescan_run => 'ボックスOCR';
-  @override
   String get manga_rescan_hint => '認識したいテキストの周りにボックスをドラッグしてください。';
-  @override
-  String get manga_rescan_model_missing => '先に設定からマンガOCRモデルをダウンロードしてください。';
   @override
   String get manga_rescan_running => '選択したボックスを認識中...';
   @override
-  String get manga_rescan_failed => 'ボックスOCRに失敗';
-  @override
   String get manga_rescan_empty => 'このボックス内にテキストが認識されませんでした。';
-  @override
-  String get manga_rescan_local_source => 'ローカルOCR';
-  @override
-  String get manga_rescan_lookup => '検索';
-  @override
-  String get manga_rescan_writeback => 'ページに保存';
-  @override
-  String get manga_rescan_writeback_done => 'manga.jsonに保存しました';
-  @override
-  String get manga_rescan_writeback_failed => 'manga.jsonへの保存に失敗しました';
   @override
   String get stat_hourly_band_epub => 'テキスト書籍';
   @override
@@ -67161,6 +67074,16 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -69891,8 +69814,6 @@ class _StringsKo extends _StringsEn {
       '감지됨: ${version}';
   @override
   String get manga_ocr_external_not_found => 'Mokuro를 찾을 수 없습니다';
-  @override
-  String get manga_ocr_mobile_note => '모바일에서는 인식 모델이 만화 리더의 박스 스캔을 지원합니다.';
   @override
   String get manga_ocr_model_status_missing => 'OCR 모델이 다운로드되지 않았습니다';
   @override
@@ -73787,27 +73708,11 @@ class _StringsKo extends _StringsEn {
   String get sync_err_browser_timeout =>
       '브라우저에서 인증을 반환하지 않았습니다. 다시 시도하고 프록시가 127.0.0.1을 통과시키는지 확인하세요.';
   @override
-  String get manga_rescan_run => '박스 OCR';
-  @override
   String get manga_rescan_hint => '인식할 텍스트 주위에 박스를 드래그하세요.';
-  @override
-  String get manga_rescan_model_missing => '먼저 설정에서 만화 OCR 모델을 다운로드하세요.';
   @override
   String get manga_rescan_running => '선택한 박스를 인식하는 중...';
   @override
-  String get manga_rescan_failed => '박스 OCR 실패';
-  @override
   String get manga_rescan_empty => '이 박스에서 텍스트를 인식하지 못했습니다.';
-  @override
-  String get manga_rescan_local_source => '로컬 OCR';
-  @override
-  String get manga_rescan_lookup => '조회';
-  @override
-  String get manga_rescan_writeback => '페이지에 저장';
-  @override
-  String get manga_rescan_writeback_done => 'manga.json에 저장됨';
-  @override
-  String get manga_rescan_writeback_failed => 'manga.json 저장 실패';
   @override
   String get stat_hourly_band_epub => '텍스트 도서';
   @override
@@ -75578,6 +75483,16 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -78454,9 +78369,6 @@ class _StringsNl extends _StringsEn {
       'Gedetecteerd: ${version}';
   @override
   String get manga_ocr_external_not_found => 'mokuro niet gevonden';
-  @override
-  String get manga_ocr_mobile_note =>
-      'Op mobiel stuurt het herkenningsmodel de boxscan in de mangalezer aan.';
   @override
   String get manga_ocr_model_status_missing => 'OCR-modellen niet gedownload';
   @override
@@ -82570,29 +82482,12 @@ class _StringsNl extends _StringsEn {
   String get sync_err_browser_timeout =>
       'De browser heeft de autorisatie nooit geretourneerd. Probeer opnieuw en zorg dat je proxy 127.0.0.1 doorlaat.';
   @override
-  String get manga_rescan_run => 'Box-OCR';
-  @override
   String get manga_rescan_hint =>
       'Sleep een kader rond de tekst die je wilt herkennen.';
   @override
-  String get manga_rescan_model_missing =>
-      'Download eerst de manga-OCR-modellen bij Instellingen.';
-  @override
   String get manga_rescan_running => 'Geselecteerd kader herkennen...';
   @override
-  String get manga_rescan_failed => 'Box-OCR mislukt';
-  @override
   String get manga_rescan_empty => 'Geen tekst herkend in dit kader.';
-  @override
-  String get manga_rescan_local_source => 'Lokale OCR';
-  @override
-  String get manga_rescan_lookup => 'Opzoeken';
-  @override
-  String get manga_rescan_writeback => 'Opslaan naar pagina';
-  @override
-  String get manga_rescan_writeback_done => 'Opgeslagen in manga.json';
-  @override
-  String get manga_rescan_writeback_failed => 'Opslaan naar manga.json mislukt';
   @override
   String get stat_hourly_band_epub => 'Tekstboeken';
   @override
@@ -84485,6 +84380,16 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -87379,9 +87284,6 @@ class _StringsPtBr extends _StringsEn {
       'Detectado: ${version}';
   @override
   String get manga_ocr_external_not_found => 'mokuro não encontrado';
-  @override
-  String get manga_ocr_mobile_note =>
-      'No celular, o modelo de reconhecimento alimenta o escaneamento de caixas no leitor de mangá.';
   @override
   String get manga_ocr_model_status_missing => 'Modelos de OCR não baixados';
   @override
@@ -91512,29 +91414,12 @@ class _StringsPtBr extends _StringsEn {
   String get sync_err_browser_timeout =>
       'O navegador nunca retornou a autorização. Tente novamente e certifique-se de que seu proxy permite 127.0.0.1.';
   @override
-  String get manga_rescan_run => 'OCR de caixa';
-  @override
   String get manga_rescan_hint =>
       'Arraste uma caixa ao redor do texto que deseja reconhecer.';
   @override
-  String get manga_rescan_model_missing =>
-      'Baixe os modelos de OCR de mangá nas Configurações primeiro.';
-  @override
   String get manga_rescan_running => 'Reconhecendo a caixa selecionada...';
   @override
-  String get manga_rescan_failed => 'OCR de caixa falhou';
-  @override
   String get manga_rescan_empty => 'Nenhum texto foi reconhecido nesta caixa.';
-  @override
-  String get manga_rescan_local_source => 'OCR local';
-  @override
-  String get manga_rescan_lookup => 'Consultar';
-  @override
-  String get manga_rescan_writeback => 'Salvar na página';
-  @override
-  String get manga_rescan_writeback_done => 'Salvo no manga.json';
-  @override
-  String get manga_rescan_writeback_failed => 'Falha ao salvar no manga.json';
   @override
   String get stat_hourly_band_epub => 'Livros de texto';
   @override
@@ -93448,6 +93333,16 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -96331,9 +96226,6 @@ class _StringsRu extends _StringsEn {
       'Обнаружено: ${version}';
   @override
   String get manga_ocr_external_not_found => 'mokuro не найден';
-  @override
-  String get manga_ocr_mobile_note =>
-      'На мобильных устройствах модель распознавания обеспечивает сканирование областей в читалке манги.';
   @override
   String get manga_ocr_model_status_missing => 'Модели OCR не скачаны';
   @override
@@ -100458,30 +100350,12 @@ class _StringsRu extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Браузер не вернул авторизацию. Попробуйте снова и убедитесь, что ваш прокси пропускает 127.0.0.1.';
   @override
-  String get manga_rescan_run => 'OCR области';
-  @override
   String get manga_rescan_hint =>
       'Выделите рамкой текст, который хотите распознать.';
   @override
-  String get manga_rescan_model_missing =>
-      'Сначала загрузите модели OCR для манги в настройках.';
-  @override
   String get manga_rescan_running => 'Распознавание выбранной области...';
   @override
-  String get manga_rescan_failed => 'Ошибка OCR области';
-  @override
   String get manga_rescan_empty => 'Текст в этой области не распознан.';
-  @override
-  String get manga_rescan_local_source => 'Локальное OCR';
-  @override
-  String get manga_rescan_lookup => 'Найти в словаре';
-  @override
-  String get manga_rescan_writeback => 'Сохранить на страницу';
-  @override
-  String get manga_rescan_writeback_done => 'Сохранено в manga.json';
-  @override
-  String get manga_rescan_writeback_failed =>
-      'Не удалось сохранить в manga.json';
   @override
   String get stat_hourly_band_epub => 'Текстовые книги';
   @override
@@ -102385,6 +102259,16 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -105214,9 +105098,6 @@ class _StringsTh extends _StringsEn {
       'ตรวจพบ: ${version}';
   @override
   String get manga_ocr_external_not_found => 'ไม่พบ Mokuro';
-  @override
-  String get manga_ocr_mobile_note =>
-      'บนมือถือ โมเดลจดจำจะทำงานกับการสแกนกรอบในตัวอ่านมังงะ';
   @override
   String get manga_ocr_model_status_missing => 'ยังไม่ได้ดาวน์โหลดโมเดล OCR';
   @override
@@ -109259,28 +109140,11 @@ class _StringsTh extends _StringsEn {
   String get sync_err_browser_timeout =>
       'เบราว์เซอร์ไม่ส่งคืนการอนุญาต ลองใหม่ และตรวจสอบว่าพร็อกซีของคุณอนุญาต 127.0.0.1 ผ่าน';
   @override
-  String get manga_rescan_run => 'OCR กล่อง';
-  @override
   String get manga_rescan_hint => 'ลากกล่องรอบข้อความที่คุณต้องการให้รู้จำ';
-  @override
-  String get manga_rescan_model_missing =>
-      'ดาวน์โหลดโมเดล OCR มังงะในการตั้งค่าก่อน';
   @override
   String get manga_rescan_running => 'กำลังรู้จำกล่องที่เลือก...';
   @override
-  String get manga_rescan_failed => 'OCR กล่องล้มเหลว';
-  @override
   String get manga_rescan_empty => 'ไม่พบข้อความในกล่องนี้';
-  @override
-  String get manga_rescan_local_source => 'OCR ในเครื่อง';
-  @override
-  String get manga_rescan_lookup => 'ค้นหาคำ';
-  @override
-  String get manga_rescan_writeback => 'บันทึกลงหน้า';
-  @override
-  String get manga_rescan_writeback_done => 'บันทึกลง manga.json แล้ว';
-  @override
-  String get manga_rescan_writeback_failed => 'บันทึกลง manga.json ไม่สำเร็จ';
   @override
   String get stat_hourly_band_epub => 'หนังสือข้อความ';
   @override
@@ -111143,6 +111007,16 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -114008,9 +113882,6 @@ class _StringsTr extends _StringsEn {
       'Algılandı: ${version}';
   @override
   String get manga_ocr_external_not_found => 'mokuro bulunamadı';
-  @override
-  String get manga_ocr_mobile_note =>
-      'Mobilde, tanıma modeli manga okuyucudaki kutu taramayı destekler.';
   @override
   String get manga_ocr_model_status_missing => 'OCR modelleri indirilmedi';
   @override
@@ -118097,30 +117968,12 @@ class _StringsTr extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Tarayıcı yetkilendirmeyi döndürmedi. Tekrar deneyin ve proxy\'nizin 127.0.0.1 adresine izin verdiğinden emin olun.';
   @override
-  String get manga_rescan_run => 'Kutu OCR';
-  @override
   String get manga_rescan_hint =>
       'Tanımak istediğiniz metnin etrafına bir kutu çizin.';
   @override
-  String get manga_rescan_model_missing =>
-      'Önce Ayarlar\'dan manga OCR modellerini indirin.';
-  @override
   String get manga_rescan_running => 'Seçili kutu tanınıyor...';
   @override
-  String get manga_rescan_failed => 'Kutu OCR başarısız';
-  @override
   String get manga_rescan_empty => 'Bu kutuda metin tanınamadı.';
-  @override
-  String get manga_rescan_local_source => 'Yerel OCR';
-  @override
-  String get manga_rescan_lookup => 'Ara';
-  @override
-  String get manga_rescan_writeback => 'Sayfaya kaydet';
-  @override
-  String get manga_rescan_writeback_done => 'manga.json dosyasına kaydedildi';
-  @override
-  String get manga_rescan_writeback_failed =>
-      'manga.json dosyasına kaydetme başarısız';
   @override
   String get stat_hourly_band_epub => 'Metin kitaplar';
   @override
@@ -120005,6 +119858,16 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -122867,9 +122730,6 @@ class _StringsVi extends _StringsEn {
       'Đã phát hiện: ${version}';
   @override
   String get manga_ocr_external_not_found => 'Không tìm thấy mokuro';
-  @override
-  String get manga_ocr_mobile_note =>
-      'Trên di động, mô hình nhận dạng hỗ trợ quét khung trong trình đọc truyện tranh.';
   @override
   String get manga_ocr_model_status_missing => 'Chưa tải mô hình OCR';
   @override
@@ -126945,30 +126805,13 @@ class _StringsVi extends _StringsEn {
   String get sync_err_browser_timeout =>
       'Trình duyệt không trả về ủy quyền. Thử lại, và đảm bảo proxy của bạn cho phép 127.0.0.1 đi qua.';
   @override
-  String get manga_rescan_run => 'OCR vùng chọn';
-  @override
   String get manga_rescan_hint =>
       'Kéo một khung quanh văn bản bạn muốn nhận dạng.';
   @override
-  String get manga_rescan_model_missing =>
-      'Tải mô hình OCR truyện tranh trong Cài đặt trước.';
-  @override
   String get manga_rescan_running => 'Đang nhận dạng vùng đã chọn...';
-  @override
-  String get manga_rescan_failed => 'OCR vùng chọn thất bại';
   @override
   String get manga_rescan_empty =>
       'Không nhận dạng được văn bản nào trong vùng này.';
-  @override
-  String get manga_rescan_local_source => 'OCR cục bộ';
-  @override
-  String get manga_rescan_lookup => 'Tra từ';
-  @override
-  String get manga_rescan_writeback => 'Lưu vào trang';
-  @override
-  String get manga_rescan_writeback_done => 'Đã lưu vào manga.json';
-  @override
-  String get manga_rescan_writeback_failed => 'Không thể lưu vào manga.json';
   @override
   String get stat_hourly_band_epub => 'Sách văn bản';
   @override
@@ -128848,6 +128691,16 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 // Path: <root>
@@ -131493,8 +131346,6 @@ class _StringsZhCn extends _StringsEn {
       '已检测到：${version}';
   @override
   String get manga_ocr_external_not_found => '未找到 mokuro';
-  @override
-  String get manga_ocr_mobile_note => '移动端下载的模型用于漫画阅读页的框选识别。';
   @override
   String get manga_ocr_model_status_missing => 'OCR 模型未下载';
   @override
@@ -135276,27 +135127,11 @@ class _StringsZhCn extends _StringsEn {
   String get sync_err_browser_timeout =>
       '浏览器授权没有返回到应用。请重试，并确认代理放行了本机回环地址 127.0.0.1。';
   @override
-  String get manga_rescan_run => '框选识别';
-  @override
   String get manga_rescan_hint => '拖动框选想要识别的文字。';
-  @override
-  String get manga_rescan_model_missing => '请先在设置里下载漫画 OCR 模型。';
   @override
   String get manga_rescan_running => '正在识别所选区域…';
   @override
-  String get manga_rescan_failed => '框选识别失败';
-  @override
   String get manga_rescan_empty => '该区域未识别出文字。';
-  @override
-  String get manga_rescan_local_source => '本地识别';
-  @override
-  String get manga_rescan_lookup => '查词';
-  @override
-  String get manga_rescan_writeback => '回写本页';
-  @override
-  String get manga_rescan_writeback_done => '已回写 manga.json';
-  @override
-  String get manga_rescan_writeback_failed => '回写 manga.json 失败';
   @override
   String get stat_hourly_band_epub => '文字书';
   @override
@@ -136980,6 +136815,14 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       '在线章节的页面不在本地，只能用 Google Lens 识别——页面图片会上传给 Google。';
+  @override
+  String get manga_rescan_run => '重新识别框选区域';
+  @override
+  String get manga_rescan_failed => '重新识别框选区域失败';
+  @override
+  String get manga_rescan_region_updated => '已重新识别该区域并回写本页';
+  @override
+  String get manga_ocr_mobile_note => '移动端下载的模型供漫画阅读页的本地引擎使用：整卷、点击、框选区域识别都走它。';
 }
 
 // Path: <root>
@@ -139626,8 +139469,6 @@ class _StringsZhHk extends _StringsEn {
       '已檢測到：${version}';
   @override
   String get manga_ocr_external_not_found => '未找到 mokuro';
-  @override
-  String get manga_ocr_mobile_note => '移動端下載的模型用於漫畫閱讀頁的框選識別。';
   @override
   String get manga_ocr_model_status_missing => 'OCR 模型未下載';
   @override
@@ -143411,27 +143252,11 @@ class _StringsZhHk extends _StringsEn {
   String get sync_err_browser_timeout =>
       '瀏覽器授權沒有返回到應用。請重試，並確認代理放行了本機回環地址 127.0.0.1。';
   @override
-  String get manga_rescan_run => '框選識別';
-  @override
   String get manga_rescan_hint => '拖動框選想要識別的文字。';
-  @override
-  String get manga_rescan_model_missing => '請先在設定裡下載漫畫 OCR 模型。';
   @override
   String get manga_rescan_running => '正在識別所選區域…';
   @override
-  String get manga_rescan_failed => '框選識別失敗';
-  @override
   String get manga_rescan_empty => '該區域未識別出文字。';
-  @override
-  String get manga_rescan_local_source => '本地識別';
-  @override
-  String get manga_rescan_lookup => '查詞';
-  @override
-  String get manga_rescan_writeback => '回寫本頁';
-  @override
-  String get manga_rescan_writeback_done => '已回寫 manga.json';
-  @override
-  String get manga_rescan_writeback_failed => '回寫 manga.json 失敗';
   @override
   String get stat_hourly_band_epub => '文字書';
   @override
@@ -145127,6 +144952,16 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get manga_rescan_run => 'Re-OCR selected area';
+  @override
+  String get manga_rescan_failed => 'Re-OCR of the selected area failed';
+  @override
+  String get manga_rescan_region_updated =>
+      'Selected area re-recognized and saved to the page';
+  @override
+  String get manga_ocr_mobile_note =>
+      'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
 }
 
 /// Flat map(s) containing all translations.
@@ -147644,8 +147479,6 @@ extension on _StringsEn {
         return ({required Object version}) => 'Detected: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro not found';
-      case 'manga_ocr_mobile_note':
-        return 'On mobile, the recognition model powers box scan in the manga reader.';
       case 'manga_ocr_model_status_missing':
         return 'OCR models not downloaded';
       case 'manga_ocr_model_status_ready':
@@ -151292,28 +151125,12 @@ extension on _StringsEn {
             'Renamed ${n} episodes, ${m} failed';
       case 'sync_err_browser_timeout':
         return 'The browser never returned the authorization. Retry, and make sure your proxy lets 127.0.0.1 through.';
-      case 'manga_rescan_run':
-        return 'Box OCR';
       case 'manga_rescan_hint':
         return 'Drag a box around the text you want to recognize.';
-      case 'manga_rescan_model_missing':
-        return 'Download the manga OCR models in Settings first.';
       case 'manga_rescan_running':
         return 'Recognizing the selected box...';
-      case 'manga_rescan_failed':
-        return 'Box OCR failed';
       case 'manga_rescan_empty':
         return 'No text was recognized in this box.';
-      case 'manga_rescan_local_source':
-        return 'Local OCR';
-      case 'manga_rescan_lookup':
-        return 'Look up';
-      case 'manga_rescan_writeback':
-        return 'Save to page';
-      case 'manga_rescan_writeback_done':
-        return 'Saved to manga.json';
-      case 'manga_rescan_writeback_failed':
-        return 'Failed to save to manga.json';
       case 'stat_hourly_band_epub':
         return 'Text books';
       case 'stat_hourly_band_pdf':
@@ -152891,6 +152708,14 @@ extension on _StringsEn {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -155405,8 +155230,6 @@ extension on _StringsAr {
         return ({required Object version}) => 'تم الكشف: ${version}';
       case 'manga_ocr_external_not_found':
         return 'لم يُعثر على Mokuro';
-      case 'manga_ocr_mobile_note':
-        return 'على الهاتف، يُشغّل نموذج التعرف مسح المربعات في قارئ المانغا.';
       case 'manga_ocr_model_status_missing':
         return 'لم يتم تحميل نماذج OCR';
       case 'manga_ocr_model_status_ready':
@@ -159049,28 +158872,12 @@ extension on _StringsAr {
             'تمت إعادة تسمية ${n} حلقة، فشل ${m}';
       case 'sync_err_browser_timeout':
         return 'لم يُعِد المتصفح التفويض. حاول مجددًا، وتأكد من أن الوكيل يسمح بالمرور عبر 127.0.0.1.';
-      case 'manga_rescan_run':
-        return 'التعرف الضوئي للمربع';
       case 'manga_rescan_hint':
         return 'ارسم مربعًا حول النص الذي تريد التعرف عليه.';
-      case 'manga_rescan_model_missing':
-        return 'حمّل نماذج التعرف الضوئي للمانغا في الإعدادات أولًا.';
       case 'manga_rescan_running':
         return 'جارٍ التعرف على المربع المحدد...';
-      case 'manga_rescan_failed':
-        return 'فشل التعرف الضوئي للمربع';
       case 'manga_rescan_empty':
         return 'لم يتم التعرف على أي نص في هذا المربع.';
-      case 'manga_rescan_local_source':
-        return 'تعرف ضوئي محلي';
-      case 'manga_rescan_lookup':
-        return 'بحث';
-      case 'manga_rescan_writeback':
-        return 'حفظ في الصفحة';
-      case 'manga_rescan_writeback_done':
-        return 'تم الحفظ في manga.json';
-      case 'manga_rescan_writeback_failed':
-        return 'فشل الحفظ في manga.json';
       case 'stat_hourly_band_epub':
         return 'كتب نصية';
       case 'stat_hourly_band_pdf':
@@ -160652,6 +160459,14 @@ extension on _StringsAr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -163180,8 +162995,6 @@ extension on _StringsDe {
         return ({required Object version}) => 'Erkannt: ${version}';
       case 'manga_ocr_external_not_found':
         return 'Mokuro nicht gefunden';
-      case 'manga_ocr_mobile_note':
-        return 'Auf Mobilgeräten unterstützt das Erkennungsmodell den Box-Scan im Manga-Reader.';
       case 'manga_ocr_model_status_missing':
         return 'OCR-Modelle nicht heruntergeladen';
       case 'manga_ocr_model_status_ready':
@@ -166845,28 +166658,12 @@ extension on _StringsDe {
             '${n} Episoden umbenannt, ${m} fehlgeschlagen';
       case 'sync_err_browser_timeout':
         return 'Der Browser hat die Autorisierung nicht zurückgegeben. Versuchen Sie es erneut und stellen Sie sicher, dass Ihr Proxy 127.0.0.1 durchlässt.';
-      case 'manga_rescan_run':
-        return 'Box-OCR';
       case 'manga_rescan_hint':
         return 'Ziehen Sie einen Rahmen um den Text, den Sie erkennen möchten.';
-      case 'manga_rescan_model_missing':
-        return 'Laden Sie zuerst die Manga-OCR-Modelle in den Einstellungen herunter.';
       case 'manga_rescan_running':
         return 'Ausgewählter Bereich wird erkannt...';
-      case 'manga_rescan_failed':
-        return 'Box-OCR fehlgeschlagen';
       case 'manga_rescan_empty':
         return 'In diesem Bereich wurde kein Text erkannt.';
-      case 'manga_rescan_local_source':
-        return 'Lokale OCR';
-      case 'manga_rescan_lookup':
-        return 'Nachschlagen';
-      case 'manga_rescan_writeback':
-        return 'Auf Seite speichern';
-      case 'manga_rescan_writeback_done':
-        return 'In manga.json gespeichert';
-      case 'manga_rescan_writeback_failed':
-        return 'Speichern in manga.json fehlgeschlagen';
       case 'stat_hourly_band_epub':
         return 'Textbücher';
       case 'stat_hourly_band_pdf':
@@ -168453,6 +168250,14 @@ extension on _StringsDe {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -170980,8 +170785,6 @@ extension on _StringsEs {
         return ({required Object version}) => 'Detectado: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro no encontrado';
-      case 'manga_ocr_mobile_note':
-        return 'En móvil, el modelo de reconocimiento activa el escaneo de recuadros en el lector de manga.';
       case 'manga_ocr_model_status_missing':
         return 'Modelos de OCR no descargados';
       case 'manga_ocr_model_status_ready':
@@ -174641,28 +174444,12 @@ extension on _StringsEs {
             'Se renombraron ${n} episodios, ${m} fallaron';
       case 'sync_err_browser_timeout':
         return 'El navegador nunca devolvió la autorización. Reintente y asegúrese de que su proxy deje pasar 127.0.0.1.';
-      case 'manga_rescan_run':
-        return 'OCR de recuadro';
       case 'manga_rescan_hint':
         return 'Arrastre un recuadro alrededor del texto que desea reconocer.';
-      case 'manga_rescan_model_missing':
-        return 'Descargue los modelos de OCR de manga en Ajustes primero.';
       case 'manga_rescan_running':
         return 'Reconociendo el recuadro seleccionado...';
-      case 'manga_rescan_failed':
-        return 'El OCR de recuadro falló';
       case 'manga_rescan_empty':
         return 'No se reconoció texto en este recuadro.';
-      case 'manga_rescan_local_source':
-        return 'OCR local';
-      case 'manga_rescan_lookup':
-        return 'Buscar';
-      case 'manga_rescan_writeback':
-        return 'Guardar en página';
-      case 'manga_rescan_writeback_done':
-        return 'Guardado en manga.json';
-      case 'manga_rescan_writeback_failed':
-        return 'No se pudo guardar en manga.json';
       case 'stat_hourly_band_epub':
         return 'Libros de texto';
       case 'stat_hourly_band_pdf':
@@ -176246,6 +176033,14 @@ extension on _StringsEs {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -178778,8 +178573,6 @@ extension on _StringsFr {
         return ({required Object version}) => 'Détecté : ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro introuvable';
-      case 'manga_ocr_mobile_note':
-        return 'Sur mobile, le modèle de reconnaissance permet le scan de zones dans le lecteur de manga.';
       case 'manga_ocr_model_status_missing':
         return 'Modèles OCR non téléchargés';
       case 'manga_ocr_model_status_ready':
@@ -182442,28 +182235,12 @@ extension on _StringsFr {
             '${n} épisodes renommés, ${m} échoués';
       case 'sync_err_browser_timeout':
         return 'Le navigateur n\'a jamais renvoyé l\'autorisation. Réessayez et assurez-vous que votre proxy laisse passer 127.0.0.1.';
-      case 'manga_rescan_run':
-        return 'OCR par zone';
       case 'manga_rescan_hint':
         return 'Tracez un rectangle autour du texte à reconnaître.';
-      case 'manga_rescan_model_missing':
-        return 'Téléchargez d\'abord les modèles OCR manga dans les Paramètres.';
       case 'manga_rescan_running':
         return 'Reconnaissance de la zone sélectionnée…';
-      case 'manga_rescan_failed':
-        return 'Échec de l\'OCR par zone';
       case 'manga_rescan_empty':
         return 'Aucun texte n\'a été reconnu dans cette zone.';
-      case 'manga_rescan_local_source':
-        return 'OCR local';
-      case 'manga_rescan_lookup':
-        return 'Rechercher';
-      case 'manga_rescan_writeback':
-        return 'Enregistrer dans la page';
-      case 'manga_rescan_writeback_done':
-        return 'Enregistré dans manga.json';
-      case 'manga_rescan_writeback_failed':
-        return 'Échec de l\'enregistrement dans manga.json';
       case 'stat_hourly_band_epub':
         return 'Romans';
       case 'stat_hourly_band_pdf':
@@ -184047,6 +183824,14 @@ extension on _StringsFr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -186570,8 +186355,6 @@ extension on _StringsId {
         return ({required Object version}) => 'Terdeteksi: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro tidak ditemukan';
-      case 'manga_ocr_mobile_note':
-        return 'Di perangkat seluler, model pengenalan memberdayakan pemindaian kotak di pembaca manga.';
       case 'manga_ocr_model_status_missing':
         return 'Model OCR belum diunduh';
       case 'manga_ocr_model_status_ready':
@@ -190220,28 +190003,12 @@ extension on _StringsId {
             '${n} episode diganti nama, ${m} gagal';
       case 'sync_err_browser_timeout':
         return 'Browser tidak pernah mengembalikan otorisasi. Coba lagi, dan pastikan proxy Anda mengizinkan 127.0.0.1.';
-      case 'manga_rescan_run':
-        return 'OCR kotak';
       case 'manga_rescan_hint':
         return 'Seret kotak di sekitar teks yang ingin dikenali.';
-      case 'manga_rescan_model_missing':
-        return 'Unduh model OCR manga di Pengaturan terlebih dahulu.';
       case 'manga_rescan_running':
         return 'Mengenali kotak yang dipilih...';
-      case 'manga_rescan_failed':
-        return 'OCR kotak gagal';
       case 'manga_rescan_empty':
         return 'Tidak ada teks yang dikenali di kotak ini.';
-      case 'manga_rescan_local_source':
-        return 'OCR lokal';
-      case 'manga_rescan_lookup':
-        return 'Cari di kamus';
-      case 'manga_rescan_writeback':
-        return 'Simpan ke halaman';
-      case 'manga_rescan_writeback_done':
-        return 'Disimpan ke manga.json';
-      case 'manga_rescan_writeback_failed':
-        return 'Gagal menyimpan ke manga.json';
       case 'stat_hourly_band_epub':
         return 'Buku teks';
       case 'stat_hourly_band_pdf':
@@ -191822,6 +191589,14 @@ extension on _StringsId {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -194349,8 +194124,6 @@ extension on _StringsIt {
         return ({required Object version}) => 'Rilevato: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro non trovato';
-      case 'manga_ocr_mobile_note':
-        return 'Su mobile, il modello di riconoscimento alimenta la scansione riquadro nel lettore manga.';
       case 'manga_ocr_model_status_missing':
         return 'Modelli OCR non scaricati';
       case 'manga_ocr_model_status_ready':
@@ -198013,28 +197786,12 @@ extension on _StringsIt {
             'Rinominati ${n} episodi, ${m} falliti';
       case 'sync_err_browser_timeout':
         return 'Il browser non ha restituito l\'autorizzazione. Riprova e assicurati che il proxy lasci passare 127.0.0.1.';
-      case 'manga_rescan_run':
-        return 'OCR riquadro';
       case 'manga_rescan_hint':
         return 'Disegna un riquadro intorno al testo che vuoi riconoscere.';
-      case 'manga_rescan_model_missing':
-        return 'Scarica prima i modelli OCR manga nelle Impostazioni.';
       case 'manga_rescan_running':
         return 'Riconoscimento del riquadro selezionato...';
-      case 'manga_rescan_failed':
-        return 'OCR riquadro fallito';
       case 'manga_rescan_empty':
         return 'Nessun testo riconosciuto in questo riquadro.';
-      case 'manga_rescan_local_source':
-        return 'OCR locale';
-      case 'manga_rescan_lookup':
-        return 'Cerca';
-      case 'manga_rescan_writeback':
-        return 'Salva nella pagina';
-      case 'manga_rescan_writeback_done':
-        return 'Salvato in manga.json';
-      case 'manga_rescan_writeback_failed':
-        return 'Impossibile salvare in manga.json';
       case 'stat_hourly_band_epub':
         return 'Libri di testo';
       case 'stat_hourly_band_pdf':
@@ -199617,6 +199374,14 @@ extension on _StringsIt {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -202121,8 +201886,6 @@ extension on _StringsJa {
         return ({required Object version}) => '検出済み：${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuroが見つかりません';
-      case 'manga_ocr_mobile_note':
-        return 'モバイルでは、認識モデルがマンガリーダーのボックススキャンに使用されます。';
       case 'manga_ocr_model_status_missing':
         return 'OCRモデル未ダウンロード';
       case 'manga_ocr_model_status_ready':
@@ -205749,28 +205512,12 @@ extension on _StringsJa {
             '${n}話の名前を変更、${m}件失敗';
       case 'sync_err_browser_timeout':
         return 'ブラウザが認可を返しませんでした。再試行し、プロキシが127.0.0.1を通すことを確認してください。';
-      case 'manga_rescan_run':
-        return 'ボックスOCR';
       case 'manga_rescan_hint':
         return '認識したいテキストの周りにボックスをドラッグしてください。';
-      case 'manga_rescan_model_missing':
-        return '先に設定からマンガOCRモデルをダウンロードしてください。';
       case 'manga_rescan_running':
         return '選択したボックスを認識中...';
-      case 'manga_rescan_failed':
-        return 'ボックスOCRに失敗';
       case 'manga_rescan_empty':
         return 'このボックス内にテキストが認識されませんでした。';
-      case 'manga_rescan_local_source':
-        return 'ローカルOCR';
-      case 'manga_rescan_lookup':
-        return '検索';
-      case 'manga_rescan_writeback':
-        return 'ページに保存';
-      case 'manga_rescan_writeback_done':
-        return 'manga.jsonに保存しました';
-      case 'manga_rescan_writeback_failed':
-        return 'manga.jsonへの保存に失敗しました';
       case 'stat_hourly_band_epub':
         return 'テキスト書籍';
       case 'stat_hourly_band_pdf':
@@ -207348,6 +207095,14 @@ extension on _StringsJa {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -209853,8 +209608,6 @@ extension on _StringsKo {
         return ({required Object version}) => '감지됨: ${version}';
       case 'manga_ocr_external_not_found':
         return 'Mokuro를 찾을 수 없습니다';
-      case 'manga_ocr_mobile_note':
-        return '모바일에서는 인식 모델이 만화 리더의 박스 스캔을 지원합니다.';
       case 'manga_ocr_model_status_missing':
         return 'OCR 모델이 다운로드되지 않았습니다';
       case 'manga_ocr_model_status_ready':
@@ -213483,28 +213236,12 @@ extension on _StringsKo {
             '${n}개 에피소드 이름 변경됨, ${m}개 실패';
       case 'sync_err_browser_timeout':
         return '브라우저에서 인증을 반환하지 않았습니다. 다시 시도하고 프록시가 127.0.0.1을 통과시키는지 확인하세요.';
-      case 'manga_rescan_run':
-        return '박스 OCR';
       case 'manga_rescan_hint':
         return '인식할 텍스트 주위에 박스를 드래그하세요.';
-      case 'manga_rescan_model_missing':
-        return '먼저 설정에서 만화 OCR 모델을 다운로드하세요.';
       case 'manga_rescan_running':
         return '선택한 박스를 인식하는 중...';
-      case 'manga_rescan_failed':
-        return '박스 OCR 실패';
       case 'manga_rescan_empty':
         return '이 박스에서 텍스트를 인식하지 못했습니다.';
-      case 'manga_rescan_local_source':
-        return '로컬 OCR';
-      case 'manga_rescan_lookup':
-        return '조회';
-      case 'manga_rescan_writeback':
-        return '페이지에 저장';
-      case 'manga_rescan_writeback_done':
-        return 'manga.json에 저장됨';
-      case 'manga_rescan_writeback_failed':
-        return 'manga.json 저장 실패';
       case 'stat_hourly_band_epub':
         return '텍스트 도서';
       case 'stat_hourly_band_pdf':
@@ -215081,6 +214818,14 @@ extension on _StringsKo {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -217607,8 +217352,6 @@ extension on _StringsNl {
         return ({required Object version}) => 'Gedetecteerd: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro niet gevonden';
-      case 'manga_ocr_mobile_note':
-        return 'Op mobiel stuurt het herkenningsmodel de boxscan in de mangalezer aan.';
       case 'manga_ocr_model_status_missing':
         return 'OCR-modellen niet gedownload';
       case 'manga_ocr_model_status_ready':
@@ -221265,28 +221008,12 @@ extension on _StringsNl {
             '${n} afleveringen hernoemd, ${m} mislukt';
       case 'sync_err_browser_timeout':
         return 'De browser heeft de autorisatie nooit geretourneerd. Probeer opnieuw en zorg dat je proxy 127.0.0.1 doorlaat.';
-      case 'manga_rescan_run':
-        return 'Box-OCR';
       case 'manga_rescan_hint':
         return 'Sleep een kader rond de tekst die je wilt herkennen.';
-      case 'manga_rescan_model_missing':
-        return 'Download eerst de manga-OCR-modellen bij Instellingen.';
       case 'manga_rescan_running':
         return 'Geselecteerd kader herkennen...';
-      case 'manga_rescan_failed':
-        return 'Box-OCR mislukt';
       case 'manga_rescan_empty':
         return 'Geen tekst herkend in dit kader.';
-      case 'manga_rescan_local_source':
-        return 'Lokale OCR';
-      case 'manga_rescan_lookup':
-        return 'Opzoeken';
-      case 'manga_rescan_writeback':
-        return 'Opslaan naar pagina';
-      case 'manga_rescan_writeback_done':
-        return 'Opgeslagen in manga.json';
-      case 'manga_rescan_writeback_failed':
-        return 'Opslaan naar manga.json mislukt';
       case 'stat_hourly_band_epub':
         return 'Tekstboeken';
       case 'stat_hourly_band_pdf':
@@ -222869,6 +222596,14 @@ extension on _StringsNl {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -225394,8 +225129,6 @@ extension on _StringsPtBr {
         return ({required Object version}) => 'Detectado: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro não encontrado';
-      case 'manga_ocr_mobile_note':
-        return 'No celular, o modelo de reconhecimento alimenta o escaneamento de caixas no leitor de mangá.';
       case 'manga_ocr_model_status_missing':
         return 'Modelos de OCR não baixados';
       case 'manga_ocr_model_status_ready':
@@ -229048,28 +228781,12 @@ extension on _StringsPtBr {
             'Renomeados ${n} episódios, ${m} falharam';
       case 'sync_err_browser_timeout':
         return 'O navegador nunca retornou a autorização. Tente novamente e certifique-se de que seu proxy permite 127.0.0.1.';
-      case 'manga_rescan_run':
-        return 'OCR de caixa';
       case 'manga_rescan_hint':
         return 'Arraste uma caixa ao redor do texto que deseja reconhecer.';
-      case 'manga_rescan_model_missing':
-        return 'Baixe os modelos de OCR de mangá nas Configurações primeiro.';
       case 'manga_rescan_running':
         return 'Reconhecendo a caixa selecionada...';
-      case 'manga_rescan_failed':
-        return 'OCR de caixa falhou';
       case 'manga_rescan_empty':
         return 'Nenhum texto foi reconhecido nesta caixa.';
-      case 'manga_rescan_local_source':
-        return 'OCR local';
-      case 'manga_rescan_lookup':
-        return 'Consultar';
-      case 'manga_rescan_writeback':
-        return 'Salvar na página';
-      case 'manga_rescan_writeback_done':
-        return 'Salvo no manga.json';
-      case 'manga_rescan_writeback_failed':
-        return 'Falha ao salvar no manga.json';
       case 'stat_hourly_band_epub':
         return 'Livros de texto';
       case 'stat_hourly_band_pdf':
@@ -230653,6 +230370,14 @@ extension on _StringsPtBr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -233182,8 +232907,6 @@ extension on _StringsRu {
         return ({required Object version}) => 'Обнаружено: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro не найден';
-      case 'manga_ocr_mobile_note':
-        return 'На мобильных устройствах модель распознавания обеспечивает сканирование областей в читалке манги.';
       case 'manga_ocr_model_status_missing':
         return 'Модели OCR не скачаны';
       case 'manga_ocr_model_status_ready':
@@ -236840,28 +236563,12 @@ extension on _StringsRu {
             'Переименовано ${n} эпизодов, ${m} с ошибкой';
       case 'sync_err_browser_timeout':
         return 'Браузер не вернул авторизацию. Попробуйте снова и убедитесь, что ваш прокси пропускает 127.0.0.1.';
-      case 'manga_rescan_run':
-        return 'OCR области';
       case 'manga_rescan_hint':
         return 'Выделите рамкой текст, который хотите распознать.';
-      case 'manga_rescan_model_missing':
-        return 'Сначала загрузите модели OCR для манги в настройках.';
       case 'manga_rescan_running':
         return 'Распознавание выбранной области...';
-      case 'manga_rescan_failed':
-        return 'Ошибка OCR области';
       case 'manga_rescan_empty':
         return 'Текст в этой области не распознан.';
-      case 'manga_rescan_local_source':
-        return 'Локальное OCR';
-      case 'manga_rescan_lookup':
-        return 'Найти в словаре';
-      case 'manga_rescan_writeback':
-        return 'Сохранить на страницу';
-      case 'manga_rescan_writeback_done':
-        return 'Сохранено в manga.json';
-      case 'manga_rescan_writeback_failed':
-        return 'Не удалось сохранить в manga.json';
       case 'stat_hourly_band_epub':
         return 'Текстовые книги';
       case 'stat_hourly_band_pdf':
@@ -238444,6 +238151,14 @@ extension on _StringsRu {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -240960,8 +240675,6 @@ extension on _StringsTh {
         return ({required Object version}) => 'ตรวจพบ: ${version}';
       case 'manga_ocr_external_not_found':
         return 'ไม่พบ Mokuro';
-      case 'manga_ocr_mobile_note':
-        return 'บนมือถือ โมเดลจดจำจะทำงานกับการสแกนกรอบในตัวอ่านมังงะ';
       case 'manga_ocr_model_status_missing':
         return 'ยังไม่ได้ดาวน์โหลดโมเดล OCR';
       case 'manga_ocr_model_status_ready':
@@ -244608,28 +244321,12 @@ extension on _StringsTh {
             'เปลี่ยนชื่อแล้ว ${n} ตอน, ล้มเหลว ${m}';
       case 'sync_err_browser_timeout':
         return 'เบราว์เซอร์ไม่ส่งคืนการอนุญาต ลองใหม่ และตรวจสอบว่าพร็อกซีของคุณอนุญาต 127.0.0.1 ผ่าน';
-      case 'manga_rescan_run':
-        return 'OCR กล่อง';
       case 'manga_rescan_hint':
         return 'ลากกล่องรอบข้อความที่คุณต้องการให้รู้จำ';
-      case 'manga_rescan_model_missing':
-        return 'ดาวน์โหลดโมเดล OCR มังงะในการตั้งค่าก่อน';
       case 'manga_rescan_running':
         return 'กำลังรู้จำกล่องที่เลือก...';
-      case 'manga_rescan_failed':
-        return 'OCR กล่องล้มเหลว';
       case 'manga_rescan_empty':
         return 'ไม่พบข้อความในกล่องนี้';
-      case 'manga_rescan_local_source':
-        return 'OCR ในเครื่อง';
-      case 'manga_rescan_lookup':
-        return 'ค้นหาคำ';
-      case 'manga_rescan_writeback':
-        return 'บันทึกลงหน้า';
-      case 'manga_rescan_writeback_done':
-        return 'บันทึกลง manga.json แล้ว';
-      case 'manga_rescan_writeback_failed':
-        return 'บันทึกลง manga.json ไม่สำเร็จ';
       case 'stat_hourly_band_epub':
         return 'หนังสือข้อความ';
       case 'stat_hourly_band_pdf':
@@ -246209,6 +245906,14 @@ extension on _StringsTh {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -248730,8 +248435,6 @@ extension on _StringsTr {
         return ({required Object version}) => 'Algılandı: ${version}';
       case 'manga_ocr_external_not_found':
         return 'mokuro bulunamadı';
-      case 'manga_ocr_mobile_note':
-        return 'Mobilde, tanıma modeli manga okuyucudaki kutu taramayı destekler.';
       case 'manga_ocr_model_status_missing':
         return 'OCR modelleri indirilmedi';
       case 'manga_ocr_model_status_ready':
@@ -252386,28 +252089,12 @@ extension on _StringsTr {
             '${n} bölüm yeniden adlandırıldı, ${m} başarısız';
       case 'sync_err_browser_timeout':
         return 'Tarayıcı yetkilendirmeyi döndürmedi. Tekrar deneyin ve proxy\'nizin 127.0.0.1 adresine izin verdiğinden emin olun.';
-      case 'manga_rescan_run':
-        return 'Kutu OCR';
       case 'manga_rescan_hint':
         return 'Tanımak istediğiniz metnin etrafına bir kutu çizin.';
-      case 'manga_rescan_model_missing':
-        return 'Önce Ayarlar\'dan manga OCR modellerini indirin.';
       case 'manga_rescan_running':
         return 'Seçili kutu tanınıyor...';
-      case 'manga_rescan_failed':
-        return 'Kutu OCR başarısız';
       case 'manga_rescan_empty':
         return 'Bu kutuda metin tanınamadı.';
-      case 'manga_rescan_local_source':
-        return 'Yerel OCR';
-      case 'manga_rescan_lookup':
-        return 'Ara';
-      case 'manga_rescan_writeback':
-        return 'Sayfaya kaydet';
-      case 'manga_rescan_writeback_done':
-        return 'manga.json dosyasına kaydedildi';
-      case 'manga_rescan_writeback_failed':
-        return 'manga.json dosyasına kaydetme başarısız';
       case 'stat_hourly_band_epub':
         return 'Metin kitaplar';
       case 'stat_hourly_band_pdf':
@@ -253989,6 +253676,14 @@ extension on _StringsTr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -256511,8 +256206,6 @@ extension on _StringsVi {
         return ({required Object version}) => 'Đã phát hiện: ${version}';
       case 'manga_ocr_external_not_found':
         return 'Không tìm thấy mokuro';
-      case 'manga_ocr_mobile_note':
-        return 'Trên di động, mô hình nhận dạng hỗ trợ quét khung trong trình đọc truyện tranh.';
       case 'manga_ocr_model_status_missing':
         return 'Chưa tải mô hình OCR';
       case 'manga_ocr_model_status_ready':
@@ -260161,28 +259854,12 @@ extension on _StringsVi {
             'Đã đổi tên ${n} tập, ${m} thất bại';
       case 'sync_err_browser_timeout':
         return 'Trình duyệt không trả về ủy quyền. Thử lại, và đảm bảo proxy của bạn cho phép 127.0.0.1 đi qua.';
-      case 'manga_rescan_run':
-        return 'OCR vùng chọn';
       case 'manga_rescan_hint':
         return 'Kéo một khung quanh văn bản bạn muốn nhận dạng.';
-      case 'manga_rescan_model_missing':
-        return 'Tải mô hình OCR truyện tranh trong Cài đặt trước.';
       case 'manga_rescan_running':
         return 'Đang nhận dạng vùng đã chọn...';
-      case 'manga_rescan_failed':
-        return 'OCR vùng chọn thất bại';
       case 'manga_rescan_empty':
         return 'Không nhận dạng được văn bản nào trong vùng này.';
-      case 'manga_rescan_local_source':
-        return 'OCR cục bộ';
-      case 'manga_rescan_lookup':
-        return 'Tra từ';
-      case 'manga_rescan_writeback':
-        return 'Lưu vào trang';
-      case 'manga_rescan_writeback_done':
-        return 'Đã lưu vào manga.json';
-      case 'manga_rescan_writeback_failed':
-        return 'Không thể lưu vào manga.json';
       case 'stat_hourly_band_epub':
         return 'Sách văn bản';
       case 'stat_hourly_band_pdf':
@@ -261763,6 +261440,14 @@ extension on _StringsVi {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
@@ -264260,8 +263945,6 @@ extension on _StringsZhCn {
         return ({required Object version}) => '已检测到：${version}';
       case 'manga_ocr_external_not_found':
         return '未找到 mokuro';
-      case 'manga_ocr_mobile_note':
-        return '移动端下载的模型用于漫画阅读页的框选识别。';
       case 'manga_ocr_model_status_missing':
         return 'OCR 模型未下载';
       case 'manga_ocr_model_status_ready':
@@ -267880,28 +267563,12 @@ extension on _StringsZhCn {
             '已重命名 ${n} 集 · ${m} 集失败';
       case 'sync_err_browser_timeout':
         return '浏览器授权没有返回到应用。请重试，并确认代理放行了本机回环地址 127.0.0.1。';
-      case 'manga_rescan_run':
-        return '框选识别';
       case 'manga_rescan_hint':
         return '拖动框选想要识别的文字。';
-      case 'manga_rescan_model_missing':
-        return '请先在设置里下载漫画 OCR 模型。';
       case 'manga_rescan_running':
         return '正在识别所选区域…';
-      case 'manga_rescan_failed':
-        return '框选识别失败';
       case 'manga_rescan_empty':
         return '该区域未识别出文字。';
-      case 'manga_rescan_local_source':
-        return '本地识别';
-      case 'manga_rescan_lookup':
-        return '查词';
-      case 'manga_rescan_writeback':
-        return '回写本页';
-      case 'manga_rescan_writeback_done':
-        return '已回写 manga.json';
-      case 'manga_rescan_writeback_failed':
-        return '回写 manga.json 失败';
       case 'stat_hourly_band_epub':
         return '文字书';
       case 'stat_hourly_band_pdf':
@@ -269475,6 +269142,14 @@ extension on _StringsZhCn {
         return '此设备没有可用的系统文字识别';
       case 'manga_tap_ocr_online_lens_only':
         return '在线章节的页面不在本地，只能用 Google Lens 识别——页面图片会上传给 Google。';
+      case 'manga_rescan_run':
+        return '重新识别框选区域';
+      case 'manga_rescan_failed':
+        return '重新识别框选区域失败';
+      case 'manga_rescan_region_updated':
+        return '已重新识别该区域并回写本页';
+      case 'manga_ocr_mobile_note':
+        return '移动端下载的模型供漫画阅读页的本地引擎使用：整卷、点击、框选区域识别都走它。';
       default:
         return null;
     }
@@ -271972,8 +271647,6 @@ extension on _StringsZhHk {
         return ({required Object version}) => '已檢測到：${version}';
       case 'manga_ocr_external_not_found':
         return '未找到 mokuro';
-      case 'manga_ocr_mobile_note':
-        return '移動端下載的模型用於漫畫閱讀頁的框選識別。';
       case 'manga_ocr_model_status_missing':
         return 'OCR 模型未下載';
       case 'manga_ocr_model_status_ready':
@@ -275591,28 +275264,12 @@ extension on _StringsZhHk {
             '已重命名 ${n} 集 · ${m} 集失敗';
       case 'sync_err_browser_timeout':
         return '瀏覽器授權沒有返回到應用。請重試，並確認代理放行了本機回環地址 127.0.0.1。';
-      case 'manga_rescan_run':
-        return '框選識別';
       case 'manga_rescan_hint':
         return '拖動框選想要識別的文字。';
-      case 'manga_rescan_model_missing':
-        return '請先在設定裡下載漫畫 OCR 模型。';
       case 'manga_rescan_running':
         return '正在識別所選區域…';
-      case 'manga_rescan_failed':
-        return '框選識別失敗';
       case 'manga_rescan_empty':
         return '該區域未識別出文字。';
-      case 'manga_rescan_local_source':
-        return '本地識別';
-      case 'manga_rescan_lookup':
-        return '查詞';
-      case 'manga_rescan_writeback':
-        return '回寫本頁';
-      case 'manga_rescan_writeback_done':
-        return '已回寫 manga.json';
-      case 'manga_rescan_writeback_failed':
-        return '回寫 manga.json 失敗';
       case 'stat_hourly_band_epub':
         return '文字書';
       case 'stat_hourly_band_pdf':
@@ -277188,6 +276845,14 @@ extension on _StringsZhHk {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'manga_rescan_run':
+        return 'Re-OCR selected area';
+      case 'manga_rescan_failed':
+        return 'Re-OCR of the selected area failed';
+      case 'manga_rescan_region_updated':
+        return 'Selected area re-recognized and saved to the page';
+      case 'manga_ocr_mobile_note':
+        return 'On mobile, these models power the local engine for whole-volume, tap and selected-area OCR in the manga reader.';
       default:
         return null;
     }
