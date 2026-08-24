@@ -5130,6 +5130,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -13886,6 +13888,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -22707,6 +22712,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -31544,6 +31552,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -40393,6 +40404,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -49172,6 +49186,9 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -57995,6 +58012,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -66635,6 +66655,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -75283,6 +75306,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -84086,6 +84112,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -92901,6 +92930,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -101703,6 +101735,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -110453,6 +110488,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -119234,6 +119272,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -128001,6 +128042,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -136110,6 +136154,9 @@ class _StringsZhCn extends _StringsEn {
       '用设备自带的文字识别。不用下载、完全离线、不上传任何内容；但对竖排气泡和手写体明显不如本地模型。';
   @override
   String get manga_ocr_engine_system_unavailable => '此设备没有可用的系统文字识别';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      '在线章节的页面不在本地，只能用 Google Lens 识别——页面图片会上传给 Google。';
 }
 
 // Path: <root>
@@ -144675,6 +144722,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_ocr_engine_system_unavailable =>
       'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 /// Flat map(s) containing all translations.
@@ -152419,6 +152469,8 @@ extension on _StringsEn {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -160161,6 +160213,8 @@ extension on _StringsAr {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -167925,6 +167979,8 @@ extension on _StringsDe {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -175688,6 +175744,8 @@ extension on _StringsEs {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -183457,6 +183515,8 @@ extension on _StringsFr {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -191208,6 +191268,8 @@ extension on _StringsId {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -198973,6 +199035,8 @@ extension on _StringsIt {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -206700,6 +206764,8 @@ extension on _StringsJa {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -214431,6 +214497,8 @@ extension on _StringsKo {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -222190,6 +222258,8 @@ extension on _StringsNl {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -229946,6 +230016,8 @@ extension on _StringsPtBr {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -237707,6 +237779,8 @@ extension on _StringsRu {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -245451,6 +245525,8 @@ extension on _StringsTh {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -253204,6 +253280,8 @@ extension on _StringsTr {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -260953,6 +261031,8 @@ extension on _StringsVi {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -268645,6 +268725,8 @@ extension on _StringsZhCn {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -276367,6 +276449,8 @@ extension on _StringsZhHk {
         return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
       case 'manga_ocr_engine_system_unavailable':
         return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
