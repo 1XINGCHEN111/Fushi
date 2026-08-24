@@ -5095,6 +5095,28 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Install failed: ${message}';
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_running => 'Importing…';
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -13793,6 +13815,42 @@ class _StringsAr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -22556,6 +22614,42 @@ class _StringsDe extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -31335,6 +31429,42 @@ class _StringsEs extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -40126,6 +40256,42 @@ class _StringsFr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -48847,6 +49013,42 @@ class _StringsId extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -57612,6 +57814,42 @@ class _StringsIt extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -66194,6 +66432,42 @@ class _StringsJa extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -74784,6 +75058,42 @@ class _StringsKo extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -83529,6 +83839,42 @@ class _StringsNl extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -92286,6 +92632,42 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -101030,6 +101412,42 @@ class _StringsRu extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -109722,6 +110140,42 @@ class _StringsTh extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -118445,6 +118899,42 @@ class _StringsTr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -127154,6 +127644,42 @@ class _StringsVi extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 // Path: <root>
@@ -135209,6 +135735,40 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
+  @override
+  String get manga_ocr_download_resume => '继续下载';
+  @override
+  String get manga_ocr_import => '导入本地模型';
+  @override
+  String get manga_ocr_import_title => '导入已下载的模型';
+  @override
+  String get manga_ocr_import_intro =>
+      '如果应用内下载不通，可以自行下载下面的文件后从这里导入；也支持包含这些文件的 zip 包。';
+  @override
+  String get manga_ocr_import_copy_urls => '复制下载链接';
+  @override
+  String get manga_ocr_import_urls_copied => '下载链接已复制';
+  @override
+  String get manga_ocr_import_pick_folder => '选择文件夹';
+  @override
+  String get manga_ocr_import_pick_files => '选择文件';
+  @override
+  String get manga_ocr_import_running => '正在导入…';
+  @override
+  String manga_ocr_import_done({required Object count}) => '已导入 ${count} 个文件';
+  @override
+  String get manga_ocr_import_matched_nothing => '没有认出可用的模型文件';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} 大小不对：应为 ${expected}，实为 ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      '还缺 ${count} 个文件';
+  @override
+  String get manga_ocr_import_failed => '模型导入失败';
 }
 
 // Path: <root>
@@ -143716,6 +144276,42 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
 }
 
 /// Flat map(s) containing all translations.
@@ -151410,6 +152006,38 @@ extension on _StringsEn {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -159102,6 +159730,38 @@ extension on _StringsAr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -166816,6 +167476,38 @@ extension on _StringsDe {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -174529,6 +175221,38 @@ extension on _StringsEs {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -182248,6 +182972,38 @@ extension on _StringsFr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -189949,6 +190705,38 @@ extension on _StringsId {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -197664,6 +198452,38 @@ extension on _StringsIt {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -205341,6 +206161,38 @@ extension on _StringsJa {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -213022,6 +213874,38 @@ extension on _StringsKo {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -220731,6 +221615,38 @@ extension on _StringsNl {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -228437,6 +229353,38 @@ extension on _StringsPtBr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -236148,6 +237096,38 @@ extension on _StringsRu {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -243842,6 +244822,38 @@ extension on _StringsTh {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -251545,6 +252557,38 @@ extension on _StringsTr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -259244,6 +260288,38 @@ extension on _StringsVi {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -266886,6 +267962,38 @@ extension on _StringsZhCn {
         return ({required Object message}) => '安装失败：${message}';
       case 'game_hook_reason_capability_probe_failed':
         return '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
@@ -274558,6 +275666,38 @@ extension on _StringsZhHk {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
       default:
         return null;
     }
