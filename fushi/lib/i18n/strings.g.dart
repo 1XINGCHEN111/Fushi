@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64600 (3800 per locale)
+/// Strings: 64634 (3802 per locale)
 ///
-/// Built on 2026-08-24 at 19:42 UTC
+/// Built on 2026-08-24 at 20:32 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5164,6 +5164,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get game_hook_btn_workbench => 'Open the capture workbench';
   String get game_hook_btn_topmost => 'Keep on top';
   String get game_hook_btn_close => 'Close the overlay';
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -13961,6 +13965,12 @@ class _StringsAr extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -22963,6 +22973,12 @@ class _StringsDe extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -32008,6 +32024,12 @@ class _StringsEs extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -41082,6 +41104,12 @@ class _StringsFr extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -49989,6 +50017,12 @@ class _StringsId extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -58969,6 +59003,12 @@ class _StringsIt extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -67402,6 +67442,12 @@ class _StringsJa extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -75851,6 +75897,12 @@ class _StringsKo extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -84790,6 +84842,12 @@ class _StringsNl extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -93785,6 +93843,12 @@ class _StringsPtBr extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -102754,6 +102818,12 @@ class _StringsRu extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -111544,6 +111614,12 @@ class _StringsTh extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -120438,6 +120514,12 @@ class _StringsTr extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -129313,6 +129395,12 @@ class _StringsVi extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 // Path: <root>
@@ -137476,6 +137564,12 @@ class _StringsZhCn extends _StringsEn {
   String get game_hook_btn_topmost => '保持置顶';
   @override
   String get game_hook_btn_close => '关闭浮窗';
+  @override
+  String get video_jimaku_search_failed => '字幕搜索失败';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg}（HTTP ${code}）';
 }
 
 // Path: <root>
@@ -145655,6 +145749,12 @@ class _StringsZhHk extends _StringsEn {
   String get game_hook_btn_topmost => 'Keep on top';
   @override
   String get game_hook_btn_close => 'Close the overlay';
+  @override
+  String get video_jimaku_search_failed => 'Subtitle search failed';
+  @override
+  String video_subtitle_error_with_code(
+          {required Object msg, required Object code}) =>
+      '${msg} (HTTP ${code})';
 }
 
 /// Flat map(s) containing all translations.
@@ -153449,6 +153549,11 @@ extension on _StringsEn {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -161240,6 +161345,11 @@ extension on _StringsAr {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -169071,6 +169181,11 @@ extension on _StringsDe {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -176894,6 +177009,11 @@ extension on _StringsEs {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -184725,6 +184845,11 @@ extension on _StringsFr {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -192530,6 +192655,11 @@ extension on _StringsId {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -200355,6 +200485,11 @@ extension on _StringsIt {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -208116,6 +208251,11 @@ extension on _StringsJa {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -215879,6 +216019,11 @@ extension on _StringsKo {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -223697,6 +223842,11 @@ extension on _StringsNl {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -231511,6 +231661,11 @@ extension on _StringsPtBr {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -239332,6 +239487,11 @@ extension on _StringsRu {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -247127,6 +247287,11 @@ extension on _StringsTh {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -254937,6 +255102,11 @@ extension on _StringsTr {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -262741,6 +262911,11 @@ extension on _StringsVi {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
@@ -270483,6 +270658,11 @@ extension on _StringsZhCn {
         return '保持置顶';
       case 'game_hook_btn_close':
         return '关闭浮窗';
+      case 'video_jimaku_search_failed':
+        return '字幕搜索失败';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg}（HTTP ${code}）';
       default:
         return null;
     }
@@ -278226,6 +278406,11 @@ extension on _StringsZhHk {
         return 'Keep on top';
       case 'game_hook_btn_close':
         return 'Close the overlay';
+      case 'video_jimaku_search_failed':
+        return 'Subtitle search failed';
+      case 'video_subtitle_error_with_code':
+        return ({required Object msg, required Object code}) =>
+            '${msg} (HTTP ${code})';
       default:
         return null;
     }
