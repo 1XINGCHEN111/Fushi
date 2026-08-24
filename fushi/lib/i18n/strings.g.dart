@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64345 (3785 per locale)
+/// Strings: 64498 (3794 per locale)
 ///
-/// Built on 2026-08-24 at 09:09 UTC
+/// Built on 2026-08-24 at 19:06 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5147,6 +5147,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'This device has no built-in text recognition available';
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -13912,6 +13921,24 @@ class _StringsAr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -22882,6 +22909,24 @@ class _StringsDe extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -31895,6 +31940,24 @@ class _StringsEs extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -40937,6 +41000,24 @@ class _StringsFr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -49812,6 +49893,24 @@ class _StringsId extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -58760,6 +58859,24 @@ class _StringsIt extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -67161,6 +67278,24 @@ class _StringsJa extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -75578,6 +75713,24 @@ class _StringsKo extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -84485,6 +84638,24 @@ class _StringsNl extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -93448,6 +93619,24 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -102385,6 +102574,24 @@ class _StringsRu extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -111143,6 +111350,24 @@ class _StringsTh extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -120005,6 +120230,24 @@ class _StringsTr extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -128848,6 +129091,24 @@ class _StringsVi extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -136980,6 +137241,24 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       '在线章节的页面不在本地，只能用 Google Lens 识别——页面图片会上传给 Google。';
+  @override
+  String get game_hook_btn_replay => '重播本句语音';
+  @override
+  String get game_hook_btn_recapture => '重新录制语音';
+  @override
+  String get game_hook_btn_follow => '跟随新台词';
+  @override
+  String get game_hook_btn_passthrough => '鼠标穿透到游戏';
+  @override
+  String get game_hook_btn_transparency => '切换底板';
+  @override
+  String get game_hook_btn_lock => '锁定位置';
+  @override
+  String get game_hook_btn_workbench => '打开取材工作台';
+  @override
+  String get game_hook_btn_topmost => '保持置顶';
+  @override
+  String get game_hook_btn_close => '关闭浮窗';
 }
 
 // Path: <root>
@@ -145127,6 +145406,24 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get manga_tap_ocr_online_lens_only =>
       'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 /// Flat map(s) containing all translations.
@@ -152891,6 +153188,24 @@ extension on _StringsEn {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -160652,6 +160967,24 @@ extension on _StringsAr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -168453,6 +168786,24 @@ extension on _StringsDe {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -176246,6 +176597,24 @@ extension on _StringsEs {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -184047,6 +184416,24 @@ extension on _StringsFr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -191822,6 +192209,24 @@ extension on _StringsId {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -199617,6 +200022,24 @@ extension on _StringsIt {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -207348,6 +207771,24 @@ extension on _StringsJa {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -215081,6 +215522,24 @@ extension on _StringsKo {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -222869,6 +223328,24 @@ extension on _StringsNl {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -230653,6 +231130,24 @@ extension on _StringsPtBr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -238444,6 +238939,24 @@ extension on _StringsRu {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -246209,6 +246722,24 @@ extension on _StringsTh {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -253989,6 +254520,24 @@ extension on _StringsTr {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -261763,6 +262312,24 @@ extension on _StringsVi {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -269475,6 +270042,24 @@ extension on _StringsZhCn {
         return '此设备没有可用的系统文字识别';
       case 'manga_tap_ocr_online_lens_only':
         return '在线章节的页面不在本地，只能用 Google Lens 识别——页面图片会上传给 Google。';
+      case 'game_hook_btn_replay':
+        return '重播本句语音';
+      case 'game_hook_btn_recapture':
+        return '重新录制语音';
+      case 'game_hook_btn_follow':
+        return '跟随新台词';
+      case 'game_hook_btn_passthrough':
+        return '鼠标穿透到游戏';
+      case 'game_hook_btn_transparency':
+        return '切换底板';
+      case 'game_hook_btn_lock':
+        return '锁定位置';
+      case 'game_hook_btn_workbench':
+        return '打开取材工作台';
+      case 'game_hook_btn_topmost':
+        return '保持置顶';
+      case 'game_hook_btn_close':
+        return '关闭浮窗';
       default:
         return null;
     }
@@ -277188,6 +277773,24 @@ extension on _StringsZhHk {
         return 'This device has no built-in text recognition available';
       case 'manga_tap_ocr_online_lens_only':
         return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
