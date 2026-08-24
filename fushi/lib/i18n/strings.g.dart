@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 63784 (3752 per locale)
+/// Strings: 64345 (3785 per locale)
 ///
-/// Built on 2026-08-24 at 03:29 UTC
+/// Built on 2026-08-24 at 09:09 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5095,6 +5095,58 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Install failed: ${message}';
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get download_backend_setup_title => 'Set up download backend';
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  String get download_backend_setup_start => 'Set up now';
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
+  String get manga_ocr_download_resume => 'Resume download';
+  String get manga_ocr_import => 'Import local model';
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  String get manga_ocr_import_pick_files => 'Pick files';
+  String get manga_ocr_import_running => 'Importing…';
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  String get manga_ocr_engine_system => 'Device OCR';
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -13775,6 +13827,91 @@ class _StringsAr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'لم يستجب مكوّن الالتقاط لفحص القدرات. تم العثور عليه على القرص لكنه لم يتمكن من التشغيل أو لم يستجب في الوقت المحدد - قد يكون مضاد الفيروسات يحظره، أو قد يفتقر Fushi إلى إذن تشغيله، أو قد تكون عملية مساعدة قديمة عالقة. أغلق جميع الألعاب، وتحقق من عزل مضاد الفيروسات، ثم حاول مجدداً.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -22660,6 +22797,91 @@ class _StringsDe extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'Die Erfassungskomponente hat die Fähigkeitsprüfung nicht beantwortet. Sie wurde auf dem Datenträger gefunden, konnte aber nicht ausgeführt werden oder hat nicht rechtzeitig geantwortet – möglicherweise blockiert ein Antivirenprogramm sie, Fushi fehlt die Berechtigung zum Starten, oder ein verbleibender Helper-Prozess hängt. Schließen Sie alle Spiele, prüfen Sie die Quarantäne Ihres Antivirenprogramms und versuchen Sie es erneut.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -31588,6 +31810,91 @@ class _StringsEs extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'El componente de captura no respondió a la verificación de capacidades. Se encontró en disco pero no pudo ejecutarse o no respondió a tiempo — el antivirus puede estar bloqueándolo, Fushi puede no tener permisos para lanzarlo, o un proceso helper residual puede estar atascado. Cierre todos los juegos, revise la cuarentena del antivirus, luego inténtelo de nuevo.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -40545,6 +40852,91 @@ class _StringsFr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'Le composant de capture n\'a pas répondu à la vérification de capacité. Il a été trouvé sur le disque mais n\'a pas pu s\'exécuter ou n\'a pas répondu à temps — l\'antivirus peut le bloquer, Fushi peut manquer de permission pour le lancer, ou un processus assistant résiduel peut être bloqué. Fermez tous les jeux, vérifiez la quarantaine de votre antivirus, puis réessayez.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -49335,6 +49727,91 @@ class _StringsId extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'Komponen tangkapan tidak menjawab pemeriksaan kapabilitas. Ditemukan di disk tetapi tidak bisa dijalankan atau tidak merespons tepat waktu - antivirus mungkin memblokirnya, Fushi mungkin tidak memiliki izin untuk meluncurkannya, atau proses helper yang tersisa mungkin macet. Tutup semua game, periksa karantina antivirus Anda, lalu coba lagi.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -58198,6 +58675,91 @@ class _StringsIt extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'Il componente di cattura non ha risposto al controllo delle capacità. È stato trovato su disco ma non è riuscito a eseguire o non ha risposto in tempo — l\'antivirus potrebbe bloccarlo, Fushi potrebbe non avere il permesso di avviarlo, o un processo helper residuo potrebbe essere bloccato. Chiudi tutti i giochi, controlla la quarantena dell\'antivirus, poi riprova.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -66514,6 +67076,91 @@ class _StringsJa extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'キャプチャコンポーネントが機能チェックに応答しませんでした。ディスク上に見つかりましたが、実行できないか時間内に応答しませんでした。ウイルス対策ソフトがブロックしている、Fushiに起動権限がない、または古いヘルパープロセスが残っている可能性があります。すべてのゲームを閉じ、ウイルス対策の隔離を確認してから再試行してください。';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -74846,6 +75493,91 @@ class _StringsKo extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       '캡처 구성 요소가 기능 확인에 응답하지 않았습니다. 디스크에서 발견되었지만 실행할 수 없거나 시간 내에 응답하지 않았습니다 - 바이러스 백신이 차단하고 있거나, Fushi에 실행 권한이 없거나, 남아 있는 헬퍼 프로세스가 멈춰 있을 수 있습니다. 모든 게임을 닫고, 바이러스 백신 격리 목록을 확인한 다음 다시 시도하세요.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -83668,6 +84400,91 @@ class _StringsNl extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'De opnamecomponent heeft de mogelijkheidscontrole niet beantwoord. Het is gevonden op de schijf maar kon niet worden uitgevoerd of reageerde niet op tijd — antivirus kan het blokkeren, Fushi heeft mogelijk geen toestemming om het te starten, of een achtergebleven helperproces zit vast. Sluit elk spel, controleer je antivirusquarantaine en probeer dan opnieuw.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -92546,6 +93363,91 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'O componente de captura não respondeu à verificação de capacidade. Foi encontrado no disco mas não pôde ser executado ou não respondeu a tempo — o antivírus pode estar bloqueando, o Fushi pode não ter permissão para iniciá-lo, ou um processo helper antigo pode estar preso. Feche todos os jogos, verifique a quarentena do antivírus e tente novamente.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -101398,6 +102300,91 @@ class _StringsRu extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'Компонент захвата не ответил на проверку возможностей. Он найден на диске, но не смог запуститься или не ответил вовремя — возможно, антивирус блокирует его, Fushi не хватает прав на запуск или завис старый вспомогательный процесс. Закройте все игры, проверьте карантин антивируса и попробуйте снова.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -110071,6 +111058,91 @@ class _StringsTh extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'ส่วนประกอบจับภาพไม่ตอบสนองการตรวจสอบความสามารถ พบบนดิสก์แต่ไม่สามารถทำงานหรือไม่ตอบสนองทันเวลา แอนตี้ไวรัสอาจบล็อกอยู่ Fushi อาจไม่มีสิทธิ์เปิดใช้ หรืออาจมีกระบวนการ helper ค้างอยู่ ปิดเกมทั้งหมด ตรวจสอบกักกันแอนตี้ไวรัส แล้วลองอีกครั้ง';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -118848,6 +119920,91 @@ class _StringsTr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'Yakalama bileşeni yetenek kontrolüne yanıt vermedi. Diskte bulundu ancak çalışamadı veya zamanında yanıt vermedi - antivirüs engelliyor olabilir, Fushi\'nin başlatma izni olmayabilir veya artık bir yardımcı işlem takılmış olabilir. Tüm oyunları kapatın, antivirüs karantinasını kontrol edin ve tekrar deneyin.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -127606,6 +128763,91 @@ class _StringsVi extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'Thành phần chụp không phản hồi kiểm tra khả năng. Nó được tìm thấy trên đĩa nhưng không thể chạy hoặc không phản hồi kịp thời - phần mềm diệt virus có thể đang chặn, Fushi có thể thiếu quyền để khởi chạy, hoặc tiến trình trợ giúp cũ có thể bị treo. Đóng tất cả trò chơi, kiểm tra vùng cách ly của phần mềm diệt virus, sau đó thử lại.';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 // Path: <root>
@@ -135661,6 +136903,83 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
+  @override
+  String get download_backend_setup_title => '配置下载后端';
+  @override
+  String get download_backend_setup_intro => '选择由哪个引擎执行下载任务，之后可随时在下载设置里更改。';
+  @override
+  String get download_backend_embedded_hint => '推荐。下载在 Fushi 内部完成，无需另外安装软件。';
+  @override
+  String get download_backend_qb_hint => '连接到你已经在运行的 qBittorrent WebUI。';
+  @override
+  String get download_backend_setup_start => '开始配置';
+  @override
+  String get download_backend_embedded_unavailable =>
+      '本次安装缺少内置引擎运行库。请重装完整安装包，或改用外接 qBittorrent。';
+  @override
+  String get download_backend_qb_url_invalid =>
+      '请填完整地址，例如 http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions => '该仓库返回 0 个扩展，地址可能指向了旧版索引。';
+  @override
+  String get mihon_store_edit => '编辑仓库地址';
+  @override
+  String get manga_ocr_download_resume => '继续下载';
+  @override
+  String get manga_ocr_import => '导入本地模型';
+  @override
+  String get manga_ocr_import_title => '导入已下载的模型';
+  @override
+  String get manga_ocr_import_intro =>
+      '如果应用内下载不通，可以自行下载下面的文件后从这里导入；也支持包含这些文件的 zip 包。';
+  @override
+  String get manga_ocr_import_copy_urls => '复制下载链接';
+  @override
+  String get manga_ocr_import_urls_copied => '下载链接已复制';
+  @override
+  String get manga_ocr_import_pick_folder => '选择文件夹';
+  @override
+  String get manga_ocr_import_pick_files => '选择文件';
+  @override
+  String get manga_ocr_import_running => '正在导入…';
+  @override
+  String manga_ocr_import_done({required Object count}) => '已导入 ${count} 个文件';
+  @override
+  String get manga_ocr_import_matched_nothing => '没有认出可用的模型文件';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} 大小不对：应为 ${expected}，实为 ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      '还缺 ${count} 个文件';
+  @override
+  String get manga_ocr_import_failed => '模型导入失败';
+  @override
+  String get manga_tap_ocr_notice_title => '点一下就识别';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      '这一页还没有文字数据。Fushi 会用你在设置里选的 OCR 引擎就地识别，识别完就能点词查询。可以在「设置 › 漫画 OCR」里更换引擎或关掉这个行为。';
+  @override
+  String get manga_tap_ocr_notice_confirm => '开始识别';
+  @override
+  String get manga_tap_ocr_running => '正在识别本页…';
+  @override
+  String get manga_tap_to_ocr => '点击即识别';
+  @override
+  String get manga_tap_to_ocr_desc => '点一下还没识别的对话框，就地识别本页并直接查词。';
+  @override
+  String get manga_ocr_engine_system => '设备自带';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      '用设备自带的文字识别。不用下载、完全离线、不上传任何内容；但对竖排气泡和手写体明显不如本地模型。';
+  @override
+  String get manga_ocr_engine_system_unavailable => '此设备没有可用的系统文字识别';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      '在线章节的页面不在本地，只能用 Google Lens 识别——页面图片会上传给 Google。';
 }
 
 // Path: <root>
@@ -143723,6 +145042,91 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       '捕獲組件沒有回應能力探測：檔案在，但跑不起來或沒在時限內回應。多為殺毒軟體攔截、權限不足，或上一局殘留的 helper 進程掛住了。請關閉所有遊戲、檢查殺軟隔離區後重試。';
+  @override
+  String get download_backend_setup_title => 'Set up download backend';
+  @override
+  String get download_backend_setup_intro =>
+      'Pick which engine runs your downloads. You can change this any time in download settings.';
+  @override
+  String get download_backend_embedded_hint =>
+      'Recommended. Downloads run inside Fushi - nothing else to install.';
+  @override
+  String get download_backend_qb_hint =>
+      'Connect Fushi to a qBittorrent WebUI you already run.';
+  @override
+  String get download_backend_setup_start => 'Set up now';
+  @override
+  String get download_backend_embedded_unavailable =>
+      'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+  @override
+  String get download_backend_qb_url_invalid =>
+      'Enter a full address, e.g. http://127.0.0.1:8080';
+  @override
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  @override
+  String get mihon_store_edit => 'Edit repository URL';
+  @override
+  String get manga_ocr_download_resume => 'Resume download';
+  @override
+  String get manga_ocr_import => 'Import local model';
+  @override
+  String get manga_ocr_import_title => 'Import a downloaded model';
+  @override
+  String get manga_ocr_import_intro =>
+      'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+  @override
+  String get manga_ocr_import_copy_urls => 'Copy download links';
+  @override
+  String get manga_ocr_import_urls_copied => 'Download links copied';
+  @override
+  String get manga_ocr_import_pick_folder => 'Pick folder';
+  @override
+  String get manga_ocr_import_pick_files => 'Pick files';
+  @override
+  String get manga_ocr_import_running => 'Importing…';
+  @override
+  String manga_ocr_import_done({required Object count}) =>
+      'Imported ${count} file(s)';
+  @override
+  String get manga_ocr_import_matched_nothing =>
+      'No usable model files were recognised';
+  @override
+  String manga_ocr_import_size_mismatch(
+          {required Object file,
+          required Object expected,
+          required Object actual}) =>
+      '${file} has the wrong size: expected ${expected}, got ${actual}';
+  @override
+  String manga_ocr_import_still_missing({required Object count}) =>
+      'Still missing ${count} file(s)';
+  @override
+  String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+  @override
+  String get manga_ocr_engine_system => 'Device OCR';
+  @override
+  String get manga_ocr_engine_system_desc =>
+      'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+  @override
+  String get manga_ocr_engine_system_unavailable =>
+      'This device has no built-in text recognition available';
+  @override
+  String get manga_tap_ocr_online_lens_only =>
+      'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
 }
 
 /// Flat map(s) containing all translations.
@@ -151417,6 +152821,76 @@ extension on _StringsEn {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -159108,6 +160582,76 @@ extension on _StringsAr {
         return ({required Object message}) => 'فشل التثبيت: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'لم يستجب مكوّن الالتقاط لفحص القدرات. تم العثور عليه على القرص لكنه لم يتمكن من التشغيل أو لم يستجب في الوقت المحدد - قد يكون مضاد الفيروسات يحظره، أو قد يفتقر Fushi إلى إذن تشغيله، أو قد تكون عملية مساعدة قديمة عالقة. أغلق جميع الألعاب، وتحقق من عزل مضاد الفيروسات، ثم حاول مجدداً.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -166839,6 +168383,76 @@ extension on _StringsDe {
             'Installation fehlgeschlagen: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'Die Erfassungskomponente hat die Fähigkeitsprüfung nicht beantwortet. Sie wurde auf dem Datenträger gefunden, konnte aber nicht ausgeführt werden oder hat nicht rechtzeitig geantwortet – möglicherweise blockiert ein Antivirenprogramm sie, Fushi fehlt die Berechtigung zum Starten, oder ein verbleibender Helper-Prozess hängt. Schließen Sie alle Spiele, prüfen Sie die Quarantäne Ihres Antivirenprogramms und versuchen Sie es erneut.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -174562,6 +176176,76 @@ extension on _StringsEs {
             'La instalación falló: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'El componente de captura no respondió a la verificación de capacidades. Se encontró en disco pero no pudo ejecutarse o no respondió a tiempo — el antivirus puede estar bloqueándolo, Fushi puede no tener permisos para lanzarlo, o un proceso helper residual puede estar atascado. Cierre todos los juegos, revise la cuarentena del antivirus, luego inténtelo de nuevo.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -182293,6 +183977,76 @@ extension on _StringsFr {
             'Installation échouée : ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'Le composant de capture n\'a pas répondu à la vérification de capacité. Il a été trouvé sur le disque mais n\'a pas pu s\'exécuter ou n\'a pas répondu à temps — l\'antivirus peut le bloquer, Fushi peut manquer de permission pour le lancer, ou un processus assistant résiduel peut être bloqué. Fermez tous les jeux, vérifiez la quarantaine de votre antivirus, puis réessayez.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -189998,6 +191752,76 @@ extension on _StringsId {
         return ({required Object message}) => 'Instalasi gagal: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'Komponen tangkapan tidak menjawab pemeriksaan kapabilitas. Ditemukan di disk tetapi tidak bisa dijalankan atau tidak merespons tepat waktu - antivirus mungkin memblokirnya, Fushi mungkin tidak memiliki izin untuk meluncurkannya, atau proses helper yang tersisa mungkin macet. Tutup semua game, periksa karantina antivirus Anda, lalu coba lagi.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -197723,6 +199547,76 @@ extension on _StringsIt {
             'Installazione fallita: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'Il componente di cattura non ha risposto al controllo delle capacità. È stato trovato su disco ma non è riuscito a eseguire o non ha risposto in tempo — l\'antivirus potrebbe bloccarlo, Fushi potrebbe non avere il permesso di avviarlo, o un processo helper residuo potrebbe essere bloccato. Chiudi tutti i giochi, controlla la quarantena dell\'antivirus, poi riprova.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -205384,6 +207278,76 @@ extension on _StringsJa {
         return ({required Object message}) => 'インストールに失敗: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'キャプチャコンポーネントが機能チェックに応答しませんでした。ディスク上に見つかりましたが、実行できないか時間内に応答しませんでした。ウイルス対策ソフトがブロックしている、Fushiに起動権限がない、または古いヘルパープロセスが残っている可能性があります。すべてのゲームを閉じ、ウイルス対策の隔離を確認してから再試行してください。';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -213047,6 +215011,76 @@ extension on _StringsKo {
         return ({required Object message}) => '설치 실패: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return '캡처 구성 요소가 기능 확인에 응답하지 않았습니다. 디스크에서 발견되었지만 실행할 수 없거나 시간 내에 응답하지 않았습니다 - 바이러스 백신이 차단하고 있거나, Fushi에 실행 권한이 없거나, 남아 있는 헬퍼 프로세스가 멈춰 있을 수 있습니다. 모든 게임을 닫고, 바이러스 백신 격리 목록을 확인한 다음 다시 시도하세요.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -220765,6 +222799,76 @@ extension on _StringsNl {
         return ({required Object message}) => 'Installatie mislukt: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'De opnamecomponent heeft de mogelijkheidscontrole niet beantwoord. Het is gevonden op de schijf maar kon niet worden uitgevoerd of reageerde niet op tijd — antivirus kan het blokkeren, Fushi heeft mogelijk geen toestemming om het te starten, of een achtergebleven helperproces zit vast. Sluit elk spel, controleer je antivirusquarantaine en probeer dan opnieuw.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -228479,6 +230583,76 @@ extension on _StringsPtBr {
         return ({required Object message}) => 'Instalação falhou: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'O componente de captura não respondeu à verificação de capacidade. Foi encontrado no disco mas não pôde ser executado ou não respondeu a tempo — o antivírus pode estar bloqueando, o Fushi pode não ter permissão para iniciá-lo, ou um processo helper antigo pode estar preso. Feche todos os jogos, verifique a quarentena do antivírus e tente novamente.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -236200,6 +238374,76 @@ extension on _StringsRu {
         return ({required Object message}) => 'Ошибка установки: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'Компонент захвата не ответил на проверку возможностей. Он найден на диске, но не смог запуститься или не ответил вовремя — возможно, антивирус блокирует его, Fushi не хватает прав на запуск или завис старый вспомогательный процесс. Закройте все игры, проверьте карантин антивируса и попробуйте снова.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -243895,6 +246139,76 @@ extension on _StringsTh {
         return ({required Object message}) => 'ติดตั้งไม่สำเร็จ: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'ส่วนประกอบจับภาพไม่ตอบสนองการตรวจสอบความสามารถ พบบนดิสก์แต่ไม่สามารถทำงานหรือไม่ตอบสนองทันเวลา แอนตี้ไวรัสอาจบล็อกอยู่ Fushi อาจไม่มีสิทธิ์เปิดใช้ หรืออาจมีกระบวนการ helper ค้างอยู่ ปิดเกมทั้งหมด ตรวจสอบกักกันแอนตี้ไวรัส แล้วลองอีกครั้ง';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -251605,6 +253919,76 @@ extension on _StringsTr {
         return ({required Object message}) => 'Yükleme başarısız: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'Yakalama bileşeni yetenek kontrolüne yanıt vermedi. Diskte bulundu ancak çalışamadı veya zamanında yanıt vermedi - antivirüs engelliyor olabilir, Fushi\'nin başlatma izni olmayabilir veya artık bir yardımcı işlem takılmış olabilir. Tüm oyunları kapatın, antivirüs karantinasını kontrol edin ve tekrar deneyin.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -259309,6 +261693,76 @@ extension on _StringsVi {
         return ({required Object message}) => 'Cài đặt thất bại: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'Thành phần chụp không phản hồi kiểm tra khả năng. Nó được tìm thấy trên đĩa nhưng không thể chạy hoặc không phản hồi kịp thời - phần mềm diệt virus có thể đang chặn, Fushi có thể thiếu quyền để khởi chạy, hoặc tiến trình trợ giúp cũ có thể bị treo. Đóng tất cả trò chơi, kiểm tra vùng cách ly của phần mềm diệt virus, sau đó thử lại.';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
@@ -266951,6 +269405,76 @@ extension on _StringsZhCn {
         return ({required Object message}) => '安装失败：${message}';
       case 'game_hook_reason_capability_probe_failed':
         return '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
+      case 'download_backend_setup_title':
+        return '配置下载后端';
+      case 'download_backend_setup_intro':
+        return '选择由哪个引擎执行下载任务，之后可随时在下载设置里更改。';
+      case 'download_backend_embedded_hint':
+        return '推荐。下载在 Fushi 内部完成，无需另外安装软件。';
+      case 'download_backend_qb_hint':
+        return '连接到你已经在运行的 qBittorrent WebUI。';
+      case 'download_backend_setup_start':
+        return '开始配置';
+      case 'download_backend_embedded_unavailable':
+        return '本次安装缺少内置引擎运行库。请重装完整安装包，或改用外接 qBittorrent。';
+      case 'download_backend_qb_url_invalid':
+        return '请填完整地址，例如 http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return '该仓库返回 0 个扩展，地址可能指向了旧版索引。';
+      case 'mihon_store_edit':
+        return '编辑仓库地址';
+      case 'manga_ocr_download_resume':
+        return '继续下载';
+      case 'manga_ocr_import':
+        return '导入本地模型';
+      case 'manga_ocr_import_title':
+        return '导入已下载的模型';
+      case 'manga_ocr_import_intro':
+        return '如果应用内下载不通，可以自行下载下面的文件后从这里导入；也支持包含这些文件的 zip 包。';
+      case 'manga_ocr_import_copy_urls':
+        return '复制下载链接';
+      case 'manga_ocr_import_urls_copied':
+        return '下载链接已复制';
+      case 'manga_ocr_import_pick_folder':
+        return '选择文件夹';
+      case 'manga_ocr_import_pick_files':
+        return '选择文件';
+      case 'manga_ocr_import_running':
+        return '正在导入…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => '已导入 ${count} 个文件';
+      case 'manga_ocr_import_matched_nothing':
+        return '没有认出可用的模型文件';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} 大小不对：应为 ${expected}，实为 ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => '还缺 ${count} 个文件';
+      case 'manga_ocr_import_failed':
+        return '模型导入失败';
+      case 'manga_tap_ocr_notice_title':
+        return '点一下就识别';
+      case 'manga_tap_ocr_notice_body':
+        return '这一页还没有文字数据。Fushi 会用你在设置里选的 OCR 引擎就地识别，识别完就能点词查询。可以在「设置 › 漫画 OCR」里更换引擎或关掉这个行为。';
+      case 'manga_tap_ocr_notice_confirm':
+        return '开始识别';
+      case 'manga_tap_ocr_running':
+        return '正在识别本页…';
+      case 'manga_tap_to_ocr':
+        return '点击即识别';
+      case 'manga_tap_to_ocr_desc':
+        return '点一下还没识别的对话框，就地识别本页并直接查词。';
+      case 'manga_ocr_engine_system':
+        return '设备自带';
+      case 'manga_ocr_engine_system_desc':
+        return '用设备自带的文字识别。不用下载、完全离线、不上传任何内容；但对竖排气泡和手写体明显不如本地模型。';
+      case 'manga_ocr_engine_system_unavailable':
+        return '此设备没有可用的系统文字识别';
+      case 'manga_tap_ocr_online_lens_only':
+        return '在线章节的页面不在本地，只能用 Google Lens 识别——页面图片会上传给 Google。';
       default:
         return null;
     }
@@ -274594,6 +277118,76 @@ extension on _StringsZhHk {
         return ({required Object message}) => '安裝失敗：${message}';
       case 'game_hook_reason_capability_probe_failed':
         return '捕獲組件沒有回應能力探測：檔案在，但跑不起來或沒在時限內回應。多為殺毒軟體攔截、權限不足，或上一局殘留的 helper 進程掛住了。請關閉所有遊戲、檢查殺軟隔離區後重試。';
+      case 'download_backend_setup_title':
+        return 'Set up download backend';
+      case 'download_backend_setup_intro':
+        return 'Pick which engine runs your downloads. You can change this any time in download settings.';
+      case 'download_backend_embedded_hint':
+        return 'Recommended. Downloads run inside Fushi - nothing else to install.';
+      case 'download_backend_qb_hint':
+        return 'Connect Fushi to a qBittorrent WebUI you already run.';
+      case 'download_backend_setup_start':
+        return 'Set up now';
+      case 'download_backend_embedded_unavailable':
+        return 'The built-in engine runtime is missing from this install. Reinstall the complete package, or use external qBittorrent instead.';
+      case 'download_backend_qb_url_invalid':
+        return 'Enter a full address, e.g. http://127.0.0.1:8080';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
+      case 'manga_ocr_download_resume':
+        return 'Resume download';
+      case 'manga_ocr_import':
+        return 'Import local model';
+      case 'manga_ocr_import_title':
+        return 'Import a downloaded model';
+      case 'manga_ocr_import_intro':
+        return 'If the in-app download will not go through, download these files yourself and import them here. A zip containing them works too.';
+      case 'manga_ocr_import_copy_urls':
+        return 'Copy download links';
+      case 'manga_ocr_import_urls_copied':
+        return 'Download links copied';
+      case 'manga_ocr_import_pick_folder':
+        return 'Pick folder';
+      case 'manga_ocr_import_pick_files':
+        return 'Pick files';
+      case 'manga_ocr_import_running':
+        return 'Importing…';
+      case 'manga_ocr_import_done':
+        return ({required Object count}) => 'Imported ${count} file(s)';
+      case 'manga_ocr_import_matched_nothing':
+        return 'No usable model files were recognised';
+      case 'manga_ocr_import_size_mismatch':
+        return (
+                {required Object file,
+                required Object expected,
+                required Object actual}) =>
+            '${file} has the wrong size: expected ${expected}, got ${actual}';
+      case 'manga_ocr_import_still_missing':
+        return ({required Object count}) => 'Still missing ${count} file(s)';
+      case 'manga_ocr_import_failed':
+        return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
+      case 'manga_ocr_engine_system':
+        return 'Device OCR';
+      case 'manga_ocr_engine_system_desc':
+        return 'Uses the text recognition built into your device. No download, fully offline, nothing uploaded — but noticeably weaker on vertical speech bubbles and handwriting than the local model.';
+      case 'manga_ocr_engine_system_unavailable':
+        return 'This device has no built-in text recognition available';
+      case 'manga_tap_ocr_online_lens_only':
+        return 'Online chapters are not stored locally, so only Google Lens can read them — the page image is uploaded to Google.';
       default:
         return null;
     }
