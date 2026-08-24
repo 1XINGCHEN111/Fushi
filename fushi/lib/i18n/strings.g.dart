@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64447 (3791 per locale)
+/// Strings: 64600 (3800 per locale)
 ///
-/// Built on 2026-08-24 at 15:54 UTC
+/// Built on 2026-08-24 at 19:42 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5155,6 +5155,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get section_services_metadata => 'Metadata scraping';
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  String get game_hook_btn_follow => 'Follow new lines';
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  String get game_hook_btn_transparency => 'Toggle the background';
+  String get game_hook_btn_lock => 'Lock the position';
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  String get game_hook_btn_topmost => 'Keep on top';
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -13934,6 +13943,24 @@ class _StringsAr extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -22918,6 +22945,24 @@ class _StringsDe extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -31945,6 +31990,24 @@ class _StringsEs extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -41001,6 +41064,24 @@ class _StringsFr extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -49890,6 +49971,24 @@ class _StringsId extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -58852,6 +58951,24 @@ class _StringsIt extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -67267,6 +67384,24 @@ class _StringsJa extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -75698,6 +75833,24 @@ class _StringsKo extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -84619,6 +84772,24 @@ class _StringsNl extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -93596,6 +93767,24 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -102547,6 +102736,24 @@ class _StringsRu extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -111319,6 +111526,24 @@ class _StringsTh extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -120195,6 +120420,24 @@ class _StringsTr extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -129052,6 +129295,24 @@ class _StringsVi extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 // Path: <root>
@@ -137197,6 +137458,24 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku、OpenSubtitles、Torznab、Jellyfin、AniDB、TMDB 统一在此配置';
+  @override
+  String get game_hook_btn_replay => '重播本句语音';
+  @override
+  String get game_hook_btn_recapture => '重新录制语音';
+  @override
+  String get game_hook_btn_follow => '跟随新台词';
+  @override
+  String get game_hook_btn_passthrough => '鼠标穿透到游戏';
+  @override
+  String get game_hook_btn_transparency => '切换底板';
+  @override
+  String get game_hook_btn_lock => '锁定位置';
+  @override
+  String get game_hook_btn_workbench => '打开取材工作台';
+  @override
+  String get game_hook_btn_topmost => '保持置顶';
+  @override
+  String get game_hook_btn_close => '关闭浮窗';
 }
 
 // Path: <root>
@@ -145358,6 +145637,24 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get settings_services_link_subtitle =>
       'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+  @override
+  String get game_hook_btn_replay => 'Replay this line\'s voice';
+  @override
+  String get game_hook_btn_recapture => 'Recapture the voice';
+  @override
+  String get game_hook_btn_follow => 'Follow new lines';
+  @override
+  String get game_hook_btn_passthrough => 'Click through to the game';
+  @override
+  String get game_hook_btn_transparency => 'Toggle the background';
+  @override
+  String get game_hook_btn_lock => 'Lock the position';
+  @override
+  String get game_hook_btn_workbench => 'Open the capture workbench';
+  @override
+  String get game_hook_btn_topmost => 'Keep on top';
+  @override
+  String get game_hook_btn_close => 'Close the overlay';
 }
 
 /// Flat map(s) containing all translations.
@@ -153134,6 +153431,24 @@ extension on _StringsEn {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -160907,6 +161222,24 @@ extension on _StringsAr {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -168720,6 +169053,24 @@ extension on _StringsDe {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -176525,6 +176876,24 @@ extension on _StringsEs {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -184338,6 +184707,24 @@ extension on _StringsFr {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -192125,6 +192512,24 @@ extension on _StringsId {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -199932,6 +200337,24 @@ extension on _StringsIt {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -207675,6 +208098,24 @@ extension on _StringsJa {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -215420,6 +215861,24 @@ extension on _StringsKo {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -223220,6 +223679,24 @@ extension on _StringsNl {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -231016,6 +231493,24 @@ extension on _StringsPtBr {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -238819,6 +239314,24 @@ extension on _StringsRu {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -246596,6 +247109,24 @@ extension on _StringsTh {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -254388,6 +254919,24 @@ extension on _StringsTr {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -262174,6 +262723,24 @@ extension on _StringsVi {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
@@ -269898,6 +270465,24 @@ extension on _StringsZhCn {
         return '元数据刮削';
       case 'settings_services_link_subtitle':
         return 'Jimaku、OpenSubtitles、Torznab、Jellyfin、AniDB、TMDB 统一在此配置';
+      case 'game_hook_btn_replay':
+        return '重播本句语音';
+      case 'game_hook_btn_recapture':
+        return '重新录制语音';
+      case 'game_hook_btn_follow':
+        return '跟随新台词';
+      case 'game_hook_btn_passthrough':
+        return '鼠标穿透到游戏';
+      case 'game_hook_btn_transparency':
+        return '切换底板';
+      case 'game_hook_btn_lock':
+        return '锁定位置';
+      case 'game_hook_btn_workbench':
+        return '打开取材工作台';
+      case 'game_hook_btn_topmost':
+        return '保持置顶';
+      case 'game_hook_btn_close':
+        return '关闭浮窗';
       default:
         return null;
     }
@@ -277623,6 +278208,24 @@ extension on _StringsZhHk {
         return 'Metadata scraping';
       case 'settings_services_link_subtitle':
         return 'Jimaku, OpenSubtitles, Torznab, Jellyfin, AniDB and TMDB are configured together here';
+      case 'game_hook_btn_replay':
+        return 'Replay this line\'s voice';
+      case 'game_hook_btn_recapture':
+        return 'Recapture the voice';
+      case 'game_hook_btn_follow':
+        return 'Follow new lines';
+      case 'game_hook_btn_passthrough':
+        return 'Click through to the game';
+      case 'game_hook_btn_transparency':
+        return 'Toggle the background';
+      case 'game_hook_btn_lock':
+        return 'Lock the position';
+      case 'game_hook_btn_workbench':
+        return 'Open the capture workbench';
+      case 'game_hook_btn_topmost':
+        return 'Keep on top';
+      case 'game_hook_btn_close':
+        return 'Close the overlay';
       default:
         return null;
     }
