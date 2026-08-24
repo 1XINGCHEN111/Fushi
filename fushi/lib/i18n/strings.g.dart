@@ -5095,6 +5095,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Install failed: ${message}';
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -13793,6 +13796,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -22556,6 +22562,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -31335,6 +31344,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -40126,6 +40138,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -48847,6 +48862,9 @@ class _StringsId extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -57612,6 +57630,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -66194,6 +66215,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -74784,6 +74808,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -83529,6 +83556,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -92286,6 +92316,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -101030,6 +101063,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -109722,6 +109758,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -118445,6 +118484,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -127154,6 +127196,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 // Path: <root>
@@ -135209,6 +135254,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
+  String get mihon_store_zero_extensions => '该仓库返回 0 个扩展，地址可能指向了旧版索引。';
+  String get mihon_store_edit => '编辑仓库地址';
 }
 
 // Path: <root>
@@ -143716,6 +143763,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get game_hook_reason_capability_probe_failed =>
       'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+  String get mihon_store_zero_extensions =>
+      'This repository returned 0 extensions. Its address may point to an outdated index.';
+  String get mihon_store_edit => 'Edit repository URL';
 }
 
 /// Flat map(s) containing all translations.
@@ -151410,6 +151460,10 @@ extension on _StringsEn {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -159102,6 +159156,10 @@ extension on _StringsAr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -166816,6 +166874,10 @@ extension on _StringsDe {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -174529,6 +174591,10 @@ extension on _StringsEs {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -182248,6 +182314,10 @@ extension on _StringsFr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -189949,6 +190019,10 @@ extension on _StringsId {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -197664,6 +197738,10 @@ extension on _StringsIt {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -205341,6 +205419,10 @@ extension on _StringsJa {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -213022,6 +213104,10 @@ extension on _StringsKo {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -220731,6 +220817,10 @@ extension on _StringsNl {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -228437,6 +228527,10 @@ extension on _StringsPtBr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -236148,6 +236242,10 @@ extension on _StringsRu {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -243842,6 +243940,10 @@ extension on _StringsTh {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -251545,6 +251647,10 @@ extension on _StringsTr {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -259244,6 +259350,10 @@ extension on _StringsVi {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
@@ -266886,6 +266996,10 @@ extension on _StringsZhCn {
         return ({required Object message}) => '安装失败：${message}';
       case 'game_hook_reason_capability_probe_failed':
         return '捕获组件没有回应能力探测：文件在，但跑不起来或没在时限内回应。多为杀毒软件拦截、权限不足，或上一局残留的 helper 进程挂住了。请关闭所有游戏、检查杀软隔离区后重试。';
+      case 'mihon_store_zero_extensions':
+        return '该仓库返回 0 个扩展，地址可能指向了旧版索引。';
+      case 'mihon_store_edit':
+        return '编辑仓库地址';
       default:
         return null;
     }
@@ -274558,6 +274672,10 @@ extension on _StringsZhHk {
         return ({required Object message}) => 'Install failed: ${message}';
       case 'game_hook_reason_capability_probe_failed':
         return 'The capture component did not answer the capability check. It was found on disk but could not run or did not respond in time - antivirus may be blocking it, Fushi may lack permission to launch it, or a leftover helper process may be stuck. Close every game, check your antivirus quarantine, then try again.';
+      case 'mihon_store_zero_extensions':
+        return 'This repository returned 0 extensions. Its address may point to an outdated index.';
+      case 'mihon_store_edit':
+        return 'Edit repository URL';
       default:
         return null;
     }
