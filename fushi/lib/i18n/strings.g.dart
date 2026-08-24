@@ -5117,6 +5117,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String manga_ocr_import_still_missing({required Object count}) =>
       'Still missing ${count} file(s)';
   String get manga_ocr_import_failed => 'Model import failed';
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -13851,6 +13859,20 @@ class _StringsAr extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -22650,6 +22672,20 @@ class _StringsDe extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -31465,6 +31501,20 @@ class _StringsEs extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -40292,6 +40342,20 @@ class _StringsFr extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -49049,6 +49113,20 @@ class _StringsId extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -57850,6 +57928,20 @@ class _StringsIt extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -66468,6 +66560,20 @@ class _StringsJa extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -75094,6 +75200,20 @@ class _StringsKo extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -83875,6 +83995,20 @@ class _StringsNl extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -92668,6 +92802,20 @@ class _StringsPtBr extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -101448,6 +101596,20 @@ class _StringsRu extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -110176,6 +110338,20 @@ class _StringsTh extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -118935,6 +119111,20 @@ class _StringsTr extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -127680,6 +127870,20 @@ class _StringsVi extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 // Path: <root>
@@ -135769,6 +135973,19 @@ class _StringsZhCn extends _StringsEn {
       '还缺 ${count} 个文件';
   @override
   String get manga_ocr_import_failed => '模型导入失败';
+  @override
+  String get manga_tap_ocr_notice_title => '点一下就识别';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      '这一页还没有文字数据。Fushi 会用你在设置里选的 OCR 引擎就地识别，识别完就能点词查询。可以在「设置 › 漫画 OCR」里更换引擎或关掉这个行为。';
+  @override
+  String get manga_tap_ocr_notice_confirm => '开始识别';
+  @override
+  String get manga_tap_ocr_running => '正在识别本页…';
+  @override
+  String get manga_tap_to_ocr => '点击即识别';
+  @override
+  String get manga_tap_to_ocr_desc => '点一下还没识别的对话框，就地识别本页并直接查词。';
 }
 
 // Path: <root>
@@ -144312,6 +144529,20 @@ class _StringsZhHk extends _StringsEn {
       'Still missing ${count} file(s)';
   @override
   String get manga_ocr_import_failed => 'Model import failed';
+  @override
+  String get manga_tap_ocr_notice_title => 'Tap to recognise';
+  @override
+  String get manga_tap_ocr_notice_body =>
+      'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+  @override
+  String get manga_tap_ocr_notice_confirm => 'Recognise now';
+  @override
+  String get manga_tap_ocr_running => 'Recognising this page…';
+  @override
+  String get manga_tap_to_ocr => 'Tap to recognise';
+  @override
+  String get manga_tap_to_ocr_desc =>
+      'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
 }
 
 /// Flat map(s) containing all translations.
@@ -152038,6 +152269,18 @@ extension on _StringsEn {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -159762,6 +160005,18 @@ extension on _StringsAr {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -167508,6 +167763,18 @@ extension on _StringsDe {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -175253,6 +175520,18 @@ extension on _StringsEs {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -183004,6 +183283,18 @@ extension on _StringsFr {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -190737,6 +191028,18 @@ extension on _StringsId {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -198484,6 +198787,18 @@ extension on _StringsIt {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -206193,6 +206508,18 @@ extension on _StringsJa {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -213906,6 +214233,18 @@ extension on _StringsKo {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -221647,6 +221986,18 @@ extension on _StringsNl {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -229385,6 +229736,18 @@ extension on _StringsPtBr {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -237128,6 +237491,18 @@ extension on _StringsRu {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -244854,6 +245229,18 @@ extension on _StringsTh {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -252589,6 +252976,18 @@ extension on _StringsTr {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -260320,6 +260719,18 @@ extension on _StringsVi {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -267994,6 +268405,18 @@ extension on _StringsZhCn {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
@@ -275698,6 +276121,18 @@ extension on _StringsZhHk {
         return ({required Object count}) => 'Still missing ${count} file(s)';
       case 'manga_ocr_import_failed':
         return 'Model import failed';
+      case 'manga_tap_ocr_notice_title':
+        return 'Tap to recognise';
+      case 'manga_tap_ocr_notice_body':
+        return 'This page has no text data yet. Fushi will recognise it with the OCR engine you picked in settings, then you can tap words to look them up. You can change the engine or turn this off in Settings › Manga OCR.';
+      case 'manga_tap_ocr_notice_confirm':
+        return 'Recognise now';
+      case 'manga_tap_ocr_running':
+        return 'Recognising this page…';
+      case 'manga_tap_to_ocr':
+        return 'Tap to recognise';
+      case 'manga_tap_to_ocr_desc':
+        return 'Tap an unrecognised speech bubble to recognise the page and look words up right away.';
       default:
         return null;
     }
