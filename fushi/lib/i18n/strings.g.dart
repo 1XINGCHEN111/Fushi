@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 64651 (3803 per locale)
+/// Strings: 64719 (3807 per locale)
 ///
-/// Built on 2026-08-25 at 07:05 UTC
+/// Built on 2026-08-25 at 15:26 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -5174,6 +5174,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get book_file_location_open => 'Open file location';
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  String get video_subtitle_delete => 'Delete subtitle file';
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -13985,6 +13992,17 @@ class _StringsAr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -22999,6 +23017,17 @@ class _StringsDe extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -32056,6 +32085,17 @@ class _StringsEs extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -41142,6 +41182,17 @@ class _StringsFr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -50062,6 +50113,17 @@ class _StringsId extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -59054,6 +59116,17 @@ class _StringsIt extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -67503,6 +67576,17 @@ class _StringsJa extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -75968,6 +76052,17 @@ class _StringsKo extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -84920,6 +85015,17 @@ class _StringsNl extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -93928,6 +94034,17 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -102909,6 +103026,17 @@ class _StringsRu extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -111713,6 +111841,17 @@ class _StringsTh extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -120619,6 +120758,17 @@ class _StringsTr extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -129507,6 +129657,17 @@ class _StringsVi extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 // Path: <root>
@@ -137679,6 +137840,16 @@ class _StringsZhCn extends _StringsEn {
   String get book_file_location_open => '打开文件位置';
   @override
   String get book_file_location_failed => '无法打开这本书的文件位置。';
+  @override
+  String get video_subtitle_delete => '删除字幕文件';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      '确定从磁盘删除这个字幕文件？此操作不可撤销。\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) => '已删除字幕文件：${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      '删除字幕文件失败：${label}';
 }
 
 // Path: <root>
@@ -145869,6 +146040,17 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get book_file_location_failed =>
       'Could not open this book\'s file location.';
+  @override
+  String get video_subtitle_delete => 'Delete subtitle file';
+  @override
+  String video_subtitle_delete_confirm({required Object path}) =>
+      'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+  @override
+  String video_subtitle_deleted({required Object label}) =>
+      'Subtitle file deleted: ${label}';
+  @override
+  String video_subtitle_delete_failed({required Object label}) =>
+      'Failed to delete subtitle file: ${label}';
 }
 
 /// Flat map(s) containing all translations.
@@ -153670,6 +153852,16 @@ extension on _StringsEn {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -161468,6 +161660,16 @@ extension on _StringsAr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -169306,6 +169508,16 @@ extension on _StringsDe {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -177136,6 +177348,16 @@ extension on _StringsEs {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -184974,6 +185196,16 @@ extension on _StringsFr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -192786,6 +193018,16 @@ extension on _StringsId {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -200618,6 +200860,16 @@ extension on _StringsIt {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -208386,6 +208638,16 @@ extension on _StringsJa {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -216156,6 +216418,16 @@ extension on _StringsKo {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -223981,6 +224253,16 @@ extension on _StringsNl {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -231802,6 +232084,16 @@ extension on _StringsPtBr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -239630,6 +239922,16 @@ extension on _StringsRu {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -247432,6 +247734,16 @@ extension on _StringsTh {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -255249,6 +255561,16 @@ extension on _StringsTr {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -263060,6 +263382,16 @@ extension on _StringsVi {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
@@ -270809,6 +271141,14 @@ extension on _StringsZhCn {
         return '打开文件位置';
       case 'book_file_location_failed':
         return '无法打开这本书的文件位置。';
+      case 'video_subtitle_delete':
+        return '删除字幕文件';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) => '确定从磁盘删除这个字幕文件？此操作不可撤销。\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => '已删除字幕文件：${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) => '删除字幕文件失败：${label}';
       default:
         return null;
     }
@@ -278559,6 +278899,16 @@ extension on _StringsZhHk {
         return 'Open file location';
       case 'book_file_location_failed':
         return 'Could not open this book\'s file location.';
+      case 'video_subtitle_delete':
+        return 'Delete subtitle file';
+      case 'video_subtitle_delete_confirm':
+        return ({required Object path}) =>
+            'Delete this subtitle file from disk? This can\'t be undone.\n${path}';
+      case 'video_subtitle_deleted':
+        return ({required Object label}) => 'Subtitle file deleted: ${label}';
+      case 'video_subtitle_delete_failed':
+        return ({required Object label}) =>
+            'Failed to delete subtitle file: ${label}';
       default:
         return null;
     }
